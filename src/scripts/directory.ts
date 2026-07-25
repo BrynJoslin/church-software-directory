@@ -31,13 +31,13 @@ const clearFilters = () => {
   form?.reset();
   const sort = getControl("sort");
   if (sort) sort.value = "name";
-  applyFilters();
+  applyFilters("push");
 };
 
 const matchesList = (value: string | undefined, selected: string) =>
   !selected || (value ?? "").split(",").includes(selected);
 
-const applyFilters = () => {
+const applyFilters = (historyMode: "push" | "replace" = "replace") => {
   if (!form || !results || !resultCount || !emptyState) return;
 
   const query = (getControl("q")?.value ?? "").trim().toLowerCase();
@@ -99,10 +99,16 @@ const applyFilters = () => {
   const nextUrl = `${window.location.pathname}${
     parameters.size > 0 ? `?${parameters.toString()}` : ""
   }`;
-  window.history.replaceState({}, "", nextUrl);
+  if (historyMode === "push") {
+    window.history.pushState({}, "", nextUrl);
+  } else {
+    window.history.replaceState({}, "", nextUrl);
+  }
 };
 
-if (form) {
+const loadFiltersFromUrl = () => {
+  if (!form) return;
+  form.reset();
   const parameters = new URLSearchParams(window.location.search);
   Array.from(parameters.entries()).forEach(([key, value]) => {
     const control = getControl(key);
@@ -113,15 +119,22 @@ if (form) {
       control.value = value;
     }
   });
+};
 
+if (form) {
+  loadFiltersFromUrl();
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    applyFilters();
+    applyFilters("push");
   });
-  form.addEventListener("input", applyFilters);
-  form.addEventListener("change", applyFilters);
+  form.addEventListener("input", () => applyFilters());
+  form.addEventListener("change", () => applyFilters("push"));
   document
     .querySelectorAll<HTMLElement>("[data-clear-filters], [data-empty-clear]")
     .forEach((button) => button.addEventListener("click", clearFilters));
+  window.addEventListener("popstate", () => {
+    loadFiltersFromUrl();
+    applyFilters();
+  });
   applyFilters();
 }

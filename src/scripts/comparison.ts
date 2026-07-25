@@ -18,7 +18,10 @@ const copyButton = document.querySelector<HTMLButtonElement>(
 );
 const validSlugs = new Set(checkboxes.map((checkbox) => checkbox.value));
 
-const updateComparison = (announce = true) => {
+const updateComparison = (
+  announce = true,
+  historyMode: "push" | "replace" = "replace"
+) => {
   if (!picker || !table || !message) return;
   const selected = checkboxes
     .filter((checkbox) => checkbox.checked)
@@ -44,11 +47,15 @@ const updateComparison = (announce = true) => {
   const nextUrl = `${window.location.pathname}${
     parameters.size > 0 ? `?${parameters.toString()}` : ""
   }`;
-  window.history.replaceState({}, "", nextUrl);
+  if (historyMode === "push") {
+    window.history.pushState({}, "", nextUrl);
+  } else {
+    window.history.replaceState({}, "", nextUrl);
+  }
   if (copyButton) copyButton.disabled = !ready;
 };
 
-if (picker && table && message) {
+const loadComparisonFromUrl = () => {
   const parameters = new URLSearchParams(window.location.search);
   const requested = (parameters.get("products") ?? "")
     .split(",")
@@ -62,6 +69,15 @@ if (picker && table && message) {
 
   checkboxes.forEach((checkbox) => {
     checkbox.checked = selected.includes(checkbox.value);
+  });
+
+  return { invalid, selected, overflow: uniqueRequested.length > 4 };
+};
+
+if (picker && table && message) {
+  const { invalid, selected, overflow } = loadComparisonFromUrl();
+
+  checkboxes.forEach((checkbox) => {
     checkbox.addEventListener("change", () => {
       const selectedCount = checkboxes.filter((item) => item.checked).length;
       if (selectedCount > 4) {
@@ -69,15 +85,23 @@ if (picker && table && message) {
         message.textContent = "You can compare no more than four products.";
         return;
       }
-      updateComparison();
+      updateComparison(true, "push");
     });
   });
 
   updateComparison(false);
-  if (invalid.length > 0) {
-    message.textContent = `Ignored unknown product ${
-      invalid.length === 1 ? "slug" : "slugs"
-    }: ${invalid.join(", ")}. ${
+  if (invalid.length > 0 || overflow) {
+    const issue = [
+      invalid.length > 0
+        ? `Ignored unknown product ${
+            invalid.length === 1 ? "slug" : "slugs"
+          }: ${invalid.join(", ")}.`
+        : "",
+      overflow ? "Only the first four unique valid products were selected." : ""
+    ]
+      .filter(Boolean)
+      .join(" ");
+    message.textContent = `${issue} ${
       selected.length >= 2
         ? `Comparing ${selected.length} valid products.`
         : "Choose at least two valid products."
@@ -97,6 +121,14 @@ if (picker && table && message) {
     } catch {
       message.textContent =
         "Copy was not available. Select the address in your browser to share this comparison.";
+    }
+  });
+
+  window.addEventListener("popstate", () => {
+    const state = loadComparisonFromUrl();
+    updateComparison(false);
+    if (state.invalid.length > 0 || state.overflow) {
+      message.textContent = "Invalid products were ignored; choose two to four valid products.";
     }
   });
 }
