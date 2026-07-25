@@ -6,52 +6,151 @@
   "company": "Church Edit",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-websites"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches wanting a specialist hosted website rather than a general-purpose builder", "Teams needing a manageable public calendar and forms"],
+  "categories": [
+    "church-websites"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches wanting a specialist hosted website rather than a general-purpose builder",
+    "Teams needing a manageable public calendar and forms"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Church Edit publishes GBP website-builder prices. The supplier’s price page displays promotional two-year figures, so confirm the standard billing term, VAT and renewal cost before committing.",
-    "startingPrice": {"amount": 17.5, "currency": "GBP", "period": "month", "qualifier": "Church Edit Website Builder published monthly price"},
+    "startingPrice": {
+      "amount": 17.5,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Church Edit Website Builder published monthly price"
+    },
     "tiers": [
-      {"label": "Church Edit Website Builder", "price": "£17.50/month", "detail": "One editor; supplier displays an associated promotional two-year figure"},
-      {"label": "Church Edit Plus", "price": "£29.50/month", "detail": "Member-only pages and up to ten editors; supplier displays an associated promotional two-year figure"}
+      {
+        "label": "Church Edit Website Builder",
+        "price": "£17.50/month",
+        "detail": "One editor; supplier displays an associated promotional two-year figure"
+      },
+      {
+        "label": "Church Edit Plus",
+        "price": "£29.50/month",
+        "detail": "Member-only pages and up to ten editors; supplier displays an associated promotional two-year figure"
+      }
     ],
     "trialDetails": "Church Edit advertises a free trial; the duration is not confirmed in this profile."
   },
   "freePlan": "no",
   "freeTrial": "yes",
-  "giftAid": "unknown",
   "demoAvailable": "unknown",
-  "coreFeatures": ["Website builder", "Calendar", "Forms", "Document uploads", "Audio and video integration", "Optional member-only pages"],
+  "coreFeatures": [
+    "Website builder",
+    "Calendar",
+    "Forms",
+    "Document uploads",
+    "Audio and video integration",
+    "Optional member-only pages"
+  ],
   "integrations": [],
   "importExport": [],
-  "support": ["Telephone support"],
+  "support": [
+    "Telephone support"
+  ],
   "editorial": {
     "assessment": "Church Edit is a straightforward UK-priced website option for a church that wants a specialised hosted platform and accessible ongoing editing. It should be judged on day-to-day publishing, content ownership and support, not just the initial template design.",
-    "bestFor": ["Churches wanting a modest-cost hosted church website", "Teams that value specialist telephone support and a shared calendar"],
-    "strengths": ["Published GBP pricing", "Church-focused website features and free trial"],
-    "limitations": ["Promotional terms are shown alongside pricing", "No integrated giving or data-protection workflow is confirmed here"]
+    "bestFor": [
+      "Churches wanting a modest-cost hosted church website",
+      "Teams that value specialist telephone support and a shared calendar"
+    ],
+    "strengths": [
+      "Published GBP pricing",
+      "Church-focused website features and free trial"
+    ],
+    "limitations": [
+      "Promotional terms are shown alongside pricing",
+      "No integrated giving or data-protection workflow is confirmed here"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches wanting a modest-cost hosted church website",
+      "differentiator": "Website builder",
+      "firstCheck": "Promotional terms are shown alongside pricing"
+    }
   },
   "longForm": {
     "verdict": "Church Edit is a sensible shortlist candidate where the core problem is keeping a public church website accurate without a large technical burden. It is less a replacement for church management software than a focused publishing service.",
-    "decisionLens": {"heading": "The best website is the one the church can keep current.", "text": "Test whether an ordinary volunteer can update service times, add an event, publish a safeguarding contact and correct an error without specialist help. Agree who owns the domain, content and access before a redesign begins."},
-    "sections": [{"heading": "A specialist public-facing site", "question": "Does the editing workflow work for the people who will maintain it?", "paragraphs": ["Church Edit lists website editing, calendar, forms, media integration and an optional member-only tier. Its published plans distinguish a one-editor package from a package with up to ten editors.", "During the free trial, give two regular editors real tasks rather than asking one technically confident person to experiment. Check publishing permissions, accessibility of the chosen template and what happens to the domain if roles change."]}],
-    "userFeedback": {"summary": "This profile does not use an independent review score. It is based on the supplier’s published product and price information.", "themes": ["The relevant test is routine content maintenance, not a one-off launch.", "Domain ownership and editorial permissions matter as much as the subscription price."], "caveat": "Supplier product claims are not independent testing, and no claim is made here about a church’s specific accessibility or data-protection needs."},
+    "decisionLens": {
+      "heading": "The best website is the one the church can keep current.",
+      "text": "Test whether an ordinary volunteer can update service times, add an event, publish a safeguarding contact and correct an error without specialist help. Agree who owns the domain, content and access before a redesign begins."
+    },
+    "sections": [
+      {
+        "heading": "A specialist public-facing site",
+        "question": "Does the editing workflow work for the people who will maintain it?",
+        "paragraphs": [
+          "Church Edit lists website editing, calendar, forms, media integration and an optional member-only tier. Its published plans distinguish a one-editor package from a package with up to ten editors.",
+          "During the free trial, give two regular editors real tasks rather than asking one technically confident person to experiment. Check publishing permissions, accessibility of the chosen template and what happens to the domain if roles change."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on the supplier’s published product and price information.",
+      "themes": [
+        "The relevant test is routine content maintenance, not a one-off launch.",
+        "Domain ownership and editorial permissions matter as much as the subscription price."
+      ],
+      "caveat": "Supplier product claims are not independent testing, and no claim is made here about a church’s specific accessibility or data-protection needs."
+    },
     "faq": [
-      {"question": "Does Church Edit offer a free trial?", "answer": "Yes. Church Edit advertises a free trial, although its current duration is not confirmed in this profile."},
-      {"question": "How much does Church Edit cost?", "answer": "The supplier lists Website Builder at £17.50 per month and Church Edit Plus at £29.50 per month. Confirm the standard billing, VAT and renewal terms because the page also shows promotional two-year figures."},
-      {"question": "Does Church Edit include online giving?", "answer": "Not confirmed in this profile. Ask the supplier how giving links or forms would connect to the church’s chosen payment service."}
+      {
+        "question": "Does Church Edit offer a free trial?",
+        "answer": "Yes. Church Edit advertises a free trial, although its current duration is not confirmed in this profile."
+      },
+      {
+        "question": "How much does Church Edit cost?",
+        "answer": "The supplier lists Website Builder at £17.50 per month and Church Edit Plus at £29.50 per month. Confirm the standard billing, VAT and renewal terms because the page also shows promotional two-year figures."
+      },
+      {
+        "question": "Does Church Edit include online giving?",
+        "answer": "Not confirmed in this profile. Ask the supplier how giving links or forms would connect to the church’s chosen payment service."
+      }
     ]
   },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Church Edit Website Builder prices", "url": "https://www.churchedit.co.uk/website-builder-prices", "checked": "2026-07-25", "supports": ["Pricing", "Package limits", "Features"]},
-    {"label": "Church Edit free trial information", "url": "https://churchedit.co.uk/january", "checked": "2026-07-25", "supports": ["Free trial", "Telephone support"]},
-    {"label": "Church Edit contact information", "url": "https://churchedit.co.uk/contact", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+    {
+      "label": "Church Edit Website Builder prices",
+      "url": "https://www.churchedit.co.uk/website-builder-prices",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Package limits",
+        "Features"
+      ]
+    },
+    {
+      "label": "Church Edit free trial information",
+      "url": "https://churchedit.co.uk/january",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free trial",
+        "Telephone support"
+      ]
+    },
+    {
+      "label": "Church Edit contact information",
+      "url": "https://churchedit.co.uk/contact",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Church Edit review for UK churches", "description": "Independent Church Edit profile for UK churches: website pricing, free trial, features, ownership questions and FAQs."}
+  "seo": {
+    "title": "Church Edit review for UK churches",
+    "description": "Independent Church Edit profile for UK churches: website pricing, free trial, features, ownership questions and FAQs."
+  }
 }

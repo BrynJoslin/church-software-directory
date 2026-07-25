@@ -1,5 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { siteConfig } from "../config/site";
+
+const software = await getCollection("software");
 ---
 
 <BaseLayout
@@ -30,11 +34,32 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           financial, safeguarding or tax advice, and it does not replace a
           church's own due diligence.
         </p>
-        <h2>Current stage</h2>
+        <h2>Current catalogue</h2>
         <p>
-          This is an architectural foundation with fifty-one representative listings.
-          It demonstrates the research and comparison model; it is not yet a
-          comprehensive catalogue.
+          The directory currently contains {software.length} researched listings.
+          It is not a market-wide shortlist, and inclusion is not endorsement.
+        </p>
+        <h2>Publisher and correction route</h2>
+        {
+          siteConfig.publisher.name ? (
+            <>
+              <p><strong>Responsible publisher:</strong> {siteConfig.publisher.name}</p>
+              {siteConfig.publisher.background && <p>{siteConfig.publisher.background}</p>}
+              {siteConfig.publisher.correctionRoute && (
+                <p><a href={siteConfig.publisher.correctionRoute}>Contact the publisher about a correction.</a></p>
+              )}
+            </>
+          ) : (
+            <p>
+              The responsible publisher, public contact route and relevant background
+              have not yet been supplied for publication. Until they are confirmed,
+              the directory is not ready to launch publicly.
+            </p>
+          )
+        }
+        <p>
+          AI may assist with research organisation and drafting, but a human remains
+          accountable for published claims and corrections.
         </p>
       </article>
       <aside class="aside-card">

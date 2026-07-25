@@ -327,6 +327,7 @@ strong {
   margin-block-start: var(--space-lg);
 }
 
+
 .eyebrow {
   margin-block-end: var(--space-xs);
   color: var(--accent-ink);
@@ -713,6 +714,62 @@ strong {
   margin-block-end: 0;
 }
 
+.related-reason {
+  margin: var(--space-xs) var(--space-xs) 0;
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+.evidence-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  padding: 0;
+  list-style: none;
+}
+
+.evidence-summary li {
+  margin: 0;
+  border: 0.0625rem solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.55rem;
+  background: var(--surface);
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+.decision-evidence-list dd {
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.decision-evidence-list small {
+  color: var(--ink-muted);
+}
+
+.evidence-state {
+  inline-size: fit-content;
+  border: 0.0625rem solid var(--rule);
+  border-radius: 999px;
+  padding: 0.12rem 0.5rem;
+  background: var(--surface);
+  color: var(--ink-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.evidence-state--confirmed,
+.evidence-state--independently-evidenced {
+  border-color: var(--accent-soft);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+.evidence-state--possibly-outdated {
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
 .card-heading {
   display: flex;
   gap: var(--space-sm);
@@ -941,10 +998,12 @@ textarea {
 
 .prose h2 {
   margin-block-start: 1.85em;
+  scroll-margin-block-start: 7rem;
 }
 
 .prose h3 {
   margin-block-start: 1.5em;
+  scroll-margin-block-start: 7rem;
 }
 
 .prose > p:first-of-type:not(.eyebrow) {
@@ -972,6 +1031,77 @@ textarea {
 
 .aside-card > :last-child {
   margin-block-end: 0;
+}
+
+.guide-layout > .prose {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.guide-contents {
+  position: sticky;
+  z-index: 1;
+  grid-column: 2;
+  grid-row: 1;
+  inset-block-start: 6rem;
+  max-block-size: calc(100vh - 7rem);
+  overflow: auto;
+  border: 0.0625rem solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.guide-contents nav {
+  padding: var(--space-md);
+}
+
+.guide-contents__label {
+  margin: 0 0 var(--space-sm);
+  color: var(--ink);
+  font-size: var(--step-1);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.guide-contents__list {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-contents__list a {
+  display: block;
+  min-block-size: 2.75rem;
+  border-inline-start: 0.1875rem solid transparent;
+  padding: 0.55rem 0.7rem;
+  color: var(--ink-muted);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.guide-contents__list a:hover {
+  color: var(--accent-ink);
+  text-decoration: underline;
+}
+
+.guide-contents__list a[aria-current="location"] {
+  border-inline-start-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+.guide-contents__item--nested a {
+  padding-inline-start: var(--space-md);
+  font-size: var(--step--1);
+}
+
+.guide-related {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .source-list {
@@ -1069,6 +1199,29 @@ textarea {
   background: var(--accent-soft);
   color: var(--accent-ink);
   font-size: 0.9375rem;
+}
+
+.comparison-group-heading th {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 0.875rem;
+  text-align: start;
+}
+
+.comparison-group-heading button {
+  min-block-size: 2.25rem;
+  border-color: transparent;
+  padding: 0.3rem 0;
+  background: transparent;
+  color: var(--accent-ink);
+  font-size: 0.875rem;
+}
+
+.comparison-group-heading button:hover {
+  border-color: transparent;
+  background: transparent;
+  color: var(--accent-ink);
+  text-decoration: underline;
 }
 
 .comparison-table tbody tr:nth-child(even) td {
@@ -1186,6 +1339,20 @@ textarea {
   .filter-panel {
     position: static;
   }
+
+  .guide-layout > .prose,
+  .guide-contents,
+  .guide-related {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .guide-contents {
+    position: sticky;
+    inset-block-start: var(--space-xs);
+    max-block-size: min(45vh, 20rem);
+  }
+
 
   .nav-list {
     gap: 0.1rem var(--space-sm);

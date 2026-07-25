@@ -1,1 +1,154 @@
-{"name":"StreamingChurch.tv","slug":"streamingchurch","shortDescription":"A US church livestreaming platform with website and social streaming, video hosting and published plans for different broadcast needs.","officialWebsite":"https://streamingchurch.tv/sctv/","company":"StreamingChurch.tv","countryOfOrigin":"United States","ukFocus":"general","ukOrganisation":"no","categories":["livestreaming"],"suitableChurchSizes":["small","medium","large"],"suitableContexts":["Churches comparing dedicated streaming subscriptions","Teams wanting a trial before selecting a livestream provider"],"pricing":{"model":"tiered","summary":"StreamingChurch.tv publishes US-dollar Social Embed, Basic, Premium and Platinum plans, from US$19 to US$179 per month. Its plans describe unlimited audience and bandwidth; UK availability and terms need confirmation.","startingPrice":{"amount":19,"currency":"USD","period":"month","qualifier":"Social Embed plan"},"tiers":[{"label":"Social Embed","price":"US$19/month","detail":"Published entry plan"},{"label":"Basic","price":"US$79/month","detail":"Published live streaming plan"},{"label":"Premium","price":"US$127/month","detail":"Published mid-tier plan"},{"label":"Platinum","price":"US$179/month","detail":"Published highest listed plan"}],"trialDetails":"The supplier advertises 30 days free with no card or activation charge."},"freePlan":"no","freeTrial":"yes","giftAid":"unknown","demoAvailable":"unknown","coreFeatures":["Live streaming","Website embedding","Social-media streaming","Video hosting","Viewer chat","Stream analytics"],"integrations":["Facebook","YouTube"],"importExport":[],"support":["Phone, chat and email support seven days a week stated by supplier"],"editorial":{"assessment":"StreamingChurch.tv has a clear published trial and entry price, making it a viable product to put through a real service test. It is US-focused, so do not assume its published dollars, support arrangement or payment terms translate directly to a UK church.","bestFor":["Churches that want to test a dedicated church streaming service","Teams comparing a modest entry tier with more advanced hosting needs"],"strengths":["Thirty-day advertised trial","Published plan ladder and stated seven-day support"],"limitations":["US commercial context","UK data, payment and contracting details are not confirmed"]},"longForm":{"verdict":"StreamingChurch.tv is a practical candidate for a time-bounded comparison because it states a 30-day free period and a simple four-plan ladder. Use that period to test the complete viewer journey on the church website, not only whether a signal reaches Facebook or YouTube.","decisionLens":{"heading":"A livestream is part of the congregation’s welcome.","text":"The landing page, sound, captions or chat approach, archive and volunteer response all shape an online visitor’s experience. Choose the system that the team can operate calmly during a normal service, not the one with the longest feature list."},"sections":[{"heading":"A trial that tests the ministry workflow","question":"What should be tested in thirty days?","paragraphs":["Test a normal service and a realistic failure scenario: late volunteers, a changed service time and a poor connection. Review the viewer page on phone and desktop, then make sure recordings are placed where regular viewers expect them.","The supplier describes plan differences and unlimited audience and bandwidth. Confirm the exact archive, destination and support allowances that apply to the chosen plan rather than relying on a headline claim."]}],"userFeedback":{"summary":"This profile does not use an independent review score. It is based on StreamingChurch.tv’s public product and plan information.","themes":["A no-card trial makes operational testing possible.","The decision should include website and volunteer workflow, not just broadcast delivery."],"caveat":"Supplier statements describe its own offer and do not verify UK availability, local support cover or local data arrangements."},"faq":[{"question":"Does StreamingChurch.tv have a free trial?","answer":"The supplier advertises 30 days free with no card or activation charge. Check current plan eligibility before registering."},{"question":"How much is StreamingChurch.tv?","answer":"The supplier lists plans from US$19 to US$179 per month. Confirm which features and terms apply to the tier you need."},{"question":"Is StreamingChurch.tv UK-focused?","answer":"No UK-specific offer was confirmed in this profile. Confirm contracting, support timing and data arrangements directly with the supplier."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"StreamingChurch.tv plans","url":"https://streamingchurch.tv/sctv/","checked":"2026-07-25","supports":["Pricing","Trial","Features","Support"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"StreamingChurch.tv review for UK churches","description":"Independent StreamingChurch.tv profile for UK churches: published plans, free trial, video workflow and UK availability checks."}}
+{
+  "name": "StreamingChurch.tv",
+  "slug": "streamingchurch",
+  "shortDescription": "A US church livestreaming platform with website and social streaming, video hosting and published plans for different broadcast needs.",
+  "officialWebsite": "https://streamingchurch.tv/sctv/",
+  "company": "StreamingChurch.tv",
+  "countryOfOrigin": "United States",
+  "ukFocus": "general",
+  "ukOrganisation": "no",
+  "categories": [
+    "livestreaming"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches comparing dedicated streaming subscriptions",
+    "Teams wanting a trial before selecting a livestream provider"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "StreamingChurch.tv publishes US-dollar Social Embed, Basic, Premium and Platinum plans, from US$19 to US$179 per month. Its plans describe unlimited audience and bandwidth; UK availability and terms need confirmation.",
+    "startingPrice": {
+      "amount": 19,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Social Embed plan"
+    },
+    "tiers": [
+      {
+        "label": "Social Embed",
+        "price": "US$19/month",
+        "detail": "Published entry plan"
+      },
+      {
+        "label": "Basic",
+        "price": "US$79/month",
+        "detail": "Published live streaming plan"
+      },
+      {
+        "label": "Premium",
+        "price": "US$127/month",
+        "detail": "Published mid-tier plan"
+      },
+      {
+        "label": "Platinum",
+        "price": "US$179/month",
+        "detail": "Published highest listed plan"
+      }
+    ],
+    "trialDetails": "The supplier advertises 30 days free with no card or activation charge."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Live streaming",
+    "Website embedding",
+    "Social-media streaming",
+    "Video hosting",
+    "Viewer chat",
+    "Stream analytics"
+  ],
+  "integrations": [
+    "Facebook",
+    "YouTube"
+  ],
+  "importExport": [],
+  "support": [
+    "Phone, chat and email support seven days a week stated by supplier"
+  ],
+  "editorial": {
+    "assessment": "StreamingChurch.tv has a clear published trial and entry price, making it a viable product to put through a real service test. It is US-focused, so do not assume its published dollars, support arrangement or payment terms translate directly to a UK church.",
+    "bestFor": [
+      "Churches that want to test a dedicated church streaming service",
+      "Teams comparing a modest entry tier with more advanced hosting needs"
+    ],
+    "strengths": [
+      "Thirty-day advertised trial",
+      "Published plan ladder and stated seven-day support"
+    ],
+    "limitations": [
+      "US commercial context",
+      "UK data, payment and contracting details are not confirmed"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that want to test a dedicated church streaming service",
+      "differentiator": "Live streaming",
+      "firstCheck": "US commercial context"
+    }
+  },
+  "longForm": {
+    "verdict": "StreamingChurch.tv is a practical candidate for a time-bounded comparison because it states a 30-day free period and a simple four-plan ladder. Use that period to test the complete viewer journey on the church website, not only whether a signal reaches Facebook or YouTube.",
+    "decisionLens": {
+      "heading": "A livestream is part of the congregation’s welcome.",
+      "text": "The landing page, sound, captions or chat approach, archive and volunteer response all shape an online visitor’s experience. Choose the system that the team can operate calmly during a normal service, not the one with the longest feature list."
+    },
+    "sections": [
+      {
+        "heading": "A trial that tests the ministry workflow",
+        "question": "What should be tested in thirty days?",
+        "paragraphs": [
+          "Test a normal service and a realistic failure scenario: late volunteers, a changed service time and a poor connection. Review the viewer page on phone and desktop, then make sure recordings are placed where regular viewers expect them.",
+          "The supplier describes plan differences and unlimited audience and bandwidth. Confirm the exact archive, destination and support allowances that apply to the chosen plan rather than relying on a headline claim."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on StreamingChurch.tv’s public product and plan information.",
+      "themes": [
+        "A no-card trial makes operational testing possible.",
+        "The decision should include website and volunteer workflow, not just broadcast delivery."
+      ],
+      "caveat": "Supplier statements describe its own offer and do not verify UK availability, local support cover or local data arrangements."
+    },
+    "faq": [
+      {
+        "question": "Does StreamingChurch.tv have a free trial?",
+        "answer": "The supplier advertises 30 days free with no card or activation charge. Check current plan eligibility before registering."
+      },
+      {
+        "question": "How much is StreamingChurch.tv?",
+        "answer": "The supplier lists plans from US$19 to US$179 per month. Confirm which features and terms apply to the tier you need."
+      },
+      {
+        "question": "Is StreamingChurch.tv UK-focused?",
+        "answer": "No UK-specific offer was confirmed in this profile. Confirm contracting, support timing and data arrangements directly with the supplier."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "StreamingChurch.tv plans",
+      "url": "https://streamingchurch.tv/sctv/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Trial",
+        "Features",
+        "Support"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "StreamingChurch.tv review for UK churches",
+    "description": "Independent StreamingChurch.tv profile for UK churches: published plans, free trial, video workflow and UK availability checks."
+  }
+}

@@ -1,1 +1,210 @@
-{"name":"Beacon CRM","slug":"beacon-crm","shortDescription":"A UK charity CRM for supporter and donor management, payments, preferences, reporting and operations.","officialWebsite":"https://www.beaconcrm.org/","company":"Beacon CRM","ukFocus":"strong","categories":["church-management","church-communications","online-giving"],"suitableChurchSizes":["small","medium","large","multi-site"],"suitableContexts":["UK churches operating as charities with substantial supporter or donor records","Teams that need a charity CRM rather than a church-specific service-planning tool"],"pricing":{"model":"tiered","summary":"Beacon publishes GBP monthly prices by contact and user allowance: Starter from £37, Standard from £127, Premium from £325, and Ultimate by quote. Annual billing is stated to save 10%; implementation is separate.","startingPrice":{"amount":37,"currency":"GBP","period":"month","qualifier":"Starter, monthly billing"},"tiers":[{"label":"Starter","price":"From £37/month","detail":"500–2,000 contacts, three users"},{"label":"Standard","price":"From £127/month","detail":"2,500–50,000 contacts, ten users"},{"label":"Premium","price":"From £325/month","detail":"10,000–100,000 contacts, 100 users"},{"label":"Ultimate","price":"Request a quote","detail":"100,000+ contacts and bespoke scope"}],"trialDetails":"Beacon advertises a free trial; duration is not confirmed in this profile."},"freePlan":"no","freeTrial":"yes","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Supporter and donor CRM","Preferences and consents","Payments with stated 0% platform fees","Reporting","Read-only users","Training and webinars"],"integrations":[],"importExport":[],"support":["UK-based support team","In-app chat and email","Training and webinars"],"editorial":{"assessment":"Beacon CRM is a charity CRM, not a church-specific management suite. It can be a strong option where donor, supporter and consent records are central, but churches should confirm whether it covers their groups, rotas, safeguarding and worship-planning requirements or needs companion tools.","bestFor":["UK charity churches with a developed supporter or donor CRM need","Teams prepared to separate fundraising CRM from worship and pastoral workflows"],"strengths":["Published GBP contact-band pricing and UK support","Free trial and clear implementation-cost caveat"],"limitations":["Implementation is separate from subscription","Church-specific workflows such as rotas and safeguarding are not confirmed"]},"longForm":{"verdict":"Beacon CRM is most compelling when a church’s real need is charity-grade supporter and donor relationship management. It should not be chosen merely because it is a CRM if the daily requirement is service planning, check-in or pastoral care.","decisionLens":{"heading":"Separate the donor CRM decision from the whole-church-platform decision.","text":"A charity CRM can improve permissions, fundraising and reporting, but may leave other church tasks elsewhere. Map the data flows and ownership between CRM, finance and ministry systems before committing to implementation."},"sections":[{"heading":"A charity CRM with published UK pricing","question":"Does the contact model match the church’s actual relationship data?","paragraphs":["Beacon publishes plans based on contact and user allowances, with UK support and a free trial. It says implementation is undertaken through certified partners and is not included in subscription pricing.","Use the trial with anonymised sample data, then scope implementation separately. Test consent, donor history, reporting and payment exports with the people who will own them, and identify the tools needed for ministry-specific tasks."]}],"userFeedback":{"summary":"This profile does not use an independent review score. It is based on Beacon’s official pricing and support information.","themes":["The contact volume and implementation scope drive total cost.","A charity CRM may complement rather than replace church-management tools."],"caveat":"Supplier claims do not confirm that Beacon covers every ministry, safeguarding or finance requirement of a church."},"faq":[{"question":"How much does Beacon CRM cost?","answer":"Published monthly prices start at £37 for Starter, £127 for Standard and £325 for Premium. Larger plans require a quote; implementation is separate."},{"question":"Does Beacon offer a free trial?","answer":"Yes. Beacon advertises a free trial, but this profile does not confirm its current duration."},{"question":"Does Beacon include implementation?","answer":"No. Beacon says implementation is provided through certified Implementation Partners and is not included in the subscription price."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"Beacon pricing","url":"https://www.beaconcrm.org/pricing","checked":"2026-07-25","supports":["Pricing","Trial","Support","Implementation"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"Beacon CRM review for UK churches","description":"Independent Beacon CRM profile for UK churches: pricing, charity CRM fit, implementation checks and FAQs."}}
+{
+  "name": "Beacon CRM",
+  "slug": "beacon-crm",
+  "shortDescription": "A UK charity CRM for supporter and donor management, payments, preferences, reporting and operations.",
+  "officialWebsite": "https://www.beaconcrm.org/",
+  "company": "Beacon CRM",
+  "ukFocus": "strong",
+  "categories": [
+    "church-management",
+    "church-communications",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches operating as charities with substantial supporter or donor records",
+    "Teams that need a charity CRM rather than a church-specific service-planning tool"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Beacon publishes GBP monthly prices by contact and user allowance: Starter from £37, Standard from £127, Premium from £325, and Ultimate by quote. Annual billing is stated to save 10%; implementation is separate.",
+    "startingPrice": {
+      "amount": 37,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Starter, monthly billing"
+    },
+    "tiers": [
+      {
+        "label": "Starter",
+        "price": "From £37/month",
+        "detail": "500–2,000 contacts, three users"
+      },
+      {
+        "label": "Standard",
+        "price": "From £127/month",
+        "detail": "2,500–50,000 contacts, ten users"
+      },
+      {
+        "label": "Premium",
+        "price": "From £325/month",
+        "detail": "10,000–100,000 contacts, 100 users"
+      },
+      {
+        "label": "Ultimate",
+        "price": "Request a quote",
+        "detail": "100,000+ contacts and bespoke scope"
+      }
+    ],
+    "trialDetails": "Beacon advertises a free trial; duration is not confirmed in this profile."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "giftAid": "yes",
+  "demoAvailable": "yes",
+  "dataHosting": "Beacon states that its core data infrastructure is hosted in London. Its published sub-processor list names AWS in London for core storage and processing, with separate locations for some email and optional connected services; confirm the current list for a church's requirements.",
+  "gdprInformation": "Beacon publishes UK GDPR, Data Protection Act 2018 and PECR terms, a privacy policy, data-processing information and a sub-processor list. This is supplier information, not a compliance determination for a church.",
+  "coreFeatures": [
+    "Supporter and donor CRM",
+    "Preferences and consents",
+    "Payments with stated 0% platform fees",
+    "Gift Aid",
+    "Reporting",
+    "Read-only users",
+    "Training and webinars"
+  ],
+  "integrations": [
+    "Xero",
+    "Mailchimp",
+    "Stripe",
+    "GoCardless",
+    "PayPal",
+    "Zapier",
+    "Documented API"
+  ],
+  "importExport": [
+    "High-volume data exports",
+    "Ultimate-plan data warehouse through Google BigQuery and API access"
+  ],
+  "support": [
+    "UK-based support team",
+    "In-app chat and email",
+    "Training and webinars"
+  ],
+  "editorial": {
+    "assessment": "Beacon CRM is a charity CRM, not a church-specific management suite. It can be a strong option where donor, supporter and consent records are central, but churches should confirm whether it covers their groups, rotas, safeguarding and worship-planning requirements or needs companion tools.",
+    "bestFor": [
+      "UK charity churches with a developed supporter or donor CRM need",
+      "Teams prepared to separate fundraising CRM from worship and pastoral workflows"
+    ],
+    "strengths": [
+      "Published GBP contact-band pricing and UK support",
+      "Free trial and clear implementation-cost caveat"
+    ],
+    "limitations": [
+      "Implementation is separate from subscription",
+      "Church-specific workflows such as rotas and safeguarding are not confirmed"
+    ],
+    "procurementVerdict": {
+      "problem": "UK charity churches with a developed supporter or donor CRM need",
+      "differentiator": "Supporter and donor CRM",
+      "firstCheck": "Implementation is separate from subscription"
+    }
+  },
+  "longForm": {
+    "verdict": "Beacon CRM is most compelling when a church’s real need is charity-grade supporter and donor relationship management. It should not be chosen merely because it is a CRM if the daily requirement is service planning, check-in or pastoral care.",
+    "decisionLens": {
+      "heading": "Separate the donor CRM decision from the whole-church-platform decision.",
+      "text": "A charity CRM can improve permissions, fundraising and reporting, but may leave other church tasks elsewhere. Map the data flows and ownership between CRM, finance and ministry systems before committing to implementation."
+    },
+    "sections": [
+      {
+        "heading": "A charity CRM with published UK pricing",
+        "question": "Does the contact model match the church’s actual relationship data?",
+        "paragraphs": [
+          "Beacon publishes plans based on contact and user allowances, with UK support and a free trial. It says implementation is undertaken through certified partners and is not included in subscription pricing.",
+          "Use the trial with anonymised sample data, then scope implementation separately. Test consent, donor history, reporting and payment exports with the people who will own them, and identify the tools needed for ministry-specific tasks."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Beacon’s official pricing and support information.",
+      "themes": [
+        "The contact volume and implementation scope drive total cost.",
+        "A charity CRM may complement rather than replace church-management tools."
+      ],
+      "caveat": "Supplier claims do not confirm that Beacon covers every ministry, safeguarding or finance requirement of a church."
+    },
+    "faq": [
+      {
+        "question": "How much does Beacon CRM cost?",
+        "answer": "Published monthly prices start at £37 for Starter, £127 for Standard and £325 for Premium. Larger plans require a quote; implementation is separate."
+      },
+      {
+        "question": "Does Beacon offer a free trial?",
+        "answer": "Yes. Beacon advertises a free trial, but this profile does not confirm its current duration."
+      },
+      {
+        "question": "Does Beacon include implementation?",
+        "answer": "No. Beacon says implementation is provided through certified Implementation Partners and is not included in the subscription price."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Beacon pricing",
+      "url": "https://www.beaconcrm.org/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Trial",
+        "Support",
+        "Implementation"
+      ]
+    },
+    {
+      "label": "Beacon CRM features",
+      "url": "https://www.beaconcrm.org/features",
+      "checked": "2026-07-25",
+      "supports": [
+        "Gift Aid",
+        "Integrations",
+        "Data exports",
+        "API",
+        "London hosting statement"
+      ]
+    },
+    {
+      "label": "Beacon sub-processors",
+      "url": "https://www.beaconcrm.org/legal/sub-processors",
+      "checked": "2026-07-25",
+      "supports": [
+        "Core AWS London storage and processing",
+        "Optional integration processors and locations"
+      ]
+    },
+    {
+      "label": "Beacon terms and conditions",
+      "url": "https://www.beaconcrm.org/legal/terms",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK GDPR and Data Protection Act 2018 terms",
+        "Daily backups",
+        "Data-processing information"
+      ]
+    },
+    {
+      "label": "Beacon Data Warehouse guide",
+      "url": "https://guide.beaconcrm.org/en/articles/10588138-beacon-data-warehouse",
+      "checked": "2026-07-25",
+      "supports": [
+        "BigQuery data warehouse",
+        "API data access",
+        "Ultimate-plan availability"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Beacon CRM review for UK churches",
+    "description": "Independent Beacon CRM profile for UK churches: pricing, charity CRM fit, implementation checks and FAQs."
+  }
+}

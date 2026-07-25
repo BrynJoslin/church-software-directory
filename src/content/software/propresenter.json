@@ -5,15 +5,148 @@
   "officialWebsite": "https://renewedvision.com/propresenter/",
   "company": "Renewed Vision",
   "ukFocus": "general",
-  "categories": ["presentation-software", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches with live-production needs beyond basic projection", "Teams managing multiple screens or stage displays"],
-  "pricing": {"model": "tiered", "summary": "Renewed Vision publishes subscription pricing in US dollars for individual seats and worship-campus licences, with monthly and annual billing options.", "startingPrice": {"amount": 29, "currency": "USD", "period": "month", "qualifier": "Standard single seat"}, "tiers": [{"label": "Standard", "price": "$29/month or $289/year", "detail": "Per seat"}, {"label": "Campus", "price": "$59/month or $649/year", "detail": "20 seats; worship customers only"}], "trialDetails": "14 days, full ProPresenter trial according to the supplier."},
-  "freePlan": "no", "freeTrial": "yes", "giftAid": "unknown", "demoAvailable": "yes",
-  "coreFeatures": ["Live slides and lyrics", "Bible and media presentation", "Multi-screen outputs", "Stage display", "Show building", "Presentation planning"],
-  "integrations": ["Planning Center song import"], "importExport": [], "support": ["7-day support access stated by the supplier"],
-  "editorial": {"assessment": "ProPresenter is a production-tool decision rather than a church database choice. Its subscription and licence scope need to be set against the actual number of operators, screens, venues and volunteers—not just the main Sunday projector.", "bestFor": ["Churches with multi-screen live-production workflows", "Teams needing stage-display and advanced presentation control"], "strengths": ["Published subscription and 14-day trial", "Campus licence covers a stated 20 seats for worship customers"], "limitations": ["Prices are in US dollars", "Content, Bible and media licences remain separate church responsibilities"]},
-  "longForm": {"verdict": "ProPresenter becomes worthwhile when a church’s live-production workflow needs reliable control across multiple screens and operators. A trial should test the actual Sunday setup, including the volunteer handover—not only slide design on one laptop.", "decisionLens": {"heading": "Licence scope follows the production workflow, not the size of the congregation.", "text": "Count production computers, operators, stage displays and venues. Then test the exact output, audio, media and remote-control behaviour the team needs under live-service conditions."}, "sections": [{"heading": "Testing the live environment", "question": "Will it reduce pressure on the people running services?", "paragraphs": ["Renewed Vision publishes Standard per-seat and Campus licences, alongside a 14-day free trial. The product information describes live presentation and multi-screen production workflows.", "Use the trial in rehearsal with real media, presentation files and outputs. Confirm any required Bible, song, font and media licences separately; the software subscription does not provide all content rights."]}], "userFeedback": {"summary": "This profile does not use an independent review score. It is based on Renewed Vision’s current pricing and product information.", "themes": ["Live-output reliability and volunteer workflow should be tested in rehearsal.", "Licence choice depends on seats and campus use, not a generic church-size label."], "caveat": "Supplier feature material is not independent testing or a guarantee of fit with a particular AV setup."}, "faq": [{"question": "Does ProPresenter have a free trial?", "answer": "Yes. Renewed Vision advertises a 14-day free trial. Test it with the church’s real displays, media and volunteers before subscribing."}, {"question": "How much does ProPresenter cost?", "answer": "The supplier publishes Standard at $29/month or $289/year per seat, and a worship-only Campus licence at $59/month or $649/year for 20 seats."}, {"question": "Does ProPresenter include song and Bible licences?", "answer": "Do not assume so. Churches remain responsible for their relevant song, Bible, font and media licences; confirm the content rights required for each service."}]},
-  "verificationStatus": "partially-verified", "lastChecked": "2026-07-25", "sources": [{"label": "ProPresenter plans and trial", "url": "https://renewedvision.com/propresenter/all-features", "checked": "2026-07-25", "supports": ["Subscription tiers", "Published prices", "14-day trial", "Support statement"]}, {"label": "Renewed Vision pricing guidance", "url": "https://support.renewedvision.com/hc/en-us/articles/35579747176083-Renewed-Vision-Pricing-and-Renewal-Process", "checked": "2026-07-25", "supports": ["Subscription scope", "Annual and monthly pricing"]}], "affiliateRelationship": "no", "sponsored": false,
-  "seo": {"title": "ProPresenter review for UK churches", "description": "Independent ProPresenter profile for UK churches: subscription prices, 14-day trial, live-production fit, licence questions and FAQs."}
+  "categories": [
+    "presentation-software",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches with live-production needs beyond basic projection",
+    "Teams managing multiple screens or stage displays"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Renewed Vision publishes subscription pricing in US dollars for individual seats and worship-campus licences, with monthly and annual billing options.",
+    "startingPrice": {
+      "amount": 29,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Standard single seat"
+    },
+    "tiers": [
+      {
+        "label": "Standard",
+        "price": "$29/month or $289/year",
+        "detail": "Per seat"
+      },
+      {
+        "label": "Campus",
+        "price": "$59/month or $649/year",
+        "detail": "20 seats; worship customers only"
+      }
+    ],
+    "trialDetails": "14 days, full ProPresenter trial according to the supplier."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Live slides and lyrics",
+    "Bible and media presentation",
+    "Multi-screen outputs",
+    "Stage display",
+    "Show building",
+    "Presentation planning"
+  ],
+  "integrations": [
+    "Planning Center song import"
+  ],
+  "importExport": [],
+  "support": [
+    "7-day support access stated by the supplier"
+  ],
+  "editorial": {
+    "assessment": "ProPresenter is a production-tool decision rather than a church database choice. Its subscription and licence scope need to be set against the actual number of operators, screens, venues and volunteers—not just the main Sunday projector.",
+    "bestFor": [
+      "Churches with multi-screen live-production workflows",
+      "Teams needing stage-display and advanced presentation control"
+    ],
+    "strengths": [
+      "Published subscription and 14-day trial",
+      "Campus licence covers a stated 20 seats for worship customers"
+    ],
+    "limitations": [
+      "Prices are in US dollars",
+      "Content, Bible and media licences remain separate church responsibilities"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches with multi-screen live-production workflows",
+      "differentiator": "Live slides and lyrics",
+      "firstCheck": "Prices are in US dollars"
+    }
+  },
+  "longForm": {
+    "verdict": "ProPresenter becomes worthwhile when a church’s live-production workflow needs reliable control across multiple screens and operators. A trial should test the actual Sunday setup, including the volunteer handover—not only slide design on one laptop.",
+    "decisionLens": {
+      "heading": "Licence scope follows the production workflow, not the size of the congregation.",
+      "text": "Count production computers, operators, stage displays and venues. Then test the exact output, audio, media and remote-control behaviour the team needs under live-service conditions."
+    },
+    "sections": [
+      {
+        "heading": "Testing the live environment",
+        "question": "Will it reduce pressure on the people running services?",
+        "paragraphs": [
+          "Renewed Vision publishes Standard per-seat and Campus licences, alongside a 14-day free trial. The product information describes live presentation and multi-screen production workflows.",
+          "Use the trial in rehearsal with real media, presentation files and outputs. Confirm any required Bible, song, font and media licences separately; the software subscription does not provide all content rights."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Renewed Vision’s current pricing and product information.",
+      "themes": [
+        "Live-output reliability and volunteer workflow should be tested in rehearsal.",
+        "Licence choice depends on seats and campus use, not a generic church-size label."
+      ],
+      "caveat": "Supplier feature material is not independent testing or a guarantee of fit with a particular AV setup."
+    },
+    "faq": [
+      {
+        "question": "Does ProPresenter have a free trial?",
+        "answer": "Yes. Renewed Vision advertises a 14-day free trial. Test it with the church’s real displays, media and volunteers before subscribing."
+      },
+      {
+        "question": "How much does ProPresenter cost?",
+        "answer": "The supplier publishes Standard at $29/month or $289/year per seat, and a worship-only Campus licence at $59/month or $649/year for 20 seats."
+      },
+      {
+        "question": "Does ProPresenter include song and Bible licences?",
+        "answer": "Do not assume so. Churches remain responsible for their relevant song, Bible, font and media licences; confirm the content rights required for each service."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "ProPresenter plans and trial",
+      "url": "https://renewedvision.com/propresenter/all-features",
+      "checked": "2026-07-25",
+      "supports": [
+        "Subscription tiers",
+        "Published prices",
+        "14-day trial",
+        "Support statement"
+      ]
+    },
+    {
+      "label": "Renewed Vision pricing guidance",
+      "url": "https://support.renewedvision.com/hc/en-us/articles/35579747176083-Renewed-Vision-Pricing-and-Renewal-Process",
+      "checked": "2026-07-25",
+      "supports": [
+        "Subscription scope",
+        "Annual and monthly pricing"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "ProPresenter review for UK churches",
+    "description": "Independent ProPresenter profile for UK churches: subscription prices, 14-day trial, live-production fit, licence questions and FAQs."
+  }
 }

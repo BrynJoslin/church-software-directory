@@ -1,1 +1,149 @@
-{"name":"BoxCast","slug":"boxcast","shortDescription":"A US livestreaming platform for churches and other organisations, with website embedding, social distribution, scheduling and video hosting.","officialWebsite":"https://www.boxcast.com/solutions/house-of-worship-streaming","company":"BoxCast","countryOfOrigin":"United States","ukFocus":"general","ukOrganisation":"no","categories":["livestreaming"],"suitableChurchSizes":["medium","large","multi-site"],"suitableContexts":["Churches seeking a dedicated live video platform","Teams that need website embedding and scheduled social broadcasts"],"pricing":{"model":"tiered","summary":"BoxCast’s published Standard plan is US$109 per month when billed annually, or US$119 monthly. Hardware, storage and plan suitability should be checked directly, including UK availability.","startingPrice":{"amount":109,"currency":"USD","period":"month","qualifier":"billed annually"},"tiers":[{"label":"Standard","price":"US$109/month annually or US$119 monthly","detail":"Publishes 1080p streaming, scheduling, 90-day archive storage and seven-day support"}],"trialDetails":"BoxCast advertises a 14-day Standard trial without a card. Its published subscription terms also describe an annual commitment and a 30-day money-back guarantee."},"freePlan":"no","freeTrial":"yes","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Live video streaming","Website embedding","Facebook and YouTube distribution","Automated scheduling","Video archive","Live analytics"],"integrations":["Facebook","YouTube"],"importExport":[],"support":["Seven-day support stated on Standard plan","House-of-worship sales contact"],"editorial":{"assessment":"BoxCast is a specialist streaming option for a church that has moved beyond an informal social-stream workflow. Its public US pricing and 14-day trial make it practical to evaluate, but UK contracting, support fit and the complete production setup need direct confirmation.","bestFor":["Churches wanting a dedicated stream embedded on their website","Teams prepared to test a repeatable Sunday broadcast workflow"],"strengths":["Published entry pricing and trial","Website, social and archive workflow in one specialist product"],"limitations":["US-dollar public pricing","UK availability, data terms and hardware requirements need confirmation"]},"longForm":{"verdict":"BoxCast is worth trialling when livestreaming has become a regular ministry service rather than an occasional social broadcast. The useful comparison is not simply monthly price: test it with the church’s real encoder, internet connection, volunteers and destinations before relying on it for Sundays.","decisionLens":{"heading":"A dependable stream begins before the platform.","text":"A platform can schedule, distribute and host video, but it cannot repair weak venue upload speed, poor audio or an unclear operator handover. Treat the trial as a full service rehearsal and document who does what when something fails."},"sections":[{"heading":"Dedicated distribution and archive","question":"What does a church gain beyond going live directly to a social network?","paragraphs":["BoxCast combines a website player, social distribution, scheduling, archive storage and viewing analytics. That can give the church a clearer home for its service than relying only on a social feed.","The right question is whether those features solve a real operating issue. A small team that mainly needs a simple YouTube stream may not need a separate platform, while a team needing a managed website destination and regular archive may value it."]}],"userFeedback":{"summary":"This profile does not assign an independent review score. The assessment is based on BoxCast’s public Standard pricing and its house-of-worship product information.","themes":["The published trial supports a practical reliability test.","Costs need to be considered alongside the production equipment and operating workload."],"caveat":"Supplier material describes product capabilities and US commercial terms; it does not establish suitability or availability for every UK church."},"faq":[{"question":"Does BoxCast offer a free trial?","answer":"BoxCast advertises a 14-day trial of its Standard plan without a card. Confirm the current eligibility and cancellation terms before starting."},{"question":"How much is BoxCast?","answer":"The published Standard plan is US$109 per month billed annually, or US$119 month to month. Other needs may require different plans or equipment."},{"question":"Can a UK church use BoxCast?","answer":"UK availability and local contractual terms are not confirmed in this profile. Ask BoxCast directly before treating its US pricing as a UK quote."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"BoxCast Standard pricing","url":"https://www.boxcast.com/pricing/standard-plan","checked":"2026-07-25","supports":["Pricing","Trial","Features","Support"]},{"label":"BoxCast house-of-worship streaming","url":"https://www.boxcast.com/solutions/house-of-worship-streaming","checked":"2026-07-25","supports":["Church use case","Demo"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"BoxCast review for UK churches","description":"Independent BoxCast profile for UK churches: livestreaming price, trial, website embedding, support and UK availability questions."}}
+{
+  "name": "BoxCast",
+  "slug": "boxcast",
+  "shortDescription": "A US livestreaming platform for churches and other organisations, with website embedding, social distribution, scheduling and video hosting.",
+  "officialWebsite": "https://www.boxcast.com/solutions/house-of-worship-streaming",
+  "company": "BoxCast",
+  "countryOfOrigin": "United States",
+  "ukFocus": "general",
+  "ukOrganisation": "no",
+  "categories": [
+    "livestreaming"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking a dedicated live video platform",
+    "Teams that need website embedding and scheduled social broadcasts"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "BoxCast’s published Standard plan is US$109 per month when billed annually, or US$119 monthly. Hardware, storage and plan suitability should be checked directly, including UK availability.",
+    "startingPrice": {
+      "amount": 109,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "billed annually"
+    },
+    "tiers": [
+      {
+        "label": "Standard",
+        "price": "US$109/month annually or US$119 monthly",
+        "detail": "Publishes 1080p streaming, scheduling, 90-day archive storage and seven-day support"
+      }
+    ],
+    "trialDetails": "BoxCast advertises a 14-day Standard trial without a card. Its published subscription terms also describe an annual commitment and a 30-day money-back guarantee."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Live video streaming",
+    "Website embedding",
+    "Facebook and YouTube distribution",
+    "Automated scheduling",
+    "Video archive",
+    "Live analytics"
+  ],
+  "integrations": [
+    "Facebook",
+    "YouTube"
+  ],
+  "importExport": [],
+  "support": [
+    "Seven-day support stated on Standard plan",
+    "House-of-worship sales contact"
+  ],
+  "editorial": {
+    "assessment": "BoxCast is a specialist streaming option for a church that has moved beyond an informal social-stream workflow. Its public US pricing and 14-day trial make it practical to evaluate, but UK contracting, support fit and the complete production setup need direct confirmation.",
+    "bestFor": [
+      "Churches wanting a dedicated stream embedded on their website",
+      "Teams prepared to test a repeatable Sunday broadcast workflow"
+    ],
+    "strengths": [
+      "Published entry pricing and trial",
+      "Website, social and archive workflow in one specialist product"
+    ],
+    "limitations": [
+      "US-dollar public pricing",
+      "UK availability, data terms and hardware requirements need confirmation"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches wanting a dedicated stream embedded on their website",
+      "differentiator": "Live video streaming",
+      "firstCheck": "US-dollar public pricing"
+    }
+  },
+  "longForm": {
+    "verdict": "BoxCast is worth trialling when livestreaming has become a regular ministry service rather than an occasional social broadcast. The useful comparison is not simply monthly price: test it with the church’s real encoder, internet connection, volunteers and destinations before relying on it for Sundays.",
+    "decisionLens": {
+      "heading": "A dependable stream begins before the platform.",
+      "text": "A platform can schedule, distribute and host video, but it cannot repair weak venue upload speed, poor audio or an unclear operator handover. Treat the trial as a full service rehearsal and document who does what when something fails."
+    },
+    "sections": [
+      {
+        "heading": "Dedicated distribution and archive",
+        "question": "What does a church gain beyond going live directly to a social network?",
+        "paragraphs": [
+          "BoxCast combines a website player, social distribution, scheduling, archive storage and viewing analytics. That can give the church a clearer home for its service than relying only on a social feed.",
+          "The right question is whether those features solve a real operating issue. A small team that mainly needs a simple YouTube stream may not need a separate platform, while a team needing a managed website destination and regular archive may value it."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not assign an independent review score. The assessment is based on BoxCast’s public Standard pricing and its house-of-worship product information.",
+      "themes": [
+        "The published trial supports a practical reliability test.",
+        "Costs need to be considered alongside the production equipment and operating workload."
+      ],
+      "caveat": "Supplier material describes product capabilities and US commercial terms; it does not establish suitability or availability for every UK church."
+    },
+    "faq": [
+      {
+        "question": "Does BoxCast offer a free trial?",
+        "answer": "BoxCast advertises a 14-day trial of its Standard plan without a card. Confirm the current eligibility and cancellation terms before starting."
+      },
+      {
+        "question": "How much is BoxCast?",
+        "answer": "The published Standard plan is US$109 per month billed annually, or US$119 month to month. Other needs may require different plans or equipment."
+      },
+      {
+        "question": "Can a UK church use BoxCast?",
+        "answer": "UK availability and local contractual terms are not confirmed in this profile. Ask BoxCast directly before treating its US pricing as a UK quote."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "BoxCast Standard pricing",
+      "url": "https://www.boxcast.com/pricing/standard-plan",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Trial",
+        "Features",
+        "Support"
+      ]
+    },
+    {
+      "label": "BoxCast house-of-worship streaming",
+      "url": "https://www.boxcast.com/solutions/house-of-worship-streaming",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church use case",
+        "Demo"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "BoxCast review for UK churches",
+    "description": "Independent BoxCast profile for UK churches: livestreaming price, trial, website embedding, support and UK availability questions."
+  }
+}

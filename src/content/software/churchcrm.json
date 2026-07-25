@@ -1,1 +1,150 @@
-{"name":"ChurchCRM","slug":"churchcrm","shortDescription":"A free, open-source church management system for self-hosted people records, groups, attendance, giving and communications.","officialWebsite":"https://churchcrm.io/","company":"ChurchCRM open-source project","ukFocus":"general","categories":["church-management"],"suitableChurchSizes":["small","medium","large"],"suitableContexts":["Churches with capable technical volunteers or paid hosting support","Teams prioritising self-hosting and no software licence fee"],"pricing":{"model":"free","summary":"ChurchCRM states that its software is free and open source with no licence, subscription or per-member charge. The church remains responsible for hosting, maintenance, security and support costs.","tiers":[{"label":"ChurchCRM software","price":"Free","detail":"MIT-licensed open-source software; no paid tiers stated"},{"label":"Hosting","price":"Separate cost","detail":"The project says it does not provide a hosted service"}]},"freePlan":"yes","freeTrial":"no","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Member and family records","Groups and teams","Attendance","Giving records","Self-service portal","Communications"],"integrations":["OpenLP"],"importExport":["Member CSV export","Database backup"],"support":["Documentation","GitHub issues and discussions","Email support contact"],"editorial":{"assessment":"ChurchCRM can reduce software licence cost and keep deployment under a church’s control, but it transfers responsibility for hosting, updates, access controls, backups and incident response to the church. It is a technical-operating-model decision as much as a database choice.","bestFor":["Churches with reliable technical stewardship and a clear data-governance plan","Teams comfortable paying for hosting or volunteer maintenance rather than a subscription"],"strengths":["No software licence fee or per-member pricing","Self-hosting and export options give the church control"],"limitations":["No supplier-operated hosted service","UK GDPR, backup, security and support are the church’s responsibility to establish"]},"longForm":{"verdict":"ChurchCRM is a credible option when a church wants open-source control and has the capacity to operate it safely. The key comparison is not ‘free versus paid’; it is whether the church can sustainably run a system holding sensitive people data.","decisionLens":{"heading":"Put an owner behind every operational responsibility.","text":"Self-hosting can provide flexibility and data control, but somebody must manage updates, backups, passwords, hosting renewal, security incidents and access when volunteers change. Establish those commitments before importing live records."},"sections":[{"heading":"Free software, not free operation","question":"Can the church operate a self-hosted database responsibly?","paragraphs":["ChurchCRM states that the software has no subscription or licence fee and that it can run on shared hosting, a VPS or a church-managed server. It also says the project does not offer its own cloud hosting.","Use the demo to assess people and reporting workflows, then ask the prospective technical owner to document hosting location, backup restoration, permissions, update responsibilities and support escalation. Do not load pastoral or safeguarding-sensitive data until those controls are ready."]}],"userFeedback":{"summary":"This profile does not use an independent review score. It is based on ChurchCRM’s official feature, licensing and hosting documentation.","themes":["The licence cost is zero, but operations still require time and budget.","Control is valuable only when backup and security responsibilities are actively owned."],"caveat":"Open-source feature and hosting claims are not independent assessment of a church’s technical or legal readiness."},"faq":[{"question":"Is ChurchCRM free?","answer":"Yes. ChurchCRM states that it is MIT-licensed open-source software with no software licence, subscription or per-member fee."},{"question":"Does ChurchCRM provide hosting?","answer":"No. The project says it does not run a hosted cloud service, so the church must arrange and operate suitable hosting."},{"question":"Does ChurchCRM support UK Gift Aid?","answer":"Not confirmed in this profile. Verify the exact records, reports and HMRC workflow the church needs."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"ChurchCRM overview","url":"https://churchcrm.io/church-management-software/","checked":"2026-07-25","supports":["Features","Open-source model","Exports","Demo"]},{"label":"ChurchCRM FAQ","url":"https://churchcrm.io/faq.html","checked":"2026-07-25","supports":["Free licence","Self-hosting","Support"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"ChurchCRM review for UK churches","description":"Independent ChurchCRM profile for UK churches: free open-source pricing, self-hosting responsibilities, features and FAQs."}}
+{
+  "name": "ChurchCRM",
+  "slug": "churchcrm",
+  "shortDescription": "A free, open-source church management system for self-hosted people records, groups, attendance, giving and communications.",
+  "officialWebsite": "https://churchcrm.io/",
+  "company": "ChurchCRM open-source project",
+  "ukFocus": "general",
+  "categories": [
+    "church-management"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches with capable technical volunteers or paid hosting support",
+    "Teams prioritising self-hosting and no software licence fee"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "ChurchCRM states that its software is free and open source with no licence, subscription or per-member charge. The church remains responsible for hosting, maintenance, security and support costs.",
+    "tiers": [
+      {
+        "label": "ChurchCRM software",
+        "price": "Free",
+        "detail": "MIT-licensed open-source software; no paid tiers stated"
+      },
+      {
+        "label": "Hosting",
+        "price": "Separate cost",
+        "detail": "The project says it does not provide a hosted service"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "giftAid": "unknown",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Member and family records",
+    "Groups and teams",
+    "Attendance",
+    "Giving records",
+    "Self-service portal",
+    "Communications"
+  ],
+  "integrations": [
+    "OpenLP"
+  ],
+  "importExport": [
+    "Member CSV export",
+    "Database backup"
+  ],
+  "support": [
+    "Documentation",
+    "GitHub issues and discussions",
+    "Email support contact"
+  ],
+  "editorial": {
+    "assessment": "ChurchCRM can reduce software licence cost and keep deployment under a church’s control, but it transfers responsibility for hosting, updates, access controls, backups and incident response to the church. It is a technical-operating-model decision as much as a database choice.",
+    "bestFor": [
+      "Churches with reliable technical stewardship and a clear data-governance plan",
+      "Teams comfortable paying for hosting or volunteer maintenance rather than a subscription"
+    ],
+    "strengths": [
+      "No software licence fee or per-member pricing",
+      "Self-hosting and export options give the church control"
+    ],
+    "limitations": [
+      "No supplier-operated hosted service",
+      "UK GDPR, backup, security and support are the church’s responsibility to establish"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches with reliable technical stewardship and a clear data-governance plan",
+      "differentiator": "Member and family records",
+      "firstCheck": "No supplier-operated hosted service"
+    }
+  },
+  "longForm": {
+    "verdict": "ChurchCRM is a credible option when a church wants open-source control and has the capacity to operate it safely. The key comparison is not ‘free versus paid’; it is whether the church can sustainably run a system holding sensitive people data.",
+    "decisionLens": {
+      "heading": "Put an owner behind every operational responsibility.",
+      "text": "Self-hosting can provide flexibility and data control, but somebody must manage updates, backups, passwords, hosting renewal, security incidents and access when volunteers change. Establish those commitments before importing live records."
+    },
+    "sections": [
+      {
+        "heading": "Free software, not free operation",
+        "question": "Can the church operate a self-hosted database responsibly?",
+        "paragraphs": [
+          "ChurchCRM states that the software has no subscription or licence fee and that it can run on shared hosting, a VPS or a church-managed server. It also says the project does not offer its own cloud hosting.",
+          "Use the demo to assess people and reporting workflows, then ask the prospective technical owner to document hosting location, backup restoration, permissions, update responsibilities and support escalation. Do not load pastoral or safeguarding-sensitive data until those controls are ready."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on ChurchCRM’s official feature, licensing and hosting documentation.",
+      "themes": [
+        "The licence cost is zero, but operations still require time and budget.",
+        "Control is valuable only when backup and security responsibilities are actively owned."
+      ],
+      "caveat": "Open-source feature and hosting claims are not independent assessment of a church’s technical or legal readiness."
+    },
+    "faq": [
+      {
+        "question": "Is ChurchCRM free?",
+        "answer": "Yes. ChurchCRM states that it is MIT-licensed open-source software with no software licence, subscription or per-member fee."
+      },
+      {
+        "question": "Does ChurchCRM provide hosting?",
+        "answer": "No. The project says it does not run a hosted cloud service, so the church must arrange and operate suitable hosting."
+      },
+      {
+        "question": "Does ChurchCRM support UK Gift Aid?",
+        "answer": "Not confirmed in this profile. Verify the exact records, reports and HMRC workflow the church needs."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "ChurchCRM overview",
+      "url": "https://churchcrm.io/church-management-software/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Features",
+        "Open-source model",
+        "Exports",
+        "Demo"
+      ]
+    },
+    {
+      "label": "ChurchCRM FAQ",
+      "url": "https://churchcrm.io/faq.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free licence",
+        "Self-hosting",
+        "Support"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "ChurchCRM review for UK churches",
+    "description": "Independent ChurchCRM profile for UK churches: free open-source pricing, self-hosting responsibilities, features and FAQs."
+  }
+}

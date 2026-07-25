@@ -5,17 +5,46 @@
   "officialWebsite": "https://onechurchsoftware.com/",
   "company": "One Church Software",
   "ukFocus": "general",
-  "categories": ["church-management", "online-giving", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches that want configurable people, workflow and service-planning tools", "Teams willing to confirm international availability and finance fit"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches that want configurable people, workflow and service-planning tools",
+    "Teams willing to confirm international availability and finance fit"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "One Church Software publishes Core and Core+ starting prices that vary by the total number of profiles, including archived and inactive profiles, with optional paid add-ons.",
-    "startingPrice": {"amount": 58, "currency": "USD", "period": "month", "qualifier": "Core starting price; profile count determines the displayed tier"},
+    "startingPrice": {
+      "amount": 58,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Core starting price; profile count determines the displayed tier"
+    },
     "tiers": [
-      {"label": "Core", "price": "from $58/month", "detail": "Core modules and free onboarding; price varies by total profiles"},
-      {"label": "Core+", "price": "from $82/month", "detail": "Adds automation, rooms and resources, multi-campus tools, API and training; price varies by profiles"},
-      {"label": "Financial Suite", "price": "$36/month", "detail": "Supplier-published donation-management and accounting add-on price"}
+      {
+        "label": "Core",
+        "price": "from $58/month",
+        "detail": "Core modules and free onboarding; price varies by total profiles"
+      },
+      {
+        "label": "Core+",
+        "price": "from $82/month",
+        "detail": "Adds automation, rooms and resources, multi-campus tools, API and training; price varies by profiles"
+      },
+      {
+        "label": "Financial Suite",
+        "price": "$36/month",
+        "detail": "Supplier-published donation-management and accounting add-on price"
+      }
     ],
     "trialDetails": "30 days, no credit card required; the supplier says the trial starts on Core+ and can be changed or cancelled."
   },
@@ -23,35 +52,122 @@
   "freeTrial": "yes",
   "giftAid": "unknown",
   "demoAvailable": "unknown",
-  "coreFeatures": ["Contacts", "Events", "Forms", "Check-in", "Giving", "Small groups", "Service planning", "Communication"],
-  "integrations": ["API on Core+"],
+  "coreFeatures": [
+    "Contacts",
+    "Events",
+    "Forms",
+    "Check-in",
+    "Giving",
+    "Small groups",
+    "Service planning",
+    "Communication"
+  ],
+  "integrations": [
+    "API on Core+"
+  ],
   "importExport": [],
-  "support": ["Email support", "Help Centre", "Onboarding", "Training on Core+"],
+  "support": [
+    "Email support",
+    "Help Centre",
+    "Onboarding",
+    "Training on Core+"
+  ],
   "editorial": {
     "assessment": "One Church Software has a detailed published module set and a 30-day trial, but its billing count is broader than a simple active-member total. UK churches should first confirm its international availability, payment arrangements, accounting fit and treatment of archived data.",
-    "bestFor": ["Churches that need workflow automation and service planning", "Multi-campus teams that can validate the Core+ feature set"],
-    "strengths": ["Core and Core+ inclusions are published", "The supplier offers a no-card 30-day trial"],
-    "limitations": ["US-dollar pricing and total-profile billing need careful comparison", "UK Gift Aid and finance suitability are not confirmed here"]
+    "bestFor": [
+      "Churches that need workflow automation and service planning",
+      "Multi-campus teams that can validate the Core+ feature set"
+    ],
+    "strengths": [
+      "Core and Core+ inclusions are published",
+      "The supplier offers a no-card 30-day trial"
+    ],
+    "limitations": [
+      "US-dollar pricing and total-profile billing need careful comparison",
+      "UK Gift Aid and finance suitability are not confirmed here"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that need workflow automation and service planning",
+      "differentiator": "Contacts",
+      "firstCheck": "US-dollar pricing and total-profile billing need careful comparison"
+    }
   },
   "longForm": {
     "verdict": "One Church Software is not a straightforward cost-per-active-member comparison: its published pricing counts all profiles, including archived and inactive records. That makes data governance—what the church keeps, merges or retires—a direct procurement issue.",
-    "decisionLens": {"heading": "Database hygiene becomes a pricing decision.", "text": "The supplier says pricing is based on total profiles, including kids, adults, archived, active, members and guests. Before a trial, quantify the current database and define which historic records must be retained for pastoral, financial or safeguarding reasons."},
-    "sections": [{"heading": "Core, Core+ and finance", "question": "Which capabilities are genuinely needed from day one?", "paragraphs": ["One Church Software publishes Core and Core+ plans, with Core+ adding automation, rooms and resources, multi-campus tools, an API and training. It also lists finance-related offerings separately.", "Use the 30-day trial to test a people journey, an event, a service plan and the exports needed by administrators. Treat any accounting, giving or payment decision as a separate UK due-diligence exercise."]}],
-    "userFeedback": {"summary": "This profile does not rely on a third-party review score. It is grounded in the supplier’s current pricing, trial and feature documentation.", "themes": ["Total-profile pricing needs an early data audit.", "The Core+ trial should be used to validate workflow and multi-campus needs, not just individual screens."], "caveat": "No conclusion about user satisfaction or UK suitability should be drawn from the absence of independent-review research here."},
+    "decisionLens": {
+      "heading": "Database hygiene becomes a pricing decision.",
+      "text": "The supplier says pricing is based on total profiles, including kids, adults, archived, active, members and guests. Before a trial, quantify the current database and define which historic records must be retained for pastoral, financial or safeguarding reasons."
+    },
+    "sections": [
+      {
+        "heading": "Core, Core+ and finance",
+        "question": "Which capabilities are genuinely needed from day one?",
+        "paragraphs": [
+          "One Church Software publishes Core and Core+ plans, with Core+ adding automation, rooms and resources, multi-campus tools, an API and training. It also lists finance-related offerings separately.",
+          "Use the 30-day trial to test a people journey, an event, a service plan and the exports needed by administrators. Treat any accounting, giving or payment decision as a separate UK due-diligence exercise."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not rely on a third-party review score. It is grounded in the supplier’s current pricing, trial and feature documentation.",
+      "themes": [
+        "Total-profile pricing needs an early data audit.",
+        "The Core+ trial should be used to validate workflow and multi-campus needs, not just individual screens."
+      ],
+      "caveat": "No conclusion about user satisfaction or UK suitability should be drawn from the absence of independent-review research here."
+    },
     "faq": [
-      {"question": "Does One Church Software have a free trial?", "answer": "Yes. The supplier advertises a 30-day Core+ trial with no credit card required and says plans can be changed or cancelled."},
-      {"question": "How is One Church Software priced?", "answer": "The supplier publishes Core and Core+ prices that vary by total profiles in the system, including active, inactive and archived records. It also lists optional add-ons."},
-      {"question": "Can a UK church use One Church Software?", "answer": "International availability and relevant feature limits should be confirmed directly with the supplier. This profile does not establish UK payments, Gift Aid or accounting suitability."}
+      {
+        "question": "Does One Church Software have a free trial?",
+        "answer": "Yes. The supplier advertises a 30-day Core+ trial with no credit card required and says plans can be changed or cancelled."
+      },
+      {
+        "question": "How is One Church Software priced?",
+        "answer": "The supplier publishes Core and Core+ prices that vary by total profiles in the system, including active, inactive and archived records. It also lists optional add-ons."
+      },
+      {
+        "question": "Can a UK church use One Church Software?",
+        "answer": "International availability and relevant feature limits should be confirmed directly with the supplier. This profile does not establish UK payments, Gift Aid or accounting suitability."
+      }
     ]
   },
-  "brandAssets": {"logo": {"src": "/images/software/one-church-software/one-church-software-logo.png", "alt": "One Church Software logo", "source": "https://onechurchsoftware.com/", "checked": "2026-07-25"}},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/one-church-software/one-church-software-logo.png",
+      "alt": "One Church Software logo",
+      "source": "https://onechurchsoftware.com/",
+      "checked": "2026-07-25"
+    }
+  },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "One Church Software pricing", "url": "https://onechurchsoftware.com/pricing2/", "checked": "2026-07-25", "supports": ["Core and Core+ prices", "Profile-count billing", "Modules", "Add-ons"]},
-    {"label": "One Church Software trial", "url": "https://onechurchsoftware.com/try/", "checked": "2026-07-25", "supports": ["30-day trial", "No-card trial", "Core+ evaluation"]}
+    {
+      "label": "One Church Software pricing",
+      "url": "https://onechurchsoftware.com/pricing2/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Core and Core+ prices",
+        "Profile-count billing",
+        "Modules",
+        "Add-ons"
+      ]
+    },
+    {
+      "label": "One Church Software trial",
+      "url": "https://onechurchsoftware.com/try/",
+      "checked": "2026-07-25",
+      "supports": [
+        "30-day trial",
+        "No-card trial",
+        "Core+ evaluation"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "One Church Software review for UK churches", "description": "Independent One Church Software profile for UK churches: pricing, profile-count billing, trial, key checks and FAQs."}
+  "seo": {
+    "title": "One Church Software review for UK churches",
+    "description": "Independent One Church Software profile for UK churches: pricing, profile-count billing, trial, key checks and FAQs."
+  }
 }

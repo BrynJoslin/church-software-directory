@@ -13,18 +13,17 @@ const action = isSuggest
 ---
 
 {
-  !siteConfig.forms.enabled && (
+  !siteConfig.forms.enabled ? (
     <div class="notice" role="status">
       <p>
-        <strong>Submissions are not connected yet.</strong> The form shows the
-        information a future submission will request, but its send button remains
-        disabled until a real endpoint is configured.
+        <strong>No submission route is configured.</strong> This page explains
+        the evidence needed for a future {isSuggest ? "suggestion" : "correction"},
+        but does not collect or send information until a real contact route is
+        published.
       </p>
     </div>
-  )
-}
-
-<form class="static-form stack" action={action} method="post">
+  ) : (
+<form class="static-form stack" action={action ?? ""} method="post">
   <div class="honeypot" aria-hidden="true">
     <label for={`${kind}-company-fax`}>Company fax</label>
     <input
@@ -105,8 +104,10 @@ const action = isSuggest
     Use only business contact details and public evidence. Do not include
     sensitive church-member information. See the <a href="/privacy/">privacy notice</a>.
   </p>
-  <button type="submit" disabled={!siteConfig.forms.enabled}>
+  <button type="submit">
     {isSuggest ? "Send suggestion" : "Send correction"}
   </button>
   <p aria-live="polite"></p>
 </form>
+  )
+}

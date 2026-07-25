@@ -1,18 +1,14 @@
 {
   "name": "Church Software UK",
   "shortName": "Church Software UK",
-  "url": "https://ukchurchsoftware.example",
+  "url": "https://churchsoftware.co.uk",
   "description": "Independent, UK-focused information to help churches discover and compare administration, giving and ministry software.",
-  "contactEmail": "contact@example.invalid",
+  "publisher": {},
   "social": {
     "mastodon": "",
     "linkedin": ""
   },
-  "forms": {
-    "enabled": false,
-    "suggestSoftware": "https://example.invalid/forms/suggest-software",
-    "updateListing": "https://example.invalid/forms/update-listing"
-  },
+  "forms": { "enabled": false },
   "analytics": {
     "enabled": false,
     "provider": ""

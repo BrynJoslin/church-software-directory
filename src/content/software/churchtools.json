@@ -5,9 +5,19 @@
   "officialWebsite": "https://church.tools/en/",
   "company": "ChurchTools",
   "ukFocus": "general",
-  "categories": ["church-management", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches seeking a European-hosted church administration and planning platform"],
+  "categories": [
+    "church-management",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking a European-hosted church administration and planning platform"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Published euro and US-dollar packages vary by people, campuses, resources and ministry roles.",
@@ -18,18 +28,41 @@
       "qualifier": "XS package for up to 100 people; listed service prices exclude VAT"
     },
     "tiers": [
-      {"label": "XS", "price": "€29/month", "detail": "Up to 100 people; no additional campuses"},
-      {"label": "S", "price": "€49/month", "detail": "Up to 200 people"},
-      {"label": "M", "price": "€79/month", "detail": "Up to 500 people; two campuses"},
-      {"label": "L", "price": "€129/month", "detail": "Up to 1,000 people; three campuses"},
-      {"label": "XL", "price": "€209/month", "detail": "Up to 2,500 people; five campuses"},
-      {"label": "XXL", "price": "€339/month", "detail": "Unlimited people and campuses for one church"}
+      {
+        "label": "XS",
+        "price": "€29/month",
+        "detail": "Up to 100 people; no additional campuses"
+      },
+      {
+        "label": "S",
+        "price": "€49/month",
+        "detail": "Up to 200 people"
+      },
+      {
+        "label": "M",
+        "price": "€79/month",
+        "detail": "Up to 500 people; two campuses"
+      },
+      {
+        "label": "L",
+        "price": "€129/month",
+        "detail": "Up to 1,000 people; three campuses"
+      },
+      {
+        "label": "XL",
+        "price": "€209/month",
+        "detail": "Up to 2,500 people; five campuses"
+      },
+      {
+        "label": "XXL",
+        "price": "€339/month",
+        "detail": "Unlimited people and campuses for one church"
+      }
     ],
     "trialDetails": "30 days, with email support and weekly group video calls according to the supplier."
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
-  "giftAid": "unknown",
   "demoAvailable": "unknown",
   "dataHosting": "The supplier states that hosted accounts are hosted in Germany.",
   "gdprInformation": "The pricing page describes German hosting as GDPR-related; this directory has not independently assessed compliance.",
@@ -41,9 +74,14 @@
     "Service and rota planning",
     "Church app"
   ],
-  "integrations": ["Open API"],
+  "integrations": [
+    "Open API"
+  ],
   "importExport": [],
-  "support": ["Email support", "Group training calls during the trial"],
+  "support": [
+    "Email support",
+    "Group training calls during the trial"
+  ],
   "editorial": {
     "assessment": "ChurchTools adds a European-hosted option to the foundation set and publishes package limits clearly. UK churches still need to verify Gift Aid, sterling payments, support fit and UK regulatory requirements.",
     "bestFor": [
@@ -57,7 +95,12 @@
     "limitations": [
       "No UK-specific Gift Aid support has been confirmed",
       "Published entry pricing is in euros rather than pounds sterling"
-    ]
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that value European hosting information",
+      "differentiator": "People administration",
+      "firstCheck": "No UK-specific Gift Aid support has been confirmed"
+    }
   },
   "longForm": {
     "verdict": "ChurchTools gives a UK church a clearly documented European-hosted alternative, with a broad operational feature set and visible package limits. The main decision is whether its people, campus and role limits — plus euro pricing — fit the church’s real operating shape.",
@@ -93,13 +136,25 @@
     ],
     "userFeedback": {
       "summary": "This profile does not use an independent review score or a collected user-review sample. It is grounded in the supplier’s pricing, hosting and trial documentation.",
-      "themes": ["Independent user-feedback coverage has not yet been researched for this profile.", "The decisive fit questions are package limits, migration scope and the church’s own data governance."],
+      "themes": [
+        "Independent user-feedback coverage has not yet been researched for this profile.",
+        "The decisive fit questions are package limits, migration scope and the church’s own data governance."
+      ],
       "caveat": "This is a research gap rather than a judgement on user satisfaction or product quality."
     },
     "faq": [
-      {"question": "Where does ChurchTools say it hosts data?", "answer": "ChurchTools states that hosted accounts are in Germany. A UK church should still verify current contractual, sub-processor and data-protection details directly."},
-      {"question": "Is there a ChurchTools free trial?", "answer": "Yes. The supplier advertises a 30-day trial, email support and weekly group video calls during the trial."},
-      {"question": "Does ChurchTools support UK Gift Aid?", "answer": "Not confirmed in this profile. Do not infer Gift Aid capability from the presence of general giving or finance features."}
+      {
+        "question": "Where does ChurchTools say it hosts data?",
+        "answer": "ChurchTools states that hosted accounts are in Germany. A UK church should still verify current contractual, sub-processor and data-protection details directly."
+      },
+      {
+        "question": "Is there a ChurchTools free trial?",
+        "answer": "Yes. The supplier advertises a 30-day trial, email support and weekly group video calls during the trial."
+      },
+      {
+        "question": "Does ChurchTools support UK Gift Aid?",
+        "answer": "Not confirmed in this profile. Do not infer Gift Aid capability from the presence of general giving or finance features."
+      }
     ]
   },
   "brandAssets": {
@@ -117,7 +172,14 @@
       "label": "ChurchTools pricing",
       "url": "https://church.tools/en/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Pricing", "Package limits", "Free trial", "German hosting", "Core features", "Support"]
+      "supports": [
+        "Pricing",
+        "Package limits",
+        "Free trial",
+        "German hosting",
+        "Core features",
+        "Support"
+      ]
     }
   ],
   "affiliateRelationship": "no",

@@ -1,1 +1,145 @@
-{"name":"Vanco","slug":"vanco","shortDescription":"A US church giving and engagement platform with online, mobile and text giving, event tools, a card reader and integrations.","officialWebsite":"https://www.vancopayments.com/egiving","company":"Vanco Payments","ukFocus":"general","categories":["online-giving","church-communications"],"suitableChurchSizes":["small","medium","large","multi-site"],"suitableContexts":["Churches in Vanco’s supported market seeking integrated digital giving","Teams comparing US giving fees and integrations"],"pricing":{"model":"tiered","summary":"Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; UK availability is not confirmed.","tiers":[{"label":"Grow","price":"$0/month","detail":"Published card rate 2.90% + $0.45 and ACH rate 1% + $0.45"},{"label":"Thrive","price":"$54/month","detail":"Published card rate 2.65% + $0.39 and ACH rate 0.90% + $0.39"}]},"freePlan":"yes","freeTrial":"unknown","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Online giving","Mobile giving app","Text giving","Event management","Livestreaming","Card reader","Giving reports","60+ stated integrations"],"integrations":["ACS Technologies","Realm","MinistryPlatform","Church Windows","Parish Data Systems"],"importExport":[],"support":["US-based ongoing support","Personalised demo"],"editorial":{"assessment":"Vanco provides unusually detailed published US church-giving pricing and integrations, but those rates, ACH functionality and support are US-specific. It is useful comparison context, not a UK recommendation until the supplier confirms a UK product and finance workflow.","bestFor":["Churches in Vanco’s supported market needing US giving integrations","UK teams benchmarking overseas giving models"],"strengths":["Published plan and transaction-fee structure","Wide stated church-management integrations"],"limitations":["US pricing, ACH and support context","UK availability, GBP settlement and Gift Aid are not confirmed"]},"longForm":{"verdict":"Vanco is a detailed US giving-platform benchmark, but not currently a normal UK shortlist candidate on the information reviewed. Its published figures should not be converted into an assumed UK cost.","decisionLens":{"heading":"A payment platform is only comparable in the market where it operates.","text":"Card rates, ACH transfers, support hours and integrations are market-specific. A UK church needs GBP, UK bank settlement, Gift Aid and data-processing terms—not merely a lower-looking US transaction rate."},"sections":[{"heading":"US digital giving and integration suite","question":"Is there a current UK product route?","paragraphs":["Vanco describes online, mobile and text giving, events, livestreaming, card readers and integrations with more than 60 church-management systems. It publishes Grow and Thrive US plan fees.","Do not begin implementation planning until Vanco confirms UK customer availability and terms. If comparing models, use its published figures only as an illustration of how recurring, processing and add-on costs can combine."]}],"userFeedback":{"summary":"This profile does not use an independent review score. It is based on Vanco’s official eGiving pricing and product page.","themes":["The public fee table makes US cost modelling possible.","Country availability and local payment rails determine relevance for a UK church."],"caveat":"Supplier product claims and US fees do not establish UK availability or suitability."},"faq":[{"question":"Is Vanco free?","answer":"Vanco’s published Grow plan is $0 per month, but transaction charges and optional add-ons apply."},{"question":"How much is Vanco Thrive?","answer":"The supplier lists Thrive at $54 per month, plus published card and ACH transaction fees."},{"question":"Can UK churches use Vanco?","answer":"Not confirmed in this profile. The published material is US-focused, so confirm availability, GBP settlement and Gift Aid directly before considering it."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"Vanco online giving","url":"https://www.vancopayments.com/egiving","checked":"2026-07-25","supports":["Pricing","Features","Integrations","US support","Demo"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"Vanco review for UK churches","description":"Independent Vanco profile for UK churches: US giving plans, transaction fees, integrations and UK availability checks."}}
+{
+  "name": "Vanco",
+  "slug": "vanco",
+  "shortDescription": "A US church giving and engagement platform with online, mobile and text giving, event tools, a card reader and integrations.",
+  "officialWebsite": "https://www.vancopayments.com/egiving",
+  "company": "Vanco Payments",
+  "ukFocus": "general",
+  "categories": [
+    "online-giving",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches in Vanco’s supported market seeking integrated digital giving",
+    "Teams comparing US giving fees and integrations"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; UK availability is not confirmed.",
+    "tiers": [
+      {
+        "label": "Grow",
+        "price": "$0/month",
+        "detail": "Published card rate 2.90% + $0.45 and ACH rate 1% + $0.45"
+      },
+      {
+        "label": "Thrive",
+        "price": "$54/month",
+        "detail": "Published card rate 2.65% + $0.39 and ACH rate 0.90% + $0.39"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "giftAid": "unknown",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Online giving",
+    "Mobile giving app",
+    "Text giving",
+    "Event management",
+    "Livestreaming",
+    "Card reader",
+    "Giving reports",
+    "60+ stated integrations"
+  ],
+  "integrations": [
+    "ACS Technologies",
+    "Realm",
+    "MinistryPlatform",
+    "Church Windows",
+    "Parish Data Systems"
+  ],
+  "importExport": [],
+  "support": [
+    "US-based ongoing support",
+    "Personalised demo"
+  ],
+  "editorial": {
+    "assessment": "Vanco provides unusually detailed published US church-giving pricing and integrations, but those rates, ACH functionality and support are US-specific. It is useful comparison context, not a UK recommendation until the supplier confirms a UK product and finance workflow.",
+    "bestFor": [
+      "Churches in Vanco’s supported market needing US giving integrations",
+      "UK teams benchmarking overseas giving models"
+    ],
+    "strengths": [
+      "Published plan and transaction-fee structure",
+      "Wide stated church-management integrations"
+    ],
+    "limitations": [
+      "US pricing, ACH and support context",
+      "UK availability, GBP settlement and Gift Aid are not confirmed"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches in Vanco’s supported market needing US giving integrations",
+      "differentiator": "Online giving",
+      "firstCheck": "US pricing, ACH and support context"
+    }
+  },
+  "longForm": {
+    "verdict": "Vanco is a detailed US giving-platform benchmark, but not currently a normal UK shortlist candidate on the information reviewed. Its published figures should not be converted into an assumed UK cost.",
+    "decisionLens": {
+      "heading": "A payment platform is only comparable in the market where it operates.",
+      "text": "Card rates, ACH transfers, support hours and integrations are market-specific. A UK church needs GBP, UK bank settlement, Gift Aid and data-processing terms—not merely a lower-looking US transaction rate."
+    },
+    "sections": [
+      {
+        "heading": "US digital giving and integration suite",
+        "question": "Is there a current UK product route?",
+        "paragraphs": [
+          "Vanco describes online, mobile and text giving, events, livestreaming, card readers and integrations with more than 60 church-management systems. It publishes Grow and Thrive US plan fees.",
+          "Do not begin implementation planning until Vanco confirms UK customer availability and terms. If comparing models, use its published figures only as an illustration of how recurring, processing and add-on costs can combine."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Vanco’s official eGiving pricing and product page.",
+      "themes": [
+        "The public fee table makes US cost modelling possible.",
+        "Country availability and local payment rails determine relevance for a UK church."
+      ],
+      "caveat": "Supplier product claims and US fees do not establish UK availability or suitability."
+    },
+    "faq": [
+      {
+        "question": "Is Vanco free?",
+        "answer": "Vanco’s published Grow plan is $0 per month, but transaction charges and optional add-ons apply."
+      },
+      {
+        "question": "How much is Vanco Thrive?",
+        "answer": "The supplier lists Thrive at $54 per month, plus published card and ACH transaction fees."
+      },
+      {
+        "question": "Can UK churches use Vanco?",
+        "answer": "Not confirmed in this profile. The published material is US-focused, so confirm availability, GBP settlement and Gift Aid directly before considering it."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Vanco online giving",
+      "url": "https://www.vancopayments.com/egiving",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Features",
+        "Integrations",
+        "US support",
+        "Demo"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Vanco review for UK churches",
+    "description": "Independent Vanco profile for UK churches: US giving plans, transaction fees, integrations and UK availability checks."
+  }
+}

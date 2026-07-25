@@ -35,10 +35,9 @@ const searchText = [
   data-categories={software.categories.map((category) => category.id).join(",")}
   data-uk-focus={software.ukFocus}
   data-uk-organisation={software.ukOrganisation}
-  data-sizes={software.suitableChurchSizes.join(",")}
   data-free-plan={software.freePlan}
   data-free-trial={software.freeTrial}
-  data-gift-aid={software.giftAid}
+  data-gift-aid={software.giftAid ?? undefined}
   data-pricing={software.pricing.model}
   data-last-checked={software.lastChecked.toISOString().slice(0, 10)}
 >
@@ -86,10 +85,14 @@ const searchText = [
       <dt>Free trial</dt>
       <dd>{triStateLabel(software.freeTrial)}</dd>
     </div>
-    <div>
-      <dt>Gift Aid</dt>
-      <dd>{triStateLabel(software.giftAid)}</dd>
-    </div>
+    {
+      software.giftAid && (
+        <div>
+          <dt>Gift Aid</dt>
+          <dd>{triStateLabel(software.giftAid)}</dd>
+        </div>
+      )
+    }
   </dl>
   <p class="card-meta">
     Last checked: <time datetime={software.lastChecked.toISOString().slice(0, 10)}>

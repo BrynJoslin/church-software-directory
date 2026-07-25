@@ -3,10 +3,8 @@
 A statically generated, independent directory that helps UK churches discover,
 assess and compare software for administration, giving and ministry.
 
-This repository currently contains the Phase 1 architectural foundation: fifty-one
-representative software entries, three categories and two guides. It proves the
-content, route, filtering, comparison, SEO and maintenance patterns without
-pretending to be a complete catalogue.
+The current catalogue contains researched software listings, categories and
+guides. It is not a market-wide shortlist; inclusion is not endorsement.
 
 ## Technology
 
@@ -82,7 +80,7 @@ src/
   scripts/          Progressive directory and comparison behaviour
   styles/           Design system and responsive CSS
 scripts/            Maintenance and export commands
-public/             Static assets, robots file and generated data
+public/             Static assets and generated data
 docs/               Product, implementation and maintenance documentation
 ```
 
@@ -99,17 +97,20 @@ definitions and templates are documented in `docs/CONTENT_FIELDS.md` and
 Edit `src/config/site.json` before production deployment. It controls:
 
 - site name, production URL and description
-- contact and social placeholders
+- optional publisher, contact and social information
 - form endpoints and enabled state
 - analytics state
 - affiliate and sponsored feature flags
 - default social image
 - stale-listing threshold
 
-`astro.config.mjs` and `public/robots.txt` must use the same production URL.
-Placeholder `.example` and `.invalid` values are deliberate.
+`src/config/site.json` is the single source of truth for the production URL.
+It supplies Astro's sitemap integration and the generated `robots.txt` route,
+as well as canonical, Open Graph and structured-data URLs. The configured
+domain is live; do not treat the directory as launch-ready until the responsible
+publisher and public correction route have been confirmed.
 
-Forms are static and safely disabled until a real endpoint is configured and the
+Forms expose no submission controls until a real endpoint is configured and the
 privacy notice is completed. Analytics is disabled. Affiliate links and
 sponsored listings must be enabled deliberately for a confirmed relationship
 and visibly disclosed on the relevant listing.
@@ -139,8 +140,8 @@ Output directory: dist
 Node version: 22.12 or newer
 ```
 
-GitHub Actions validates pull requests and pushes to `main`. Deployment is not
-configured in this foundation phase.
+GitHub Actions validates pull requests and pushes to `main`. Deployment remains
+unconfigured until the hosting and responsible publisher are confirmed.
 
 ## Editorial boundary
 

@@ -5,17 +5,46 @@
   "officialWebsite": "https://www.chmeetings.com/",
   "company": "ChMeetings",
   "ukFocus": "general",
-  "categories": ["church-management", "online-giving", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches wanting to evaluate a free plan before paying", "Teams looking for people-based pricing and a migration option"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches wanting to evaluate a free plan before paying",
+    "Teams looking for people-based pricing and a migration option"
+  ],
   "pricing": {
     "model": "freemium",
     "summary": "ChMeetings publishes a free-forever plan for up to 50 people and says paid plans start at $12 per month for up to 100 people; annual billing is priced as 10 months.",
-    "startingPrice": {"amount": 0, "currency": "USD", "period": "month", "qualifier": "Free Forever plan for up to 50 people"},
+    "startingPrice": {
+      "amount": 0,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Free Forever plan for up to 50 people"
+    },
     "tiers": [
-      {"label": "Free Forever", "price": "$0", "detail": "Up to 50 people; selected limits apply"},
-      {"label": "Paid starting tier", "price": "from $12/month", "detail": "Up to 100 people according to the supplier; higher tiers scale by people"},
-      {"label": "Unlimited", "price": "See supplier", "detail": "An Unlimited plan is published; current price should be verified directly"}
+      {
+        "label": "Free Forever",
+        "price": "$0",
+        "detail": "Up to 50 people; selected limits apply"
+      },
+      {
+        "label": "Paid starting tier",
+        "price": "from $12/month",
+        "detail": "Up to 100 people according to the supplier; higher tiers scale by people"
+      },
+      {
+        "label": "Unlimited",
+        "price": "See supplier",
+        "detail": "An Unlimited plan is published; current price should be verified directly"
+      }
     ],
     "trialDetails": "30 days, no credit card required; the supplier describes demo-data and blank-database options with some trial limitations."
   },
@@ -23,35 +52,146 @@
   "freeTrial": "yes",
   "giftAid": "unknown",
   "demoAvailable": "yes",
-  "coreFeatures": ["People and households", "Groups and permissions", "Email and messaging", "Online giving and pledges", "Event registration", "Volunteer scheduling"],
-  "integrations": ["PayPal", "Stripe", "Mailchimp", "Twilio"],
-  "importExport": ["Free data migration for paid packages according to the supplier"],
-  "support": ["Live demo call", "Priority support on qualifying plans"],
+  "dataHosting": "ChMeetings states that its services use Microsoft Azure and its published materials describe United States hosting. Confirm the selected region, current hosting and transfer safeguards for a church's requirements.",
+  "gdprInformation": "ChMeetings publishes security and terms material describing GDPR measures and a data-processing addendum for applicable customers. This is supplier information, not a compliance determination for a church.",
+  "coreFeatures": [
+    "People and households",
+    "Groups and permissions",
+    "Email and messaging",
+    "Online giving and pledges",
+    "Event registration",
+    "Volunteer scheduling"
+  ],
+  "integrations": [
+    "PayPal",
+    "Stripe",
+    "Mailchimp",
+    "Twilio"
+  ],
+  "importExport": [
+    "Free data migration for paid packages according to the supplier",
+    "Exports from different areas of the platform for church-managed backups"
+  ],
+  "support": [
+    "Live demo call",
+    "Priority support on qualifying plans",
+    "Published email, online-chat and telephone support routes"
+  ],
   "editorial": {
     "assessment": "ChMeetings offers a low-risk evaluation route through a free plan and 30-day trial. A UK church should not translate that affordability into an assumption about UK payment, Gift Aid, data-protection or SMS costs; those must be confirmed against its own workflow.",
-    "bestFor": ["Small churches wanting a free starting point", "Teams that want to test a full platform before deciding on paid capacity"],
-    "strengths": ["Free plan and 30-day trial are published", "Supplier describes free paid-plan migration"],
-    "limitations": ["Published starting prices are in US dollars", "Gift Aid and UK-specific finance arrangements are not confirmed here"]
+    "bestFor": [
+      "Small churches wanting a free starting point",
+      "Teams that want to test a full platform before deciding on paid capacity"
+    ],
+    "strengths": [
+      "Free plan and 30-day trial are published",
+      "Supplier describes free paid-plan migration"
+    ],
+    "limitations": [
+      "Published starting prices are in US dollars",
+      "Gift Aid and UK-specific finance arrangements are not confirmed here"
+    ],
+    "procurementVerdict": {
+      "problem": "Small churches wanting a free starting point",
+      "differentiator": "People and households",
+      "firstCheck": "Published starting prices are in US dollars"
+    }
   },
   "longForm": {
     "verdict": "ChMeetings makes it possible to test a broad church-management setup without first crossing a procurement threshold. The decisive question is not whether the free tier exists, but where real usage—people, communications, payments and support—moves the church into paid or third-party costs.",
-    "decisionLens": {"heading": "Use the free plan to test operational fit, not just feature access.", "text": "A free plan can quickly show whether people records, permissions and volunteer workflows work for a team. It cannot answer the more important live questions about payment processing, SMS spend, exports and data protection unless those are tested explicitly."},
-    "sections": [{"heading": "Free entry and paid growth", "question": "What will trigger the first meaningful cost?", "paragraphs": ["ChMeetings publishes a Free Forever plan for up to 50 people and a 30-day trial for the fuller product. Its supplier material says paid plans scale with the number of people and describes extra charges for some communications and a branded app.", "Set up a small, non-sensitive test database, then build a cost model for expected people count, text messages, online giving and any external services. Ask the supplier about UK payment and data-processing arrangements before using it for live church data."]}],
-    "userFeedback": {"summary": "This profile does not use the supplier’s public review aggregate as an independent rating. It is based on the published pricing and trial documentation.", "themes": ["The free plan and trial lower evaluation risk.", "The most useful trial covers live-like permissions, exports and communication limits."], "caveat": "Supplier claims about migrations, scale or reviews are not treated as independent testing or an endorsement."},
+    "decisionLens": {
+      "heading": "Use the free plan to test operational fit, not just feature access.",
+      "text": "A free plan can quickly show whether people records, permissions and volunteer workflows work for a team. It cannot answer the more important live questions about payment processing, SMS spend, exports and data protection unless those are tested explicitly."
+    },
+    "sections": [
+      {
+        "heading": "Free entry and paid growth",
+        "question": "What will trigger the first meaningful cost?",
+        "paragraphs": [
+          "ChMeetings publishes a Free Forever plan for up to 50 people and a 30-day trial for the fuller product. Its supplier material says paid plans scale with the number of people and describes extra charges for some communications and a branded app.",
+          "Set up a small, non-sensitive test database, then build a cost model for expected people count, text messages, online giving and any external services. Ask the supplier about UK payment and data-processing arrangements before using it for live church data."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use the supplier’s public review aggregate as an independent rating. It is based on the published pricing and trial documentation.",
+      "themes": [
+        "The free plan and trial lower evaluation risk.",
+        "The most useful trial covers live-like permissions, exports and communication limits."
+      ],
+      "caveat": "Supplier claims about migrations, scale or reviews are not treated as independent testing or an endorsement."
+    },
     "faq": [
-      {"question": "Is ChMeetings free?", "answer": "Yes. The supplier publishes a Free Forever plan for churches managing up to 50 people. Check the current plan comparison for feature and usage limits."},
-      {"question": "Does ChMeetings have a free trial?", "answer": "Yes. ChMeetings describes a 30-day trial without a credit card, with a choice of demo data or a blank database and some stated trial limits."},
-      {"question": "Does ChMeetings support UK Gift Aid?", "answer": "Not confirmed in this profile. Verify UK payment methods, Gift Aid processes, finance exports and processing costs directly before adoption."}
+      {
+        "question": "Is ChMeetings free?",
+        "answer": "Yes. The supplier publishes a Free Forever plan for churches managing up to 50 people. Check the current plan comparison for feature and usage limits."
+      },
+      {
+        "question": "Does ChMeetings have a free trial?",
+        "answer": "Yes. ChMeetings describes a 30-day trial without a credit card, with a choice of demo data or a blank database and some stated trial limits."
+      },
+      {
+        "question": "Does ChMeetings support UK Gift Aid?",
+        "answer": "Not confirmed in this profile. Verify UK payment methods, Gift Aid processes, finance exports and processing costs directly before adoption."
+      }
     ]
   },
-  "brandAssets": {"logo": {"src": "/images/software/chmeetings/chmeetings-logo.png", "alt": "ChMeetings logo", "source": "https://www.chmeetings.com/", "checked": "2026-07-25"}},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/chmeetings/chmeetings-logo.png",
+      "alt": "ChMeetings logo",
+      "source": "https://www.chmeetings.com/",
+      "checked": "2026-07-25"
+    }
+  },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "ChMeetings pricing", "url": "https://www.chmeetings.com/pricing/", "checked": "2026-07-25", "supports": ["Free plan", "Pricing model", "Paid migration", "Additional costs"]},
-    {"label": "ChMeetings trial guidance", "url": "https://help.chmeetings.com/hc/en-us/articles/17358496665116-ChMeetings-Trial-Limitations", "checked": "2026-07-25", "supports": ["30-day trial", "No-card evaluation", "Demo data"]}
+    {
+      "label": "ChMeetings pricing",
+      "url": "https://www.chmeetings.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free plan",
+        "Pricing model",
+        "Paid migration",
+        "Additional costs"
+      ]
+    },
+    {
+      "label": "ChMeetings trial guidance",
+      "url": "https://help.chmeetings.com/hc/en-us/articles/17358496665116-ChMeetings-Trial-Limitations",
+      "checked": "2026-07-25",
+      "supports": [
+        "30-day trial",
+        "No-card evaluation",
+        "Demo data"
+      ]
+    },
+    {
+      "label": "ChMeetings security information",
+      "url": "https://www.chmeetings.com/security/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Microsoft Azure hosting statement",
+        "Published GDPR measures",
+        "Backups and self-service export statement"
+      ]
+    },
+    {
+      "label": "ChMeetings terms of service",
+      "url": "https://www.chmeetings.com/terms-of-services/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Data-processing addendum",
+        "Published support routes"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "ChMeetings review for UK churches", "description": "Independent ChMeetings profile for UK churches: free plan, 30-day trial, people-based pricing, key UK checks and FAQs."}
+  "seo": {
+    "title": "ChMeetings review for UK churches",
+    "description": "Independent ChMeetings profile for UK churches: free plan, 30-day trial, people-based pricing, key UK checks and FAQs."
+  }
 }

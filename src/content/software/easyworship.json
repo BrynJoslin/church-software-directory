@@ -1,1 +1,141 @@
-{"name":"EasyWorship","slug":"easyworship","shortDescription":"Church presentation software for songs, Scripture, media and service content, licensed across a campus by weekly attendance.","officialWebsite":"https://easyworship.com/","company":"Softouch Development","ukFocus":"general","categories":["presentation-software","worship-planning"],"suitableChurchSizes":["small","medium","large","multi-site"],"suitableContexts":["Churches wanting campus-level presentation licensing","Teams needing lyrics, Scripture and media presentation"],"pricing":{"model":"tiered","summary":"EasyWorship publishes attendance-based US-dollar campus subscriptions, with Basic and Premium starting prices and a 30-day trial.","startingPrice":{"amount":17.5,"currency":"USD","period":"month","qualifier":"Basic starting price; attendance affects the final price"},"tiers":[{"label":"Basic","price":"from $17.50/month or $210/year","detail":"Campus licence, core presentation software and support"},{"label":"Premium","price":"from $27.50/month or $330/year","detail":"Adds a supplier media library and online media designer"}],"trialDetails":"30 days, full access and no credit card required."},"freePlan":"no","freeTrial":"yes","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Song lyrics","Scripture presentation","Media display","Slides and graphics","Livestream output","Campus licensing"],"integrations":[],"importExport":[],"support":["Free support","Live onboarding"],"editorial":{"assessment":"EasyWorship gives a campus-level presentation licence with price bands that follow weekly attendance. A UK church should confirm its local price, relevant Bible and media rights, devices and output requirements before choosing a plan.","bestFor":["Churches wanting one campus licence for their presentation team"],"strengths":["Published starting prices and 30-day trial","Basic and media-inclusive Premium options"],"limitations":["US-dollar pricing","Content licensing must be checked for UK use"]},"longForm":{"verdict":"EasyWorship is a presentation workflow choice: test whether its campus licence and content options make live-service handovers easier for volunteers.","decisionLens":{"heading":"Attendance pricing and content rights are separate decisions.","text":"The subscription is based on weekly attendance, while a church still needs to confirm the rights to use its chosen Bibles, songs, fonts and media in its specific setting."},"sections":[{"heading":"A live-service trial","question":"Can ordinary operators build and run the service confidently?","paragraphs":["EasyWorship publishes Basic and Premium campus subscriptions plus a thirty-day, full-access trial.","Test one real service from preparation to outputs, using the actual computer, projector, Bible versions and volunteer handover process."]}],"userFeedback":{"summary":"This profile uses supplier pricing and product information rather than an independent review score.","themes":["Campus licensing can simplify team deployment.","The trial should test outputs and media workflow, not just slide creation."],"caveat":"Supplier materials do not replace checking UK content licences and hardware compatibility."},"faq":[{"question":"Does EasyWorship have a free trial?","answer":"Yes. EasyWorship advertises a thirty-day full-access trial without a credit card."},{"question":"How much does EasyWorship cost?","answer":"The supplier publishes Basic from $17.50/month and Premium from $27.50/month, with final price based on average weekly attendance."},{"question":"Does EasyWorship include church content licences?","answer":"Do not assume so. Confirm the relevant UK rights for Bibles, songs, fonts and media separately."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"EasyWorship pricing","url":"https://easyworship.com/software/pricing","checked":"2026-07-25","supports":["Pricing","Attendance model","30-day trial","Plan features"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"EasyWorship review for UK churches","description":"Independent EasyWorship profile for UK churches: attendance pricing, 30-day trial, presentation workflow and FAQs."}}
+{
+  "name": "EasyWorship",
+  "slug": "easyworship",
+  "shortDescription": "Church presentation software for songs, Scripture, media and service content, licensed across a campus by weekly attendance.",
+  "officialWebsite": "https://easyworship.com/",
+  "company": "Softouch Development",
+  "ukFocus": "general",
+  "categories": [
+    "presentation-software",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches wanting campus-level presentation licensing",
+    "Teams needing lyrics, Scripture and media presentation"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "EasyWorship publishes attendance-based US-dollar campus subscriptions, with Basic and Premium starting prices and a 30-day trial.",
+    "startingPrice": {
+      "amount": 17.5,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Basic starting price; attendance affects the final price"
+    },
+    "tiers": [
+      {
+        "label": "Basic",
+        "price": "from $17.50/month or $210/year",
+        "detail": "Campus licence, core presentation software and support"
+      },
+      {
+        "label": "Premium",
+        "price": "from $27.50/month or $330/year",
+        "detail": "Adds a supplier media library and online media designer"
+      }
+    ],
+    "trialDetails": "30 days, full access and no credit card required."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Song lyrics",
+    "Scripture presentation",
+    "Media display",
+    "Slides and graphics",
+    "Livestream output",
+    "Campus licensing"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Free support",
+    "Live onboarding"
+  ],
+  "editorial": {
+    "assessment": "EasyWorship gives a campus-level presentation licence with price bands that follow weekly attendance. A UK church should confirm its local price, relevant Bible and media rights, devices and output requirements before choosing a plan.",
+    "bestFor": [
+      "Churches wanting one campus licence for their presentation team"
+    ],
+    "strengths": [
+      "Published starting prices and 30-day trial",
+      "Basic and media-inclusive Premium options"
+    ],
+    "limitations": [
+      "US-dollar pricing",
+      "Content licensing must be checked for UK use"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches wanting one campus licence for their presentation team",
+      "differentiator": "Song lyrics",
+      "firstCheck": "US-dollar pricing"
+    }
+  },
+  "longForm": {
+    "verdict": "EasyWorship is a presentation workflow choice: test whether its campus licence and content options make live-service handovers easier for volunteers.",
+    "decisionLens": {
+      "heading": "Attendance pricing and content rights are separate decisions.",
+      "text": "The subscription is based on weekly attendance, while a church still needs to confirm the rights to use its chosen Bibles, songs, fonts and media in its specific setting."
+    },
+    "sections": [
+      {
+        "heading": "A live-service trial",
+        "question": "Can ordinary operators build and run the service confidently?",
+        "paragraphs": [
+          "EasyWorship publishes Basic and Premium campus subscriptions plus a thirty-day, full-access trial.",
+          "Test one real service from preparation to outputs, using the actual computer, projector, Bible versions and volunteer handover process."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile uses supplier pricing and product information rather than an independent review score.",
+      "themes": [
+        "Campus licensing can simplify team deployment.",
+        "The trial should test outputs and media workflow, not just slide creation."
+      ],
+      "caveat": "Supplier materials do not replace checking UK content licences and hardware compatibility."
+    },
+    "faq": [
+      {
+        "question": "Does EasyWorship have a free trial?",
+        "answer": "Yes. EasyWorship advertises a thirty-day full-access trial without a credit card."
+      },
+      {
+        "question": "How much does EasyWorship cost?",
+        "answer": "The supplier publishes Basic from $17.50/month and Premium from $27.50/month, with final price based on average weekly attendance."
+      },
+      {
+        "question": "Does EasyWorship include church content licences?",
+        "answer": "Do not assume so. Confirm the relevant UK rights for Bibles, songs, fonts and media separately."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "EasyWorship pricing",
+      "url": "https://easyworship.com/software/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Attendance model",
+        "30-day trial",
+        "Plan features"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "EasyWorship review for UK churches",
+    "description": "Independent EasyWorship profile for UK churches: attendance pricing, 30-day trial, presentation workflow and FAQs."
+  }
+}

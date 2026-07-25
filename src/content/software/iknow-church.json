@@ -6,9 +6,19 @@
   "company": "iKnow Church",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["UK churches wanting an all-features member-based subscription"],
+  "categories": [
+    "church-management",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches wanting an all-features member-based subscription"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Published GBP pricing is based on the number of adult church members and includes VAT and the listed feature set.",
@@ -19,12 +29,36 @@
       "qualifier": "Fewer than 50 adult church members; supplier pricing includes VAT"
     },
     "tiers": [
-      {"label": "Under 50 members", "price": "£22/month or £220/year", "detail": "Unlimited children and 100 free contacts; VAT included"},
-      {"label": "51–100 members", "price": "£33/month or £330/year", "detail": "Unlimited children and 300 free contacts; VAT included"},
-      {"label": "101–200 members", "price": "£44–£55/month", "detail": "Published bands at 101–150 and 151–200 members"},
-      {"label": "201–500 members", "price": "£66–£77/month", "detail": "Published bands at 201–300 and 301–500 members"},
-      {"label": "501–1,000 members", "price": "£93.50–£110/month", "detail": "Published bands at 501–700 and 701–1,000 members"},
-      {"label": "1,001–4,000 members", "price": "£137.50–£220/month", "detail": "Published bands by member count; 4,000+ is custom pricing"}
+      {
+        "label": "Under 50 members",
+        "price": "£22/month or £220/year",
+        "detail": "Unlimited children and 100 free contacts; VAT included"
+      },
+      {
+        "label": "51–100 members",
+        "price": "£33/month or £330/year",
+        "detail": "Unlimited children and 300 free contacts; VAT included"
+      },
+      {
+        "label": "101–200 members",
+        "price": "£44–£55/month",
+        "detail": "Published bands at 101–150 and 151–200 members"
+      },
+      {
+        "label": "201–500 members",
+        "price": "£66–£77/month",
+        "detail": "Published bands at 201–300 and 301–500 members"
+      },
+      {
+        "label": "501–1,000 members",
+        "price": "£93.50–£110/month",
+        "detail": "Published bands at 501–700 and 701–1,000 members"
+      },
+      {
+        "label": "1,001–4,000 members",
+        "price": "£137.50–£220/month",
+        "detail": "Published bands by member count; 4,000+ is custom pricing"
+      }
     ],
     "trialDetails": "A free trial is referenced in the supplier’s donation-features material; the current duration is not confirmed in this profile."
   },
@@ -39,9 +73,15 @@
     "Gift Aid claim submission",
     "Multi-location donation records"
   ],
-  "integrations": ["HMRC Gift Aid claim submission"],
-  "importExport": ["Donation reports in PDF or CSV"],
-  "support": ["UK-based email and telephone support"],
+  "integrations": [
+    "HMRC Gift Aid claim submission"
+  ],
+  "importExport": [
+    "Donation reports in PDF or CSV"
+  ],
+  "support": [
+    "UK-based email and telephone support"
+  ],
   "editorial": {
     "assessment": "iKnow Church supplies unusually specific UK finance and Gift Aid information. A church should confirm the exact modules, transaction charges, migration process and security arrangements for its own use case.",
     "bestFor": [
@@ -55,7 +95,12 @@
     "limitations": [
       "Gift Aid submissions and payment processing can carry additional charges",
       "Data hosting and accessibility information have not yet been verified for this listing"
-    ]
+    ],
+    "procurementVerdict": {
+      "problem": "UK churches that want administration and giving in one service",
+      "differentiator": "People administration",
+      "firstCheck": "Gift Aid submissions and payment processing can carry additional charges"
+    }
   },
   "longForm": {
     "verdict": "iKnow Church is one of the clearest UK-specific profiles in the current set: it publishes pound-sterling, VAT-inclusive member pricing and describes HMRC Gift Aid submission. Its real value should be tested in the finance hand-off, not assumed from the presence of a giving feature.",
@@ -91,13 +136,25 @@
     ],
     "userFeedback": {
       "summary": "This profile does not use an independent review score or a collected user-review sample. Its assessment is based on supplier documentation about UK pricing and Gift Aid workflows.",
-      "themes": ["Independent user-feedback coverage has not yet been researched for this profile.", "The useful validation is a treasurer-led trial of the actual Gift Aid and reconciliation workflow."],
+      "themes": [
+        "Independent user-feedback coverage has not yet been researched for this profile.",
+        "The useful validation is a treasurer-led trial of the actual Gift Aid and reconciliation workflow."
+      ],
       "caveat": "This research gap is not evidence of poor user experience or limited product quality."
     },
     "faq": [
-      {"question": "Does iKnow Church support Gift Aid claims?", "answer": "Its supplier documentation describes submitting Gift Aid claims to HMRC. A church should confirm the current workflow, charges and responsibilities directly before using it in live finance processes."},
-      {"question": "How is iKnow Church priced?", "answer": "The supplier publishes VAT-inclusive GBP pricing linked to adult church members, with children and a stated number of outreach contacts treated separately. Check the current band for the church’s own records."},
-      {"question": "Where is iKnow Church data hosted?", "answer": "Not confirmed in this profile. Ask the supplier for current hosting, data-processing and sub-processor information."}
+      {
+        "question": "Does iKnow Church support Gift Aid claims?",
+        "answer": "Its supplier documentation describes submitting Gift Aid claims to HMRC. A church should confirm the current workflow, charges and responsibilities directly before using it in live finance processes."
+      },
+      {
+        "question": "How is iKnow Church priced?",
+        "answer": "The supplier publishes VAT-inclusive GBP pricing linked to adult church members, with children and a stated number of outreach contacts treated separately. Check the current band for the church’s own records."
+      },
+      {
+        "question": "Where is iKnow Church data hosted?",
+        "answer": "Not confirmed in this profile. Ask the supplier for current hosting, data-processing and sub-processor information."
+      }
     ]
   },
   "brandAssets": {
@@ -115,25 +172,40 @@
       "label": "iKnow Church pricing",
       "url": "https://www.iknowchurch.co.uk/iknow",
       "checked": "2026-07-25",
-      "supports": ["Pricing model", "Published member bands", "Starting price", "Support"]
+      "supports": [
+        "Pricing model",
+        "Published member bands",
+        "Starting price",
+        "Support"
+      ]
     },
     {
       "label": "iKnow Church donation features",
       "url": "https://iknowchurch.co.uk/features-old/donations/",
       "checked": "2026-07-25",
-      "supports": ["Free trial", "Giving features", "Gift Aid", "Multi-location support"]
+      "supports": [
+        "Free trial",
+        "Giving features",
+        "Gift Aid",
+        "Multi-location support"
+      ]
     },
     {
       "label": "iKnow Church finance charges",
       "url": "https://www.iknowchurch.co.uk/charges/",
       "checked": "2026-07-25",
-      "supports": ["Transaction charges", "Gift Aid claim charge"]
+      "supports": [
+        "Transaction charges",
+        "Gift Aid claim charge"
+      ]
     },
     {
       "label": "iKnow Church privacy policy",
       "url": "https://www.iknowchurch.co.uk/privacy-policy",
       "checked": "2026-07-25",
-      "supports": ["UK-registered organisation"]
+      "supports": [
+        "UK-registered organisation"
+      ]
     }
   ],
   "affiliateRelationship": "no",

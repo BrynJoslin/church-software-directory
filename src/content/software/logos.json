@@ -5,8 +5,15 @@
   "officialWebsite": "https://www.logos.com/",
   "company": "Logos",
   "ukFocus": "general",
-  "categories": ["bible-study"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "categories": [
+    "bible-study"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Pastors, preachers and Bible-study leaders who regularly research and teach from a substantial digital library",
     "Theological students and ministry teams needing searchable reference resources"
@@ -21,16 +28,31 @@
       "qualifier": "Premium, billed annually, after the 30-day trial"
     },
     "tiers": [
-      {"label": "Free", "price": "$0", "detail": "Free account, app and selected study features"},
-      {"label": "Premium", "price": "from $8.33/month", "detail": "Billed annually; 200+ books and study tools"},
-      {"label": "Pro", "price": "from $12.50/month", "detail": "Billed annually; adds teaching, sermon-preparation and language tools"},
-      {"label": "Max", "price": "from $16.67/month", "detail": "Billed annually; advanced original-language study tools"}
+      {
+        "label": "Free",
+        "price": "$0",
+        "detail": "Free account, app and selected study features"
+      },
+      {
+        "label": "Premium",
+        "price": "from $8.33/month",
+        "detail": "Billed annually; 200+ books and study tools"
+      },
+      {
+        "label": "Pro",
+        "price": "from $12.50/month",
+        "detail": "Billed annually; adds teaching, sermon-preparation and language tools"
+      },
+      {
+        "label": "Max",
+        "price": "from $16.67/month",
+        "detail": "Billed annually; advanced original-language study tools"
+      }
     ],
     "trialDetails": "30 days for the paid subscription tiers; cancel, change plan or switch to the free version according to the supplier."
   },
   "freePlan": "yes",
   "freeTrial": "yes",
-  "giftAid": "unknown",
   "demoAvailable": "unknown",
   "coreFeatures": [
     "Searchable Bible and theological library",
@@ -42,7 +64,10 @@
   ],
   "integrations": [],
   "importExport": [],
-  "support": ["Free support and training stated by the supplier", "Live and on-demand training resources"],
+  "support": [
+    "Free support and training stated by the supplier",
+    "Live and on-demand training resources"
+  ],
   "editorial": {
     "assessment": "Logos is a research and teaching environment rather than church administration software. It is most valuable for someone who will repeatedly search, read and connect a meaningful digital library; it is excessive for a church that only needs a few translations and basic reference material.",
     "bestFor": [
@@ -59,7 +84,12 @@
       "The paid subscription and library costs require a current, UK-specific check",
       "A large feature set brings a learning curve and may exceed a casual user's needs",
       "Resource licences and any shared church use should be verified before purchase"
-    ]
+    ],
+    "procurementVerdict": {
+      "problem": "Regular sermon, Bible-study or theological research",
+      "differentiator": "Searchable Bible and theological library",
+      "firstCheck": "The paid subscription and library costs require a current, UK-specific check"
+    }
   },
   "longForm": {
     "verdict": "Logos earns its place when study preparation involves recurring research across a sizeable library, not when it merely replaces opening a Bible. It concentrates searching, reference works, original-language tools and teaching preparation in one system, but the strongest fit depends on whether the user will learn and repeatedly use that depth.",
@@ -103,10 +133,22 @@
       "caveat": "Review samples reflect different users, product versions, libraries and incentives. This profile does not use review scores in structured data or treat them as an endorsement."
     },
     "faq": [
-      {"question": "Is Logos Bible Study free?", "answer": "Logos documents a free account that unlocks the app and selected study features. Paid subscriptions and resources are separate, so check the current offer and the exact library included before paying."},
-      {"question": "Is Logos suitable for sermon preparation?", "answer": "The supplier presents Sermon Builder, guided workflows, searchable libraries and original-language tools for preaching and teaching. Suitability depends on the user's preparation process and willingness to learn the platform."},
-      {"question": "Can Logos be used on mobile devices?", "answer": "Yes. Logos documents desktop, web and mobile access. Its platform comparison notes that a laptop is better for the most powerful study tools or extended offline use."},
-      {"question": "Should a small church buy Logos for every leader?", "answer": "Not automatically. Start with the people who repeatedly prepare teaching or research, test the resources they need and verify the relevant licence terms before considering any wider purchase."}
+      {
+        "question": "Is Logos Bible Study free?",
+        "answer": "Logos documents a free account that unlocks the app and selected study features. Paid subscriptions and resources are separate, so check the current offer and the exact library included before paying."
+      },
+      {
+        "question": "Is Logos suitable for sermon preparation?",
+        "answer": "The supplier presents Sermon Builder, guided workflows, searchable libraries and original-language tools for preaching and teaching. Suitability depends on the user's preparation process and willingness to learn the platform."
+      },
+      {
+        "question": "Can Logos be used on mobile devices?",
+        "answer": "Yes. Logos documents desktop, web and mobile access. Its platform comparison notes that a laptop is better for the most powerful study tools or extended offline use."
+      },
+      {
+        "question": "Should a small church buy Logos for every leader?",
+        "answer": "Not automatically. Start with the people who repeatedly prepare teaching or research, test the resources they need and verify the relevant licence terms before considering any wider purchase."
+      }
     ]
   },
   "brandAssets": {
@@ -124,49 +166,81 @@
       "label": "Logos subscription pricing",
       "url": "https://www.logos.com/logos-explore-pricing",
       "checked": "2026-07-25",
-      "supports": ["Subscription tiers", "Published prices", "30-day trial", "Included books and tools"]
+      "supports": [
+        "Subscription tiers",
+        "Published prices",
+        "30-day trial",
+        "Included books and tools"
+      ]
     },
     {
       "label": "Logos product overview",
       "url": "https://www.logos.com/",
       "checked": "2026-07-25",
-      "supports": ["Platform purpose", "30-day trial", "Mobile apps", "Supplier training statement"]
+      "supports": [
+        "Platform purpose",
+        "30-day trial",
+        "Mobile apps",
+        "Supplier training statement"
+      ]
     },
     {
       "label": "Logos study tools overview",
       "url": "https://www.logos.com/time-well-spent",
       "checked": "2026-07-25",
-      "supports": ["Factbook", "Searchable library", "Sermon Builder", "Guided workflows", "Original-language tools"]
+      "supports": [
+        "Factbook",
+        "Searchable library",
+        "Sermon Builder",
+        "Guided workflows",
+        "Original-language tools"
+      ]
     },
     {
       "label": "Logos free account guidance",
       "url": "https://support.logos.com/hc/en-us/articles/360023029051-Get-started-with-Logos-for-free",
       "checked": "2026-07-25",
-      "supports": ["Free account", "Free app access", "Web app"]
+      "supports": [
+        "Free account",
+        "Free app access",
+        "Web app"
+      ]
     },
     {
       "label": "Logos mobile guidance",
       "url": "https://support.logos.com/hc/en-us/articles/360035659011-Get-Started-with-Logos-Mobile",
       "checked": "2026-07-25",
-      "supports": ["Mobile app", "Mobile search"]
+      "supports": [
+        "Mobile app",
+        "Mobile search"
+      ]
     },
     {
       "label": "Logos platform comparison",
       "url": "https://support.logos.com/hc/en-us/articles/9785956686349",
       "checked": "2026-07-25",
-      "supports": ["Desktop, web and mobile comparison", "Offline-use consideration"]
+      "supports": [
+        "Desktop, web and mobile comparison",
+        "Offline-use consideration"
+      ]
     },
     {
       "label": "Capterra Logos Bible Software reviews",
       "url": "https://www.capterra.com/p/275095/Logos/reviews/",
       "checked": "2026-07-25",
-      "supports": ["Limited external user-feedback context", "Review-volume caveat"]
+      "supports": [
+        "Limited external user-feedback context",
+        "Review-volume caveat"
+      ]
     },
     {
       "label": "G2 Logos reviews",
       "url": "https://www.g2.com/products/logos/reviews",
       "checked": "2026-07-25",
-      "supports": ["Limited external user-feedback context", "Learning-curve theme"]
+      "supports": [
+        "Limited external user-feedback context",
+        "Learning-curve theme"
+      ]
     }
   ],
   "affiliateRelationship": "yes",

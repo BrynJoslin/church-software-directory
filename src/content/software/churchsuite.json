@@ -7,9 +7,20 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "online-giving", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches ready to consolidate people, rota, event and giving administration in one system"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches ready to consolidate people, rota, event and giving administration in one system"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Published GBP pricing varies by active contacts and the package or module selection.",
@@ -20,10 +31,26 @@
       "qualifier": "0–99 contacts, one module, monthly billing; VAT inclusive where applicable"
     },
     "tiers": [
-      {"label": "Solo", "price": "from £9/month", "detail": "0–99 active contacts; Address Book plus one module"},
-      {"label": "Starter", "price": "from £19/month", "detail": "0–99 active contacts; Address Book plus two modules"},
-      {"label": "Suite", "price": "from £32.50/month", "detail": "0–99 active contacts; six or more modules, including the full suite"},
-      {"label": "Bespoke", "price": "Contact supplier", "detail": "1500+ contacts or a custom module combination"}
+      {
+        "label": "Solo",
+        "price": "from £9/month",
+        "detail": "0–99 active contacts; Address Book plus one module"
+      },
+      {
+        "label": "Starter",
+        "price": "from £19/month",
+        "detail": "0–99 active contacts; Address Book plus two modules"
+      },
+      {
+        "label": "Suite",
+        "price": "from £32.50/month",
+        "detail": "0–99 active contacts; six or more modules, including the full suite"
+      },
+      {
+        "label": "Bespoke",
+        "price": "Contact supplier",
+        "detail": "1500+ contacts or a custom module combination"
+      }
     ],
     "trialDetails": "30 days. UK pricing is monthly by Direct Debit; active contact count and selected modules determine the charge."
   },
@@ -80,7 +107,12 @@
       "Total cost changes with active contact count, billing frequency and package choice",
       "A broad suite creates a real adoption and governance task; it does not make fragmented practices disappear by itself",
       "Accessibility, detailed migration scope and suitability for a church's particular safeguarding arrangements still need direct evaluation"
-    ]
+    ],
+    "procurementVerdict": {
+      "problem": "UK churches ready to consolidate people records, rotas, events and giving in one system",
+      "differentiator": "Address Book for adult contact records",
+      "firstCheck": "Total cost changes with active contact count, billing frequency and package choice"
+    }
   },
   "longForm": {
     "verdict": "ChurchSuite is most compelling when the problem is not one missing feature but scattered operational knowledge: people data in one place, rotas in another, event registrations elsewhere and giving records somewhere else again. Its modularity helps a church start with a smaller scope, but the practical return comes from agreeing who owns the data and asking teams to work from it.",
@@ -170,67 +202,107 @@
       "label": "ChurchSuite pricing",
       "url": "https://churchsuite.com/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Pricing model", "Published GBP tiers", "Starting price", "Free trial", "Package structure"]
+      "supports": [
+        "Pricing model",
+        "Published GBP tiers",
+        "Starting price",
+        "Free trial",
+        "Package structure"
+      ]
     },
     {
       "label": "ChurchSuite product overview",
       "url": "https://churchsuite.com/",
       "checked": "2026-07-25",
-      "supports": ["Core features", "Member-facing access", "Mobile apps"]
+      "supports": [
+        "Core features",
+        "Member-facing access",
+        "Mobile apps"
+      ]
     },
     {
       "label": "ChurchSuite branding resources",
       "url": "https://churchsuite.com/branding/",
       "checked": "2026-07-25",
-      "supports": ["Official logo asset and supplier logo-use guidance"]
+      "supports": [
+        "Official logo asset and supplier logo-use guidance"
+      ]
     },
     {
       "label": "ChurchSuite Giving documentation",
       "url": "https://support.churchsuite.com/article/455-getting-started-with-the-giving-module",
       "checked": "2026-07-25",
-      "supports": ["Gift Aid claims", "Giving features", "Stripe integration"]
+      "supports": [
+        "Gift Aid claims",
+        "Giving features",
+        "Stripe integration"
+      ]
     },
     {
       "label": "ChurchSuite terms of service",
       "url": "https://churchsuite.com/terms-of-service/",
       "checked": "2026-07-25",
-      "supports": ["Supplier legal name", "UK-registered organisation", "Data access and backup statement", "Termination data-deletion policy"]
+      "supports": [
+        "Supplier legal name",
+        "UK-registered organisation",
+        "Data access and backup statement",
+        "Termination data-deletion policy"
+      ]
     },
     {
       "label": "ChurchSuite security information",
       "url": "https://churchsuite.com/security/",
       "checked": "2026-07-25",
-      "supports": ["Supplier hosting statement", "Encryption statement", "Security and backup statements"]
+      "supports": [
+        "Supplier hosting statement",
+        "Encryption statement",
+        "Security and backup statements"
+      ]
     },
     {
       "label": "ChurchSuite API and Embed information",
       "url": "https://churchsuite.com/api-and-json/",
       "checked": "2026-07-25",
-      "supports": ["Public API", "Website embeds", "30-day trial"]
+      "supports": [
+        "Public API",
+        "Website embeds",
+        "30-day trial"
+      ]
     },
     {
       "label": "ChurchSuite import guidance",
       "url": "https://support.churchsuite.com/article/11-import-your-data-into-churchsuite",
       "checked": "2026-07-25",
-      "supports": ["CSV contact import", "Import preparation"]
+      "supports": [
+        "CSV contact import",
+        "Import preparation"
+      ]
     },
     {
       "label": "ChurchSuite support-access guidance",
       "url": "https://support.churchsuite.com/article/476-enabling-and-disabling-churchsuite-support-team-access",
       "checked": "2026-07-25",
-      "supports": ["Support-access controls", "Administrator permissions"]
+      "supports": [
+        "Support-access controls",
+        "Administrator permissions"
+      ]
     },
     {
       "label": "Capterra ChurchSuite reviews",
       "url": "https://www.capterra.com/p/122430/ChurchApp/reviews/",
       "checked": "2026-07-25",
-      "supports": ["Limited independent user-feedback context", "Review-volume caveat"]
+      "supports": [
+        "Limited independent user-feedback context",
+        "Review-volume caveat"
+      ]
     },
     {
       "label": "Church-tech community discussion",
       "url": "https://www.reddit.com/r/churchtech/comments/1t5fw4j/church_management_system_increasing/",
       "checked": "2026-07-25",
-      "supports": ["Peer discussion about adoption and shared use"]
+      "supports": [
+        "Peer discussion about adoption and shared use"
+      ]
     }
   ],
   "affiliateRelationship": "no",

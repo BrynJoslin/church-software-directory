@@ -1,1 +1,151 @@
-{"name":"FreeWorship","slug":"freeworship","shortDescription":"UK church presentation software with a free version and a paid Pro subscription for advanced live-service features.","officialWebsite":"https://freeworship.co.uk/","company":"FreeWorship","ukFocus":"strong","categories":["presentation-software","worship-planning"],"suitableChurchSizes":["small","medium","large"],"suitableContexts":["Churches seeking UK-priced presentation software","Teams wanting a free starting point with an optional Pro upgrade"],"pricing":{"model":"freemium","summary":"FreeWorship offers a free version and a Pro single-PC subscription in pounds sterling with a two-week trial.","startingPrice":{"amount":0,"currency":"GBP","period":"month","qualifier":"FreeWorship free version"},"tiers":[{"label":"FreeWorship","price":"Free","detail":"Supplier publishes a free foundational presentation version"},{"label":"FreeWorship Pro","price":"£12.99/month","detail":"Single computer at a time; includes priority support and advanced features"}],"trialDetails":"Two weeks for the Pro subscription."},"freePlan":"yes","freeTrial":"yes","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Service presentation","SongSelect integration on Pro","CCLI reporting on Pro","Bible search on Pro","Website projection on Pro","Drag-and-drop service items on Pro"],"integrations":["CCLI SongSelect"],"importExport":[],"support":["Priority support on Pro"],"editorial":{"assessment":"FreeWorship is a useful UK-priced presentation option because a team can start free and pay only if it needs the Pro workflow. The decision should be grounded in a rehearsal on the church’s actual Windows setup, outputs and content licences.","bestFor":["Budget-conscious UK churches","Teams that want a free presentation starting point"],"strengths":["Free version and GBP Pro subscription","Two-week Pro trial"],"limitations":["Pro subscription is for one computer at a time","Content licensing and live-system compatibility need local testing"]},"longForm":{"verdict":"FreeWorship offers a sensible low-cost ladder: establish whether the free version meets the need, then test Pro only against a concrete production requirement.","decisionLens":{"heading":"Start with the live-service problem, not the feature list.","text":"SongSelect, reporting, Bible search and advanced service items matter only if they reduce the preparation or operating burden for the people actually running worship."},"sections":[{"heading":"Free first, Pro when needed","question":"Which live-service friction would the paid version remove?","paragraphs":["The supplier publishes FreeWorship as a free offering and Pro at £12.99 per month for one computer at a time, with a two-week trial.","Run a service rehearsal with the free version first. If Pro is needed, test its specific workflow against the church’s SongSelect, reporting, video and output setup."]}],"userFeedback":{"summary":"This profile is based on supplier pricing and feature information rather than an independent review score.","themes":["The free version enables a low-risk pilot.","Pro is best justified by a named workflow rather than generic feature comparison."],"caveat":"Supplier materials do not establish content licensing or compatibility with every church’s live-production setup."},"faq":[{"question":"Is FreeWorship free?","answer":"Yes. The supplier publishes a free FreeWorship version, with an optional Pro subscription for advanced features."},{"question":"How much is FreeWorship Pro?","answer":"The supplier lists FreeWorship Pro at £12.99 per month for one computer at a time."},{"question":"Does FreeWorship Pro have a trial?","answer":"Yes. The supplier advertises a two-week Pro trial. Test it on the exact computer and outputs used for services."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"FreeWorship Pro subscription","url":"https://freeworship.co.uk/fw-shop/pro/","checked":"2026-07-25","supports":["GBP price","Two-week trial","Pro features","Single-PC scope"]},{"label":"FreeWorship download","url":"https://freeworship.co.uk/download/","checked":"2026-07-25","supports":["Free version","Pro upgrade context"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"FreeWorship review for UK churches","description":"Independent FreeWorship profile for UK churches: free software, Pro pricing, trial, presentation workflow and FAQs."}}
+{
+  "name": "FreeWorship",
+  "slug": "freeworship",
+  "shortDescription": "UK church presentation software with a free version and a paid Pro subscription for advanced live-service features.",
+  "officialWebsite": "https://freeworship.co.uk/",
+  "company": "FreeWorship",
+  "ukFocus": "strong",
+  "categories": [
+    "presentation-software",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches seeking UK-priced presentation software",
+    "Teams wanting a free starting point with an optional Pro upgrade"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "FreeWorship offers a free version and a Pro single-PC subscription in pounds sterling with a two-week trial.",
+    "startingPrice": {
+      "amount": 0,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "FreeWorship free version"
+    },
+    "tiers": [
+      {
+        "label": "FreeWorship",
+        "price": "Free",
+        "detail": "Supplier publishes a free foundational presentation version"
+      },
+      {
+        "label": "FreeWorship Pro",
+        "price": "£12.99/month",
+        "detail": "Single computer at a time; includes priority support and advanced features"
+      }
+    ],
+    "trialDetails": "Two weeks for the Pro subscription."
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Service presentation",
+    "SongSelect integration on Pro",
+    "CCLI reporting on Pro",
+    "Bible search on Pro",
+    "Website projection on Pro",
+    "Drag-and-drop service items on Pro"
+  ],
+  "integrations": [
+    "CCLI SongSelect"
+  ],
+  "importExport": [],
+  "support": [
+    "Priority support on Pro"
+  ],
+  "editorial": {
+    "assessment": "FreeWorship is a useful UK-priced presentation option because a team can start free and pay only if it needs the Pro workflow. The decision should be grounded in a rehearsal on the church’s actual Windows setup, outputs and content licences.",
+    "bestFor": [
+      "Budget-conscious UK churches",
+      "Teams that want a free presentation starting point"
+    ],
+    "strengths": [
+      "Free version and GBP Pro subscription",
+      "Two-week Pro trial"
+    ],
+    "limitations": [
+      "Pro subscription is for one computer at a time",
+      "Content licensing and live-system compatibility need local testing"
+    ],
+    "procurementVerdict": {
+      "problem": "Budget-conscious UK churches",
+      "differentiator": "Service presentation",
+      "firstCheck": "Pro subscription is for one computer at a time"
+    }
+  },
+  "longForm": {
+    "verdict": "FreeWorship offers a sensible low-cost ladder: establish whether the free version meets the need, then test Pro only against a concrete production requirement.",
+    "decisionLens": {
+      "heading": "Start with the live-service problem, not the feature list.",
+      "text": "SongSelect, reporting, Bible search and advanced service items matter only if they reduce the preparation or operating burden for the people actually running worship."
+    },
+    "sections": [
+      {
+        "heading": "Free first, Pro when needed",
+        "question": "Which live-service friction would the paid version remove?",
+        "paragraphs": [
+          "The supplier publishes FreeWorship as a free offering and Pro at £12.99 per month for one computer at a time, with a two-week trial.",
+          "Run a service rehearsal with the free version first. If Pro is needed, test its specific workflow against the church’s SongSelect, reporting, video and output setup."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile is based on supplier pricing and feature information rather than an independent review score.",
+      "themes": [
+        "The free version enables a low-risk pilot.",
+        "Pro is best justified by a named workflow rather than generic feature comparison."
+      ],
+      "caveat": "Supplier materials do not establish content licensing or compatibility with every church’s live-production setup."
+    },
+    "faq": [
+      {
+        "question": "Is FreeWorship free?",
+        "answer": "Yes. The supplier publishes a free FreeWorship version, with an optional Pro subscription for advanced features."
+      },
+      {
+        "question": "How much is FreeWorship Pro?",
+        "answer": "The supplier lists FreeWorship Pro at £12.99 per month for one computer at a time."
+      },
+      {
+        "question": "Does FreeWorship Pro have a trial?",
+        "answer": "Yes. The supplier advertises a two-week Pro trial. Test it on the exact computer and outputs used for services."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "FreeWorship Pro subscription",
+      "url": "https://freeworship.co.uk/fw-shop/pro/",
+      "checked": "2026-07-25",
+      "supports": [
+        "GBP price",
+        "Two-week trial",
+        "Pro features",
+        "Single-PC scope"
+      ]
+    },
+    {
+      "label": "FreeWorship download",
+      "url": "https://freeworship.co.uk/download/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free version",
+        "Pro upgrade context"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "FreeWorship review for UK churches",
+    "description": "Independent FreeWorship profile for UK churches: free software, Pro pricing, trial, presentation workflow and FAQs."
+  }
+}

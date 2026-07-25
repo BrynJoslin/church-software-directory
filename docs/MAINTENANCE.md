@@ -61,9 +61,9 @@ The command runs automatically before checks, builds and local development.
 
 Before launch:
 
-1. Replace the placeholder site URL in `src/config/site.json`,
-   `astro.config.mjs` and `public/robots.txt`.
-2. Replace the placeholder contact address.
+1. Confirm `src/config/site.json` has the production URL. This central setting
+   supplies Astro's sitemap integration and the generated `robots.txt` route.
+2. Confirm the responsible publisher and public correction route.
 3. Select and document the structured-data reuse licence.
 4. Configure a form service only after updating the privacy notice.
 5. Test spam protection and accessible success and error handling before setting

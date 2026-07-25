@@ -3,13 +3,14 @@ const results = document.querySelector<HTMLElement>("[data-software-results]");
 const cards = Array.from(
   document.querySelectorAll<HTMLElement>("[data-software-card]")
 );
+
+export {};
 const resultCount = document.querySelector<HTMLElement>("#result-count");
 const emptyState = document.querySelector<HTMLElement>("[data-empty-state]");
 const allowedValues: Record<string, Set<string>> = {
   category: new Set(["church-management", "online-giving", "worship-planning"]),
   "uk-focus": new Set(["strong", "general", "unknown"]),
   "uk-organisation": new Set(["yes", "unknown"]),
-  size: new Set(["small", "medium", "large", "multi-site"]),
   "free-plan": new Set(["yes", "no", "unknown"]),
   "free-trial": new Set(["yes", "no", "unknown"]),
   "gift-aid": new Set(["yes", "no", "unknown"]),
@@ -45,7 +46,6 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
   const category = getControl("category")?.value ?? "";
   const ukFocus = getControl("uk-focus")?.value ?? "";
   const ukOrganisation = getControl("uk-organisation")?.value ?? "";
-  const size = getControl("size")?.value ?? "";
   const freePlan = getControl("free-plan")?.value ?? "";
   const freeTrial = getControl("free-trial")?.value ?? "";
   const giftAid = getControl("gift-aid")?.value ?? "";
@@ -59,7 +59,6 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
       matchesList(card.dataset.categories, category) &&
       (!ukFocus || card.dataset.ukFocus === ukFocus) &&
       (!ukOrganisation || card.dataset.ukOrganisation === ukOrganisation) &&
-      matchesList(card.dataset.sizes, size) &&
       (!freePlan || card.dataset.freePlan === freePlan) &&
       (!freeTrial || card.dataset.freeTrial === freeTrial) &&
       (!giftAid || card.dataset.giftAid === giftAid) &&
@@ -90,7 +89,6 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
     category,
     "uk-focus": ukFocus,
     "uk-organisation": ukOrganisation,
-    size,
     "free-plan": freePlan,
     "free-trial": freeTrial,
     "gift-aid": giftAid,

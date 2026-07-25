@@ -1,1 +1,161 @@
-{"name":"Clearstream","slug":"clearstream","shortDescription":"Church communication software for SMS, email, keywords, phone numbers, QR codes and NFC connection journeys.","officialWebsite":"https://clearstream.io/","company":"Clearstream","ukFocus":"general","categories":["church-communications"],"suitableChurchSizes":["small","medium","large","multi-site"],"suitableContexts":["Churches evaluating dedicated SMS and email communication","Teams needing a separate messaging layer alongside a people database"],"pricing":{"model":"usage-based","summary":"Clearstream publishes a 30-day trial and US-dollar plans based on outgoing-message credits, with email included.","startingPrice":{"amount":29,"currency":"USD","period":"month","qualifier":"1,250 monthly credits on the US plan shown by the supplier"},"tiers":[{"label":"Trial","price":"Free for 30 days","detail":"100 credits, one phone number and unlimited email on the US plan shown"},{"label":"Starter paid tier","price":"$29/month","detail":"1,250 credits and one phone number on the US plan shown"},{"label":"Growth tier","price":"$49/month","detail":"2,500 credits, two subaccounts and three phone numbers on the US plan shown"},{"label":"Higher-volume tiers","price":"from $99/month","detail":"Credits, subaccounts and phone numbers scale by plan"}],"trialDetails":"30 days; supplier says no contract or setup fee."},"freePlan":"no","freeTrial":"yes","giftAid":"unknown","demoAvailable":"unknown","coreFeatures":["Mass SMS","Email","Keywords and auto-responses","QR codes","NFC tags","Engagement metrics"],"integrations":["Planning Center"],"importExport":[],"support":["Chat, email, phone and Zoom support"],"editorial":{"assessment":"Clearstream is a messaging layer, not a replacement for a governed church people database. UK churches should verify UK number availability, message delivery, costs, consent, opt-out and PECR responsibilities before importing contacts.","bestFor":["Churches that need intentional text-message journeys","Teams keeping their system of record elsewhere"],"strengths":["Credit-based pricing and 30-day trial are published","Dedicated keywords and engagement tools"],"limitations":["Published pricing is US-oriented","UK SMS compliance and availability are not confirmed"]},"longForm":{"verdict":"Clearstream is worth considering when messaging is a real operational discipline rather than an occasional broadcast. Its value depends on contact consent, integration and message-volume planning.","decisionLens":{"heading":"A texting platform must not become an ungoverned contact list.","text":"Before importing contacts, define who owns consent, opt-outs, sender numbers, message approval and the relationship with the church’s main people database."},"sections":[{"heading":"Cost follows outgoing messages","question":"How many meaningful messages will the church actually send?","paragraphs":["Clearstream’s published plans use outgoing-message credits while email is included. It also offers a thirty-day trial.","Model normal communications, event reminders and emergency messages. Confirm UK pricing and delivery before treating US-published credit allowances as a local quote."]}],"userFeedback":{"summary":"This profile is based on Clearstream’s published pricing and product information, not an independent review score.","themes":["Consent and system-of-record boundaries matter.","Credit use should be modelled against real communication habits."],"caveat":"Supplier claims do not establish PECR or UK GDPR compliance for a particular church."},"faq":[{"question":"Does Clearstream have a free trial?","answer":"Yes. Clearstream advertises a 30-day trial with a stated credit allowance and one phone number on its US plan."},{"question":"How is Clearstream priced?","answer":"The supplier publishes US-dollar plans based on outgoing-message credits, starting at $29/month in its US pricing view."},{"question":"Can a UK church use Clearstream for SMS?","answer":"This profile does not confirm UK availability or compliance. Check number provision, delivery, costs, PECR and opt-out requirements directly."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"Clearstream pricing","url":"https://clearstream.io/pricing/","checked":"2026-07-25","supports":["Pricing","Credits","30-day trial","Support"]},{"label":"Clearstream overview","url":"https://clearstream.io/","checked":"2026-07-25","supports":["Messaging features","Planning Center integration"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"Clearstream review for UK churches","description":"Independent Clearstream profile for UK churches: SMS pricing, trial, consent and messaging workflow checks, and FAQs."}}
+{
+  "name": "Clearstream",
+  "slug": "clearstream",
+  "shortDescription": "Church communication software for SMS, email, keywords, phone numbers, QR codes and NFC connection journeys.",
+  "officialWebsite": "https://clearstream.io/",
+  "company": "Clearstream",
+  "ukFocus": "general",
+  "categories": [
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches evaluating dedicated SMS and email communication",
+    "Teams needing a separate messaging layer alongside a people database"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Clearstream publishes a 30-day trial and US-dollar plans based on outgoing-message credits, with email included.",
+    "startingPrice": {
+      "amount": 29,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "1,250 monthly credits on the US plan shown by the supplier"
+    },
+    "tiers": [
+      {
+        "label": "Trial",
+        "price": "Free for 30 days",
+        "detail": "100 credits, one phone number and unlimited email on the US plan shown"
+      },
+      {
+        "label": "Starter paid tier",
+        "price": "$29/month",
+        "detail": "1,250 credits and one phone number on the US plan shown"
+      },
+      {
+        "label": "Growth tier",
+        "price": "$49/month",
+        "detail": "2,500 credits, two subaccounts and three phone numbers on the US plan shown"
+      },
+      {
+        "label": "Higher-volume tiers",
+        "price": "from $99/month",
+        "detail": "Credits, subaccounts and phone numbers scale by plan"
+      }
+    ],
+    "trialDetails": "30 days; supplier says no contract or setup fee."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Mass SMS",
+    "Email",
+    "Keywords and auto-responses",
+    "QR codes",
+    "NFC tags",
+    "Engagement metrics"
+  ],
+  "integrations": [
+    "Planning Center"
+  ],
+  "importExport": [],
+  "support": [
+    "Chat, email, phone and Zoom support"
+  ],
+  "editorial": {
+    "assessment": "Clearstream is a messaging layer, not a replacement for a governed church people database. UK churches should verify UK number availability, message delivery, costs, consent, opt-out and PECR responsibilities before importing contacts.",
+    "bestFor": [
+      "Churches that need intentional text-message journeys",
+      "Teams keeping their system of record elsewhere"
+    ],
+    "strengths": [
+      "Credit-based pricing and 30-day trial are published",
+      "Dedicated keywords and engagement tools"
+    ],
+    "limitations": [
+      "Published pricing is US-oriented",
+      "UK SMS compliance and availability are not confirmed"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that need intentional text-message journeys",
+      "differentiator": "Mass SMS",
+      "firstCheck": "Published pricing is US-oriented"
+    }
+  },
+  "longForm": {
+    "verdict": "Clearstream is worth considering when messaging is a real operational discipline rather than an occasional broadcast. Its value depends on contact consent, integration and message-volume planning.",
+    "decisionLens": {
+      "heading": "A texting platform must not become an ungoverned contact list.",
+      "text": "Before importing contacts, define who owns consent, opt-outs, sender numbers, message approval and the relationship with the church’s main people database."
+    },
+    "sections": [
+      {
+        "heading": "Cost follows outgoing messages",
+        "question": "How many meaningful messages will the church actually send?",
+        "paragraphs": [
+          "Clearstream’s published plans use outgoing-message credits while email is included. It also offers a thirty-day trial.",
+          "Model normal communications, event reminders and emergency messages. Confirm UK pricing and delivery before treating US-published credit allowances as a local quote."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile is based on Clearstream’s published pricing and product information, not an independent review score.",
+      "themes": [
+        "Consent and system-of-record boundaries matter.",
+        "Credit use should be modelled against real communication habits."
+      ],
+      "caveat": "Supplier claims do not establish PECR or UK GDPR compliance for a particular church."
+    },
+    "faq": [
+      {
+        "question": "Does Clearstream have a free trial?",
+        "answer": "Yes. Clearstream advertises a 30-day trial with a stated credit allowance and one phone number on its US plan."
+      },
+      {
+        "question": "How is Clearstream priced?",
+        "answer": "The supplier publishes US-dollar plans based on outgoing-message credits, starting at $29/month in its US pricing view."
+      },
+      {
+        "question": "Can a UK church use Clearstream for SMS?",
+        "answer": "This profile does not confirm UK availability or compliance. Check number provision, delivery, costs, PECR and opt-out requirements directly."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Clearstream pricing",
+      "url": "https://clearstream.io/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Credits",
+        "30-day trial",
+        "Support"
+      ]
+    },
+    {
+      "label": "Clearstream overview",
+      "url": "https://clearstream.io/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Messaging features",
+        "Planning Center integration"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Clearstream review for UK churches",
+    "description": "Independent Clearstream profile for UK churches: SMS pricing, trial, consent and messaging workflow checks, and FAQs."
+  }
+}

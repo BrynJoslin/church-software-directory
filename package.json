@@ -8,10 +8,12 @@
   },
   "scripts": {
     "dev": "npm run prepare:data && astro dev",
-    "check": "npm run prepare:data && astro check",
+    "check": "npm run prepare:data && astro check && node scripts/check-public-copy.mjs",
     "check:content": "node scripts/dashboard.mjs",
     "check:links": "node scripts/check-links.mjs",
     "test:dashboard": "node --test test/dashboard-analysis.test.mjs",
+    "test:related": "node --test test/related-products.test.mjs",
+    "check:phase4": "node scripts/check-phase4-content.mjs",
     "dashboard": "node scripts/dashboard.mjs",
     "dashboard:open": "node scripts/dashboard-open.mjs",
     "check:stale": "node scripts/check-stale.mjs",

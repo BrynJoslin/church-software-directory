@@ -18,6 +18,20 @@ const verificationStatus = z.enum([
   "partially-verified",
   "needs-review"
 ]);
+const evidenceState = z.enum([
+  "confirmed",
+  "independently-evidenced",
+  "supplier-claim",
+  "not-confirmed",
+  "possibly-outdated"
+]);
+const decisionEvidence = z.object({
+  value: z.string().min(1),
+  state: evidenceState,
+  source: z.url().optional(),
+  checked: z.coerce.date().optional(),
+  note: z.string().min(1).optional()
+});
 const sourceSchema = z.object({
   label: z.string().min(1),
   url: z.url(),
@@ -68,7 +82,8 @@ const software = defineCollection({
     }),
     freePlan: triState,
     freeTrial: triState,
-    giftAid: triState,
+    // Only record Gift Aid for products that handle donation or charity-finance workflows.
+    giftAid: triState.optional(),
     demoAvailable: triState,
     dataHosting: z.string().optional(),
     gdprInformation: z.string().optional(),
@@ -76,6 +91,7 @@ const software = defineCollection({
     integrations: z.array(z.string().min(1)).default([]),
     importExport: z.array(z.string().min(1)).default([]),
     support: z.array(z.string().min(1)).default([]),
+    decisionEvidence: z.record(z.string(), decisionEvidence).default({}),
     brandAssets: z
       .object({
         logo: z.object({
@@ -90,7 +106,14 @@ const software = defineCollection({
       assessment: z.string().min(40),
       bestFor: z.array(z.string().min(1)).min(1),
       strengths: z.array(z.string().min(1)).min(1),
-      limitations: z.array(z.string().min(1)).min(1)
+      limitations: z.array(z.string().min(1)).min(1),
+          procurementVerdict: z
+        .object({
+          problem: z.string().min(1),
+          differentiator: z.string().min(1),
+          firstCheck: z.string().min(1)
+        })
+        .optional()
     }),
     longForm: z
       .object({

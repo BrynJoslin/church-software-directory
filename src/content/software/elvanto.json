@@ -5,17 +5,45 @@
   "officialWebsite": "https://www.elvanto.com/",
   "company": "Tithely",
   "ukFocus": "general",
-  "categories": ["church-management", "online-giving", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches combining people management with service planning", "Teams willing to validate US-dollar pricing and UK finance fit"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches combining people management with service planning",
+    "Teams willing to validate US-dollar pricing and UK finance fit"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Elvanto prices its all-in-one subscription by active adults and publishes US-dollar monthly or annual-billing prices plus a setup cost.",
-    "startingPrice": {"amount": 19, "currency": "USD", "period": "month", "qualifier": "Up to 50 active adults, billed monthly; setup cost is separate"},
+    "startingPrice": {
+      "amount": 19,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Up to 50 active adults, billed monthly; setup cost is separate"
+    },
     "tiers": [
-      {"label": "50", "price": "$19/month or $15.20/month annually", "detail": "Up to 50 active adults; $149 setup cost"},
-      {"label": "100", "price": "$39/month or $31.20/month annually", "detail": "Up to 100 active adults; $149 setup cost"},
-      {"label": "Higher active-adult bands", "price": "Contact supplier / selector", "detail": "The supplier publishes a people-count selector; all features are described as included"}
+      {
+        "label": "50",
+        "price": "$19/month or $15.20/month annually",
+        "detail": "Up to 50 active adults; $149 setup cost"
+      },
+      {
+        "label": "100",
+        "price": "$39/month or $31.20/month annually",
+        "detail": "Up to 100 active adults; $149 setup cost"
+      },
+      {
+        "label": "Higher active-adult bands",
+        "price": "Contact supplier / selector",
+        "detail": "The supplier publishes a people-count selector; all features are described as included"
+      }
     ],
     "trialDetails": "Trial duration is not confirmed in the current source record; contact the supplier for a current evaluation arrangement."
   },
@@ -23,32 +51,108 @@
   "freeTrial": "unknown",
   "giftAid": "unknown",
   "demoAvailable": "unknown",
-  "coreFeatures": ["People records", "Volunteer scheduling", "Service planning", "Giving", "Events", "Check-in"],
+  "coreFeatures": [
+    "People records",
+    "Volunteer scheduling",
+    "Service planning",
+    "Giving",
+    "Events",
+    "Check-in"
+  ],
   "integrations": [],
-  "importExport": ["Supplier-assisted data migration as part of setup"],
-  "support": ["Free customer support", "Documentation"],
+  "importExport": [
+    "Supplier-assisted data migration as part of setup"
+  ],
+  "support": [
+    "Free customer support",
+    "Documentation"
+  ],
   "editorial": {
     "assessment": "Elvanto combines common church-management and worship-planning jobs in one subscription. Its active-adult definition, US-dollar pricing and separate setup charge make a realistic data count and full-cost calculation essential for a UK church.",
-    "bestFor": ["Churches that want one system for volunteers, services and people", "Teams whose active-adult count is clearly understood"],
-    "strengths": ["The supplier explains what counts as an active adult", "The product describes an all-features subscription rather than module add-ons"],
-    "limitations": ["Published pricing is in US dollars", "UK Gift Aid, payments and trial terms are not confirmed here"]
+    "bestFor": [
+      "Churches that want one system for volunteers, services and people",
+      "Teams whose active-adult count is clearly understood"
+    ],
+    "strengths": [
+      "The supplier explains what counts as an active adult",
+      "The product describes an all-features subscription rather than module add-ons"
+    ],
+    "limitations": [
+      "Published pricing is in US dollars",
+      "UK Gift Aid, payments and trial terms are not confirmed here"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that want one system for volunteers, services and people",
+      "differentiator": "People records",
+      "firstCheck": "Published pricing is in US dollars"
+    }
   },
   "longForm": {
     "verdict": "Elvanto is worth assessing for a church that wants people records and service planning to share the same operating model. The less obvious decision is what the church’s database means by an active adult, because that count directly shapes the price.",
-    "decisionLens": {"heading": "The billing definition should be tested against the church’s data-retention practice.", "text": "Elvanto distinguishes active adults from contacts and archived people. Before comparing prices, map current records to those definitions and decide what historical pastoral or safeguarding information the church must retain."},
-    "sections": [{"heading": "Pricing follows active adults", "question": "Will the supplier’s count match the church’s real database?", "paragraphs": ["Elvanto says an active adult attends, volunteers or gives financially, while contacts and archived people can be retained without charge under the supplier’s described model.", "Audit a sample of the church’s data before asking for a quote. Also confirm the setup, migration, payment and currency costs alongside the published subscription price."]}],
-    "userFeedback": {"summary": "This profile does not use an independent review score. It is based on Elvanto’s published pricing and product information.", "themes": ["The key fit question is the active-adult billing count.", "A combined people and service-planning workflow needs a volunteer-led trial."], "caveat": "No conclusion about user satisfaction should be inferred from the absence of external-review research in this profile."},
+    "decisionLens": {
+      "heading": "The billing definition should be tested against the church’s data-retention practice.",
+      "text": "Elvanto distinguishes active adults from contacts and archived people. Before comparing prices, map current records to those definitions and decide what historical pastoral or safeguarding information the church must retain."
+    },
+    "sections": [
+      {
+        "heading": "Pricing follows active adults",
+        "question": "Will the supplier’s count match the church’s real database?",
+        "paragraphs": [
+          "Elvanto says an active adult attends, volunteers or gives financially, while contacts and archived people can be retained without charge under the supplier’s described model.",
+          "Audit a sample of the church’s data before asking for a quote. Also confirm the setup, migration, payment and currency costs alongside the published subscription price."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Elvanto’s published pricing and product information.",
+      "themes": [
+        "The key fit question is the active-adult billing count.",
+        "A combined people and service-planning workflow needs a volunteer-led trial."
+      ],
+      "caveat": "No conclusion about user satisfaction should be inferred from the absence of external-review research in this profile."
+    },
     "faq": [
-      {"question": "How does Elvanto pricing work?", "answer": "Elvanto publishes US-dollar prices by the number of active adults, with monthly and annual billing options and a separate setup cost. Check the current price selector for the church’s count."},
-      {"question": "What counts as an active adult in Elvanto?", "answer": "The supplier describes an active adult as someone who attends, volunteers or gives financially. Contacts and archived people are described separately; verify the current definitions before budgeting."},
-      {"question": "Does Elvanto support UK Gift Aid?", "answer": "Not confirmed in this profile. Ask the supplier for an up-to-date demonstration of UK giving, payment, Gift Aid and reconciliation workflows."}
+      {
+        "question": "How does Elvanto pricing work?",
+        "answer": "Elvanto publishes US-dollar prices by the number of active adults, with monthly and annual billing options and a separate setup cost. Check the current price selector for the church’s count."
+      },
+      {
+        "question": "What counts as an active adult in Elvanto?",
+        "answer": "The supplier describes an active adult as someone who attends, volunteers or gives financially. Contacts and archived people are described separately; verify the current definitions before budgeting."
+      },
+      {
+        "question": "Does Elvanto support UK Gift Aid?",
+        "answer": "Not confirmed in this profile. Ask the supplier for an up-to-date demonstration of UK giving, payment, Gift Aid and reconciliation workflows."
+      }
     ]
   },
-  "brandAssets": {"logo": {"src": "/images/software/elvanto/elvanto-logo.svg", "alt": "Elvanto logo", "source": "https://www.elvanto.com/", "checked": "2026-07-25"}},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/elvanto/elvanto-logo.svg",
+      "alt": "Elvanto logo",
+      "source": "https://www.elvanto.com/",
+      "checked": "2026-07-25"
+    }
+  },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "Elvanto pricing", "url": "https://www.elvanto.com/pricing/", "checked": "2026-07-25", "supports": ["Pricing", "Active-adult definition", "Setup cost", "Migration and support"]}],
+  "sources": [
+    {
+      "label": "Elvanto pricing",
+      "url": "https://www.elvanto.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Active-adult definition",
+        "Setup cost",
+        "Migration and support"
+      ]
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Elvanto review for UK churches", "description": "Independent Elvanto profile for UK churches: active-adult pricing, people and service planning tools, key UK checks and FAQs."}
+  "seo": {
+    "title": "Elvanto review for UK churches",
+    "description": "Independent Elvanto profile for UK churches: active-adult pricing, people and service planning tools, key UK checks and FAQs."
+  }
 }

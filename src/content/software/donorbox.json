@@ -1,1 +1,193 @@
-{"name":"Donorbox","slug":"donorbox","shortDescription":"A fundraising and donation platform for charities, with UK pricing, donation forms, campaigns, event ticketing and HMRC Gift Aid integration.","officialWebsite":"https://donorbox.org/","company":"Donorbox","ukFocus":"strong","categories":["online-giving","church-communications"],"suitableChurchSizes":["small","medium","large","multi-site"],"suitableContexts":["UK registered charities wanting flexible online donation forms and fundraising campaigns","Churches that need Gift Aid integration and event or membership payments"],"pricing":{"model":"freemium","summary":"Donorbox publishes UK-focused pricing. Its Standard plan has no subscription but platform fees of 2.95% to 3.95%; Pro is $150 per month with lower stated fees; Premium is quote based. Payment-processor fees apply separately.","tiers":[{"label":"Standard","price":"No monthly subscription","detail":"Published platform fees between 2.95% and 3.95%, plus payment processing"},{"label":"Pro","price":"$150/month","detail":"Published platform fees between 1.75% and 2%, plus payment processing"},{"label":"Premium","price":"Request a quote","detail":"Published platform fees between 1.6% and 2%, plus payment processing"}]},"freePlan":"yes","freeTrial":"unknown","giftAid":"yes","demoAvailable":"yes","coreFeatures":["Donation forms and pages","Recurring giving","Crowdfunding and peer-to-peer campaigns","Event ticketing","Memberships","Reporting","HMRC Gift Aid integration"],"integrations":["Stripe","PayPal","Zapier","API"],"importExport":[],"support":["Premium priority support","Premium onboarding and migration described by supplier"],"editorial":{"assessment":"Donorbox is a flexible UK-facing fundraising layer with published Gift Aid integration, but it is not church management software. A church should calculate the combined platform and processor fees, verify Gift Aid eligibility and decide how donor records will reconcile with its existing finance and people systems.","bestFor":["Registered UK charities that want configurable online fundraising","Churches needing campaign, ticketing or membership payments alongside donations"],"strengths":["UK pricing page and HMRC Gift Aid integration are published","Free-to-start plan with a wide fundraising feature set"],"limitations":["Transaction fees can be more important than the subscription price","Not a replacement for pastoral records, safeguarding or charity accounting controls"]},"longForm":{"verdict":"Donorbox is a useful fundraising platform to evaluate where online donations, campaigns or ticketing are the immediate need. It should be costed against the church’s real donation volume and connected deliberately to the system that remains authoritative for finance and people data.","decisionLens":{"heading":"Compare the complete cost per gift, not the plan label.","text":"The Standard plan has no monthly subscription but charges platform fees, and payment-processor fees are additional. Model ordinary gifts, regular gifts, events and Gift Aid processing so the treasurer understands the net amount and reconciliation work."},"sections":[{"heading":"Flexible fundraising, separate administration","question":"Will it improve giving without fragmenting donor records?","paragraphs":["Donorbox lists donation forms, campaigns, ticketing, memberships, reporting and UK HMRC Gift Aid integration. It publishes both fee-based Standard and paid plans.","Test a donation, an eligible Gift Aid declaration and an export before launch. Agree whether donor details are held only in Donorbox or also synchronised with another CRM, and keep independent finance review in place."]}],"userFeedback":{"summary":"This profile does not use an independent review score. It is based on Donorbox’s UK pricing and product information.","themes":["The relevant cost is platform plus payment-processing fees.","Gift Aid and donor-record reconciliation need a treasurer-led test."],"caveat":"Supplier claims do not establish the church’s eligibility for Gift Aid or suitability of any finance process."},"faq":[{"question":"Is Donorbox free?","answer":"Its Standard plan has no monthly subscription, but Donorbox publishes platform fees and payment-processing fees for each donation."},{"question":"Does Donorbox support UK Gift Aid?","answer":"Yes, according to its UK pricing page. It lists an HMRC Gift Aid integration; confirm charity eligibility and the exact workflow before use."},{"question":"What does Donorbox cost?","answer":"Published Standard platform fees are 2.95% to 3.95%. Pro is $150 per month with lower stated platform fees; payment-processor fees apply separately."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"Donorbox UK pricing","url":"https://donorbox.org/uk-pricing","checked":"2026-07-25","supports":["UK pricing","Gift Aid","Features","Payment fees"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"Donorbox review for UK churches","description":"Independent Donorbox profile for UK churches: UK fees, Gift Aid integration, fundraising features and finance checks."}}
+{
+  "name": "Donorbox",
+  "slug": "donorbox",
+  "shortDescription": "A fundraising and donation platform for charities, with UK pricing, donation forms, campaigns, event ticketing and HMRC Gift Aid integration.",
+  "officialWebsite": "https://donorbox.org/",
+  "company": "Donorbox",
+  "ukFocus": "strong",
+  "categories": [
+    "online-giving",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK registered charities wanting flexible online donation forms and fundraising campaigns",
+    "Churches that need Gift Aid integration and event or membership payments"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "Donorbox publishes UK-focused pricing. Its Standard plan has no subscription but platform fees of 2.95% to 3.95%; Pro is $150 per month with lower stated fees; Premium is quote based. Payment-processor fees apply separately.",
+    "tiers": [
+      {
+        "label": "Standard",
+        "price": "No monthly subscription",
+        "detail": "Published platform fees between 2.95% and 3.95%, plus payment processing"
+      },
+      {
+        "label": "Pro",
+        "price": "$150/month",
+        "detail": "Published platform fees between 1.75% and 2%, plus payment processing"
+      },
+      {
+        "label": "Premium",
+        "price": "Request a quote",
+        "detail": "Published platform fees between 1.6% and 2%, plus payment processing"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "Donorbox's privacy policy identifies GDPR legal bases for processing and describes access, correction and deletion requests. Its feature page describes GDPR-friendly forms. This is supplier information, not a compliance determination for a church.",
+  "coreFeatures": [
+    "Donation forms and pages",
+    "Recurring giving",
+    "Crowdfunding and peer-to-peer campaigns",
+    "Event ticketing",
+    "Memberships",
+    "Reporting",
+    "HMRC Gift Aid integration"
+  ],
+  "integrations": [
+    "Stripe",
+    "PayPal",
+    "Zapier",
+    "API",
+    "Salesforce",
+    "Mailchimp",
+    "Raiser's Edge NXT"
+  ],
+  "importExport": [
+    "Exportable donor lists and donation data",
+    "CSV export of donation-form responses",
+    "Automatic or manual exports to selected Salesforce and Mailchimp integrations"
+  ],
+  "support": [
+    "Premium priority support",
+    "Premium onboarding and migration described by supplier",
+    "Published help centre and contact routes"
+  ],
+  "editorial": {
+    "assessment": "Donorbox is a flexible UK-facing fundraising layer with published Gift Aid integration, but it is not church management software. A church should calculate the combined platform and processor fees, verify Gift Aid eligibility and decide how donor records will reconcile with its existing finance and people systems.",
+    "bestFor": [
+      "Registered UK charities that want configurable online fundraising",
+      "Churches needing campaign, ticketing or membership payments alongside donations"
+    ],
+    "strengths": [
+      "UK pricing page and HMRC Gift Aid integration are published",
+      "Free-to-start plan with a wide fundraising feature set"
+    ],
+    "limitations": [
+      "Transaction fees can be more important than the subscription price",
+      "Not a replacement for pastoral records, safeguarding or charity accounting controls"
+    ],
+    "procurementVerdict": {
+      "problem": "Registered UK charities that want configurable online fundraising",
+      "differentiator": "Donation forms and pages",
+      "firstCheck": "Transaction fees can be more important than the subscription price"
+    }
+  },
+  "longForm": {
+    "verdict": "Donorbox is a useful fundraising platform to evaluate where online donations, campaigns or ticketing are the immediate need. It should be costed against the church’s real donation volume and connected deliberately to the system that remains authoritative for finance and people data.",
+    "decisionLens": {
+      "heading": "Compare the complete cost per gift, not the plan label.",
+      "text": "The Standard plan has no monthly subscription but charges platform fees, and payment-processor fees are additional. Model ordinary gifts, regular gifts, events and Gift Aid processing so the treasurer understands the net amount and reconciliation work."
+    },
+    "sections": [
+      {
+        "heading": "Flexible fundraising, separate administration",
+        "question": "Will it improve giving without fragmenting donor records?",
+        "paragraphs": [
+          "Donorbox lists donation forms, campaigns, ticketing, memberships, reporting and UK HMRC Gift Aid integration. It publishes both fee-based Standard and paid plans.",
+          "Test a donation, an eligible Gift Aid declaration and an export before launch. Agree whether donor details are held only in Donorbox or also synchronised with another CRM, and keep independent finance review in place."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Donorbox’s UK pricing and product information.",
+      "themes": [
+        "The relevant cost is platform plus payment-processing fees.",
+        "Gift Aid and donor-record reconciliation need a treasurer-led test."
+      ],
+      "caveat": "Supplier claims do not establish the church’s eligibility for Gift Aid or suitability of any finance process."
+    },
+    "faq": [
+      {
+        "question": "Is Donorbox free?",
+        "answer": "Its Standard plan has no monthly subscription, but Donorbox publishes platform fees and payment-processing fees for each donation."
+      },
+      {
+        "question": "Does Donorbox support UK Gift Aid?",
+        "answer": "Yes, according to its UK pricing page. It lists an HMRC Gift Aid integration; confirm charity eligibility and the exact workflow before use."
+      },
+      {
+        "question": "What does Donorbox cost?",
+        "answer": "Published Standard platform fees are 2.95% to 3.95%. Pro is $150 per month with lower stated platform fees; payment-processor fees apply separately."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Donorbox UK pricing",
+      "url": "https://donorbox.org/uk-pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK pricing",
+        "Gift Aid",
+        "Features",
+        "Payment fees"
+      ]
+    },
+    {
+      "label": "Donorbox features",
+      "url": "https://donorbox.org/features",
+      "checked": "2026-07-25",
+      "supports": [
+        "GDPR-friendly forms",
+        "Donor-data exports",
+        "Integration catalogue",
+        "Help-centre link"
+      ]
+    },
+    {
+      "label": "Donorbox privacy policy",
+      "url": "https://donorbox.org/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "GDPR legal bases",
+        "Access, correction and deletion requests",
+        "Supplier legal identity"
+      ]
+    },
+    {
+      "label": "Donorbox Salesforce integration guide",
+      "url": "https://donorbox.org/nonprofit-blog/salesforce-integration",
+      "checked": "2026-07-25",
+      "supports": [
+        "Salesforce data export and synchronisation"
+      ]
+    },
+    {
+      "label": "Donorbox Mailchimp integration guide",
+      "url": "https://donorbox.org/nonprofit-blog/mailchimp-integration",
+      "checked": "2026-07-25",
+      "supports": [
+        "Mailchimp data export and consent handling"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Donorbox review for UK churches",
+    "description": "Independent Donorbox profile for UK churches: UK fees, Gift Aid integration, fundraising features and finance checks."
+  }
+}

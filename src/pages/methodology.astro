@@ -1,5 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const software = await getCollection("software");
 ---
 
 <BaseLayout
@@ -21,8 +24,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <h2>Which products are included</h2>
         <p>
           A product must have an active official site and plausible relevance to
-          UK church administration, ministry or operations. The first engineering
-          phase contains only fifty-one representative entries.
+          UK church administration, ministry or operations. The directory currently
+          contains {software.length} entries and is not a market-wide shortlist.
         </p>
 
         <h2>How facts are researched</h2>
@@ -69,9 +72,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
         <h2>Corrections</h2>
         <p>
-          Users and suppliers may submit official evidence. Corrections are
-          assessed on evidence, regardless of commercial status. The submission
-          endpoint is not connected in this foundation build.
+          Corrections will be assessed on evidence, regardless of commercial status.
+          No public correction route is currently configured, so the directory is
+          not ready for public launch until a responsible publisher and contact
+          route are confirmed.
         </p>
 
         <h2>Commercial independence</h2>
@@ -80,6 +84,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           disclosed beside the relevant link. They must not guarantee positive
           coverage or ranking. Any sponsored listing must be clearly labelled
           and is held to the same research and editorial standards.
+        </p>
+        <h2>How AI is used</h2>
+        <p>
+          AI may help organise research, identify missing fields and draft copy.
+          It is not treated as a source of product facts. A human remains
+          responsible for checking evidence and approving published material.
         </p>
       </article>
       <aside class="aside-card">

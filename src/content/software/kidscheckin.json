@@ -1,1 +1,146 @@
-{"name":"KidsCheckin.com","slug":"kidscheckin","shortDescription":"A newer children’s ministry check-in service with free and paid daily check-in limits, unlimited devices, labels and CSV exports.","officialWebsite":"https://kidscheckin.com/","company":"KidsCheckin.com","ukFocus":"general","categories":["childrens-ministry"],"suitableChurchSizes":["small","medium","large"],"suitableContexts":["Churches wanting a low-cost check-in pilot","Teams comfortable evaluating an early-access supplier"],"pricing":{"model":"tiered","summary":"KidsCheckin.com publishes a free plan for 30 daily check-ins, then $15, $29 and $49 monthly plans for 100, 500 and unlimited daily check-ins. It states no contracts, a 30-day money-back guarantee and free onboarding.","tiers":[{"label":"Free","price":"$0/month","detail":"Up to 30 daily check-ins"},{"label":"Starter","price":"$15/month","detail":"Up to 100 daily check-ins"},{"label":"Growth","price":"$29/month","detail":"Up to 500 daily check-ins"},{"label":"Unlimited","price":"$49/month","detail":"Unlimited daily check-ins"}]},"freePlan":"yes","freeTrial":"no","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Child registration and check-in","Unlimited devices","Label printing","Attendance","CSV exports","Free onboarding"],"integrations":[],"importExport":["CSV export","Supplier advertises free migration"],"support":["Free onboarding and support"],"editorial":{"assessment":"KidsCheckin.com has transparent entry pricing and a free tier, but it describes itself as opening early access to additional churches. It should be piloted carefully, with particular attention to reliability, data handling, printer compatibility and support before it is used for live child data.","bestFor":["Small churches testing a dedicated check-in tool","Teams willing to assess a newer product cautiously"],"strengths":["Free tier and clear daily-check-in price bands","Unlimited devices and CSV export are published"],"limitations":["Early-access positioning needs practical validation","Only Dymo LabelWriter support is stated on the reviewed page"]},"longForm":{"verdict":"KidsCheckin.com is attractive for a low-cost pilot, but early-access software should not be the sole safeguarding control at a busy children’s ministry until the church has tested it thoroughly.","decisionLens":{"heading":"Pilot with non-sensitive test data first.","text":"A free plan makes evaluation easy, but the church needs evidence that printing, collection flow, exports and support work in its own environment. Keep existing procedures and fallback records in place during the pilot."},"sections":[{"heading":"Affordable early-access check-in","question":"Can it meet the church’s real Sunday reliability standard?","paragraphs":["KidsCheckin.com lists a free plan and paid daily check-in limits, unlimited devices, label printing, attendance and CSV export. It says it is opening early access to more churches.","Use dummy records during setup and test the approved printer, connection and recovery process. Only progress to live data when the safeguarding lead and children’s team are satisfied with privacy, access and collection arrangements."]}],"userFeedback":{"summary":"This profile does not use an independent review score. It is based on KidsCheckin.com’s official product and pricing page.","themes":["The free plan lowers the cost of a controlled pilot.","Early-access status makes operational testing particularly important."],"caveat":"Supplier claims are not an independent assessment of safety, reliability or UK data-protection suitability."},"faq":[{"question":"Is KidsCheckin.com free?","answer":"Yes. The supplier lists a $0 plan for up to 30 daily check-ins."},{"question":"How much do paid plans cost?","answer":"Published plans are $15, $29 and $49 per month for up to 100, 500 and unlimited daily check-ins."},{"question":"Does it support all label printers?","answer":"Not confirmed. The reviewed page specifically states support for Dymo LabelWriter printers; ask about your required hardware."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"KidsCheckin.com product and pricing","url":"https://kidscheckin.com/","checked":"2026-07-25","supports":["Pricing","Free plan","Features","Early access","Printer support"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"KidsCheckin.com review for UK churches","description":"Independent KidsCheckin.com profile for UK churches: free plan, pricing, early-access checks and FAQs."}}
+{
+  "name": "KidsCheckin.com",
+  "slug": "kidscheckin",
+  "shortDescription": "A newer children’s ministry check-in service with free and paid daily check-in limits, unlimited devices, labels and CSV exports.",
+  "officialWebsite": "https://kidscheckin.com/",
+  "company": "KidsCheckin.com",
+  "ukFocus": "general",
+  "categories": [
+    "childrens-ministry"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches wanting a low-cost check-in pilot",
+    "Teams comfortable evaluating an early-access supplier"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "KidsCheckin.com publishes a free plan for 30 daily check-ins, then $15, $29 and $49 monthly plans for 100, 500 and unlimited daily check-ins. It states no contracts, a 30-day money-back guarantee and free onboarding.",
+    "tiers": [
+      {
+        "label": "Free",
+        "price": "$0/month",
+        "detail": "Up to 30 daily check-ins"
+      },
+      {
+        "label": "Starter",
+        "price": "$15/month",
+        "detail": "Up to 100 daily check-ins"
+      },
+      {
+        "label": "Growth",
+        "price": "$29/month",
+        "detail": "Up to 500 daily check-ins"
+      },
+      {
+        "label": "Unlimited",
+        "price": "$49/month",
+        "detail": "Unlimited daily check-ins"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Child registration and check-in",
+    "Unlimited devices",
+    "Label printing",
+    "Attendance",
+    "CSV exports",
+    "Free onboarding"
+  ],
+  "integrations": [],
+  "importExport": [
+    "CSV export",
+    "Supplier advertises free migration"
+  ],
+  "support": [
+    "Free onboarding and support"
+  ],
+  "editorial": {
+    "assessment": "KidsCheckin.com has transparent entry pricing and a free tier, but it describes itself as opening early access to additional churches. It should be piloted carefully, with particular attention to reliability, data handling, printer compatibility and support before it is used for live child data.",
+    "bestFor": [
+      "Small churches testing a dedicated check-in tool",
+      "Teams willing to assess a newer product cautiously"
+    ],
+    "strengths": [
+      "Free tier and clear daily-check-in price bands",
+      "Unlimited devices and CSV export are published"
+    ],
+    "limitations": [
+      "Early-access positioning needs practical validation",
+      "Only Dymo LabelWriter support is stated on the reviewed page"
+    ],
+    "procurementVerdict": {
+      "problem": "Small churches testing a dedicated check-in tool",
+      "differentiator": "Child registration and check-in",
+      "firstCheck": "Early-access positioning needs practical validation"
+    }
+  },
+  "longForm": {
+    "verdict": "KidsCheckin.com is attractive for a low-cost pilot, but early-access software should not be the sole safeguarding control at a busy children’s ministry until the church has tested it thoroughly.",
+    "decisionLens": {
+      "heading": "Pilot with non-sensitive test data first.",
+      "text": "A free plan makes evaluation easy, but the church needs evidence that printing, collection flow, exports and support work in its own environment. Keep existing procedures and fallback records in place during the pilot."
+    },
+    "sections": [
+      {
+        "heading": "Affordable early-access check-in",
+        "question": "Can it meet the church’s real Sunday reliability standard?",
+        "paragraphs": [
+          "KidsCheckin.com lists a free plan and paid daily check-in limits, unlimited devices, label printing, attendance and CSV export. It says it is opening early access to more churches.",
+          "Use dummy records during setup and test the approved printer, connection and recovery process. Only progress to live data when the safeguarding lead and children’s team are satisfied with privacy, access and collection arrangements."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on KidsCheckin.com’s official product and pricing page.",
+      "themes": [
+        "The free plan lowers the cost of a controlled pilot.",
+        "Early-access status makes operational testing particularly important."
+      ],
+      "caveat": "Supplier claims are not an independent assessment of safety, reliability or UK data-protection suitability."
+    },
+    "faq": [
+      {
+        "question": "Is KidsCheckin.com free?",
+        "answer": "Yes. The supplier lists a $0 plan for up to 30 daily check-ins."
+      },
+      {
+        "question": "How much do paid plans cost?",
+        "answer": "Published plans are $15, $29 and $49 per month for up to 100, 500 and unlimited daily check-ins."
+      },
+      {
+        "question": "Does it support all label printers?",
+        "answer": "Not confirmed. The reviewed page specifically states support for Dymo LabelWriter printers; ask about your required hardware."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "KidsCheckin.com product and pricing",
+      "url": "https://kidscheckin.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Free plan",
+        "Features",
+        "Early access",
+        "Printer support"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "KidsCheckin.com review for UK churches",
+    "description": "Independent KidsCheckin.com profile for UK churches: free plan, pricing, early-access checks and FAQs."
+  }
+}

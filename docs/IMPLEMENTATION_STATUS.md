@@ -2,7 +2,7 @@
 
 ## Current phase
 
-Phase 3: initial catalogue research in progress.
+Phase 4: evidence model and decision-ready comparison completed.
 
 ## In progress
 
@@ -20,8 +20,44 @@ Phase 3: initial catalogue research in progress.
   sourced Logos Bible Study profile. It is deliberately separate from church
   management software because it supports research, preaching and teaching
   rather than people administration.
+- A first evidence-refresh pass has strengthened the UK online-giving listings:
+  GoodBox now records its documented Gift Aid data workflow and privacy material;
+  KindLink records its published EEA-storage statement, UK data-protection terms
+  and account-download detail; Stewardship records current published partner fee
+  evidence; and ChurchDesk and ChMeetings record published hosting, privacy,
+  export and support material. Hosting locations remain unknown where suppliers
+  do not state them clearly.
+- The 25 July 2026 website review has been incorporated into
+  `docs/ROADMAP.md`. Further net-new catalogue growth is paused until the Phase 3
+  completion gate resolves contradictory public status wording, disabled
+  interactions, publisher disclosure, related-product relevance and the
+  unselected comparison state.
+- The next dashboard-prioritised research batch covers Pushpay, SermonAudio,
+  Praisenter, Beacon CRM and Donorbox. It adds source-backed privacy, hosting,
+  integration, export and support detail where published. The research also
+  confirms that Pushpay's current supplier country list excludes UK customers;
+  it is retained as market context rather than a current UK purchasing option.
 
 ## Completed
+
+- The Phase 4 evidence layer defines procurement fields, transparent evidence
+  states and source-date fallbacks; all 51 listings now have a structured
+  problem, differentiator and first-check verdict. The directory no longer
+  filters by broad church size while contact bands and operational measures are
+  still unconfirmed for much of the catalogue. Profiles expose field-level
+  evidence without a score; the public export contains every procurement field;
+  and comparison separates differences, shared evidence and supplier questions.
+- Guide pages now generate a persistent, scroll-aware `What's in this guide`
+  contents panel from their Markdown headings. It remains available while
+  reading, links directly to each section and marks the section currently in
+  view without making the guide content client-rendered.
+- Phase 3 public-trust work: public catalogue counts now derive from the
+  collection; inactive submission controls have been removed; known obsolete
+  public-copy phrases are checked; publisher and correction-route gaps are
+  explicit launch blockers; related-product links are deterministic and
+  explained; and comparison starts honestly empty until two products are chosen.
+- A batch review records a 25 July 2026 source-check date for all 51 listings.
+  The configured domain returned HTTP 200 through Cloudflare on the same date.
 
 - Astro static project, TypeScript configuration and Cloudflare-compatible output
 - Central site, form, analytics, commercial and stale-threshold configuration
@@ -86,15 +122,17 @@ Phase 3: initial catalogue research in progress.
 
 - The fifty-one entries are representative samples, not a market-wide shortlist.
 - All entries remain `Partially verified`; none represents hands-on testing.
-- Gift Aid is not confirmed for Planning Center, Breeze ChMS or ChurchTools.
+- Gift Aid is not confirmed for Planning Center, Breeze ChMS and ChurchCRM.
 - Data hosting is not confirmed for ChurchSuite, iKnow Church, Planning Center or
   Breeze ChMS.
 - Accessibility information, data processing agreements, complete integrations,
   migration scope and contractual details remain incomplete across the sample.
-- The production domain, responsible organisation, contact details, reuse
-  licence, form service and analytics provider are not selected.
-- Forms are deliberately non-submitting and analytics is disabled.
-- Deployment is documented but not connected to Cloudflare Pages.
+- The configured production domain returned HTTP 200 through Cloudflare on 25
+  July 2026. The responsible organisation, public contact route, reuse licence,
+  form service and analytics provider are not selected. The missing publisher
+  and contact facts are launch blockers, not placeholder facts to publish.
+- Forms expose no submission controls until an endpoint, privacy information,
+  spam protection and accessible success/error behaviour are configured.
 - The sample content was checked for unsupported claims against its recorded
   source notes only; it still needs periodic human re-verification at the
   official supplier URLs before catalogue expansion.
@@ -111,7 +149,7 @@ Material defects found and fixed:
 - Browser back and forward navigation did not restore filter or comparison
   controls after URL state changed.
 - Astro's sitemap configuration could diverge from the central site URL, and
-  the static `robots.txt` repeated that value separately.
+  the `robots.txt` route repeated that value separately.
 - Comparison links containing more than four unique products were clipped
   without explaining the limit.
 
@@ -119,18 +157,20 @@ The comparison remains deliberately horizontally scrollable on small screens;
 the table retains scoped headers, a visible caption and an explicit instruction
 instead of collapsing factual fields into an ambiguous mobile card layout.
 
-The foundation is ready for carefully researched catalogue expansion once a
-production URL and the remaining operational choices are configured. The next
-work should not add entries until those launch prerequisites are resolved.
+The foundation is ready for carefully researched catalogue expansion once the
+remaining operational choices are configured. The next work should not add
+entries until those launch prerequisites are resolved.
 
 ## Next recommended phase
 
-Phase 3: initial catalogue, beginning only after selecting the production URL,
-responsible organisation and contact details, connecting a preview deployment,
-and deciding the form and analytics arrangements. Keep additions in small,
-reviewed evidence-backed batches.
+The remaining Phase 3 launch blockers are user-supplied operational facts: the
+responsible publisher or organisation, relevant public background and a working
+correction contact route. The site must remain non-public until these are
+confirmed. Once supplied, configure them in `src/config/site.json`, update the
+privacy notice and enable a form only after its endpoint, spam protection and
+accessible success/error handling are in place.
 
 ## Maintenance note
 
-Keep catalogue expansion out of Phase 2. Resolve technical and editorial workflow
-gaps before adding larger batches of listings.
+Do not add more listings until the revised Phase 3 completion gate passes.
+Resume catalogue expansion only in small, reviewed evidence-backed batches.

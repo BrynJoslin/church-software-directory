@@ -5,18 +5,50 @@
   "officialWebsite": "https://churchdesk.com/en/",
   "company": "ChurchDesk Ltd.",
   "ukFocus": "strong",
-  "categories": ["church-management", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches wanting a connected administration and website platform", "Parishes coordinating calendars, rooms and communications"],
+  "categories": [
+    "church-management",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches wanting a connected administration and website platform",
+    "Parishes coordinating calendars, rooms and communications"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "ChurchDesk publishes annual-billing prices in pounds sterling, excluding VAT, with contact and time-registration limits that vary by package.",
-    "startingPrice": {"amount": 54, "currency": "GBP", "period": "month", "qualifier": "Basic package, billed annually and excluding VAT"},
+    "startingPrice": {
+      "amount": 54,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Basic package, billed annually and excluding VAT"
+    },
     "tiers": [
-      {"label": "Basic", "price": "£54/month", "detail": "100 contacts and five time-registration users; billed annually, excluding VAT"},
-      {"label": "Small", "price": "£97/month", "detail": "500 contacts and 15 time-registration users; billed annually, excluding VAT"},
-      {"label": "Medium", "price": "£140/month", "detail": "1,000 contacts and 25 time-registration users; billed annually, excluding VAT"},
-      {"label": "Large", "price": "£239/month", "detail": "5,000 contacts and unlimited time-registration users; billed annually, excluding VAT"}
+      {
+        "label": "Basic",
+        "price": "£54/month",
+        "detail": "100 contacts and five time-registration users; billed annually, excluding VAT"
+      },
+      {
+        "label": "Small",
+        "price": "£97/month",
+        "detail": "500 contacts and 15 time-registration users; billed annually, excluding VAT"
+      },
+      {
+        "label": "Medium",
+        "price": "£140/month",
+        "detail": "1,000 contacts and 25 time-registration users; billed annually, excluding VAT"
+      },
+      {
+        "label": "Large",
+        "price": "£239/month",
+        "detail": "5,000 contacts and unlimited time-registration users; billed annually, excluding VAT"
+      }
     ],
     "trialDetails": "A free trial is advertised; the current trial duration is not confirmed in this profile."
   },
@@ -24,35 +56,140 @@
   "freeTrial": "yes",
   "giftAid": "unknown",
   "demoAvailable": "unknown",
-  "coreFeatures": ["People and consent records", "Calendar, rooms and rotas", "Forms", "Website", "Payments and giving", "Workflows"],
-  "integrations": ["API"],
-  "importExport": ["Implementation service includes imports according to the supplier"],
-  "support": ["Phone, chat and email support", "Training webinars"],
+  "dataHosting": "ChurchDesk states that its service is hosted on Hetzner servers in Germany. Confirm the current contractual hosting, sub-processor and data-transfer position for a church's requirements.",
+  "gdprInformation": "ChurchDesk publishes data-security and privacy material describing GDPR-related measures, including hosting in Germany, encryption, role-based access and a data-processing agreement. This is supplier information, not a compliance determination for a church.",
+  "coreFeatures": [
+    "People and consent records",
+    "Calendar, rooms and rotas",
+    "Forms",
+    "Website",
+    "Payments and giving",
+    "Workflows"
+  ],
+  "integrations": [
+    "API"
+  ],
+  "importExport": [
+    "Implementation service includes imports according to the supplier",
+    "Published data-export tools in the contact module"
+  ],
+  "support": [
+    "Phone, chat and email support",
+    "Training webinars"
+  ],
   "editorial": {
     "assessment": "ChurchDesk is a credible UK-priced option where a church wants its public website, calendar and administration to share one source of data. Confirm Gift Aid, payment fees, contract terms and the practical website-migration scope before treating it as a finance system.",
-    "bestFor": ["Churches that value a connected public website and calendar", "Parishes needing room booking and operational communications"],
-    "strengths": ["GBP pricing and package limits are published", "Calendar, people, forms and website tools are designed to work together"],
-    "limitations": ["Prices exclude VAT", "Gift Aid capability and payment-fee details are not confirmed here"]
+    "bestFor": [
+      "Churches that value a connected public website and calendar",
+      "Parishes needing room booking and operational communications"
+    ],
+    "strengths": [
+      "GBP pricing and package limits are published",
+      "Calendar, people, forms and website tools are designed to work together"
+    ],
+    "limitations": [
+      "Prices exclude VAT",
+      "Gift Aid capability and payment-fee details are not confirmed here"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that value a connected public website and calendar",
+      "differentiator": "People and consent records",
+      "firstCheck": "Prices exclude VAT"
+    }
   },
   "longForm": {
     "verdict": "ChurchDesk is most compelling when a church wants to eliminate the gap between its public website and its day-to-day administration. The shortlist question is whether that connected platform is worth the package and migration commitment for the church’s actual number of contacts and sites.",
-    "decisionLens": {"heading": "A connected website is only useful if the underlying records stay well governed.", "text": "Calendar events, forms and people records can reduce duplicate entry when they share a system. That benefit depends on permissions, consent practice, content ownership and a realistic plan for migrating the existing website and contacts."},
-    "sections": [{"heading": "One platform for public and internal work", "question": "Will integration remove enough double handling to justify a platform change?", "paragraphs": ["ChurchDesk publishes calendar, people, forms, website, payments and workflow modules. Its product material describes calendar and form content updating connected website components.", "Use the trial to run an ordinary event from website listing through registration, rota, room booking and follow-up. Ask finance staff to verify the payment and donation workflow separately before relying on it for live giving."]}],
-    "userFeedback": {"summary": "This profile does not use an independent review score. The assessment is based on ChurchDesk’s published UK pricing, module descriptions and support information.", "themes": ["The potential advantage is a shared calendar, website and people-data workflow.", "The main implementation risk is migrating content and agreeing ownership across staff and volunteers."], "caveat": "Supplier testimonials and feature claims are not treated as independent testing or proof of fit."},
+    "decisionLens": {
+      "heading": "A connected website is only useful if the underlying records stay well governed.",
+      "text": "Calendar events, forms and people records can reduce duplicate entry when they share a system. That benefit depends on permissions, consent practice, content ownership and a realistic plan for migrating the existing website and contacts."
+    },
+    "sections": [
+      {
+        "heading": "One platform for public and internal work",
+        "question": "Will integration remove enough double handling to justify a platform change?",
+        "paragraphs": [
+          "ChurchDesk publishes calendar, people, forms, website, payments and workflow modules. Its product material describes calendar and form content updating connected website components.",
+          "Use the trial to run an ordinary event from website listing through registration, rota, room booking and follow-up. Ask finance staff to verify the payment and donation workflow separately before relying on it for live giving."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. The assessment is based on ChurchDesk’s published UK pricing, module descriptions and support information.",
+      "themes": [
+        "The potential advantage is a shared calendar, website and people-data workflow.",
+        "The main implementation risk is migrating content and agreeing ownership across staff and volunteers."
+      ],
+      "caveat": "Supplier testimonials and feature claims are not treated as independent testing or proof of fit."
+    },
     "faq": [
-      {"question": "Does ChurchDesk offer a free trial?", "answer": "Yes. ChurchDesk advertises a free trial, but this profile has not confirmed the current trial duration. Confirm the terms before entering live church data."},
-      {"question": "How much does ChurchDesk cost?", "answer": "Published annual-billing prices run from £54 to £239 per month excluding VAT, with limits based on contacts and time-registration users. Check current add-ons and implementation costs."},
-      {"question": "Does ChurchDesk support UK Gift Aid?", "answer": "Not confirmed in this profile. Ask the supplier to demonstrate the exact UK donation, declaration, reconciliation and Gift Aid workflow needed by the church."}
+      {
+        "question": "Does ChurchDesk offer a free trial?",
+        "answer": "Yes. ChurchDesk advertises a free trial, but this profile has not confirmed the current trial duration. Confirm the terms before entering live church data."
+      },
+      {
+        "question": "How much does ChurchDesk cost?",
+        "answer": "Published annual-billing prices run from £54 to £239 per month excluding VAT, with limits based on contacts and time-registration users. Check current add-ons and implementation costs."
+      },
+      {
+        "question": "Does ChurchDesk support UK Gift Aid?",
+        "answer": "Not confirmed in this profile. Ask the supplier to demonstrate the exact UK donation, declaration, reconciliation and Gift Aid workflow needed by the church."
+      }
     ]
   },
-  "brandAssets": {"logo": {"src": "/images/software/churchdesk/churchdesk-logo.svg", "alt": "ChurchDesk logo", "source": "https://churchdesk.com/en/pricing/", "checked": "2026-07-25"}},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchdesk/churchdesk-logo.svg",
+      "alt": "ChurchDesk logo",
+      "source": "https://churchdesk.com/en/pricing/",
+      "checked": "2026-07-25"
+    }
+  },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "ChurchDesk pricing", "url": "https://churchdesk.com/en/pricing/", "checked": "2026-07-25", "supports": ["Published pricing", "Package limits", "Modules", "Support"]},
-    {"label": "ChurchDesk free trial", "url": "https://churchdesk.com/en/free-trial", "checked": "2026-07-25", "supports": ["Free trial"]}
+    {
+      "label": "ChurchDesk pricing",
+      "url": "https://churchdesk.com/en/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published pricing",
+        "Package limits",
+        "Modules",
+        "Support"
+      ]
+    },
+    {
+      "label": "ChurchDesk free trial",
+      "url": "https://churchdesk.com/en/free-trial",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free trial"
+      ]
+    },
+    {
+      "label": "ChurchDesk data security and compliance",
+      "url": "https://churchdesk.com/en/enterprise/compliance/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Germany hosting statement",
+        "Encryption and access-control statements",
+        "Published GDPR and data-processing-agreement information"
+      ]
+    },
+    {
+      "label": "ChurchDesk contact-management guidance",
+      "url": "https://support.churchdesk.com/da/article/opret-og-administrer-en-kontakt-su5rjo/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Contact data-export tools",
+        "Consent-management statement"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "ChurchDesk review for UK churches", "description": "Independent ChurchDesk profile for UK churches: published pricing, trial, connected website and admin tools, key checks and FAQs."}
+  "seo": {
+    "title": "ChurchDesk review for UK churches",
+    "description": "Independent ChurchDesk profile for UK churches: published pricing, trial, connected website and admin tools, key checks and FAQs."
+  }
 }

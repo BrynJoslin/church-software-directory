@@ -28,7 +28,7 @@ const itemListJsonLd = {
 
 <BaseLayout
   title="Church software directory"
-  description="Search and filter independently researched church software by category, UK focus, size, pricing, free options and Gift Aid support."
+  description="Search and filter independently researched church software by category, UK focus, pricing, free options and relevant giving workflows."
   breadcrumbs={[{ label: "Software" }]}
   jsonLd={itemListJsonLd}
 >
@@ -96,16 +96,6 @@ const itemListJsonLd = {
               </p>
             </div>
             <div class="form-field">
-              <label for="size">Church size</label>
-              <select id="size" name="size">
-                <option value="">Any size</option>
-                <option value="small">Small</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
-                <option value="multi-site">Multi-site</option>
-              </select>
-            </div>
-            <div class="form-field">
               <label for="free-plan">Free plan</label>
               <select id="free-plan" name="free-plan">
                 <option value="">Any status</option>
@@ -124,7 +114,7 @@ const itemListJsonLd = {
               </select>
             </div>
             <div class="form-field">
-              <label for="gift-aid">Gift Aid</label>
+              <label for="gift-aid">Gift Aid workflow</label>
               <select id="gift-aid" name="gift-aid">
                 <option value="">Any status</option>
                 <option value="yes">Confirmed</option>

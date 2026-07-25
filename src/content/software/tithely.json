@@ -5,19 +5,57 @@
   "officialWebsite": "https://get.tithe.ly/",
   "company": "Tithely",
   "ukFocus": "general",
-  "categories": ["church-management", "online-giving", "church-websites", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches that want a bundled US-market church software suite", "Teams comparing a flat-rate bundle with separate specialist tools"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "church-websites",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches that want a bundled US-market church software suite",
+    "Teams comparing a flat-rate bundle with separate specialist tools"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Tithely publishes US-dollar subscription prices, alongside a free giving option and a separate published UK card rate. Check the applicable UK contract and payment terms before purchase.",
-    "startingPrice": {"amount": 72, "currency": "USD", "period": "month", "qualifier": "Church Management plan"},
+    "startingPrice": {
+      "amount": 72,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Church Management plan"
+    },
     "tiers": [
-      {"label": "Free Giving", "price": "$0/month", "detail": "No monthly fee; supplier publishes separate transaction rates"},
-      {"label": "Church Management", "price": "$72/month", "detail": "Published standalone plan price"},
-      {"label": "All Access", "price": "$119/month", "detail": "Published bundle price for the supplier’s listed tools"},
-      {"label": "Website", "price": "$19/month", "detail": "Published standalone website price"},
-      {"label": "Custom Church App", "price": "$89/month", "detail": "Published standalone app price"}
+      {
+        "label": "Free Giving",
+        "price": "$0/month",
+        "detail": "No monthly fee; supplier publishes separate transaction rates"
+      },
+      {
+        "label": "Church Management",
+        "price": "$72/month",
+        "detail": "Published standalone plan price"
+      },
+      {
+        "label": "All Access",
+        "price": "$119/month",
+        "detail": "Published bundle price for the supplier’s listed tools"
+      },
+      {
+        "label": "Website",
+        "price": "$19/month",
+        "detail": "Published standalone website price"
+      },
+      {
+        "label": "Custom Church App",
+        "price": "$89/month",
+        "detail": "Published standalone app price"
+      }
     ],
     "trialDetails": "The supplier advertises a 30-day free trial for paid plans."
   },
@@ -25,35 +63,117 @@
   "freeTrial": "yes",
   "giftAid": "unknown",
   "demoAvailable": "yes",
-  "coreFeatures": ["Online, mobile and text giving", "People database", "Volunteer and service planning", "Events and check-in", "Email and text messaging", "Church websites and apps"],
-  "integrations": ["QuickBooks", "MinistrySafe"],
-  "importExport": ["Data-transfer help is included in the supplier’s published enterprise onboarding description"],
-  "support": ["Supplier onboarding options", "Contact sales for enterprise support"],
+  "coreFeatures": [
+    "Online, mobile and text giving",
+    "People database",
+    "Volunteer and service planning",
+    "Events and check-in",
+    "Email and text messaging",
+    "Church websites and apps"
+  ],
+  "integrations": [
+    "QuickBooks",
+    "MinistrySafe"
+  ],
+  "importExport": [
+    "Data-transfer help is included in the supplier’s published enterprise onboarding description"
+  ],
+  "support": [
+    "Supplier onboarding options",
+    "Contact sales for enterprise support"
+  ],
   "editorial": {
     "assessment": "Tithely is a broad bundle with unusually clear headline prices and a UK card-rate statement. It deserves a UK-specific payment, Gift Aid, tax-receipting, data-processing and support review before a church makes it its system of record.",
-    "bestFor": ["Churches seeking a bundled giving, people and communications toolkit", "Teams able to test their whole workflow during a 30-day trial"],
-    "strengths": ["Free giving option and published paid-plan prices", "A wide bundle spanning administration, giving, websites and apps"],
-    "limitations": ["Most subscription prices are in US dollars", "UK Gift Aid and wider UK operational fit are not confirmed in this profile"]
+    "bestFor": [
+      "Churches seeking a bundled giving, people and communications toolkit",
+      "Teams able to test their whole workflow during a 30-day trial"
+    ],
+    "strengths": [
+      "Free giving option and published paid-plan prices",
+      "A wide bundle spanning administration, giving, websites and apps"
+    ],
+    "limitations": [
+      "Most subscription prices are in US dollars",
+      "UK Gift Aid and wider UK operational fit are not confirmed in this profile"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches seeking a bundled giving, people and communications toolkit",
+      "differentiator": "Online, mobile and text giving",
+      "firstCheck": "Most subscription prices are in US dollars"
+    }
   },
   "longForm": {
     "verdict": "Tithely is most useful to evaluate as a bundle, not as a list of standalone modules. The practical question is whether its giving, people, communications and public-facing tools can simplify enough work to justify moving several workflows together.",
-    "decisionLens": {"heading": "Model the total cost of giving, not only the subscription.", "text": "The supplier publishes a £1.9% plus £0.30 UK card rate as well as US-dollar subscription figures. Before comparing options, use the church’s real donation value, transaction count and donor-fee policy, then verify settlement and Gift Aid arrangements directly with Tithely."},
-    "sections": [{"heading": "A suite that should be tested as one workflow", "question": "Can one connected system genuinely replace the current mix?", "paragraphs": ["Tithely describes a suite covering giving, people, volunteer coordination, check-in, messaging, sites, apps and worship planning. Its All Access plan is presented as the bundle for teams that want those tools together.", "Use the trial to run a real event from sign-up through communications, volunteer scheduling and follow-up. Separately ask finance volunteers to test donor records, reconciliation exports and the exact UK Gift Aid workflow before relying on it."]}],
-    "userFeedback": {"summary": "This profile does not reproduce an external review score. It is based on Tithely’s published pricing and product information, with the UK suitability questions kept separate from supplier claims.", "themes": ["The bundle can be simpler than buying modules separately.", "Transaction cost and UK finance workflow need modelling before a switch."], "caveat": "Supplier feature descriptions and review badges are not independent testing or confirmation of UK fit."},
+    "decisionLens": {
+      "heading": "Model the total cost of giving, not only the subscription.",
+      "text": "The supplier publishes a £1.9% plus £0.30 UK card rate as well as US-dollar subscription figures. Before comparing options, use the church’s real donation value, transaction count and donor-fee policy, then verify settlement and Gift Aid arrangements directly with Tithely."
+    },
+    "sections": [
+      {
+        "heading": "A suite that should be tested as one workflow",
+        "question": "Can one connected system genuinely replace the current mix?",
+        "paragraphs": [
+          "Tithely describes a suite covering giving, people, volunteer coordination, check-in, messaging, sites, apps and worship planning. Its All Access plan is presented as the bundle for teams that want those tools together.",
+          "Use the trial to run a real event from sign-up through communications, volunteer scheduling and follow-up. Separately ask finance volunteers to test donor records, reconciliation exports and the exact UK Gift Aid workflow before relying on it."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not reproduce an external review score. It is based on Tithely’s published pricing and product information, with the UK suitability questions kept separate from supplier claims.",
+      "themes": [
+        "The bundle can be simpler than buying modules separately.",
+        "Transaction cost and UK finance workflow need modelling before a switch."
+      ],
+      "caveat": "Supplier feature descriptions and review badges are not independent testing or confirmation of UK fit."
+    },
     "faq": [
-      {"question": "Does Tithely offer a free plan?", "answer": "Yes. Tithely advertises Free Giving with no monthly fee, while transaction charges still apply."},
-      {"question": "Does Tithely offer a free trial?", "answer": "Yes. The supplier advertises a 30-day free trial for paid plans."},
-      {"question": "What does Tithely cost?", "answer": "Published prices include $72/month for Church Management, $119/month for All Access, $19/month for a website and $89/month for a custom app. Confirm UK billing, VAT and payment terms with Tithely."},
-      {"question": "Does Tithely support UK Gift Aid?", "answer": "Not confirmed in this profile. Ask Tithely to demonstrate the required declaration, claim, export and reconciliation workflow."}
+      {
+        "question": "Does Tithely offer a free plan?",
+        "answer": "Yes. Tithely advertises Free Giving with no monthly fee, while transaction charges still apply."
+      },
+      {
+        "question": "Does Tithely offer a free trial?",
+        "answer": "Yes. The supplier advertises a 30-day free trial for paid plans."
+      },
+      {
+        "question": "What does Tithely cost?",
+        "answer": "Published prices include $72/month for Church Management, $119/month for All Access, $19/month for a website and $89/month for a custom app. Confirm UK billing, VAT and payment terms with Tithely."
+      },
+      {
+        "question": "Does Tithely support UK Gift Aid?",
+        "answer": "Not confirmed in this profile. Ask Tithely to demonstrate the required declaration, claim, export and reconciliation workflow."
+      }
     ]
   },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Tithely pricing", "url": "https://get.tithe.ly/pricing", "checked": "2026-07-25", "supports": ["Pricing", "Free plan", "Trial", "UK card rate", "Features"]},
-    {"label": "Tithely Church Management", "url": "https://get.tithe.ly/product/church-management-software", "checked": "2026-07-25", "supports": ["Church management features", "Demo"]}
+    {
+      "label": "Tithely pricing",
+      "url": "https://get.tithe.ly/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Free plan",
+        "Trial",
+        "UK card rate",
+        "Features"
+      ]
+    },
+    {
+      "label": "Tithely Church Management",
+      "url": "https://get.tithe.ly/product/church-management-software",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church management features",
+        "Demo"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Tithely review for UK churches", "description": "Independent Tithely profile for UK churches: published pricing, free trial, giving and management tools, UK checks and FAQs."}
+  "seo": {
+    "title": "Tithely review for UK churches",
+    "description": "Independent Tithely profile for UK churches: published pricing, free trial, giving and management tools, UK checks and FAQs."
+  }
 }

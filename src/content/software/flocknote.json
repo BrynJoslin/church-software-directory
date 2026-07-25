@@ -1,1 +1,170 @@
-{"name":"Flocknote","slug":"flocknote","shortDescription":"A US church communications and member-management platform with email, text messages, sign-ups, giving and household records.","officialWebsite":"https://flocknote.com/","company":"Flocknote","ukFocus":"general","categories":["church-communications","church-management","online-giving"],"suitableChurchSizes":["small","medium","large","multi-site"],"suitableContexts":["Churches prioritising email and text communication","Catholic parishes and churches managing registrations and households"],"pricing":{"model":"tiered","summary":"Flocknote publishes US-dollar member-band pricing, including a free Starter tier for up to 40 members. Its paid Complete plan adds $75 per month to the applicable Starter member-band price.","tiers":[{"label":"Starter, up to 40 members","price":"Free","detail":"Supplier states it is free for life"},{"label":"Starter, 41–50 members","price":"$10/month","detail":"Published member-band price"},{"label":"Starter, 51–70 members","price":"$17/month","detail":"Published member-band price"},{"label":"Complete","price":"Starter price + $75/month","detail":"Adds member database, registrations and advanced giving tools"}],"trialDetails":"The supplier advertises an unlimited free trial with no card required."},"freePlan":"yes","freeTrial":"yes","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Email and standard text messages","Groups","Event and volunteer sign-ups","Online giving","Household database","Attendance and registration"],"integrations":["Website sign-up forms","RSS feeds","Social posting"],"importExport":["Data-transfer service on Complete","Giving-data export"],"support":["Supplier demo","Training and migration for enterprise accounts"],"editorial":{"assessment":"Flocknote has unusually clear US pricing and a communication-led product shape. UK churches should confirm SMS delivery and consent rules, data processing, payment availability, Gift Aid and GBP billing before considering it a practical UK alternative.","bestFor":["Teams that want communications and sign-ups before a full operational suite","Churches able to test communications consent and household workflows during the trial"],"strengths":["Free small-network tier and unlimited trial","Strong email, text and sign-up emphasis"],"limitations":["US-dollar pricing","UK payment, Gift Aid, data-processing and messaging compliance are not confirmed here"]},"longForm":{"verdict":"Flocknote is most relevant where scattered church communication is the primary pain point. Its value should be assessed by whether it can centralise permissions, groups and sign-ups without creating a second uncontrolled people database.","decisionLens":{"heading":"Communication convenience must sit inside a consent process.","text":"Email, text, groups and sign-up forms are powerful only when the church can explain why someone is contacted, manage preferences and export records safely. Test opt-in, opt-out and administrator roles before importing the whole address book."},"sections":[{"heading":"Communication first, database second","question":"Will it simplify outreach without duplicating records?","paragraphs":["Flocknote publishes email, standard texting, sign-ups, giving and household-management tools. Its Complete plan adds a wider member and registration feature set.","Run a trial with one real newsletter, event sign-up and volunteer reminder. For a UK church, separately confirm text-message delivery, consent handling, data-processing terms and how any online payments would interact with Gift Aid."]}],"userFeedback":{"summary":"This profile does not use an independent review score. It is based on Flocknote’s published pricing and feature information.","themes":["The free tier can make a communication pilot easy to start.","The main UK due diligence is messaging consent, payments and data processing."],"caveat":"Supplier feature statements and public ratings are not independent testing or evidence of UK compliance."},"faq":[{"question":"Does Flocknote have a free plan?","answer":"Yes. Flocknote advertises Starter as free for life for networks of up to 40 members."},{"question":"Does Flocknote offer a free trial?","answer":"Yes. The supplier advertises an unlimited free trial without a card."},{"question":"How much does Flocknote cost?","answer":"Pricing is in US dollars and varies by member count. The supplier lists Starter at $10/month for 41–50 members and Complete as the Starter price plus $75/month."},{"question":"Does Flocknote support UK Gift Aid?","answer":"Not confirmed in this profile. Verify payment availability, Gift Aid and donor reporting directly with Flocknote."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"Flocknote pricing","url":"https://flocknote.com/pricing/","checked":"2026-07-25","supports":["Pricing","Free plan","Trial","Features","Demo"]},{"label":"Flocknote pricing help","url":"https://help.flocknote.com/article/81-does-it-cost-anything-to-use-flocknote","checked":"2026-07-25","supports":["Free tier","Pricing model","Giving"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"Flocknote review for UK churches","description":"Independent Flocknote profile for UK churches: US pricing, free trial, communications and member tools, UK checks and FAQs."}}
+{
+  "name": "Flocknote",
+  "slug": "flocknote",
+  "shortDescription": "A US church communications and member-management platform with email, text messages, sign-ups, giving and household records.",
+  "officialWebsite": "https://flocknote.com/",
+  "company": "Flocknote",
+  "ukFocus": "general",
+  "categories": [
+    "church-communications",
+    "church-management",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches prioritising email and text communication",
+    "Catholic parishes and churches managing registrations and households"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Flocknote publishes US-dollar member-band pricing, including a free Starter tier for up to 40 members. Its paid Complete plan adds $75 per month to the applicable Starter member-band price.",
+    "tiers": [
+      {
+        "label": "Starter, up to 40 members",
+        "price": "Free",
+        "detail": "Supplier states it is free for life"
+      },
+      {
+        "label": "Starter, 41–50 members",
+        "price": "$10/month",
+        "detail": "Published member-band price"
+      },
+      {
+        "label": "Starter, 51–70 members",
+        "price": "$17/month",
+        "detail": "Published member-band price"
+      },
+      {
+        "label": "Complete",
+        "price": "Starter price + $75/month",
+        "detail": "Adds member database, registrations and advanced giving tools"
+      }
+    ],
+    "trialDetails": "The supplier advertises an unlimited free trial with no card required."
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "giftAid": "unknown",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Email and standard text messages",
+    "Groups",
+    "Event and volunteer sign-ups",
+    "Online giving",
+    "Household database",
+    "Attendance and registration"
+  ],
+  "integrations": [
+    "Website sign-up forms",
+    "RSS feeds",
+    "Social posting"
+  ],
+  "importExport": [
+    "Data-transfer service on Complete",
+    "Giving-data export"
+  ],
+  "support": [
+    "Supplier demo",
+    "Training and migration for enterprise accounts"
+  ],
+  "editorial": {
+    "assessment": "Flocknote has unusually clear US pricing and a communication-led product shape. UK churches should confirm SMS delivery and consent rules, data processing, payment availability, Gift Aid and GBP billing before considering it a practical UK alternative.",
+    "bestFor": [
+      "Teams that want communications and sign-ups before a full operational suite",
+      "Churches able to test communications consent and household workflows during the trial"
+    ],
+    "strengths": [
+      "Free small-network tier and unlimited trial",
+      "Strong email, text and sign-up emphasis"
+    ],
+    "limitations": [
+      "US-dollar pricing",
+      "UK payment, Gift Aid, data-processing and messaging compliance are not confirmed here"
+    ],
+    "procurementVerdict": {
+      "problem": "Teams that want communications and sign-ups before a full operational suite",
+      "differentiator": "Email and standard text messages",
+      "firstCheck": "US-dollar pricing"
+    }
+  },
+  "longForm": {
+    "verdict": "Flocknote is most relevant where scattered church communication is the primary pain point. Its value should be assessed by whether it can centralise permissions, groups and sign-ups without creating a second uncontrolled people database.",
+    "decisionLens": {
+      "heading": "Communication convenience must sit inside a consent process.",
+      "text": "Email, text, groups and sign-up forms are powerful only when the church can explain why someone is contacted, manage preferences and export records safely. Test opt-in, opt-out and administrator roles before importing the whole address book."
+    },
+    "sections": [
+      {
+        "heading": "Communication first, database second",
+        "question": "Will it simplify outreach without duplicating records?",
+        "paragraphs": [
+          "Flocknote publishes email, standard texting, sign-ups, giving and household-management tools. Its Complete plan adds a wider member and registration feature set.",
+          "Run a trial with one real newsletter, event sign-up and volunteer reminder. For a UK church, separately confirm text-message delivery, consent handling, data-processing terms and how any online payments would interact with Gift Aid."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Flocknote’s published pricing and feature information.",
+      "themes": [
+        "The free tier can make a communication pilot easy to start.",
+        "The main UK due diligence is messaging consent, payments and data processing."
+      ],
+      "caveat": "Supplier feature statements and public ratings are not independent testing or evidence of UK compliance."
+    },
+    "faq": [
+      {
+        "question": "Does Flocknote have a free plan?",
+        "answer": "Yes. Flocknote advertises Starter as free for life for networks of up to 40 members."
+      },
+      {
+        "question": "Does Flocknote offer a free trial?",
+        "answer": "Yes. The supplier advertises an unlimited free trial without a card."
+      },
+      {
+        "question": "How much does Flocknote cost?",
+        "answer": "Pricing is in US dollars and varies by member count. The supplier lists Starter at $10/month for 41–50 members and Complete as the Starter price plus $75/month."
+      },
+      {
+        "question": "Does Flocknote support UK Gift Aid?",
+        "answer": "Not confirmed in this profile. Verify payment availability, Gift Aid and donor reporting directly with Flocknote."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Flocknote pricing",
+      "url": "https://flocknote.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Free plan",
+        "Trial",
+        "Features",
+        "Demo"
+      ]
+    },
+    {
+      "label": "Flocknote pricing help",
+      "url": "https://help.flocknote.com/article/81-does-it-cost-anything-to-use-flocknote",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free tier",
+        "Pricing model",
+        "Giving"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Flocknote review for UK churches",
+    "description": "Independent Flocknote profile for UK churches: US pricing, free trial, communications and member tools, UK checks and FAQs."
+  }
+}

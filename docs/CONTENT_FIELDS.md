@@ -47,9 +47,12 @@ or charity. Use `unknown` when that evidence has not been recorded; do not use
 `no` merely because the product has international customers or is not
 UK-focused.
 
-`categories` contains references to category entry IDs. `suitableChurchSizes`
-uses `small`, `medium`, `large` or `multi-site`. These are editorial fit labels,
-not supplier customer-count claims.
+`categories` contains references to category entry IDs. The first reference is
+the primary decision context; further references are secondary. Keep this order
+intentional: related-product links use the shared primary context and another
+structured similarity, rather than making a link from a broad secondary tag.
+`suitableChurchSizes` uses `small`, `medium`, `large` or `multi-site`. These are
+editorial fit labels, not supplier customer-count claims.
 
 ### Pricing
 
@@ -69,8 +72,7 @@ published duration or evaluation arrangement beside the three-state trial fact.
 
 ### Three-state facts
 
-`freePlan`, `freeTrial`, `giftAid`, `demoAvailable` and
-`affiliateRelationship` use:
+`freePlan`, `freeTrial`, `demoAvailable` and `affiliateRelationship` use:
 
 - `yes`: current evidence confirms it.
 - `no`: current evidence explicitly confirms absence.
@@ -78,12 +80,40 @@ published duration or evaluation arrangement beside the three-state trial fact.
 
 An empty search result must never turn `unknown` into `no`.
 
+`giftAid` uses the same three-state values, but only belongs on products that
+handle donations or charity-finance workflows. Omit it for unrelated software;
+the directory treats omission as not applicable, not as unknown.
+
 ### Operations
 
 `dataHosting`, `gdprInformation`, `coreFeatures`, `integrations`,
 `importExport` and `support` contain only evidence-backed information. Omit an
 optional string or use an empty array when not confirmed; the interface displays
 `Not confirmed`.
+
+### Decision evidence
+
+`decisionEvidence` is a map keyed by the procurement fields used on profiles
+and comparisons: `contact-band`, `multi-site`, `administrator-limits`,
+`volunteer-usability`, `implementation`, `technical-administration`,
+`uk-purchasing`, `gbp-pricing`, `vat-treatment`, `gift-aid`, `mfa`,
+`role-permissions`, `audit-logs`, `data-processing`, `hosting`, `transfers`,
+`exports`, `migration`, `uk-support` and `contract`.
+
+Each populated field has a reader-facing `value`, an evidence `state`, and—when
+known—a direct `source` URL and `checked` date. The permitted states are:
+
+- `confirmed`: a direct, current source establishes the fact.
+- `independently-evidenced`: a reliable non-supplier source establishes it.
+- `supplier-claim`: the supplier publishes the claim; it is not an independent
+  certification or hands-on test.
+- `not-confirmed`: no suitable source currently establishes the fact.
+- `possibly-outdated`: the recorded evidence needs rechecking before use.
+
+An omitted field is rendered as `Not confirmed` with that absence made visible.
+Do not turn a missing record into `no`. The public export derives a transparent
+fallback from existing source support labels until a listing has a field-specific
+override.
 
 ### Brand assets (optional)
 
@@ -102,6 +132,9 @@ The `editorial` object contains the directory's assessment:
 - `bestFor`: contexts where the known shape may be relevant.
 - `strengths`: evidence-backed advantages, not marketing superlatives.
 - `limitations`: trade-offs, caveats and unresolved questions.
+- `procurementVerdict`: the relevant problem, material differentiator and first
+  risk or uncertainty to investigate. It must be specific to the product’s
+  recorded evidence; do not use a generic software recommendation.
 
 Do not claim hands-on experience unless it actually occurred and is documented.
 

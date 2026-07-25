@@ -4,6 +4,11 @@ import SoftwareCard from "../../components/SoftwareCard.astro";
 import VerificationBadge from "../../components/VerificationBadge.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { siteConfig } from "../../config/site";
+import { findRelatedProducts } from "../../utils/related-products";
+import {
+  evidenceStateLabel,
+  evidenceSummaryFor
+} from "../../utils/decision-evidence";
 import {
   formatDate,
   formatStartingPrice,
@@ -21,9 +26,10 @@ export async function getStaticPaths() {
   }));
 }
 
-interface Props {
+type RelatedProduct = {
   entry: CollectionEntry<"software">;
-}
+  reason: string;
+};
 
 const { entry } = Astro.props;
 const software = entry.data;
@@ -37,18 +43,20 @@ const relatedCategories = categories.filter((category) =>
 const categoryNames = new Map(
   categories.map((category) => [category.id, category.data.name])
 );
-const relatedProducts = allSoftware
-  .filter(
-    (candidate) =>
-      candidate.id !== entry.id &&
-      candidate.data.categories.some((candidateCategory) =>
-        software.categories.some(
-          (currentCategory) => currentCategory.id === candidateCategory.id
-        )
-      )
-  )
-  .sort((a, b) => a.data.name.localeCompare(b.data.name))
-  .slice(0, 2);
+const relatedProducts = findRelatedProducts(entry, allSoftware);
+const evidenceSummary = evidenceSummaryFor(entry);
+const evidenceSummaryItems = [
+  "confirmed",
+  "independently-evidenced",
+  "supplier-claim",
+  "not-confirmed",
+  "possibly-outdated"
+] as const;
+const procurementVerdict = software.editorial.procurementVerdict ?? {
+  problem: software.editorial.bestFor[0],
+  differentiator: software.coreFeatures[0] ?? "No material differentiator is confirmed in this profile.",
+  firstCheck: software.editorial.limitations[0]
+};
 const longForm = software.longForm;
 const hasAffiliateLink =
   siteConfig.features.affiliateLinks &&
@@ -156,6 +164,61 @@ const faqJsonLd = longForm
         <section aria-labelledby="assessment-heading">
           <h2 id="assessment-heading">Directory assessment</h2>
           <p>{software.editorial.assessment}</p>
+        </section>
+
+        <section class="profile-verdict" aria-labelledby="procurement-verdict-heading">
+          <p class="eyebrow">Procurement verdict</p>
+          <h2 id="procurement-verdict-heading">What to investigate first</h2>
+          <dl class="detail-list">
+            <div>
+              <dt>Problem this profile addresses</dt>
+              <dd>{procurementVerdict.problem}</dd>
+            </div>
+            <div>
+              <dt>Material differentiator to test</dt>
+              <dd>{procurementVerdict.differentiator}</dd>
+            </div>
+            <div>
+              <dt>First risk or uncertainty</dt>
+              <dd>{procurementVerdict.firstCheck}</dd>
+            </div>
+          </dl>
+          {
+            !software.editorial.procurementVerdict && (
+              <p class="muted">This structured verdict is awaiting an editorial rewrite; it currently draws on the existing assessment, recorded features and limitations.</p>
+            )
+          }
+        </section>
+
+        <section aria-labelledby="decision-evidence-heading">
+          <p class="eyebrow">Decision evidence</p>
+          <h2 id="decision-evidence-heading">What is evidenced, and what still needs asking</h2>
+          <p class="measure">
+            This is an evidence summary, not a product score. It counts the state
+            of the procurement fields below and keeps the broader listing status
+            separate.
+          </p>
+          <ul class="evidence-summary" aria-label="Decision-field evidence summary">
+            {evidenceSummaryItems.map((state) => (
+              <li><strong>{evidenceSummary.counts[state]}</strong> {evidenceStateLabel(state)}</li>
+            ))}
+          </ul>
+          <dl class="detail-list decision-evidence-list">
+            {evidenceSummary.fields.map((field) => (
+              <div>
+                <dt>{field.label}</dt>
+                <dd>
+                  <span class={`evidence-state evidence-state--${field.state}`}>{evidenceStateLabel(field.state)}</span>
+                  <span>{field.value}</span>
+                  {field.source ? (
+                    <small>Source: <a href={field.source.url} rel="noopener noreferrer">{field.source.label}</a> · checked {formatDate(field.source.checked)}</small>
+                  ) : (
+                    <small>{field.note}</small>
+                  )}
+                </dd>
+              </div>
+            ))}
+          </dl>
         </section>
 
         <section aria-labelledby="fit-heading">
@@ -343,8 +406,8 @@ const faqJsonLd = longForm
             <dd>{ukOrganisationLabel(software.ukOrganisation)}</dd>
           </div>
           <div>
-            <dt>Church sizes</dt>
-            <dd>{software.suitableChurchSizes.join(", ")}</dd>
+            <dt>Editorial fit contexts</dt>
+            <dd>{software.suitableContexts.length ? software.suitableContexts.join(", ") : "Not confirmed"}</dd>
           </div>
           <div>
             <dt>Pricing model</dt>
@@ -362,10 +425,14 @@ const faqJsonLd = longForm
             <dt>Free trial</dt>
             <dd>{triStateLabel(software.freeTrial)}</dd>
           </div>
-          <div>
-            <dt>Gift Aid</dt>
-            <dd>{triStateLabel(software.giftAid)}</dd>
-          </div>
+          {
+            software.giftAid && (
+              <div>
+                <dt>Gift Aid</dt>
+                <dd>{triStateLabel(software.giftAid)}</dd>
+              </div>
+            )
+          }
           <div>
             <dt>Last checked</dt>
             <dd>{formatDate(software.lastChecked)}</dd>
@@ -406,9 +473,14 @@ const faqJsonLd = longForm
         <div class="container">
           <h2 id="related-heading">Related products</h2>
           <div class="software-grid">
-            {relatedProducts.map((product) => (
-              <SoftwareCard entry={product} categoryNames={categoryNames} />
-            ))}
+            {relatedProducts.map(
+              (related: RelatedProduct) => (
+                <div>
+                  <SoftwareCard entry={related.entry} categoryNames={categoryNames} />
+                  <p class="related-reason">Why shown: {related.reason}</p>
+                </div>
+              )
+            )}
           </div>
         </div>
       </section>

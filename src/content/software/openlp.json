@@ -5,15 +5,147 @@
   "officialWebsite": "https://openlp.org/",
   "company": "OpenLP Developers",
   "ukFocus": "general",
-  "categories": ["presentation-software", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches needing free presentation software", "Teams using Windows, macOS or Linux and able to support their own setup"],
-  "pricing": {"model": "free", "summary": "OpenLP is free, open-source software under the GNU GPL. There is no subscription or paid trial; churches remain responsible for their own hardware, content and support arrangements.", "startingPrice": {"amount": 0, "currency": "GBP", "period": "month", "qualifier": "Free to download and use"}, "tiers": [{"label": "OpenLP", "price": "Free", "detail": "Open-source GNU GPL software; installs can be used without subscription fees"}], "trialDetails": "No time-limited trial is needed because the software is free to download and use."},
-  "freePlan": "yes", "freeTrial": "no", "giftAid": "unknown", "demoAvailable": "yes",
-  "coreFeatures": ["Song projection", "Bible-verse presentation", "Images, audio and video", "Custom slides", "Remote web control", "Stage view"],
-  "integrations": ["VLC media playback", "PowerPoint and LibreOffice presentation support"], "importExport": ["Imports from selected presentation packages"], "support": ["Documentation", "Community forums"],
-  "editorial": {"assessment": "OpenLP is an excellent cost-conscious presentation starting point where a church can own its own setup and support. Free software does not remove the need for rehearsal, backup plans, content licences or someone responsible for the presentation computer.", "bestFor": ["Small churches seeking free presentation software", "Technically confident volunteers who can test and maintain a local setup"], "strengths": ["Free and open source", "Cross-platform presentation and browser-based remote control"], "limitations": ["Community rather than commercial support model", "The church remains responsible for setup, resilience and content licensing"]},
-  "longForm": {"verdict": "OpenLP is a strong fit where the budget needs to stay focused on hardware and content rather than subscriptions. The trade-off is that the church must be ready to own the setup, updates, rehearsals and contingency plan itself.", "decisionLens": {"heading": "Free software shifts the investment to preparation and support.", "text": "A successful live-service system needs a tested computer, display outputs, trained operators, media licences and a fallback plan. OpenLP removes subscription cost, not those operational responsibilities."}, "sections": [{"heading": "A practical free presentation stack", "question": "Can the church make its local setup reliable enough for live use?", "paragraphs": ["OpenLP publishes support for songs, Bible verses, presentations, images, audio, video and remote control across major desktop platforms. It is free and open source under the GNU GPL.", "Run a full rehearsal with the actual projector, songs, Bible translations, videos and operator. Keep a simple backup such as exported slides or printed lyrics for the first live services."]}], "userFeedback": {"summary": "This profile does not use an aggregate review score. It is based on the project’s own published feature, licensing and support information.", "themes": ["No subscription cost makes a pilot accessible.", "Local technical ownership and rehearsal discipline are central to fit."], "caveat": "Community testimonials are not treated as independent testing or a guarantee of compatibility with church hardware."}, "faq": [{"question": "Is OpenLP really free?", "answer": "Yes. OpenLP is published as free, open-source software under the GNU GPL. There is no subscription fee, although the church still supplies hardware, content and support."}, {"question": "Does OpenLP have a free trial?", "answer": "A trial is not needed because OpenLP is free to download and use. Test it thoroughly with the church’s actual live-service equipment."}, {"question": "Can OpenLP display songs and Bible verses?", "answer": "Yes. The project describes song, Bible, media, custom-slide and presentation support, plus browser-based remote control. Check content licences separately."}]},
-  "verificationStatus": "partially-verified", "lastChecked": "2026-07-25", "sources": [{"label": "OpenLP product overview", "url": "https://openlp.org/", "checked": "2026-07-25", "supports": ["Free and open-source licence", "Platforms", "Presentation features", "Remote control"]}, {"label": "OpenLP reference manual", "url": "https://manual.openlp.org/introduction.html", "checked": "2026-07-25", "supports": ["GPL licence", "Presentation use", "No-cost installation"]}], "affiliateRelationship": "no", "sponsored": false,
-  "seo": {"title": "OpenLP review for UK churches", "description": "Independent OpenLP profile for UK churches: free open-source presentation software, features, practical setup considerations and FAQs."}
+  "categories": [
+    "presentation-software",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches needing free presentation software",
+    "Teams using Windows, macOS or Linux and able to support their own setup"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "OpenLP is free, open-source software under the GNU GPL. There is no subscription or paid trial; churches remain responsible for their own hardware, content and support arrangements.",
+    "startingPrice": {
+      "amount": 0,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Free to download and use"
+    },
+    "tiers": [
+      {
+        "label": "OpenLP",
+        "price": "Free",
+        "detail": "Open-source GNU GPL software; installs can be used without subscription fees"
+      }
+    ],
+    "trialDetails": "No time-limited trial is needed because the software is free to download and use."
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Song projection",
+    "Bible-verse presentation",
+    "Images, audio and video",
+    "Custom slides",
+    "Remote web control",
+    "Stage view"
+  ],
+  "integrations": [
+    "VLC media playback",
+    "PowerPoint and LibreOffice presentation support"
+  ],
+  "importExport": [
+    "Imports from selected presentation packages"
+  ],
+  "support": [
+    "Documentation",
+    "Community forums"
+  ],
+  "editorial": {
+    "assessment": "OpenLP is an excellent cost-conscious presentation starting point where a church can own its own setup and support. Free software does not remove the need for rehearsal, backup plans, content licences or someone responsible for the presentation computer.",
+    "bestFor": [
+      "Small churches seeking free presentation software",
+      "Technically confident volunteers who can test and maintain a local setup"
+    ],
+    "strengths": [
+      "Free and open source",
+      "Cross-platform presentation and browser-based remote control"
+    ],
+    "limitations": [
+      "Community rather than commercial support model",
+      "The church remains responsible for setup, resilience and content licensing"
+    ],
+    "procurementVerdict": {
+      "problem": "Small churches seeking free presentation software",
+      "differentiator": "Song projection",
+      "firstCheck": "Community rather than commercial support model"
+    }
+  },
+  "longForm": {
+    "verdict": "OpenLP is a strong fit where the budget needs to stay focused on hardware and content rather than subscriptions. The trade-off is that the church must be ready to own the setup, updates, rehearsals and contingency plan itself.",
+    "decisionLens": {
+      "heading": "Free software shifts the investment to preparation and support.",
+      "text": "A successful live-service system needs a tested computer, display outputs, trained operators, media licences and a fallback plan. OpenLP removes subscription cost, not those operational responsibilities."
+    },
+    "sections": [
+      {
+        "heading": "A practical free presentation stack",
+        "question": "Can the church make its local setup reliable enough for live use?",
+        "paragraphs": [
+          "OpenLP publishes support for songs, Bible verses, presentations, images, audio, video and remote control across major desktop platforms. It is free and open source under the GNU GPL.",
+          "Run a full rehearsal with the actual projector, songs, Bible translations, videos and operator. Keep a simple backup such as exported slides or printed lyrics for the first live services."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an aggregate review score. It is based on the project’s own published feature, licensing and support information.",
+      "themes": [
+        "No subscription cost makes a pilot accessible.",
+        "Local technical ownership and rehearsal discipline are central to fit."
+      ],
+      "caveat": "Community testimonials are not treated as independent testing or a guarantee of compatibility with church hardware."
+    },
+    "faq": [
+      {
+        "question": "Is OpenLP really free?",
+        "answer": "Yes. OpenLP is published as free, open-source software under the GNU GPL. There is no subscription fee, although the church still supplies hardware, content and support."
+      },
+      {
+        "question": "Does OpenLP have a free trial?",
+        "answer": "A trial is not needed because OpenLP is free to download and use. Test it thoroughly with the church’s actual live-service equipment."
+      },
+      {
+        "question": "Can OpenLP display songs and Bible verses?",
+        "answer": "Yes. The project describes song, Bible, media, custom-slide and presentation support, plus browser-based remote control. Check content licences separately."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "OpenLP product overview",
+      "url": "https://openlp.org/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free and open-source licence",
+        "Platforms",
+        "Presentation features",
+        "Remote control"
+      ]
+    },
+    {
+      "label": "OpenLP reference manual",
+      "url": "https://manual.openlp.org/introduction.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "GPL licence",
+        "Presentation use",
+        "No-cost installation"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "OpenLP review for UK churches",
+    "description": "Independent OpenLP profile for UK churches: free open-source presentation software, features, practical setup considerations and FAQs."
+  }
 }

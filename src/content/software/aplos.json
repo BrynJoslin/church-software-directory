@@ -1,1 +1,161 @@
-{"name":"Aplos","slug":"aplos","shortDescription":"Nonprofit and church accounting software with fund accounting, financial reporting, donations and operational management tools.","officialWebsite":"https://www.aplos.com/","company":"Aplos Software","ukFocus":"general","categories":["church-accounting","online-giving"],"suitableChurchSizes":["small","medium","large"],"suitableContexts":["Churches evaluating fund-accounting software","Treasurers needing financial reports by fund"],"pricing":{"model":"tiered","summary":"Aplos publishes US-dollar Lite, Core, Advanced and custom plans, plus a 15-day free trial.","startingPrice":{"amount":79,"currency":"USD","period":"month","qualifier":"Lite list price; promotional prices may vary"},"tiers":[{"label":"Lite","price":"$79/month","detail":"Two users and core fund-accounting reports"},{"label":"Core","price":"$129/month","detail":"Adds budgeting, payables, receivables and integrations"},{"label":"Advanced","price":"from $229/month","detail":"For larger organisations; supplier says customised solutions begin here"},{"label":"Custom","price":"Contact supplier","detail":"Tailored pricing for larger organisations"}],"trialDetails":"15 days, no credit card required."},"freePlan":"no","freeTrial":"yes","giftAid":"unknown","demoAvailable":"yes","coreFeatures":["Fund accounting","Bank reconciliation","Financial reports","Budgeting","Accounts payable","Donations"],"integrations":[],"importExport":[],"support":["Email, phone and chat support","Training webinars"],"editorial":{"assessment":"Aplos is primarily a fund-accounting decision. Its US-dollar pricing and US nonprofit features mean a UK church should validate VAT, Gift Aid, statutory reporting, bank connections and accountant workflow before using it as its ledger.","bestFor":["Treasurers needing fund accounting and board reporting"],"strengths":["Published plan structure and 15-day trial","Fund-accounting reporting is central to the product"],"limitations":["US-focused tax and reporting context","UK charity, VAT and Gift Aid fit is not confirmed"]},"longForm":{"verdict":"Aplos can be a useful accounting shortlist option when fund reporting is the primary need, but it should be assessed by the treasurer and accountant against UK requirements before any migration.","decisionLens":{"heading":"Fund accounting is not the same as UK charity accounting fit.","text":"A product may track designated funds well while still not match UK VAT, Gift Aid, reporting and banking needs. The decision should be led by the people accountable for the books."},"sections":[{"heading":"A finance-led trial","question":"Can the church recreate its actual financial controls?","paragraphs":["Aplos publishes fund accounting, bank reconciliation, reporting and paid tiers that add budgeting, payables and receivables.","Use the trial with a copy of a recent month: funds, bank reconciliation, reports and exports. Do not use a trial to infer UK tax or Gift Aid treatment without direct confirmation."]}],"userFeedback":{"summary":"This profile does not use an independent review score; it is based on Aplos’s pricing and product information.","themes":["Fund reporting is the key product proposition.","A treasurer-led test is more useful than generic feature comparison."],"caveat":"Supplier descriptions do not establish UK accounting or regulatory suitability."},"faq":[{"question":"Does Aplos have a free trial?","answer":"Yes. Aplos advertises a 15-day trial without a credit card."},{"question":"How much does Aplos cost?","answer":"The supplier publishes Lite at $79/month, Core at $129/month and Advanced from $229/month, with custom pricing for larger organisations."},{"question":"Is Aplos suitable for UK church accounting?","answer":"Not confirmed. Verify VAT, Gift Aid, UK reporting, banking and accountant requirements before adoption."}]},"verificationStatus":"partially-verified","lastChecked":"2026-07-25","sources":[{"label":"Aplos pricing","url":"https://www.aplos.com/pricing","checked":"2026-07-25","supports":["Pricing","Fund accounting","Features","Support"]},{"label":"Aplos free trial","url":"https://www.aplos.com/free-trial","checked":"2026-07-25","supports":["15-day trial","No-card trial","Plan details"]}],"affiliateRelationship":"no","sponsored":false,"seo":{"title":"Aplos review for UK churches","description":"Independent Aplos profile for UK churches: fund accounting, pricing, trial, UK finance checks and FAQs."}}
+{
+  "name": "Aplos",
+  "slug": "aplos",
+  "shortDescription": "Nonprofit and church accounting software with fund accounting, financial reporting, donations and operational management tools.",
+  "officialWebsite": "https://www.aplos.com/",
+  "company": "Aplos Software",
+  "ukFocus": "general",
+  "categories": [
+    "church-accounting",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches evaluating fund-accounting software",
+    "Treasurers needing financial reports by fund"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Aplos publishes US-dollar Lite, Core, Advanced and custom plans, plus a 15-day free trial.",
+    "startingPrice": {
+      "amount": 79,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Lite list price; promotional prices may vary"
+    },
+    "tiers": [
+      {
+        "label": "Lite",
+        "price": "$79/month",
+        "detail": "Two users and core fund-accounting reports"
+      },
+      {
+        "label": "Core",
+        "price": "$129/month",
+        "detail": "Adds budgeting, payables, receivables and integrations"
+      },
+      {
+        "label": "Advanced",
+        "price": "from $229/month",
+        "detail": "For larger organisations; supplier says customised solutions begin here"
+      },
+      {
+        "label": "Custom",
+        "price": "Contact supplier",
+        "detail": "Tailored pricing for larger organisations"
+      }
+    ],
+    "trialDetails": "15 days, no credit card required."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "giftAid": "unknown",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Fund accounting",
+    "Bank reconciliation",
+    "Financial reports",
+    "Budgeting",
+    "Accounts payable",
+    "Donations"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Email, phone and chat support",
+    "Training webinars"
+  ],
+  "editorial": {
+    "assessment": "Aplos is primarily a fund-accounting decision. Its US-dollar pricing and US nonprofit features mean a UK church should validate VAT, Gift Aid, statutory reporting, bank connections and accountant workflow before using it as its ledger.",
+    "bestFor": [
+      "Treasurers needing fund accounting and board reporting"
+    ],
+    "strengths": [
+      "Published plan structure and 15-day trial",
+      "Fund-accounting reporting is central to the product"
+    ],
+    "limitations": [
+      "US-focused tax and reporting context",
+      "UK charity, VAT and Gift Aid fit is not confirmed"
+    ],
+    "procurementVerdict": {
+      "problem": "Treasurers needing fund accounting and board reporting",
+      "differentiator": "Fund accounting",
+      "firstCheck": "US-focused tax and reporting context"
+    }
+  },
+  "longForm": {
+    "verdict": "Aplos can be a useful accounting shortlist option when fund reporting is the primary need, but it should be assessed by the treasurer and accountant against UK requirements before any migration.",
+    "decisionLens": {
+      "heading": "Fund accounting is not the same as UK charity accounting fit.",
+      "text": "A product may track designated funds well while still not match UK VAT, Gift Aid, reporting and banking needs. The decision should be led by the people accountable for the books."
+    },
+    "sections": [
+      {
+        "heading": "A finance-led trial",
+        "question": "Can the church recreate its actual financial controls?",
+        "paragraphs": [
+          "Aplos publishes fund accounting, bank reconciliation, reporting and paid tiers that add budgeting, payables and receivables.",
+          "Use the trial with a copy of a recent month: funds, bank reconciliation, reports and exports. Do not use a trial to infer UK tax or Gift Aid treatment without direct confirmation."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score; it is based on Aplos’s pricing and product information.",
+      "themes": [
+        "Fund reporting is the key product proposition.",
+        "A treasurer-led test is more useful than generic feature comparison."
+      ],
+      "caveat": "Supplier descriptions do not establish UK accounting or regulatory suitability."
+    },
+    "faq": [
+      {
+        "question": "Does Aplos have a free trial?",
+        "answer": "Yes. Aplos advertises a 15-day trial without a credit card."
+      },
+      {
+        "question": "How much does Aplos cost?",
+        "answer": "The supplier publishes Lite at $79/month, Core at $129/month and Advanced from $229/month, with custom pricing for larger organisations."
+      },
+      {
+        "question": "Is Aplos suitable for UK church accounting?",
+        "answer": "Not confirmed. Verify VAT, Gift Aid, UK reporting, banking and accountant requirements before adoption."
+      }
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Aplos pricing",
+      "url": "https://www.aplos.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Fund accounting",
+        "Features",
+        "Support"
+      ]
+    },
+    {
+      "label": "Aplos free trial",
+      "url": "https://www.aplos.com/free-trial",
+      "checked": "2026-07-25",
+      "supports": [
+        "15-day trial",
+        "No-card trial",
+        "Plan details"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Aplos review for UK churches",
+    "description": "Independent Aplos profile for UK churches: fund accounting, pricing, trial, UK finance checks and FAQs."
+  }
+}
