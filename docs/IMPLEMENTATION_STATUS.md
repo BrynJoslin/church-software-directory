@@ -49,6 +49,13 @@ Phase 6: contribution and continuous quality completed.
 
 ## Completed
 
+- Software listings now support optional, structured external review-platform
+  references. The profile component makes product-versus-company scope visible,
+  links safely to the named destination and keeps platform-hosted and moderated
+  reviews separate from the directory assessment. The initial verified examples
+  are a product-level G2 profile for Planning Center Services and a company-level
+  Trustpilot profile for ChurchSuite; neither contributes rating or review
+  structured data.
 - Phase 6 replaces disabled public submission controls with three documented
   GitHub issue-form routes for suggestions, corrections and supplier updates.
   The public route accepts only public supplier evidence and business details;

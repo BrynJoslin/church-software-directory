@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import SoftwareCard from "../../components/SoftwareCard.astro";
+import ExternalReviews from "../../components/ExternalReviews.astro";
 import VerificationBadge from "../../components/VerificationBadge.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { siteConfig } from "../../config/site";
@@ -165,6 +166,8 @@ const faqJsonLd = longForm
           <h2 id="assessment-heading">Directory assessment</h2>
           <p>{software.editorial.assessment}</p>
         </section>
+
+        <ExternalReviews reviews={software.externalReviews} />
 
         <section class="profile-verdict" aria-labelledby="procurement-verdict-heading">
           <p class="eyebrow">Procurement verdict</p>

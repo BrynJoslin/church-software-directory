@@ -305,6 +305,19 @@
       ]
     }
   ],
+  "externalReviews": [
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/churchsuite.com",
+      "rating": 3.1,
+      "maximumRating": 5,
+      "reviewCount": 2,
+      "lastChecked": "2026-07-25",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This is a company-level profile. Its small review count should not be treated as representative of product fit."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

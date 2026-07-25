@@ -329,6 +329,8 @@ The software schema should be capable of representing fields such as:
 - verification status
 - last checked
 - official sources
+- optional external review-platform references, clearly marked as product- or
+  company-level and separate from the directory assessment
 - SEO title and description
 
 Not every field should be mandatory. Unknown fields must remain unknown rather than being guessed.

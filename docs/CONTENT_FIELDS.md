@@ -174,6 +174,37 @@ label, URL, checked date and list of fields it supports.
 `sponsored` must remain `false` unless a real relationship is approved and
 disclosed. `seo` holds the unique title and description.
 
+### External reviews (optional)
+
+`externalReviews` is a list of references to independently hosted review-platform
+profiles. It is not an internal review system and must never contain copied
+review text, reviewer names or other personal data.
+
+Each record requires:
+
+- `platform`: the review platform name. It is deliberately free text, so the
+  schema supports G2, Capterra, Trustpilot and other suitable platforms without
+  treating any as preferred or endorsed.
+- `profileUrl`: the confirmed direct URL of the relevant public profile.
+- `lastChecked`: the date the profile and any recorded figures were checked.
+- `collectionType`: `product` for a product-specific profile or `company` for a
+  supplier-level profile. Do not present company feedback as product feedback.
+- `dataAccessMethod`: `manual`, `api` or `syndication`. The directory does not
+  scrape review platforms; only use a permitted API or syndication arrangement
+  when one is explicitly available.
+
+`rating`, `maximumRating` and integer `reviewCount` are optional. Record a
+rating only with its maximum (for example, `4.7` out of `5`), and never record a
+rating higher than that maximum. A listing with no recorded rating still links
+to the profile. Use `note` to explain a product-versus-suite mismatch, a small
+sample or another material limitation.
+
+Only add a reference after confirming the public profile URL. The listing page
+states that external reviews are hosted and moderated by the relevant platform,
+and that they do not form part of the directory’s independent assessment. Do
+not import review content, add platform widgets or scripts, imply partnership or
+endorsement, or emit aggregate rating or review structured data.
+
 ## Categories
 
 Category entries are Markdown files in `src/content/categories/`.

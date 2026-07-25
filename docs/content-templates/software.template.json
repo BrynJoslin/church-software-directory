@@ -78,6 +78,19 @@
       "supports": ["Product existence", "Named field"]
     }
   ],
+  "externalReviews": [
+    {
+      "platform": "Review platform name",
+      "profileUrl": "https://reviews.example/product-profile",
+      "rating": 4.5,
+      "maximumRating": 5,
+      "reviewCount": 42,
+      "lastChecked": "YYYY-MM-DD",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "Optional: state material scope or sample limitations."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

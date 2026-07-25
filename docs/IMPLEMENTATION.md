@@ -75,6 +75,12 @@ Separate:
 - editorial assessment
 - source references
 
+External review-platform references are optional structured metadata, not
+directory reviews. Store only a confirmed profile URL, collection scope,
+checked date and, where manually or otherwise permissibly recorded, aggregate
+figures. Do not scrape platforms, copy individual review content, load widgets
+or scripts, or emit rating or review structured data.
+
 Provide templates and field documentation for each collection.
 
 Guides additionally use the mandatory editorial and research rules in

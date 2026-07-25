@@ -38,6 +38,47 @@ const sourceSchema = z.object({
   checked: z.coerce.date(),
   supports: z.array(z.string().min(1)).min(1)
 });
+const externalReviewSchema = z
+  .object({
+    platform: z.string().min(1),
+    profileUrl: z.url(),
+    rating: z.number().nonnegative().optional(),
+    maximumRating: z.number().positive().optional(),
+    reviewCount: z.number().int().nonnegative().optional(),
+    lastChecked: z.coerce.date(),
+    collectionType: z.enum(["product", "company"]),
+    dataAccessMethod: z.enum(["manual", "api", "syndication"]),
+    note: z.string().min(1).optional()
+  })
+  .superRefine((review, context) => {
+    if (review.rating !== undefined && review.maximumRating === undefined) {
+      context.addIssue({
+        code: "custom",
+        message: "maximumRating is required when rating is recorded.",
+        path: ["maximumRating"]
+      });
+    }
+
+    if (review.rating === undefined && review.maximumRating !== undefined) {
+      context.addIssue({
+        code: "custom",
+        message: "rating is required when maximumRating is recorded.",
+        path: ["rating"]
+      });
+    }
+
+    if (
+      review.rating !== undefined &&
+      review.maximumRating !== undefined &&
+      review.rating > review.maximumRating
+    ) {
+      context.addIssue({
+        code: "custom",
+        message: "rating cannot exceed maximumRating.",
+        path: ["rating"]
+      });
+    }
+  });
 const longFormSection = z.object({
   heading: z.string().min(1),
   question: z.string().min(1),
@@ -141,6 +182,7 @@ const software = defineCollection({
     verificationStatus,
     lastChecked: z.coerce.date(),
     sources: z.array(sourceSchema).min(1),
+    externalReviews: z.array(externalReviewSchema).default([]),
     affiliateRelationship: triState.default("no"),
     affiliateUrl: z.url().optional(),
     sponsored: z.boolean().default(false),

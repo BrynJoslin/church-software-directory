@@ -291,6 +291,53 @@ strong {
   max-inline-size: var(--measure);
 }
 
+.external-reviews {
+  max-inline-size: var(--measure);
+  border-block: 0.0625rem solid var(--rule);
+  padding-block: var(--space-lg);
+}
+
+.external-reviews__list {
+  display: grid;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.external-reviews__item {
+  border: 0.0625rem solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  background: var(--surface);
+}
+
+.external-reviews__item > :last-child {
+  margin-block-end: 0;
+}
+
+.external-reviews__details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+  gap: var(--space-sm);
+  margin-block: var(--space-md);
+}
+
+.external-reviews__details div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.external-reviews__details dt {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+
+.external-reviews__details dd {
+  margin: 0;
+}
+
 .pricing-table {
   inline-size: 100%;
   border-collapse: collapse;

@@ -180,6 +180,19 @@
       ]
     }
   ],
+  "externalReviews": [
+    {
+      "platform": "G2",
+      "profileUrl": "https://www.g2.com/products/planning-center-services/reviews",
+      "rating": 4.7,
+      "maximumRating": 5,
+      "reviewCount": 180,
+      "lastChecked": "2026-07-25",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This is a profile for Planning Center Services, not an aggregate review of the whole Planning Center suite."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

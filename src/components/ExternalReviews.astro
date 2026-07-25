@@ -1,0 +1,61 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "../utils/content";
+
+type ExternalReview = CollectionEntry<"software">["data"]["externalReviews"][number];
+
+const { reviews } = Astro.props as { reviews: ExternalReview[] };
+const collectionTypeLabel = (type: "product" | "company") =>
+  type === "product" ? "Product review profile" : "Company review profile";
+---
+
+{
+  reviews.length > 0 && (
+    <section class="external-reviews" aria-labelledby="external-reviews-heading">
+      <h2 id="external-reviews-heading">External reviews</h2>
+      <p>
+        These reviews are hosted and moderated by the external platform. They do
+        not form part of this directory’s independent assessment.
+      </p>
+      <ul class="external-reviews__list">
+        {reviews.map((review) => (
+          <li class="external-reviews__item">
+            <h3>{review.platform}</h3>
+            <p class="muted">{collectionTypeLabel(review.collectionType)}</p>
+            {review.rating !== undefined ? (
+              <dl class="external-reviews__details">
+                <div>
+                  <dt>Rating</dt>
+                  <dd>
+                    {review.rating} out of {review.maximumRating}
+                  </dd>
+                </div>
+                <div>
+                  <dt>Review count</dt>
+                  <dd>{review.reviewCount ?? "Not recorded"}</dd>
+                </div>
+                <div>
+                  <dt>Last checked</dt>
+                  <dd>{formatDate(review.lastChecked)}</dd>
+                </div>
+              </dl>
+            ) : (
+              <p class="muted">No rating has been recorded by this directory.</p>
+            )}
+            {review.note && <p class="muted">{review.note}</p>}
+            <p>
+              <a
+                href={review.profileUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Read reviews on ${review.platform} — ${collectionTypeLabel(review.collectionType).toLowerCase()} (opens in a new tab)`}
+              >
+                Read reviews on {review.platform} (opens in a new tab)
+              </a>
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
