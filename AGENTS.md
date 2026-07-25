@@ -126,6 +126,11 @@ npm run build
 git diff --check
 ```
 
+Before pushing or merging changes that add, remove or make a public page
+indexable, run `npm run check:sitemap`. The command is also required by the
+validation workflow. Do not push or merge when it reports a missing indexable
+page; update the route or sitemap configuration and rerun the check.
+
 If a command fails because of a pre-existing unrelated problem, report that plainly. Do not conceal it.
 
 ## Scope control

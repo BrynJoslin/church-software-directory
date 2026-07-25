@@ -78,6 +78,9 @@ Phase 4: evidence model and decision-ready comparison completed.
   state, while retaining shareable URLs and progressive enhancement
 - A single source of truth for the configured site URL across canonical tags,
   the sitemap integration and generated `robots.txt`
+- A generated XML sitemap with build-time coverage validation for every
+  canonical, indexable public page; validation is required before relevant
+  pushes and merges and runs in GitHub Actions
 - The Doorway brand direction rolled out across shared layouts, cards, forms,
   directory controls, comparison tables and brand assets
 - A canonical design system document, locally hosted Plus Jakarta Sans and a

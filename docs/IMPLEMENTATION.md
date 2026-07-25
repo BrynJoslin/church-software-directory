@@ -354,6 +354,12 @@ npm run build
 git diff --check
 ```
 
+Before pushing or merging a change that adds, removes or makes a public page
+indexable, run `npm run check:sitemap`. Astro generates the sitemap from the
+static build; this check verifies every canonical, indexable HTML page in
+`dist/` appears in it. The GitHub validation workflow runs the same check, so
+a pull request with an omitted public page cannot pass validation.
+
 Never push to `main` or merge without explicit instruction.
 
 ## Documentation

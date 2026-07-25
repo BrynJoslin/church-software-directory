@@ -38,6 +38,7 @@ Astro prints the local address, normally `http://localhost:4321/`.
 npm run check
 npm run check:stale
 npm run build
+npm run check:sitemap
 npm run preview
 git diff --check
 ```
@@ -45,7 +46,8 @@ git diff --check
 `npm run check` validates TypeScript, Astro components and every content entry.
 `npm run check:stale` exits unsuccessfully when a listing is older than the
 configured review threshold. `npm run build` generates the production site in
-`dist/`.
+`dist/`. `npm run check:sitemap` confirms that every canonical, indexable HTML
+page in that build is present in Astro's generated XML sitemap.
 
 The software export is generated from the content collection at
 `public/data/software.json` before checks and builds. Do not edit the export by
@@ -114,6 +116,13 @@ Forms expose no submission controls until a real endpoint is configured and the
 privacy notice is completed. Analytics is disabled. Affiliate links and
 sponsored listings must be enabled deliberately for a confirmed relationship
 and visibly disclosed on the relevant listing.
+
+## Sitemap maintenance
+
+Astro generates the XML sitemap during every production build. Before pushing
+or merging any change that adds, removes or makes a public page indexable, run
+`npm run check:sitemap`; GitHub Actions enforces this coverage check for pull
+requests and every push.
 
 ## Content maintenance
 

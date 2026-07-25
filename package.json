@@ -18,7 +18,8 @@
     "dashboard:open": "node scripts/dashboard-open.mjs",
     "check:stale": "node scripts/check-stale.mjs",
     "prepare:data": "node scripts/export-software.mjs",
-    "build": "npm run prepare:data && astro build && node scripts/check-dashboard-output.mjs",
+    "check:sitemap": "node scripts/check-sitemap.mjs",
+    "build": "npm run prepare:data && astro build && node scripts/check-dashboard-output.mjs && npm run check:sitemap",
     "preview": "astro preview"
   },
   "dependencies": {
