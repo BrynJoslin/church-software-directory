@@ -2,7 +2,7 @@
 
 ## Current phase
 
-Phase 4: evidence model and decision-ready comparison completed.
+Phase 5: guided shortlist and decision outputs completed.
 
 ## In progress
 
@@ -40,6 +40,16 @@ Phase 4: evidence model and decision-ready comparison completed.
 
 ## Completed
 
+- The Phase 5 guided shortlist groups categories into four families and adds a
+  URL-shareable, rules-based `/shortlist/` journey. It only returns three to
+  five profiles when all selected structured requirements match, explains why
+  each appears and exposes remaining unknowns rather than scoring products or
+  silently widening the result set. The page includes qualified individual GBP
+  starting points where published, never a total-cost estimate, plus a
+  print-ready requirements worksheet, supplier questions, trial plan and
+  trustee or elder summary. Technical-administration capacity is intentionally
+  visible but not filtered because the catalogue does not yet have enough
+  evidence to support that rule.
 - The Phase 4 evidence layer defines procurement fields, transparent evidence
   states and source-date fallbacks; all 51 listings now have a structured
   problem, differentiator and first-check verdict. The directory no longer
@@ -49,8 +59,9 @@ Phase 4: evidence model and decision-ready comparison completed.
   and comparison separates differences, shared evidence and supplier questions.
 - Guide pages now generate a persistent, scroll-aware `What's in this guide`
   contents panel from their Markdown headings. It remains available while
-  reading, links directly to each section and marks the section currently in
-  view without making the guide content client-rendered.
+  reading, keeps the active section visible within an overflowing panel, links
+  directly to each section and marks the section currently in view without
+  making the guide content client-rendered.
 - Phase 3 public-trust work: public catalogue counts now derive from the
   collection; inactive submission controls have been removed; known obsolete
   public-copy phrases are checked; publisher and correction-route gaps are

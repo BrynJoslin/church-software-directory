@@ -161,6 +161,18 @@ The directory’s [comparison tool](/compare/) is designed for two to four produ
 
 A well-known system may be a sensible contender. It still needs to meet your requirements, data boundary and capacity for ownership. Conversely, a smaller or specialist product may be the better fit if it resolves the actual problem with less complexity.
 
+## Software listings to explore
+
+The listings below illustrate different approaches that may be relevant to a church-management shortlist. They are not a ranked recommendation, and none should bypass the requirements, trial and data checks in this guide. Start with the options that match the problem you have defined, then compare two to four of them on the same evidence.
+
+- [ChurchSuite](/software/churchsuite/) may be relevant for UK churches looking to bring people records, rotas, events and giving into one modular service. Check the package and contact-based pricing that apply to your intended use.
+- [iKnow Church](/software/iknow-church/) may be relevant where people administration, donation management and Gift Aid workflows need to sit together. Check any charges associated with Gift Aid submissions and payment processing.
+- [ChurchLinker](/software/churchlinker/) may be worth exploring for its UK-focused people, rota, giving and Gift Aid tools, including a free plan for up to 50 contacts. Test the maturity of the exact features your church would rely on.
+- [ChurchDesk](/software/churchdesk/) may suit a church that wants people records, forms and a public website or calendar in a connected service. Check the package limits, VAT treatment and its data-hosting position for your requirements.
+- [Planning Center](/software/planning-center/) may be relevant for a church that prefers a connected suite of products, beginning with a free people database. UK-specific Gift Aid support has not been confirmed in this directory review.
+- [ChMeetings](/software/chmeetings/) may offer a free starting point for a smaller church needing people, groups and volunteer tools. Check US-dollar pricing, hosting and data-transfer arrangements before deciding.
+- [ChurchCRM](/software/churchcrm/) may be relevant for a technically capable church that wants open-source software and can take responsibility for hosting, security, maintenance and support.
+
 ## Run a realistic trial
 
 A demonstration shows what a supplier can present well. A trial should show whether your church can do its everyday work safely and consistently.

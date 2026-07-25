@@ -273,7 +273,11 @@ Starter guide topics may include:
 - What safeguarding software can and cannot solve
 - Creating a church software requirements list
 
-Guides should be practical, independent and willing to say when simpler tools are sufficient.
+Guides should be practical, independent and willing to say when simpler tools
+are sufficient. Every guide must include a clearly labelled section linking to
+relevant software listings already published on the site. These links must
+explain their relevance without creating an implied ranking, endorsement or
+requirement to click a supplier.
 
 ## Content model
 

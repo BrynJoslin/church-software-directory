@@ -36,8 +36,13 @@ safeguarding wording appropriately qualified.
 ## Add a guide
 
 Copy `docs/content-templates/guide.template.md` into `src/content/guides/`.
-Write useful decision support rather than a thin search landing page. Update the
-date only after a meaningful editorial review.
+Write useful decision support rather than a thin search landing page. Every
+guide must include a clearly labelled section linking to relevant software
+listings already published on this site, explaining why they relate to the
+decision without implying a ranking or endorsement. Use only structured or
+evidence-backed listing information, name material unknowns, and keep the guide
+useful without a supplier click. Update the date only after a meaningful
+editorial review.
 
 ## Review stale content
 

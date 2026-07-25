@@ -44,3 +44,12 @@ This guide is a starting point for supplier conversations, not legal advice. A c
 ## Assess the answer, not the badge
 
 A reference to “GDPR compliant” does not by itself answer these questions. Record the evidence supplied, unresolved points and the date checked.
+
+## Software listings to explore
+
+These listings are relevant because their profiles record supplier-published information about data protection, hosting or processing arrangements. They are not a compliance assessment, a ranking or an endorsement. Use them to identify questions to test against the current contract and documentation for the plan you would buy.
+
+- [ChurchSuite](/software/churchsuite/) publishes UK GDPR and Data Protection Act 2018 terms, privacy material and configurable access-control information. Confirm the current hosting and sub-processor position for your church.
+- [ChurchLinker](/software/churchlinker/) publishes GDPR, sub-processor and data-processing agreement links, and states that data is held in UK/EU data centres. Request the current documents rather than relying on a summary.
+- [ChurchDesk](/software/churchdesk/) publishes data-security, privacy and data-processing-agreement material, including hosting in Germany. Check the current contractual hosting, sub-processors and transfer position.
+- [ChMeetings](/software/chmeetings/) publishes security, terms and data-processing-addendum material, while its profile records supplier-published United States hosting information. Confirm the selected region and transfer safeguards that would apply to your account.
