@@ -1,0 +1,35 @@
+name: Suggest software
+description: Suggest a product for independent research.
+title: "[Software suggestion]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions do not request favourable coverage. Include public first-party evidence only. Do not include church-member, pastoral, safeguarding, financial or other sensitive information.
+  - type: input
+    id: product
+    attributes:
+      label: Software name
+    validations:
+      required: true
+  - type: input
+    id: official-site
+    attributes:
+      label: Official website
+      placeholder: https://supplier.example/
+    validations:
+      required: true
+  - type: textarea
+    id: uk-relevance
+    attributes:
+      label: Relevance to UK churches
+      description: Link to public evidence where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official source URLs
+      description: One URL per line, with a short note about what each supports.
+    validations:
+      required: true

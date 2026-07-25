@@ -20,4 +20,8 @@ async function check(url) {
 let cursor = 0; await Promise.all(Array.from({ length: concurrency }, async () => { while (cursor < urls.length) { const url = urls[cursor++]; results.push(await check(url)); } }));
 await mkdir(cacheDirectory, { recursive: true }); await writeFile(cacheFile, `${JSON.stringify({ checkedAt: new Date().toISOString(), timeoutMs: timeout, concurrency, results }, null, 2)}\n`);
 const failed = results.filter((result) => result.result === "failed" || result.result === "timeout").length;
-console.log(`Checked ${results.length} URLs; ${failed} failed or timed out. Results: .internal/dashboard/link-check.json`);
+const confirmedBroken = results.filter((result) => result.status === 404 || result.status === 410);
+console.log(`Checked ${results.length} URLs; ${failed} failed or timed out; ${confirmedBroken.length} confirmed broken. Results: .internal/dashboard/link-check.json`);
+if (confirmedBroken.length) {
+  throw new Error(`Confirmed broken source URLs:\n${confirmedBroken.map((result) => `${result.status} ${result.url}`).join("\n")}`);
+}

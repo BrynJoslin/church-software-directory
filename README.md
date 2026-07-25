@@ -100,7 +100,7 @@ Edit `src/config/site.json` before production deployment. It controls:
 
 - site name, production URL and description
 - optional publisher, contact and social information
-- form endpoints and enabled state
+- public contribution routes and enabled state
 - analytics state
 - affiliate and sponsored feature flags
 - default social image
@@ -112,10 +112,12 @@ as well as canonical, Open Graph and structured-data URLs. The configured
 domain is live; do not treat the directory as launch-ready until the responsible
 publisher and public correction route have been confirmed.
 
-Forms expose no submission controls until a real endpoint is configured and the
-privacy notice is completed. Analytics is disabled. Affiliate links and
-sponsored listings must be enabled deliberately for a confirmed relationship
-and visibly disclosed on the relevant listing.
+Suggestions, corrections and supplier updates use public GitHub issue forms.
+They accept public supplier evidence only; contributors must not submit
+church-member, pastoral, safeguarding, financial or other sensitive information.
+See `docs/MAINTENANCE.md` for the maintainer triage process. Analytics is
+disabled. Affiliate links and sponsored listings must be enabled deliberately
+for a confirmed relationship and visibly disclosed on the relevant listing.
 
 ## Sitemap maintenance
 

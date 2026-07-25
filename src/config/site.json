@@ -8,7 +8,12 @@
     "mastodon": "",
     "linkedin": ""
   },
-  "forms": { "enabled": false },
+  "forms": {
+    "enabled": true,
+    "suggestSoftware": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=software-suggestion.yml",
+    "updateListing": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=listing-correction.yml",
+    "supplierUpdate": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=supplier-listing-update.yml"
+  },
   "analytics": {
     "enabled": false,
     "provider": ""

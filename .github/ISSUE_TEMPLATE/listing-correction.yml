@@ -1,0 +1,28 @@
+name: Correct a listing
+description: Report an inaccurate or outdated claim with public first-party evidence.
+title: "[Listing correction]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit only public information and business contact details. Do not include church-member, pastoral, safeguarding, financial or other sensitive information.
+  - type: input
+    id: listing
+    attributes:
+      label: Directory listing URL
+      placeholder: https://churchsoftware.co.uk/software/example/
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should be corrected or updated?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official source URLs
+      description: One URL per line, with a short note about what each supports.
+    validations:
+      required: true
