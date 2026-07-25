@@ -9,9 +9,14 @@
   "scripts": {
     "dev": "npm run prepare:data && astro dev",
     "check": "npm run prepare:data && astro check",
+    "check:content": "node scripts/dashboard.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "test:dashboard": "node --test test/dashboard-analysis.test.mjs",
+    "dashboard": "node scripts/dashboard.mjs",
+    "dashboard:open": "node scripts/dashboard-open.mjs",
     "check:stale": "node scripts/check-stale.mjs",
     "prepare:data": "node scripts/export-software.mjs",
-    "build": "npm run prepare:data && astro build",
+    "build": "npm run prepare:data && astro build && node scripts/check-dashboard-output.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
