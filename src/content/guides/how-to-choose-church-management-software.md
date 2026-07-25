@@ -1,6 +1,8 @@
 ---
 title: How to choose church management software
 slug: how-to-choose-church-management-software
+guideType: how-to
+standardVersion: "1.0"
 summary: A practical UK process for deciding whether a church management system is needed, defining requirements, protecting data, testing workflows and making a responsible choice.
 published: 2026-07-25
 updated: 2026-07-25
@@ -27,6 +29,22 @@ Do these six things before signing a contract:
 6. Approve the full cost, migration plan, access model and exit route together—not the subscription alone.
 
 If the church cannot name a clear owner, protect the time for training or agree basic data rules, pause. A simpler process, spreadsheet or shared calendar may be the more responsible choice for now.
+
+## Who this guide is for and how it was researched
+
+This guide is for UK church administrators, operations staff, leaders, trustees
+and volunteers who need to decide whether to adopt or replace a broad church
+management system. It covers people records and connected operational workflows;
+it does not attempt to choose specialist accounting, safeguarding casework or
+payment software, and it is not legal, tax or safeguarding advice.
+
+The product examples illustrate different operating models in this directory's
+current representative catalogue. They are not a complete market review.
+Selection and ordering are based on relevance to the workflow being explained,
+not sponsorship or affiliate status. The guide was researched on 25 July 2026
+from recorded first-party product material and the authoritative UK sources
+listed below. It does not claim hands-on product testing, supplier interviews or
+original user research.
 
 ## Decide whether you need a system
 
@@ -284,7 +302,13 @@ Use the questions below at the end of the process, when you can relate answers t
 
 Create a one-page requirements list, choose two to four plausible systems and ask each supplier the same evidence-based questions. If you cannot yet do that, the next step is not a demo—it is clarifying the problem, ownership and data boundary.
 
-## Sources and further reading
+## Sources and research limits
+
+This guide was researched from the authoritative UK material below and the
+directory's current structured product records. It uses a representative
+catalogue rather than a complete market review and does not claim hands-on
+product testing, supplier interviews or legal advice. Product features,
+contracts and prices must be rechecked for the account a church is considering.
 
 - [Information Commissioner’s Office: Special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/) (accessed 25 July 2026)
 - [Information Commissioner’s Office: Contracts and liabilities between controllers and processors](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/) (accessed 25 July 2026)

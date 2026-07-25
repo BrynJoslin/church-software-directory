@@ -99,6 +99,11 @@ Pages that explain a class of software, the problem it solves, who normally mana
 
 Long-form decision support, comparisons, migration guidance, requirements templates and practical explainers.
 
+Every new guide and every substantially revised guide must meet
+`docs/GUIDE_STANDARD.md`. Do not publish a guide merely because it validates
+against the content schema: it must also pass the automated guide baseline and
+the standard's human editorial review.
+
 ### Static trust pages
 
 Pages explaining the project, methodology, disclosures, privacy and how suppliers or users can submit corrections.
@@ -278,6 +283,9 @@ are sufficient. Every guide must include a clearly labelled section linking to
 relevant software listings already published on the site. These links must
 explain their relevance without creating an implied ranking, endorsement or
 requirement to click a supplier.
+
+The complete depth, structure, evidence and publication requirements are
+mandatory in `docs/GUIDE_STANDARD.md`.
 
 ## Content model
 

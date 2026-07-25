@@ -36,6 +36,7 @@ Astro prints the local address, normally `http://localhost:4321/`.
 
 ```bash
 npm run check
+npm run check:guides
 npm run check:stale
 npm run build
 npm run check:sitemap
@@ -43,7 +44,12 @@ npm run preview
 git diff --check
 ```
 
-`npm run check` validates TypeScript, Astro components and every content entry.
+`npm run check` validates TypeScript, Astro components, every content entry and
+the mandatory guide baseline. `npm run check:guides` runs the guide standard
+check directly; the full editorial rules and legacy migration audit are in
+`docs/GUIDE_STANDARD.md` and `docs/GUIDE_AUDIT.md`. The production build repeats
+the guide baseline so a non-conforming new guide cannot deploy through the
+documented Cloudflare build command.
 `npm run check:stale` exits unsuccessfully when a listing is older than the
 configured review threshold. `npm run build` generates the production site in
 `dist/`. `npm run check:sitemap` confirms that every canonical, indexable HTML

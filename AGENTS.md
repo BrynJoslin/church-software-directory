@@ -5,6 +5,7 @@ This file contains persistent instructions for AI coding agents working in this 
 Read this file before changing anything. Also read:
 
 - `docs/DESIGN_SYSTEM.md`
+- `docs/GUIDE_STANDARD.md` when creating, revising or reviewing a guide
 - `docs/PROJECT_SPEC.md`
 - `docs/IMPLEMENTATION.md`
 - `docs/PRINCIPLES.md`
@@ -15,12 +16,13 @@ When instructions conflict, use this order:
 
 1. The user's current instruction
 2. `AGENTS.md`
-3. `docs/DESIGN_SYSTEM.md` for visual design decisions
-4. `docs/IMPLEMENTATION.md`
-5. `docs/PROJECT_SPEC.md`
-6. `docs/PRINCIPLES.md`
-7. `docs/ROADMAP.md`
-8. Existing project conventions
+3. `docs/GUIDE_STANDARD.md` for guide editorial decisions
+4. `docs/DESIGN_SYSTEM.md` for visual design decisions
+5. `docs/IMPLEMENTATION.md`
+6. `docs/PROJECT_SPEC.md`
+7. `docs/PRINCIPLES.md`
+8. `docs/ROADMAP.md`
+9. Existing project conventions
 
 ## Project purpose
 

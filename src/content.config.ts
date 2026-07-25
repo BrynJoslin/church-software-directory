@@ -172,6 +172,15 @@ const guides = defineCollection({
   schema: z.object({
     title: z.string().min(1),
     slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+    guideType: z.enum([
+      "buyers-guide",
+      "comparison",
+      "alternatives",
+      "cost-guide",
+      "explainer",
+      "how-to"
+    ]),
+    standardVersion: z.enum(["legacy", "1.0"]),
     summary: z.string().min(40).max(240),
     published: z.coerce.date(),
     updated: z.coerce.date(),

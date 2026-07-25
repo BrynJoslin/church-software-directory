@@ -1,6 +1,8 @@
 ---
 title: ChurchSuite alternatives
 slug: churchsuite-alternatives
+guideType: alternatives
+standardVersion: "1.0"
 summary: A UK-focused guide to the meaningful alternatives to ChurchSuite, organised by the operational trade-off a church is actually trying to make.
 published: 2026-07-25
 updated: 2026-07-25
@@ -92,14 +94,32 @@ Record training time, workaround, data exposure and the named owner for each tas
 - Which records can leave in a usable format at any time?
 - Which UK requirements, including Gift Aid, are evidenced for the exact plan?
 
+## Plan the migration and the option not to switch
+
+Switching is not the only responsible response to a frustration with ChurchSuite. First ask whether the current problem is a configuration, training, ownership or data-quality problem that can be resolved without a migration. A change of product will not fix an unclear access policy, duplicate records or a rota that no leader owns.
+
+If a move remains justified, appoint a migration owner and make a small inventory: people and household records, consent information, groups, attendance, rotas, forms, documents, giving data and reports. Decide what will move, what will be archived under the church’s retention arrangements and what must not be copied into the new system. Use fictional or minimised data for a trial import before sharing live records.
+
+Test a usable export from both the old and proposed system. Check that an authorised person can open the fields, that permissions and consent information survive where needed, and that the church understands the cancellation, deletion and backup terms. The ICO’s controller–processor guidance makes end-of-contract provisions a material contract question, not an afterthought. Schedule a post-launch access and data-quality review after three months.
+
+## Software listings to explore
+
+These listings offer different operating-model alternatives to ChurchSuite. They are not a ranking or endorsement, and each needs the same trial and migration scrutiny.
+
+- [Planning Center](/software/planning-center/) for a modular people and service-planning approach; verify total product cost and UK giving arrangements.
+- [iKnow Church](/software/iknow-church/) and [ChurchLinker](/software/churchlinker/) for UK-oriented administration and giving contexts; validate the exact migration, fee and support model.
+- [ChurchDesk](/software/churchdesk/) where the public website and administration need to connect; test editor workflow and website migration.
+- [ChurchCRM](/software/churchcrm/) only where the church can genuinely own hosting, patches, backups and support.
+
 ## Sources and research limits
 
 Researched 25 July 2026 from official supplier pages. Prices, terms and features change, and every claim should be confirmed for the relevant plan before a migration. This guide does not provide hands-on testing or an overall score.
 
-- [ChurchSuite pricing](https://churchsuite.com/pricing/)
-- [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html)
-- [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow)
-- [ChurchDesk pricing](https://churchdesk.com/en/pricing/)
-- [ChMeetings pricing](https://www.chmeetings.com/pricing/)
-- [ChurchCRM FAQ](https://churchcrm.io/faq.html)
-- [ChurchLinker](https://churchlinker.com/)
+- [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
+- [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html) (accessed 25 July 2026)
+- [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) (accessed 25 July 2026)
+- [ChurchDesk pricing](https://churchdesk.com/en/pricing/) (accessed 25 July 2026)
+- [ChMeetings pricing](https://www.chmeetings.com/pricing/) (accessed 25 July 2026)
+- [ChurchCRM FAQ](https://churchcrm.io/faq.html) (accessed 25 July 2026)
+- [ChurchLinker](https://churchlinker.com/) (accessed 25 July 2026)
+- [ICO: controller–processor contracts](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/) (accessed 25 July 2026)

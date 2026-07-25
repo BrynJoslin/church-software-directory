@@ -51,6 +51,52 @@ accountability rules in `AGENTS.md` and `docs/PRINCIPLES.md`.
 | P2: continuous quality checks | Phase 6 | Trust, accessibility and consistency regressions are caught before launch. |
 | P2: automated research maintenance | Phase 9 | Official-source changes create evidence-backed review work after demand is validated. |
 
+## Guide quality programme: 25 July 2026
+
+The guide audit found that the editorial layer is inconsistent: eight of the
+twelve guides have fewer than 600 body words and omit material parts of the
+reader's decision. `docs/GUIDE_STANDARD.md` version 1.0 now defines the mandatory
+depth, structure, evidence, UK context, practical tools and publication workflow.
+`docs/GUIDE_AUDIT.md` records the baseline and remediation order.
+
+The standard applies immediately to every new guide and substantial revision.
+The existing `How to choose church management software` guide is the first
+version 1.0 exemplar. Eleven pre-standard guides remain in an explicit legacy
+allowlist so the normal build stays deployable while they are researched and
+rewritten carefully; no new slug can enter that allowlist.
+
+### Workstream: evidence-sensitive guides
+
+- Expand the GDPR supplier-question guide with current ICO and NCSC evidence,
+  an answer-assessment method and clear advice limits.
+- Expand Gift Aid and online-giving guides with HMRC and Charity Commission
+  context, end-to-end workflows, cost and reconciliation tools and current
+  first-party product evidence.
+- Treat every legal, tax, payment, security and safeguarding statement as a
+  high-risk claim requiring authoritative sourcing and careful qualification.
+
+### Workstream: buying and cost guides
+
+- Add explicit scope, inclusion criteria, decision criteria and comparable
+  option analysis.
+- Provide a reusable trial, cost model, requirements list, supplier questions
+  or decision record in every guide.
+- Cover simpler alternatives, accessibility, ownership, implementation,
+  migration and exit when material.
+- Add a clearly labelled software-listing section and dated source-and-limits
+  section without turning the guide into an endorsement or click-through page.
+
+### Completion gate before launch
+
+- Every guide uses `standardVersion: "1.0"` and no legacy slugs remain.
+- Every evidence-sensitive claim has received human source review.
+- `npm run check:guides`, `npm run check`, `npm run build` and
+  `git diff --check` pass.
+- Every rendered guide has been checked on mobile and desktop for heading
+  navigation, table readability, meaningful links and keyboard use.
+- Each guide remains useful without a supplier click and produces a concrete
+  next step for a church team.
+
 ## Mobile performance follow-up: 25 July 2026
 
 The saved mobile PageSpeed Insights report scored performance at 84. Loading

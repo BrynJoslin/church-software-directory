@@ -36,13 +36,27 @@ safeguarding wording appropriately qualified.
 ## Add a guide
 
 Copy `docs/content-templates/guide.template.md` into `src/content/guides/`.
-Write useful decision support rather than a thin search landing page. Every
-guide must include a clearly labelled section linking to relevant software
-listings already published on this site, explaining why they relate to the
-decision without implying a ranking or endorsement. Use only structured or
-evidence-backed listing information, name material unknowns, and keep the guide
-useful without a supplier click. Update the date only after a meaningful
-editorial review.
+Read and follow `docs/GUIDE_STANDARD.md` before researching or drafting. Define
+the reader, decision, guide type, scope and inclusion criteria before selecting
+products. Use only structured or evidence-backed listing information, record
+source access dates, name material unknowns and keep the guide useful without a
+supplier click.
+
+Complete the standard's human editorial checklist, then run:
+
+```bash
+npm run check:guides
+npm run check
+npm run build
+```
+
+A new guide must use `standardVersion: "1.0"` and cannot enter the legacy
+allowlist. Update `published` only when the guide first becomes public and
+`updated` only after a meaningful editorial review.
+
+The pre-standard migration is recorded in `docs/GUIDE_AUDIT.md`. Do not remove a
+slug from `scripts/check-guides.mjs` until its rewrite has passed the complete
+standard and rendered-page review.
 
 ## Review stale content
 

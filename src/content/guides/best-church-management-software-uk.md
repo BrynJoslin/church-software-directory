@@ -1,6 +1,8 @@
 ---
 title: Best church management software for UK churches
 slug: best-church-management-software-uk
+guideType: buyers-guide
+standardVersion: "1.0"
 summary: An evidence-led way for UK churches to shortlist church management software around their real work, UK requirements and ability to run it well.
 published: 2026-07-25
 updated: 2026-07-25
@@ -104,15 +106,24 @@ That is not an argument against software. It is an argument for buying only the 
 
 The best church management software is the one that passes your church’s real workflow test, has evidence for its UK requirements and leaves the church able to govern its own information. A famous name, a free tier or a long feature list cannot substitute for that.
 
+## Software listings to explore
+
+These representative directory listings are starting points, not a ranking or endorsement. Check their current evidence against the requirements and trial method above.
+
+- [ChurchSuite](/software/churchsuite/) may suit a church seeking a connected UK-oriented people, rota, events and giving service; confirm modules and contact-band cost.
+- [iKnow Church](/software/iknow-church/) may suit a UK church where management, giving and Gift Aid sit together; verify charges and the finance workflow.
+- [Planning Center](/software/planning-center/) is relevant for a modular people and service-planning approach; confirm UK payment and Gift Aid arrangements.
+- [ChurchDesk](/software/churchdesk/) is relevant where a connected public website and administration model matters; test editor workflow, VAT and migration.
+
 ## Sources and research limits
 
 This guide was researched on 25 July 2026 using official supplier pricing, product and support material, plus ICO guidance. Supplier pricing, features, tax treatment and data-processing terms can change; confirm the exact plan and contract before purchase. This directory does not carry out hands-on testing or publish an overall product score.
 
-- [ChurchSuite pricing](https://churchsuite.com/pricing/)
-- [ChurchSuite Giving: getting started](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module)
-- [Planning Center People](https://www.planningcenter.com/people)
-- [ChurchDesk pricing](https://churchdesk.com/en/pricing/)
-- [ChMeetings pricing](https://www.chmeetings.com/pricing/)
-- [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow)
-- [ChurchCRM FAQ](https://churchcrm.io/faq.html)
-- [ICO guidance: special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/)
+- [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
+- [ChurchSuite Giving: getting started](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module) (accessed 25 July 2026)
+- [Planning Center People](https://www.planningcenter.com/people) (accessed 25 July 2026)
+- [ChurchDesk pricing](https://churchdesk.com/en/pricing/) (accessed 25 July 2026)
+- [ChMeetings pricing](https://www.chmeetings.com/pricing/) (accessed 25 July 2026)
+- [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) (accessed 25 July 2026)
+- [ChurchCRM FAQ](https://churchcrm.io/faq.html) (accessed 25 July 2026)
+- [ICO guidance: special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) (accessed 25 July 2026)

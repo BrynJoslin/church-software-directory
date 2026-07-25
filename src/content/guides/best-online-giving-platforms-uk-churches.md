@@ -1,6 +1,8 @@
 ---
 title: Best online giving platforms for UK churches
 slug: best-online-giving-platforms-uk-churches
+guideType: buyers-guide
+standardVersion: "1.0"
 summary: A UK-focused guide to choosing an online giving platform by donation channels, Gift Aid, fees, reconciliation and the finance process behind the payment page.
 published: 2026-07-25
 updated: 2026-07-25
@@ -8,32 +10,96 @@ relatedCategories:
   - online-giving
 seo:
   title: Best online giving platforms for UK churches
-  description: "Compare online giving platforms for UK churches by channels, Gift Aid, transaction and hardware costs, reconciliation, donor records and data evidence."
+  description: Compare online giving platforms for UK churches by channels, Gift Aid, transaction and hardware costs, reconciliation, donor records and data evidence.
 ---
 
-The best online giving platform is the one that makes it easy to give and easy to account for the gift afterwards. A donation page alone does not solve Gift Aid, transaction fees, donor records, restricted funds, finance reconciliation or contactless giving in the church building.
+## Quick answer
 
-## Choose by giving pattern
+There is no single best online giving platform for every UK church. Choose the service that fits the donation channels people will actually use and that your finance team can reconcile without hidden manual work. A connected church-management platform may suit a church that needs donor records, communications and Gift Aid together; a specialist service may suit a church focused on contactless, Direct Debit or a particular giving workflow.
 
-| If you need… | Research first | First check |
+For any option, compare net income and controls, not the headline card fee. Confirm the exact payment route, hardware, Gift Aid process, billing currency, VAT, settlement timing, export and cancellation terms. This representative guide was researched on 25 July 2026 from supplier and authoritative UK material; it is not financial or tax advice.
+
+## Scope, method and the problem to solve
+
+This guide covers platforms that help a UK church accept online, card, contactless or regular gifts. It does not choose a bank account, accounting package or fundraising strategy. Products appear because their current directory record has relevant primary-source evidence; the list is not market-wide, products were not hands-on tested, and it is not a ranking or endorsement.
+
+Start with a map of the church’s real giving pattern: regular bank or Direct Debit gifts; one-off cards; online appeals; event donations; contactless giving; and whether the church needs restricted funds, donor communications or Gift Aid. A payment form cannot solve unclear finance ownership, duplicate donor records, a missing restricted-fund policy or weak reconciliation.
+
+For a low volume of gifts, a clear bank-transfer instruction and a restricted, documented finance process may be enough. Do not add a sophisticated platform solely because it looks modern. Equally, do not ask a treasurer to reconcile several payment dashboards and private spreadsheets indefinitely when a connected workflow would remove a real risk.
+
+## Choose the giving model first
+
+| Giving need | Options to investigate | Material trade-off | First question |
+| --- | --- | --- | --- |
+| Connected people, giving and Gift Aid records | [ChurchSuite](/software/churchsuite/), [iKnow Church](/software/iknow-church/) | A wider system can reduce duplicate records but needs administration and role design. | Does the exact plan produce the finance and Gift Aid output we need? |
+| Specialist UK giving and Gift Aid workflow | [Stewardship](/software/stewardship/), [KindLink](/software/kindlink/) | Fees and record ownership vary by service and arrangement. | Who holds the declaration, donation and reconciliation record? |
+| Contactless alongside online gifts | [GoodBox](/software/goodbox/), [Give A Little](/software/give-a-little/) | Hardware, connectivity, device management and transaction routes can change the total. | What will a typical in-person gift cost and how is it reconciled? |
+| Planned regular giving for eligible parishes | [Parish Giving Scheme](/software/parish-giving-scheme/) | It is tied to participating Church of England dioceses and local processes. | Is our parish eligible and how does it feed our accounts? |
+
+This is a decision framework, not a claim that every product offers every channel or applies to every church. Where Gift Aid is not confirmed in a profile, ask rather than assuming absence.
+
+## Compare net, reconciled income
+
+Published fees are meaningful only with their conditions. GoodBox publishes a UK transaction fee of 1.59% + 10p and states hardware is priced on request. Give A Little publishes a 1.58% UK web/app fee for a new Give A Little Stripe account. Stewardship publishes example Partner Account fees of 3.5% for most Gift Aided gifts and 3% for gifts without Gift Aid, deducted from gifts and applicable Gift Aid. None of these statements is a like-for-like total cost.
+
+Use the same fictional annual mix for each candidate:
+
+| Cost line | Your assumption | Supplier confirmation needed |
 | --- | --- | --- |
-| A connected church-management and giving workflow | [ChurchSuite](/software/churchsuite/), [iKnow Church](/software/iknow-church/) | Gift Aid, donor record and reconciliation on the exact plan. |
-| A specialist UK giving and Gift Aid service | [Stewardship](/software/stewardship/), [KindLink](/software/kindlink/) | Fees deducted from gifts, payment-provider costs and reporting. |
-| Contactless as well as online giving | [GoodBox](/software/goodbox/), [Give A Little](/software/give-a-little/) | Device cost, connectivity, transaction fee and placement. |
-| Planned regular giving for a participating parish | [Parish Giving Scheme](/software/parish-giving-scheme/) | Diocesan eligibility and local finance workflow. |
+| Online cards and regular gifts | Number and average value | Rate, fixed fee, payment-provider route and refunds |
+| Contactless and hardware | Devices, connectivity and replacement | Purchase/rental, support and transaction terms |
+| Subscription and add-ons | Required modules and users | Currency, VAT, term, renewal and price review |
+| Gift Aid administration | Expected eligible donations | What is included, charged or still done by the church |
+| Staff/volunteer time | Reconciliation and donor queries | Reports, exports, settlement timing and exceptions |
+| Exit and migration | Records retained | Data export, device return and cancellation provisions |
 
-GoodBox publishes a 1.59% + 10p UK transaction fee, with hardware price on request. Give A Little publishes a 1.58% UK web/app fee for a new Give A Little Stripe account. Stewardship’s published examples are 3.5% for most Gift Aided gifts and 3% for gifts without Gift Aid, deducted from gifts and applicable Gift Aid. These numbers cannot be compared without the payment type, hardware, account terms and support model. [GoodBox pricing](https://www.goodbox.com/pricing/), [Give A Little FAQ](https://givealittle.co/faq), [Stewardship fees](https://www.stewardship.org.uk/partner-account-fees).
+Calculate each line with recorded assumptions; do not invent a total when a supplier quotes individually. The Charity Commission says suitable controls include proper approvals, regular reconciliation and proportionate separation of duties. The platform supports those controls; it does not replace them.
 
-## The number that matters is net, reconciled income
+## Test the finance and donor journey
 
-Model one year of your own gift mix: regular bank payments, one-off cards, contactless, event gifts and any hardware. Then include transaction fees, subscription or account fees, Gift Aid service charges, device cost, staff time and failed-payment handling. Compare the net income and the work needed to explain it.
+Give each shortlist the same realistic test using fictional data. A polished donation page is not enough.
 
-Run a fictional donation through the supplier’s intended route. Check receipt, fund allocation, declaration, report, settlement, fee and export. The treasurer should be able to match the output to the bank statement without a private spreadsheet.
+1. Make a fictional one-off gift and a regular-giving request through the routes you would use.
+2. Check the receipt, fund designation, donor record and contact preference.
+3. Capture or amend a Gift Aid declaration where relevant, then identify an ineligible or cancelled example.
+4. Find the payment settlement, fees and any Gift Aid report or claim output.
+5. Reconcile that output to a mock bank statement with a restricted finance role.
+6. Export the records and establish whether a second authorised person can understand the file.
 
-## Keep the governance boundary clear
+Record whether each result was observed in the test, a supplier claim or not confirmed. Ask an occasional volunteer and the treasurer to complete their own tasks: accessibility and adoption matter when a donor needs to give on a phone and when a finance volunteer is working at month end.
 
-Decide where donor records live, who can see them, and how a donor’s contact preference or declaration changes. Use a restricted finance role; do not give every rota leader access because the same platform holds people data. Gift Aid and payment processing need evidence, not a generic compliance statement.
+## Data, permissions and exit
 
-## Sources and limits
+Choose one authoritative place for donor, declaration and finance information. If a giving service, banking dashboard and church database all retain the same personal data, document which is corrected first and how discrepancies are resolved. Limit donor and finance access to people who need it; a rota leader does not need it merely because the system also holds rotas.
 
-Researched 25 July 2026 from official supplier material. Pricing, card rates, hardware and local eligibility change; obtain a written proposal or current terms before purchase. This is not financial or tax advice.
+Supplier privacy terms should not be treated as a generic compliance badge. For the selected account, confirm the contract, sub-processors, locations or transfers, administrator protection, incident process and end-of-contract data return/deletion. The ICO’s controller–processor guidance explains why those items belong in the due diligence.
+
+Test exit before entry. Export fictional gifts, donors, declarations and reports. Check formats, fees, time limits and whether the church can preserve the records it must retain. A cheap platform that prevents an intelligible export can be costly to leave.
+
+## Software listings to explore
+
+The following relevant directory profiles are useful starting points, not rankings or endorsements. Use the same questions and trial script for every candidate.
+
+- [ChurchSuite](/software/churchsuite/) for a connected people, giving and Gift Aid workflow; confirm the package, payment fees and accounting output.
+- [iKnow Church](/software/iknow-church/) for a UK church-management and giving context; check finance charges and reconciliation.
+- [Stewardship](/software/stewardship/) for a UK Partner Account and Gift Aid service; model deductions for the church’s gift mix.
+- [KindLink](/software/kindlink/) for published Gift Aid record and automation plan distinctions; confirm payment and data arrangements.
+- [GoodBox](/software/goodbox/) and [Give A Little](/software/give-a-little/) for contactless and online giving; test hardware and settlement workflow.
+- [Parish Giving Scheme](/software/parish-giving-scheme/) for eligible Church of England parishes.
+
+## Make an accountable decision
+
+The treasurer or finance lead should own the shortlisting work, with trustee approval according to the church’s governing arrangements. Record the donation channels, assumptions, fees, data owner, controls, unresolved questions, cancellation terms and review date in a one-page decision record. Agree who administers the platform, who reviews reconciliations and who checks access after a role change.
+
+Your next step is to model a typical month of giving and run the trial script against two suitable services. If the team cannot explain how gross gifts become the net bank receipt and any Gift Aid claim, pause before committing.
+
+## Sources and research limits
+
+Researched 25 July 2026 using the official and supplier sources below. Fees, payment terms, hardware, eligibility and product features may change. This is not a complete market review, tax advice or a claim of independent product testing.
+
+- [Charity Commission: internal financial controls for charities](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities) (accessed 25 July 2026)
+- [HMRC: Gift Aid declarations](https://www.gov.uk/claim-gift-aid/gift-aid-declarations) (accessed 25 July 2026)
+- [ICO: controller–processor contracts](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/) (accessed 25 July 2026)
+- [GoodBox pricing](https://www.goodbox.com/pricing/) (accessed 25 July 2026)
+- [Give A Little FAQ](https://givealittle.co/faq) (accessed 25 July 2026)
+- [Stewardship Partner Account fees](https://www.stewardship.org.uk/partner-account-fees) (accessed 25 July 2026)
