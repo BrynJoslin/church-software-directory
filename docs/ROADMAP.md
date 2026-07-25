@@ -43,7 +43,7 @@ accountability rules in `AGENTS.md` and `docs/PRINCIPLES.md`.
 
 | Review priority | Roadmap destination | Outcome |
 | --- | --- | --- |
-| P0: public contradictions, disabled forms, publisher disclosure, related products and comparison defaults | Phase 3 completion gate | The existing site becomes credible and internally consistent before further expansion. |
+| P0: public contradictions, disabled forms, publisher disclosure, related products and comparison defaults | Phase 3 (completed; launch blockers recorded) | The existing site is internally consistent; publisher and correction-route facts remain explicit pre-launch blockers. |
 | P1: mobile font loading, layout stability and render-blocking CSS | Mobile performance follow-up before Phase 7 | The homepage reaches a good CLS result without sacrificing accessibility, maintainability or repeat-navigation performance. |
 | P1: field evidence, higher-signal decision fields and product-specific verdicts | Phase 4 | The content model can support explainable comparisons and shortlists. |
 | P1: guided shortlist and cost estimation | Phase 5 | Users receive three to five explained starting points and qualified cost information. |
@@ -177,7 +177,7 @@ Make the foundation robust enough for real catalogue growth.
 
 A reliable content platform that can accept researched entries safely.
 
-## Phase 3: Catalogue credibility and public trust (current)
+## Phase 3: Catalogue credibility and public trust (completed; launch blockers recorded)
 
 ### Goal
 
@@ -187,6 +187,17 @@ launch-credible standard before adding more products.
 The catalogue has already grown beyond the original target to fifty-one
 listings. Completion is now based on quality and consistency rather than a
 further numerical target.
+
+### Completion record — 25 July 2026
+
+- Public totals derive from the collection; obsolete public status wording is
+  checked; and non-functional submission controls have been removed.
+- Related-product selection is deterministic, requires meaningful similarity
+  and explains the relationship. Comparison opens with an honest empty state
+  and preserves valid, invalid and limited URL selections.
+- The catalogue received a batch source-date review. The completion gate is met
+  for the implemented site, but publication remains blocked until a responsible
+  publisher, public correction route and related operational facts are supplied.
 
 ### Workstream 3.1: Public status and working interactions
 
@@ -259,12 +270,26 @@ further numerical target.
 A trustworthy catalogue whose public claims and interactions match its actual
 state.
 
-## Phase 4: Evidence model and decision-ready comparison
+## Phase 4: Evidence model and decision-ready comparison (completed)
 
 ### Goal
 
 Reshape structured content around the questions a church must answer during
 procurement, while preserving uncertainty and source traceability.
+
+### Completion record — 25 July 2026
+
+- All 51 listings use the revised schema and have a structured procurement
+  verdict covering the problem, differentiator and first uncertainty to check.
+- Profiles and the public export expose procurement fields with evidence state,
+  source and checked-date fallbacks; evidence summaries are explicitly not
+  product scores.
+- Comparisons group key differences, shared characteristics and unresolved
+  supplier questions, while keeping `No` distinct from `Not confirmed`.
+- Content validation checks structured verdict coverage and flags repeated or
+  generic wording for editorial review without blocking legitimate factual
+  repetition. The broad church-size filter was removed because the replacement
+  operational evidence is not complete enough across the catalogue.
 
 ### Workstream 4.1: Field-level evidence
 
@@ -331,12 +356,27 @@ procurement, while preserving uncertainty and source traceability.
 Profiles and comparisons that turn recorded evidence and uncertainty into
 clear due-diligence work.
 
-## Phase 5: Guided shortlist and decision outputs
+## Phase 5: Guided shortlist and decision outputs (completed)
 
 ### Goal
 
 Help a church move from its operational problem to three to five explainable
 starting points and practical next steps.
+
+### Completion record — 25 July 2026
+
+- Existing categories are organised into four navigation families without
+  changing their routes or product membership. Administration, finance and
+  giving are prominent starting points, alongside the remaining categories.
+- The `/shortlist/` journey uses URL-encoded answers and deterministic,
+  published rules. It returns only three to five matching profiles; fewer than
+  three produces an honest no-result state rather than widened requirements.
+- Each starting point explains the matching recorded facts, material unknowns,
+  a first workflow to test and—only where a public GBP starting point exists—a
+  qualified pricing reference. It never calculates a quote or total cost.
+- A printable decision pack produces a requirements worksheet, supplier
+  questions, four-week trial plan and trustee or elder decision summary from
+  the selected answers and shortlist.
 
 ### Workstream 5.1: Category families
 

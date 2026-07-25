@@ -194,7 +194,12 @@ Guide entries are Markdown files in `src/content/guides/`.
 - `published` and `updated` support transparent maintenance.
 - `relatedCategories` contains category entry IDs.
 - `seo` supplies the unique metadata.
-- The Markdown body is independent editorial guidance.
+- The Markdown body is independent editorial guidance and must include a
+  clearly labelled section linking to relevant software listings already
+  published on this site. The links must explain their relevance to the guide's
+  decision and must not imply a ranking or endorsement.
 
 Guides must be useful without requiring a supplier click and should name when a
-simpler process may be enough.
+simpler process may be enough. Link only to relevant listings, draw claims from
+their structured or evidence-backed content, and identify material unknowns
+instead of filling gaps with inference.
