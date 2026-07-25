@@ -6,6 +6,15 @@ Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
+- Guide quality is now governed by `docs/GUIDE_STANDARD.md` version 1.0, based
+  on a benchmark of comparable church-software articles and authoritative UK
+  technology, data, security, charity-governance and accessibility guidance.
+  The content schema records guide type and standard version; a new automated
+  check prevents new legacy guides and enforces the objective floor for version
+  1.0. `How to choose church management software` is the first conforming
+  exemplar. All twelve current guides now use version 1.0; the baseline audit
+  remains as the record of the evidence-led migration.
+
 - A local-only internal maintenance dashboard now creates an accessible HTML
   report, machine-readable report and maintenance CSV from the repository's
   source content. It is excluded from Git and production output; optional live

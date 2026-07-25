@@ -191,6 +191,13 @@ Category entries are Markdown files in `src/content/categories/`.
 Guide entries are Markdown files in `src/content/guides/`.
 
 - `title`, `slug` and `summary` identify the guide.
+- `guideType` is `buyers-guide`, `comparison`, `alternatives`, `cost-guide`,
+  `explainer` or `how-to`. It selects the additional coverage required by
+  `docs/GUIDE_STANDARD.md`.
+- `standardVersion` is `1.0` only after the guide passes the complete mandatory
+  standard and human editorial review. `legacy` is restricted to the temporary,
+  explicit migration allowlist in `scripts/check-guides.mjs`; a new guide cannot
+  use it.
 - `published` and `updated` support transparent maintenance.
 - `relatedCategories` contains category entry IDs.
 - `seo` supplies the unique metadata.
@@ -203,3 +210,8 @@ Guides must be useful without requiring a supplier click and should name when a
 simpler process may be enough. Link only to relevant listings, draw claims from
 their structured or evidence-backed content, and identify material unknowns
 instead of filling gaps with inference.
+
+Every new guide and every substantially revised guide must meet
+`docs/GUIDE_STANDARD.md`. `npm run check:guides` enforces the objective floor;
+the standard's editorial acceptance checklist covers accuracy, balance and
+decision usefulness that cannot be established automatically.

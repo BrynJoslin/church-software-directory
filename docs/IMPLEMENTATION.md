@@ -77,6 +77,13 @@ Separate:
 
 Provide templates and field documentation for each collection.
 
+Guides additionally use the mandatory editorial and research rules in
+`docs/GUIDE_STANDARD.md`. The schema records each guide's type and standard
+version. `scripts/check-guides.mjs` prevents new legacy guides and enforces the
+machine-checkable version 1.0 floor during both `npm run check` and the
+production build; human editorial review remains required for accuracy, balance
+and usefulness.
+
 ## Components
 
 Build reusable components only where reuse or clarity justifies them.
@@ -286,6 +293,7 @@ The completed foundation should provide:
 ```text
 npm run dev
 npm run check
+npm run check:guides
 npm run check:stale
 npm run build
 npm run preview

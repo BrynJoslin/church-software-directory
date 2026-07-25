@@ -1,6 +1,8 @@
 ---
 title: ChurchSuite vs Planning Center
 slug: churchsuite-vs-planning-center
+guideType: comparison
+standardVersion: "1.0"
 summary: A UK-focused comparison of ChurchSuite and Planning Center that separates their operating models, pricing logic, giving evidence and implementation demands.
 published: 2026-07-25
 updated: 2026-07-25
@@ -17,7 +19,7 @@ ChurchSuite and Planning Center both cover the core work that leads churches to 
 
 **ChurchSuite is a connected, module-based suite with a strong UK orientation. Planning Center is an à la carte product suite built around a free central people database.** For a UK church, that makes Gift Aid evidence, billing, the number of products needed and the team’s appetite for configuration more important than a generic feature checklist.
 
-## Quick comparison
+## Quick answer
 
 | Question | ChurchSuite | Planning Center | What to verify |
 | --- | --- | --- | --- |
@@ -99,14 +101,21 @@ Do not choose it solely because the first products are free. Confirm the full pr
 
 Make the recommendation in one page. Name the workflows tested, the total-cost assumptions, the named system owner, the data and export evidence, unresolved supplier answers and a three-month review date. A simple record is more valuable than an invented score.
 
+## Software listings to explore
+
+The directory profiles below contain the structured evidence used as a starting point for this comparison. They are not a ranking or endorsement: test the exact package, terms and workflow your church would use.
+
+- [ChurchSuite](/software/churchsuite/) is relevant for its UK-oriented suite, published GBP module pricing and documented Gift Aid workflow.
+- [Planning Center](/software/planning-center/) is relevant for its free People database and selectable product model; UK Gift Aid remains unconfirmed in the directory record.
+
 ## Sources and research limits
 
 Researched 25 July 2026 from official supplier material and ICO guidance. Feature availability, prices, taxes, payment arrangements and terms can change; request confirmation for the exact account and plan before buying. This guide does not report hands-on testing or assign an overall score.
 
-- [ChurchSuite pricing](https://churchsuite.com/pricing/)
-- [ChurchSuite Giving module](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module)
-- [ChurchSuite rota guidance](https://support.churchsuite.com/article/361-managing-my-rotas-in-my-churchsuite)
-- [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html)
-- [Planning Center quick-start guide](https://help.planningcenter.com/en/136565-planning-center-quick-start-guide.html)
-- [Planning Center People](https://www.planningcenter.com/people)
-- [ICO special category data guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/)
+- [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
+- [ChurchSuite Giving module](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module) (accessed 25 July 2026)
+- [ChurchSuite rota guidance](https://support.churchsuite.com/article/361-managing-my-rotas-in-my-churchsuite) (accessed 25 July 2026)
+- [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html) (accessed 25 July 2026)
+- [Planning Center quick-start guide](https://help.planningcenter.com/en/136565-planning-center-quick-start-guide.html) (accessed 25 July 2026)
+- [Planning Center People](https://www.planningcenter.com/people) (accessed 25 July 2026)
+- [ICO special category data guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) (accessed 25 July 2026)
