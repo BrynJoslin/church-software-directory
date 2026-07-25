@@ -4,6 +4,7 @@ This file contains persistent instructions for AI coding agents working in this 
 
 Read this file before changing anything. Also read:
 
+- `docs/DESIGN_SYSTEM.md`
 - `docs/PROJECT_SPEC.md`
 - `docs/IMPLEMENTATION.md`
 - `docs/PRINCIPLES.md`
@@ -14,11 +15,12 @@ When instructions conflict, use this order:
 
 1. The user's current instruction
 2. `AGENTS.md`
-3. `docs/IMPLEMENTATION.md`
-4. `docs/PROJECT_SPEC.md`
-5. `docs/PRINCIPLES.md`
-6. `docs/ROADMAP.md`
-7. Existing project conventions
+3. `docs/DESIGN_SYSTEM.md` for visual design decisions
+4. `docs/IMPLEMENTATION.md`
+5. `docs/PROJECT_SPEC.md`
+6. `docs/PRINCIPLES.md`
+7. `docs/ROADMAP.md`
+8. Existing project conventions
 
 ## Project purpose
 
@@ -268,6 +270,10 @@ Consider where relevant:
 Do not imply that an international product is UK-specific without evidence. Do not give legal, tax, financial or safeguarding advice beyond reliable evidence.
 
 ## Design
+
+Use `docs/DESIGN_SYSTEM.md` as the source of truth for visual design. The
+Doorway direction, tokens, type scale, brand mark, components and imagery rules
+defined there apply across the site.
 
 The design should feel calm, trustworthy, practical, modern and editorially independent.
 

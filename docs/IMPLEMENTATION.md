@@ -110,6 +110,11 @@ Avoid a component for every wrapper element.
 
 Use plain CSS.
 
+Use `DESIGN_SYSTEM.md` as the authoritative visual specification. Shared
+Doorway tokens and component rules belong in `src/styles/global.css`; page-level
+styles should reuse those tokens rather than creating a parallel palette,
+type scale or shape language.
+
 Prefer:
 
 - central design tokens with CSS custom properties

@@ -25,6 +25,10 @@ Phase 2: usability and technical hardening complete.
   state, while retaining shareable URLs and progressive enhancement
 - A single source of truth for the configured site URL across canonical tags,
   the sitemap integration and generated `robots.txt`
+- The Doorway brand direction rolled out across shared layouts, cards, forms,
+  directory controls, comparison tables and brand assets
+- A canonical design system document, locally hosted Plus Jakarta Sans and a
+  single set of shared Doorway tokens for future visual work
 
 ## Architectural decisions
 
@@ -51,6 +55,9 @@ Phase 2: usability and technical hardening complete.
 - Directory and comparison changes made with select controls create history
   entries; text search updates the current entry to avoid one history entry per
   keystroke.
+- `docs/DESIGN_SYSTEM.md` is the source of truth for visual design. The Doorway
+  direction uses a warm-grey paper base, plum accent, one Plus Jakarta Sans
+  family, 16px card radii, 12px control radii and the aperture mark.
 
 ## Known limitations and unverified fields
 

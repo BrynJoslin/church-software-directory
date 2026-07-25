@@ -69,6 +69,10 @@ public/             Static assets, robots file and generated data
 docs/               Product, implementation and maintenance documentation
 ```
 
+The canonical visual rules are documented in `docs/DESIGN_SYSTEM.md`. The site
+uses the Doorway direction: locally hosted Plus Jakarta Sans, warm-grey paper,
+a plum accent, restrained borders and the aperture brand mark.
+
 The validated collection schemas live in `src/content.config.ts`. Field
 definitions and templates are documented in `docs/CONTENT_FIELDS.md` and
 `docs/content-templates/`.
