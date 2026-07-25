@@ -100,6 +100,10 @@ The validated collection schemas live in `src/content.config.ts`. Field
 definitions and templates are documented in `docs/CONTENT_FIELDS.md` and
 `docs/content-templates/`.
 
+The persistent, evidence-led growth and distribution plan is in
+`docs/GROWTH_STRATEGY.md`. It governs future promotion planning; it does not
+authorise automatic outreach, publishing or supplier claims.
+
 ## Configuration
 
 Edit `src/config/site.json` before production deployment. It controls:

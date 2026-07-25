@@ -6,6 +6,13 @@ Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
+- `docs/GROWTH_STRATEGY.md` now records the long-term, evidence-led growth and
+  distribution strategy. It prioritises decision assets, verified supplier
+  facts, useful existing-audience distribution, internal linking and search-data
+  learning over content volume or automated promotion. It is a planning document
+  only: no campaign, outreach, website feature or additional product research
+  was started by this documentation change.
+
 - Guide quality is now governed by `docs/GUIDE_STANDARD.md` version 1.0, based
   on a benchmark of comparable church-software articles and authoritative UK
   technology, data, security, charity-governance and accessibility guidance.

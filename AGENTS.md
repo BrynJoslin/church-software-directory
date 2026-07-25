@@ -11,6 +11,8 @@ Read this file before changing anything. Also read:
 - `docs/PRINCIPLES.md`
 - `docs/ROADMAP.md`
 - `docs/IMPLEMENTATION_STATUS.md`
+- `docs/GROWTH_STRATEGY.md` when planning or implementing growth, promotion,
+  outreach, distribution or performance-analysis work
 
 When instructions conflict, use this order:
 
@@ -408,6 +410,7 @@ Keep these files current:
 - `docs/PRINCIPLES.md`
 - `docs/ROADMAP.md`
 - `docs/IMPLEMENTATION_STATUS.md`
+- `docs/GROWTH_STRATEGY.md`
 
 Update documentation in the same change when commands, architecture, schemas, routes, deployment or maintenance steps change.
 
