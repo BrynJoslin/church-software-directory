@@ -1,4 +1,4 @@
-# UK Church Software Directory
+# Church Software UK
 
 ## Vision
 

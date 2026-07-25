@@ -24,7 +24,7 @@ When instructions conflict, use this order:
 
 ## Project purpose
 
-The UK Church Software Directory helps UK churches discover, assess and compare software used for administration, ministry, safeguarding, communication, finance and operations.
+Church Software UK helps UK churches discover, assess and compare software used for administration, ministry, safeguarding, communication, finance and operations.
 
 It is intended to become a trustworthy decision resource, not a thin affiliate website.
 

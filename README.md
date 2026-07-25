@@ -1,4 +1,4 @@
-# UK Church Software Directory
+# Church Software UK
 
 A statically generated, independent directory that helps UK churches discover,
 assess and compare software for administration, giving and ministry.
