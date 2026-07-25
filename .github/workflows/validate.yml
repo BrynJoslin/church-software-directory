@@ -30,6 +30,15 @@ jobs:
       - name: Check stale listings
         run: npm run check:stale
 
+      - name: Check verdict quality
+        run: npm run check:phase4
+
+      - name: Check recorded source health
+        run: npm run check:links
+
+      - name: Test interaction states
+        run: npm run test:interactions
+
       - name: Build production site
         run: npm run build
 

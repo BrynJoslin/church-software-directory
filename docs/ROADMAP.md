@@ -442,11 +442,27 @@ been tested.
 An explainable church software decision assistant built from static content and
 deterministic rules.
 
-## Phase 6: Contribution and continuous quality
+## Phase 6: Contribution and continuous quality (completed)
 
 ### Goal
 
 Make corrections manageable and catch regressions before public launch.
+
+### Completion record — 25 July 2026
+
+- Public software suggestions, listing corrections and supplier updates now open
+  separate GitHub issue forms. They make the public nature of the workflow,
+  evidence requirements and sensitive-data boundary explicit; maintenance
+  documentation records the triage process.
+- Validation now checks structured evidence references, affiliate consistency,
+  generated internal links and critical static accessibility conditions. The
+  build fails when these checks, sitemap coverage or content validation fail.
+- Interaction-state tests cover shortlist bounds and no-result behaviour plus
+  the directory, comparison and printable decision-pack safeguards. GitHub
+  Actions runs these, freshness, verdict, source-health and production-build
+  checks on every push and pull request.
+- Source checks write a local report, distinguish blocked or rate-limited hosts
+  from failures, and fail only for confirmed HTTP 404 or 410 source URLs.
 
 ### Scope
 

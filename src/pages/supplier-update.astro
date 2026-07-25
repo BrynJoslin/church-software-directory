@@ -1,0 +1,23 @@
+---
+import StaticSubmissionForm from "../components/StaticSubmissionForm.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Supplier listing update"
+  description="Supply current first-party information for an existing Church Software UK listing without influencing its independent assessment."
+  breadcrumbs={[{ label: "Supplier listing update" }]}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Supplier information</p>
+      <h1>Supplier listing update</h1>
+      <p class="measure">
+        Suppliers can point us to current first-party information. Evidence may
+        lead to an update, clarification or no change; it does not buy inclusion,
+        ranking or favourable editorial coverage.
+      </p>
+      <StaticSubmissionForm kind="supplier" />
+    </div>
+  </section>
+</BaseLayout>

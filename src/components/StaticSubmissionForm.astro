@@ -2,14 +2,17 @@
 import { siteConfig } from "../config/site";
 
 interface Props {
-  kind: "suggest" | "update";
+  kind: "suggest" | "update" | "supplier";
 }
 
 const { kind } = Astro.props;
 const isSuggest = kind === "suggest";
+const isSupplier = kind === "supplier";
 const action = isSuggest
   ? siteConfig.forms.suggestSoftware
-  : siteConfig.forms.updateListing;
+  : isSupplier
+    ? siteConfig.forms.supplierUpdate
+    : siteConfig.forms.updateListing;
 ---
 
 {
@@ -17,97 +20,25 @@ const action = isSuggest
     <div class="notice" role="status">
       <p>
         <strong>No submission route is configured.</strong> This page explains
-        the evidence needed for a future {isSuggest ? "suggestion" : "correction"},
-        but does not collect or send information until a real contact route is
-        published.
+        the evidence needed for a future contribution, but does not collect or
+        send information until a real route is published.
       </p>
     </div>
   ) : (
-<form class="static-form stack" action={action ?? ""} method="post">
-  <div class="honeypot" aria-hidden="true">
-    <label for={`${kind}-company-fax`}>Company fax</label>
-    <input
-      id={`${kind}-company-fax`}
-      name="company_fax"
-      type="text"
-      tabindex="-1"
-      autocomplete="off"
-    />
-  </div>
-
-  {
-    isSuggest ? (
-      <>
-        <div class="form-field">
-          <label for="product-name">Software name</label>
-          <input id="product-name" name="product_name" required maxlength="120" />
-        </div>
-        <div class="form-field">
-          <label for="official-website">Official website</label>
-          <input
-            id="official-website"
-            name="official_website"
-            type="url"
-            required
-            placeholder="https://"
-          />
-        </div>
-        <div class="form-field">
-          <label for="relevance">Why is it relevant to UK churches?</label>
-          <textarea id="relevance" name="relevance" required maxlength="1500" />
-        </div>
-      </>
-    ) : (
-      <>
-        <div class="form-field">
-          <label for="listing-url">Directory listing URL</label>
-          <input
-            id="listing-url"
-            name="listing_url"
-            type="url"
-            required
-            placeholder="https://"
-          />
-        </div>
-        <div class="form-field">
-          <label for="correction">What should be corrected or updated?</label>
-          <textarea id="correction" name="correction" required maxlength="2000" />
-        </div>
-      </>
-    )
-  }
-
-  <div class="form-field">
-    <label for={`${kind}-sources`}>
-      Official source URLs
-      <span class="muted">(one per line)</span>
-    </label>
-    <textarea
-      id={`${kind}-sources`}
-      name="source_urls"
-      required
-      placeholder="https://supplier.example/source"
-    />
-  </div>
-  <div class="form-field">
-    <label for={`${kind}-email`}>
-      Email for follow-up <span class="muted">(optional)</span>
-    </label>
-    <input
-      id={`${kind}-email`}
-      name="email"
-      type="email"
-      autocomplete="email"
-    />
-  </div>
-  <p class="muted">
-    Use only business contact details and public evidence. Do not include
-    sensitive church-member information. See the <a href="/privacy/">privacy notice</a>.
+<div class="static-form stack">
+  <p>
+    Contributions are handled through a public GitHub issue form so the evidence,
+    editorial response and resolution can be tracked. A GitHub account may be
+    required to submit.
   </p>
-  <button type="submit">
-    {isSuggest ? "Send suggestion" : "Send correction"}
-  </button>
-  <p aria-live="polite"></p>
-</form>
+  <p>
+    Use only public supplier information and business contact details. Do not
+    include church-member, pastoral, safeguarding, financial or other sensitive
+    information. See the <a href="/privacy/">privacy notice</a>.
+  </p>
+  <a class="button" href={action} rel="noopener noreferrer">
+    {isSuggest ? "Open software suggestion form" : isSupplier ? "Open supplier update form" : "Open correction form"}
+  </a>
+</div>
   )
 }

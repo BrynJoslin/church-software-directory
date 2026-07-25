@@ -18,10 +18,11 @@ export const siteConfigSchema = z.object({
   forms: z.object({
     enabled: z.boolean(),
     suggestSoftware: optionalUrl,
-    updateListing: optionalUrl
+    updateListing: optionalUrl,
+    supplierUpdate: optionalUrl
   }).superRefine((value, context) => {
-    if (value.enabled && (!value.suggestSoftware || !value.updateListing)) {
-      context.addIssue({ code: "custom", message: "Enabled forms need both configured endpoints." });
+    if (value.enabled && (!value.suggestSoftware || !value.updateListing || !value.supplierUpdate)) {
+      context.addIssue({ code: "custom", message: "Enabled contribution routes need every configured endpoint." });
     }
   }),
   analytics: z.object({ enabled: z.boolean(), provider: z.string() }),

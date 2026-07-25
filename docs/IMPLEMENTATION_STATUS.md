@@ -2,7 +2,7 @@
 
 ## Current phase
 
-Phase 5: guided shortlist and decision outputs completed.
+Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
@@ -40,6 +40,12 @@ Phase 5: guided shortlist and decision outputs completed.
 
 ## Completed
 
+- Phase 6 replaces disabled public submission controls with three documented
+  GitHub issue-form routes for suggestions, corrections and supplier updates.
+  The public route accepts only public supplier evidence and business details;
+  triage remains independent of commercial status. The validation workflow now
+  covers source-reference integrity, critical static accessibility conditions,
+  built internal links, source-health reporting and core interaction states.
 - The Phase 5 guided shortlist groups categories into four families and adds a
   URL-shareable, rules-based `/shortlist/` journey. It only returns three to
   five profiles when all selected structured requirements match, explains why
