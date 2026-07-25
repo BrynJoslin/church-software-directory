@@ -5,12 +5,21 @@
   "officialWebsite": "https://supplier.example/",
   "company": "Confirmed supplier name",
   "ukFocus": "unknown",
+  "ukOrganisation": "unknown",
   "categories": ["church-management"],
   "suitableChurchSizes": ["small"],
   "suitableContexts": ["A carefully qualified context"],
   "pricing": {
     "model": "unknown",
-    "summary": "Pricing needs verification."
+    "summary": "Pricing needs verification.",
+    "tiers": [
+      {
+        "label": "Published tier name",
+        "price": "Published price and billing period",
+        "detail": "The limit, included modules or important condition."
+      }
+    ],
+    "trialDetails": "Published trial duration or evaluation arrangement."
   },
   "freePlan": "unknown",
   "freeTrial": "unknown",
@@ -20,11 +29,44 @@
   "integrations": [],
   "importExport": [],
   "support": [],
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/product-slug/product-logo.svg",
+      "alt": "Product name logo",
+      "source": "https://supplier.example/branding",
+      "checked": "YYYY-MM-DD"
+    }
+  },
   "editorial": {
     "assessment": "State the evidence-backed fit and the material questions a church still needs to verify.",
     "bestFor": ["A qualified context, not a universal recommendation"],
     "strengths": ["An evidence-backed strength"],
     "limitations": ["A limitation, caveat or unresolved question"]
+  },
+  "longForm": {
+    "verdict": "Optional: a concise independent fit statement, supported by the sources recorded below.",
+    "decisionLens": {
+      "heading": "Optional: one practical decision lens, not a marketing claim.",
+      "text": "Name the hidden operational trade-off that a church should assess before buying this product."
+    },
+    "sections": [
+      {
+        "heading": "A decision-relevant topic",
+        "question": "The practical question this section helps a church answer.",
+        "paragraphs": ["Evidence-led editorial explanation with clear attribution and caveats."]
+      }
+    ],
+    "userFeedback": {
+      "summary": "Optional: a limited, attributed reading of external reviews or peer discussion.",
+      "themes": ["A qualified theme, not a claim of universal user experience."],
+      "caveat": "Name limitations such as small sample size, dated reviews or commercial review-platform coverage."
+    },
+    "faq": [
+      {
+        "question": "A visible, research-backed question?",
+        "answer": "A clear answer that does not overstate what the evidence establishes."
+      }
+    ]
   },
   "verificationStatus": "needs-review",
   "lastChecked": "YYYY-MM-DD",

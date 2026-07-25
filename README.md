@@ -3,7 +3,7 @@
 A statically generated, independent directory that helps UK churches discover,
 assess and compare software for administration, giving and ministry.
 
-This repository currently contains the Phase 1 architectural foundation: five
+This repository currently contains the Phase 1 architectural foundation: fifty-one
 representative software entries, three categories and two guides. It proves the
 content, route, filtering, comparison, SEO and maintenance patterns without
 pretending to be a complete catalogue.
@@ -53,6 +53,23 @@ The software export is generated from the content collection at
 `public/data/software.json` before checks and builds. Do not edit the export by
 hand.
 
+## Internal maintenance dashboard
+
+Generate the local-only maintainer dashboard with `npm run dashboard`, or use
+`npm run dashboard:open` on macOS to generate and open it. It writes
+`.internal/dashboard/index.html`, `report.json` and `maintenance-queue.csv`.
+Those files are gitignored and a production-build check prevents internal
+dashboard files entering `dist/`.
+
+The dashboard's completeness percentage is a private maintenance measure, not
+an accuracy, verification or product score. It distinguishes required fields
+from useful optional fields and does not expect genuinely inapplicable or
+unverified data. `staleListingDays` in `src/config/site.json` is the single
+freshness threshold (currently 180 days). `npm run check:content` performs the
+local analysis; optional `npm run check:links` stores cautious live URL results
+at `.internal/dashboard/link-check.json`. Blocked or rate-limited automated
+requests are not dead-link confirmations.
+
 ## Main structure
 
 ```text
@@ -93,8 +110,9 @@ Edit `src/config/site.json` before production deployment. It controls:
 Placeholder `.example` and `.invalid` values are deliberate.
 
 Forms are static and safely disabled until a real endpoint is configured and the
-privacy notice is completed. Analytics, affiliate links and sponsored listings
-are also disabled.
+privacy notice is completed. Analytics is disabled. Affiliate links and
+sponsored listings must be enabled deliberately for a confirmed relationship
+and visibly disclosed on the relevant listing.
 
 ## Content maintenance
 

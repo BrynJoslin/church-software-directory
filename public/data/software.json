@@ -1,8 +1,359 @@
 {
   "contentAsOf": "2026-07-25",
   "licence": "No reuse licence has yet been selected.",
-  "count": 5,
+  "count": 51,
   "software": [
+    {
+      "name": "Aplos",
+      "slug": "aplos",
+      "shortDescription": "Nonprofit and church accounting software with fund accounting, financial reporting, donations and operational management tools.",
+      "officialWebsite": "https://www.aplos.com/",
+      "company": "Aplos Software",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-accounting",
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Aplos publishes US-dollar Lite, Core, Advanced and custom plans, plus a 15-day free trial.",
+        "startingPrice": {
+          "amount": 79,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Lite list price; promotional prices may vary"
+        },
+        "tiers": [
+          {
+            "label": "Lite",
+            "price": "$79/month",
+            "detail": "Two users and core fund-accounting reports"
+          },
+          {
+            "label": "Core",
+            "price": "$129/month",
+            "detail": "Adds budgeting, payables, receivables and integrations"
+          },
+          {
+            "label": "Advanced",
+            "price": "from $229/month",
+            "detail": "For larger organisations; supplier says customised solutions begin here"
+          },
+          {
+            "label": "Custom",
+            "price": "Contact supplier",
+            "detail": "Tailored pricing for larger organisations"
+          }
+        ],
+        "trialDetails": "15 days, no credit card required."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Aplos pricing",
+          "url": "https://www.aplos.com/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Fund accounting",
+            "Features",
+            "Support"
+          ]
+        },
+        {
+          "label": "Aplos free trial",
+          "url": "https://www.aplos.com/free-trial",
+          "checked": "2026-07-25",
+          "supports": [
+            "15-day trial",
+            "No-card trial",
+            "Plan details"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B1 Church",
+      "slug": "b1-church",
+      "shortDescription": "A free church platform with an app, website builder, people records, giving, check-in, forms, groups and workflows.",
+      "officialWebsite": "https://www.b1.church/",
+      "company": "Live Church Solutions",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "church-websites",
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "free",
+        "summary": "B1 Church states that every feature is $0 per month, with no tiers, trials, per-member pricing or added transaction fees. Verify the live availability and terms of payment-related services before adopting them.",
+        "tiers": [
+          {
+            "label": "B1 Church",
+            "price": "$0/month",
+            "detail": "Supplier says all features are free forever, at every church size"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "B1 Church product and pricing",
+          "url": "https://www.b1.church/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free pricing",
+            "Features",
+            "Integrations",
+            "Demo"
+          ]
+        },
+        {
+          "label": "B1 Church support overview",
+          "url": "https://support.churchapps.org/docs/b1-church/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free access",
+            "Content features"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beacon CRM",
+      "slug": "beacon-crm",
+      "shortDescription": "A UK charity CRM for supporter and donor management, payments, preferences, reporting and operations.",
+      "officialWebsite": "https://www.beaconcrm.org/",
+      "company": "Beacon CRM",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "church-communications",
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Beacon publishes GBP monthly prices by contact and user allowance: Starter from £37, Standard from £127, Premium from £325, and Ultimate by quote. Annual billing is stated to save 10%; implementation is separate.",
+        "startingPrice": {
+          "amount": 37,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "Starter, monthly billing"
+        },
+        "tiers": [
+          {
+            "label": "Starter",
+            "price": "From £37/month",
+            "detail": "500–2,000 contacts, three users"
+          },
+          {
+            "label": "Standard",
+            "price": "From £127/month",
+            "detail": "2,500–50,000 contacts, ten users"
+          },
+          {
+            "label": "Premium",
+            "price": "From £325/month",
+            "detail": "10,000–100,000 contacts, 100 users"
+          },
+          {
+            "label": "Ultimate",
+            "price": "Request a quote",
+            "detail": "100,000+ contacts and bespoke scope"
+          }
+        ],
+        "trialDetails": "Beacon advertises a free trial; duration is not confirmed in this profile."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Beacon pricing",
+          "url": "https://www.beaconcrm.org/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Trial",
+            "Support",
+            "Implementation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bookwhen",
+      "slug": "bookwhen",
+      "shortDescription": "A UK online booking system for events, classes and courses, with capacity management, passes, memberships, payments and attendee communication.",
+      "officialWebsite": "https://bookwhen.com/",
+      "company": "Bookwhen",
+      "countryOfOrigin": "United Kingdom",
+      "ukFocus": "strong",
+      "ukOrganisation": "yes",
+      "categories": [
+        "events-ticketing"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Bookwhen has a free plan for small, free events and four paid tiers with volumes from 300 to 4,000 bookings per month. Its help centre directs buyers to the pricing page for current plan prices; online payments use Stripe or PayPal and their fees are separate.",
+        "tiers": [
+          {
+            "label": "Free",
+            "price": "Free",
+            "detail": "Up to 50 booking spaces per month for small, free events; no paid tickets"
+          },
+          {
+            "label": "Lite",
+            "price": "See current pricing",
+            "detail": "Up to 300 bookings per month; paid ticket costs are available"
+          },
+          {
+            "label": "Standard",
+            "price": "See current pricing",
+            "detail": "Up to 800 bookings per month with passes, memberships and waitlist features"
+          },
+          {
+            "label": "Plus",
+            "price": "See current pricing",
+            "detail": "Up to 1,800 bookings per month"
+          },
+          {
+            "label": "Gold",
+            "price": "See current pricing",
+            "detail": "Up to 4,000 bookings per month"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Bookwhen plans",
+          "url": "https://support.bookwhen.com/en/articles/6544604-choosing-a-bookwhen-plan",
+          "checked": "2026-07-25",
+          "supports": [
+            "Plans",
+            "Features",
+            "Free plan",
+            "Support"
+          ]
+        },
+        {
+          "label": "Bookwhen payments",
+          "url": "https://support.bookwhen.com/en/articles/2070792-how-payments-and-payment-providers-work-on-bookwhen",
+          "checked": "2026-07-25",
+          "supports": [
+            "Payment providers",
+            "Payment fees"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BoxCast",
+      "slug": "boxcast",
+      "shortDescription": "A US livestreaming platform for churches and other organisations, with website embedding, social distribution, scheduling and video hosting.",
+      "officialWebsite": "https://www.boxcast.com/solutions/house-of-worship-streaming",
+      "company": "BoxCast",
+      "countryOfOrigin": "United States",
+      "ukFocus": "general",
+      "ukOrganisation": "no",
+      "categories": [
+        "livestreaming"
+      ],
+      "suitableChurchSizes": [
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "BoxCast’s published Standard plan is US$109 per month when billed annually, or US$119 monthly. Hardware, storage and plan suitability should be checked directly, including UK availability.",
+        "startingPrice": {
+          "amount": 109,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "billed annually"
+        },
+        "tiers": [
+          {
+            "label": "Standard",
+            "price": "US$109/month annually or US$119 monthly",
+            "detail": "Publishes 1080p streaming, scheduling, 90-day archive storage and seven-day support"
+          }
+        ],
+        "trialDetails": "BoxCast advertises a 14-day Standard trial without a card. Its published subscription terms also describe an annual commitment and a 30-day money-back guarantee."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "BoxCast Standard pricing",
+          "url": "https://www.boxcast.com/pricing/standard-plan",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Trial",
+            "Features",
+            "Support"
+          ]
+        },
+        {
+          "label": "BoxCast house-of-worship streaming",
+          "url": "https://www.boxcast.com/solutions/house-of-worship-streaming",
+          "checked": "2026-07-25",
+          "supports": [
+            "Church use case",
+            "Demo"
+          ]
+        }
+      ]
+    },
     {
       "name": "Breeze ChMS",
       "slug": "breeze",
@@ -11,6 +362,7 @@
       "company": "Tithely",
       "countryOfOrigin": null,
       "ukFocus": "general",
+      "ukOrganisation": "unknown",
       "categories": [
         "church-management",
         "online-giving",
@@ -29,7 +381,15 @@
           "currency": "USD",
           "period": "month",
           "qualifier": "Flat ChMS subscription; payment processing and some messaging charges are separate"
-        }
+        },
+        "tiers": [
+          {
+            "label": "Breeze ChMS",
+            "price": "$72/month",
+            "detail": "One published flat ChMS subscription; payment processing and some messaging charges are separate"
+          }
+        ],
+        "trialDetails": "30 days, plus an instant demo with sample data according to the supplier."
       },
       "freePlan": "unknown",
       "freeTrial": "yes",
@@ -62,13 +422,374 @@
       ]
     },
     {
-      "name": "ChurchSuite",
-      "slug": "churchsuite",
-      "shortDescription": "A modular church management platform with UK-specific giving, Gift Aid and payment information published by the supplier.",
-      "officialWebsite": "https://churchsuite.com/",
-      "company": "ChurchSuite Ltd",
+      "name": "ChMeetings",
+      "slug": "chmeetings",
+      "shortDescription": "A church management platform with a free plan, people-based paid tiers, communications, giving, events and administration tools.",
+      "officialWebsite": "https://www.chmeetings.com/",
+      "company": "ChMeetings",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "ChMeetings publishes a free-forever plan for up to 50 people and says paid plans start at $12 per month for up to 100 people; annual billing is priced as 10 months.",
+        "startingPrice": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Free Forever plan for up to 50 people"
+        },
+        "tiers": [
+          {
+            "label": "Free Forever",
+            "price": "$0",
+            "detail": "Up to 50 people; selected limits apply"
+          },
+          {
+            "label": "Paid starting tier",
+            "price": "from $12/month",
+            "detail": "Up to 100 people according to the supplier; higher tiers scale by people"
+          },
+          {
+            "label": "Unlimited",
+            "price": "See supplier",
+            "detail": "An Unlimited plan is published; current price should be verified directly"
+          }
+        ],
+        "trialDetails": "30 days, no credit card required; the supplier describes demo-data and blank-database options with some trial limitations."
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ChMeetings pricing",
+          "url": "https://www.chmeetings.com/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free plan",
+            "Pricing model",
+            "Paid migration",
+            "Additional costs"
+          ]
+        },
+        {
+          "label": "ChMeetings trial guidance",
+          "url": "https://help.chmeetings.com/hc/en-us/articles/17358496665116-ChMeetings-Trial-Limitations",
+          "checked": "2026-07-25",
+          "supports": [
+            "30-day trial",
+            "No-card evaluation",
+            "Demo data"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Church Edit",
+      "slug": "church-edit",
+      "shortDescription": "A UK church website builder with hosted templates, calendar, forms, media and an optional member-only website tier.",
+      "officialWebsite": "https://www.churchedit.co.uk/",
+      "company": "Church Edit",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "ukOrganisation": "yes",
+      "categories": [
+        "church-websites"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Church Edit publishes GBP website-builder prices. The supplier’s price page displays promotional two-year figures, so confirm the standard billing term, VAT and renewal cost before committing.",
+        "startingPrice": {
+          "amount": 17.5,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "Church Edit Website Builder published monthly price"
+        },
+        "tiers": [
+          {
+            "label": "Church Edit Website Builder",
+            "price": "£17.50/month",
+            "detail": "One editor; supplier displays an associated promotional two-year figure"
+          },
+          {
+            "label": "Church Edit Plus",
+            "price": "£29.50/month",
+            "detail": "Member-only pages and up to ten editors; supplier displays an associated promotional two-year figure"
+          }
+        ],
+        "trialDetails": "Church Edit advertises a free trial; the duration is not confirmed in this profile."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Church Edit Website Builder prices",
+          "url": "https://www.churchedit.co.uk/website-builder-prices",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Package limits",
+            "Features"
+          ]
+        },
+        {
+          "label": "Church Edit free trial information",
+          "url": "https://churchedit.co.uk/january",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free trial",
+            "Telephone support"
+          ]
+        },
+        {
+          "label": "Church Edit contact information",
+          "url": "https://churchedit.co.uk/contact",
+          "checked": "2026-07-25",
+          "supports": [
+            "UK-registered organisation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Church Presenter",
+      "slug": "church-presenter",
+      "shortDescription": "A free, GPL-licensed worship presentation application with Bible and song tools, media, service plans, multi-screen output and mobile control.",
+      "officialWebsite": "https://churchpresenter.org/",
+      "company": "Church Presenter open-source project",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "free",
+        "summary": "Church Presenter states that it is free forever, GNU GPL v3, with no subscription, seat limits or hidden costs.",
+        "tiers": [
+          {
+            "label": "Church Presenter",
+            "price": "Free",
+            "detail": "Supplier states no subscription or seat limit"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Church Presenter homepage",
+          "url": "https://churchpresenter.org/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free pricing",
+            "Platforms",
+            "Features"
+          ]
+        },
+        {
+          "label": "Church Presenter open-source announcement",
+          "url": "https://www.churchpresenter.org/blog/church-presenter-is-free-and-open-source/",
+          "checked": "2026-07-25",
+          "supports": [
+            "GPL model",
+            "Features",
+            "Mobile control"
+          ]
+        },
+        {
+          "label": "Why Church Presenter",
+          "url": "https://churchpresenter.org/why/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Licence",
+            "Offline use",
+            "Exports"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChurchCRM",
+      "slug": "churchcrm",
+      "shortDescription": "A free, open-source church management system for self-hosted people records, groups, attendance, giving and communications.",
+      "officialWebsite": "https://churchcrm.io/",
+      "company": "ChurchCRM open-source project",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "free",
+        "summary": "ChurchCRM states that its software is free and open source with no licence, subscription or per-member charge. The church remains responsible for hosting, maintenance, security and support costs.",
+        "tiers": [
+          {
+            "label": "ChurchCRM software",
+            "price": "Free",
+            "detail": "MIT-licensed open-source software; no paid tiers stated"
+          },
+          {
+            "label": "Hosting",
+            "price": "Separate cost",
+            "detail": "The project says it does not provide a hosted service"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ChurchCRM overview",
+          "url": "https://churchcrm.io/church-management-software/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Features",
+            "Open-source model",
+            "Exports",
+            "Demo"
+          ]
+        },
+        {
+          "label": "ChurchCRM FAQ",
+          "url": "https://churchcrm.io/faq.html",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free licence",
+            "Self-hosting",
+            "Support"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChurchDesk",
+      "slug": "churchdesk",
+      "shortDescription": "A church administration platform combining people records, calendars, forms, payments, websites and communications, with UK-published pricing.",
+      "officialWebsite": "https://churchdesk.com/en/",
+      "company": "ChurchDesk Ltd.",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "ChurchDesk publishes annual-billing prices in pounds sterling, excluding VAT, with contact and time-registration limits that vary by package.",
+        "startingPrice": {
+          "amount": 54,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "Basic package, billed annually and excluding VAT"
+        },
+        "tiers": [
+          {
+            "label": "Basic",
+            "price": "£54/month",
+            "detail": "100 contacts and five time-registration users; billed annually, excluding VAT"
+          },
+          {
+            "label": "Small",
+            "price": "£97/month",
+            "detail": "500 contacts and 15 time-registration users; billed annually, excluding VAT"
+          },
+          {
+            "label": "Medium",
+            "price": "£140/month",
+            "detail": "1,000 contacts and 25 time-registration users; billed annually, excluding VAT"
+          },
+          {
+            "label": "Large",
+            "price": "£239/month",
+            "detail": "5,000 contacts and unlimited time-registration users; billed annually, excluding VAT"
+          }
+        ],
+        "trialDetails": "A free trial is advertised; the current trial duration is not confirmed in this profile."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ChurchDesk pricing",
+          "url": "https://churchdesk.com/en/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Published pricing",
+            "Package limits",
+            "Modules",
+            "Support"
+          ]
+        },
+        {
+          "label": "ChurchDesk free trial",
+          "url": "https://churchdesk.com/en/free-trial",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free trial"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChurchLinker",
+      "slug": "churchlinker",
+      "shortDescription": "A UK-built church management platform with people records, rotas, giving, Gift Aid reports, communications, sermons and a member app.",
+      "officialWebsite": "https://churchlinker.com/",
+      "company": "Limelai Limited",
       "countryOfOrigin": "United Kingdom",
       "ukFocus": "strong",
+      "ukOrganisation": "unknown",
       "categories": [
         "church-management",
         "online-giving",
@@ -82,13 +803,116 @@
       ],
       "pricing": {
         "model": "tiered",
-        "summary": "Published GBP pricing varies by active contacts and the number of modules selected.",
+        "summary": "ChurchLinker publishes GBP contact-band prices, a permanent free plan up to 50 contacts and a 14-day trial for paid plans. Verify the live scope of new-product features and add-ons before relying on them.",
+        "startingPrice": {
+          "amount": 19,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "Sprout plan, up to 150 contacts"
+        },
+        "tiers": [
+          {
+            "label": "Seed",
+            "price": "Free",
+            "detail": "Up to 50 contacts; supplier says it does not expire"
+          },
+          {
+            "label": "Sprout",
+            "price": "£19/month",
+            "detail": "Up to 150 contacts"
+          },
+          {
+            "label": "Grow",
+            "price": "£39/month",
+            "detail": "Up to 500 contacts"
+          },
+          {
+            "label": "Thrive",
+            "price": "£79/month",
+            "detail": "Up to 1,500 contacts"
+          },
+          {
+            "label": "Kingdom",
+            "price": "£129/month",
+            "detail": "Up to 5,000 contacts"
+          }
+        ],
+        "trialDetails": "The supplier advertises a 14-day paid-plan trial without a card, alongside its permanent free Seed plan."
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ChurchLinker product and pricing",
+          "url": "https://churchlinker.com/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Free plan",
+            "Trial",
+            "Features",
+            "Gift Aid claims",
+            "Data-hosting statement",
+            "Company details"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChurchSuite",
+      "slug": "churchsuite",
+      "shortDescription": "A UK-built modular church management platform for shared people records, rotas, events, giving, Gift Aid and member-facing administration.",
+      "officialWebsite": "https://churchsuite.com/",
+      "company": "ChurchSuite Ltd",
+      "countryOfOrigin": "United Kingdom",
+      "ukFocus": "strong",
+      "ukOrganisation": "yes",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Published GBP pricing varies by active contacts and the package or module selection.",
         "startingPrice": {
           "amount": 9,
           "currency": "GBP",
           "period": "month",
           "qualifier": "0–99 contacts, one module, monthly billing; VAT inclusive where applicable"
-        }
+        },
+        "tiers": [
+          {
+            "label": "Solo",
+            "price": "from £9/month",
+            "detail": "0–99 active contacts; Address Book plus one module"
+          },
+          {
+            "label": "Starter",
+            "price": "from £19/month",
+            "detail": "0–99 active contacts; Address Book plus two modules"
+          },
+          {
+            "label": "Suite",
+            "price": "from £32.50/month",
+            "detail": "0–99 active contacts; six or more modules, including the full suite"
+          },
+          {
+            "label": "Bespoke",
+            "price": "Contact supplier",
+            "detail": "1500+ contacts or a custom module combination"
+          }
+        ],
+        "trialDetails": "30 days. UK pricing is monthly by Direct Debit; active contact count and selected modules determine the charge."
       },
       "freePlan": "unknown",
       "freeTrial": "yes",
@@ -102,10 +926,10 @@
           "checked": "2026-07-25",
           "supports": [
             "Pricing model",
+            "Published GBP tiers",
             "Starting price",
             "Free trial",
-            "UK payment method",
-            "Support"
+            "Package structure"
           ]
         },
         {
@@ -114,7 +938,16 @@
           "checked": "2026-07-25",
           "supports": [
             "Core features",
-            "Gift Aid management"
+            "Member-facing access",
+            "Mobile apps"
+          ]
+        },
+        {
+          "label": "ChurchSuite branding resources",
+          "url": "https://churchsuite.com/branding/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Official logo asset and supplier logo-use guidance"
           ]
         },
         {
@@ -133,7 +966,135 @@
           "checked": "2026-07-25",
           "supports": [
             "Supplier legal name",
-            "Country of origin"
+            "UK-registered organisation",
+            "Data access and backup statement",
+            "Termination data-deletion policy"
+          ]
+        },
+        {
+          "label": "ChurchSuite security information",
+          "url": "https://churchsuite.com/security/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Supplier hosting statement",
+            "Encryption statement",
+            "Security and backup statements"
+          ]
+        },
+        {
+          "label": "ChurchSuite API and Embed information",
+          "url": "https://churchsuite.com/api-and-json/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Public API",
+            "Website embeds",
+            "30-day trial"
+          ]
+        },
+        {
+          "label": "ChurchSuite import guidance",
+          "url": "https://support.churchsuite.com/article/11-import-your-data-into-churchsuite",
+          "checked": "2026-07-25",
+          "supports": [
+            "CSV contact import",
+            "Import preparation"
+          ]
+        },
+        {
+          "label": "ChurchSuite support-access guidance",
+          "url": "https://support.churchsuite.com/article/476-enabling-and-disabling-churchsuite-support-team-access",
+          "checked": "2026-07-25",
+          "supports": [
+            "Support-access controls",
+            "Administrator permissions"
+          ]
+        },
+        {
+          "label": "Capterra ChurchSuite reviews",
+          "url": "https://www.capterra.com/p/122430/ChurchApp/reviews/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Limited independent user-feedback context",
+            "Review-volume caveat"
+          ]
+        },
+        {
+          "label": "Church-tech community discussion",
+          "url": "https://www.reddit.com/r/churchtech/comments/1t5fw4j/church_management_system_increasing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Peer discussion about adoption and shared use"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Churchteams",
+      "slug": "churchteams",
+      "shortDescription": "A church management suite with groups, check-in, giving, workflows, volunteers, communications and a member app.",
+      "officialWebsite": "https://churchteams.com/",
+      "company": "Churchteams",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Churchteams prices its plans by database people count. The current page confirms plan structure, included essentials and 30-day trial, but the displayed prices need confirmation directly with the supplier.",
+        "tiers": [
+          {
+            "label": "Database-based plans",
+            "price": "See supplier",
+            "detail": "Plan selection is based on people in the database"
+          },
+          {
+            "label": "Check scanning and archive storage",
+            "price": "+$15/month",
+            "detail": "Optional according to the supplier"
+          },
+          {
+            "label": "Text-to-Church",
+            "price": "Included on selected plans",
+            "detail": "500 outgoing texts included; further texts are 2¢ each unless a bulk package is used"
+          }
+        ],
+        "trialDetails": "30 days, full access and support, with the option to load the church’s own data according to the supplier."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Churchteams pricing plans",
+          "url": "https://go.churchteams.com/pricing-plans-churchteams/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing structure",
+            "Trial",
+            "Core features",
+            "Texting costs"
+          ]
+        },
+        {
+          "label": "Churchteams trial",
+          "url": "https://churchteams.com/m/CTSignup.asp",
+          "checked": "2026-07-25",
+          "supports": [
+            "Full-access 30-day trial",
+            "Own-data trial",
+            "Trial support"
           ]
         }
       ]
@@ -146,6 +1107,7 @@
       "company": "ChurchTools",
       "countryOfOrigin": null,
       "ukFocus": "general",
+      "ukOrganisation": "unknown",
       "categories": [
         "church-management",
         "worship-planning"
@@ -164,7 +1126,40 @@
           "currency": "EUR",
           "period": "month",
           "qualifier": "XS package for up to 100 people; listed service prices exclude VAT"
-        }
+        },
+        "tiers": [
+          {
+            "label": "XS",
+            "price": "€29/month",
+            "detail": "Up to 100 people; no additional campuses"
+          },
+          {
+            "label": "S",
+            "price": "€49/month",
+            "detail": "Up to 200 people"
+          },
+          {
+            "label": "M",
+            "price": "€79/month",
+            "detail": "Up to 500 people; two campuses"
+          },
+          {
+            "label": "L",
+            "price": "€129/month",
+            "detail": "Up to 1,000 people; three campuses"
+          },
+          {
+            "label": "XL",
+            "price": "€209/month",
+            "detail": "Up to 2,500 people; five campuses"
+          },
+          {
+            "label": "XXL",
+            "price": "€339/month",
+            "detail": "Unlimited people and campuses for one church"
+          }
+        ],
+        "trialDetails": "30 days, with email support and weekly group video calls according to the supplier."
       },
       "freePlan": "unknown",
       "freeTrial": "yes",
@@ -188,6 +1183,817 @@
       ]
     },
     {
+      "name": "ChurchTrac",
+      "slug": "churchtrac",
+      "shortDescription": "A church management platform with people, giving, check-in, groups, service planning and optional accounting and messaging features.",
+      "officialWebsite": "https://www.churchtrac.com/",
+      "company": "ChurchTrac Software",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "ChurchTrac prices by tracked names, with optional accounting and enhanced-messaging add-ons. The supplier’s live price selector should be checked for the church’s band.",
+        "tiers": [
+          {
+            "label": "Name-based subscription",
+            "price": "See supplier selector",
+            "detail": "Price varies by number of tracked names; archived names do not count according to the supplier"
+          },
+          {
+            "label": "Accounting",
+            "price": "+$15/month",
+            "detail": "Optional accounting and budgeting features"
+          },
+          {
+            "label": "Enhanced Messaging",
+            "price": "+$7/month",
+            "detail": "Optional text and voice messaging add-on; further credits can cost extra"
+          }
+        ],
+        "trialDetails": "30 days free, according to the supplier."
+      },
+      "freePlan": "unknown",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ChurchTrac pricing",
+          "url": "https://www.churchtrac.com/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing model",
+            "Add-ons",
+            "30-day trial",
+            "Core features"
+          ]
+        },
+        {
+          "label": "ChurchTrac getting started",
+          "url": "https://www.churchtrac.com/support/getting_started/churchtrac-overview",
+          "checked": "2026-07-25",
+          "supports": [
+            "Name counting",
+            "Support",
+            "Data import"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clearstream",
+      "slug": "clearstream",
+      "shortDescription": "Church communication software for SMS, email, keywords, phone numbers, QR codes and NFC connection journeys.",
+      "officialWebsite": "https://clearstream.io/",
+      "company": "Clearstream",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "usage-based",
+        "summary": "Clearstream publishes a 30-day trial and US-dollar plans based on outgoing-message credits, with email included.",
+        "startingPrice": {
+          "amount": 29,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "1,250 monthly credits on the US plan shown by the supplier"
+        },
+        "tiers": [
+          {
+            "label": "Trial",
+            "price": "Free for 30 days",
+            "detail": "100 credits, one phone number and unlimited email on the US plan shown"
+          },
+          {
+            "label": "Starter paid tier",
+            "price": "$29/month",
+            "detail": "1,250 credits and one phone number on the US plan shown"
+          },
+          {
+            "label": "Growth tier",
+            "price": "$49/month",
+            "detail": "2,500 credits, two subaccounts and three phone numbers on the US plan shown"
+          },
+          {
+            "label": "Higher-volume tiers",
+            "price": "from $99/month",
+            "detail": "Credits, subaccounts and phone numbers scale by plan"
+          }
+        ],
+        "trialDetails": "30 days; supplier says no contract or setup fee."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Clearstream pricing",
+          "url": "https://clearstream.io/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Credits",
+            "30-day trial",
+            "Support"
+          ]
+        },
+        {
+          "label": "Clearstream overview",
+          "url": "https://clearstream.io/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Messaging features",
+            "Planning Center integration"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Donorbox",
+      "slug": "donorbox",
+      "shortDescription": "A fundraising and donation platform for charities, with UK pricing, donation forms, campaigns, event ticketing and HMRC Gift Aid integration.",
+      "officialWebsite": "https://donorbox.org/",
+      "company": "Donorbox",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "online-giving",
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "Donorbox publishes UK-focused pricing. Its Standard plan has no subscription but platform fees of 2.95% to 3.95%; Pro is $150 per month with lower stated fees; Premium is quote based. Payment-processor fees apply separately.",
+        "tiers": [
+          {
+            "label": "Standard",
+            "price": "No monthly subscription",
+            "detail": "Published platform fees between 2.95% and 3.95%, plus payment processing"
+          },
+          {
+            "label": "Pro",
+            "price": "$150/month",
+            "detail": "Published platform fees between 1.75% and 2%, plus payment processing"
+          },
+          {
+            "label": "Premium",
+            "price": "Request a quote",
+            "detail": "Published platform fees between 1.6% and 2%, plus payment processing"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "unknown",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Donorbox UK pricing",
+          "url": "https://donorbox.org/uk-pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "UK pricing",
+            "Gift Aid",
+            "Features",
+            "Payment fees"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EasyWorship",
+      "slug": "easyworship",
+      "shortDescription": "Church presentation software for songs, Scripture, media and service content, licensed across a campus by weekly attendance.",
+      "officialWebsite": "https://easyworship.com/",
+      "company": "Softouch Development",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "EasyWorship publishes attendance-based US-dollar campus subscriptions, with Basic and Premium starting prices and a 30-day trial.",
+        "startingPrice": {
+          "amount": 17.5,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Basic starting price; attendance affects the final price"
+        },
+        "tiers": [
+          {
+            "label": "Basic",
+            "price": "from $17.50/month or $210/year",
+            "detail": "Campus licence, core presentation software and support"
+          },
+          {
+            "label": "Premium",
+            "price": "from $27.50/month or $330/year",
+            "detail": "Adds a supplier media library and online media designer"
+          }
+        ],
+        "trialDetails": "30 days, full access and no credit card required."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "EasyWorship pricing",
+          "url": "https://easyworship.com/software/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Attendance model",
+            "30-day trial",
+            "Plan features"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elvanto",
+      "slug": "elvanto",
+      "shortDescription": "A church management platform with people, services, volunteers, giving and check-in tools, priced by active adults in US dollars.",
+      "officialWebsite": "https://www.elvanto.com/",
+      "company": "Tithely",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Elvanto prices its all-in-one subscription by active adults and publishes US-dollar monthly or annual-billing prices plus a setup cost.",
+        "startingPrice": {
+          "amount": 19,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Up to 50 active adults, billed monthly; setup cost is separate"
+        },
+        "tiers": [
+          {
+            "label": "50",
+            "price": "$19/month or $15.20/month annually",
+            "detail": "Up to 50 active adults; $149 setup cost"
+          },
+          {
+            "label": "100",
+            "price": "$39/month or $31.20/month annually",
+            "detail": "Up to 100 active adults; $149 setup cost"
+          },
+          {
+            "label": "Higher active-adult bands",
+            "price": "Contact supplier / selector",
+            "detail": "The supplier publishes a people-count selector; all features are described as included"
+          }
+        ],
+        "trialDetails": "Trial duration is not confirmed in the current source record; contact the supplier for a current evaluation arrangement."
+      },
+      "freePlan": "no",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Elvanto pricing",
+          "url": "https://www.elvanto.com/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Active-adult definition",
+            "Setup cost",
+            "Migration and support"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faith Teams",
+      "slug": "faith-teams",
+      "shortDescription": "A church management suite with people, groups, giving, check-in, communications, volunteer scheduling and service planning.",
+      "officialWebsite": "https://faithteams.com/",
+      "company": "Faith Teams",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Faith Teams publishes US-dollar prices by active people, with a 10-day no-card trial.",
+        "startingPrice": {
+          "amount": 75,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Up to 499 active people"
+        },
+        "tiers": [
+          {
+            "label": "Up to 499 active people",
+            "price": "$75/month or $750/year",
+            "detail": "Community+ plan"
+          },
+          {
+            "label": "500–1,499",
+            "price": "$95/month",
+            "detail": "Active-person band"
+          },
+          {
+            "label": "1,500–4,999",
+            "price": "$125/month",
+            "detail": "Active-person band"
+          },
+          {
+            "label": "5,000+",
+            "price": "$150/month",
+            "detail": "Active-person band"
+          }
+        ],
+        "trialDetails": "10 days, no credit card required."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Faith Teams pricing",
+          "url": "https://faithteams.com/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Trial",
+            "Features",
+            "Support"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flocknote",
+      "slug": "flocknote",
+      "shortDescription": "A US church communications and member-management platform with email, text messages, sign-ups, giving and household records.",
+      "officialWebsite": "https://flocknote.com/",
+      "company": "Flocknote",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-communications",
+        "church-management",
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Flocknote publishes US-dollar member-band pricing, including a free Starter tier for up to 40 members. Its paid Complete plan adds $75 per month to the applicable Starter member-band price.",
+        "tiers": [
+          {
+            "label": "Starter, up to 40 members",
+            "price": "Free",
+            "detail": "Supplier states it is free for life"
+          },
+          {
+            "label": "Starter, 41–50 members",
+            "price": "$10/month",
+            "detail": "Published member-band price"
+          },
+          {
+            "label": "Starter, 51–70 members",
+            "price": "$17/month",
+            "detail": "Published member-band price"
+          },
+          {
+            "label": "Complete",
+            "price": "Starter price + $75/month",
+            "detail": "Adds member database, registrations and advanced giving tools"
+          }
+        ],
+        "trialDetails": "The supplier advertises an unlimited free trial with no card required."
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Flocknote pricing",
+          "url": "https://flocknote.com/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Free plan",
+            "Trial",
+            "Features",
+            "Demo"
+          ]
+        },
+        {
+          "label": "Flocknote pricing help",
+          "url": "https://help.flocknote.com/article/81-does-it-cost-anything-to-use-flocknote",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free tier",
+            "Pricing model",
+            "Giving"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FreePresenter",
+      "slug": "freepresenter",
+      "shortDescription": "A free presentation application for churches with live search, multiple outputs, layouts, NDI, service planning and media tools.",
+      "officialWebsite": "https://freepresenter.com/",
+      "company": "StarwayApps",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "FreePresenter is published as a free presentation app. The supplier says full cloud support is still under development and will be an opt-in subscription feature, with no current price shown.",
+        "tiers": [
+          {
+            "label": "Desktop application",
+            "price": "Free",
+            "detail": "Supplier describes the presentation app as free"
+          },
+          {
+            "label": "Future full cloud support",
+            "price": "Not published",
+            "detail": "Supplier says this will be opt-in and subscription based when available"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "FreePresenter homepage",
+          "url": "https://freepresenter.com/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free desktop app",
+            "Features",
+            "Future cloud statement"
+          ]
+        },
+        {
+          "label": "FreePresenter documentation",
+          "url": "https://freepresenter.com/docs",
+          "checked": "2026-07-25",
+          "supports": [
+            "Bible and song presentation",
+            "Workflow"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FreeShow",
+      "slug": "freeshow",
+      "shortDescription": "A free, open-source presentation application for songs, Bible passages, media, stage displays and multiple service outputs.",
+      "officialWebsite": "https://freeshow.app/",
+      "company": "Live Church Solutions",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "free",
+        "summary": "FreeShow states that it is free and open source, with no subscription or trial requirement. Churches should still budget for hardware, training, media assets, backup arrangements and any licensed Bible or song content.",
+        "tiers": [
+          {
+            "label": "FreeShow",
+            "price": "Free",
+            "detail": "The supplier describes FreeShow as a free, open-source non-profit project"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "FreeShow homepage",
+          "url": "https://freeshow.app/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free and open-source model",
+            "Features",
+            "Imports"
+          ]
+        },
+        {
+          "label": "FreeShow integrations",
+          "url": "https://freeshow.app/docs/integrations",
+          "checked": "2026-07-25",
+          "supports": [
+            "Integrations"
+          ]
+        },
+        {
+          "label": "FreeShow introduction",
+          "url": "https://freeshow.app/docs/introduction",
+          "checked": "2026-07-25",
+          "supports": [
+            "Platforms",
+            "Active development"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FreeWorship",
+      "slug": "freeworship",
+      "shortDescription": "UK church presentation software with a free version and a paid Pro subscription for advanced live-service features.",
+      "officialWebsite": "https://freeworship.co.uk/",
+      "company": "FreeWorship",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "FreeWorship offers a free version and a Pro single-PC subscription in pounds sterling with a two-week trial.",
+        "startingPrice": {
+          "amount": 0,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "FreeWorship free version"
+        },
+        "tiers": [
+          {
+            "label": "FreeWorship",
+            "price": "Free",
+            "detail": "Supplier publishes a free foundational presentation version"
+          },
+          {
+            "label": "FreeWorship Pro",
+            "price": "£12.99/month",
+            "detail": "Single computer at a time; includes priority support and advanced features"
+          }
+        ],
+        "trialDetails": "Two weeks for the Pro subscription."
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "FreeWorship Pro subscription",
+          "url": "https://freeworship.co.uk/fw-shop/pro/",
+          "checked": "2026-07-25",
+          "supports": [
+            "GBP price",
+            "Two-week trial",
+            "Pro features",
+            "Single-PC scope"
+          ]
+        },
+        {
+          "label": "FreeWorship download",
+          "url": "https://freeworship.co.uk/download/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free version",
+            "Pro upgrade context"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Give A Little",
+      "slug": "give-a-little",
+      "shortDescription": "A UK digital and contactless giving platform for charities, with donation pages, Tap to Pay, Android donation stations and Gift Aid connections.",
+      "officialWebsite": "https://givealittle.co/",
+      "company": "Caution Your Blast Ltd",
+      "countryOfOrigin": "United Kingdom",
+      "ukFocus": "strong",
+      "ukOrganisation": "yes",
+      "categories": [
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "usage-based",
+        "summary": "Give A Little states that its UK web and app donation transaction fee is 1.58% when using a new Give A Little Stripe account. Hardware and account options vary; some Church of England parish arrangements include a free Premium account.",
+        "tiers": [
+          {
+            "label": "Web and app donations",
+            "price": "1.58% transaction fee",
+            "detail": "Supplier says this applies to a new Give A Little Stripe account and is currently UK only"
+          },
+          {
+            "label": "Premium account through Parish Buying",
+            "price": "May be included",
+            "detail": "A diocesan page says eligible parishes can access a free Premium account, normally £7.50/month"
+          }
+        ]
+      },
+      "freePlan": "unknown",
+      "freeTrial": "unknown",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Give A Little homepage",
+          "url": "https://givealittle.co/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Contactless features",
+            "Company registration",
+            "Devices"
+          ]
+        },
+        {
+          "label": "Give A Little FAQ",
+          "url": "https://givealittle.co/faq",
+          "checked": "2026-07-25",
+          "supports": [
+            "UK fee",
+            "Tap to Pay",
+            "Gift Aid context"
+          ]
+        },
+        {
+          "label": "Bath and Wells Diocese on Give A Little",
+          "url": "https://www.bathandwells.org.uk/parish-support/giving-and-grants/ways-to-give/online-giving/give-a-little/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Parish Buying Premium account"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoodBox",
+      "slug": "goodbox",
+      "shortDescription": "A UK charity fundraising platform for contactless donation devices, online giving and a data portal.",
+      "officialWebsite": "https://www.goodbox.com/",
+      "company": "GoodBox",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "usage-based",
+        "summary": "GoodBox says signup is free and publishes a UK transaction fee of 1.59% plus 10p per donation. Devices can be purchased, leased or hired; the detailed hardware price list requires a request.",
+        "tiers": [
+          {
+            "label": "Account signup",
+            "price": "Free",
+            "detail": "Supplier states signup is quick, easy and free"
+          },
+          {
+            "label": "UK donation transactions",
+            "price": "1.59% + 10p",
+            "detail": "Published fee per donation"
+          },
+          {
+            "label": "Devices",
+            "price": "Request pricing",
+            "detail": "Purchase, lease and hire options are stated; detailed prices require the brochure"
+          }
+        ]
+      },
+      "freePlan": "unknown",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "GoodBox pricing",
+          "url": "https://www.goodbox.com/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Signup",
+            "Transaction fee",
+            "Device options",
+            "Data portal"
+          ]
+        },
+        {
+          "label": "GoodBox charity fundraising",
+          "url": "https://www.goodbox.com/charity-fundraising/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Fundraising technology"
+          ]
+        }
+      ]
+    },
+    {
       "name": "iKnow Church",
       "slug": "iknow-church",
       "shortDescription": "UK church management software with published member-based pricing and supplier documentation for giving and Gift Aid claims.",
@@ -195,6 +2001,7 @@
       "company": "iKnow Church",
       "countryOfOrigin": null,
       "ukFocus": "strong",
+      "ukOrganisation": "yes",
       "categories": [
         "church-management",
         "online-giving"
@@ -213,7 +2020,40 @@
           "currency": "GBP",
           "period": "month",
           "qualifier": "Fewer than 50 adult church members; supplier pricing includes VAT"
-        }
+        },
+        "tiers": [
+          {
+            "label": "Under 50 members",
+            "price": "£22/month or £220/year",
+            "detail": "Unlimited children and 100 free contacts; VAT included"
+          },
+          {
+            "label": "51–100 members",
+            "price": "£33/month or £330/year",
+            "detail": "Unlimited children and 300 free contacts; VAT included"
+          },
+          {
+            "label": "101–200 members",
+            "price": "£44–£55/month",
+            "detail": "Published bands at 101–150 and 151–200 members"
+          },
+          {
+            "label": "201–500 members",
+            "price": "£66–£77/month",
+            "detail": "Published bands at 201–300 and 301–500 members"
+          },
+          {
+            "label": "501–1,000 members",
+            "price": "£93.50–£110/month",
+            "detail": "Published bands at 501–700 and 701–1,000 members"
+          },
+          {
+            "label": "1,001–4,000 members",
+            "price": "£137.50–£220/month",
+            "detail": "Published bands by member count; 4,000+ is custom pricing"
+          }
+        ],
+        "trialDetails": "A free trial is referenced in the supplier’s donation-features material; the current duration is not confirmed in this profile."
       },
       "freePlan": "unknown",
       "freeTrial": "yes",
@@ -227,6 +2067,7 @@
           "checked": "2026-07-25",
           "supports": [
             "Pricing model",
+            "Published member bands",
             "Starting price",
             "Support"
           ]
@@ -250,6 +2091,643 @@
             "Transaction charges",
             "Gift Aid claim charge"
           ]
+        },
+        {
+          "label": "iKnow Church privacy policy",
+          "url": "https://www.iknowchurch.co.uk/privacy-policy",
+          "checked": "2026-07-25",
+          "supports": [
+            "UK-registered organisation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KidCheck",
+      "slug": "kidcheck",
+      "shortDescription": "A US children’s and youth check-in platform with attendance, guardian notifications, optional volunteer tools and printed labels.",
+      "officialWebsite": "https://www.kidcheck.com/",
+      "company": "KidCheck",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "childrens-ministry"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "KidCheck publishes US-dollar prices per check-in device: Starter $25, Plus $45 and Premier $60 monthly. Each has a published unlimited-device add-on and 90-day money-back guarantee.",
+        "startingPrice": {
+          "amount": 25,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Starter, one check-in device"
+        },
+        "tiers": [
+          {
+            "label": "Starter",
+            "price": "$25/month",
+            "detail": "One device; unlimited devices add $15/month"
+          },
+          {
+            "label": "Plus",
+            "price": "$45/month",
+            "detail": "One device; unlimited devices add $30/month"
+          },
+          {
+            "label": "Premier",
+            "price": "$60/month",
+            "detail": "One device; unlimited devices add $60/month"
+          }
+        ],
+        "trialDetails": "KidCheck publishes a 90-day money-back guarantee rather than a free trial."
+      },
+      "freePlan": "no",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "KidCheck pricing",
+          "url": "https://www.kidcheck.com/features-pricing/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Guarantee",
+            "Support",
+            "Demo"
+          ]
+        },
+        {
+          "label": "KidCheck edition comparison",
+          "url": "https://www.kidcheck.com/features-pricing/compare-editions/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Features",
+            "Device limits"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KidsCheckin.com",
+      "slug": "kidscheckin",
+      "shortDescription": "A newer children’s ministry check-in service with free and paid daily check-in limits, unlimited devices, labels and CSV exports.",
+      "officialWebsite": "https://kidscheckin.com/",
+      "company": "KidsCheckin.com",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "childrens-ministry"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "KidsCheckin.com publishes a free plan for 30 daily check-ins, then $15, $29 and $49 monthly plans for 100, 500 and unlimited daily check-ins. It states no contracts, a 30-day money-back guarantee and free onboarding.",
+        "tiers": [
+          {
+            "label": "Free",
+            "price": "$0/month",
+            "detail": "Up to 30 daily check-ins"
+          },
+          {
+            "label": "Starter",
+            "price": "$15/month",
+            "detail": "Up to 100 daily check-ins"
+          },
+          {
+            "label": "Growth",
+            "price": "$29/month",
+            "detail": "Up to 500 daily check-ins"
+          },
+          {
+            "label": "Unlimited",
+            "price": "$49/month",
+            "detail": "Unlimited daily check-ins"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "KidsCheckin.com product and pricing",
+          "url": "https://kidscheckin.com/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Free plan",
+            "Features",
+            "Early access",
+            "Printer support"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KindLink",
+      "slug": "kindlink",
+      "shortDescription": "A charity CRM and fundraising platform with free supporter records, UK Gift Aid tools, online donations, contactless payments and paid advanced plans.",
+      "officialWebsite": "https://www.kindlink.org/",
+      "company": "KindLink Foundation",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "online-giving",
+        "church-management",
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "KindLink publishes a free registered-nonprofit plan, Premium at £25/month excluding VAT and Expert at £45/month excluding VAT. Premium and Expert have 7-day trials; bank and Stripe fees apply and KindLink says it takes no part of donations.",
+        "tiers": [
+          {
+            "label": "Free",
+            "price": "Free",
+            "detail": "Unlimited supporter records, UK Gift Aid records and online donation links; bank and Stripe fees apply"
+          },
+          {
+            "label": "Premium",
+            "price": "£25/month excluding VAT",
+            "detail": "Automated Gift Aid submission, website donation flow and multi-user access"
+          },
+          {
+            "label": "Expert",
+            "price": "£45/month excluding VAT",
+            "detail": "Adds UK Direct Debit, contactless/POS and more payment options"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "KindLink pricing",
+          "url": "https://www.kindlink.org/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Free plan",
+            "Trial",
+            "Gift Aid",
+            "Features",
+            "Support"
+          ]
+        },
+        {
+          "label": "KindLink fundraising platform",
+          "url": "https://www.kindlink.org/charity-fundraising-software",
+          "checked": "2026-07-25",
+          "supports": [
+            "Gift Aid claims",
+            "Fundraising"
+          ]
+        },
+        {
+          "label": "KindLink FAQ",
+          "url": "https://www.kindlink.com/faq",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free charitable model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Logos Bible Study",
+      "slug": "logos",
+      "shortDescription": "A Bible study and research platform with searchable libraries, original-language tools, guided workflows and sermon-preparation features.",
+      "officialWebsite": "https://www.logos.com/",
+      "company": "Logos",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "bible-study"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "A free Logos account unlocks the app and selected study features. The supplier publishes three paid subscription tiers in US dollars, billed annually at the displayed monthly equivalents.",
+        "startingPrice": {
+          "amount": 8.33,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Premium, billed annually, after the 30-day trial"
+        },
+        "tiers": [
+          {
+            "label": "Free",
+            "price": "$0",
+            "detail": "Free account, app and selected study features"
+          },
+          {
+            "label": "Premium",
+            "price": "from $8.33/month",
+            "detail": "Billed annually; 200+ books and study tools"
+          },
+          {
+            "label": "Pro",
+            "price": "from $12.50/month",
+            "detail": "Billed annually; adds teaching, sermon-preparation and language tools"
+          },
+          {
+            "label": "Max",
+            "price": "from $16.67/month",
+            "detail": "Billed annually; advanced original-language study tools"
+          }
+        ],
+        "trialDetails": "30 days for the paid subscription tiers; cancel, change plan or switch to the free version according to the supplier."
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Logos subscription pricing",
+          "url": "https://www.logos.com/logos-explore-pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Subscription tiers",
+            "Published prices",
+            "30-day trial",
+            "Included books and tools"
+          ]
+        },
+        {
+          "label": "Logos product overview",
+          "url": "https://www.logos.com/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Platform purpose",
+            "30-day trial",
+            "Mobile apps",
+            "Supplier training statement"
+          ]
+        },
+        {
+          "label": "Logos study tools overview",
+          "url": "https://www.logos.com/time-well-spent",
+          "checked": "2026-07-25",
+          "supports": [
+            "Factbook",
+            "Searchable library",
+            "Sermon Builder",
+            "Guided workflows",
+            "Original-language tools"
+          ]
+        },
+        {
+          "label": "Logos free account guidance",
+          "url": "https://support.logos.com/hc/en-us/articles/360023029051-Get-started-with-Logos-for-free",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free account",
+            "Free app access",
+            "Web app"
+          ]
+        },
+        {
+          "label": "Logos mobile guidance",
+          "url": "https://support.logos.com/hc/en-us/articles/360035659011-Get-Started-with-Logos-Mobile",
+          "checked": "2026-07-25",
+          "supports": [
+            "Mobile app",
+            "Mobile search"
+          ]
+        },
+        {
+          "label": "Logos platform comparison",
+          "url": "https://support.logos.com/hc/en-us/articles/9785956686349",
+          "checked": "2026-07-25",
+          "supports": [
+            "Desktop, web and mobile comparison",
+            "Offline-use consideration"
+          ]
+        },
+        {
+          "label": "Capterra Logos Bible Software reviews",
+          "url": "https://www.capterra.com/p/275095/Logos/reviews/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Limited external user-feedback context",
+            "Review-volume caveat"
+          ]
+        },
+        {
+          "label": "G2 Logos reviews",
+          "url": "https://www.g2.com/products/logos/reviews",
+          "checked": "2026-07-25",
+          "supports": [
+            "Limited external user-feedback context",
+            "Learning-curve theme"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MinistryPlatform",
+      "slug": "ministryplatform",
+      "shortDescription": "An ACS Technologies church-management platform for configurable people, parish, communications and operations data in a central database.",
+      "officialWebsite": "https://www.acstechnologies.com/ministryplatform/",
+      "company": "ACS Technologies",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "quote-based",
+        "summary": "MinistryPlatform’s help centre directs customers to call for pricing. It has shared-cloud and dedicated-cloud editions, with optional services that may have additional monthly costs.",
+        "tiers": [
+          {
+            "label": "Shared Cloud",
+            "price": "Request a quote",
+            "detail": "Supplier describes tiers and optional services"
+          },
+          {
+            "label": "Dedicated Cloud",
+            "price": "Request a quote",
+            "detail": "Supplier describes additional managed deployment options"
+          }
+        ]
+      },
+      "freePlan": "no",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "MinistryPlatform overview",
+          "url": "https://www.acstechnologies.com/ministryplatform/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Audience",
+            "Features",
+            "Demo"
+          ]
+        },
+        {
+          "label": "MinistryPlatform platform tools",
+          "url": "https://www.acstechnologies.com/ministryplatform/tools/platform/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Customisation",
+            "APIs",
+            "Integrations"
+          ]
+        },
+        {
+          "label": "MinistryPlatform edition options",
+          "url": "https://help.acst.com/en/ministryplatform/help-topics/support--services/billing/edition-options",
+          "checked": "2026-07-25",
+          "supports": [
+            "Cloud editions",
+            "Quote pricing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "One Church Software",
+      "slug": "one-church-software",
+      "shortDescription": "A church management platform with people, events, giving, service planning and optional finance tools, priced by total profiles.",
+      "officialWebsite": "https://onechurchsoftware.com/",
+      "company": "One Church Software",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "One Church Software publishes Core and Core+ starting prices that vary by the total number of profiles, including archived and inactive profiles, with optional paid add-ons.",
+        "startingPrice": {
+          "amount": 58,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Core starting price; profile count determines the displayed tier"
+        },
+        "tiers": [
+          {
+            "label": "Core",
+            "price": "from $58/month",
+            "detail": "Core modules and free onboarding; price varies by total profiles"
+          },
+          {
+            "label": "Core+",
+            "price": "from $82/month",
+            "detail": "Adds automation, rooms and resources, multi-campus tools, API and training; price varies by profiles"
+          },
+          {
+            "label": "Financial Suite",
+            "price": "$36/month",
+            "detail": "Supplier-published donation-management and accounting add-on price"
+          }
+        ],
+        "trialDetails": "30 days, no credit card required; the supplier says the trial starts on Core+ and can be changed or cancelled."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "One Church Software pricing",
+          "url": "https://onechurchsoftware.com/pricing2/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Core and Core+ prices",
+            "Profile-count billing",
+            "Modules",
+            "Add-ons"
+          ]
+        },
+        {
+          "label": "One Church Software trial",
+          "url": "https://onechurchsoftware.com/try/",
+          "checked": "2026-07-25",
+          "supports": [
+            "30-day trial",
+            "No-card trial",
+            "Core+ evaluation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenLP",
+      "slug": "openlp",
+      "shortDescription": "Free, open-source worship-presentation software for displaying songs, Bible verses, media and service content on major desktop platforms.",
+      "officialWebsite": "https://openlp.org/",
+      "company": "OpenLP Developers",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "free",
+        "summary": "OpenLP is free, open-source software under the GNU GPL. There is no subscription or paid trial; churches remain responsible for their own hardware, content and support arrangements.",
+        "startingPrice": {
+          "amount": 0,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "Free to download and use"
+        },
+        "tiers": [
+          {
+            "label": "OpenLP",
+            "price": "Free",
+            "detail": "Open-source GNU GPL software; installs can be used without subscription fees"
+          }
+        ],
+        "trialDetails": "No time-limited trial is needed because the software is free to download and use."
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "OpenLP product overview",
+          "url": "https://openlp.org/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free and open-source licence",
+            "Platforms",
+            "Presentation features",
+            "Remote control"
+          ]
+        },
+        {
+          "label": "OpenLP reference manual",
+          "url": "https://manual.openlp.org/introduction.html",
+          "checked": "2026-07-25",
+          "supports": [
+            "GPL licence",
+            "Presentation use",
+            "No-cost installation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Parish Giving Scheme",
+      "slug": "parish-giving-scheme",
+      "shortDescription": "A UK giving service for participating Church of England parishes, supporting regular Direct Debit gifts, Gift Aid and online one-off payments.",
+      "officialWebsite": "https://www.parishgiving.org.uk/",
+      "company": "Parish Giving Scheme",
+      "countryOfOrigin": "United Kingdom",
+      "ukFocus": "strong",
+      "ukOrganisation": "yes",
+      "categories": [
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "usage-based",
+        "summary": "The Parish Giving Scheme describes regular Direct Debit gifts as having no processing fees for givers, while parish pages state that the parish pays a 1.5% transaction fee for one-off card and wallet gifts. Access is linked to participation arrangements rather than a self-serve software subscription.",
+        "tiers": [
+          {
+            "label": "Regular Direct Debit gifts",
+            "price": "No processing fee stated",
+            "detail": "Supplier’s parish pages say givers can set up monthly, quarterly or annual Direct Debits"
+          },
+          {
+            "label": "One-off card or wallet gifts",
+            "price": "1.5% transaction fee",
+            "detail": "Supplier’s parish pages say this fee is paid by the parish"
+          }
+        ]
+      },
+      "freePlan": "unknown",
+      "freeTrial": "no",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Parish Giving Scheme parish payment page",
+          "url": "https://www.parishgiving.org.uk/donors/find-your-parish/pudleston-cum-whyle-st-peter-leominster/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Payment methods",
+            "Regular Direct Debit",
+            "One-off fee",
+            "Gift Aid option",
+            "UK-registered organisation"
+          ]
+        },
+        {
+          "label": "Bath and Wells Diocese on Parish Giving Scheme",
+          "url": "https://www.bathandwells.org.uk/parish-support/Giving-and-Funding/ways-to-give/regular-giving/parish-giving-scheme/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Diocesan participation",
+            "Regular giving",
+            "Gift Aid"
+          ]
         }
       ]
     },
@@ -261,6 +2739,7 @@
       "company": "Planning Center",
       "countryOfOrigin": null,
       "ukFocus": "general",
+      "ukOrganisation": "unknown",
       "categories": [
         "church-management",
         "online-giving",
@@ -280,7 +2759,20 @@
           "currency": "USD",
           "period": "month",
           "qualifier": "Free product tiers; paid costs vary by product and usage"
-        }
+        },
+        "tiers": [
+          {
+            "label": "People",
+            "price": "Free",
+            "detail": "Unlimited people records, lists, workflows, notes and forms according to the supplier"
+          },
+          {
+            "label": "Other Planning Center products",
+            "price": "Free capacity-limited tiers",
+            "detail": "Paid prices vary by product and usage; no single suite price is published in this profile"
+          }
+        ],
+        "trialDetails": "Free product tiers are documented. The current source record does not confirm a single trial duration across the product suite."
       },
       "freePlan": "yes",
       "freeTrial": "yes",
@@ -306,6 +2798,989 @@
             "Free trial",
             "Free tiers",
             "Product selection context"
+          ]
+        },
+        {
+          "label": "Planning Center data-export guidance",
+          "url": "https://help.planningcenter.com/en/138570-export-data.html",
+          "checked": "2026-07-25",
+          "supports": [
+            "People data export"
+          ]
+        },
+        {
+          "label": "Planning Center information-security guidance",
+          "url": "https://help.planningcenter.com/en/138364-information-security.html",
+          "checked": "2026-07-25",
+          "supports": [
+            "Supplier security and privacy information"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Praisenter",
+      "slug": "praisenter",
+      "shortDescription": "A free, open-source church presentation package for Bible verses, song lyrics, media, slides, workspaces and multiple displays.",
+      "officialWebsite": "https://praisenter.org/",
+      "company": "Praisenter open-source project",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "free",
+        "summary": "Praisenter states that it is 100% free for any use, with no registration, trial period or limited feature set.",
+        "tiers": [
+          {
+            "label": "Praisenter",
+            "price": "Free",
+            "detail": "Supplier states no registration, trial or limited feature set"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Praisenter homepage",
+          "url": "https://praisenter.org/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free pricing",
+            "Features",
+            "Open-source model"
+          ]
+        },
+        {
+          "label": "Praisenter installation help",
+          "url": "https://praisenter.org/install.html",
+          "checked": "2026-07-25",
+          "supports": [
+            "Installation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProPresenter",
+      "slug": "propresenter",
+      "shortDescription": "Subscription worship-presentation software for live services, with multi-screen production tools, stage displays and media workflows.",
+      "officialWebsite": "https://renewedvision.com/propresenter/",
+      "company": "Renewed Vision",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "presentation-software",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Renewed Vision publishes subscription pricing in US dollars for individual seats and worship-campus licences, with monthly and annual billing options.",
+        "startingPrice": {
+          "amount": 29,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Standard single seat"
+        },
+        "tiers": [
+          {
+            "label": "Standard",
+            "price": "$29/month or $289/year",
+            "detail": "Per seat"
+          },
+          {
+            "label": "Campus",
+            "price": "$59/month or $649/year",
+            "detail": "20 seats; worship customers only"
+          }
+        ],
+        "trialDetails": "14 days, full ProPresenter trial according to the supplier."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ProPresenter plans and trial",
+          "url": "https://renewedvision.com/propresenter/all-features",
+          "checked": "2026-07-25",
+          "supports": [
+            "Subscription tiers",
+            "Published prices",
+            "14-day trial",
+            "Support statement"
+          ]
+        },
+        {
+          "label": "Renewed Vision pricing guidance",
+          "url": "https://support.renewedvision.com/hc/en-us/articles/35579747176083-Renewed-Vision-Pricing-and-Renewal-Process",
+          "checked": "2026-07-25",
+          "supports": [
+            "Subscription scope",
+            "Annual and monthly pricing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pushpay",
+      "slug": "pushpay",
+      "shortDescription": "A digital giving, church management, apps and analytics platform for churches and parishes in selected countries.",
+      "officialWebsite": "https://pushpay.com/",
+      "company": "Pushpay",
+      "countryOfOrigin": null,
+      "ukFocus": "unknown",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "quote-based",
+        "summary": "Pushpay asks churches to request pricing through a no-obligation demo. It states that customers must be located in the USA, Canada, New Zealand or Australia, so this is not currently a UK purchasing option.",
+        "tiers": [
+          {
+            "label": "Giving",
+            "price": "Request a quote",
+            "detail": "Supplier provides plans through a demo and pricing conversation"
+          },
+          {
+            "label": "ChurchStaq",
+            "price": "Request a quote",
+            "detail": "Supplier describes Core, Advanced and Complete package options"
+          }
+        ]
+      },
+      "freePlan": "no",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Pushpay pricing",
+          "url": "https://pushpay.com/product/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Quote pricing",
+            "Demo",
+            "Customer countries",
+            "Support"
+          ]
+        },
+        {
+          "label": "Pushpay ChurchStaq",
+          "url": "https://pushpay.com/product/churchstaq/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Platform features",
+            "Packages"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Realm",
+      "slug": "realm",
+      "shortDescription": "A church management platform from ACS Technologies for people records, giving, communications, reporting, groups, events and multi-campus operations.",
+      "officialWebsite": "https://www.acstechnologies.com/realm/",
+      "company": "ACS Technologies",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "quote-based",
+        "summary": "Realm’s public product pages invite churches to start a free trial and purchase plans, but this profile has not confirmed a complete current plan-price schedule. Obtain a written quote that covers modules, implementation, payments and support.",
+        "tiers": [
+          {
+            "label": "Inform",
+            "price": "See supplier",
+            "detail": "Staff data, giving and reporting plan"
+          },
+          {
+            "label": "Connect",
+            "price": "See supplier",
+            "detail": "Adds member connection features to Inform"
+          },
+          {
+            "label": "Multiply",
+            "price": "See supplier",
+            "detail": "Adds multi-campus administration and outreach features"
+          }
+        ]
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Realm Inform",
+          "url": "https://www.acstechnologies.com/realm/plans/inform/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Trial",
+            "Features",
+            "Plan structure"
+          ]
+        },
+        {
+          "label": "Realm solutions",
+          "url": "https://www.acstechnologies.com/realm/solutions/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Features"
+          ]
+        },
+        {
+          "label": "Realm help centre",
+          "url": "https://help.acst.com/en/realm",
+          "checked": "2026-07-25",
+          "supports": [
+            "Support resources"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resi",
+      "slug": "resi",
+      "shortDescription": "A US livestreaming and video platform for churches and organisations, designed around resilient delivery, social distribution and multi-site broadcasting.",
+      "officialWebsite": "https://resi.io/church-live-streaming/",
+      "company": "Resi",
+      "countryOfOrigin": "United States",
+      "ukFocus": "general",
+      "ukOrganisation": "no",
+      "categories": [
+        "livestreaming"
+      ],
+      "suitableChurchSizes": [
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Resi publishes US-dollar livestreaming plans. Its Social Only plan is shown at US$119 per month on an annual billing basis, and it also offers higher-level live and multi-site options; current UK pricing and eligibility need confirmation.",
+        "startingPrice": {
+          "amount": 119,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Social Only, annual billing shown"
+        },
+        "tiers": [
+          {
+            "label": "Social Only",
+            "price": "US$119/month",
+            "detail": "Published annual-billing price for Facebook and/or YouTube streaming"
+          },
+          {
+            "label": "Enterprise",
+            "price": "US$689/month",
+            "detail": "Published annual-billing price for a higher-level livestreaming option"
+          }
+        ]
+      },
+      "freePlan": "no",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Resi pricing",
+          "url": "https://resi.io/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Features",
+            "Support"
+          ]
+        },
+        {
+          "label": "Resi church livestreaming",
+          "url": "https://resi.io/church-live-streaming/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Church use case",
+            "Demo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rock RMS",
+      "slug": "rock-rms",
+      "shortDescription": "An open-source church-management system supported by Spark Development Network, with self-hosted and partner cloud-hosting routes.",
+      "officialWebsite": "https://www.rockrms.com/",
+      "company": "Spark Development Network",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "usage-based",
+        "summary": "Rock RMS itself is open source and describes a suggested annual Spark donation based on average weekend attendance. Self-hosting and partner cloud hosting have separate costs.",
+        "startingPrice": {
+          "amount": 4.45,
+          "currency": "USD",
+          "period": "year",
+          "qualifier": "Suggested Spark donation per average weekend attendee; hosting is separate"
+        },
+        "tiers": [
+          {
+            "label": "Spark donation",
+            "price": "$4.45 per attendee/year",
+            "detail": "Suggested commitment stated by the supplier; not presented as an invoice"
+          },
+          {
+            "label": "Self-hosting",
+            "price": "Infrastructure cost varies",
+            "detail": "Requires a church or partner to operate the hosting environment"
+          },
+          {
+            "label": "Partner cloud hosting",
+            "price": "See provider",
+            "detail": "Partner hosting prices and setup arrangements vary"
+          }
+        ],
+        "trialDetails": "No standard trial is confirmed in this profile; evaluation arrangements depend on the hosting approach."
+      },
+      "freePlan": "yes",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Rock RMS pricing",
+          "url": "https://www.rockrms.com/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Open-source model",
+            "Suggested donation",
+            "Hosting paths"
+          ]
+        },
+        {
+          "label": "Rock Cloud pricing",
+          "url": "https://www.rockcloud.com/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Partner cloud-hosting cost context",
+            "Setup and support context"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SermonAudio",
+      "slug": "sermonaudio",
+      "shortDescription": "A global sermon publishing and media platform for churches and ministries, with audio, video, livestreaming, mobile and cross-publishing tools.",
+      "officialWebsite": "https://www.sermonaudio.com/",
+      "company": "SermonAudio",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "sermon-hosting"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "unknown",
+        "summary": "SermonAudio’s current broadcaster pricing is not published clearly enough in the sources reviewed for this profile. A historic supplier brochure quoted a $29.95 monthly base fee and a 2025 supplier post refers to a monthly bill; confirm current pricing directly.",
+        "trialDetails": "A 2025 SermonAudio post says churches joining through a referral link can try the service free for the first month. General trial availability is not confirmed here."
+      },
+      "freePlan": "unknown",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "SermonAudio release notes, March 2025",
+          "url": "https://www.sermonaudio.com/article/misc/release-notes-march-2025/print",
+          "checked": "2026-07-25",
+          "supports": [
+            "Cross-publishing",
+            "Sermon management",
+            "Apps"
+          ]
+        },
+        {
+          "label": "SermonAudio referral information",
+          "url": "https://www.sermonaudio.com/article/misc/coins",
+          "checked": "2026-07-25",
+          "supports": [
+            "Referral trial",
+            "Monthly-bill reference"
+          ]
+        },
+        {
+          "label": "SermonAudio historic brochure",
+          "url": "https://www.sermonaudio.com/images/sermonaudio-brochure3.pdf",
+          "checked": "2026-07-25",
+          "supports": [
+            "Historic price only"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stewardship",
+      "slug": "stewardship",
+      "shortDescription": "A UK Christian giving and charity-support service offering Partner Accounts, online donation profiles, regular giving and Gift Aid administration.",
+      "officialWebsite": "https://www.stewardship.org.uk/",
+      "company": "Stewardship",
+      "countryOfOrigin": "United Kingdom",
+      "ukFocus": "strong",
+      "ukOrganisation": "yes",
+      "categories": [
+        "online-giving",
+        "church-accounting"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "usage-based",
+        "summary": "Stewardship says its Partner Account for churches and charities has no direct charge, with fees deducted from gifts and applicable Gift Aid. The published help article gives examples of 3.5% on most Gift Aided gifts and 3% on gifts without Gift Aid.",
+        "tiers": [
+          {
+            "label": "Partner Account for Churches and Charities",
+            "price": "No direct account charge",
+            "detail": "Supplier says a fee is deducted from gifts and applicable Gift Aid"
+          },
+          {
+            "label": "Gift Aided gifts",
+            "price": "3.5%",
+            "detail": "Published help-centre example for most gifts"
+          },
+          {
+            "label": "Gifts without Gift Aid",
+            "price": "3%",
+            "detail": "Published help-centre example"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Stewardship Partner Account for Churches and Charities",
+          "url": "https://www.stewardship.org.uk/partner-account-churches-and-charities",
+          "checked": "2026-07-25",
+          "supports": [
+            "Partner Account",
+            "Features",
+            "No direct account charge",
+            "Application process",
+            "UK-registered organisation"
+          ]
+        },
+        {
+          "label": "Stewardship Partner Account fee help",
+          "url": "https://www.stewardship.org.uk/help-and-support-centre/partner-account-individuals/there-cost-have-stewardship-partner-account",
+          "checked": "2026-07-25",
+          "supports": [
+            "Fee examples",
+            "Gift Aid"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StreamingChurch.tv",
+      "slug": "streamingchurch",
+      "shortDescription": "A US church livestreaming platform with website and social streaming, video hosting and published plans for different broadcast needs.",
+      "officialWebsite": "https://streamingchurch.tv/sctv/",
+      "company": "StreamingChurch.tv",
+      "countryOfOrigin": "United States",
+      "ukFocus": "general",
+      "ukOrganisation": "no",
+      "categories": [
+        "livestreaming"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "StreamingChurch.tv publishes US-dollar Social Embed, Basic, Premium and Platinum plans, from US$19 to US$179 per month. Its plans describe unlimited audience and bandwidth; UK availability and terms need confirmation.",
+        "startingPrice": {
+          "amount": 19,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Social Embed plan"
+        },
+        "tiers": [
+          {
+            "label": "Social Embed",
+            "price": "US$19/month",
+            "detail": "Published entry plan"
+          },
+          {
+            "label": "Basic",
+            "price": "US$79/month",
+            "detail": "Published live streaming plan"
+          },
+          {
+            "label": "Premium",
+            "price": "US$127/month",
+            "detail": "Published mid-tier plan"
+          },
+          {
+            "label": "Platinum",
+            "price": "US$179/month",
+            "detail": "Published highest listed plan"
+          }
+        ],
+        "trialDetails": "The supplier advertises 30 days free with no card or activation charge."
+      },
+      "freePlan": "no",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "StreamingChurch.tv plans",
+          "url": "https://streamingchurch.tv/sctv/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Trial",
+            "Features",
+            "Support"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subsplash",
+      "slug": "subsplash",
+      "shortDescription": "A US church engagement suite combining apps, websites, media hosting, live streaming, giving, people tools, events and communications.",
+      "officialWebsite": "https://www.subsplash.com/",
+      "company": "Subsplash",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "church-websites",
+        "church-communications",
+        "sermon-hosting"
+      ],
+      "suitableChurchSizes": [
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "quote-based",
+        "summary": "Subsplash publishes $0 per month for its Giving product, plus transaction rates, while Subsplash One and Enterprise pricing are quoted according to organisation size, features and usage.",
+        "tiers": [
+          {
+            "label": "Subsplash Giving",
+            "price": "$0/month",
+            "detail": "Supplier publishes separate card and ACH processing rates"
+          },
+          {
+            "label": "Subsplash One",
+            "price": "Request a quote",
+            "detail": "Pricing varies by church size and usage"
+          },
+          {
+            "label": "Enterprise",
+            "price": "Request a quote",
+            "detail": "Tailored package"
+          }
+        ],
+        "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; duration and eligibility are not confirmed in this profile."
+      },
+      "freePlan": "yes",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Subsplash pricing",
+          "url": "https://www.subsplash.com/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing model",
+            "Giving price",
+            "Features",
+            "Support",
+            "Demo"
+          ]
+        },
+        {
+          "label": "Subsplash terms and conditions",
+          "url": "https://www.subsplash.com/legal/terms-and-conditions",
+          "checked": "2026-07-25",
+          "supports": [
+            "Trial terms reference"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ticket Tailor",
+      "slug": "ticket-tailor",
+      "shortDescription": "A UK-founded event ticketing platform for paid and free events, with website embedding, attendee management and published per-ticket fees.",
+      "officialWebsite": "https://www.tickettailor.com/pricing?currency=gbp",
+      "company": "Ticket Tailor",
+      "countryOfOrigin": "United Kingdom",
+      "ukFocus": "strong",
+      "ukOrganisation": "yes",
+      "categories": [
+        "events-ticketing"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "usage-based",
+        "summary": "Ticket Tailor publishes UK pricing from £0.22 plus VAT per paid ticket when credits are bought in advance, or £0.60 plus VAT pay-as-you-go. Payment-provider fees are separate; it also publishes a 50% discount on its fees for eligible charities.",
+        "startingPrice": {
+          "amount": 0.22,
+          "currency": "GBP",
+          "period": "transaction",
+          "qualifier": "prepaid paid-ticket fee, plus VAT"
+        },
+        "tiers": [
+          {
+            "label": "Prepaid credits",
+            "price": "From £0.22 per paid ticket + VAT",
+            "detail": "Ticket Tailor fee; payment-provider charges are separate"
+          },
+          {
+            "label": "Pay as you go",
+            "price": "£0.60 per paid ticket + VAT",
+            "detail": "Ticket Tailor fee; payment-provider charges are separate"
+          },
+          {
+            "label": "Eligible charity discount",
+            "price": "50% off Ticket Tailor fees",
+            "detail": "Supplier says payment-processor fees are not included in the discount"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "no",
+      "giftAid": "unknown",
+      "verificationStatus": "verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Ticket Tailor pricing",
+          "url": "https://www.tickettailor.com/pricing?currency=gbp",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Payment providers",
+            "Features"
+          ]
+        },
+        {
+          "label": "Ticket Tailor charity discount",
+          "url": "https://help.tickettailor.com/en/articles/8687492-what-discounts-do-we-offer",
+          "checked": "2026-07-25",
+          "supports": [
+            "Charity discount"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tithely",
+      "slug": "tithely",
+      "shortDescription": "A US-based church software suite for online giving, people management, communications, websites, apps, events and worship-team work.",
+      "officialWebsite": "https://get.tithe.ly/",
+      "company": "Tithely",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "church-websites",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Tithely publishes US-dollar subscription prices, alongside a free giving option and a separate published UK card rate. Check the applicable UK contract and payment terms before purchase.",
+        "startingPrice": {
+          "amount": 72,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Church Management plan"
+        },
+        "tiers": [
+          {
+            "label": "Free Giving",
+            "price": "$0/month",
+            "detail": "No monthly fee; supplier publishes separate transaction rates"
+          },
+          {
+            "label": "Church Management",
+            "price": "$72/month",
+            "detail": "Published standalone plan price"
+          },
+          {
+            "label": "All Access",
+            "price": "$119/month",
+            "detail": "Published bundle price for the supplier’s listed tools"
+          },
+          {
+            "label": "Website",
+            "price": "$19/month",
+            "detail": "Published standalone website price"
+          },
+          {
+            "label": "Custom Church App",
+            "price": "$89/month",
+            "detail": "Published standalone app price"
+          }
+        ],
+        "trialDetails": "The supplier advertises a 30-day free trial for paid plans."
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Tithely pricing",
+          "url": "https://get.tithe.ly/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Free plan",
+            "Trial",
+            "UK card rate",
+            "Features"
+          ]
+        },
+        {
+          "label": "Tithely Church Management",
+          "url": "https://get.tithe.ly/product/church-management-software",
+          "checked": "2026-07-25",
+          "supports": [
+            "Church management features",
+            "Demo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vanco",
+      "slug": "vanco",
+      "shortDescription": "A US church giving and engagement platform with online, mobile and text giving, event tools, a card reader and integrations.",
+      "officialWebsite": "https://www.vancopayments.com/egiving",
+      "company": "Vanco Payments",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "online-giving",
+        "church-communications"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; UK availability is not confirmed.",
+        "tiers": [
+          {
+            "label": "Grow",
+            "price": "$0/month",
+            "detail": "Published card rate 2.90% + $0.45 and ACH rate 1% + $0.45"
+          },
+          {
+            "label": "Thrive",
+            "price": "$54/month",
+            "detail": "Published card rate 2.65% + $0.39 and ACH rate 0.90% + $0.39"
+          }
+        ]
+      },
+      "freePlan": "yes",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Vanco online giving",
+          "url": "https://www.vancopayments.com/egiving",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Features",
+            "Integrations",
+            "US support",
+            "Demo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WorshipTools",
+      "slug": "worshiptools",
+      "shortDescription": "A set of free church and worship-team applications for presentation, service planning, charts, rehearsal and people communications.",
+      "officialWebsite": "https://www.worshiptools.com/",
+      "company": "WorshipTools",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "ukOrganisation": "unknown",
+      "categories": [
+        "church-management",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "WorshipTools publishes free access across its apps and optional Pro and Pro Plus plans for selected capacity, presentation and permissions features; current paid prices should be checked in the supplier’s signup flow.",
+        "startingPrice": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Free plan across the published WorshipTools app set"
+        },
+        "tiers": [
+          {
+            "label": "Free",
+            "price": "$0",
+            "detail": "Published free access with selected storage, user and feature limits depending on the app"
+          },
+          {
+            "label": "Pro",
+            "price": "See supplier",
+            "detail": "Adds capacity and presentation features for eligible apps; current price not confirmed in this profile"
+          },
+          {
+            "label": "Pro Plus",
+            "price": "See supplier",
+            "detail": "Adds higher capacity, advanced permissions and selected presentation resources for eligible apps"
+          }
+        ],
+        "trialDetails": "The supplier publishes a free plan rather than a time-limited evaluation for the core app set; a separate trial duration is not confirmed here."
+      },
+      "freePlan": "yes",
+      "freeTrial": "unknown",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "WorshipTools product overview",
+          "url": "https://www.worshiptools.com/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free apps",
+            "Planning",
+            "Presentation",
+            "Charts",
+            "Rehearsal",
+            "People database"
+          ]
+        },
+        {
+          "label": "WorshipTools Community",
+          "url": "https://www.worshiptools.com/en-us/community",
+          "checked": "2026-07-25",
+          "supports": [
+            "People records",
+            "Households",
+            "Email communications"
+          ]
+        },
+        {
+          "label": "WorshipTools pricing",
+          "url": "https://www.worshiptools.com/en-za/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free, Pro and Pro Plus plan structure",
+            "Published feature limits"
           ]
         }
       ]

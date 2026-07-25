@@ -1,0 +1,56 @@
+{
+  "name": "Stewardship",
+  "slug": "stewardship",
+  "shortDescription": "A UK Christian giving and charity-support service offering Partner Accounts, online donation profiles, regular giving and Gift Aid administration.",
+  "officialWebsite": "https://www.stewardship.org.uk/",
+  "company": "Stewardship",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["online-giving", "church-accounting"],
+  "suitableChurchSizes": ["small", "medium", "large"],
+  "suitableContexts": ["UK churches and charities needing a giving profile and Gift Aid administration", "Christian organisations that value a specialist UK charity service"],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Stewardship says its Partner Account for churches and charities has no direct charge, with fees deducted from gifts and applicable Gift Aid. The published help article gives examples of 3.5% on most Gift Aided gifts and 3% on gifts without Gift Aid.",
+    "tiers": [
+      {"label": "Partner Account for Churches and Charities", "price": "No direct account charge", "detail": "Supplier says a fee is deducted from gifts and applicable Gift Aid"},
+      {"label": "Gift Aided gifts", "price": "3.5%", "detail": "Published help-centre example for most gifts"},
+      {"label": "Gifts without Gift Aid", "price": "3%", "detail": "Published help-centre example"}
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "coreFeatures": ["Church and charity Partner Accounts", "Online partner profile", "One-off and regular giving", "Gift Aid administration", "Donor and reporting support"],
+  "integrations": [],
+  "importExport": [],
+  "support": ["Customer service team", "Church and charity application process"],
+  "editorial": {
+    "assessment": "Stewardship is a UK-specific giving service rather than a general church management system. It is especially relevant where a church values its Gift Aid model and Christian-charity focus, but the treasurer should understand deductions, eligibility and reconciliation before adopting it.",
+    "bestFor": ["UK churches and charities seeking a specialist giving and Gift Aid route", "Teams that want a Partner Account and public giving profile"],
+    "strengths": ["UK-specific Partner Account and Gift Aid service", "No direct Partner Account charge stated by the supplier"],
+    "limitations": ["Fees are deducted from gifts rather than charged as a simple subscription", "Not a substitute for church management or accounting controls"]
+  },
+  "longForm": {
+    "verdict": "Stewardship is best evaluated as a giving and support service, not as a broad software platform. Its value lies in how its Partner Account, Gift Aid administration and donor-facing profile fit the church’s existing finance processes.",
+    "decisionLens": {"heading": "Calculate the net income and the finance workload together.", "text": "A no-direct-charge account can still carry deductions from incoming gifts and Gift Aid. Model the church’s typical donation mix, compare the net outcome with alternatives and ask how statements, Gift Aid records and reconciliation will reach the treasurer."},
+    "sections": [{"heading": "A specialist UK giving route", "question": "Does the Partner Account fit the church’s finance and supporter model?", "paragraphs": ["Stewardship describes a Partner Account for churches and charities that provides a public giving route, regular and one-off support, reporting and Gift Aid-related administration. It states that the account is free to the recipient, with deductions taken from gifts and applicable Gift Aid.", "Before implementation, review the eligibility process, fee examples and reports with the treasurer. Decide whether the giving profile supplements or replaces other donation methods, and keep independent charity-accounting controls in place."]}],
+    "userFeedback": {"summary": "This profile does not use an independent review score. It is based on Stewardship’s published Partner Account and fee information.", "themes": ["The relevant cost is the net amount received after deductions.", "Gift Aid and reconciliation need treasurer-led review before launch."], "caveat": "Supplier claims about service scope and Gift Aid administration are not a substitute for advice on the church’s own circumstances."},
+    "faq": [
+      {"question": "Is there a direct cost for a Stewardship Partner Account?", "answer": "Stewardship says there is no direct charge for its Church and Charity Partner Account, but it deducts fees from gifts and applicable Gift Aid."},
+      {"question": "What fees does Stewardship publish?", "answer": "Its help information gives examples of 3.5% on most Gift Aided gifts and 3% on gifts without Gift Aid. Confirm the current schedule and any exceptions before signing up."},
+      {"question": "Does Stewardship support Gift Aid?", "answer": "Yes. Stewardship describes Gift Aid administration and Instant Gift Aid for eligible gifts. The church should confirm eligibility, declarations and reconciliation requirements."}
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Stewardship Partner Account for Churches and Charities", "url": "https://www.stewardship.org.uk/partner-account-churches-and-charities", "checked": "2026-07-25", "supports": ["Partner Account", "Features", "No direct account charge", "Application process", "UK-registered organisation"]},
+    {"label": "Stewardship Partner Account fee help", "url": "https://www.stewardship.org.uk/help-and-support-centre/partner-account-individuals/there-cost-have-stewardship-partner-account", "checked": "2026-07-25", "supports": ["Fee examples", "Gift Aid"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Stewardship review for UK churches", "description": "Independent Stewardship profile for UK churches: Partner Account fees, Gift Aid, giving profile, practical finance checks and FAQs."}
+}

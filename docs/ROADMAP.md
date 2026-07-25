@@ -32,7 +32,7 @@ Create and validate the complete technical pattern using a small representative 
 
 ### Sample content limit
 
-- five software entries
+- a small representative software sample
 - three categories
 - two guides
 
@@ -86,6 +86,11 @@ Add entries in small batches. Review every batch before merging.
 ### Deliverable
 
 A useful initial directory rather than a demonstration catalogue.
+
+### Internal maintenance dashboard (completed)
+
+A local-only dashboard, JSON report and CSV maintenance queue now support
+catalogue review without a public admin system, CMS or deployment surface.
 
 ## Phase 4: Decision content
 

@@ -5,6 +5,7 @@
   "officialWebsite": "https://www.iknowchurch.co.uk/",
   "company": "iKnow Church",
   "ukFocus": "strong",
+  "ukOrganisation": "yes",
   "categories": ["church-management", "online-giving"],
   "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
   "suitableContexts": ["UK churches wanting an all-features member-based subscription"],
@@ -16,7 +17,16 @@
       "currency": "GBP",
       "period": "month",
       "qualifier": "Fewer than 50 adult church members; supplier pricing includes VAT"
-    }
+    },
+    "tiers": [
+      {"label": "Under 50 members", "price": "£22/month or £220/year", "detail": "Unlimited children and 100 free contacts; VAT included"},
+      {"label": "51–100 members", "price": "£33/month or £330/year", "detail": "Unlimited children and 300 free contacts; VAT included"},
+      {"label": "101–200 members", "price": "£44–£55/month", "detail": "Published bands at 101–150 and 151–200 members"},
+      {"label": "201–500 members", "price": "£66–£77/month", "detail": "Published bands at 201–300 and 301–500 members"},
+      {"label": "501–1,000 members", "price": "£93.50–£110/month", "detail": "Published bands at 501–700 and 701–1,000 members"},
+      {"label": "1,001–4,000 members", "price": "£137.50–£220/month", "detail": "Published bands by member count; 4,000+ is custom pricing"}
+    ],
+    "trialDetails": "A free trial is referenced in the supplier’s donation-features material; the current duration is not confirmed in this profile."
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
@@ -47,6 +57,57 @@
       "Data hosting and accessibility information have not yet been verified for this listing"
     ]
   },
+  "longForm": {
+    "verdict": "iKnow Church is one of the clearest UK-specific profiles in the current set: it publishes pound-sterling, VAT-inclusive member pricing and describes HMRC Gift Aid submission. Its real value should be tested in the finance hand-off, not assumed from the presence of a giving feature.",
+    "decisionLens": {
+      "heading": "Gift Aid capability is a workflow test, not a tick-box feature.",
+      "text": "A church needs to see how declarations, donations, claims, fees, corrections and reconciliation move through the actual people and finance processes. The important comparison is the work saved without weakening the church’s own financial controls."
+    },
+    "sections": [
+      {
+        "heading": "Pricing around regular adult members",
+        "question": "Does the pricing model reflect the people the church actually serves?",
+        "paragraphs": [
+          "iKnow Church publishes monthly and annual GBP prices based on adult church members, with VAT included. Its pricing page distinguishes members from children and a published allocation of outreach contacts.",
+          "That can make the base subscription easy to explain, but teams should agree how their database classifies members before comparing costs. Confirm the price at the expected member band and any additional safeguarding-user or finance charges."
+        ]
+      },
+      {
+        "heading": "Giving and Gift Aid in context",
+        "question": "Can the church see the whole journey from donation to claim?",
+        "paragraphs": [
+          "iKnow Church’s donation documentation describes Gift Aid claim submission to HMRC and its charges page records separate Gift Aid claim and payment-processing charges. This is strong UK-specific product evidence, not a replacement for charity finance controls.",
+          "Ask the treasurer or Gift Aid secretary to trial declarations, donation imports, a claim, corrections, reports and accounting hand-off. Confirm which actions cost extra and how the process fits the church’s accounting package."
+        ]
+      },
+      {
+        "heading": "The remaining due-diligence work",
+        "question": "What has not yet been established by this research?",
+        "paragraphs": [
+          "The current source record supports iKnow’s pricing, giving and support claims. It does not yet establish data-hosting location, accessibility information, detailed migration scope or a full data-processing position.",
+          "Those gaps should become named supplier questions, not assumed positives or negatives. A trial should include roles, exports, permissions and the specific records the church needs to move or retain."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score or a collected user-review sample. Its assessment is based on supplier documentation about UK pricing and Gift Aid workflows.",
+      "themes": ["Independent user-feedback coverage has not yet been researched for this profile.", "The useful validation is a treasurer-led trial of the actual Gift Aid and reconciliation workflow."],
+      "caveat": "This research gap is not evidence of poor user experience or limited product quality."
+    },
+    "faq": [
+      {"question": "Does iKnow Church support Gift Aid claims?", "answer": "Its supplier documentation describes submitting Gift Aid claims to HMRC. A church should confirm the current workflow, charges and responsibilities directly before using it in live finance processes."},
+      {"question": "How is iKnow Church priced?", "answer": "The supplier publishes VAT-inclusive GBP pricing linked to adult church members, with children and a stated number of outreach contacts treated separately. Check the current band for the church’s own records."},
+      {"question": "Where is iKnow Church data hosted?", "answer": "Not confirmed in this profile. Ask the supplier for current hosting, data-processing and sub-processor information."}
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/iknow-church/iknow-church-logo.png",
+      "alt": "iKnow Church logo",
+      "source": "https://www.iknowchurch.co.uk/",
+      "checked": "2026-07-25"
+    }
+  },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
@@ -54,7 +115,7 @@
       "label": "iKnow Church pricing",
       "url": "https://www.iknowchurch.co.uk/iknow",
       "checked": "2026-07-25",
-      "supports": ["Pricing model", "Starting price", "Support"]
+      "supports": ["Pricing model", "Published member bands", "Starting price", "Support"]
     },
     {
       "label": "iKnow Church donation features",
@@ -67,6 +128,12 @@
       "url": "https://www.iknowchurch.co.uk/charges/",
       "checked": "2026-07-25",
       "supports": ["Transaction charges", "Gift Aid claim charge"]
+    },
+    {
+      "label": "iKnow Church privacy policy",
+      "url": "https://www.iknowchurch.co.uk/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": ["UK-registered organisation"]
     }
   ],
   "affiliateRelationship": "no",

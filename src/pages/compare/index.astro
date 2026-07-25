@@ -6,7 +6,8 @@ import {
   formatStartingPrice,
   pricingModelLabel,
   triStateLabel,
-  ukFocusLabel
+  ukFocusLabel,
+  ukOrganisationLabel
 } from "../../utils/content";
 
 const software = (await getCollection("software")).sort((a, b) =>
@@ -31,7 +32,7 @@ const software = (await getCollection("software")).sort((a, b) =>
       <noscript>
         <div class="notice">
           <p>
-            All five products appear in the table below. Enable JavaScript to
+            All fifty-one products appear in the table below. Enable JavaScript to
             create a smaller shareable comparison.
           </p>
         </div>
@@ -91,6 +92,16 @@ const software = (await getCollection("software")).sort((a, b) =>
                 software.map((entry) => (
                   <td data-product-column={entry.data.slug}>
                     {ukFocusLabel(entry.data.ukFocus)}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Organisation</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {ukOrganisationLabel(entry.data.ukOrganisation)}
                   </td>
                 ))
               }

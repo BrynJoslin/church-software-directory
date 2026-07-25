@@ -8,6 +8,7 @@ const emptyState = document.querySelector<HTMLElement>("[data-empty-state]");
 const allowedValues: Record<string, Set<string>> = {
   category: new Set(["church-management", "online-giving", "worship-planning"]),
   "uk-focus": new Set(["strong", "general", "unknown"]),
+  "uk-organisation": new Set(["yes", "unknown"]),
   size: new Set(["small", "medium", "large", "multi-site"]),
   "free-plan": new Set(["yes", "no", "unknown"]),
   "free-trial": new Set(["yes", "no", "unknown"]),
@@ -43,6 +44,7 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
   const query = (getControl("q")?.value ?? "").trim().toLowerCase();
   const category = getControl("category")?.value ?? "";
   const ukFocus = getControl("uk-focus")?.value ?? "";
+  const ukOrganisation = getControl("uk-organisation")?.value ?? "";
   const size = getControl("size")?.value ?? "";
   const freePlan = getControl("free-plan")?.value ?? "";
   const freeTrial = getControl("free-trial")?.value ?? "";
@@ -56,6 +58,7 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
       (!query || (card.dataset.search ?? "").includes(query)) &&
       matchesList(card.dataset.categories, category) &&
       (!ukFocus || card.dataset.ukFocus === ukFocus) &&
+      (!ukOrganisation || card.dataset.ukOrganisation === ukOrganisation) &&
       matchesList(card.dataset.sizes, size) &&
       (!freePlan || card.dataset.freePlan === freePlan) &&
       (!freeTrial || card.dataset.freeTrial === freeTrial) &&
@@ -86,6 +89,7 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
     q: query,
     category,
     "uk-focus": ukFocus,
+    "uk-organisation": ukOrganisation,
     size,
     "free-plan": freePlan,
     "free-trial": freeTrial,

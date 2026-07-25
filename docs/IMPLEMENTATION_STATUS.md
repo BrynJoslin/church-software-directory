@@ -2,14 +2,31 @@
 
 ## Current phase
 
-Phase 2: usability and technical hardening complete.
+Phase 3: initial catalogue research in progress.
+
+## In progress
+
+- A local-only internal maintenance dashboard now creates an accessible HTML
+  report, machine-readable report and maintenance CSV from the repository's
+  source content. It is excluded from Git and production output; optional live
+  link checking remains separate from normal validation.
+
+- A long-form software profile template is being validated with ChurchSuite. It
+  keeps factual fields separate from editorial assessment while adding a clear
+  decision lens, practical section prompts, limited external-feedback context
+  and visible FAQs. The FAQ schema is emitted only when those questions and
+  answers are visible on the listing.
+- The initial catalogue now includes a Bible study and research category with a
+  sourced Logos Bible Study profile. It is deliberately separate from church
+  management software because it supports research, preaching and teaching
+  rather than people administration.
 
 ## Completed
 
 - Astro static project, TypeScript configuration and Cloudflare-compatible output
 - Central site, form, analytics, commercial and stale-threshold configuration
 - Validated software, category and guide content collections
-- Five sourced software entries, three categories and two guides
+- Six sourced software entries, four categories and two guides
 - Shared layout, accessible design system and reusable cards
 - All Phase 1 routes, trust pages, disabled static forms and useful 404 page
 - Progressive directory search, filters, sorting, result count and URL state
@@ -29,6 +46,9 @@ Phase 2: usability and technical hardening complete.
   directory controls, comparison tables and brand assets
 - A canonical design system document, locally hosted Plus Jakarta Sans and a
   single set of shared Doorway tokens for future visual work
+- A separate directory filter for products run by a UK-registered organisation,
+  with UK registration recorded as a source-backed fact rather than inferred
+  from the broader UK-focus assessment
 
 ## Architectural decisions
 
@@ -49,8 +69,11 @@ Phase 2: usability and technical hardening complete.
 - Unknown facts use three-state values and render as `Not confirmed`.
 - Directory and comparison content is generated as static HTML; small browser
   modules progressively enhance it.
-- Form endpoints, analytics, affiliate links and sponsored listings are disabled
-  centrally by default.
+- Form endpoints and analytics are disabled centrally by default. Affiliate
+  links and sponsored listings are enabled only for confirmed, listing-level
+  relationships that are visibly disclosed; the Logos Bible Study listing is
+  the first disclosed affiliate use, and no sponsored listing is currently
+  published.
 - The stale-listing review threshold is 180 days.
 - Directory and comparison changes made with select controls create history
   entries; text search updates the current entry to avoid one history entry per
@@ -61,7 +84,7 @@ Phase 2: usability and technical hardening complete.
 
 ## Known limitations and unverified fields
 
-- The five entries are representative samples, not a market-wide shortlist.
+- The fifty-one entries are representative samples, not a market-wide shortlist.
 - All entries remain `Partially verified`; none represents hands-on testing.
 - Gift Aid is not confirmed for Planning Center, Breeze ChMS or ChurchTools.
 - Data hosting is not confirmed for ChurchSuite, iKnow Church, Planning Center or

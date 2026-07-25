@@ -127,6 +127,7 @@ The initial model should support at least:
 18. Small-group management
 19. Church apps
 20. Data protection and administration
+21. Bible study and research
 
 A product may belong to multiple categories.
 

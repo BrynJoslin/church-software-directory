@@ -5,7 +5,8 @@ import {
   formatCompactDate,
   pricingModelLabel,
   triStateLabel,
-  ukFocusLabel
+  ukFocusLabel,
+  ukOrganisationLabel
 } from "../utils/content";
 
 interface Props {
@@ -33,6 +34,7 @@ const searchText = [
   data-search={searchText}
   data-categories={software.categories.map((category) => category.id).join(",")}
   data-uk-focus={software.ukFocus}
+  data-uk-organisation={software.ukOrganisation}
   data-sizes={software.suitableChurchSizes.join(",")}
   data-free-plan={software.freePlan}
   data-free-trial={software.freeTrial}
@@ -41,9 +43,19 @@ const searchText = [
   data-last-checked={software.lastChecked.toISOString().slice(0, 10)}
 >
   <div class="card-heading">
-    <div class="logo-fallback" aria-hidden="true">
-      {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
-    </div>
+    {
+      software.brandAssets?.logo ? (
+        <img
+          class="software-logo software-logo--card"
+          src={software.brandAssets.logo.src}
+          alt={software.brandAssets.logo.alt}
+        />
+      ) : (
+        <div class="logo-fallback" aria-hidden="true">
+          {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
+        </div>
+      )
+    }
     <div>
       <h2><a href={`/software/${software.slug}/`}>{software.name}</a></h2>
       <VerificationBadge status={software.verificationStatus} />
@@ -61,6 +73,10 @@ const searchText = [
     <div>
       <dt>UK focus</dt>
       <dd>{ukFocusLabel(software.ukFocus)}</dd>
+    </div>
+    <div>
+      <dt>Organisation</dt>
+      <dd>{ukOrganisationLabel(software.ukOrganisation)}</dd>
     </div>
     <div>
       <dt>Pricing</dt>

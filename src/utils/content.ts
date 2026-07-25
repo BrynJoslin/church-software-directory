@@ -12,6 +12,12 @@ export const ukFocusLabel = (
   return "Not confirmed";
 };
 
+export const ukOrganisationLabel = (value: "yes" | "no" | "unknown") => {
+  if (value === "yes") return "UK registered";
+  if (value === "no") return "Not UK registered";
+  return "Not confirmed";
+};
+
 export const pricingModelLabel = (value: string) =>
   ({
     free: "Free",

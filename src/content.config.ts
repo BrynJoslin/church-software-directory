@@ -24,6 +24,11 @@ const sourceSchema = z.object({
   checked: z.coerce.date(),
   supports: z.array(z.string().min(1)).min(1)
 });
+const longFormSection = z.object({
+  heading: z.string().min(1),
+  question: z.string().min(1),
+  paragraphs: z.array(z.string().min(1)).min(1)
+});
 
 const software = defineCollection({
   loader: glob({ pattern: "**/*.json", base: "./src/content/software" }),
@@ -35,6 +40,7 @@ const software = defineCollection({
     company: z.string().min(1),
     countryOfOrigin: z.string().optional(),
     ukFocus: z.enum(["strong", "general", "unknown"]),
+    ukOrganisation: triState.default("unknown"),
     categories: z.array(reference("categories")).min(1),
     suitableChurchSizes: z.array(churchSize).min(1),
     suitableContexts: z.array(z.string().min(1)).default([]),
@@ -48,7 +54,17 @@ const software = defineCollection({
           period: z.enum(["month", "year", "transaction"]),
           qualifier: z.string().optional()
         })
-        .optional()
+        .optional(),
+      tiers: z
+        .array(
+          z.object({
+            label: z.string().min(1),
+            price: z.string().min(1),
+            detail: z.string().min(1)
+          })
+        )
+        .default([]),
+      trialDetails: z.string().min(1).optional()
     }),
     freePlan: triState,
     freeTrial: triState,
@@ -60,16 +76,50 @@ const software = defineCollection({
     integrations: z.array(z.string().min(1)).default([]),
     importExport: z.array(z.string().min(1)).default([]),
     support: z.array(z.string().min(1)).default([]),
+    brandAssets: z
+      .object({
+        logo: z.object({
+          src: z.string().regex(/^\//),
+          alt: z.string().min(1),
+          source: z.url(),
+          checked: z.coerce.date()
+        })
+      })
+      .optional(),
     editorial: z.object({
       assessment: z.string().min(40),
       bestFor: z.array(z.string().min(1)).min(1),
       strengths: z.array(z.string().min(1)).min(1),
       limitations: z.array(z.string().min(1)).min(1)
     }),
+    longForm: z
+      .object({
+        verdict: z.string().min(80),
+        decisionLens: z.object({
+          heading: z.string().min(1),
+          text: z.string().min(80)
+        }),
+        sections: z.array(longFormSection).min(1),
+        userFeedback: z.object({
+          summary: z.string().min(80),
+          themes: z.array(z.string().min(1)).min(1),
+          caveat: z.string().min(40)
+        }),
+        faq: z
+          .array(
+            z.object({
+              question: z.string().min(1),
+              answer: z.string().min(30)
+            })
+          )
+          .min(1)
+      })
+      .optional(),
     verificationStatus,
     lastChecked: z.coerce.date(),
     sources: z.array(sourceSchema).min(1),
     affiliateRelationship: triState.default("no"),
+    affiliateUrl: z.url().optional(),
     sponsored: z.boolean().default(false),
     seo: z.object({
       title: z.string().max(65),

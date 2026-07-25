@@ -18,8 +18,8 @@
     "provider": ""
   },
   "features": {
-    "affiliateLinks": false,
-    "sponsoredListings": false
+    "affiliateLinks": true,
+    "sponsoredListings": true
   },
   "defaultSeoImage": "/images/og-default.svg",
   "staleListingDays": 180

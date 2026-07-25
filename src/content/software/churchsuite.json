@@ -1,51 +1,166 @@
 {
   "name": "ChurchSuite",
   "slug": "churchsuite",
-  "shortDescription": "A modular church management platform with UK-specific giving, Gift Aid and payment information published by the supplier.",
+  "shortDescription": "A UK-built modular church management platform for shared people records, rotas, events, giving, Gift Aid and member-facing administration.",
   "officialWebsite": "https://churchsuite.com/",
   "company": "ChurchSuite Ltd",
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
+  "ukOrganisation": "yes",
   "categories": ["church-management", "online-giving", "worship-planning"],
   "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches wanting one system for people, rotas, events and giving"],
+  "suitableContexts": ["Churches ready to consolidate people, rota, event and giving administration in one system"],
   "pricing": {
     "model": "tiered",
-    "summary": "Published GBP pricing varies by active contacts and the number of modules selected.",
+    "summary": "Published GBP pricing varies by active contacts and the package or module selection.",
     "startingPrice": {
       "amount": 9,
       "currency": "GBP",
       "period": "month",
       "qualifier": "0–99 contacts, one module, monthly billing; VAT inclusive where applicable"
-    }
+    },
+    "tiers": [
+      {"label": "Solo", "price": "from £9/month", "detail": "0–99 active contacts; Address Book plus one module"},
+      {"label": "Starter", "price": "from £19/month", "detail": "0–99 active contacts; Address Book plus two modules"},
+      {"label": "Suite", "price": "from £32.50/month", "detail": "0–99 active contacts; six or more modules, including the full suite"},
+      {"label": "Bespoke", "price": "Contact supplier", "detail": "1500+ contacts or a custom module combination"}
+    ],
+    "trialDetails": "30 days. UK pricing is monthly by Direct Debit; active contact count and selected modules determine the charge."
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
   "giftAid": "yes",
   "demoAvailable": "unknown",
+  "dataHosting": "Supplier states that production servers are UK-based and hosted on Amazon AWS; verify current hosting and sub-processors directly for a particular church's requirements.",
+  "gdprInformation": "ChurchSuite publishes UK GDPR and Data Protection Act 2018 terms, privacy material and configurable access controls. This is supplier information, not a compliance determination for a church.",
   "coreFeatures": [
-    "Address book",
-    "Volunteer rotas",
-    "Events",
-    "Service planning",
-    "Giving and Gift Aid administration"
+    "Address Book for adult contact records",
+    "Children and check-in workflows",
+    "Groups, events and calendar",
+    "Volunteer rotas and service planning",
+    "Giving, online donations and Gift Aid claim administration",
+    "Member-facing My ChurchSuite and mobile apps"
   ],
-  "integrations": ["Stripe for online card donations"],
-  "importExport": ["Self-service data import guidance"],
-  "support": ["Online support articles", "Email support"],
+  "integrations": [
+    "Stripe for online card donations",
+    "Embed components for websites",
+    "OAuth2-enabled API for custom integrations"
+  ],
+  "importExport": [
+    "CSV import guidance for contact and event data",
+    "CSV and report exports with administrator-configurable export restrictions",
+    "Terms state that user data can be accessed and backed up through the service"
+  ],
+  "support": [
+    "Online support articles",
+    "Email support",
+    "Support access is disabled by default and can be enabled by an administrator"
+  ],
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchsuite/churchsuite-logo.svg",
+      "alt": "ChurchSuite logo",
+      "source": "https://churchsuite.com/branding/",
+      "checked": "2026-07-25"
+    }
+  },
   "editorial": {
-    "assessment": "ChurchSuite is the clearest UK-specific example in this foundation set. Churches should still map the modules they need and verify data-protection, migration and total-cost details directly.",
+    "assessment": "ChurchSuite is a mature UK-built platform with unusually broad published documentation across administration, giving, privacy and implementation. Its value rises when a church genuinely wants shared records and shared workflows; buying modules without changing those habits risks creating another place for information to drift.",
     "bestFor": [
-      "UK churches that need people, rota, event and giving administration together",
-      "Churches that value published GBP pricing"
+      "UK churches ready to consolidate people records, rotas, events and giving in one system",
+      "Churches that need Gift Aid administration alongside broader church management",
+      "Teams that can name an accountable owner for data quality, permissions and adoption"
     ],
     "strengths": [
-      "The supplier publishes UK payment and Gift Aid information",
-      "Modules can be selected around a church's needs"
+      "The supplier publishes GBP pricing, a 30-day trial and a modular package structure",
+      "Giving documentation explicitly covers Gift Aid claims for UK customers",
+      "Published implementation, security, API and support material makes practical due diligence easier"
     ],
     "limitations": [
-      "Total cost changes with contact count and module selection",
-      "Data hosting and accessibility details have not yet been verified for this listing"
+      "Total cost changes with active contact count, billing frequency and package choice",
+      "A broad suite creates a real adoption and governance task; it does not make fragmented practices disappear by itself",
+      "Accessibility, detailed migration scope and suitability for a church's particular safeguarding arrangements still need direct evaluation"
+    ]
+  },
+  "longForm": {
+    "verdict": "ChurchSuite is most compelling when the problem is not one missing feature but scattered operational knowledge: people data in one place, rotas in another, event registrations elsewhere and giving records somewhere else again. Its modularity helps a church start with a smaller scope, but the practical return comes from agreeing who owns the data and asking teams to work from it.",
+    "decisionLens": {
+      "heading": "Do not buy a suite to avoid an adoption decision.",
+      "text": "The useful question is not whether ChurchSuite has enough modules. It is whether the church is willing to make its shared record the normal place for contacts, availability, registrations and communication. The difficult cost is usually the change in habits, permissions and accountability — not the first monthly invoice."
+    },
+    "sections": [
+      {
+        "heading": "What ChurchSuite is designed to bring together",
+        "question": "What becomes simpler when several teams work from the same record?",
+        "paragraphs": [
+          "ChurchSuite is a web-based, modular platform built around its Address Book. The supplier’s current pricing page describes Address Book as included in every package, with additional modules chosen around it. Published product and support material covers children, groups, rotas, service planning, events, calendar, communications, giving and member-facing access.",
+          "That breadth matters most where the same person appears in several workflows: someone joins a group, serves on a rota, registers for an event, updates their details and gives regularly. A shared record can reduce repeated re-keying, but only if the church makes clear which system is authoritative for each process."
+        ]
+      },
+      {
+        "heading": "Pricing and the modular starting point",
+        "question": "Is the published monthly price the cost your church will actually pay?",
+        "paragraphs": [
+          "ChurchSuite publishes monthly and annual options, with packages tied to active adult contacts and module selection. Its current pricing page says archived and pending contacts are excluded from the contact count, while children stored only in the Children module are not counted for billing. It also states that modules can be added or removed without contracts or tie-ins.",
+          "This makes a focused initial rollout possible, but it also means a shortlist should be priced against the church’s real active-contact count and the modules it expects to use after year one. Ask for the annual and monthly figures, VAT treatment, payment processing costs and what changes when contact numbers cross the next tier."
+        ]
+      },
+      {
+        "heading": "UK giving, Gift Aid and finance boundaries",
+        "question": "Does a giving module remove the church’s finance responsibilities?",
+        "paragraphs": [
+          "For UK customers, ChurchSuite’s Giving documentation says the module can produce and submit Gift Aid claims to HMRC. It also documents online donations and a Stripe integration. That is meaningful UK-specific evidence, not a reason to assume every finance workflow is solved.",
+          "Before relying on it, a treasurer or Gift Aid secretary should trial the path from donation to reconciliation, declaration management, HMRC claim and accounting export. Churches remain responsible for valid declarations, charity accounting controls, independent reconciliation and their own financial governance."
+        ]
+      },
+      {
+        "heading": "Data protection, permissions and the exit question",
+        "question": "What needs governing once more sensitive information lives in one place?",
+        "paragraphs": [
+          "ChurchSuite publishes terms referring to UK GDPR and the Data Protection Act 2018, and its security information states that UK-based AWS hosting, encryption at rest and annual penetration testing are part of its approach. It also documents configurable report-export restrictions and says support access is off by default until an administrator enables it.",
+          "Those statements make ChurchSuite easier to investigate, but they do not certify a church’s own compliance. A church still needs a retention policy, lawful-basis decisions, role design, staff and volunteer training, a process for sensitive notes and a verified data-processing agreement and sub-processor position. The terms say data can be accessed and backed up, and that its policy is to delete data 30 days after termination; plan an export and archive process before signing."
+        ]
+      },
+      {
+        "heading": "Migration and implementation reality",
+        "question": "Can you test a real workflow before asking the whole church to change?",
+        "paragraphs": [
+          "ChurchSuite publishes CSV import guidance for contacts and events, including field mapping and data-format preparation. Its public API and embed components also create options for churches that need their website or a custom tool to connect to the platform. Those routes are useful, but neither removes the work of cleaning records, agreeing terminology and retiring duplicate lists.",
+          "Use the 30-day trial to run a realistic slice of ministry: import a safe sample, invite a small team, build one rota, create one event, test a member update and reconcile a test donation in a non-production process. Success should mean that ordinary volunteers can complete their tasks without a parallel spreadsheet."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "Independent coverage is much thinner than ChurchSuite’s own documentation. Capterra currently displays 19 reviews and a 4.8/5 aggregate, with user comments that frequently praise support and the breadth of the system. Church-tech discussions add a more operational observation: a platform only becomes valuable when ministry teams actually enter and maintain their information there.",
+      "themes": [
+        "Support is a recurring positive theme in the small public review sample.",
+        "Users value an all-in-one operational system when their actual church processes fit it.",
+        "Peer discussion highlights implementation discipline: teams need to stop relying on side spreadsheets and duplicate records.",
+        "The public review volume is too small to treat an aggregate score as a reliable prediction of fit."
+      ],
+      "caveat": "Review platforms can mix old feedback, different church contexts and commercial listings. This page does not reproduce a rating as an endorsement or use review data in structured review schema."
+    },
+    "faq": [
+      {
+        "question": "Is ChurchSuite suitable for a small UK church?",
+        "answer": "It can be, particularly where a small church needs a shared people record, rotas, events and Gift Aid administration. However, the church should price its active contacts and required modules, then compare that with the cost and discipline of a simpler spreadsheet, calendar and finance process."
+      },
+      {
+        "question": "Does ChurchSuite support Gift Aid?",
+        "answer": "ChurchSuite’s Giving documentation says that, for UK customers, the module supports producing and submitting Gift Aid claims to HMRC. The church should still verify its current workflow, declaration handling and finance controls directly with the supplier and its own advisers."
+      },
+      {
+        "question": "Is there a ChurchSuite free trial?",
+        "answer": "Yes. The supplier currently advertises a 30-day free trial. Use it to test realistic processes with a small group rather than only clicking through features."
+      },
+      {
+        "question": "Can a church import and export ChurchSuite data?",
+        "answer": "ChurchSuite publishes CSV import guidance and documents CSV or report export options, including administrator controls to restrict exports. Its terms also state that user data can be accessed and backed up through the service. Confirm the exact records and formats needed for your church before committing."
+      },
+      {
+        "question": "Does ChurchSuite make a church GDPR compliant?",
+        "answer": "No. ChurchSuite publishes security, privacy and UK data-protection material, but software cannot make a church compliant by itself. The church remains responsible for lawful processing, roles, access, retention, training and its own policies."
+      }
     ]
   },
   "verificationStatus": "partially-verified",
@@ -55,13 +170,19 @@
       "label": "ChurchSuite pricing",
       "url": "https://churchsuite.com/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Pricing model", "Starting price", "Free trial", "UK payment method", "Support"]
+      "supports": ["Pricing model", "Published GBP tiers", "Starting price", "Free trial", "Package structure"]
     },
     {
       "label": "ChurchSuite product overview",
       "url": "https://churchsuite.com/",
       "checked": "2026-07-25",
-      "supports": ["Core features", "Gift Aid management"]
+      "supports": ["Core features", "Member-facing access", "Mobile apps"]
+    },
+    {
+      "label": "ChurchSuite branding resources",
+      "url": "https://churchsuite.com/branding/",
+      "checked": "2026-07-25",
+      "supports": ["Official logo asset and supplier logo-use guidance"]
     },
     {
       "label": "ChurchSuite Giving documentation",
@@ -73,13 +194,49 @@
       "label": "ChurchSuite terms of service",
       "url": "https://churchsuite.com/terms-of-service/",
       "checked": "2026-07-25",
-      "supports": ["Supplier legal name", "Country of origin"]
+      "supports": ["Supplier legal name", "UK-registered organisation", "Data access and backup statement", "Termination data-deletion policy"]
+    },
+    {
+      "label": "ChurchSuite security information",
+      "url": "https://churchsuite.com/security/",
+      "checked": "2026-07-25",
+      "supports": ["Supplier hosting statement", "Encryption statement", "Security and backup statements"]
+    },
+    {
+      "label": "ChurchSuite API and Embed information",
+      "url": "https://churchsuite.com/api-and-json/",
+      "checked": "2026-07-25",
+      "supports": ["Public API", "Website embeds", "30-day trial"]
+    },
+    {
+      "label": "ChurchSuite import guidance",
+      "url": "https://support.churchsuite.com/article/11-import-your-data-into-churchsuite",
+      "checked": "2026-07-25",
+      "supports": ["CSV contact import", "Import preparation"]
+    },
+    {
+      "label": "ChurchSuite support-access guidance",
+      "url": "https://support.churchsuite.com/article/476-enabling-and-disabling-churchsuite-support-team-access",
+      "checked": "2026-07-25",
+      "supports": ["Support-access controls", "Administrator permissions"]
+    },
+    {
+      "label": "Capterra ChurchSuite reviews",
+      "url": "https://www.capterra.com/p/122430/ChurchApp/reviews/",
+      "checked": "2026-07-25",
+      "supports": ["Limited independent user-feedback context", "Review-volume caveat"]
+    },
+    {
+      "label": "Church-tech community discussion",
+      "url": "https://www.reddit.com/r/churchtech/comments/1t5fw4j/church_management_system_increasing/",
+      "checked": "2026-07-25",
+      "supports": ["Peer discussion about adoption and shared use"]
     }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {
-    "title": "ChurchSuite: UK church software profile",
-    "description": "Independent ChurchSuite profile covering verified UK pricing, Gift Aid, free-trial and church management information, with clear unknowns."
+    "title": "ChurchSuite review for UK churches: pricing, Gift Aid and fit",
+    "description": "Independent ChurchSuite profile for UK churches: pricing, Gift Aid, implementation, data questions, user feedback and practical FAQs."
   }
 }

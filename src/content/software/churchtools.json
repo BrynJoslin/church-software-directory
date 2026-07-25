@@ -16,7 +16,16 @@
       "currency": "EUR",
       "period": "month",
       "qualifier": "XS package for up to 100 people; listed service prices exclude VAT"
-    }
+    },
+    "tiers": [
+      {"label": "XS", "price": "€29/month", "detail": "Up to 100 people; no additional campuses"},
+      {"label": "S", "price": "€49/month", "detail": "Up to 200 people"},
+      {"label": "M", "price": "€79/month", "detail": "Up to 500 people; two campuses"},
+      {"label": "L", "price": "€129/month", "detail": "Up to 1,000 people; three campuses"},
+      {"label": "XL", "price": "€209/month", "detail": "Up to 2,500 people; five campuses"},
+      {"label": "XXL", "price": "€339/month", "detail": "Unlimited people and campuses for one church"}
+    ],
+    "trialDetails": "30 days, with email support and weekly group video calls according to the supplier."
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
@@ -49,6 +58,57 @@
       "No UK-specific Gift Aid support has been confirmed",
       "Published entry pricing is in euros rather than pounds sterling"
     ]
+  },
+  "longForm": {
+    "verdict": "ChurchTools gives a UK church a clearly documented European-hosted alternative, with a broad operational feature set and visible package limits. The main decision is whether its people, campus and role limits — plus euro pricing — fit the church’s real operating shape.",
+    "decisionLens": {
+      "heading": "Hosting geography is a starting point for due diligence, not the conclusion.",
+      "text": "German hosting is a meaningful supplier statement for churches assessing data location, but it does not settle the church’s UK data-protection responsibilities. The practical work remains: verify the agreement, permissions, processors, retention and exit arrangements."
+    },
+    "sections": [
+      {
+        "heading": "How the packages scale",
+        "question": "Which limits will shape the church’s day-to-day use?",
+        "paragraphs": [
+          "ChurchTools publishes packages based on people, campuses, resources and ministry roles. It also lists unlimited groups, calendars, events, check-ins and reports across the packages, alongside a church app and open API.",
+          "That makes the shortlist conversation more concrete than a generic feature comparison. Count active people, sites, bookable resources and ministry roles now, then model the next expected growth point and the cost of relevant upgrades."
+        ]
+      },
+      {
+        "heading": "European hosting and UK responsibility",
+        "question": "What would the church still need to govern itself?",
+        "paragraphs": [
+          "The supplier says hosted accounts are in Germany and presents this in its GDPR information. That is relevant evidence, but this directory does not treat it as a compliance certification for a UK church.",
+          "Ask for the current data-processing terms, sub-processor information, access controls and export route. The church still needs its own lawful basis, retention practice, role design and training for staff and volunteers."
+        ]
+      },
+      {
+        "heading": "Implementation support and the 30-day test",
+        "question": "Can the church make a supported decision before migrating?",
+        "paragraphs": [
+          "ChurchTools advertises a 30-day free trial, email support and weekly group video calls with a trainer and other churches. Its pricing page also lists migration as a paid service.",
+          "Use the trial to test one people-record workflow, one event or resource booking and one service-planning process. Confirm the scope and cost of migration before committing, especially if historical data or multiple sites matter."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score or a collected user-review sample. It is grounded in the supplier’s pricing, hosting and trial documentation.",
+      "themes": ["Independent user-feedback coverage has not yet been researched for this profile.", "The decisive fit questions are package limits, migration scope and the church’s own data governance."],
+      "caveat": "This is a research gap rather than a judgement on user satisfaction or product quality."
+    },
+    "faq": [
+      {"question": "Where does ChurchTools say it hosts data?", "answer": "ChurchTools states that hosted accounts are in Germany. A UK church should still verify current contractual, sub-processor and data-protection details directly."},
+      {"question": "Is there a ChurchTools free trial?", "answer": "Yes. The supplier advertises a 30-day trial, email support and weekly group video calls during the trial."},
+      {"question": "Does ChurchTools support UK Gift Aid?", "answer": "Not confirmed in this profile. Do not infer Gift Aid capability from the presence of general giving or finance features."}
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchtools/churchtools-logo.png",
+      "alt": "ChurchTools logo",
+      "source": "https://church.tools/en/",
+      "checked": "2026-07-25"
+    }
   },
   "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",

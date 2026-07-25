@@ -25,6 +25,7 @@ const entries = await Promise.all(
       company: entry.company,
       countryOfOrigin: entry.countryOfOrigin ?? null,
       ukFocus: entry.ukFocus,
+      ukOrganisation: entry.ukOrganisation ?? "unknown",
       categories: entry.categories,
       suitableChurchSizes: entry.suitableChurchSizes,
       pricing: entry.pricing,

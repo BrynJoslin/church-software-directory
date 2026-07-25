@@ -241,6 +241,78 @@ strong {
   margin-block-start: var(--space-md);
 }
 
+.profile-verdict,
+.decision-lens {
+  border: 0.0625rem solid var(--rule);
+  border-radius: var(--radius);
+  padding: var(--space-lg);
+}
+
+.profile-verdict {
+  background: var(--surface);
+}
+
+.decision-lens {
+  border-inline-start: 0.3rem solid var(--accent);
+  background: var(--accent-soft);
+}
+
+.profile-section {
+  max-inline-size: var(--measure);
+}
+
+.section-question {
+  margin-block-end: var(--space-xs);
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+
+.faq-list {
+  border-block-start: 0.0625rem solid var(--rule);
+}
+
+.faq-list details {
+  border-block-end: 0.0625rem solid var(--rule);
+  padding-block: var(--space-sm);
+}
+
+.faq-list summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.faq-list p {
+  max-inline-size: var(--measure);
+  margin: var(--space-sm) 0 0;
+}
+
+.pricing-section {
+  max-inline-size: var(--measure);
+}
+
+.pricing-table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  font-size: var(--step--1);
+}
+
+.pricing-table th,
+.pricing-table td {
+  border-block-end: 0.0625rem solid var(--rule);
+  padding: var(--space-sm);
+  text-align: start;
+  vertical-align: top;
+}
+
+.pricing-table thead th {
+  background: var(--accent-soft);
+}
+
+.pricing-table tbody th {
+  font-weight: 700;
+}
+
 .cluster {
   display: flex;
   flex-wrap: wrap;
@@ -650,6 +722,22 @@ strong {
 .card-heading h1,
 .card-heading h2 {
   margin-block-end: var(--space-2xs);
+}
+
+.software-logo {
+  inline-size: clamp(8rem, 20vw, 12.5rem);
+  block-size: auto;
+  max-block-size: 3rem;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.software-logo--card {
+  flex: 0 0 3rem;
+  inline-size: 3rem;
+  block-size: 3rem;
+  max-block-size: none;
+  object-position: center;
 }
 
 .logo-fallback {

@@ -3,12 +3,14 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import SoftwareCard from "../../components/SoftwareCard.astro";
 import VerificationBadge from "../../components/VerificationBadge.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { siteConfig } from "../../config/site";
 import {
   formatDate,
   formatStartingPrice,
   pricingModelLabel,
   triStateLabel,
-  ukFocusLabel
+  ukFocusLabel,
+  ukOrganisationLabel
 } from "../../utils/content";
 
 export async function getStaticPaths() {
@@ -47,6 +49,12 @@ const relatedProducts = allSoftware
   )
   .sort((a, b) => a.data.name.localeCompare(b.data.name))
   .slice(0, 2);
+const longForm = software.longForm;
+const hasAffiliateLink =
+  siteConfig.features.affiliateLinks &&
+  software.affiliateRelationship === "yes" &&
+  Boolean(software.affiliateUrl);
+const visitUrl = hasAffiliateLink ? software.affiliateUrl! : software.officialWebsite;
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -56,12 +64,23 @@ const jsonLd = {
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web"
 };
+const faqJsonLd = longForm
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: longForm.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer }
+      }))
+    }
+  : undefined;
 ---
 
 <BaseLayout
   title={software.seo.title}
   description={software.seo.description}
-  jsonLd={jsonLd}
+  jsonLd={faqJsonLd ? [jsonLd, faqJsonLd] : jsonLd}
   breadcrumbs={[
     { label: "Software", href: "/software/" },
     { label: software.name }
@@ -71,9 +90,19 @@ const jsonLd = {
     <div class="container page-grid">
       <article class="stack">
         <div class="card-heading">
-          <div class="logo-fallback" aria-hidden="true">
-            {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
-          </div>
+          {
+            software.brandAssets?.logo ? (
+              <img
+                class="software-logo"
+                src={software.brandAssets.logo.src}
+                alt={software.brandAssets.logo.alt}
+              />
+            ) : (
+              <div class="logo-fallback" aria-hidden="true">
+                {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
+              </div>
+            )
+          }
           <div>
             <p class="eyebrow">Software profile</p>
             <h1>{software.name}</h1>
@@ -84,10 +113,10 @@ const jsonLd = {
         <div class="cluster">
           <a
             class="button"
-            href={software.officialWebsite}
-            rel="noopener noreferrer"
+            href={visitUrl}
+            rel={hasAffiliateLink ? "noopener noreferrer sponsored" : "noopener noreferrer"}
           >
-            Visit official website
+            {hasAffiliateLink ? "Visit official website (affiliate link)" : "Visit official website"}
           </a>
           <a
             class="button button--secondary"
@@ -96,6 +125,33 @@ const jsonLd = {
             Add to comparison
           </a>
         </div>
+        {
+          (hasAffiliateLink || software.sponsored) && (
+            <aside class="notice" aria-label="Commercial disclosure">
+              {hasAffiliateLink && (
+                <p>
+                  <strong>Affiliate disclosure:</strong> this link may earn Church Software UK a commission if you make a qualifying purchase. It does not affect this profile’s assessment or ranking.
+                </p>
+              )}
+              {software.sponsored && (
+                <p>
+                  <strong>Sponsored listing:</strong> the supplier has paid for this placement. Sponsorship does not affect this profile’s assessment or ranking.
+                </p>
+              )}
+              <p><a href="/affiliate-disclosure/">Read our commercial disclosure.</a></p>
+            </aside>
+          )
+        }
+
+        {
+          longForm && (
+            <section class="profile-verdict" aria-labelledby="verdict-heading">
+              <p class="eyebrow">The short version</p>
+              <h2 id="verdict-heading">A fit worth testing against your real workflow.</h2>
+              <p>{longForm.verdict}</p>
+            </section>
+          )
+        }
 
         <section aria-labelledby="assessment-heading">
           <h2 id="assessment-heading">Directory assessment</h2>
@@ -130,6 +186,86 @@ const jsonLd = {
             )
           }
         </section>
+
+        <section class="pricing-section" aria-labelledby="pricing-heading">
+          <p class="section-question">What does the supplier currently publish?</p>
+          <h2 id="pricing-heading">Pricing and trial</h2>
+          <p>{software.pricing.summary}</p>
+          {
+            software.pricing.tiers.length > 0 ? (
+              <div class="table-scroll">
+                <table class="pricing-table">
+                  <caption>Published pricing structure. Check the supplier for current terms and total cost.</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Tier or starting point</th>
+                      <th scope="col">Published price</th>
+                      <th scope="col">What it covers</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {software.pricing.tiers.map((tier) => (
+                      <tr>
+                        <th scope="row">{tier.label}</th>
+                        <td>{tier.price}</td>
+                        <td>{tier.detail}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <p>Supplier tier details are not confirmed in this profile.</p>
+            )
+          }
+          <p>
+            <strong>Free trial:</strong> {triStateLabel(software.freeTrial)}
+            {software.pricing.trialDetails && ` — ${software.pricing.trialDetails}`}
+          </p>
+        </section>
+
+        {
+          longForm && (
+            <>
+              <aside class="decision-lens" aria-labelledby="lens-heading">
+                <p class="eyebrow">The decision lens</p>
+                <h2 id="lens-heading">{longForm.decisionLens.heading}</h2>
+                <p>{longForm.decisionLens.text}</p>
+              </aside>
+
+              {longForm.sections.map((section) => (
+                <section class="profile-section" aria-labelledby={`${section.heading.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-")}-heading`}>
+                  <p class="section-question">{section.question}</p>
+                  <h2 id={`${section.heading.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-")}-heading`}>
+                    {section.heading}
+                  </h2>
+                  {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+                </section>
+              ))}
+
+              <section class="profile-section" aria-labelledby="feedback-heading">
+                <p class="section-question">What does external feedback add?</p>
+                <h2 id="feedback-heading">What public reviews and peer discussion do — and do not — show</h2>
+                <p>{longForm.userFeedback.summary}</p>
+                <ul>{longForm.userFeedback.themes.map((theme) => <li>{theme}</li>)}</ul>
+                <p class="muted">{longForm.userFeedback.caveat}</p>
+              </section>
+
+              <section class="profile-section" aria-labelledby="faq-heading">
+                <p class="section-question">The questions a shortlist needs to answer</p>
+                <h2 id="faq-heading">{software.name} FAQs</h2>
+                <div class="faq-list">
+                  {longForm.faq.map((item) => (
+                    <details>
+                      <summary>{item.question}</summary>
+                      <p>{item.answer}</p>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            </>
+          )
+        }
 
         <section aria-labelledby="operations-heading">
           <h2 id="operations-heading">Operations and support</h2>
@@ -170,10 +306,11 @@ const jsonLd = {
         </section>
 
         <section aria-labelledby="sources-heading">
-          <h2 id="sources-heading">Official sources</h2>
+          <h2 id="sources-heading">Research sources</h2>
           <p>
-            These supplier sources support only the fields named beneath each
-            link. They do not constitute independent testing.
+            Sources support only the fields named beneath each link. Supplier
+            material is not independent testing; external review material is
+            included as a limited signal rather than a verdict.
           </p>
           <ol class="source-list">
             {
@@ -200,6 +337,10 @@ const jsonLd = {
           <div>
             <dt>UK focus</dt>
             <dd>{ukFocusLabel(software.ukFocus)}</dd>
+          </div>
+          <div>
+            <dt>Organisation</dt>
+            <dd>{ukOrganisationLabel(software.ukOrganisation)}</dd>
           </div>
           <div>
             <dt>Church sizes</dt>
@@ -249,7 +390,11 @@ const jsonLd = {
           }
         </ul>
         <p class="muted">
-          No affiliate relationship. This listing is not sponsored.
+          {software.sponsored
+            ? "Sponsored listing."
+            : software.affiliateRelationship === "yes"
+              ? "Affiliate relationship disclosed. This listing is not sponsored."
+              : "No affiliate relationship. This listing is not sponsored."}
         </p>
       </aside>
     </div>

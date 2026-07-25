@@ -293,6 +293,22 @@ npm run preview
 
 Additional scripts are acceptable when clearly documented.
 
+## Internal maintenance dashboard
+
+`scripts/dashboard.mjs` creates a self-contained local report in
+`.internal/dashboard/`, outside Astro's `dist/` output. It reads existing
+software JSON and category/guide frontmatter; it is not a second content model,
+public route or deployment artifact. The report has a schema version, timestamp,
+counts, issues, completeness, freshness, taxonomy and source-health records;
+the queue CSV has stable maintenance fields.
+
+Priority rules are explicit: invalid category references, duplicate identifiers
+and invalid official URLs are Critical; absent sources, stale or invalid dates
+and missing required fields are High; partial verification, useful missing data
+and metadata are Medium; logos, short summaries and comparison opportunities
+are Low. The optional `check:links` command uses limited-concurrency HEAD
+requests and reports blocked automated requests separately from failures.
+
 ## Deployment
 
 Use Astro static output.

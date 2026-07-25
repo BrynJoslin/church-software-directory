@@ -34,7 +34,7 @@ const itemListJsonLd = {
 >
   <section class="section">
     <div class="container">
-      <p class="eyebrow">Five researched examples</p>
+      <p class="eyebrow">Six researched examples</p>
       <h1>Church software directory</h1>
       <p class="measure">
         Search verified facts and independent notes. “Not confirmed” means the
@@ -83,6 +83,17 @@ const itemListJsonLd = {
                 <option value="general">Available more broadly</option>
                 <option value="unknown">Not confirmed</option>
               </select>
+            </div>
+            <div class="form-field">
+              <label for="uk-organisation">Organisation location</label>
+              <select id="uk-organisation" name="uk-organisation">
+                <option value="">Any organisation</option>
+                <option value="yes">UK-registered organisation</option>
+                <option value="unknown">Not confirmed</option>
+              </select>
+              <p class="field-hint">
+                Includes companies and charities where the recorded sources confirm UK registration.
+              </p>
             </div>
             <div class="form-field">
               <label for="size">Church size</label>
