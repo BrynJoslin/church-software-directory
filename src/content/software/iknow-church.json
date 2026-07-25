@@ -1,0 +1,78 @@
+{
+  "name": "iKnow Church",
+  "slug": "iknow-church",
+  "shortDescription": "UK church management software with published member-based pricing and supplier documentation for giving and Gift Aid claims.",
+  "officialWebsite": "https://www.iknowchurch.co.uk/",
+  "company": "iKnow Church",
+  "ukFocus": "strong",
+  "categories": ["church-management", "online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["UK churches wanting an all-features member-based subscription"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Published GBP pricing is based on the number of adult church members and includes VAT and the listed feature set.",
+    "startingPrice": {
+      "amount": 22,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Fewer than 50 adult church members; supplier pricing includes VAT"
+    }
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "People administration",
+    "Donation management",
+    "Giving pages",
+    "Gift Aid claim submission",
+    "Multi-location donation records"
+  ],
+  "integrations": ["HMRC Gift Aid claim submission"],
+  "importExport": ["Donation reports in PDF or CSV"],
+  "support": ["UK-based email and telephone support"],
+  "editorial": {
+    "assessment": "iKnow Church supplies unusually specific UK finance and Gift Aid information. A church should confirm the exact modules, transaction charges, migration process and security arrangements for its own use case.",
+    "bestFor": [
+      "UK churches that want administration and giving in one service",
+      "Churches that prefer pricing linked to regular adult members"
+    ],
+    "strengths": [
+      "Published GBP pricing includes VAT",
+      "Supplier documentation covers HMRC Gift Aid submission"
+    ],
+    "limitations": [
+      "Gift Aid submissions and payment processing can carry additional charges",
+      "Data hosting and accessibility information have not yet been verified for this listing"
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "iKnow Church pricing",
+      "url": "https://www.iknowchurch.co.uk/iknow",
+      "checked": "2026-07-25",
+      "supports": ["Pricing model", "Starting price", "Support"]
+    },
+    {
+      "label": "iKnow Church donation features",
+      "url": "https://iknowchurch.co.uk/features-old/donations/",
+      "checked": "2026-07-25",
+      "supports": ["Free trial", "Giving features", "Gift Aid", "Multi-location support"]
+    },
+    {
+      "label": "iKnow Church finance charges",
+      "url": "https://www.iknowchurch.co.uk/charges/",
+      "checked": "2026-07-25",
+      "supports": ["Transaction charges", "Gift Aid claim charge"]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "iKnow Church: UK church software profile",
+    "description": "Independent iKnow Church profile covering verified UK pricing, Gift Aid, giving and church management information, with clear caveats."
+  }
+}

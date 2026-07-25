@@ -1,0 +1,26 @@
+{
+  "name": "UK Church Software Directory",
+  "shortName": "UK Church Software",
+  "url": "https://ukchurchsoftware.example",
+  "description": "Independent, UK-focused information to help churches discover and compare administration, giving and ministry software.",
+  "contactEmail": "contact@example.invalid",
+  "social": {
+    "mastodon": "",
+    "linkedin": ""
+  },
+  "forms": {
+    "enabled": false,
+    "suggestSoftware": "https://example.invalid/forms/suggest-software",
+    "updateListing": "https://example.invalid/forms/update-listing"
+  },
+  "analytics": {
+    "enabled": false,
+    "provider": ""
+  },
+  "features": {
+    "affiliateLinks": false,
+    "sponsoredListings": false
+  },
+  "defaultSeoImage": "/images/og-default.svg",
+  "staleListingDays": 180
+}

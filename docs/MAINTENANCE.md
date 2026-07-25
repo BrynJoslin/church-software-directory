@@ -1,0 +1,83 @@
+# Maintenance guide
+
+## Add or update software
+
+1. Copy `docs/content-templates/software.template.json`.
+2. Name the new file after its slug in `src/content/software/`.
+3. Confirm the product and official site are active.
+4. Research current first-party sources and record what each supports.
+5. Use `unknown` or omit optional fields where evidence is missing.
+6. Keep supplier facts outside the `editorial` object and assessment inside it.
+7. Run:
+
+   ```bash
+   npm run check
+   npm run check:stale
+   npm run build
+   ```
+
+8. Review the listing, affected category pages, filters, comparison and generated
+   JSON export.
+
+Do not add large unreviewed batches. A schema change also requires updating every
+existing entry, the page templates, `docs/CONTENT_FIELDS.md` and
+`docs/IMPLEMENTATION_STATUS.md`.
+
+## Add a category
+
+Copy `docs/content-templates/category.template.md` into
+`src/content/categories/`. The filename is the collection ID referenced by
+software and guides. Add the corresponding allowed directory-filter value in
+`src/scripts/directory.ts`.
+
+Explain when a church may not need specialist software and keep legal, tax and
+safeguarding wording appropriately qualified.
+
+## Add a guide
+
+Copy `docs/content-templates/guide.template.md` into `src/content/guides/`.
+Write useful decision support rather than a thin search landing page. Update the
+date only after a meaningful editorial review.
+
+## Review stale content
+
+The threshold is set in `src/config/site.json`.
+
+```bash
+npm run check:stale
+```
+
+The command fails when any `lastChecked` date exceeds the threshold. Reviewing a
+listing means re-opening its sources, checking material facts and recording
+changes or remaining unknowns. Do not update the date without doing the review.
+
+## Public data export
+
+`npm run prepare:data` generates `public/data/software.json` from publishable
+software fields. It excludes editorial assessment and any future private notes.
+The command runs automatically before checks, builds and local development.
+
+## Production configuration
+
+Before launch:
+
+1. Replace the placeholder site URL in `src/config/site.json`,
+   `astro.config.mjs` and `public/robots.txt`.
+2. Replace the placeholder contact address.
+3. Select and document the structured-data reuse licence.
+4. Configure a form service only after updating the privacy notice.
+5. Test spam protection and accessible success and error handling before setting
+   `forms.enabled` to `true`.
+6. Enable analytics only after choosing a privacy-conscious provider and
+   documenting it.
+
+## Cloudflare Pages
+
+Use Node 22.12 or newer.
+
+```text
+Build command: npm run build
+Output directory: dist
+```
+
+The site uses static output and requires no adapter.

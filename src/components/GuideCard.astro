@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "../utils/content";
+
+interface Props {
+  entry: CollectionEntry<"guides">;
+}
+
+const { entry } = Astro.props;
+---
+
+<article class="plain-card">
+  <p class="eyebrow">
+    Updated <time datetime={entry.data.updated.toISOString().slice(0, 10)}>
+      {formatDate(entry.data.updated)}
+    </time>
+  </p>
+  <h2><a href={`/guides/${entry.data.slug}/`}>{entry.data.title}</a></h2>
+  <p>{entry.data.summary}</p>
+</article>

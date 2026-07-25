@@ -1,0 +1,29 @@
+---
+import { siteConfig } from "../config/site";
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-title">{siteConfig.name}</p>
+      <p class="muted">
+        Independent information for considered software decisions. Inclusion is
+        not endorsement.
+      </p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <ul class="footer-links">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li>
+        <li><a href="/suggest-software/">Suggest software</a></li>
+        <li><a href="/update-a-listing/">Correct a listing</a></li>
+        <li><a href="/data/software.json">Structured data</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; {new Date().getFullYear()} {siteConfig.name}.</p>
+    <p>Product details can change. Verify important decisions with the supplier.</p>
+  </div>
+</footer>

@@ -1,0 +1,37 @@
+---
+import { siteConfig } from "../config/site";
+
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { href: "/software/", label: "Software" },
+  { href: "/categories/", label: "Categories" },
+  { href: "/compare/", label: "Compare" },
+  { href: "/guides/", label: "Guides" },
+  { href: "/methodology/", label: "Methodology" }
+];
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label={`${siteConfig.name} home`}>
+      <span class="brand-mark" aria-hidden="true">UK</span>
+      <span>{siteConfig.shortName}</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-list">
+        {
+          navItems.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                aria-current={currentPath.startsWith(item.href) ? "page" : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

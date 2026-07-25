@@ -1,0 +1,230 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  formatCompactDate,
+  formatStartingPrice,
+  pricingModelLabel,
+  triStateLabel,
+  ukFocusLabel
+} from "../../utils/content";
+
+const software = (await getCollection("software")).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name)
+);
+---
+
+<BaseLayout
+  title="Compare church software"
+  description="Compare two to four church software products using sourced facts about UK focus, pricing, free options, Gift Aid and operational details."
+  breadcrumbs={[{ label: "Compare" }]}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Structured comparison</p>
+      <h1>Compare church software</h1>
+      <p class="measure">
+        Choose two to four products. Unknown information stays “Not confirmed”
+        and is not interpreted as a missing feature.
+      </p>
+
+      <noscript>
+        <div class="notice">
+          <p>
+            All five products appear in the table below. Enable JavaScript to
+            create a smaller shareable comparison.
+          </p>
+        </div>
+      </noscript>
+
+      <form class="comparison-picker enhancement" data-comparison-picker>
+        <fieldset>
+          <legend><strong>Products to compare</strong></legend>
+          <p>Select at least two and no more than four.</p>
+          <div class="check-grid">
+            {
+              software.map((entry) => (
+                <label class="check-option">
+                  <input
+                    type="checkbox"
+                    name="products"
+                    value={entry.data.slug}
+                  />
+                  <span>{entry.data.name}</span>
+                </label>
+              ))
+            }
+          </div>
+        </fieldset>
+        <div class="cluster">
+          <button type="button" data-copy-comparison>Copy comparison link</button>
+          <a class="button button--secondary" href="/compare/">Clear selection</a>
+        </div>
+      </form>
+
+      <div class="notice enhancement" data-comparison-message role="status" aria-live="polite">
+        Choose at least two products to begin.
+      </div>
+
+      <div class="table-scroll" data-comparison-table>
+        <table class="comparison-table">
+          <caption>
+            Factual comparison of selected church software. Scroll horizontally
+            on a small screen.
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Field</th>
+              {
+                software.map((entry) => (
+                  <th scope="col" data-product-column={entry.data.slug}>
+                    {entry.data.name}
+                  </th>
+                ))
+              }
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">UK focus</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {ukFocusLabel(entry.data.ukFocus)}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Church sizes</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {entry.data.suitableChurchSizes.join(", ")}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Pricing model</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    <strong>{pricingModelLabel(entry.data.pricing.model)}</strong>
+                    <br />
+                    {entry.data.pricing.summary}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Published from</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {formatStartingPrice(entry.data.pricing.startingPrice)}
+                    {
+                      entry.data.pricing.startingPrice?.qualifier && (
+                        <>
+                          <br />
+                          <span class="muted">
+                            {entry.data.pricing.startingPrice.qualifier}
+                          </span>
+                        </>
+                      )
+                    }
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Free plan</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {triStateLabel(entry.data.freePlan)}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Free trial</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {triStateLabel(entry.data.freeTrial)}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Gift Aid</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {triStateLabel(entry.data.giftAid)}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Data hosting</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {entry.data.dataHosting ?? "Not confirmed"}
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Confirmed features</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    {
+                      entry.data.coreFeatures.length > 0 ? (
+                        <ul>
+                          {entry.data.coreFeatures.map((feature) => (
+                            <li>{feature}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        "Not confirmed"
+                      )
+                    }
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Last checked</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    <time datetime={entry.data.lastChecked.toISOString().slice(0, 10)}>
+                      {formatCompactDate(entry.data.lastChecked)}
+                    </time>
+                  </td>
+                ))
+              }
+            </tr>
+            <tr>
+              <th scope="row">Full profile</th>
+              {
+                software.map((entry) => (
+                  <td data-product-column={entry.data.slug}>
+                    <a href={`/software/${entry.data.slug}/`}>
+                      Read {entry.data.name} profile
+                    </a>
+                  </td>
+                ))
+              }
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <script src="../../scripts/comparison.ts"></script>
+</BaseLayout>

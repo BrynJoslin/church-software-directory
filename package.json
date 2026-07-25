@@ -1,0 +1,25 @@
+{
+  "name": "uk-church-software-directory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "npm run prepare:data && astro dev",
+    "check": "npm run prepare:data && astro check",
+    "check:stale": "node scripts/check-stale.mjs",
+    "prepare:data": "node scripts/export-software.mjs",
+    "build": "npm run prepare:data && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.1.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^5.9.2"
+  }
+}

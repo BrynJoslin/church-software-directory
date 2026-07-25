@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import CategoryCard from "../../components/CategoryCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const [categories, software] = await Promise.all([
+  getCollection("categories"),
+  getCollection("software")
+]);
+categories.sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<BaseLayout
+  title="Church software categories"
+  description="Understand the problems different church software categories solve, when simpler tools may be enough and which UK questions to ask."
+  breadcrumbs={[{ label: "Categories" }]}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Browse by operational need</p>
+      <h1>Church software categories</h1>
+      <p class="measure">
+        Start with the work your church needs to improve, then assess whether a
+        specialist system is proportionate.
+      </p>
+      <div class="grid">
+        {
+          categories.map((category) => (
+            <CategoryCard
+              entry={category}
+              productCount={
+                software.filter((entry) =>
+                  entry.data.categories.some((item) => item.id === category.id)
+                ).length
+              }
+            />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

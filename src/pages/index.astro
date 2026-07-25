@@ -1,0 +1,135 @@
+---
+import { getCollection } from "astro:content";
+import CategoryCard from "../components/CategoryCard.astro";
+import GuideCard from "../components/GuideCard.astro";
+import SoftwareCard from "../components/SoftwareCard.astro";
+import { siteConfig } from "../config/site";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const [software, categories, guides] = await Promise.all([
+  getCollection("software"),
+  getCollection("categories"),
+  getCollection("guides")
+]);
+const sortedSoftware = software
+  .sort((a, b) => a.data.name.localeCompare(b.data.name))
+  .slice(0, 3);
+const sortedCategories = categories.sort((a, b) =>
+  a.data.name.localeCompare(b.data.name)
+);
+const categoryNames = new Map(
+  categories.map((category) => [category.id, category.data.name])
+);
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: siteConfig.name,
+  url: siteConfig.url,
+  description: siteConfig.description
+};
+---
+
+<BaseLayout
+  title="Find church software that works in the UK"
+  description="Compare church management, giving and worship tools with UK-specific information, independent notes and clearly marked unknowns."
+  jsonLd={websiteJsonLd}
+>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Independent decision support</p>
+        <h1>Find church software that works in the UK</h1>
+        <p>
+          Compare church management, giving and worship tools with practical
+          information about UK fit, Gift Aid, pricing and the questions still to
+          ask.
+        </p>
+        <div class="cluster">
+          <a class="button" href="/software/">Browse software</a>
+          <a class="button button--secondary" href="/compare/">Compare products</a>
+        </div>
+      </div>
+      <aside class="trust-panel" aria-label="How to use this directory">
+        <h2>Evidence before polish</h2>
+        <p>
+          Supplier facts have source links and checked dates. Missing evidence is
+          shown as <strong>Not confirmed</strong>, never quietly treated as “No”.
+        </p>
+        <p><a href="/methodology/">Read the research method</a></p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="tasks-heading">
+    <div class="container">
+      <p class="eyebrow">Start with the task</p>
+      <h2 id="tasks-heading">What does your church need to improve?</h2>
+      <div class="grid">
+        {
+          sortedCategories.map((category) => (
+            <CategoryCard
+              entry={category}
+              productCount={
+                software.filter((entry) =>
+                  entry.data.categories.some((item) => item.id === category.id)
+                ).length
+              }
+            />
+          ))
+        }
+      </div>
+      <p><a href="/categories/">View all categories</a></p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="software-heading">
+    <div class="container">
+      <p class="eyebrow">Representative research</p>
+      <h2 id="software-heading">Explore the foundation listings</h2>
+      <p class="measure">
+        This first set proves the directory method. It is deliberately small and
+        should not be read as a complete market shortlist.
+      </p>
+      <div class="software-grid">
+        {
+          sortedSoftware.map((entry) => (
+            <SoftwareCard entry={entry} categoryNames={categoryNames} />
+          ))
+        }
+      </div>
+      <p><a href="/software/">See all {software.length} software entries</a></p>
+    </div>
+  </section>
+
+  <section class="section section--warm" aria-labelledby="guides-heading">
+    <div class="container">
+      <p class="eyebrow">Choose with care</p>
+      <h2 id="guides-heading">Practical guides for the decision</h2>
+      <div class="grid">
+        {guides.map((guide) => <GuideCard entry={guide} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container page-grid">
+      <div>
+        <p class="eyebrow">Why UK context matters</p>
+        <h2>Availability is not the same as UK suitability</h2>
+        <p class="measure">
+          Churches may need to check Gift Aid, pounds sterling, UK payment
+          methods, support hours, data processing and charity workflows. The
+          directory separates confirmed UK evidence from general availability.
+        </p>
+      </div>
+      <aside class="aside-card">
+        <h2>Found something wrong?</h2>
+        <p>
+          Product details change. Suppliers and church users can point us to
+          first-party evidence for a correction.
+        </p>
+        <p><a href="/update-a-listing/">Suggest a correction</a></p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

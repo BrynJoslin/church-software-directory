@@ -1,0 +1,314 @@
+{
+  "contentAsOf": "2026-07-25",
+  "licence": "No reuse licence has yet been selected.",
+  "count": 5,
+  "software": [
+    {
+      "name": "Breeze ChMS",
+      "slug": "breeze",
+      "shortDescription": "A church management platform with flat-rate US-dollar pricing, a 30-day trial and people, giving and service-planning tools.",
+      "officialWebsite": "https://www.breezechms.com/",
+      "company": "Tithely",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pricing": {
+        "model": "flat-rate",
+        "summary": "The supplier publishes one US-dollar monthly rate for Breeze ChMS, with separate transaction and excess messaging charges.",
+        "startingPrice": {
+          "amount": 72,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Flat ChMS subscription; payment processing and some messaging charges are separate"
+        }
+      },
+      "freePlan": "unknown",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Breeze pricing",
+          "url": "https://www.breezechms.com/pricing",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Free trial",
+            "Core features",
+            "Support",
+            "Import and export"
+          ]
+        },
+        {
+          "label": "Breeze free-trial page",
+          "url": "https://www.breezechms.com/lp/try-free",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free trial",
+            "Demo",
+            "Flat-rate pricing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChurchSuite",
+      "slug": "churchsuite",
+      "shortDescription": "A modular church management platform with UK-specific giving, Gift Aid and payment information published by the supplier.",
+      "officialWebsite": "https://churchsuite.com/",
+      "company": "ChurchSuite Ltd",
+      "countryOfOrigin": "United Kingdom",
+      "ukFocus": "strong",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Published GBP pricing varies by active contacts and the number of modules selected.",
+        "startingPrice": {
+          "amount": 9,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "0–99 contacts, one module, monthly billing; VAT inclusive where applicable"
+        }
+      },
+      "freePlan": "unknown",
+      "freeTrial": "yes",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ChurchSuite pricing",
+          "url": "https://churchsuite.com/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing model",
+            "Starting price",
+            "Free trial",
+            "UK payment method",
+            "Support"
+          ]
+        },
+        {
+          "label": "ChurchSuite product overview",
+          "url": "https://churchsuite.com/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Core features",
+            "Gift Aid management"
+          ]
+        },
+        {
+          "label": "ChurchSuite Giving documentation",
+          "url": "https://support.churchsuite.com/article/455-getting-started-with-the-giving-module",
+          "checked": "2026-07-25",
+          "supports": [
+            "Gift Aid claims",
+            "Giving features",
+            "Stripe integration"
+          ]
+        },
+        {
+          "label": "ChurchSuite terms of service",
+          "url": "https://churchsuite.com/terms-of-service/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Supplier legal name",
+            "Country of origin"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChurchTools",
+      "slug": "churchtools",
+      "shortDescription": "A European church management platform with person-based packages, a 30-day trial, German hosting and service-planning tools.",
+      "officialWebsite": "https://church.tools/en/",
+      "company": "ChurchTools",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "categories": [
+        "church-management",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Published euro and US-dollar packages vary by people, campuses, resources and ministry roles.",
+        "startingPrice": {
+          "amount": 29,
+          "currency": "EUR",
+          "period": "month",
+          "qualifier": "XS package for up to 100 people; listed service prices exclude VAT"
+        }
+      },
+      "freePlan": "unknown",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "ChurchTools pricing",
+          "url": "https://church.tools/en/pricing/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing",
+            "Package limits",
+            "Free trial",
+            "German hosting",
+            "Core features",
+            "Support"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iKnow Church",
+      "slug": "iknow-church",
+      "shortDescription": "UK church management software with published member-based pricing and supplier documentation for giving and Gift Aid claims.",
+      "officialWebsite": "https://www.iknowchurch.co.uk/",
+      "company": "iKnow Church",
+      "countryOfOrigin": null,
+      "ukFocus": "strong",
+      "categories": [
+        "church-management",
+        "online-giving"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Published GBP pricing is based on the number of adult church members and includes VAT and the listed feature set.",
+        "startingPrice": {
+          "amount": 22,
+          "currency": "GBP",
+          "period": "month",
+          "qualifier": "Fewer than 50 adult church members; supplier pricing includes VAT"
+        }
+      },
+      "freePlan": "unknown",
+      "freeTrial": "yes",
+      "giftAid": "yes",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "iKnow Church pricing",
+          "url": "https://www.iknowchurch.co.uk/iknow",
+          "checked": "2026-07-25",
+          "supports": [
+            "Pricing model",
+            "Starting price",
+            "Support"
+          ]
+        },
+        {
+          "label": "iKnow Church donation features",
+          "url": "https://iknowchurch.co.uk/features-old/donations/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free trial",
+            "Giving features",
+            "Gift Aid",
+            "Multi-location support"
+          ]
+        },
+        {
+          "label": "iKnow Church finance charges",
+          "url": "https://www.iknowchurch.co.uk/charges/",
+          "checked": "2026-07-25",
+          "supports": [
+            "Transaction charges",
+            "Gift Aid claim charge"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Planning Center",
+      "slug": "planning-center",
+      "shortDescription": "A suite of connected church products with a free people database and free usage tiers published across its product range.",
+      "officialWebsite": "https://www.planningcenteronline.com/",
+      "company": "Planning Center",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "categories": [
+        "church-management",
+        "online-giving",
+        "worship-planning"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "summary": "People is free and the supplier documents free capacity-limited tiers for its other products; paid limits vary by product.",
+        "startingPrice": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Free product tiers; paid costs vary by product and usage"
+        }
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "giftAid": "unknown",
+      "verificationStatus": "partially-verified",
+      "lastChecked": "2026-07-25",
+      "sources": [
+        {
+          "label": "Planning Center free-use guide",
+          "url": "https://support.planningcenteronline.com/hc/en-us/articles/12214037068827-Use-Planning-Center-for-free",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free plan",
+            "Product features",
+            "Free-tier limits"
+          ]
+        },
+        {
+          "label": "Planning Center staff preparation guide",
+          "url": "https://support.planningcenteronline.com/hc/en-us/articles/360041781534-Preparing-to-use-Planning-Center-with-your-staff",
+          "checked": "2026-07-25",
+          "supports": [
+            "Free trial",
+            "Free tiers",
+            "Product selection context"
+          ]
+        }
+      ]
+    }
+  ]
+}

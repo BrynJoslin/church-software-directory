@@ -1,0 +1,186 @@
+---
+import { getCollection } from "astro:content";
+import SoftwareCard from "../../components/SoftwareCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const [software, categories] = await Promise.all([
+  getCollection("software"),
+  getCollection("categories")
+]);
+software.sort((a, b) => a.data.name.localeCompare(b.data.name));
+categories.sort((a, b) => a.data.name.localeCompare(b.data.name));
+const categoryNames = new Map(
+  categories.map((category) => [category.id, category.data.name])
+);
+const itemListJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Church software directory",
+  numberOfItems: software.length,
+  itemListElement: software.map((entry, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    url: new URL(`/software/${entry.data.slug}/`, Astro.site).href,
+    name: entry.data.name
+  }))
+};
+---
+
+<BaseLayout
+  title="Church software directory"
+  description="Search and filter independently researched church software by category, UK focus, size, pricing, free options and Gift Aid support."
+  breadcrumbs={[{ label: "Software" }]}
+  jsonLd={itemListJsonLd}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Five researched examples</p>
+      <h1>Church software directory</h1>
+      <p class="measure">
+        Search verified facts and independent notes. “Not confirmed” means the
+        current sources did not establish the answer.
+      </p>
+
+      <noscript>
+        <div class="notice">
+          <p>
+            All listings are shown below. Enable JavaScript to filter and sort
+            them on this page.
+          </p>
+        </div>
+      </noscript>
+
+      <div class="directory-layout">
+        <aside class="filter-panel enhancement" aria-labelledby="filter-heading">
+          <h2 id="filter-heading">Filter software</h2>
+          <form action="/software/" method="get" data-directory-form>
+            <div class="form-field">
+              <label for="directory-search">Keyword</label>
+              <input
+                id="directory-search"
+                name="q"
+                type="search"
+                autocomplete="off"
+                placeholder="Name, feature or use"
+              />
+            </div>
+            <div class="form-field">
+              <label for="category">Category</label>
+              <select id="category" name="category">
+                <option value="">All categories</option>
+                {
+                  categories.map((category) => (
+                    <option value={category.id}>{category.data.name}</option>
+                  ))
+                }
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="uk-focus">UK focus</label>
+              <select id="uk-focus" name="uk-focus">
+                <option value="">Any UK focus</option>
+                <option value="strong">UK-specific evidence</option>
+                <option value="general">Available more broadly</option>
+                <option value="unknown">Not confirmed</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="size">Church size</label>
+              <select id="size" name="size">
+                <option value="">Any size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="multi-site">Multi-site</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="free-plan">Free plan</label>
+              <select id="free-plan" name="free-plan">
+                <option value="">Any status</option>
+                <option value="yes">Available</option>
+                <option value="no">Not available</option>
+                <option value="unknown">Not confirmed</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="free-trial">Free trial</label>
+              <select id="free-trial" name="free-trial">
+                <option value="">Any status</option>
+                <option value="yes">Available</option>
+                <option value="no">Not available</option>
+                <option value="unknown">Not confirmed</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="gift-aid">Gift Aid</label>
+              <select id="gift-aid" name="gift-aid">
+                <option value="">Any status</option>
+                <option value="yes">Confirmed</option>
+                <option value="no">Confirmed unavailable</option>
+                <option value="unknown">Not confirmed</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="pricing">Pricing model</label>
+              <select id="pricing" name="pricing">
+                <option value="">Any model</option>
+                <option value="free">Free</option>
+                <option value="freemium">Freemium</option>
+                <option value="flat-rate">Flat rate</option>
+                <option value="tiered">Tiered</option>
+                <option value="usage-based">Usage based</option>
+                <option value="quote-based">Quote based</option>
+                <option value="unknown">Not confirmed</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="sort">Sort by</label>
+              <select id="sort" name="sort">
+                <option value="name">Name</option>
+                <option value="last-checked">Last checked</option>
+              </select>
+            </div>
+            <div class="filter-actions">
+              <button type="submit">Apply filters</button>
+              <button class="button--secondary" type="button" data-clear-filters>
+                Clear all
+              </button>
+            </div>
+          </form>
+        </aside>
+
+        <div>
+          <div class="results-toolbar">
+            <p id="result-count" role="status" aria-live="polite">
+              {software.length} results
+            </p>
+            <a href="/compare/">Compare two to four products</a>
+          </div>
+          <div class="software-grid" data-software-results>
+            {
+              software.map((entry) => (
+                <SoftwareCard
+                  entry={entry}
+                  categoryNames={categoryNames}
+                  filterable
+                />
+              ))
+            }
+          </div>
+          <div class="empty-state" data-empty-state hidden>
+            <h2>No software matches those filters</h2>
+            <p>
+              Try removing one or more filters. An unknown answer is not treated
+              as a negative result.
+            </p>
+            <button class="button--secondary" type="button" data-empty-clear>
+              Clear all filters
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="../../scripts/directory.ts"></script>
+</BaseLayout>

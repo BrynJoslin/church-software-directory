@@ -1,0 +1,73 @@
+{
+  "name": "Breeze ChMS",
+  "slug": "breeze",
+  "shortDescription": "A church management platform with flat-rate US-dollar pricing, a 30-day trial and people, giving and service-planning tools.",
+  "officialWebsite": "https://www.breezechms.com/",
+  "company": "Tithely",
+  "ukFocus": "general",
+  "categories": ["church-management", "online-giving", "worship-planning"],
+  "suitableChurchSizes": ["small", "medium", "large"],
+  "suitableContexts": ["Churches that prefer a flat subscription rather than contact-based tiers"],
+  "pricing": {
+    "model": "flat-rate",
+    "summary": "The supplier publishes one US-dollar monthly rate for Breeze ChMS, with separate transaction and excess messaging charges.",
+    "startingPrice": {
+      "amount": 72,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Flat ChMS subscription; payment processing and some messaging charges are separate"
+    }
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "giftAid": "unknown",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "People and member management",
+    "Volunteer scheduling",
+    "Service planning",
+    "Events",
+    "Groups",
+    "Online giving"
+  ],
+  "integrations": [],
+  "importExport": ["Data import and export"],
+  "support": ["Phone support", "Email support"],
+  "editorial": {
+    "assessment": "Breeze provides a simple published subscription structure and a broad feature set. UK churches should confirm payment availability, Gift Aid workflows, currency exposure and data-protection arrangements before proceeding.",
+    "bestFor": [
+      "Churches that want predictable contact-independent ChMS pricing",
+      "Teams that want a trial and sample-data demo"
+    ],
+    "strengths": [
+      "Flat-rate pricing is clearly published",
+      "A 30-day trial and instant demo are available"
+    ],
+    "limitations": [
+      "Pricing is published in US dollars",
+      "Gift Aid and UK-specific payment support have not been confirmed"
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Breeze pricing",
+      "url": "https://www.breezechms.com/pricing",
+      "checked": "2026-07-25",
+      "supports": ["Pricing", "Free trial", "Core features", "Support", "Import and export"]
+    },
+    {
+      "label": "Breeze free-trial page",
+      "url": "https://www.breezechms.com/lp/try-free",
+      "checked": "2026-07-25",
+      "supports": ["Free trial", "Demo", "Flat-rate pricing"]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Breeze ChMS: UK church software profile",
+    "description": "Independent Breeze ChMS profile covering flat-rate pricing, its trial and core features, with UK Gift Aid and payment unknowns highlighted."
+  }
+}

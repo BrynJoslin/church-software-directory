@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="About the directory"
+  description="Why the UK Church Software Directory exists, who it serves and how it aims to support careful, independent church software decisions."
+  breadcrumbs={[{ label: "About" }]}
+>
+  <section class="section">
+    <div class="container page-grid">
+      <article class="prose">
+        <p class="eyebrow">About the project</p>
+        <h1>Better information for consequential decisions</h1>
+        <p>
+          The UK Church Software Directory helps church administrators, leaders,
+          treasurers, safeguarding teams and volunteers discover and assess
+          software used in ministry and operations.
+        </p>
+        <h2>What makes it different</h2>
+        <p>
+          The directory is designed as a decision resource rather than a list of
+          supplier links. It records sources, dates and uncertainty, and pays
+          attention to UK questions such as Gift Aid, pounds sterling, charity
+          workflows, data protection and support availability.
+        </p>
+        <h2>What it does not do</h2>
+        <p>
+          Inclusion is not endorsement. The site does not provide legal,
+          financial, safeguarding or tax advice, and it does not replace a
+          church's own due diligence.
+        </p>
+        <h2>Current stage</h2>
+        <p>
+          This is an architectural foundation with five representative listings.
+          It demonstrates the research and comparison model; it is not yet a
+          comprehensive catalogue.
+        </p>
+      </article>
+      <aside class="aside-card">
+        <h2>Read next</h2>
+        <ul>
+          <li><a href="/methodology/">Research methodology</a></li>
+          <li><a href="/affiliate-disclosure/">Commercial disclosure</a></li>
+          <li><a href="/guides/">Decision guides</a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

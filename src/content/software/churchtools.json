@@ -1,0 +1,69 @@
+{
+  "name": "ChurchTools",
+  "slug": "churchtools",
+  "shortDescription": "A European church management platform with person-based packages, a 30-day trial, German hosting and service-planning tools.",
+  "officialWebsite": "https://church.tools/en/",
+  "company": "ChurchTools",
+  "ukFocus": "general",
+  "categories": ["church-management", "worship-planning"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches seeking a European-hosted church administration and planning platform"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Published euro and US-dollar packages vary by people, campuses, resources and ministry roles.",
+    "startingPrice": {
+      "amount": 29,
+      "currency": "EUR",
+      "period": "month",
+      "qualifier": "XS package for up to 100 people; listed service prices exclude VAT"
+    }
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "giftAid": "unknown",
+  "demoAvailable": "unknown",
+  "dataHosting": "The supplier states that hosted accounts are hosted in Germany.",
+  "gdprInformation": "The pricing page describes German hosting as GDPR-related; this directory has not independently assessed compliance.",
+  "coreFeatures": [
+    "People administration",
+    "Groups",
+    "Calendars and events",
+    "Check-in",
+    "Service and rota planning",
+    "Church app"
+  ],
+  "integrations": ["Open API"],
+  "importExport": [],
+  "support": ["Email support", "Group training calls during the trial"],
+  "editorial": {
+    "assessment": "ChurchTools adds a European-hosted option to the foundation set and publishes package limits clearly. UK churches still need to verify Gift Aid, sterling payments, support fit and UK regulatory requirements.",
+    "bestFor": [
+      "Churches that value European hosting information",
+      "Teams combining member administration with service planning"
+    ],
+    "strengths": [
+      "Package limits and prices are publicly listed",
+      "The supplier states that hosting is in Germany"
+    ],
+    "limitations": [
+      "No UK-specific Gift Aid support has been confirmed",
+      "Published entry pricing is in euros rather than pounds sterling"
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "ChurchTools pricing",
+      "url": "https://church.tools/en/pricing/",
+      "checked": "2026-07-25",
+      "supports": ["Pricing", "Package limits", "Free trial", "German hosting", "Core features", "Support"]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "ChurchTools: UK church software profile",
+    "description": "Independent ChurchTools profile covering pricing, German hosting, trial and service planning, with UK-specific unknowns made explicit."
+  }
+}

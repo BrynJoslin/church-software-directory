@@ -1,0 +1,22 @@
+---
+import StaticSubmissionForm from "../components/StaticSubmissionForm.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Correct or update a listing"
+  description="Report an inaccurate or outdated software listing and provide current first-party evidence for an independent editorial review."
+  breadcrumbs={[{ label: "Update a listing" }]}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Evidence-led corrections</p>
+      <h1>Correct or update a listing</h1>
+      <p class="measure">
+        Explain what changed and link to current official evidence. Commercial
+        status does not affect whether a supported correction is accepted.
+      </p>
+      <StaticSubmissionForm kind="update" />
+    </div>
+  </section>
+</BaseLayout>

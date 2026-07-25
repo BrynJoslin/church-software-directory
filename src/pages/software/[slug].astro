@@ -1,0 +1,272 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import SoftwareCard from "../../components/SoftwareCard.astro";
+import VerificationBadge from "../../components/VerificationBadge.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  formatDate,
+  formatStartingPrice,
+  pricingModelLabel,
+  triStateLabel,
+  ukFocusLabel
+} from "../../utils/content";
+
+export async function getStaticPaths() {
+  const software = await getCollection("software");
+  return software.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry }
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"software">;
+}
+
+const { entry } = Astro.props;
+const software = entry.data;
+const [allSoftware, categories] = await Promise.all([
+  getCollection("software"),
+  getCollection("categories")
+]);
+const relatedCategories = categories.filter((category) =>
+  software.categories.some((reference) => reference.id === category.id)
+);
+const categoryNames = new Map(
+  categories.map((category) => [category.id, category.data.name])
+);
+const relatedProducts = allSoftware
+  .filter(
+    (candidate) =>
+      candidate.id !== entry.id &&
+      candidate.data.categories.some((candidateCategory) =>
+        software.categories.some(
+          (currentCategory) => currentCategory.id === candidateCategory.id
+        )
+      )
+  )
+  .sort((a, b) => a.data.name.localeCompare(b.data.name))
+  .slice(0, 2);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: software.name,
+  description: software.shortDescription,
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  applicationCategory: "BusinessApplication",
+  operatingSystem: "Web"
+};
+---
+
+<BaseLayout
+  title={software.seo.title}
+  description={software.seo.description}
+  jsonLd={jsonLd}
+  breadcrumbs={[
+    { label: "Software", href: "/software/" },
+    { label: software.name }
+  ]}
+>
+  <section class="section">
+    <div class="container page-grid">
+      <article class="stack">
+        <div class="card-heading">
+          <div class="logo-fallback" aria-hidden="true">
+            {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
+          </div>
+          <div>
+            <p class="eyebrow">Software profile</p>
+            <h1>{software.name}</h1>
+            <VerificationBadge status={software.verificationStatus} />
+          </div>
+        </div>
+        <p class="measure">{software.shortDescription}</p>
+        <div class="cluster">
+          <a
+            class="button"
+            href={software.officialWebsite}
+            rel="noopener noreferrer"
+          >
+            Visit official website
+          </a>
+          <a
+            class="button button--secondary"
+            href={`/compare/?products=${software.slug}`}
+          >
+            Add to comparison
+          </a>
+        </div>
+
+        <section aria-labelledby="assessment-heading">
+          <h2 id="assessment-heading">Directory assessment</h2>
+          <p>{software.editorial.assessment}</p>
+        </section>
+
+        <section aria-labelledby="fit-heading">
+          <h2 id="fit-heading">Best suited to</h2>
+          <ul>{software.editorial.bestFor.map((item) => <li>{item}</li>)}</ul>
+        </section>
+
+        <div class="grid">
+          <section>
+            <h2>Evidence-backed strengths</h2>
+            <ul>{software.editorial.strengths.map((item) => <li>{item}</li>)}</ul>
+          </section>
+          <section>
+            <h2>Limitations and questions</h2>
+            <ul>
+              {software.editorial.limitations.map((item) => <li>{item}</li>)}
+            </ul>
+          </section>
+        </div>
+
+        <section aria-labelledby="features-heading">
+          <h2 id="features-heading">Confirmed core features</h2>
+          {
+            software.coreFeatures.length > 0 ? (
+              <ul>{software.coreFeatures.map((item) => <li>{item}</li>)}</ul>
+            ) : (
+              <p>Not confirmed</p>
+            )
+          }
+        </section>
+
+        <section aria-labelledby="operations-heading">
+          <h2 id="operations-heading">Operations and support</h2>
+          <dl class="detail-list">
+            <div>
+              <dt>Data hosting</dt>
+              <dd>{software.dataHosting ?? "Not confirmed"}</dd>
+            </div>
+            <div>
+              <dt>GDPR information</dt>
+              <dd>{software.gdprInformation ?? "Not confirmed"}</dd>
+            </div>
+            <div>
+              <dt>Integrations</dt>
+              <dd>
+                {software.integrations.length > 0
+                  ? software.integrations.join(", ")
+                  : "Not confirmed"}
+              </dd>
+            </div>
+            <div>
+              <dt>Import and export</dt>
+              <dd>
+                {software.importExport.length > 0
+                  ? software.importExport.join(", ")
+                  : "Not confirmed"}
+              </dd>
+            </div>
+            <div>
+              <dt>Support</dt>
+              <dd>
+                {software.support.length > 0
+                  ? software.support.join(", ")
+                  : "Not confirmed"}
+              </dd>
+            </div>
+          </dl>
+        </section>
+
+        <section aria-labelledby="sources-heading">
+          <h2 id="sources-heading">Official sources</h2>
+          <p>
+            These supplier sources support only the fields named beneath each
+            link. They do not constitute independent testing.
+          </p>
+          <ol class="source-list">
+            {
+              software.sources.map((source) => (
+                <li>
+                  <a href={source.url} rel="noopener noreferrer">
+                    {source.label}
+                  </a>
+                  <br />
+                  <span class="muted">
+                    Checked {formatDate(source.checked)} · Supports:{" "}
+                    {source.supports.join(", ")}
+                  </span>
+                </li>
+              ))
+            }
+          </ol>
+        </section>
+      </article>
+
+      <aside class="aside-card">
+        <h2>At a glance</h2>
+        <dl class="detail-list">
+          <div>
+            <dt>UK focus</dt>
+            <dd>{ukFocusLabel(software.ukFocus)}</dd>
+          </div>
+          <div>
+            <dt>Church sizes</dt>
+            <dd>{software.suitableChurchSizes.join(", ")}</dd>
+          </div>
+          <div>
+            <dt>Pricing model</dt>
+            <dd>{pricingModelLabel(software.pricing.model)}</dd>
+          </div>
+          <div>
+            <dt>Published from</dt>
+            <dd>{formatStartingPrice(software.pricing.startingPrice)}</dd>
+          </div>
+          <div>
+            <dt>Free plan</dt>
+            <dd>{triStateLabel(software.freePlan)}</dd>
+          </div>
+          <div>
+            <dt>Free trial</dt>
+            <dd>{triStateLabel(software.freeTrial)}</dd>
+          </div>
+          <div>
+            <dt>Gift Aid</dt>
+            <dd>{triStateLabel(software.giftAid)}</dd>
+          </div>
+          <div>
+            <dt>Last checked</dt>
+            <dd>{formatDate(software.lastChecked)}</dd>
+          </div>
+        </dl>
+        <p>{software.pricing.summary}</p>
+        {
+          software.pricing.startingPrice?.qualifier && (
+            <p class="muted">{software.pricing.startingPrice.qualifier}.</p>
+          )
+        }
+        <h2>Categories</h2>
+        <ul>
+          {
+            relatedCategories.map((category) => (
+              <li>
+                <a href={`/categories/${category.data.slug}/`}>
+                  {category.data.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="muted">
+          No affiliate relationship. This listing is not sponsored.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  {
+    relatedProducts.length > 0 && (
+      <section class="section section--soft" aria-labelledby="related-heading">
+        <div class="container">
+          <h2 id="related-heading">Related products</h2>
+          <div class="software-grid">
+            {relatedProducts.map((product) => (
+              <SoftwareCard entry={product} categoryNames={categoryNames} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>

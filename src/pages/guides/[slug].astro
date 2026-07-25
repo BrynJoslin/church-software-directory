@@ -1,0 +1,81 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { formatDate } from "../../utils/content";
+
+export async function getStaticPaths() {
+  const guides = await getCollection("guides");
+  return guides.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry }
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"guides">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const categories = await getCollection("categories");
+const relatedCategories = categories.filter((category) =>
+  entry.data.relatedCategories.some((reference) => reference.id === category.id)
+);
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: entry.data.title,
+  description: entry.data.summary,
+  datePublished: entry.data.published.toISOString(),
+  dateModified: entry.data.updated.toISOString(),
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href
+};
+---
+
+<BaseLayout
+  title={entry.data.seo.title}
+  description={entry.data.seo.description}
+  type="article"
+  jsonLd={articleJsonLd}
+  breadcrumbs={[
+    { label: "Guides", href: "/guides/" },
+    { label: entry.data.title }
+  ]}
+>
+  <section class="section">
+    <div class="container page-grid">
+      <article class="prose">
+        <p class="eyebrow">Practical guide</p>
+        <h1>{entry.data.title}</h1>
+        <p>{entry.data.summary}</p>
+        <p class="muted">
+          Published <time datetime={entry.data.published.toISOString().slice(0, 10)}>
+            {formatDate(entry.data.published)}
+          </time>
+          · Updated <time datetime={entry.data.updated.toISOString().slice(0, 10)}>
+            {formatDate(entry.data.updated)}
+          </time>
+        </p>
+        <Content />
+      </article>
+      <aside class="aside-card">
+        <h2>Related categories</h2>
+        <ul>
+          {
+            relatedCategories.map((category) => (
+              <li>
+                <a href={`/categories/${category.data.slug}/`}>
+                  {category.data.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <p>
+          Product and regulatory details can change. Verify material decisions
+          with suppliers and qualified advisers.
+        </p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

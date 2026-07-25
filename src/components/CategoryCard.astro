@@ -1,0 +1,16 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entry: CollectionEntry<"categories">;
+  productCount: number;
+}
+
+const { entry, productCount } = Astro.props;
+---
+
+<article class="plain-card">
+  <p class="eyebrow">{productCount} {productCount === 1 ? "product" : "products"}</p>
+  <h2><a href={`/categories/${entry.data.slug}/`}>{entry.data.name}</a></h2>
+  <p>{entry.data.shortDescription}</p>
+</article>

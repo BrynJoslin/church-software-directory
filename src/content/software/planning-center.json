@@ -1,0 +1,73 @@
+{
+  "name": "Planning Center",
+  "slug": "planning-center",
+  "shortDescription": "A suite of connected church products with a free people database and free usage tiers published across its product range.",
+  "officialWebsite": "https://www.planningcenteronline.com/",
+  "company": "Planning Center",
+  "ukFocus": "general",
+  "categories": ["church-management", "online-giving", "worship-planning"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches that want to adopt separate church operations products gradually"],
+  "pricing": {
+    "model": "freemium",
+    "summary": "People is free and the supplier documents free capacity-limited tiers for its other products; paid limits vary by product.",
+    "startingPrice": {
+      "amount": 0,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Free product tiers; paid costs vary by product and usage"
+    }
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "giftAid": "unknown",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "People database",
+    "Volunteer and service planning",
+    "Giving",
+    "Groups",
+    "Event registrations",
+    "Check-in"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [],
+  "editorial": {
+    "assessment": "Planning Center can be explored with free tiers and expanded product by product. UK churches should verify Gift Aid workflows, payment availability, currency, contracts and data-processing details before shortlisting it.",
+    "bestFor": [
+      "Churches that want a modular product suite",
+      "Teams that need volunteer scheduling and service planning"
+    ],
+    "strengths": [
+      "The People database is documented as free without a profile limit",
+      "Every product has a capacity-limited free tier"
+    ],
+    "limitations": [
+      "No UK-specific Gift Aid support has been confirmed in this review",
+      "A multi-product setup requires careful total-cost and workflow assessment"
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Planning Center free-use guide",
+      "url": "https://support.planningcenteronline.com/hc/en-us/articles/12214037068827-Use-Planning-Center-for-free",
+      "checked": "2026-07-25",
+      "supports": ["Free plan", "Product features", "Free-tier limits"]
+    },
+    {
+      "label": "Planning Center staff preparation guide",
+      "url": "https://support.planningcenteronline.com/hc/en-us/articles/360041781534-Preparing-to-use-Planning-Center-with-your-staff",
+      "checked": "2026-07-25",
+      "supports": ["Free trial", "Free tiers", "Product selection context"]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Planning Center: UK church software profile",
+    "description": "Independent Planning Center profile covering free tiers, service planning and church management, plus UK-specific questions still to verify."
+  }
+}

@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Research methodology"
+  description="How church software entries are selected, sourced, verified, dated, corrected and separated from editorial assessment and commercial interests."
+  breadcrumbs={[{ label: "Methodology" }]}
+>
+  <section class="section">
+    <div class="container page-grid">
+      <article class="prose">
+        <p class="eyebrow">Trust and evidence</p>
+        <h1>Research methodology</h1>
+        <p>
+          The directory aims to make the status of every important claim visible.
+          A supplier source can establish what the supplier publishes; it does not
+          amount to hands-on testing or independent certification.
+        </p>
+
+        <h2>Which products are included</h2>
+        <p>
+          A product must have an active official site and plausible relevance to
+          UK church administration, ministry or operations. The first engineering
+          phase contains only five representative entries.
+        </p>
+
+        <h2>How facts are researched</h2>
+        <ol>
+          <li>Prefer official product, pricing, support and policy pages.</li>
+          <li>Record the source URL, checked date and fields it supports.</li>
+          <li>Keep structured facts separate from directory assessment.</li>
+          <li>Use “Not confirmed” when the evidence does not establish an answer.</li>
+          <li>Do not infer compliance from general marketing language.</li>
+        </ol>
+
+        <h2>Verification statuses</h2>
+        <dl class="stack">
+          <div>
+            <dt>Verified</dt>
+            <dd>
+              The important fields in scope have strong, current evidence and
+              have received editorial review. None of the foundation listings
+              currently uses this status.
+            </dd>
+          </div>
+          <div>
+            <dt>Partially verified</dt>
+            <dd>
+              Several useful fields have current first-party sources, but
+              material unknowns or unreviewed areas remain.
+            </dd>
+          </div>
+          <div>
+            <dt>Needs review</dt>
+            <dd>
+              Evidence is old, incomplete or awaiting editorial review. Treat the
+              entry as a lead for further research.
+            </dd>
+          </div>
+        </dl>
+
+        <h2>Review cycle</h2>
+        <p>
+          The automated stale check currently flags entries more than 180 days
+          after their last checked date. A recent date does not mean every product
+          detail is complete.
+        </p>
+
+        <h2>Corrections</h2>
+        <p>
+          Users and suppliers may submit official evidence. Corrections are
+          assessed on evidence, regardless of commercial status. The submission
+          endpoint is not connected in this foundation build.
+        </p>
+
+        <h2>Commercial independence</h2>
+        <p>
+          Affiliate and sponsored features are disabled. A future relationship
+          must be labelled and must not guarantee positive coverage or ranking.
+        </p>
+      </article>
+      <aside class="aside-card">
+        <h2>Important boundary</h2>
+        <p>
+          Churches should verify legal, security, safeguarding, tax, data-hosting
+          and contractual matters directly with suppliers and appropriate
+          advisers.
+        </p>
+        <p><a href="/update-a-listing/">Point to a correction</a></p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

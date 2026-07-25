@@ -1,0 +1,29 @@
+---
+import { getCollection } from "astro:content";
+import GuideCard from "../../components/GuideCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const guides = (await getCollection("guides")).sort(
+  (a, b) => b.data.updated.getTime() - a.data.updated.getTime()
+);
+---
+
+<BaseLayout
+  title="Church software guides"
+  description="Independent practical guides to church software requirements, data protection, total cost, migration and responsible selection."
+  breadcrumbs={[{ label: "Guides" }]}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Decision support</p>
+      <h1>Church software guides</h1>
+      <p class="measure">
+        Work through the organisational questions before narrowing the product
+        shortlist.
+      </p>
+      <div class="grid">
+        {guides.map((guide) => <GuideCard entry={guide} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

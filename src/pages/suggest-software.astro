@@ -1,0 +1,22 @@
+---
+import StaticSubmissionForm from "../components/StaticSubmissionForm.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Suggest church software"
+  description="Suggest software for future independent research and provide official sources showing why it is relevant to churches in the UK."
+  breadcrumbs={[{ label: "Suggest software" }]}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Future research</p>
+      <h1>Suggest software</h1>
+      <p class="measure">
+        A suggestion is not a request for favourable coverage. Useful suggestions
+        include an official website and evidence of relevance to UK churches.
+      </p>
+      <StaticSubmissionForm kind="suggest" />
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,112 @@
+---
+import { siteConfig } from "../config/site";
+
+interface Props {
+  kind: "suggest" | "update";
+}
+
+const { kind } = Astro.props;
+const isSuggest = kind === "suggest";
+const action = isSuggest
+  ? siteConfig.forms.suggestSoftware
+  : siteConfig.forms.updateListing;
+---
+
+{
+  !siteConfig.forms.enabled && (
+    <div class="notice" role="status">
+      <p>
+        <strong>Submissions are not connected yet.</strong> The form shows the
+        information a future submission will request, but its send button remains
+        disabled until a real endpoint is configured.
+      </p>
+    </div>
+  )
+}
+
+<form class="static-form stack" action={action} method="post">
+  <div class="honeypot" aria-hidden="true">
+    <label for={`${kind}-company-fax`}>Company fax</label>
+    <input
+      id={`${kind}-company-fax`}
+      name="company_fax"
+      type="text"
+      tabindex="-1"
+      autocomplete="off"
+    />
+  </div>
+
+  {
+    isSuggest ? (
+      <>
+        <div class="form-field">
+          <label for="product-name">Software name</label>
+          <input id="product-name" name="product_name" required maxlength="120" />
+        </div>
+        <div class="form-field">
+          <label for="official-website">Official website</label>
+          <input
+            id="official-website"
+            name="official_website"
+            type="url"
+            required
+            placeholder="https://"
+          />
+        </div>
+        <div class="form-field">
+          <label for="relevance">Why is it relevant to UK churches?</label>
+          <textarea id="relevance" name="relevance" required maxlength="1500" />
+        </div>
+      </>
+    ) : (
+      <>
+        <div class="form-field">
+          <label for="listing-url">Directory listing URL</label>
+          <input
+            id="listing-url"
+            name="listing_url"
+            type="url"
+            required
+            placeholder="https://"
+          />
+        </div>
+        <div class="form-field">
+          <label for="correction">What should be corrected or updated?</label>
+          <textarea id="correction" name="correction" required maxlength="2000" />
+        </div>
+      </>
+    )
+  }
+
+  <div class="form-field">
+    <label for={`${kind}-sources`}>
+      Official source URLs
+      <span class="muted">(one per line)</span>
+    </label>
+    <textarea
+      id={`${kind}-sources`}
+      name="source_urls"
+      required
+      placeholder="https://supplier.example/source"
+    />
+  </div>
+  <div class="form-field">
+    <label for={`${kind}-email`}>
+      Email for follow-up <span class="muted">(optional)</span>
+    </label>
+    <input
+      id={`${kind}-email`}
+      name="email"
+      type="email"
+      autocomplete="email"
+    />
+  </div>
+  <p class="muted">
+    Use only business contact details and public evidence. Do not include
+    sensitive church-member information. See the <a href="/privacy/">privacy notice</a>.
+  </p>
+  <button type="submit" disabled={!siteConfig.forms.enabled}>
+    {isSuggest ? "Send suggestion" : "Send correction"}
+  </button>
+  <p aria-live="polite"></p>
+</form>

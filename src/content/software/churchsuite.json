@@ -1,0 +1,85 @@
+{
+  "name": "ChurchSuite",
+  "slug": "churchsuite",
+  "shortDescription": "A modular church management platform with UK-specific giving, Gift Aid and payment information published by the supplier.",
+  "officialWebsite": "https://churchsuite.com/",
+  "company": "ChurchSuite Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "categories": ["church-management", "online-giving", "worship-planning"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches wanting one system for people, rotas, events and giving"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Published GBP pricing varies by active contacts and the number of modules selected.",
+    "startingPrice": {
+      "amount": 9,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "0–99 contacts, one module, monthly billing; VAT inclusive where applicable"
+    }
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Address book",
+    "Volunteer rotas",
+    "Events",
+    "Service planning",
+    "Giving and Gift Aid administration"
+  ],
+  "integrations": ["Stripe for online card donations"],
+  "importExport": ["Self-service data import guidance"],
+  "support": ["Online support articles", "Email support"],
+  "editorial": {
+    "assessment": "ChurchSuite is the clearest UK-specific example in this foundation set. Churches should still map the modules they need and verify data-protection, migration and total-cost details directly.",
+    "bestFor": [
+      "UK churches that need people, rota, event and giving administration together",
+      "Churches that value published GBP pricing"
+    ],
+    "strengths": [
+      "The supplier publishes UK payment and Gift Aid information",
+      "Modules can be selected around a church's needs"
+    ],
+    "limitations": [
+      "Total cost changes with contact count and module selection",
+      "Data hosting and accessibility details have not yet been verified for this listing"
+    ]
+  },
+  "verificationStatus": "partially-verified",
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "ChurchSuite pricing",
+      "url": "https://churchsuite.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": ["Pricing model", "Starting price", "Free trial", "UK payment method", "Support"]
+    },
+    {
+      "label": "ChurchSuite product overview",
+      "url": "https://churchsuite.com/",
+      "checked": "2026-07-25",
+      "supports": ["Core features", "Gift Aid management"]
+    },
+    {
+      "label": "ChurchSuite Giving documentation",
+      "url": "https://support.churchsuite.com/article/455-getting-started-with-the-giving-module",
+      "checked": "2026-07-25",
+      "supports": ["Gift Aid claims", "Giving features", "Stripe integration"]
+    },
+    {
+      "label": "ChurchSuite terms of service",
+      "url": "https://churchsuite.com/terms-of-service/",
+      "checked": "2026-07-25",
+      "supports": ["Supplier legal name", "Country of origin"]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "ChurchSuite: UK church software profile",
+    "description": "Independent ChurchSuite profile covering verified UK pricing, Gift Aid, free-trial and church management information, with clear unknowns."
+  }
+}

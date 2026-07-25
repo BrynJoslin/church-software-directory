@@ -1,0 +1,88 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import SoftwareCard from "../../components/SoftwareCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const categories = await getCollection("categories");
+  return categories.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry }
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"categories">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const [allSoftware, allCategories] = await Promise.all([
+  getCollection("software"),
+  getCollection("categories")
+]);
+const relevantSoftware = allSoftware
+  .filter((software) =>
+    software.data.categories.some((category) => category.id === entry.id)
+  )
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+const categoryNames = new Map(
+  allCategories.map((category) => [category.id, category.data.name])
+);
+---
+
+<BaseLayout
+  title={entry.data.seo.title}
+  description={entry.data.seo.description}
+  breadcrumbs={[
+    { label: "Categories", href: "/categories/" },
+    { label: entry.data.name }
+  ]}
+>
+  <section class="section">
+    <div class="container page-grid">
+      <article class="prose">
+        <p class="eyebrow">Software category</p>
+        <h1>{entry.data.name}</h1>
+        <p>{entry.data.shortDescription}</p>
+        <Content />
+      </article>
+      <aside class="aside-card">
+        <h2>Who usually manages this?</h2>
+        <ul>{entry.data.ownerRoles.map((role) => <li>{role}</li>)}</ul>
+        <h2>UK considerations</h2>
+        <ul>
+          {entry.data.ukConsiderations.map((item) => <li>{item}</li>)}
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="criteria-heading">
+    <div class="container">
+      <h2 id="criteria-heading">Selection criteria</h2>
+      <ul class="measure">
+        {entry.data.selectionCriteria.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="products-heading">
+    <div class="container">
+      <h2 id="products-heading">Products in this category</h2>
+      {
+        relevantSoftware.length > 0 ? (
+          <div class="software-grid">
+            {relevantSoftware.map((software) => (
+              <SoftwareCard entry={software} categoryNames={categoryNames} />
+            ))}
+          </div>
+        ) : (
+          <div class="empty-state">
+            <p>No researched products have been added to this category yet.</p>
+          </div>
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>
