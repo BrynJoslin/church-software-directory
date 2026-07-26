@@ -7,20 +7,111 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "church-websites", "worship-planning", "volunteer-scheduling", "room-bookings", "church-communications"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches wanting one platform for a people database, groups, rotas and a website", "Church groups needing shared administration with restricted access by church or group"],
-  "pricing": {"model": "quote-based", "summary": "ChurchBuilder publishes Essential, Engage and Extend product tiers but the current public material reviewed here does not state their subscription prices. It states that recommended website templates typically have a one-off cost of around £50–£100.", "tiers": [{"label": "Essential", "price": "Contact supplier", "detail": "People database and groups"}, {"label": "Engage", "price": "Contact supplier", "detail": "Adds calendars, rotas, activities and media"}, {"label": "Extend", "price": "Contact supplier", "detail": "Fuller church-management scope; training may be relevant"}]},
+  "categories": [
+    "church-management",
+    "church-websites",
+    "worship-planning",
+    "volunteer-scheduling",
+    "room-bookings",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches wanting one platform for a people database, groups, rotas and a website",
+    "Church groups needing shared administration with restricted access by church or group"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "ChurchBuilder publishes Essential, Engage and Extend product tiers but the current public material reviewed here does not state their subscription prices. It states that recommended website templates typically have a one-off cost of around £50–£100.",
+    "tiers": [
+      {
+        "label": "Essential",
+        "price": "Contact supplier",
+        "detail": "People database and groups"
+      },
+      {
+        "label": "Engage",
+        "price": "Contact supplier",
+        "detail": "Adds calendars, rotas, activities and media"
+      },
+      {
+        "label": "Extend",
+        "price": "Contact supplier",
+        "detail": "Fuller church-management scope; training may be relevant"
+      }
+    ]
+  },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "Ask the supplier for current supplier data-processing terms, hosting location, sub-processors or retention arrangements. The church should obtain these before storing personal data.",
-  "coreFeatures": ["People database and printable directory", "Groups and attendance", "Rotas and service planning", "Calendar and events", "Resource booking", "Mailing lists", "Media library", "Prayer diary", "Website option"],
-  "integrations": ["Supplier states the management system can attach to an existing website or replace it"],
+  "coreFeatures": [
+    "People database and printable directory",
+    "Groups and attendance",
+    "Rotas and service planning",
+    "Calendar and events",
+    "Resource booking",
+    "Mailing lists",
+    "Media library",
+    "Prayer diary",
+    "Website option"
+  ],
+  "integrations": [
+    "Supplier states the management system can attach to an existing website or replace it"
+  ],
   "importExport": [],
-  "support": ["Public support site", "Supplier contact telephone number"],
-  "decisionEvidence": {"uk-purchasing": {"value": "Supplier publishes a UK registered-business number and a Maidenhead registered address.", "state": "supplier-published", "source": "https://www.churchbuilder.co.uk/z/howdoesitwork13", "checked": "2026-07-25"}, "multi-site": {"value": "Supplier describes an Extend configuration for groups of churches with restricted information access.", "state": "supplier-published", "source": "https://www.churchbuilder.co.uk/z/howdoesitwork13", "checked": "2026-07-25"}, "role-permissions": {"value": "Supplier describes permissions and access restrictions in its people and multi-church material.", "state": "supplier-published", "source": "https://www.churchbuilder.co.uk/z/whatischurchbuilder27", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "ChurchBuilder is a long-established UK option for churches that want their public website and administration system to work together, while retaining a route to attach the management tools to an existing site. The crucial decision is whether the church needs that combined model and has an owner for permissions, training and content, rather than simply replacing a directory.", "bestFor": ["Churches combining a website with people, groups, rotas and resource booking", "Multi-church groups needing shared administration with restricted access", "Teams that prefer a staged Essential, Engage or Extend approach"], "strengths": ["Public material describes broad operational coverage across people, planning, communication and websites", "Supports either an attached management system or a combined website", "A UK registered business and UK support surface are visible"], "limitations": ["Ask the supplier about Current subscription prices, data-processing terms, hosting, exports, accessibility and migration support", "A combined website and administration platform still needs named ownership for content, permissions and training", "The church should validate web accessibility, data exit and security requirements in its own implementation"], "procurementVerdict": {"problem": "Churches seeking linked website and administration tools", "differentiator": "Website, people, planning and resource booking are designed as one configurable product", "firstCheck": "Ask for current tier pricing and data terms, then trial actual permissions, rota and website-editor workflows"}},
+  "support": [
+    "Public support site",
+    "Supplier contact telephone number"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Supplier publishes a UK registered-business number and a Maidenhead registered address.",
+      "state": "supplier-published",
+      "source": "https://www.churchbuilder.co.uk/z/howdoesitwork13",
+      "checked": "2026-07-25"
+    },
+    "multi-site": {
+      "value": "Supplier describes an Extend configuration for groups of churches with restricted information access.",
+      "state": "supplier-published",
+      "source": "https://www.churchbuilder.co.uk/z/howdoesitwork13",
+      "checked": "2026-07-25"
+    },
+    "role-permissions": {
+      "value": "Supplier describes permissions and access restrictions in its people and multi-church material.",
+      "state": "supplier-published",
+      "source": "https://www.churchbuilder.co.uk/z/whatischurchbuilder27",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "ChurchBuilder is a long-established UK option for churches that want their public website and administration system to work together, while retaining a route to attach the management tools to an existing site. The crucial decision is whether the church needs that combined model and has an owner for permissions, training and content, rather than simply replacing a directory.",
+    "bestFor": [
+      "Churches combining a website with people, groups, rotas and resource booking",
+      "Multi-church groups needing shared administration with restricted access",
+      "Teams that prefer a staged Essential, Engage or Extend approach"
+    ],
+    "strengths": [
+      "Public material describes broad operational coverage across people, planning, communication and websites",
+      "Supports either an attached management system or a combined website",
+      "A UK registered business and UK support surface are visible"
+    ],
+    "limitations": [
+      "Ask the supplier about Current subscription prices, data-processing terms, hosting, exports, accessibility and migration support",
+      "A combined website and administration platform still needs named ownership for content, permissions and training",
+      "The church should validate web accessibility, data exit and security requirements in its own implementation"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches seeking linked website and administration tools",
+      "differentiator": "Website, people, planning and resource booking are designed as one configurable product",
+      "firstCheck": "Ask for current tier pricing and data terms, then trial actual permissions, rota and website-editor workflows"
+    }
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/churchbuilder/churchbuilder-logo.svg",
@@ -30,9 +121,71 @@
     }
   },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "ChurchBuilder overview", "url": "https://www.churchbuilder.co.uk/", "checked": "2026-07-25", "supports": ["Core features", "Website and management-system scope", "UK church focus"]}, {"label": "ChurchBuilder product tiers", "url": "https://www.churchbuilder.co.uk/z/whatischurchbuilder27", "checked": "2026-07-25", "supports": ["Essential, Engage and Extend scope", "Website approach", "Permissions"]}, {"label": "ChurchBuilder multi-church information", "url": "https://www.churchbuilder.co.uk/z/howdoesitwork13", "checked": "2026-07-25", "supports": ["Multi-church scope", "UK registration", "Website template pricing context"]}, {"label": "Companies House: ChurchBuilder", "url": "https://find-and-update.company-information.service.gov.uk/company/04545056", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/churchbuilder/id1006404751", "rating": 3.5, "maximumRating": 5, "reviewCount": 4, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the ChurchBuilder name."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=uk.co.concordant.churchbuilder", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the ChurchBuilder name; this directory has not recorded an aggregate rating or review count."}],
+  "sources": [
+    {
+      "label": "ChurchBuilder overview",
+      "url": "https://www.churchbuilder.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Core features",
+        "Website and management-system scope",
+        "UK church focus"
+      ]
+    },
+    {
+      "label": "ChurchBuilder product tiers",
+      "url": "https://www.churchbuilder.co.uk/z/whatischurchbuilder27",
+      "checked": "2026-07-25",
+      "supports": [
+        "Essential, Engage and Extend scope",
+        "Website approach",
+        "Permissions"
+      ]
+    },
+    {
+      "label": "ChurchBuilder multi-church information",
+      "url": "https://www.churchbuilder.co.uk/z/howdoesitwork13",
+      "checked": "2026-07-25",
+      "supports": [
+        "Multi-church scope",
+        "UK registration",
+        "Website template pricing context"
+      ]
+    },
+    {
+      "label": "Companies House: ChurchBuilder",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04545056",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/churchbuilder/id1006404751",
+      "rating": 3.5,
+      "maximumRating": 5,
+      "reviewCount": 4,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the ChurchBuilder name."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=uk.co.concordant.churchbuilder",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the ChurchBuilder name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "ChurchBuilder review for UK churches", "description": "Independent ChurchBuilder profile: websites, people records, rotas, multi-church administration and UK due-diligence questions."}
+  "seo": {
+    "title": "ChurchBuilder review for UK churches",
+    "description": "Independent ChurchBuilder profile: websites, people records, rotas, multi-church administration and UK due-diligence questions."
+  }
 }

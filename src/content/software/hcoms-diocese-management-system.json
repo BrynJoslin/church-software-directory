@@ -7,30 +7,156 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "safeguarding", "church-accounting"],
-  "suitableChurchSizes": ["large", "multi-site"],
-  "suitableContexts": ["Church of England dioceses coordinating Church House and parish operational data", "Diocesan teams managing property, compliance, finance and people workflows", "Parishes participating in a diocese-provided portal rather than independently buying church software"],
-  "pricing": {"model": "quote-based", "summary": "HCOMS describes monthly flat-fee product platforms but does not publish DMS prices. Obtain a scoped proposal covering modules, National CMS integration, implementation, migration, hosting, support, data responsibilities and exit costs.", "tiers": [{"label": "Diocese Management System", "price": "Contact supplier", "detail": "Diocesan back-office and parish-facing portal for people, workflows, compliance, property and finance operations"}]},
+  "categories": [
+    "church-management",
+    "safeguarding",
+    "church-accounting"
+  ],
+  "suitableChurchSizes": [
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church of England dioceses coordinating Church House and parish operational data",
+    "Diocesan teams managing property, compliance, finance and people workflows",
+    "Parishes participating in a diocese-provided portal rather than independently buying church software"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "HCOMS describes monthly flat-fee product platforms but does not publish DMS prices. Obtain a scoped proposal covering modules, National CMS integration, implementation, migration, hosting, support, data responsibilities and exit costs.",
+    "tiers": [
+      {
+        "label": "Diocese Management System",
+        "price": "Contact supplier",
+        "detail": "Diocesan back-office and parish-facing portal for people, workflows, compliance, property and finance operations"
+      }
+    ]
+  },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "yes",
   "gdprInformation": "HCOMS says its DMS is hosted on UK Azure and its general terms identify the client as data controller for personal data collected via a website. The reviewed public material does not establish the complete DMS processor agreement, sub-processors, retention, access, incident and export arrangements; a diocese should obtain the current contract and data-processing schedule before sharing parish or safeguarding data.",
-  "coreFeatures": ["Church House back-office", "Parish-facing portal", "Parish, contact, role and interaction records", "Workflow and case management", "Property and quinquennial-inspection workflows", "Faculty and DAC process tracking", "Parish share and return workflows", "Finance and governance dashboards", "National CMS synchronisation", "Role-aware permissions and audit trail"],
-  "integrations": ["Church of England National CMS", "Microsoft 365"],
+  "coreFeatures": [
+    "Church House back-office",
+    "Parish-facing portal",
+    "Parish, contact, role and interaction records",
+    "Workflow and case management",
+    "Property and quinquennial-inspection workflows",
+    "Faculty and DAC process tracking",
+    "Parish share and return workflows",
+    "Finance and governance dashboards",
+    "National CMS synchronisation",
+    "Role-aware permissions and audit trail"
+  ],
+  "integrations": [
+    "Church of England National CMS",
+    "Microsoft 365"
+  ],
   "importExport": [],
-  "support": ["UK team and UK support stated by supplier", "Demo route published"],
+  "support": [
+    "UK team and UK support stated by supplier",
+    "Demo route published"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "HCOMS terms identify Hayes Computing Solutions Ltd as the supplier. The company is registered under number 04254140 and its public material describes it as a Norwich-based UK software studio.", "state": "supplier-published", "source": "https://www.hcoms.co.uk/terms", "checked": "2026-07-25"},
-    "diocesan-scope": {"value": "Supplier describes DMS as a diocesan platform joining Church House staff and parishes across operational areas including property, compliance, finance and people.", "state": "supplier-published", "source": "https://www.hcoms.co.uk/products-dms", "checked": "2026-07-25"},
-    "hosting-and-integration": {"value": "Supplier describes DMS as hosted on UK Azure with two-way National CMS synchronisation.", "state": "supplier-published", "source": "https://www.hcoms.co.uk/", "checked": "2026-07-25"},
-    "data-processing": {"value": "The reviewed public material does not establish the complete DMS data-processing schedule, sub-processors, retention, incident, access or exit arrangements.", "state": "needs-refresh", "source": "https://www.hcoms.co.uk/terms", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "HCOMS terms identify Hayes Computing Solutions Ltd as the supplier. The company is registered under number 04254140 and its public material describes it as a Norwich-based UK software studio.",
+      "state": "supplier-published",
+      "source": "https://www.hcoms.co.uk/terms",
+      "checked": "2026-07-25"
+    },
+    "diocesan-scope": {
+      "value": "Supplier describes DMS as a diocesan platform joining Church House staff and parishes across operational areas including property, compliance, finance and people.",
+      "state": "supplier-published",
+      "source": "https://www.hcoms.co.uk/products-dms",
+      "checked": "2026-07-25"
+    },
+    "hosting-and-integration": {
+      "value": "Supplier describes DMS as hosted on UK Azure with two-way National CMS synchronisation.",
+      "state": "supplier-published",
+      "source": "https://www.hcoms.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "The reviewed public material does not establish the complete DMS data-processing schedule, sub-processors, retention, incident, access or exit arrangements.",
+      "state": "needs-refresh",
+      "source": "https://www.hcoms.co.uk/terms",
+      "checked": "2026-07-25"
+    }
   },
-  "editorial": {"assessment": "HCOMS Diocese Management System is a specialist UK platform for Church of England diocesan operations, not a self-serve parish database. It connects Church House and parish workflows across records, property, compliance, finance and governance, with National CMS synchronisation. It will be relevant where a diocese is selecting a shared operational platform or offering a parish portal; an individual parish should establish whether access is available through its diocese and what information is shared before treating it as a local church-management alternative.", "bestFor": ["Church of England dioceses replacing fragmented operational databases and spreadsheets", "Diocesan teams needing shared Church House and parish workflow data", "Parishes working within a diocese-provided portal"], "strengths": ["Named long-running UK software company", "Specific Church of England diocesan and parish operational scope", "Published National CMS integration and UK Azure hosting statement", "Property, governance, finance and compliance workflows alongside people records"], "limitations": ["Not a self-serve product for an individual parish to buy independently", "Public pricing, implementation and detailed support commitments require a proposal", "Obtain the current DPA, sub-processor, retention, incident, permissions and exit arrangements before transferring sensitive records", "Safeguarding-related workflow mentions do not establish a full safeguarding-case-management system"], "procurementVerdict": {"problem": "Disconnected diocesan and parish operational information across teams and workflows", "differentiator": "A UK platform built around diocesan operations, parish portals and National CMS integration", "firstCheck": "Map the diocese's priority operational workflows and the parish-data boundary, then obtain a scoped proposal and current data-processing schedule"}},
+  "editorial": {
+    "assessment": "HCOMS Diocese Management System is a specialist UK platform for Church of England diocesan operations, not a self-serve parish database. It connects Church House and parish workflows across records, property, compliance, finance and governance, with National CMS synchronisation. It will be relevant where a diocese is selecting a shared operational platform or offering a parish portal; an individual parish should establish whether access is available through its diocese and what information is shared before treating it as a local church-management alternative.",
+    "bestFor": [
+      "Church of England dioceses replacing fragmented operational databases and spreadsheets",
+      "Diocesan teams needing shared Church House and parish workflow data",
+      "Parishes working within a diocese-provided portal"
+    ],
+    "strengths": [
+      "Named long-running UK software company",
+      "Specific Church of England diocesan and parish operational scope",
+      "Published National CMS integration and UK Azure hosting statement",
+      "Property, governance, finance and compliance workflows alongside people records"
+    ],
+    "limitations": [
+      "Not a self-serve product for an individual parish to buy independently",
+      "Public pricing, implementation and detailed support commitments require a proposal",
+      "Obtain the current DPA, sub-processor, retention, incident, permissions and exit arrangements before transferring sensitive records",
+      "Safeguarding-related workflow mentions do not establish a full safeguarding-case-management system"
+    ],
+    "procurementVerdict": {
+      "problem": "Disconnected diocesan and parish operational information across teams and workflows",
+      "differentiator": "A UK platform built around diocesan operations, parish portals and National CMS integration",
+      "firstCheck": "Map the diocese's priority operational workflows and the parish-data boundary, then obtain a scoped proposal and current data-processing schedule"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "HCOMS Diocese Management System", "url": "https://www.hcoms.co.uk/products-dms", "checked": "2026-07-25", "supports": ["Diocesan and parish scope", "Operational workflows", "Dashboard and portal claims"]}, {"label": "HCOMS products", "url": "https://www.hcoms.co.uk/", "checked": "2026-07-25", "supports": ["National CMS synchronisation", "UK Azure statement", "Diocesan deployments"]}, {"label": "HCOMS terms", "url": "https://www.hcoms.co.uk/terms", "checked": "2026-07-25", "supports": ["Operating company", "English-law terms", "General data and exit clauses"]}, {"label": "Companies House: Hayes Computing Solutions Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/04254140", "checked": "2026-07-25", "supports": ["UK company identity", "Company number", "Active status"]}],
+  "sources": [
+    {
+      "label": "HCOMS Diocese Management System",
+      "url": "https://www.hcoms.co.uk/products-dms",
+      "checked": "2026-07-25",
+      "supports": [
+        "Diocesan and parish scope",
+        "Operational workflows",
+        "Dashboard and portal claims"
+      ]
+    },
+    {
+      "label": "HCOMS products",
+      "url": "https://www.hcoms.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "National CMS synchronisation",
+        "UK Azure statement",
+        "Diocesan deployments"
+      ]
+    },
+    {
+      "label": "HCOMS terms",
+      "url": "https://www.hcoms.co.uk/terms",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "English-law terms",
+        "General data and exit clauses"
+      ]
+    },
+    {
+      "label": "Companies House: Hayes Computing Solutions Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04254140",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "Company number",
+        "Active status"
+      ]
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "HCOMS Diocese Management System review", "description": "Independent HCOMS DMS profile: UK diocesan operations, parish portals, National CMS integration and due-diligence questions."},
+  "seo": {
+    "title": "HCOMS Diocese Management System review",
+    "description": "Independent HCOMS DMS profile: UK diocesan operations, parish portals, National CMS integration and due-diligence questions."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/hcoms-diocese-management-system/hcoms-diocese-management-system-logo.png",

@@ -7,29 +7,91 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-websites", "church-communications"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches seeking a managed public website without an in-house web team", "Churches that need website design, hosting and routine updates under one subscription"],
+  "categories": [
+    "church-websites",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches seeking a managed public website without an in-house web team",
+    "Churches that need website design, hosting and routine updates under one subscription"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "UKChurches publishes a £340-per-year Starter package for a four-page website and a Plus package at £45 per month or £432 per year. Confirm VAT, setup charges, domain renewal and any work outside the published package before purchase.",
-    "startingPrice": {"amount": 340, "currency": "GBP", "period": "year", "qualifier": "Starter package"},
-    "tiers": [{"label": "UKC Starter", "price": "£340/year", "detail": "Four-page website, support requests, redesign every two years, social and audio feeds, image library, domain setup, blog, calendar and donation facility"}, {"label": "UKC Plus", "price": "£45/month or £432/year", "detail": "Up to 100 pages, support requests, redesign every two years, forms, blog, calendar and donation facility"}]
+    "startingPrice": {
+      "amount": 340,
+      "currency": "GBP",
+      "period": "year",
+      "qualifier": "Starter package"
+    },
+    "tiers": [
+      {
+        "label": "UKC Starter",
+        "price": "£340/year",
+        "detail": "Four-page website, support requests, redesign every two years, social and audio feeds, image library, domain setup, blog, calendar and donation facility"
+      },
+      {
+        "label": "UKC Plus",
+        "price": "£45/month or £432/year",
+        "detail": "Up to 100 pages, support requests, redesign every two years, forms, blog, calendar and donation facility"
+      }
+    ]
   },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "dataHosting": "UKChurches says it hosts client sites on its servers and its privacy notice refers to servers at its company address within the EEA. The reviewed public material does not establish infrastructure provider, backups, recovery commitments, sub-processors or service levels; obtain the current details before placing personal data in forms or member areas.",
   "gdprInformation": "UKChurches publishes a privacy notice covering customer data, billing, support, retention and data-access requests. The notice does not establish a current data-processing agreement, controller/processor roles for a church website, sub-processors, cookie arrangement or incident process; request the current documents before collecting personal data online.",
-  "coreFeatures": ["Managed church website design", "Hosting and website updates", "Unlimited support requests on published packages", "Blog and events calendar", "Contact forms on the Plus package", "Social-media and audio feeds", "Donation facility", "Domain setup", "Free redesign every two years on published packages"],
-  "integrations": ["Google Analytics", "Google Maps"],
+  "coreFeatures": [
+    "Managed church website design",
+    "Hosting and website updates",
+    "Unlimited support requests on published packages",
+    "Blog and events calendar",
+    "Contact forms on the Plus package",
+    "Social-media and audio feeds",
+    "Donation facility",
+    "Domain setup",
+    "Free redesign every two years on published packages"
+  ],
+  "integrations": [
+    "Google Analytics",
+    "Google Maps"
+  ],
   "importExport": [],
-  "support": ["Email and telephone support Monday to Friday, 9am to 4pm, stated in the supplier agreement", "Supplier states support requests are completed within two business days, excluding weekends and holidays"],
+  "support": [
+    "Email and telephone support Monday to Friday, 9am to 4pm, stated in the supplier agreement",
+    "Supplier states support requests are completed within two business days, excluding weekends and holidays"
+  ],
   "decisionEvidence": {
-    "uk-operation": {"value": "UKChurches publishes a Bristol administrative address and describes itself as a subscription service for UK churches and Christian ministries.", "state": "supplier-published", "source": "https://www.ukchurches.co.uk/ukc-web-design-agreement/", "checked": "2026-07-25"},
-    "service-and-pricing": {"value": "Supplier publishes managed Starter and Plus website packages, including design, build, hosting and updates, with GBP prices.", "state": "supplier-published", "source": "https://www.ukchurches.co.uk/packages/", "checked": "2026-07-25"},
-    "data-processing": {"value": "Supplier privacy notice describes personal-data handling and EEA server storage, but the reviewed material does not establish a current processor agreement, sub-processors, backup and recovery commitments or church-specific cookie terms.", "state": "needs-refresh", "source": "https://www.ukchurches.co.uk/privacy/", "checked": "2026-07-25"},
-    "supplier-identity": {"value": "The supplier publishes its business name and Bristol administrative address but no company-registration number was found in the reviewed public material.", "state": "needs-refresh", "source": "https://www.ukchurches.co.uk/ukc-web-design-agreement/", "checked": "2026-07-25"}
+    "uk-operation": {
+      "value": "UKChurches publishes a Bristol administrative address and describes itself as a subscription service for UK churches and Christian ministries.",
+      "state": "supplier-published",
+      "source": "https://www.ukchurches.co.uk/ukc-web-design-agreement/",
+      "checked": "2026-07-25"
+    },
+    "service-and-pricing": {
+      "value": "Supplier publishes managed Starter and Plus website packages, including design, build, hosting and updates, with GBP prices.",
+      "state": "supplier-published",
+      "source": "https://www.ukchurches.co.uk/packages/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier privacy notice describes personal-data handling and EEA server storage, but the reviewed material does not establish a current processor agreement, sub-processors, backup and recovery commitments or church-specific cookie terms.",
+      "state": "needs-refresh",
+      "source": "https://www.ukchurches.co.uk/privacy/",
+      "checked": "2026-07-25"
+    },
+    "supplier-identity": {
+      "value": "The supplier publishes its business name and Bristol administrative address but no company-registration number was found in the reviewed public material.",
+      "state": "needs-refresh",
+      "source": "https://www.ukchurches.co.uk/ukc-web-design-agreement/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -41,19 +103,77 @@
   },
   "editorial": {
     "assessment": "UKChurches is a managed church-website service rather than a self-managed site builder: it bundles design, hosting, updates and a support route into published GBP packages. That can suit a church without web capacity. Its agreement and privacy notice give a Bristol address, but a company-registration number and more detailed data-processing and exit material were not found in the reviewed sources, so those points should be settled in writing before a church migrates content or collects personal data.",
-    "bestFor": ["Churches wanting a managed public website with ongoing support", "Small teams that prefer supplier-led design and updates", "Churches that value published GBP package prices"],
-    "strengths": ["Church-specific UK service with a published Bristol address", "Public Starter and Plus GBP packages", "Design, hosting, update and support scope stated in the supplier agreement", "Useful public-site features including events, blog and donations"],
-    "limitations": ["No company-registration number was found in the reviewed public material", "Obtain the current DPA, sub-processor, backup, recovery and cookie documentation before signing", "Confirm ownership and export of domain, content, forms and analytics before signing", "It is a managed public-website service, not a full church-management or safeguarding system"],
-    "procurementVerdict": {"problem": "Maintaining a current public church website without in-house design or technical capacity", "differentiator": "A UK church-focused managed subscription that combines design, hosting, updates and support", "firstCheck": "Ask for the current legal entity, a written all-inclusive proposal, data-processing and hosting documentation, and clear content/domain exit terms before migrating a live site"}
+    "bestFor": [
+      "Churches wanting a managed public website with ongoing support",
+      "Small teams that prefer supplier-led design and updates",
+      "Churches that value published GBP package prices"
+    ],
+    "strengths": [
+      "Church-specific UK service with a published Bristol address",
+      "Public Starter and Plus GBP packages",
+      "Design, hosting, update and support scope stated in the supplier agreement",
+      "Useful public-site features including events, blog and donations"
+    ],
+    "limitations": [
+      "No company-registration number was found in the reviewed public material",
+      "Obtain the current DPA, sub-processor, backup, recovery and cookie documentation before signing",
+      "Confirm ownership and export of domain, content, forms and analytics before signing",
+      "It is a managed public-website service, not a full church-management or safeguarding system"
+    ],
+    "procurementVerdict": {
+      "problem": "Maintaining a current public church website without in-house design or technical capacity",
+      "differentiator": "A UK church-focused managed subscription that combines design, hosting, updates and support",
+      "firstCheck": "Ask for the current legal entity, a written all-inclusive proposal, data-processing and hosting documentation, and clear content/domain exit terms before migrating a live site"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "UKChurches website service", "url": "https://www.ukchurches.co.uk/", "checked": "2026-07-25", "supports": ["Church and ministry focus", "Managed design, hosting and support", "Published service activity"]},
-    {"label": "UKChurches packages", "url": "https://www.ukchurches.co.uk/packages/", "checked": "2026-07-25", "supports": ["Starter and Plus prices", "Package features", "Annual Plus price"]},
-    {"label": "UKChurches web design agreement", "url": "https://www.ukchurches.co.uk/ukc-web-design-agreement/", "checked": "2026-07-25", "supports": ["Bristol address", "Subscription model", "Support hours", "Cancellation terms"]},
-    {"label": "UKChurches privacy notice", "url": "https://www.ukchurches.co.uk/privacy/", "checked": "2026-07-25", "supports": ["Published privacy notice", "Retention statement", "EEA storage statement"]}
+    {
+      "label": "UKChurches website service",
+      "url": "https://www.ukchurches.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church and ministry focus",
+        "Managed design, hosting and support",
+        "Published service activity"
+      ]
+    },
+    {
+      "label": "UKChurches packages",
+      "url": "https://www.ukchurches.co.uk/packages/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Starter and Plus prices",
+        "Package features",
+        "Annual Plus price"
+      ]
+    },
+    {
+      "label": "UKChurches web design agreement",
+      "url": "https://www.ukchurches.co.uk/ukc-web-design-agreement/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Bristol address",
+        "Subscription model",
+        "Support hours",
+        "Cancellation terms"
+      ]
+    },
+    {
+      "label": "UKChurches privacy notice",
+      "url": "https://www.ukchurches.co.uk/privacy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published privacy notice",
+        "Retention statement",
+        "EEA storage statement"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "UKChurches review for UK churches", "description": "Independent UKChurches profile: managed church websites, GBP packages, support and supplier due-diligence questions."}
+  "seo": {
+    "title": "UKChurches review for UK churches",
+    "description": "Independent UKChurches profile: managed church websites, GBP packages, support and supplier due-diligence questions."
+  }
 }

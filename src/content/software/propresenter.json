@@ -150,7 +150,16 @@
       ]
     }
   ],
-  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.renewedvision.propresenterremote", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as ProPresenter Remote; this directory has not recorded an aggregate rating or review count."}],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.renewedvision.propresenterremote",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as ProPresenter Remote; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

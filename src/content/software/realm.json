@@ -5,8 +5,16 @@
   "officialWebsite": "https://www.acstechnologies.com/realm/",
   "company": "ACS Technologies",
   "ukFocus": "general",
-  "categories": ["church-management", "online-giving", "church-communications"],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Churches needing an established people and contribution platform",
     "Teams prepared to use a supplier-led trial and pricing conversation"
@@ -46,8 +54,12 @@
     "Multi-campus tools"
   ],
   "integrations": [],
-  "importExport": ["Migration options described by supplier"],
-  "support": ["Subscriber training and support resources"],
+  "importExport": [
+    "Migration options described by supplier"
+  ],
+  "support": [
+    "Subscriber training and support resources"
+  ],
   "editorial": {
     "assessment": "Realm is a substantial US church-management option with a broad people, giving and engagement feature set. Its public price picture is incomplete in this review, so UK churches should establish availability, data processing, payment methods, Gift Aid and total implementation cost before treating it as a viable alternative.",
     "bestFor": [
@@ -108,19 +120,27 @@
       "label": "Realm Inform",
       "url": "https://www.acstechnologies.com/realm/plans/inform/",
       "checked": "2026-07-25",
-      "supports": ["Trial", "Features", "Plan structure"]
+      "supports": [
+        "Trial",
+        "Features",
+        "Plan structure"
+      ]
     },
     {
       "label": "Realm solutions",
       "url": "https://www.acstechnologies.com/realm/solutions/",
       "checked": "2026-07-25",
-      "supports": ["Features"]
+      "supports": [
+        "Features"
+      ]
     },
     {
       "label": "Realm help centre",
       "url": "https://help.acst.com/en/realm",
       "checked": "2026-07-25",
-      "supports": ["Support resources"]
+      "supports": [
+        "Support resources"
+      ]
     }
   ],
   "affiliateRelationship": "no",

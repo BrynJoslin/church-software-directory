@@ -7,21 +7,106 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches that already have or prefer to buy their own iPad or Android tablet and SumUp reader", "Teams seeking a lower-cost contactless giving kiosk without proprietary hardware"],
-  "pricing": {"model": "flat-rate", "summary": "The supplier publishes a £4.99/month Premium plan and states that payment processing uses the church's own SumUp account at SumUp's stated 1.69% fee. The app itself is free to download; confirm current Premium and SumUp charges before purchase.", "startingPrice": {"amount": 4.99, "currency": "GBP", "period": "month", "qualifier": "Premium plan; a compatible tablet and SumUp reader are separate requirements"}, "tiers": [{"label": "Premium", "price": "£4.99/month", "detail": "Supplier-published in-app purchase; Gift Aid is described as a Premium feature"}]},
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches that already have or prefer to buy their own iPad or Android tablet and SumUp reader",
+    "Teams seeking a lower-cost contactless giving kiosk without proprietary hardware"
+  ],
+  "pricing": {
+    "model": "flat-rate",
+    "summary": "The supplier publishes a £4.99/month Premium plan and states that payment processing uses the church's own SumUp account at SumUp's stated 1.69% fee. The app itself is free to download; confirm current Premium and SumUp charges before purchase.",
+    "startingPrice": {
+      "amount": 4.99,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Premium plan; a compatible tablet and SumUp reader are separate requirements"
+    },
+    "tiers": [
+      {
+        "label": "Premium",
+        "price": "£4.99/month",
+        "detail": "Supplier-published in-app purchase; Gift Aid is described as a Premium feature"
+      }
+    ]
+  },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "giftAid": "yes",
   "demoAvailable": "unknown",
   "gdprInformation": "The app-store privacy disclosure identifies data types the developer says may be handled. Ask the supplier for the supplier's full privacy terms, processing agreement, hosting or retention terms.",
-  "coreFeatures": ["Tablet donation kiosk", "Custom giving amounts and branding", "SumUp reader connection", "Contactless, Apple Pay, Google Pay and Chip and PIN", "Gift Aid declaration collection", "Kiosk mode and settings PIN"],
-  "integrations": ["SumUp merchant account and reader", "Google Sheets export for Gift Aid declarations"],
-  "importExport": ["App listing describes Google Sheets export for Gift Aid declarations"],
+  "coreFeatures": [
+    "Tablet donation kiosk",
+    "Custom giving amounts and branding",
+    "SumUp reader connection",
+    "Contactless, Apple Pay, Google Pay and Chip and PIN",
+    "Gift Aid declaration collection",
+    "Kiosk mode and settings PIN"
+  ],
+  "integrations": [
+    "SumUp merchant account and reader",
+    "Google Sheets export for Gift Aid declarations"
+  ],
+  "importExport": [
+    "App listing describes Google Sheets export for Gift Aid declarations"
+  ],
   "support": [],
-  "decisionEvidence": {"uk-purchasing": {"value": "Supplier presents Donation Station as UK-based, and Companies House records Donation Station Ltd.", "state": "supplier-published", "source": "https://donationstation.co.uk/", "checked": "2026-07-25"}, "gbp-pricing": {"value": "Supplier site and App Store record a £4.99/month Premium option.", "state": "supplier-published", "source": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694", "checked": "2026-07-25"}, "gift-aid": {"value": "Supplier describes digital Gift Aid declarations for UK-registered charities as a Premium feature.", "state": "supplier-published", "source": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694", "checked": "2026-07-25"}, "exports": {"value": "Supplier app listing describes exporting Gift Aid declarations to Google Sheets.", "state": "supplier-published", "source": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "Donation Station is a lightweight contactless-kiosk model: the church supplies its tablet and connects its own SumUp merchant account, so payment settlement is not mediated by a proprietary hardware rental arrangement. That can be attractive for cost and ownership, but the church must test device management, connectivity, physical placement, SumUp terms, Gift Aid export and the finance hand-off.", "bestFor": ["Churches that want to reuse a tablet and buy their own SumUp reader", "Small teams seeking a low-cost contactless kiosk", "Churches that prefer donations to settle through their own SumUp account"], "strengths": ["Published low monthly Premium price", "Clear bring-your-own-tablet and SumUp model", "Digital Gift Aid and export to Google Sheets are documented"], "limitations": ["The church remains responsible for compatible hardware, its SumUp account and device administration", "Ask for the privacy, hosting, retention, support and data-processing terms that apply", "Gift Aid eligibility and claims still require the church's own controls and review"], "procurementVerdict": {"problem": "Churches seeking low-cost tablet-based contactless giving", "differentiator": "A church-owned tablet and SumUp account replace proprietary donation hardware", "firstCheck": "Test the complete device, payment, Gift Aid export and reconciliation workflow with the treasurer"}},
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Supplier presents Donation Station as UK-based, and Companies House records Donation Station Ltd.",
+      "state": "supplier-published",
+      "source": "https://donationstation.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier site and App Store record a £4.99/month Premium option.",
+      "state": "supplier-published",
+      "source": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "Supplier describes digital Gift Aid declarations for UK-registered charities as a Premium feature.",
+      "state": "supplier-published",
+      "source": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Supplier app listing describes exporting Gift Aid declarations to Google Sheets.",
+      "state": "supplier-published",
+      "source": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Donation Station is a lightweight contactless-kiosk model: the church supplies its tablet and connects its own SumUp merchant account, so payment settlement is not mediated by a proprietary hardware rental arrangement. That can be attractive for cost and ownership, but the church must test device management, connectivity, physical placement, SumUp terms, Gift Aid export and the finance hand-off.",
+    "bestFor": [
+      "Churches that want to reuse a tablet and buy their own SumUp reader",
+      "Small teams seeking a low-cost contactless kiosk",
+      "Churches that prefer donations to settle through their own SumUp account"
+    ],
+    "strengths": [
+      "Published low monthly Premium price",
+      "Clear bring-your-own-tablet and SumUp model",
+      "Digital Gift Aid and export to Google Sheets are documented"
+    ],
+    "limitations": [
+      "The church remains responsible for compatible hardware, its SumUp account and device administration",
+      "Ask for the privacy, hosting, retention, support and data-processing terms that apply",
+      "Gift Aid eligibility and claims still require the church's own controls and review"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches seeking low-cost tablet-based contactless giving",
+      "differentiator": "A church-owned tablet and SumUp account replace proprietary donation hardware",
+      "firstCheck": "Test the complete device, payment, Gift Aid export and reconciliation workflow with the treasurer"
+    }
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/donation-station/donation-station-logo.svg",
@@ -31,9 +116,53 @@
     }
   },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "Donation Station product overview", "url": "https://donationstation.co.uk/", "checked": "2026-07-25", "supports": ["Tablet and SumUp model", "Published monthly price", "Church use case", "Gift Aid"]}, {"label": "Donation Station App Store listing", "url": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694", "checked": "2026-07-25", "supports": ["Premium price", "Developer identity", "Gift Aid feature", "Google Sheets export", "Privacy disclosure"]}, {"label": "Companies House: Donation Station Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/15933875", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
+  "sources": [
+    {
+      "label": "Donation Station product overview",
+      "url": "https://donationstation.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Tablet and SumUp model",
+        "Published monthly price",
+        "Church use case",
+        "Gift Aid"
+      ]
+    },
+    {
+      "label": "Donation Station App Store listing",
+      "url": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694",
+      "checked": "2026-07-25",
+      "supports": [
+        "Premium price",
+        "Developer identity",
+        "Gift Aid feature",
+        "Google Sheets export",
+        "Privacy disclosure"
+      ]
+    },
+    {
+      "label": "Companies House: Donation Station Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/15933875",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694",
+      "lastChecked": "2026-07-25",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Donation Station review for UK churches", "description": "Independent Donation Station profile: tablet contactless giving, SumUp, UK monthly price, Gift Aid and finance checks."}
+  "seo": {
+    "title": "Donation Station review for UK churches",
+    "description": "Independent Donation Station profile: tablet contactless giving, SumUp, UK monthly price, Gift Aid and finance checks."
+  }
 }

@@ -1,7 +1,7 @@
 {
   "contentAsOf": "2026-07-25",
   "licence": "No reuse licence has yet been selected.",
-  "count": 148,
+  "count": 147,
   "software": [
     {
       "name": "A Church Near You",
@@ -70,7 +70,7 @@
       "name": "Access Charity Website",
       "slug": "access-charity-website",
       "shortDescription": "A UK charity website and fundraising suite with donation, event, shop and Gift Aid capabilities; it is a general charity product rather than church-specific software.",
-      "officialWebsite": "https://www.theaccessgroup.com/en-gb/charity/",
+      "officialWebsite": "https://www.theaccessgroup.com/en-gb/",
       "company": "Access UK Ltd",
       "countryOfOrigin": "United Kingdom",
       "ukFocus": "general",
@@ -2867,128 +2867,6 @@
       ]
     },
     {
-      "name": "Church123",
-      "slug": "church123",
-      "shortDescription": "A UK church website builder and managed hosting service with templates, a browser-based editor, member pages, podcasting, media storage and UK support.",
-      "officialWebsite": "https://www.church123.com/welcome.htm",
-      "company": "BlueberryTwist Ltd",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "strong",
-      "ukOrganisation": "yes",
-      "categories": [
-        "church-websites",
-        "church-communications",
-        "sermon-hosting"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large"
-      ],
-      "pricing": {
-        "model": "flat-rate",
-        "summary": "Church123 publishes UK Webbuilder pricing of £49 per quarter or £195 per year, plus VAT, with an optional domain cost. The supplier says the package includes hosting, templates, editing, 4GB media storage, helpdesk support and regular backups. Confirm any bespoke work, extra storage and renewal costs in writing.",
-        "startingPrice": {
-          "amount": 195,
-          "currency": "GBP",
-          "period": "year",
-          "qualifier": "Webbuilder, excluding VAT; domain extra if required"
-        },
-        "tiers": [
-          {
-            "label": "Webbuilder quarterly",
-            "price": "£49/quarter + VAT",
-            "detail": "Managed church website builder and hosting"
-          },
-          {
-            "label": "Webbuilder annual",
-            "price": "£195/year + VAT",
-            "detail": "Managed church website builder and hosting"
-          },
-          {
-            "label": "Domain name",
-            "price": "From £8/year + VAT",
-            "detail": ".org.uk or .co.uk price published; other domains cost more"
-          }
-        ]
-      },
-      "freePlan": "no",
-      "freeTrial": "yes",
-      "decisionEvidence": {
-        "uk-purchasing": {
-          "value": "Church123's terms identify BlueberryTwist Ltd as provider, registered in England and Wales under company number 04254052.",
-          "state": "supplier-published",
-          "source": "https://www.church123.com/termsandconditions.htm",
-          "checked": "2026-07-25"
-        },
-        "gbp-pricing": {
-          "value": "Church123 publishes UK webbuilder prices of £49 quarterly or £195 annually, plus VAT, and .org.uk or .co.uk domains at £8 annually.",
-          "state": "supplier-published",
-          "source": "https://www.church123.com/uk_church_website_pricing.htm",
-          "checked": "2026-07-25"
-        },
-        "data-processing": {
-          "value": "Current Church123 DPA, privacy notice, data-storage geography and sub-processor documentation are not available in the reviewed public material.",
-          "state": "needs-refresh",
-          "source": "https://www.church123.com/welcome.htm",
-          "checked": "2026-07-25"
-        },
-        "hosting": {
-          "value": "Church123 states that its webbuilder includes hosting, 4GB storage, regular site backups and a nightly-backup aim in its current terms. The reviewed public sources do not establish data-centre location, cloud provider, sub-processors, recovery objectives, service-level commitments or separate arrangements for personal information; obtain these before using member pages or contact forms for sensitive data.",
-          "state": "supplier-published",
-          "source": "https://www.church123.com/uk_church_website_pricing.htm",
-          "checked": "2026-07-25",
-          "sourceLabel": "Church123 UK pricing"
-        }
-      },
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Church123 website",
-          "url": "https://www.church123.com/welcome.htm",
-          "checked": "2026-07-25",
-          "supports": [
-            "Church website focus",
-            "Templates",
-            "30-day trial",
-            "Support"
-          ]
-        },
-        {
-          "label": "Church123 UK pricing",
-          "url": "https://www.church123.com/uk_church_website_pricing.htm",
-          "checked": "2026-07-25",
-          "supports": [
-            "GBP pricing",
-            "VAT",
-            "Domain prices",
-            "Hosting and feature package"
-          ]
-        },
-        {
-          "label": "Church123 service terms",
-          "url": "https://www.church123.com/termsandconditions.htm",
-          "checked": "2026-07-25",
-          "supports": [
-            "Operating company",
-            "UK company number",
-            "Backup approach",
-            "Trial",
-            "Cancellation and deletion position",
-            "Support hours"
-          ]
-        },
-        {
-          "label": "Companies House: BlueberryTwist Ltd",
-          "url": "https://find-and-update.company-information.service.gov.uk/company/04254052",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK-registered organisation"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Churchable",
       "slug": "churchable",
       "shortDescription": "A UK browser-based tool that turns uploaded sermons or sermon notes into clips, devotionals, study guides, downloadable resources and shareable AI-assisted pages.",
@@ -3208,10 +3086,10 @@
       "freePlan": "yes",
       "decisionEvidence": {
         "uk-purchasing": {
-          "value": "ChurchBox says it is powered by Church123; Church123's current service terms identify its provider as BlueberryTwist Ltd, registered in England and Wales under number 04254052.",
-          "state": "supplier-published",
-          "source": "https://www.church123.com/termsandconditions.htm",
-          "checked": "2026-07-25"
+          "value": "Companies House records BlueberryTwist Ltd, the company named in this profile, as registered in England and Wales under number 04254052.",
+          "state": "independent-source",
+          "source": "https://find-and-update.company-information.service.gov.uk/company/04254052",
+          "checked": "2026-07-26"
         },
         "gbp-pricing": {
           "value": "ChurchBox publishes a free tier and a Full Version at £1 per user per year plus VAT, charged in blocks of ten users.",
@@ -3268,16 +3146,6 @@
             "Controller and processor roles",
             "DPA availability",
             "Consent and deletion features"
-          ]
-        },
-        {
-          "label": "Church123 service terms",
-          "url": "https://www.church123.com/termsandconditions.htm",
-          "checked": "2026-07-25",
-          "supports": [
-            "BlueberryTwist Ltd operating company",
-            "UK company number",
-            "UK registered office"
           ]
         },
         {
@@ -6311,13 +6179,13 @@
           ]
         },
         {
-          "label": "FaithFood TV Google Play listing",
-          "url": "https://play.google.com/store/apps/details?id=com.faithfood",
-          "checked": "2026-07-25",
+          "label": "FaithFood TV online TV",
+          "url": "https://faithfood.tv/online-tv",
+          "checked": "2026-07-26",
           "supports": [
-            "Church livestreaming",
-            "Video-upload notifications",
-            "Current app"
+            "Church video player",
+            "Managed updates",
+            "Church video distribution"
           ]
         },
         {
@@ -7328,8 +7196,8 @@
         },
         {
           "label": "GoodtoGive fees terms",
-          "url": "https://www.goodtogive.co.uk/terms-and-conditions/",
-          "checked": "2026-07-25",
+          "url": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
+          "checked": "2026-07-26",
           "supports": [
             "No monthly subscription fee",
             "Published processing fees"
@@ -7403,17 +7271,6 @@
             "Age range",
             "School resources",
             "Group activity"
-          ]
-        },
-        {
-          "label": "Google Play: Guardians of Ancora",
-          "url": "https://play.google.com/store/apps/details?hl=en_IN&id=com.dubitlimited.guardiansofancora",
-          "checked": "2026-07-25",
-          "supports": [
-            "Current app listing",
-            "Language options",
-            "Features",
-            "Developer data-safety declaration"
           ]
         }
       ]

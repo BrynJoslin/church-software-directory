@@ -7,15 +7,34 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["childrens-ministry"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches seeking ready-to-use children’s or youth curriculum", "Teams that need to adapt lessons and share materials with volunteers", "Churches running regular age-group sessions, holiday clubs or one-off events"],
+  "categories": [
+    "childrens-ministry"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking ready-to-use children’s or youth curriculum",
+    "Teams that need to adapt lessons and share materials with volunteers",
+    "Churches running regular age-group sessions, holiday clubs or one-off events"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "RaiseUp Faith publishes a free sampler and paid bands based on the number of children, with monthly or annual billing and a GBP currency selector. The reviewed public pricing result displayed dollar figures rather than the live GBP amounts, so obtain the current UK price, VAT treatment, currency, plan limit, contract and refund terms directly before purchase.",
     "tiers": [
-      {"label": "Free Sampler", "price": "Free", "detail": "A selection of resources, selected streaming and downloads, and stated full platform functionality without payment details."},
-      {"label": "Small to Extra Large", "price": "Published by child-number band", "detail": "Supplier describes paid bands for up to 20, 21–75, 76–150 and 151–300 children, with a bespoke route for larger, multi-site and camp contexts."}
+      {
+        "label": "Free Sampler",
+        "price": "Free",
+        "detail": "A selection of resources, selected streaming and downloads, and stated full platform functionality without payment details."
+      },
+      {
+        "label": "Small to Extra Large",
+        "price": "Published by child-number band",
+        "detail": "Supplier describes paid bands for up to 20, 21–75, 76–150 and 151–300 children, with a bespoke route for larger, multi-site and camp contexts."
+      }
     ],
     "trialDetails": "The supplier offers a free sampler rather than describing a time-limited paid-plan trial in the reviewed material."
   },
@@ -23,15 +42,54 @@
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "RaiseUp Faith links to platform privacy and terms pages, and its partner Energize identifies RaiseUpFaith as the commercial operator for payment processing, call-centre operations, content and subscription management. The reviewed public material does not establish the exact controller-processor allocation for a church account, hosting locations, sub-processors, retention, security commitments or data-export process. Do not upload children’s personal information, safeguarding records or consent data unless the written agreement and the church’s own processes support it.",
-  "coreFeatures": ["Lesson and curriculum library", "Lesson builder", "Customisable scope and sequence", "Lesson downloads", "Unlimited video streaming on paid plans", "Presentation mode", "Folders", "Volunteer-team building and sharing", "Resources for regular sessions and events"],
-  "integrations": ["No public church-management, check-in, attendance, safeguarding or giving-system integration list was found"],
-  "importExport": ["Supplier describes lesson downloads", "No public account, team, lesson-plan or usage-data export specification was found"],
-  "support": ["Contact route at hello@raiseupfaith.com", "Supplier describes team-member allowances by plan", "Support response commitments and onboarding scope require confirmation"],
+  "coreFeatures": [
+    "Lesson and curriculum library",
+    "Lesson builder",
+    "Customisable scope and sequence",
+    "Lesson downloads",
+    "Unlimited video streaming on paid plans",
+    "Presentation mode",
+    "Folders",
+    "Volunteer-team building and sharing",
+    "Resources for regular sessions and events"
+  ],
+  "integrations": [
+    "No public church-management, check-in, attendance, safeguarding or giving-system integration list was found"
+  ],
+  "importExport": [
+    "Supplier describes lesson downloads",
+    "No public account, team, lesson-plan or usage-data export specification was found"
+  ],
+  "support": [
+    "Contact route at hello@raiseupfaith.com",
+    "Supplier describes team-member allowances by plan",
+    "Support response commitments and onboarding scope require confirmation"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records RAISE UP FAITH LTD (10589252) as an active English private limited company, incorporated in 2017, with Bristol registered office and web-portal and educational-support-services SIC codes.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/10589252", "checked": "2026-07-25"},
-    "product-scope": {"value": "Supplier describes a curriculum platform with lesson building, downloads, presentation mode, team sharing, folders and streamed resources that can be adapted to a church's session or event context.", "state": "supplier-published", "source": "https://www.raiseupfaith.com/", "checked": "2026-07-25"},
-    "pricing-model": {"value": "Supplier publishes a free sampler and child-number-based paid plans, monthly or annual billing, and a GBP currency selector. Obtain the exact GBP figures from the live quote or checkout before purchase.", "state": "supplier-published", "source": "https://www.raiseupfaith.com/pricing", "checked": "2026-07-25"},
-    "commercial-operation": {"value": "Energize states that its website is owned by Urban Saints and commercially operated by RaiseUpFaith, including payment processing, call-centre operations, content and subscription management.", "state": "supplier-published", "source": "https://www.energize.uk.net/pages/privacy", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records RAISE UP FAITH LTD (10589252) as an active English private limited company, incorporated in 2017, with Bristol registered office and web-portal and educational-support-services SIC codes.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/10589252",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Supplier describes a curriculum platform with lesson building, downloads, presentation mode, team sharing, folders and streamed resources that can be adapted to a church's session or event context.",
+      "state": "supplier-published",
+      "source": "https://www.raiseupfaith.com/",
+      "checked": "2026-07-25"
+    },
+    "pricing-model": {
+      "value": "Supplier publishes a free sampler and child-number-based paid plans, monthly or annual billing, and a GBP currency selector. Obtain the exact GBP figures from the live quote or checkout before purchase.",
+      "state": "supplier-published",
+      "source": "https://www.raiseupfaith.com/pricing",
+      "checked": "2026-07-25"
+    },
+    "commercial-operation": {
+      "value": "Energize states that its website is owned by Urban Saints and commercially operated by RaiseUpFaith, including payment processing, call-centre operations, content and subscription management.",
+      "state": "supplier-published",
+      "source": "https://www.energize.uk.net/pages/privacy",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -43,19 +101,81 @@
   },
   "editorial": {
     "assessment": "RaiseUp Faith is a distinct UK curriculum-platform option for churches that need more than downloadable lesson PDFs: it combines a resource library with lesson adaptation, presentation and volunteer sharing. It should be compared with the theological and pedagogical fit of the actual curriculum, not only with its platform features. It is not a child check-in, safeguarding-case, pastoral-record or consent-management system, and its public account-data documentation needs strengthening before a church adds personal information to team accounts.",
-    "bestFor": ["Children’s and youth teams that need adaptable, media-rich session material", "Churches giving several volunteers shared access to lesson plans and presentation resources", "Teams wanting a free sampler before committing to a child-number-based subscription"],
-    "strengths": ["Identified active UK supplier", "Free sampler and published plan structure", "Lesson builder, presentation mode, downloads and team sharing described", "Platform supports both ready-made and adapted session planning"],
-    "limitations": ["UK price, VAT and contract details are not clear in the reviewed public pricing result", "A curriculum platform, not a children’s check-in, attendance, consent or safeguarding system", "No public church-data integrations, export specification, DPA, hosting or sub-processor list found", "Churches need to assess theological approach, licensing scope and age appropriateness of actual resources"],
-    "procurementVerdict": {"problem": "Preparing consistent, adaptable children’s and youth sessions without building every lesson from scratch", "differentiator": "A UK curriculum platform pairing a large resource library with lesson-building, presentation and volunteer collaboration", "firstCheck": "Use the free sampler with two children’s leaders, compare a representative month of material to the church’s theology and age groups, then obtain current GBP pricing, licence, privacy, hosting and account-data terms before assigning volunteer accounts"}
+    "bestFor": [
+      "Children’s and youth teams that need adaptable, media-rich session material",
+      "Churches giving several volunteers shared access to lesson plans and presentation resources",
+      "Teams wanting a free sampler before committing to a child-number-based subscription"
+    ],
+    "strengths": [
+      "Identified active UK supplier",
+      "Free sampler and published plan structure",
+      "Lesson builder, presentation mode, downloads and team sharing described",
+      "Platform supports both ready-made and adapted session planning"
+    ],
+    "limitations": [
+      "UK price, VAT and contract details are not clear in the reviewed public pricing result",
+      "A curriculum platform, not a children’s check-in, attendance, consent or safeguarding system",
+      "No public church-data integrations, export specification, DPA, hosting or sub-processor list found",
+      "Churches need to assess theological approach, licensing scope and age appropriateness of actual resources"
+    ],
+    "procurementVerdict": {
+      "problem": "Preparing consistent, adaptable children’s and youth sessions without building every lesson from scratch",
+      "differentiator": "A UK curriculum platform pairing a large resource library with lesson-building, presentation and volunteer collaboration",
+      "firstCheck": "Use the free sampler with two children’s leaders, compare a representative month of material to the church’s theology and age groups, then obtain current GBP pricing, licence, privacy, hosting and account-data terms before assigning volunteer accounts"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "RaiseUp Faith platform overview", "url": "https://www.raiseupfaith.com/", "checked": "2026-07-25", "supports": ["Curriculum platform", "Lesson builder", "Downloads", "Presentation mode", "Team sharing", "Contact route"]},
-    {"label": "RaiseUp Faith pricing", "url": "https://www.raiseupfaith.com/pricing", "checked": "2026-07-25", "supports": ["Free sampler", "Child-number bands", "Billing options", "Currency selector", "Bespoke plan contexts"]},
-    {"label": "Energize privacy notice", "url": "https://www.energize.uk.net/pages/privacy", "checked": "2026-07-25", "supports": ["Commercial operator", "Payment and subscription administration context", "Platform privacy link"]},
-    {"label": "Companies House: RAISE UP FAITH LTD", "url": "https://find-and-update.company-information.service.gov.uk/company/10589252", "checked": "2026-07-25", "supports": ["UK company record", "Active status", "Registered office"]}
+    {
+      "label": "RaiseUp Faith platform overview",
+      "url": "https://www.raiseupfaith.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Curriculum platform",
+        "Lesson builder",
+        "Downloads",
+        "Presentation mode",
+        "Team sharing",
+        "Contact route"
+      ]
+    },
+    {
+      "label": "RaiseUp Faith pricing",
+      "url": "https://www.raiseupfaith.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free sampler",
+        "Child-number bands",
+        "Billing options",
+        "Currency selector",
+        "Bespoke plan contexts"
+      ]
+    },
+    {
+      "label": "Energize privacy notice",
+      "url": "https://www.energize.uk.net/pages/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Commercial operator",
+        "Payment and subscription administration context",
+        "Platform privacy link"
+      ]
+    },
+    {
+      "label": "Companies House: RAISE UP FAITH LTD",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10589252",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company record",
+        "Active status",
+        "Registered office"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "RaiseUp Faith review for UK churches", "description": "Independent RaiseUp Faith profile: UK children’s curriculum platform, pricing structure and safeguarding boundaries."}
+  "seo": {
+    "title": "RaiseUp Faith review for UK churches",
+    "description": "Independent RaiseUp Faith profile: UK children’s curriculum platform, pricing structure and safeguarding boundaries."
+  }
 }

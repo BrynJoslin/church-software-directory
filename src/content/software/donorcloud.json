@@ -7,17 +7,46 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving", "events-ticketing"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches or church charities combining donation campaigns and events", "Teams wanting donations paid directly to their Stripe account", "Organisations seeking Gift Aid declarations and supplier-described HMRC submission workflow"],
+  "categories": [
+    "online-giving",
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches or church charities combining donation campaigns and events",
+    "Teams wanting donations paid directly to their Stripe account",
+    "Organisations seeking Gift Aid declarations and supplier-described HMRC submission workflow"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "DonorCloud publishes Essentials at £0/month plus a 2.5% platform fee, Growth at £39/month plus 1%, and Premium at £99/month with no platform fee. Stripe transaction fees are separate. Ask for the VAT treatment, feature availability and current subscription terms before purchase.",
-    "startingPrice": {"amount": 0, "currency": "GBP", "period": "month", "qualifier": "Essentials plan; 2.5% platform fee and separate Stripe transaction fees apply"},
+    "startingPrice": {
+      "amount": 0,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Essentials plan; 2.5% platform fee and separate Stripe transaction fees apply"
+    },
     "tiers": [
-      {"label": "Essentials", "price": "£0/month + 2.5% platform fee", "detail": "Supplier lists campaigns and events, single and monthly donations, donor CRM and import/export for one user"},
-      {"label": "Growth", "price": "£39/month + 1% platform fee", "detail": "Supplier lists HMRC API Gift Aid submissions, ambassadors, website embeds and two users"},
-      {"label": "Premium", "price": "£99/month + 0% platform fee", "detail": "Supplier lists unlimited Gift Aid submissions and five users"}
+      {
+        "label": "Essentials",
+        "price": "£0/month + 2.5% platform fee",
+        "detail": "Supplier lists campaigns and events, single and monthly donations, donor CRM and import/export for one user"
+      },
+      {
+        "label": "Growth",
+        "price": "£39/month + 1% platform fee",
+        "detail": "Supplier lists HMRC API Gift Aid submissions, ambassadors, website embeds and two users"
+      },
+      {
+        "label": "Premium",
+        "price": "£99/month + 0% platform fee",
+        "detail": "Supplier lists unlimited Gift Aid submissions and five users"
+      }
     ]
   },
   "freePlan": "yes",
@@ -25,22 +54,78 @@
   "demoAvailable": "yes",
   "dataHosting": "The public materials reviewed do not identify current data-hosting locations or a subprocessor list. Ask for the current data-processing agreement, data-residency information, retention, backups, security controls and exit/export procedure before importing donor data.",
   "gdprInformation": "The public privacy policy identifies DonorCloud as a UK company and describes donor data held in a charity's own database, but it is dated November 2023. Request current privacy and contractual processing documents for a church's proposed use.",
-  "coreFeatures": ["Donation campaigns and pages", "Single and monthly donations", "Events, ticket sales and attendee tracking", "Donor CRM and import/export", "Peer-to-peer supporter fundraising", "Gift Aid declarations at checkout", "Supplier-described HMRC API claim submission on paid plans", "Stripe-connected direct payment flow"],
-  "integrations": ["Stripe Connect", "HMRC Charities Online according to the supplier and HMRC commercial-supplier list", "Website embed for campaigns on relevant plans"],
-  "importExport": ["Supplier lists donor CRM import and export on Essentials", "Supplier describes Gift Aid donation export in HMRC format", "Test contact, donation, event and Gift Aid exports before migration"],
-  "support": ["Supplier publishes a telephone support route and demo option", "Onboarding, response times and data-migration assistance should be agreed in the subscription terms"],
+  "coreFeatures": [
+    "Donation campaigns and pages",
+    "Single and monthly donations",
+    "Events, ticket sales and attendee tracking",
+    "Donor CRM and import/export",
+    "Peer-to-peer supporter fundraising",
+    "Gift Aid declarations at checkout",
+    "Supplier-described HMRC API claim submission on paid plans",
+    "Stripe-connected direct payment flow"
+  ],
+  "integrations": [
+    "Stripe Connect",
+    "HMRC Charities Online according to the supplier and HMRC commercial-supplier list",
+    "Website embed for campaigns on relevant plans"
+  ],
+  "importExport": [
+    "Supplier lists donor CRM import and export on Essentials",
+    "Supplier describes Gift Aid donation export in HMRC format",
+    "Test contact, donation, event and Gift Aid exports before migration"
+  ],
+  "support": [
+    "Supplier publishes a telephone support route and demo option",
+    "Onboarding, response times and data-migration assistance should be agreed in the subscription terms"
+  ],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "DonorCloud Limited is an active England-and-Wales company, number 14932398, and the platform is positioned for UK charities and CASCs.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/14932398", "checked": "2026-07-25"},
-    "pricing": {"value": "Supplier publishes £0, £39 and £99 monthly plans with 2.5%, 1% and 0% platform fees respectively; Stripe transaction fees are separate.", "state": "supplier-published", "source": "https://www.donorcloud.co.uk/", "checked": "2026-07-25"},
-    "gift-aid": {"value": "Supplier describes declaration capture and HMRC API submissions on paid plans; HMRC lists DonorCloud Limited as a Charities Online commercial-software supplier.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"},
-    "data": {"value": "Supplier's public privacy policy discusses donor data in a charity's own database, but is dated November 2023 and does not establish current hosting or subprocessor detail.", "state": "needs-refresh", "source": "https://www.donorcloud.co.uk/privacy-policy/", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "DonorCloud Limited is an active England-and-Wales company, number 14932398, and the platform is positioned for UK charities and CASCs.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/14932398",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes £0, £39 and £99 monthly plans with 2.5%, 1% and 0% platform fees respectively; Stripe transaction fees are separate.",
+      "state": "supplier-published",
+      "source": "https://www.donorcloud.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "Supplier describes declaration capture and HMRC API submissions on paid plans; HMRC lists DonorCloud Limited as a Charities Online commercial-software supplier.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "data": {
+      "value": "Supplier's public privacy policy discusses donor data in a charity's own database, but is dated November 2023 and does not establish current hosting or subprocessor detail.",
+      "state": "needs-refresh",
+      "source": "https://www.donorcloud.co.uk/privacy-policy/",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "DonorCloud is a UK charity-fundraising platform that can be relevant where a church needs campaigns, donations, Gift Aid and ticketed events in one system. Its direct-to-Stripe approach and published plan structure make it straightforward to shortlist, but its public legal documents need updating and a church should test real donation, event and claim flows before moving donor data. Gift Aid claims remain a church or charity responsibility even when the supplier supports HMRC submission.",
-    "bestFor": ["Church charities unifying campaigns, giving and ticketed events", "Teams that want their funds paid to a connected Stripe account", "Organisations that need donor import/export and a published Gift Aid-submission option"],
-    "strengths": ["UK company identity and inclusion in HMRC's commercial-software supplier list", "Published GBP plans and platform-fee structure", "Combines donation, campaign, event, donor and Gift Aid features"],
-    "limitations": ["Not designed specifically for church people records, pastoral care, worship rotas or safeguarding", "Stripe processing fees are additional to the platform fee", "Public terms and privacy policy were effective from November 2023 and do not provide current hosting or subprocessor detail"],
-    "procurementVerdict": {"problem": "Managing church-charity campaigns, donations, Gift Aid and ticketed events across disconnected tools", "differentiator": "A UK fundraising platform with direct Stripe payout, published monthly plans and supplier-described HMRC Gift Aid submission", "firstCheck": "Build a small donation campaign and ticketed event, test Stripe settlement and the Gift Aid workflow, then request current data-processing and export terms"}
+    "bestFor": [
+      "Church charities unifying campaigns, giving and ticketed events",
+      "Teams that want their funds paid to a connected Stripe account",
+      "Organisations that need donor import/export and a published Gift Aid-submission option"
+    ],
+    "strengths": [
+      "UK company identity and inclusion in HMRC's commercial-software supplier list",
+      "Published GBP plans and platform-fee structure",
+      "Combines donation, campaign, event, donor and Gift Aid features"
+    ],
+    "limitations": [
+      "Not designed specifically for church people records, pastoral care, worship rotas or safeguarding",
+      "Stripe processing fees are additional to the platform fee",
+      "Public terms and privacy policy were effective from November 2023 and do not provide current hosting or subprocessor detail"
+    ],
+    "procurementVerdict": {
+      "problem": "Managing church-charity campaigns, donations, Gift Aid and ticketed events across disconnected tools",
+      "differentiator": "A UK fundraising platform with direct Stripe payout, published monthly plans and supplier-described HMRC Gift Aid submission",
+      "firstCheck": "Build a small donation campaign and ticketed event, test Stripe settlement and the Gift Aid workflow, then request current data-processing and export terms"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -52,13 +137,63 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "DonorCloud product and pricing", "url": "https://www.donorcloud.co.uk/", "checked": "2026-07-25", "supports": ["UK-charity focus", "Plans and platform fees", "Campaigns", "Events", "Stripe flow", "Gift Aid feature statement"]},
-    {"label": "DonorCloud terms of use", "url": "https://www.donorcloud.co.uk/terms-of-use/", "checked": "2026-07-25", "supports": ["Donation-platform terms", "Transaction and platform-fee context", "Payout description", "Refund and chargeback terms"]},
-    {"label": "DonorCloud privacy policy", "url": "https://www.donorcloud.co.uk/privacy-policy/", "checked": "2026-07-25", "supports": ["Legal identity", "Public data-handling statements", "Policy date"]},
-    {"label": "HMRC: Charities Online commercial software suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["DonorCloud commercial-software supplier listing"]},
-    {"label": "Companies House: DonorCloud Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/14932398", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
+    {
+      "label": "DonorCloud product and pricing",
+      "url": "https://www.donorcloud.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-charity focus",
+        "Plans and platform fees",
+        "Campaigns",
+        "Events",
+        "Stripe flow",
+        "Gift Aid feature statement"
+      ]
+    },
+    {
+      "label": "DonorCloud terms of use",
+      "url": "https://www.donorcloud.co.uk/terms-of-use/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Donation-platform terms",
+        "Transaction and platform-fee context",
+        "Payout description",
+        "Refund and chargeback terms"
+      ]
+    },
+    {
+      "label": "DonorCloud privacy policy",
+      "url": "https://www.donorcloud.co.uk/privacy-policy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal identity",
+        "Public data-handling statements",
+        "Policy date"
+      ]
+    },
+    {
+      "label": "HMRC: Charities Online commercial software suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "DonorCloud commercial-software supplier listing"
+      ]
+    },
+    {
+      "label": "Companies House: DonorCloud Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14932398",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Active status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "DonorCloud review for UK churches", "description": "Independent DonorCloud profile for UK church charities: donations, events, Gift Aid submission, Stripe payouts, plans and data questions."}
+  "seo": {
+    "title": "DonorCloud review for UK churches",
+    "description": "Independent DonorCloud profile for UK church charities: donations, events, Gift Aid submission, Stripe payouts, plans and data questions."
+  }
 }

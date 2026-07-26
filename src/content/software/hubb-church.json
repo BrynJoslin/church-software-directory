@@ -7,25 +7,154 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "church-websites", "church-mobile-apps", "church-communications", "online-giving", "volunteer-scheduling", "room-bookings", "sermon-hosting"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches seeking a connected website, app and administration platform", "Teams wanting to publish events, communications and media from a shared system", "Churches evaluating people, giving, rotas and resource-booking tools alongside a site"],
-  "pricing": {"model": "quote-based", "summary": "The current public product pages available to this review did not provide a dependable, complete price list. Request a current written quote covering subscription, website templates, app publishing, payment charges, onboarding and any optional modules.", "tiers": [{"label": "Hubb.Church platform", "price": "Contact supplier", "detail": "Public material describes connected website, app and church-management tools"}]},
+  "categories": [
+    "church-management",
+    "church-websites",
+    "church-mobile-apps",
+    "church-communications",
+    "online-giving",
+    "volunteer-scheduling",
+    "room-bookings",
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking a connected website, app and administration platform",
+    "Teams wanting to publish events, communications and media from a shared system",
+    "Churches evaluating people, giving, rotas and resource-booking tools alongside a site"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "The current public product pages available to this review did not provide a dependable, complete price list. Request a current written quote covering subscription, website templates, app publishing, payment charges, onboarding and any optional modules.",
+    "tiers": [
+      {
+        "label": "Hubb.Church platform",
+        "price": "Contact supplier",
+        "detail": "Public material describes connected website, app and church-management tools"
+      }
+    ]
+  },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "Public product information accessible to this review did not provide the current supplier privacy and data-processing documents. Because the platform can hold people, giving and communication data, obtain the current data-processing agreement, hosting details, permissions and exit process before adoption.",
-  "coreFeatures": ["Church website builder", "Church mobile app", "People and groups", "Calendar and events", "Rotas and serving", "Giving and donations", "Rooms and equipment", "Mailing and newsletters", "Sermons and podcasts"],
+  "coreFeatures": [
+    "Church website builder",
+    "Church mobile app",
+    "People and groups",
+    "Calendar and events",
+    "Rotas and serving",
+    "Giving and donations",
+    "Rooms and equipment",
+    "Mailing and newsletters",
+    "Sermons and podcasts"
+  ],
   "integrations": [],
   "importExport": [],
-  "support": ["Published supplier support telephone and email"],
-  "decisionEvidence": {"uk-operator": {"value": "Hubb Digital Limited is an active UK company; it was previously named Endis Limited, the entity identified in a public Hubb.Church service-terms notice.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/04072126", "checked": "2026-07-25"}, "hmrc-claiming": {"value": "HMRC's current commercial-supplier list identifies Hubb.Digital and its Hubb.Church website and management system.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"}, "church-scope": {"value": "Public church-facing material describes website, app, people, rotas, giving, rooms, newsletters and sermons within Hubb.", "state": "independent-source", "source": "https://tamworthbaptists.org.uk/wp-content/uploads/2024/06/BaptistsTogether_Summer2024.pdf", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "Hubb.Church is a long-established UK all-in-one option that brings a church website, app and administration features into one platform. It may appeal to churches that want shared publishing and operations rather than separate website and database suppliers. Its publicly crawlable product information is currently incomplete, so the purchase conversation should establish current features, price, data terms and exports in writing.", "bestFor": ["Churches wanting an integrated website, app and church-administration system", "Teams coordinating events, news, rotas, people and media from one platform", "Churches that value a UK supplier and are prepared to test the combined workflow carefully"], "strengths": ["Active UK operator with a long trading history", "HMRC currently lists the supplier's website and management system", "Church-focused material describes broad coverage across public and administrative workflows"], "limitations": ["A full current public pricing and data-processing pack was not available in the product pages reviewed", "Combined website and administration products need robust ownership, permission and content workflows", "Confirm current imports, exports, payment costs, accessibility and exit arrangements before migration"], "procurementVerdict": {"problem": "Separate website, app, communications and administration tools creating duplicate work", "differentiator": "A UK church-specific platform designed to combine public content with administration", "firstCheck": "Request current product and data documentation, then trial an event-to-website-to-app-to-rota workflow using real permissions"}},
+  "support": [
+    "Published supplier support telephone and email"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Hubb Digital Limited is an active UK company; it was previously named Endis Limited, the entity identified in a public Hubb.Church service-terms notice.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/04072126",
+      "checked": "2026-07-25"
+    },
+    "hmrc-claiming": {
+      "value": "HMRC's current commercial-supplier list identifies Hubb.Digital and its Hubb.Church website and management system.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "church-scope": {
+      "value": "Public church-facing material describes website, app, people, rotas, giving, rooms, newsletters and sermons within Hubb.",
+      "state": "independent-source",
+      "source": "https://tamworthbaptists.org.uk/wp-content/uploads/2024/06/BaptistsTogether_Summer2024.pdf",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Hubb.Church is a long-established UK all-in-one option that brings a church website, app and administration features into one platform. It may appeal to churches that want shared publishing and operations rather than separate website and database suppliers. Its publicly crawlable product information is currently incomplete, so the purchase conversation should establish current features, price, data terms and exports in writing.",
+    "bestFor": [
+      "Churches wanting an integrated website, app and church-administration system",
+      "Teams coordinating events, news, rotas, people and media from one platform",
+      "Churches that value a UK supplier and are prepared to test the combined workflow carefully"
+    ],
+    "strengths": [
+      "Active UK operator with a long trading history",
+      "HMRC currently lists the supplier's website and management system",
+      "Church-focused material describes broad coverage across public and administrative workflows"
+    ],
+    "limitations": [
+      "A full current public pricing and data-processing pack was not available in the product pages reviewed",
+      "Combined website and administration products need robust ownership, permission and content workflows",
+      "Confirm current imports, exports, payment costs, accessibility and exit arrangements before migration"
+    ],
+    "procurementVerdict": {
+      "problem": "Separate website, app, communications and administration tools creating duplicate work",
+      "differentiator": "A UK church-specific platform designed to combine public content with administration",
+      "firstCheck": "Request current product and data documentation, then trial an event-to-website-to-app-to-rota workflow using real permissions"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "Hubb.Church website", "url": "https://hubb.church/", "checked": "2026-07-25", "supports": ["Official product website", "Supplier support contact"]}, {"label": "HMRC: Charities Online commercial software suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Hubb.Church system listing"]}, {"label": "Companies House: Hubb Digital Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/04072126", "checked": "2026-07-25", "supports": ["Active UK operator", "Former Endis Limited name"]}, {"label": "Baptists Together: Hubb feature summary", "url": "https://tamworthbaptists.org.uk/wp-content/uploads/2024/06/BaptistsTogether_Summer2024.pdf", "checked": "2026-07-25", "supports": ["Church feature scope", "Baptist church offer"]}, {"label": "Public Hubb.Church service-terms notice", "url": "https://maxwellchurch.com/terms-and-conditions/", "checked": "2026-07-25", "supports": ["Trading-name relationship", "Historic public privacy-policy reference"]}],
+  "sources": [
+    {
+      "label": "Hubb.Church website",
+      "url": "https://hubb.church/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Official product website",
+        "Supplier support contact"
+      ]
+    },
+    {
+      "label": "HMRC: Charities Online commercial software suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Hubb.Church system listing"
+      ]
+    },
+    {
+      "label": "Companies House: Hubb Digital Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04072126",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK operator",
+        "Former Endis Limited name"
+      ]
+    },
+    {
+      "label": "Baptists Together: Hubb feature summary",
+      "url": "https://tamworthbaptists.org.uk/wp-content/uploads/2024/06/BaptistsTogether_Summer2024.pdf",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church feature scope",
+        "Baptist church offer"
+      ]
+    },
+    {
+      "label": "Public Hubb.Church service-terms notice",
+      "url": "https://maxwellchurch.com/terms-and-conditions/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Trading-name relationship",
+        "Historic public privacy-policy reference"
+      ]
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Hubb.Church review for UK churches", "description": "Independent Hubb.Church profile for UK churches: website, app, admin, giving, communications and procurement checks."},
+  "seo": {
+    "title": "Hubb.Church review for UK churches",
+    "description": "Independent Hubb.Church profile for UK churches: website, app, admin, giving, communications and procurement checks."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/hubb-church/hubb-church-logo.png",

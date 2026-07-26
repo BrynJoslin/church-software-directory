@@ -7,25 +7,153 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-accounting", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches wanting a specialist tool to record Gift Aid donors, donations and claims", "Volunteer treasurers or giving secretaries handling Gift Aid and GASDS separately from their accounts package"],
-  "pricing": {"model": "tiered", "summary": "Fund Filer advertises pricing from £1.90 per week, payable monthly or annually, with cancellation at any time. Its public price material should be checked for the band that applies to the church's donation volume.", "tiers": [{"label": "Fund Filer subscription", "price": "from £1.90/week", "detail": "Online Gift Aid management; monthly or annual payment is advertised"}], "trialDetails": "A six-week trial without payment details is advertised."},
+  "categories": [
+    "church-accounting",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches wanting a specialist tool to record Gift Aid donors, donations and claims",
+    "Volunteer treasurers or giving secretaries handling Gift Aid and GASDS separately from their accounts package"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Fund Filer advertises pricing from £1.90 per week, payable monthly or annually, with cancellation at any time. Its public price material should be checked for the band that applies to the church's donation volume.",
+    "tiers": [
+      {
+        "label": "Fund Filer subscription",
+        "price": "from £1.90/week",
+        "detail": "Online Gift Aid management; monthly or annual payment is advertised"
+      }
+    ],
+    "trialDetails": "A six-week trial without payment details is advertised."
+  },
   "freePlan": "no",
   "freeTrial": "yes",
   "demoAvailable": "unknown",
   "gdprInformation": "Fund Filer links to a public privacy policy and terms. As the service holds donor and Gift Aid information, a church should review those current documents, access controls, data export and its own retention responsibilities before use.",
-  "coreFeatures": ["Gift Aid donor and donation records", "HMRC online claim preparation", "GASDS claim support", "Reports for finance teams", "Multiple user access"],
+  "coreFeatures": [
+    "Gift Aid donor and donation records",
+    "HMRC online claim preparation",
+    "GASDS claim support",
+    "Reports for finance teams",
+    "Multiple user access"
+  ],
   "integrations": [],
   "importExport": [],
-  "support": ["Supplier contact telephone and email", "Online product and update resources"],
-  "decisionEvidence": {"hmrc-claiming": {"value": "Fund Filer is included in HMRC's current list of commercial software suppliers for Charities Online.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"}, "gbp-pricing": {"value": "Supplier advertises subscriptions from £1.90 per week, payable monthly or annually.", "state": "supplier-published", "source": "https://www.fundfiler.com/", "checked": "2026-07-25"}, "data-processing": {"value": "Supplier links public privacy and service-term pages from its product website.", "state": "supplier-published", "source": "https://www.fundfiler.com/privacy", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "Fund Filer is a specialised Gift Aid-management tool for churches and charities, not a general ledger or all-in-one church-management system. Its narrow focus may suit a church that wants to improve Gift Aid and GASDS administration without replacing its existing accounts package. The treasurer should test current donor imports, export options and hand-over process in the trial.", "bestFor": ["Churches retaining a separate accounts package but needing a dedicated Gift Aid workflow", "Giving secretaries who need to record donors and donations before preparing claims", "Teams wanting a relatively low-cost, UK-focused starting point for Gift Aid administration"], "strengths": ["The supplier publishes a six-week trial and entry price", "HMRC currently lists Fund Filer as a commercial Charities Online supplier", "Public material describes Gift Aid, GASDS, reports and multiple users"], "limitations": ["It is not a full accounting or church-management platform", "Confirm how existing donation data can be imported or exported", "Review the current privacy, terms, backup, access and retention arrangements before importing donor records"], "procurementVerdict": {"problem": "Gift Aid and GASDS administration becoming difficult to manage in spreadsheets", "differentiator": "A focused online claim-management tool for UK charities and churches", "firstCheck": "Use the trial to run a representative donation record through the claim and finance-report workflow"}},
+  "support": [
+    "Supplier contact telephone and email",
+    "Online product and update resources"
+  ],
+  "decisionEvidence": {
+    "hmrc-claiming": {
+      "value": "Fund Filer is included in HMRC's current list of commercial software suppliers for Charities Online.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier advertises subscriptions from £1.90 per week, payable monthly or annually.",
+      "state": "supplier-published",
+      "source": "https://www.fundfiler.com/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier links public privacy and service-term pages from its product website.",
+      "state": "supplier-published",
+      "source": "https://www.fundfiler.com/privacy",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Fund Filer is a specialised Gift Aid-management tool for churches and charities, not a general ledger or all-in-one church-management system. Its narrow focus may suit a church that wants to improve Gift Aid and GASDS administration without replacing its existing accounts package. The treasurer should test current donor imports, export options and hand-over process in the trial.",
+    "bestFor": [
+      "Churches retaining a separate accounts package but needing a dedicated Gift Aid workflow",
+      "Giving secretaries who need to record donors and donations before preparing claims",
+      "Teams wanting a relatively low-cost, UK-focused starting point for Gift Aid administration"
+    ],
+    "strengths": [
+      "The supplier publishes a six-week trial and entry price",
+      "HMRC currently lists Fund Filer as a commercial Charities Online supplier",
+      "Public material describes Gift Aid, GASDS, reports and multiple users"
+    ],
+    "limitations": [
+      "It is not a full accounting or church-management platform",
+      "Confirm how existing donation data can be imported or exported",
+      "Review the current privacy, terms, backup, access and retention arrangements before importing donor records"
+    ],
+    "procurementVerdict": {
+      "problem": "Gift Aid and GASDS administration becoming difficult to manage in spreadsheets",
+      "differentiator": "A focused online claim-management tool for UK charities and churches",
+      "firstCheck": "Use the trial to run a representative donation record through the claim and finance-report workflow"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "Fund Filer overview", "url": "https://www.fundfiler.com/", "checked": "2026-07-25", "supports": ["Gift Aid management scope", "GASDS scope", "Entry pricing", "Free trial", "Multiple users"]}, {"label": "Fund Filer prices", "url": "https://www.fundfiler.com/prices", "checked": "2026-07-25", "supports": ["Current supplier pricing page"]}, {"label": "Fund Filer terms", "url": "https://www.fundfiler.com/terms", "checked": "2026-07-25", "supports": ["Published service terms"]}, {"label": "Fund Filer privacy policy", "url": "https://www.fundfiler.com/privacy", "checked": "2026-07-25", "supports": ["Published privacy policy"]}, {"label": "HMRC: Charities Online commercial software suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Charities Online supplier listing"]}, {"label": "Companies House: Fund Filer Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/06979043", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
+  "sources": [
+    {
+      "label": "Fund Filer overview",
+      "url": "https://www.fundfiler.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Gift Aid management scope",
+        "GASDS scope",
+        "Entry pricing",
+        "Free trial",
+        "Multiple users"
+      ]
+    },
+    {
+      "label": "Fund Filer prices",
+      "url": "https://www.fundfiler.com/prices",
+      "checked": "2026-07-25",
+      "supports": [
+        "Current supplier pricing page"
+      ]
+    },
+    {
+      "label": "Fund Filer terms",
+      "url": "https://www.fundfiler.com/terms",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published service terms"
+      ]
+    },
+    {
+      "label": "Fund Filer privacy policy",
+      "url": "https://www.fundfiler.com/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published privacy policy"
+      ]
+    },
+    {
+      "label": "HMRC: Charities Online commercial software suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Charities Online supplier listing"
+      ]
+    },
+    {
+      "label": "Companies House: Fund Filer Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06979043",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Fund Filer review for UK churches", "description": "Independent Fund Filer profile for UK churches: Gift Aid and GASDS claims, pricing, trial and data-handling checks."},
+  "seo": {
+    "title": "Fund Filer review for UK churches",
+    "description": "Independent Fund Filer profile for UK churches: Gift Aid and GASDS claims, pricing, trial and data-handling checks."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/fund-filer/fund-filer-logo.png",

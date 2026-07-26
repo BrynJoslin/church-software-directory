@@ -7,17 +7,46 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["volunteer-scheduling", "church-communications"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches coordinating recurring volunteer shifts and teams", "Churches that need a volunteer directory, rota and communications in one service", "Churches seeking a general charity-sector system rather than church-specific member management"],
+  "categories": [
+    "volunteer-scheduling",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches coordinating recurring volunteer shifts and teams",
+    "Churches that need a volunteer directory, rota and communications in one service",
+    "Churches seeking a general charity-sector system rather than church-specific member management"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Three Rings bases annual prices on an organisation's turnover. Its current account page says a typical small helpline or volunteer-run library would pay about £174 a year including VAT from April 2025, while a major national charity is likely to pay about £270 including VAT; the supplier says the smallest or new organisations may be eligible for free access. Confirm the applicable annual invoice, VAT treatment, SMS-credit cost and any dedicated-server charge before purchase.",
-    "startingPrice": {"amount": 174, "currency": "GBP", "period": "year", "qualifier": "illustrative typical annual price including VAT, not a fixed entry tier"},
+    "startingPrice": {
+      "amount": 174,
+      "currency": "GBP",
+      "period": "year",
+      "qualifier": "illustrative typical annual price including VAT, not a fixed entry tier"
+    },
     "tiers": [
-      {"label": "Small or new organisation", "price": "May be free", "detail": "Supplier says it may provide free access for the smallest charities or brand-new organisations."},
-      {"label": "Typical small organisation", "price": "About £174/year including VAT", "detail": "Supplier's April 2025 illustrative price for a typical helpline or volunteer-run library."},
-      {"label": "Major national charity", "price": "About £270/year including VAT", "detail": "Supplier's April 2025 illustrative price for an organisation with considerable grant and lottery income."}
+      {
+        "label": "Small or new organisation",
+        "price": "May be free",
+        "detail": "Supplier says it may provide free access for the smallest charities or brand-new organisations."
+      },
+      {
+        "label": "Typical small organisation",
+        "price": "About £174/year including VAT",
+        "detail": "Supplier's April 2025 illustrative price for a typical helpline or volunteer-run library."
+      },
+      {
+        "label": "Major national charity",
+        "price": "About £270/year including VAT",
+        "detail": "Supplier's April 2025 illustrative price for an organisation with considerable grant and lottery income."
+      }
     ],
     "trialDetails": "Supplier offers a free trial after contact, as well as an hour-long demo."
   },
@@ -25,15 +54,54 @@
   "freeTrial": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "Three Rings CIC publishes terms identifying the church or other client as controller and itself as processor for system data. Its public statements describe UK-based application storage, UK and EEA backups, encrypted connections, access controls, action logging, a named DPO and an email sub-processor arrangement. The current terms say client data can be exported or destroyed at termination; request the current export method, data-processing schedule, sub-processor contract details and restoration process before loading personal or confidential material.",
-  "coreFeatures": ["Volunteer rota with self-sign-up or administrator allocation", "Volunteer directory and role-based access", "Built-in email and SMS communications", "Shift-gap and volunteer statistics", "Access-controlled file repository", "Customisable administration", "Data-deletion reminders", "Personal-information reports"],
-  "integrations": ["SMS/text messaging through third-party text credits; confirm current provider and data-processing arrangement"],
-  "importExport": ["Supplier says annual access includes custom data imports from an old system", "Current terms describe client choice to export or destroy client data at termination; confirm file formats, assistance, timing and any cost"],
-  "support": ["Supplier publishes an hour-long demo route", "Supplier offers a free trial route", "Supplier says support can be contacted any day of the year and promises a reply within 24 hours", "Annual subscription includes setup advice and new releases according to the published account page"],
+  "coreFeatures": [
+    "Volunteer rota with self-sign-up or administrator allocation",
+    "Volunteer directory and role-based access",
+    "Built-in email and SMS communications",
+    "Shift-gap and volunteer statistics",
+    "Access-controlled file repository",
+    "Customisable administration",
+    "Data-deletion reminders",
+    "Personal-information reports"
+  ],
+  "integrations": [
+    "SMS/text messaging through third-party text credits; confirm current provider and data-processing arrangement"
+  ],
+  "importExport": [
+    "Supplier says annual access includes custom data imports from an old system",
+    "Current terms describe client choice to export or destroy client data at termination; confirm file formats, assistance, timing and any cost"
+  ],
+  "support": [
+    "Supplier publishes an hour-long demo route",
+    "Supplier offers a free trial route",
+    "Supplier says support can be contacted any day of the year and promises a reply within 24 hours",
+    "Annual subscription includes setup advice and new releases according to the published account page"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Three Rings identifies its operator as Three Rings CIC, company 06820837 registered in England and Wales; Companies House lists the active CIC in Witney.", "state": "supplier-published", "source": "https://threerings.org.uk/terms-and-conditions/terms-and-conditions/", "checked": "2026-07-25"},
-    "volunteer-workflow": {"value": "Supplier describes rota self-sign-up or allocation, a volunteer directory, email and SMS communications, statistics, role-limited document sharing and administration tools.", "state": "supplier-published", "source": "https://threerings.org.uk/get-a-3r-account/features/", "checked": "2026-07-25"},
-    "pricing-and-access": {"value": "Supplier states that pricing is annual and turnover-based, gives illustrative prices from about £174 to about £270 including VAT, may offer free access to the smallest organisations, and offers both a demo and free trial.", "state": "supplier-published", "source": "https://threerings.org.uk/get-a-3r-account/get-an-account/", "checked": "2026-07-25"},
-    "data-handling": {"value": "Supplier's public terms and GDPR statement describe controller/processor roles, UK and EEA storage arrangements, access controls, action logging, contractual sub-processor restrictions and termination handling.", "state": "supplier-published", "source": "https://threerings.org.uk/terms-and-conditions/terms-and-conditions/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Three Rings identifies its operator as Three Rings CIC, company 06820837 registered in England and Wales; Companies House lists the active CIC in Witney.",
+      "state": "supplier-published",
+      "source": "https://threerings.org.uk/terms-and-conditions/terms-and-conditions/",
+      "checked": "2026-07-25"
+    },
+    "volunteer-workflow": {
+      "value": "Supplier describes rota self-sign-up or allocation, a volunteer directory, email and SMS communications, statistics, role-limited document sharing and administration tools.",
+      "state": "supplier-published",
+      "source": "https://threerings.org.uk/get-a-3r-account/features/",
+      "checked": "2026-07-25"
+    },
+    "pricing-and-access": {
+      "value": "Supplier states that pricing is annual and turnover-based, gives illustrative prices from about £174 to about £270 including VAT, may offer free access to the smallest organisations, and offers both a demo and free trial.",
+      "state": "supplier-published",
+      "source": "https://threerings.org.uk/get-a-3r-account/get-an-account/",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "Supplier's public terms and GDPR statement describe controller/processor roles, UK and EEA storage arrangements, access controls, action logging, contractual sub-processor restrictions and termination handling.",
+      "state": "supplier-published",
+      "source": "https://threerings.org.uk/terms-and-conditions/terms-and-conditions/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -45,22 +113,118 @@
   },
   "editorial": {
     "assessment": "Three Rings is a mature UK general charity-sector option for a church whose immediate problem is volunteer coordination rather than member management. It has a clearer public accountability and data-handling position than many small rota products, alongside a turnover-linked annual price. The service is not church-specific: it does not publicly claim church directory, giving, service planning, safeguarding-case or pastoral-care functionality, so a church should keep its evaluation focused on volunteer administration.",
-    "bestFor": ["Churches with recurring teams that need volunteer self-sign-up, allocation and communications", "Churches wanting to replace separate rota spreadsheets, contact lists and shared files", "Charitable church projects that value an identified UK CIC and published controller-processor terms"],
-    "strengths": ["Active UK CIC with current published terms", "Focused rota, directory, communications and file-sharing workflow", "Published free-trial and demo routes", "Turnover-linked annual pricing with an affordability safeguard", "Public controller-processor, hosting and access-control information"],
-    "limitations": ["A general charity-sector tool, not church-specific software", "Supplier eligibility is limited to charities and community organisations", "Published pricing is illustrative and turnover-based rather than a simple fixed tier table", "The service is not presented as a giving, accounting, worship-planning, safeguarding-case or pastoral-care system", "Confirm data export, SMS supplier, support response practicalities and confidential-file permissions in a live test"],
-    "procurementVerdict": {"problem": "Coordinating volunteer shifts, team contact and shared resources without maintaining several separate systems", "differentiator": "A volunteer-run UK CIC with a broad volunteer-administration workflow and unusually detailed public controller-processor terms", "firstCheck": "Run one non-sensitive ministry rota through signup, allocation, absence, messages, role permissions, reporting and export; then review its turnover-based invoice and current data-processing documentation before importing the full volunteer directory"}
+    "bestFor": [
+      "Churches with recurring teams that need volunteer self-sign-up, allocation and communications",
+      "Churches wanting to replace separate rota spreadsheets, contact lists and shared files",
+      "Charitable church projects that value an identified UK CIC and published controller-processor terms"
+    ],
+    "strengths": [
+      "Active UK CIC with current published terms",
+      "Focused rota, directory, communications and file-sharing workflow",
+      "Published free-trial and demo routes",
+      "Turnover-linked annual pricing with an affordability safeguard",
+      "Public controller-processor, hosting and access-control information"
+    ],
+    "limitations": [
+      "A general charity-sector tool, not church-specific software",
+      "Supplier eligibility is limited to charities and community organisations",
+      "Published pricing is illustrative and turnover-based rather than a simple fixed tier table",
+      "The service is not presented as a giving, accounting, worship-planning, safeguarding-case or pastoral-care system",
+      "Confirm data export, SMS supplier, support response practicalities and confidential-file permissions in a live test"
+    ],
+    "procurementVerdict": {
+      "problem": "Coordinating volunteer shifts, team contact and shared resources without maintaining several separate systems",
+      "differentiator": "A volunteer-run UK CIC with a broad volunteer-administration workflow and unusually detailed public controller-processor terms",
+      "firstCheck": "Run one non-sensitive ministry rota through signup, allocation, absence, messages, role permissions, reporting and export; then review its turnover-based invoice and current data-processing documentation before importing the full volunteer directory"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Three Rings volunteer management overview", "url": "https://threerings.org.uk/", "checked": "2026-07-25", "supports": ["Product scope", "Volunteer-management features", "Supplier identity"]},
-    {"label": "Three Rings features", "url": "https://threerings.org.uk/get-a-3r-account/features/", "checked": "2026-07-25", "supports": ["Rota", "Directory", "Communications", "File sharing", "Statistics", "Administration"]},
-    {"label": "Three Rings account and pricing information", "url": "https://threerings.org.uk/get-a-3r-account/get-an-account/", "checked": "2026-07-25", "supports": ["Eligibility", "Illustrative pricing", "Free trial", "Demo", "Support", "Data-import statement"]},
-    {"label": "Three Rings organisation terms", "url": "https://threerings.org.uk/terms-and-conditions/terms-and-conditions/", "checked": "2026-07-25", "supports": ["Legal operator", "Processor role", "Sub-processors", "Termination handling", "England and Wales jurisdiction"]},
-    {"label": "Three Rings GDPR statement", "url": "https://threerings.org.uk/get-a-3r-account/gdpr-statement/", "checked": "2026-07-25", "supports": ["UK and EEA storage statement", "Encryption", "Action logging", "Access controls", "DPO"]},
-    {"label": "Companies House: Three Rings CIC", "url": "https://find-and-update.company-information.service.gov.uk/company/06820837", "checked": "2026-07-25", "supports": ["Active UK CIC", "Company number", "Registered office"]}
+    {
+      "label": "Three Rings volunteer management overview",
+      "url": "https://threerings.org.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "Volunteer-management features",
+        "Supplier identity"
+      ]
+    },
+    {
+      "label": "Three Rings features",
+      "url": "https://threerings.org.uk/get-a-3r-account/features/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Rota",
+        "Directory",
+        "Communications",
+        "File sharing",
+        "Statistics",
+        "Administration"
+      ]
+    },
+    {
+      "label": "Three Rings account and pricing information",
+      "url": "https://threerings.org.uk/get-a-3r-account/get-an-account/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Eligibility",
+        "Illustrative pricing",
+        "Free trial",
+        "Demo",
+        "Support",
+        "Data-import statement"
+      ]
+    },
+    {
+      "label": "Three Rings organisation terms",
+      "url": "https://threerings.org.uk/terms-and-conditions/terms-and-conditions/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal operator",
+        "Processor role",
+        "Sub-processors",
+        "Termination handling",
+        "England and Wales jurisdiction"
+      ]
+    },
+    {
+      "label": "Three Rings GDPR statement",
+      "url": "https://threerings.org.uk/get-a-3r-account/gdpr-statement/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK and EEA storage statement",
+        "Encryption",
+        "Action logging",
+        "Access controls",
+        "DPO"
+      ]
+    },
+    {
+      "label": "Companies House: Three Rings CIC",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06820837",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK CIC",
+        "Company number",
+        "Registered office"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=uk.org.threerings.pwa", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Three Rings name; this directory has not recorded an aggregate rating or review count."}],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=uk.org.threerings.pwa",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Three Rings name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Three Rings review for UK churches", "description": "Independent Three Rings profile: UK volunteer rotas, team communications, charity pricing and church procurement checks."}
+  "seo": {
+    "title": "Three Rings review for UK churches",
+    "description": "Independent Three Rings profile: UK volunteer rotas, team communications, charity pricing and church procurement checks."
+  }
 }

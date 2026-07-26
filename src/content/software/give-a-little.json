@@ -155,7 +155,43 @@
       ]
     }
   ],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/give-a-little-champion/id6737087999", "rating": 5, "maximumRating": 5, "reviewCount": 2, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as Give A Little Champion."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.kiosk", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Give A Little; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.supporter", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as Give A Little Champion; this directory has not recorded an aggregate rating or review count."}, {"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/givealittle.co", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for Give A Little and does not establish suitability for a particular church."}],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/give-a-little-champion/id6737087999",
+      "rating": 5,
+      "maximumRating": 5,
+      "reviewCount": 2,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Give A Little Champion."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.kiosk",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Give A Little; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.supporter",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Give A Little Champion; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/givealittle.co",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Give A Little and does not establish suitability for a particular church."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

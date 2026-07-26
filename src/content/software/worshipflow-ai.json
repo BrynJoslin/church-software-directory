@@ -7,17 +7,46 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["worship-planning", "volunteer-scheduling"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches already using Planning Center Services", "Worship teams matching a sermon theme to an existing song catalogue", "Teams that want rehearsal briefs adjusted for scheduled musicians and singers"],
+  "categories": [
+    "worship-planning",
+    "volunteer-scheduling"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches already using Planning Center Services",
+    "Worship teams matching a sermon theme to an existing song catalogue",
+    "Teams that want rehearsal briefs adjusted for scheduled musicians and singers"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "WorshipFlow AI publishes GBP monthly plans at £12 for up to 40 Planning Center volunteers, £29 for up to 150 and £59 for unlimited volunteers. The supplier advertises a 14-day no-card trial and a Founding Member pilot for its first 10 production churches; confirm live availability, VAT and renewal terms before purchase.",
-    "startingPrice": {"amount": 12, "currency": "GBP", "period": "month", "qualifier": "Basic plan, up to 40 Planning Center volunteers"},
+    "startingPrice": {
+      "amount": 12,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Basic plan, up to 40 Planning Center volunteers"
+    },
     "tiers": [
-      {"label": "Basic", "price": "£12/month", "detail": "Up to 40 Planning Center volunteers; sermon matching, repertoire sync, rehearsal briefs and team resources."},
-      {"label": "Standard", "price": "£29/month", "detail": "Up to 150 Planning Center volunteers."},
-      {"label": "Premium", "price": "£59/month", "detail": "Unlimited Planning Center volunteers, multi-site support and priority support."}
+      {
+        "label": "Basic",
+        "price": "£12/month",
+        "detail": "Up to 40 Planning Center volunteers; sermon matching, repertoire sync, rehearsal briefs and team resources."
+      },
+      {
+        "label": "Standard",
+        "price": "£29/month",
+        "detail": "Up to 150 Planning Center volunteers."
+      },
+      {
+        "label": "Premium",
+        "price": "£59/month",
+        "detail": "Unlimited Planning Center volunteers, multi-site support and priority support."
+      }
     ],
     "trialDetails": "Supplier documents a 14-day Standard-tier trial without a payment card."
   },
@@ -25,29 +54,112 @@
   "freeTrial": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "The supplier describes itself as processor for church planning data synchronised from Planning Center and says its Google Cloud Firestore data is in the UK/EU (europe-west3). It says volunteer names, emails and contact details are not passed to Gemini, although anonymous musical metadata and sermon material can be processed for AI outputs. The supplier is a sole trader and an early product, so obtain its current ICO registration, processor agreement, security evidence, Gemini data terms and incident process before connecting live Planning Center data.",
-  "coreFeatures": ["Planning Center OAuth synchronisation", "Sermon-theme and song-catalogue matching", "Song metadata and arrangement provisioning", "Vocal-range-aware transposition suggestions", "Worship-team rehearsal briefs", "Team devotionals and rehearsal questions", "CSV song-library staging and cleaning", "Multi-site support on Premium"],
-  "integrations": ["Planning Center Services", "Google Gemini", "Stripe"],
-  "importExport": ["CSV song-library import and staging", "Planning Center repertoire synchronisation"],
-  "support": ["Live-demo route", "Premium plan describes dedicated support and a 24-hour response target"],
+  "coreFeatures": [
+    "Planning Center OAuth synchronisation",
+    "Sermon-theme and song-catalogue matching",
+    "Song metadata and arrangement provisioning",
+    "Vocal-range-aware transposition suggestions",
+    "Worship-team rehearsal briefs",
+    "Team devotionals and rehearsal questions",
+    "CSV song-library staging and cleaning",
+    "Multi-site support on Premium"
+  ],
+  "integrations": [
+    "Planning Center Services",
+    "Google Gemini",
+    "Stripe"
+  ],
+  "importExport": [
+    "CSV song-library import and staging",
+    "Planning Center repertoire synchronisation"
+  ],
+  "support": [
+    "Live-demo route",
+    "Premium plan describes dedicated support and a 24-hour response target"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "The supplier's terms and privacy material identify Chris Renshaw as a UK sole trader operating WorshipFlow AI.", "state": "supplier-published", "source": "https://www.worshipflow-ai.uk/docs", "checked": "2026-07-25"},
-    "planning-center-dependency": {"value": "Supplier describes OAuth integration with Planning Center Services for repertoire, service and volunteer-planning information.", "state": "supplier-published", "source": "https://worshipflow-ai.uk/", "checked": "2026-07-25"},
-    "pricing": {"value": "Supplier publishes GBP monthly plans at £12, £29 and £59 and a 14-day no-card trial.", "state": "supplier-published", "source": "https://worshipflow-ai.uk/", "checked": "2026-07-25"},
-    "data-handling": {"value": "Supplier describes processor status, UK/EU Firestore storage, Planning Center OAuth and a stated rule that volunteer PII is not sent to Gemini.", "state": "supplier-published", "source": "https://www.worshipflow-ai.uk/docs", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "The supplier's terms and privacy material identify Chris Renshaw as a UK sole trader operating WorshipFlow AI.",
+      "state": "supplier-published",
+      "source": "https://www.worshipflow-ai.uk/docs",
+      "checked": "2026-07-25"
+    },
+    "planning-center-dependency": {
+      "value": "Supplier describes OAuth integration with Planning Center Services for repertoire, service and volunteer-planning information.",
+      "state": "supplier-published",
+      "source": "https://worshipflow-ai.uk/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes GBP monthly plans at £12, £29 and £59 and a 14-day no-card trial.",
+      "state": "supplier-published",
+      "source": "https://worshipflow-ai.uk/",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "Supplier describes processor status, UK/EU Firestore storage, Planning Center OAuth and a stated rule that volunteer PII is not sent to Gemini.",
+      "state": "supplier-published",
+      "source": "https://www.worshipflow-ai.uk/docs",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "WorshipFlow AI is an early, specialised add-on for a church already using Planning Center Services; it cannot stand alone for worship planning, people records or volunteer administration. Its published UK operation, clear GBP tiers and unusually detailed Planning Center data description make a controlled trial feasible. However, it is operated by a sole trader, uses AI processing and is presented as a new pilot-stage product, so the church should test accuracy, support and processor safeguards before authorising a live connection.",
-    "bestFor": ["Planning Center churches that want sermon-to-song suggestions without manually analysing a large repertoire", "Worship leaders preparing singer-specific transposition and rehearsal notes", "Teams able to run a controlled trial with non-sensitive planning data"],
-    "strengths": ["Built specifically around Planning Center Services rather than generic text generation", "Published GBP pricing and a 14-day no-card trial", "Supplier documents its use of OAuth and data separation from Gemini", "Supports UK Common Worship and Revised Common Lectionary context according to supplier documentation"],
-    "limitations": ["Requires Planning Center Services and is not a replacement for it", "Early pilot-stage product run by a sole trader", "AI song, licensing and devotional suggestions require human theological and copyright review", "Current DPA, ICO registration, support capacity and full processor evidence should be obtained directly"],
-    "procurementVerdict": {"problem": "Linking a weekly sermon theme, an existing Planning Center repertoire and the practical needs of a worship team", "differentiator": "A UK-operated, Planning Center-specific AI workflow that combines theme matching with roster-aware rehearsal briefs", "firstCheck": "Connect a test Planning Center organisation, inspect requested permissions, run several previously planned services, compare recommendations with human decisions and obtain the current processor agreement before connecting live volunteer data"}
+    "bestFor": [
+      "Planning Center churches that want sermon-to-song suggestions without manually analysing a large repertoire",
+      "Worship leaders preparing singer-specific transposition and rehearsal notes",
+      "Teams able to run a controlled trial with non-sensitive planning data"
+    ],
+    "strengths": [
+      "Built specifically around Planning Center Services rather than generic text generation",
+      "Published GBP pricing and a 14-day no-card trial",
+      "Supplier documents its use of OAuth and data separation from Gemini",
+      "Supports UK Common Worship and Revised Common Lectionary context according to supplier documentation"
+    ],
+    "limitations": [
+      "Requires Planning Center Services and is not a replacement for it",
+      "Early pilot-stage product run by a sole trader",
+      "AI song, licensing and devotional suggestions require human theological and copyright review",
+      "Current DPA, ICO registration, support capacity and full processor evidence should be obtained directly"
+    ],
+    "procurementVerdict": {
+      "problem": "Linking a weekly sermon theme, an existing Planning Center repertoire and the practical needs of a worship team",
+      "differentiator": "A UK-operated, Planning Center-specific AI workflow that combines theme matching with roster-aware rehearsal briefs",
+      "firstCheck": "Connect a test Planning Center organisation, inspect requested permissions, run several previously planned services, compare recommendations with human decisions and obtain the current processor agreement before connecting live volunteer data"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "WorshipFlow AI product and pricing", "url": "https://worshipflow-ai.uk/", "checked": "2026-07-25", "supports": ["Planning Center workflow", "Features", "GBP plans", "Trial", "Demo route"]},
-    {"label": "WorshipFlow AI documentation, terms and privacy material", "url": "https://www.worshipflow-ai.uk/docs", "checked": "2026-07-25", "supports": ["UK sole-trader operation", "Planning Center OAuth", "Data handling", "Retention", "Trial conditions", "Cancellation terms"]}
+    {
+      "label": "WorshipFlow AI product and pricing",
+      "url": "https://worshipflow-ai.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Planning Center workflow",
+        "Features",
+        "GBP plans",
+        "Trial",
+        "Demo route"
+      ]
+    },
+    {
+      "label": "WorshipFlow AI documentation, terms and privacy material",
+      "url": "https://www.worshipflow-ai.uk/docs",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK sole-trader operation",
+        "Planning Center OAuth",
+        "Data handling",
+        "Retention",
+        "Trial conditions",
+        "Cancellation terms"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "WorshipFlow AI review for UK churches", "description": "Independent WorshipFlow AI profile: Planning Center integration, worship-team planning, GBP prices, AI safeguards and due diligence."}
+  "seo": {
+    "title": "WorshipFlow AI review for UK churches",
+    "description": "Independent WorshipFlow AI profile: Planning Center integration, worship-team planning, GBP prices, AI safeguards and due diligence."
+  }
 }

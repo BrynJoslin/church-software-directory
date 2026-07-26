@@ -15,7 +15,12 @@
     "pastoral-care",
     "worship-planning"
   ],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "UK churches with a named administrator or systems owner for shared people, rota, event and giving workflows",
     "Church of England parishes that want to assess the supplier's Electoral Roll workflow alongside diocesan requirements",
@@ -290,115 +295,198 @@
       "label": "ChurchSuite pricing",
       "url": "https://churchsuite.com/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Pricing model", "Published GBP tiers", "VAT treatment", "Free trial", "Module structure", "UK subscription payment", "Data-import assistance"]
+      "supports": [
+        "Pricing model",
+        "Published GBP tiers",
+        "VAT treatment",
+        "Free trial",
+        "Module structure",
+        "UK subscription payment",
+        "Data-import assistance"
+      ]
     },
     {
       "label": "ChurchSuite security information",
       "url": "https://churchsuite.com/security/",
       "checked": "2026-07-25",
-      "supports": ["UK AWS hosting statement", "Encryption statement", "Backups", "Security practices"]
+      "supports": [
+        "UK AWS hosting statement",
+        "Encryption statement",
+        "Backups",
+        "Security practices"
+      ]
     },
     {
       "label": "ChurchSuite Gift Aid guidance",
       "url": "https://support.churchsuite.com/article/119-reclaiming-gift-aid",
       "checked": "2026-07-25",
-      "supports": ["UK Gift Aid claims", "HMRC Online Services submission", "Gift Aid workflow"]
+      "supports": [
+        "UK Gift Aid claims",
+        "HMRC Online Services submission",
+        "Gift Aid workflow"
+      ]
     },
     {
       "label": "ChurchSuite GoCardless donation guidance",
       "url": "https://support.churchsuite.com/article/576-integrating-gocardless-for-online-donations",
       "checked": "2026-07-25",
-      "supports": ["GoCardless integration", "Bank donations", "Published ChurchSuite application fee"]
+      "supports": [
+        "GoCardless integration",
+        "Bank donations",
+        "Published ChurchSuite application fee"
+      ]
     },
     {
       "label": "ChurchSuite Check-In guidance",
       "url": "https://support.churchsuite.com/article/682-getting-started-with-the-check-in-system",
       "checked": "2026-07-25",
-      "supports": ["Children's check-in", "Collection codes", "Medical information", "Attendance", "Team ratios"]
+      "supports": [
+        "Children's check-in",
+        "Collection codes",
+        "Medical information",
+        "Attendance",
+        "Team ratios"
+      ]
     },
     {
       "label": "ChurchSuite note-visibility guidance",
       "url": "https://support.churchsuite.com/article/44-setting-the-visibility-of-notes",
       "checked": "2026-07-25",
-      "supports": ["Pastoral notes", "Role permissions", "Private notes", "Restricted user groups"]
+      "supports": [
+        "Pastoral notes",
+        "Role permissions",
+        "Private notes",
+        "Restricted user groups"
+      ]
     },
     {
       "label": "ChurchSuite cancellation guidance",
       "url": "https://support.churchsuite.com/article/335-cancelling-your-subscription-to-churchsuite",
       "checked": "2026-07-25",
-      "supports": ["Cancellation", "No long-term tie-in", "Data export responsibility", "Account deletion"]
+      "supports": [
+        "Cancellation",
+        "No long-term tie-in",
+        "Data export responsibility",
+        "Account deletion"
+      ]
     },
     {
       "label": "ChurchSuite custom reporting and export guidance",
       "url": "https://support.churchsuite.com/article/419-custom-reporting-with-the-table-generator",
       "checked": "2026-07-25",
-      "supports": ["CSV exports", "Custom reporting", "Migration support"]
+      "supports": [
+        "CSV exports",
+        "Custom reporting",
+        "Migration support"
+      ]
     },
     {
       "label": "ChurchSuite multi-site guidance",
       "url": "https://support.churchsuite.com/article/216-multi-site-functionality",
       "checked": "2026-07-25",
-      "supports": ["Multi-site", "Site permissions", "Account structure"]
+      "supports": [
+        "Multi-site",
+        "Site permissions",
+        "Account structure"
+      ]
     },
     {
       "label": "ChurchSuite Church of England Electoral Roll guidance",
       "url": "https://support.churchsuite.com/article/483-case-study-managing-your-electoral-roll",
       "checked": "2026-07-25",
-      "supports": ["Church of England Electoral Roll workflow", "Forms", "Tags", "Key dates"]
+      "supports": [
+        "Church of England Electoral Roll workflow",
+        "Forms",
+        "Tags",
+        "Key dates"
+      ]
     },
     {
       "label": "ChurchSuite support guidance",
       "url": "https://support.churchsuite.com/article/186-getting-help",
       "checked": "2026-07-25",
-      "supports": ["UK support", "Email response aim", "Support channels"]
+      "supports": [
+        "UK support",
+        "Email response aim",
+        "Support channels"
+      ]
     },
     {
       "label": "ChurchSuite product overview",
       "url": "https://churchsuite.com/",
       "checked": "2026-07-25",
-      "supports": ["Core features", "Member-facing access", "Mobile access"]
+      "supports": [
+        "Core features",
+        "Member-facing access",
+        "Mobile access"
+      ]
     },
     {
       "label": "ChurchSuite branding resources",
       "url": "https://churchsuite.com/branding/",
       "checked": "2026-07-25",
-      "supports": ["Official logo asset", "Supplier logo-use guidance"]
+      "supports": [
+        "Official logo asset",
+        "Supplier logo-use guidance"
+      ]
     },
     {
       "label": "ChurchSuite import guidance",
       "url": "https://support.churchsuite.com/article/11-import-your-data-into-churchsuite",
       "checked": "2026-07-25",
-      "supports": ["CSV import", "Migration preparation", "Data mapping"]
+      "supports": [
+        "CSV import",
+        "Migration preparation",
+        "Data mapping"
+      ]
     },
     {
       "label": "ChurchSuite terms of service",
       "url": "https://churchsuite.com/terms-of-service/",
       "checked": "2026-07-25",
-      "supports": ["Supplier legal name", "UK-registered organisation"]
+      "supports": [
+        "Supplier legal name",
+        "UK-registered organisation"
+      ]
     },
     {
       "label": "Church-tech discussion: Church Online System",
       "url": "https://www.reddit.com/r/churchtech/comments/1pgtmfq/church_online_system/",
       "checked": "2026-07-25",
-      "supports": ["Limited independent user-feedback context", "Volunteer usability discussion", "Support discussion", "Safeguarding scope question"]
+      "supports": [
+        "Limited independent user-feedback context",
+        "Volunteer usability discussion",
+        "Support discussion",
+        "Safeguarding scope question"
+      ]
     },
     {
       "label": "Church-tech discussion: increasing congregational usage",
       "url": "https://www.reddit.com/r/churchtech/comments/1t5fw4j/church_management_system_increasing/",
       "checked": "2026-07-25",
-      "supports": ["Independent adoption discussion", "Member and volunteer adoption"]
+      "supports": [
+        "Independent adoption discussion",
+        "Member and volunteer adoption"
+      ]
     },
     {
       "label": "ChurchSuite UK App Store reviews",
       "url": "https://apps.apple.com/gb/app/1241362773?platform=iphone&see-all=reviews",
       "checked": "2026-07-25",
-      "supports": ["Historical mobile-feedback context", "Login and PIN feedback", "Interrupted-workflow feedback"]
+      "supports": [
+        "Historical mobile-feedback context",
+        "Login and PIN feedback",
+        "Interrupted-workflow feedback"
+      ]
     },
     {
       "label": "Capterra UK ChurchSuite reviews",
       "url": "https://www.capterra.co.uk/software/122430/churchapp",
       "checked": "2026-07-25",
-      "supports": ["Historical independent user-feedback context", "Review-volume caveat"]
+      "supports": [
+        "Historical independent user-feedback context",
+        "Review-volume caveat"
+      ]
     }
   ],
   "externalReviews": [
@@ -436,7 +524,7 @@
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {
-    "title": "ChurchSuite review for UK churches: pricing, Gift Aid and fit",
+    "title": "ChurchSuite: UK pricing, Gift Aid and fit",
     "description": "Independent ChurchSuite profile for UK churches: pricing, Gift Aid, check-in, support, data questions and practical fit."
   }
 }

@@ -7,44 +7,145 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Church of England clergy and worship teams following the Common Worship calendar", "Parishes needing a concise source of daily readings, collects and post-communion prayers", "Teams preparing a basic Sunday service sheet from authorised calendar material"],
+  "categories": [
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church of England clergy and worship teams following the Common Worship calendar",
+    "Parishes needing a concise source of daily readings, collects and post-communion prayers",
+    "Teams preparing a basic Sunday service sheet from authorised calendar material"
+  ],
   "pricing": {
     "model": "flat-rate",
     "summary": "The Church of England’s current national-support page describes an annual subscription of less than £9. The exact current store, web-account, renewal and organisation-licence terms should be checked before purchase.",
-    "startingPrice": {"amount": 9, "currency": "GBP", "period": "year", "qualifier": "described by the Church of England as less than £9 annually"},
+    "startingPrice": {
+      "amount": 9,
+      "currency": "GBP",
+      "period": "year",
+      "qualifier": "described by the Church of England as less than £9 annually"
+    },
     "tiers": [
-      {"label": "Annual subscription", "price": "Less than £9/year", "detail": "Current Church of England national-support material gives a ceiling rather than a precise price."}
+      {
+        "label": "Annual subscription",
+        "price": "Less than £9/year",
+        "detail": "Current Church of England national-support material gives a ceiling rather than a precise price."
+      }
     ]
   },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "no",
   "gdprInformation": "The reviewed product pages establish a user account for the web app but do not establish a product-specific DPA, hosting location, sub-processors, retention schedule or parish-controller arrangement. The app is primarily a worship-resource tool, but churches should still assess account and contact data, local service-sheet content and any linked account-provider terms before use.",
-  "coreFeatures": ["Daily Common Worship readings", "Collects", "Post-communion prayers", "Calendar biographies and commemorations", "Sunday service-sheet generation", "Custom church name, introduction and footer on service sheets", "iOS, Android and web-app access"],
-  "integrations": ["Hymns Ancient & Modern account for web-app sign-in"],
-  "importExport": ["Supplier describes generating customised Sunday service sheets; confirm current print, download, file-format and backup options before integrating it into a parish publishing workflow"],
-  "support": ["Official web app directs users to contact support", "The Church of England lists it as a national worship-planning resource"],
+  "coreFeatures": [
+    "Daily Common Worship readings",
+    "Collects",
+    "Post-communion prayers",
+    "Calendar biographies and commemorations",
+    "Sunday service-sheet generation",
+    "Custom church name, introduction and footer on service sheets",
+    "iOS, Android and web-app access"
+  ],
+  "integrations": [
+    "Hymns Ancient & Modern account for web-app sign-in"
+  ],
+  "importExport": [
+    "Supplier describes generating customised Sunday service sheets; confirm current print, download, file-format and backup options before integrating it into a parish publishing workflow"
+  ],
+  "support": [
+    "Official web app directs users to contact support",
+    "The Church of England lists it as a national worship-planning resource"
+  ],
   "decisionEvidence": {
-    "official-scope": {"value": "The web app describes itself as the official Common Worship Lectionary app from the Church of England and identifies daily readings, collects, post-communion prayers and customised Sunday service sheets.", "state": "supplier-published", "source": "https://common-worship-lectionary.netlify.app/", "checked": "2026-07-25"},
-    "publisher-context": {"value": "The Church of England identifies Church House Publishing as its official publisher and states that the lectionary is available as an app for Android, Apple devices, Windows and Mac desktop.", "state": "independent-source", "source": "https://www.churchofengland.org/prayer-and-worship/common-worship-publications", "checked": "2026-07-25"},
-    "pricing-and-functions": {"value": "The Church of England’s national-support page describes an annual subscription below £9, a mobile and web app, daily material and a customisable Sunday service-sheet function.", "state": "independent-source", "source": "https://www.churchofengland.org/resources/support-running-your-church-whats-available-nationally", "checked": "2026-07-25"}
+    "official-scope": {
+      "value": "The web app describes itself as the official Common Worship Lectionary app from the Church of England and identifies daily readings, collects, post-communion prayers and customised Sunday service sheets.",
+      "state": "supplier-published",
+      "source": "https://common-worship-lectionary.netlify.app/",
+      "checked": "2026-07-25"
+    },
+    "publisher-context": {
+      "value": "The Church of England identifies Church House Publishing as its official publisher and states that the lectionary is available as an app for Android, Apple devices, Windows and Mac desktop.",
+      "state": "independent-source",
+      "source": "https://www.churchofengland.org/prayer-and-worship/common-worship-publications",
+      "checked": "2026-07-25"
+    },
+    "pricing-and-functions": {
+      "value": "The Church of England’s national-support page describes an annual subscription below £9, a mobile and web app, daily material and a customisable Sunday service-sheet function.",
+      "state": "independent-source",
+      "source": "https://www.churchofengland.org/resources/support-running-your-church-whats-available-nationally",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "Common Worship Lectionary is a compact Church of England calendar and service-preparation tool, not a general worship-band planner, presentation package, song library or church database. Its low stated annual cost and app/web access make it worth considering where a parish mainly needs reliable daily liturgical material and a quick, editable Sunday sheet. Teams needing fuller service design, extensive liturgical libraries, collaborative planning or robust publishing exports should test those requirements separately.",
-    "bestFor": ["Church of England parishes following the Common Worship calendar", "Clergy, readers and worship planners needing daily readings and prayers", "Small teams preparing simple, date-specific Sunday service sheets"],
-    "strengths": ["Official Church of England scope", "App and web-app access", "Daily readings, collects and post-communion prayers in one workflow", "Sunday service-sheet generation", "Low published annual price ceiling"],
-    "limitations": ["Only relevant where Common Worship material fits the parish’s worship practice", "Not a collaborative rota, worship-presentation, song-licensing, people-management or safeguarding system", "Exact current pricing, renewal, licence and account terms are not established by the reviewed national-support summary", "Product-specific hosting, DPA, export and support detail requires a written supplier response"],
-    "procurementVerdict": {"problem": "Finding the right Common Worship material and producing a simple service sheet without manually compiling the weekly calendar", "differentiator": "The official Church of England lectionary workflow in a low-cost app and web app", "firstCheck": "Use the current week’s material to prepare a real service sheet, then confirm subscription ownership, shared-account rules, output format, accessibility, support and the workflow if the subscription ends"}
+    "bestFor": [
+      "Church of England parishes following the Common Worship calendar",
+      "Clergy, readers and worship planners needing daily readings and prayers",
+      "Small teams preparing simple, date-specific Sunday service sheets"
+    ],
+    "strengths": [
+      "Official Church of England scope",
+      "App and web-app access",
+      "Daily readings, collects and post-communion prayers in one workflow",
+      "Sunday service-sheet generation",
+      "Low published annual price ceiling"
+    ],
+    "limitations": [
+      "Only relevant where Common Worship material fits the parish’s worship practice",
+      "Not a collaborative rota, worship-presentation, song-licensing, people-management or safeguarding system",
+      "Exact current pricing, renewal, licence and account terms are not established by the reviewed national-support summary",
+      "Product-specific hosting, DPA, export and support detail requires a written supplier response"
+    ],
+    "procurementVerdict": {
+      "problem": "Finding the right Common Worship material and producing a simple service sheet without manually compiling the weekly calendar",
+      "differentiator": "The official Church of England lectionary workflow in a low-cost app and web app",
+      "firstCheck": "Use the current week’s material to prepare a real service sheet, then confirm subscription ownership, shared-account rules, output format, accessibility, support and the workflow if the subscription ends"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Official Common Worship Lectionary web app", "url": "https://common-worship-lectionary.netlify.app/", "checked": "2026-07-25", "supports": ["Official scope", "Daily materials", "Service-sheet generation", "Account sign-in", "Mobile-app availability"]},
-    {"label": "Church of England national support services", "url": "https://www.churchofengland.org/resources/support-running-your-church-whats-available-nationally", "checked": "2026-07-25", "supports": ["Annual price ceiling", "Web and app availability", "Service-sheet function"]},
-    {"label": "Church of England Common Worship publications", "url": "https://www.churchofengland.org/prayer-and-worship/common-worship-publications", "checked": "2026-07-25", "supports": ["Church House Publishing context", "Lectionary purpose", "Supported device types"]}
+    {
+      "label": "Official Common Worship Lectionary web app",
+      "url": "https://common-worship-lectionary.netlify.app/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Official scope",
+        "Daily materials",
+        "Service-sheet generation",
+        "Account sign-in",
+        "Mobile-app availability"
+      ]
+    },
+    {
+      "label": "Church of England national support services",
+      "url": "https://www.churchofengland.org/resources/support-running-your-church-whats-available-nationally",
+      "checked": "2026-07-25",
+      "supports": [
+        "Annual price ceiling",
+        "Web and app availability",
+        "Service-sheet function"
+      ]
+    },
+    {
+      "label": "Church of England Common Worship publications",
+      "url": "https://www.churchofengland.org/prayer-and-worship/common-worship-publications",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church House Publishing context",
+        "Lectionary purpose",
+        "Supported device types"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Common Worship Lectionary app for UK churches", "description": "Independent Common Worship Lectionary profile: official Church of England readings, prayers, service sheets and low-cost app access."}
+  "seo": {
+    "title": "Common Worship Lectionary app for UK churches",
+    "description": "Independent Common Worship Lectionary profile: official Church of England readings, prayers, service sheets and low-cost app access."
+  }
 }

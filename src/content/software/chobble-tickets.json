@@ -7,17 +7,45 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["events-ticketing"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches, circuits or charities running paid or free events", "Teams that want ticket revenue paid directly to their own Stripe, Square or SumUp account", "Organisations that value an open-source, self-hostable event platform"],
+  "categories": [
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches, circuits or charities running paid or free events",
+    "Teams that want ticket revenue paid directly to their own Stripe, Square or SumUp account",
+    "Organisations that value an open-source, self-hostable event platform"
+  ],
   "pricing": {
     "model": "flat-rate",
     "summary": "Managed hosting is published at £5 per month or £50 per year, with a stated 50% annual discount for charities, community groups, artists and musicians. Chobble states that it does not charge a per-ticket platform fee; payment-processor charges still apply.",
-    "startingPrice": {"amount": 5, "currency": "GBP", "period": "month", "qualifier": "Managed hosting; payment-processor fees are separate"},
+    "startingPrice": {
+      "amount": 5,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Managed hosting; payment-processor fees are separate"
+    },
     "tiers": [
-      {"label": "Managed hosting", "price": "£5/month", "detail": "Unlimited events and tickets; no stated platform commission"},
-      {"label": "Managed hosting annually", "price": "£50/year", "detail": "Supplier states charities and community groups receive 50% off the annual price"},
-      {"label": "Self-hosted", "price": "Free software", "detail": "AGPL-3.0 software; the organisation owns hosting, payment and operations"}
+      {
+        "label": "Managed hosting",
+        "price": "£5/month",
+        "detail": "Unlimited events and tickets; no stated platform commission"
+      },
+      {
+        "label": "Managed hosting annually",
+        "price": "£50/year",
+        "detail": "Supplier states charities and community groups receive 50% off the annual price"
+      },
+      {
+        "label": "Self-hosted",
+        "price": "Free software",
+        "detail": "AGPL-3.0 software; the organisation owns hosting, payment and operations"
+      }
     ]
   },
   "freePlan": "yes",
@@ -25,22 +53,82 @@
   "demoAvailable": "unknown",
   "dataHosting": "For managed hosting, the supplier states that attendee data is encrypted at rest and kept in EU regions on Bunny.net infrastructure in Slovenia. Self-hosting location, processors and operations are chosen by the organisation. Confirm the current data-processing agreement and payment-provider data flows for a particular event.",
   "gdprInformation": "Chobble identifies itself as a UK ICO-registered controller for managed-hosting attendee data and describes UK/EU data handling. These are supplier statements, not a compliance assessment for an organiser, which remains responsible for its event privacy information and processing decisions.",
-  "coreFeatures": ["Paid and free tickets", "Repeating, fixed-date and multi-day events", "Donations and equipment hire", "Attendee questions, capacity and booking windows", "QR check-in and reversal", "Refunds and attendee email", "Operational and financial exports", "Activity log", "Custom terms at booking"],
-  "integrations": ["Stripe, Square or SumUp for organiser-owned payments", "Public and authenticated admin API", "Webhooks", "Embeddable event widget", "RSS and calendar feeds", "Apple Wallet and Google Wallet passes"],
-  "importExport": ["Supplier states that operational and financial data can be exported", "Self-hosted deployment gives the organisation direct control of its data and deployment"],
-  "support": ["Managed-hosting support is included according to the supplier", "Open-source documentation and source code", "Self-hosting requires the organisation to own technical support"],
+  "coreFeatures": [
+    "Paid and free tickets",
+    "Repeating, fixed-date and multi-day events",
+    "Donations and equipment hire",
+    "Attendee questions, capacity and booking windows",
+    "QR check-in and reversal",
+    "Refunds and attendee email",
+    "Operational and financial exports",
+    "Activity log",
+    "Custom terms at booking"
+  ],
+  "integrations": [
+    "Stripe, Square or SumUp for organiser-owned payments",
+    "Public and authenticated admin API",
+    "Webhooks",
+    "Embeddable event widget",
+    "RSS and calendar feeds",
+    "Apple Wallet and Google Wallet passes"
+  ],
+  "importExport": [
+    "Supplier states that operational and financial data can be exported",
+    "Self-hosted deployment gives the organisation direct control of its data and deployment"
+  ],
+  "support": [
+    "Managed-hosting support is included according to the supplier",
+    "Open-source documentation and source code",
+    "Self-hosting requires the organisation to own technical support"
+  ],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "Chobble CIC is a UK community-interest company, number 17050113, and publishes managed hosting prices in GBP.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/17050113", "checked": "2026-07-25"},
-    "gbp-pricing": {"value": "Supplier publishes £5/month or £50/year managed hosting, with no per-ticket platform fee stated.", "state": "supplier-published", "source": "https://tickets.chobble.com/", "checked": "2026-07-25"},
-    "hosting": {"value": "Supplier states that managed-hosting attendee data is encrypted at rest and kept in EU regions on Bunny.net infrastructure in Slovenia.", "state": "supplier-published", "source": "https://tickets.chobble.com/features/european/", "checked": "2026-07-25"},
-    "exports": {"value": "Supplier describes operational and financial data exports, an API and a self-hosted option.", "state": "supplier-published", "source": "https://tickets.chobble.com/features/", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "Chobble CIC is a UK community-interest company, number 17050113, and publishes managed hosting prices in GBP.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/17050113",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier publishes £5/month or £50/year managed hosting, with no per-ticket platform fee stated.",
+      "state": "supplier-published",
+      "source": "https://tickets.chobble.com/",
+      "checked": "2026-07-25"
+    },
+    "hosting": {
+      "value": "Supplier states that managed-hosting attendee data is encrypted at rest and kept in EU regions on Bunny.net infrastructure in Slovenia.",
+      "state": "supplier-published",
+      "source": "https://tickets.chobble.com/features/european/",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Supplier describes operational and financial data exports, an API and a self-hosted option.",
+      "state": "supplier-published",
+      "source": "https://tickets.chobble.com/features/",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "Chobble Tickets is a credible UK event-ticketing choice for churches that need more control than a marketplace platform but do not need a full church-management system. Its low flat managed-hosting price, organiser-owned payment accounts and open-source route are distinctive. The trade-off is that it is general event software, so a church must test its own registration, safeguarding, Gift Aid and volunteer check-in workflows rather than assume those needs are covered.",
-    "bestFor": ["Church events, conferences, workshops and paid registrations", "Organisations wanting direct payment-provider ownership and no stated platform commission", "Technically capable teams that may prefer self-hosting or API integration"],
-    "strengths": ["Clear GBP managed-hosting pricing and a free self-hosted option", "UK CIC identity, ICO registration reference and detailed supplier data-location information", "Broad ticketing, registration, refund, check-in, API and export functionality"],
-    "limitations": ["Not designed specifically for church administration, Gift Aid or safeguarding workflows", "Managed hosting uses EU rather than UK-only infrastructure according to the supplier", "Self-hosting shifts security, support, updates and incident responsibilities to the church or its technical partner"],
-    "procurementVerdict": {"problem": "Running church events without marketplace-style ticket commissions or surrendering payment-account ownership", "differentiator": "Open-source ticketing with managed or self-hosted deployment and direct Stripe, Square or SumUp payments", "firstCheck": "Run a real registration and check-in scenario, then confirm payment fees, data-processing terms, refund controls and the organisation's support responsibility"}
+    "bestFor": [
+      "Church events, conferences, workshops and paid registrations",
+      "Organisations wanting direct payment-provider ownership and no stated platform commission",
+      "Technically capable teams that may prefer self-hosting or API integration"
+    ],
+    "strengths": [
+      "Clear GBP managed-hosting pricing and a free self-hosted option",
+      "UK CIC identity, ICO registration reference and detailed supplier data-location information",
+      "Broad ticketing, registration, refund, check-in, API and export functionality"
+    ],
+    "limitations": [
+      "Not designed specifically for church administration, Gift Aid or safeguarding workflows",
+      "Managed hosting uses EU rather than UK-only infrastructure according to the supplier",
+      "Self-hosting shifts security, support, updates and incident responsibilities to the church or its technical partner"
+    ],
+    "procurementVerdict": {
+      "problem": "Running church events without marketplace-style ticket commissions or surrendering payment-account ownership",
+      "differentiator": "Open-source ticketing with managed or self-hosted deployment and direct Stripe, Square or SumUp payments",
+      "firstCheck": "Run a real registration and check-in scenario, then confirm payment fees, data-processing terms, refund controls and the organisation's support responsibility"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -52,13 +140,62 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Chobble Tickets overview and pricing", "url": "https://tickets.chobble.com/", "checked": "2026-07-25", "supports": ["Managed hosting pricing", "No stated platform commission", "Core ticketing and check-in features", "Payment-provider options"]},
-    {"label": "Chobble Tickets features", "url": "https://tickets.chobble.com/features/", "checked": "2026-07-25", "supports": ["Registration features", "Exports", "Security claims", "Integrations"]},
-    {"label": "Chobble Tickets European infrastructure", "url": "https://tickets.chobble.com/features/european/", "checked": "2026-07-25", "supports": ["Managed-hosting data location", "Hosting provider", "Email and payment-processor context"]},
-    {"label": "About Chobble Tickets", "url": "https://tickets.chobble.com/about/", "checked": "2026-07-25", "supports": ["Operating company", "UK CIC identity", "ICO registration reference", "Self-hosted option"]},
-    {"label": "Companies House: Chobble CIC", "url": "https://find-and-update.company-information.service.gov.uk/company/17050113", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+    {
+      "label": "Chobble Tickets overview and pricing",
+      "url": "https://tickets.chobble.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Managed hosting pricing",
+        "No stated platform commission",
+        "Core ticketing and check-in features",
+        "Payment-provider options"
+      ]
+    },
+    {
+      "label": "Chobble Tickets features",
+      "url": "https://tickets.chobble.com/features/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Registration features",
+        "Exports",
+        "Security claims",
+        "Integrations"
+      ]
+    },
+    {
+      "label": "Chobble Tickets European infrastructure",
+      "url": "https://tickets.chobble.com/features/european/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Managed-hosting data location",
+        "Hosting provider",
+        "Email and payment-processor context"
+      ]
+    },
+    {
+      "label": "About Chobble Tickets",
+      "url": "https://tickets.chobble.com/about/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "UK CIC identity",
+        "ICO registration reference",
+        "Self-hosted option"
+      ]
+    },
+    {
+      "label": "Companies House: Chobble CIC",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/17050113",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Chobble Tickets review for UK churches", "description": "Independent Chobble Tickets profile: UK event ticketing, flat GBP hosting, direct payments, exports and data-location questions."}
+  "seo": {
+    "title": "Chobble Tickets review for UK churches",
+    "description": "Independent Chobble Tickets profile: UK event ticketing, flat GBP hosting, direct payments, exports and data-location questions."
+  }
 }

@@ -18,6 +18,7 @@
     "dashboard": "node scripts/dashboard.mjs",
     "dashboard:open": "node scripts/dashboard-open.mjs",
     "check:stale": "node scripts/check-stale.mjs",
+    "prepare:public-feedback-ledger": "node scripts/create-public-feedback-ledger.mjs",
     "prepare:data": "node scripts/export-software.mjs",
     "check:sitemap": "node scripts/check-sitemap.mjs",
     "check:internal-links": "node scripts/check-internal-links.mjs",

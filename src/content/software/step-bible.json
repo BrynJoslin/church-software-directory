@@ -7,25 +7,135 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["bible-study"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Church members and leaders wanting free Bible-study tools", "Small groups exploring Bible texts, cross-references and original-language aids", "Churches needing an offline-capable study resource without a subscription"],
-  "pricing": {"model": "free", "summary": "STEP Bible is offered without a paid subscription in the public material reviewed.", "tiers": [{"label": "STEP Bible", "price": "Free", "detail": "Online study tool and downloadable desktop software"}]},
+  "categories": [
+    "bible-study"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church members and leaders wanting free Bible-study tools",
+    "Small groups exploring Bible texts, cross-references and original-language aids",
+    "Churches needing an offline-capable study resource without a subscription"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "STEP Bible is offered without a paid subscription in the public material reviewed.",
+    "tiers": [
+      {
+        "label": "STEP Bible",
+        "price": "Free",
+        "detail": "Online study tool and downloadable desktop software"
+      }
+    ]
+  },
   "freePlan": "yes",
   "freeTrial": "no",
   "demoAvailable": "no",
   "gdprInformation": "Tyndale House Cambridge publishes a UK GDPR and Data Protection Act privacy notice for its sites. Users should still check the current privacy information applying to the exact STEP Bible service and any optional accounts or third-party content.",
-  "coreFeatures": ["Bible text search", "Cross-references and study resources", "Original-language aids", "Online study interface", "Desktop downloads for offline use", "Chrome vocabulary extension"],
+  "coreFeatures": [
+    "Bible text search",
+    "Cross-references and study resources",
+    "Original-language aids",
+    "Online study interface",
+    "Desktop downloads for offline use",
+    "Chrome vocabulary extension"
+  ],
   "integrations": [],
   "importExport": [],
-  "support": ["User guide and downloadable software resources"],
-  "decisionEvidence": {"uk-operator": {"value": "STEPBible (Scripture Tools for Every Person) is a registered UK charity, and STEP Bible began as a project of Tyndale House, Cambridge.", "state": "independent-source", "source": "https://register-of-charities.charitycommission.gov.uk/en/constituency-search/-/charity-details/5172044/contact-information", "checked": "2026-07-25"}, "free-access": {"value": "Supplier provides downloadable STEP Bible software for use when disconnected from the internet.", "state": "supplier-published", "source": "https://www.stepbible.org/downloads.jsp", "checked": "2026-07-25"}, "data-processing": {"value": "Tyndale House Cambridge publishes a UK data-protection privacy notice identifying itself as controller for site data.", "state": "supplier-published", "source": "https://tyndalehouse.com/policies/privacy/", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "STEP Bible is a UK charitable Bible-study project, not a church-management product. It is a useful no-cost option for individual study, group preparation and basic original-language exploration, particularly where a church does not need a paid digital library. Churches should check the permissions and scope of the specific Bible translations and study resources they intend to use publicly.", "bestFor": ["Individuals and small groups seeking a free Bible-study tool", "Leaders wanting searchable texts and original-language support without a subscription", "Churches needing a download option for study away from a reliable connection"], "strengths": ["UK charitable operating context", "Free online and downloadable study-tool access", "Search, cross-reference and language-study features are publicly documented"], "limitations": ["It is not church-management, worship-presentation or licensed-song software", "Resource availability and copyright permissions vary by translation and use", "Check current privacy information for accounts, optional features and third-party embedded content"], "procurementVerdict": {"problem": "Access to deeper Bible-study tools on a limited budget", "differentiator": "A UK-developed, free study tool with online and offline access", "firstCheck": "Try the passages, translations and original-language tools that your teaching team uses most often"}},
+  "support": [
+    "User guide and downloadable software resources"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "STEPBible (Scripture Tools for Every Person) is a registered UK charity, and STEP Bible began as a project of Tyndale House, Cambridge.",
+      "state": "independent-source",
+      "source": "https://register-of-charities.charitycommission.gov.uk/en/constituency-search/-/charity-details/5172044/contact-information",
+      "checked": "2026-07-25"
+    },
+    "free-access": {
+      "value": "Supplier provides downloadable STEP Bible software for use when disconnected from the internet.",
+      "state": "supplier-published",
+      "source": "https://www.stepbible.org/downloads.jsp",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Tyndale House Cambridge publishes a UK data-protection privacy notice identifying itself as controller for site data.",
+      "state": "supplier-published",
+      "source": "https://tyndalehouse.com/policies/privacy/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "STEP Bible is a UK charitable Bible-study project, not a church-management product. It is a useful no-cost option for individual study, group preparation and basic original-language exploration, particularly where a church does not need a paid digital library. Churches should check the permissions and scope of the specific Bible translations and study resources they intend to use publicly.",
+    "bestFor": [
+      "Individuals and small groups seeking a free Bible-study tool",
+      "Leaders wanting searchable texts and original-language support without a subscription",
+      "Churches needing a download option for study away from a reliable connection"
+    ],
+    "strengths": [
+      "UK charitable operating context",
+      "Free online and downloadable study-tool access",
+      "Search, cross-reference and language-study features are publicly documented"
+    ],
+    "limitations": [
+      "It is not church-management, worship-presentation or licensed-song software",
+      "Resource availability and copyright permissions vary by translation and use",
+      "Check current privacy information for accounts, optional features and third-party embedded content"
+    ],
+    "procurementVerdict": {
+      "problem": "Access to deeper Bible-study tools on a limited budget",
+      "differentiator": "A UK-developed, free study tool with online and offline access",
+      "firstCheck": "Try the passages, translations and original-language tools that your teaching team uses most often"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "STEP Bible downloads", "url": "https://www.stepbible.org/downloads.jsp", "checked": "2026-07-25", "supports": ["Desktop software", "Offline use", "Vocabulary extension"]}, {"label": "Tyndale House Cambridge privacy policy", "url": "https://tyndalehouse.com/policies/privacy/", "checked": "2026-07-25", "supports": ["UK data controller", "Privacy information"]}, {"label": "Charity Commission: STEPBible", "url": "https://register-of-charities.charitycommission.gov.uk/en/constituency-search/-/charity-details/5172044/contact-information", "checked": "2026-07-25", "supports": ["UK charity identity"]}, {"label": "STEP Bible user guide: project background", "url": "https://stepbibleguide.blogspot.com/p/who-makes-stepbible.html", "checked": "2026-07-25", "supports": ["Tyndale House Cambridge project origin"]}],
+  "sources": [
+    {
+      "label": "STEP Bible downloads",
+      "url": "https://www.stepbible.org/downloads.jsp",
+      "checked": "2026-07-25",
+      "supports": [
+        "Desktop software",
+        "Offline use",
+        "Vocabulary extension"
+      ]
+    },
+    {
+      "label": "Tyndale House Cambridge privacy policy",
+      "url": "https://tyndalehouse.com/policies/privacy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK data controller",
+        "Privacy information"
+      ]
+    },
+    {
+      "label": "Charity Commission: STEPBible",
+      "url": "https://register-of-charities.charitycommission.gov.uk/en/constituency-search/-/charity-details/5172044/contact-information",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK charity identity"
+      ]
+    },
+    {
+      "label": "STEP Bible user guide: project background",
+      "url": "https://stepbibleguide.blogspot.com/p/who-makes-stepbible.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "Tyndale House Cambridge project origin"
+      ]
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "STEP Bible review for UK churches", "description": "Independent STEP Bible profile for UK churches: free Bible study, searchable texts, offline downloads and language tools."},
+  "seo": {
+    "title": "STEP Bible review for UK churches",
+    "description": "Independent STEP Bible profile for UK churches: free Bible study, searchable texts, offline downloads and language tools."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/step-bible/step-bible-logo.png",

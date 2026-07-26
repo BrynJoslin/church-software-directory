@@ -7,20 +7,91 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "unknown",
-  "categories": ["safeguarding"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches that need a controlled place to administer safeguarding concerns, checks and review dates", "Multi-site church organisations that need role-based access to sensitive safeguarding administration"],
-  "pricing": {"model": "quote-based", "summary": "Public product pages advertise a free trial and demo but do not publish subscription prices in the material reviewed for this profile.", "tiers": [], "trialDetails": "A free trial is advertised; ask the supplier for its duration, scope and data-use conditions."},
+  "categories": [
+    "safeguarding"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches that need a controlled place to administer safeguarding concerns, checks and review dates",
+    "Multi-site church organisations that need role-based access to sensitive safeguarding administration"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "Public product pages advertise a free trial and demo but do not publish subscription prices in the material reviewed for this profile.",
+    "tiers": [],
+    "trialDetails": "A free trial is advertised; ask the supplier for its duration, scope and data-use conditions."
+  },
   "freePlan": "unknown",
   "freeTrial": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "The supplier describes detailed access control and audit history as part of its product. Ask the supplier for a current data-processing agreement, hosting location or contractual retention terms.",
-  "coreFeatures": ["Concern recording and categorisation", "Checks and DBS administration", "Risk assessments", "Role-based access", "Audit history", "Multi-location support"],
+  "coreFeatures": [
+    "Concern recording and categorisation",
+    "Checks and DBS administration",
+    "Risk assessments",
+    "Role-based access",
+    "Audit history",
+    "Multi-location support"
+  ],
   "integrations": [],
   "importExport": [],
-  "support": ["Published UK telephone number and support email"],
-  "decisionEvidence": {"uk-purchasing": {"value": "Supplier contact and about pages state that its team is based in Solihull and serves organisations around the UK.", "state": "supplier-published", "source": "https://www.iknowsafeguarding.co.uk/about/", "checked": "2026-07-25"}, "role-permissions": {"value": "Supplier describes detailed access control and audit history for safeguarding records.", "state": "supplier-published", "source": "https://www.iknowsafeguarding.co.uk/", "checked": "2026-07-25"}, "audit-logs": {"value": "Supplier describes audit history showing updates and views of certain information.", "state": "supplier-published", "source": "https://www.iknowsafeguarding.co.uk/", "checked": "2026-07-25"}, "multi-site": {"value": "Supplier states the product works for single-site and multiple-location organisations.", "state": "supplier-published", "source": "https://www.iknowsafeguarding.co.uk/", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "iKnow Safeguarding is a specialist administration option, not a substitute for a church's safeguarding policy, reporting routes or professional judgement. It deserves careful evaluation wherever sensitive case records are involved: the safeguarding lead should test permissions, audit history, handover, retention, exports and the immediate-concern process before any live use.", "bestFor": ["Churches that need a specialist workflow for safeguarding concerns and checks", "Safeguarding leads requiring controlled role access and an audit trail", "Multi-location organisations that need one administered system for sensitive safeguarding processes"], "strengths": ["The supplier presents a church-specific use case", "Concerns, checks, risk assessments, access control and audit history are all within the documented scope", "A free trial and demo are publicly advertised"], "limitations": ["No public subscription price was found in the reviewed supplier material", "Ask the supplier about Hosting, processor terms, data-export options, retention arrangements and accessibility information", "No system can determine risk, replace safer recruitment, or delay the church's response to an immediate concern"], "procurementVerdict": {"problem": "Churches that need a specialist workflow for safeguarding concerns and checks", "differentiator": "The supplier combines concerns, checks, risk assessments, controlled access and audit history", "firstCheck": "Have the safeguarding lead test permissions, records, handover and the local immediate-concern procedure before loading live data"}},
+  "support": [
+    "Published UK telephone number and support email"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Supplier contact and about pages state that its team is based in Solihull and serves organisations around the UK.",
+      "state": "supplier-published",
+      "source": "https://www.iknowsafeguarding.co.uk/about/",
+      "checked": "2026-07-25"
+    },
+    "role-permissions": {
+      "value": "Supplier describes detailed access control and audit history for safeguarding records.",
+      "state": "supplier-published",
+      "source": "https://www.iknowsafeguarding.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "audit-logs": {
+      "value": "Supplier describes audit history showing updates and views of certain information.",
+      "state": "supplier-published",
+      "source": "https://www.iknowsafeguarding.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "multi-site": {
+      "value": "Supplier states the product works for single-site and multiple-location organisations.",
+      "state": "supplier-published",
+      "source": "https://www.iknowsafeguarding.co.uk/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "iKnow Safeguarding is a specialist administration option, not a substitute for a church's safeguarding policy, reporting routes or professional judgement. It deserves careful evaluation wherever sensitive case records are involved: the safeguarding lead should test permissions, audit history, handover, retention, exports and the immediate-concern process before any live use.",
+    "bestFor": [
+      "Churches that need a specialist workflow for safeguarding concerns and checks",
+      "Safeguarding leads requiring controlled role access and an audit trail",
+      "Multi-location organisations that need one administered system for sensitive safeguarding processes"
+    ],
+    "strengths": [
+      "The supplier presents a church-specific use case",
+      "Concerns, checks, risk assessments, access control and audit history are all within the documented scope",
+      "A free trial and demo are publicly advertised"
+    ],
+    "limitations": [
+      "No public subscription price was found in the reviewed supplier material",
+      "Ask the supplier about Hosting, processor terms, data-export options, retention arrangements and accessibility information",
+      "No system can determine risk, replace safer recruitment, or delay the church's response to an immediate concern"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that need a specialist workflow for safeguarding concerns and checks",
+      "differentiator": "The supplier combines concerns, checks, risk assessments, controlled access and audit history",
+      "firstCheck": "Have the safeguarding lead test permissions, records, handover and the local immediate-concern procedure before loading live data"
+    }
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/iknow-safeguarding/iknow-safeguarding-logo.png",
@@ -30,9 +101,61 @@
     }
   },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "iKnow Safeguarding product overview", "url": "https://www.iknowsafeguarding.co.uk/", "checked": "2026-07-25", "supports": ["Concerns", "Checks and DBS administration", "Risk assessments", "Access control", "Audit history", "Multi-location support", "Free trial"]}, {"label": "iKnow Safeguarding for churches", "url": "https://www.iknowsafeguarding.co.uk/safeguarding-for/safeguarding-software-for-churches/", "checked": "2026-07-25", "supports": ["Church-specific use case"]}, {"label": "iKnow Safeguarding about", "url": "https://www.iknowsafeguarding.co.uk/about/", "checked": "2026-07-25", "supports": ["UK organisation focus", "Solihull team location"]}, {"label": "iKnow Safeguarding contact", "url": "https://iknowsafeguarding.co.uk/contact", "checked": "2026-07-25", "supports": ["Published UK support contact"]}],
-  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.iknow.mobileapp", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This mobile listing is published as iKnow Mobile; confirm the current safeguarding-specific scope before relying on it for a safeguarding workflow."}],
+  "sources": [
+    {
+      "label": "iKnow Safeguarding product overview",
+      "url": "https://www.iknowsafeguarding.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Concerns",
+        "Checks and DBS administration",
+        "Risk assessments",
+        "Access control",
+        "Audit history",
+        "Multi-location support",
+        "Free trial"
+      ]
+    },
+    {
+      "label": "iKnow Safeguarding for churches",
+      "url": "https://www.iknowsafeguarding.co.uk/safeguarding-for/safeguarding-software-for-churches/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church-specific use case"
+      ]
+    },
+    {
+      "label": "iKnow Safeguarding about",
+      "url": "https://www.iknowsafeguarding.co.uk/about/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK organisation focus",
+        "Solihull team location"
+      ]
+    },
+    {
+      "label": "iKnow Safeguarding contact",
+      "url": "https://iknowsafeguarding.co.uk/contact",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published UK support contact"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.iknow.mobileapp",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This mobile listing is published as iKnow Mobile; confirm the current safeguarding-specific scope before relying on it for a safeguarding workflow."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "iKnow Safeguarding review for UK churches", "description": "Independent iKnow Safeguarding profile for UK churches: concerns, DBS checks, access controls, audit history and due diligence."}
+  "seo": {
+    "title": "iKnow Safeguarding review for UK churches",
+    "description": "Independent iKnow Safeguarding profile for UK churches: concerns, DBS checks, access controls, audit history and due diligence."
+  }
 }

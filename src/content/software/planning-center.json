@@ -180,8 +180,25 @@
     }
   ],
   "externalReviews": [
-    {"platform": "Apple App Store US", "profileUrl": "https://apps.apple.com/us/app/planning-center/id6751657545", "rating": 4.6, "maximumRating": 5, "reviewCount": 31, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is the Planning Center app for administrators and does not represent every product in the suite."},
-    {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.ministrycentered.PlanningCenter", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Planning Center Services; this directory has not recorded an aggregate rating or review count."},
+    {
+      "platform": "Apple App Store US",
+      "profileUrl": "https://apps.apple.com/us/app/planning-center/id6751657545",
+      "rating": 4.6,
+      "maximumRating": 5,
+      "reviewCount": 31,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This listing is the Planning Center app for administrators and does not represent every product in the suite."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.ministrycentered.PlanningCenter",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Planning Center Services; this directory has not recorded an aggregate rating or review count."
+    },
     {
       "platform": "G2",
       "profileUrl": "https://www.g2.com/products/planning-center-services/reviews",

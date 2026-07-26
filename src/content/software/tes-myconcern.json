@@ -7,9 +7,19 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["safeguarding"],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
-  "suitableContexts": ["Dioceses and cathedrals operating within the Church of England's national casework programme", "Church organisations needing a formal safeguarding concern and case-management system", "Organisations that require secure reporting, case chronology and controlled information sharing"],
+  "categories": [
+    "safeguarding"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Dioceses and cathedrals operating within the Church of England's national casework programme",
+    "Church organisations needing a formal safeguarding concern and case-management system",
+    "Organisations that require secure reporting, case chronology and controlled information sharing"
+  ],
   "pricing": {
     "model": "quote-based",
     "summary": "Tes MyConcern does not publish church or general public prices on the reviewed pages. Request a scoped quote covering licences, implementation, configuration, training, data migration, ongoing support, retention, export and exit arrangements."
@@ -19,15 +29,52 @@
   "demoAvailable": "yes",
   "dataHosting": "The Safeguarding Company's published privacy notice states that its services use secure UK data centres. Its information-security statement describes UK-based Microsoft Azure data centres and a temporary EU redeployment capability for resilience. Obtain current contractual data-residency and sub-processor detail for the proposed deployment.",
   "gdprInformation": "The Safeguarding Company's privacy material identifies it as processor for customer-uploaded data under a data-sharing and processing agreement available on request. It says UK data centres are used for processing and storage. This is supplier information, not a determination of a church's compliance; safeguarding lawful bases, roles, retention and access arrangements require specialist approval.",
-  "coreFeatures": ["Safeguarding concern recording and case management", "Case chronology", "Action and outcome tracking", "Custom reports", "Controlled information sharing", "Anonymous community reporting", "Staff allegation and low-level-concern management", "Two-factor authentication guidance"],
-  "integrations": ["Wonde for supported school MIS integrations; this does not establish a church-management integration"],
-  "importExport": ["Supplier describes reports that can be downloaded for governance or inspection use", "Confirm case-data import, migration, export, archive and deletion processes in the current agreement"],
-  "support": ["Tes offers a consultation route and a MyConcern support knowledge base", "Training, incident response, support hours and implementation scope require a written proposal"],
+  "coreFeatures": [
+    "Safeguarding concern recording and case management",
+    "Case chronology",
+    "Action and outcome tracking",
+    "Custom reports",
+    "Controlled information sharing",
+    "Anonymous community reporting",
+    "Staff allegation and low-level-concern management",
+    "Two-factor authentication guidance"
+  ],
+  "integrations": [
+    "Wonde for supported school MIS integrations; this does not establish a church-management integration"
+  ],
+  "importExport": [
+    "Supplier describes reports that can be downloaded for governance or inspection use",
+    "Confirm case-data import, migration, export, archive and deletion processes in the current agreement"
+  ],
+  "support": [
+    "Tes offers a consultation route and a MyConcern support knowledge base",
+    "Training, incident response, support hours and implementation scope require a written proposal"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records The Safeguarding Company Limited, number 09075059, as an active England-and-Wales company. Tes says it acquired The Safeguarding Company in 2023.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/09075059", "checked": "2026-07-25"},
-    "church-relevance": {"value": "The Church of England identifies MyConcern as the National Safeguarding Case Management System supplied by its delivery partner, The Safeguarding Company, for dioceses and cathedrals.", "state": "independent-source", "source": "https://www.churchofengland.org/media/28963", "checked": "2026-07-25"},
-    "product-workflow": {"value": "Tes describes concern and case management, reporting, chronology, secure sharing, staff safeguarding and community-reporting workflows for MyConcern.", "state": "supplier-published", "source": "https://www.tes.com/en-gb/for-schools/myconcern", "checked": "2026-07-25"},
-    "data-handling": {"value": "The supplier's published material describes processor status for customer-uploaded data, UK data centres and a request-based data-sharing and processing agreement.", "state": "supplier-published", "source": "https://producttraining.thesafeguardingcompany.com/pages/privacy", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records The Safeguarding Company Limited, number 09075059, as an active England-and-Wales company. Tes says it acquired The Safeguarding Company in 2023.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/09075059",
+      "checked": "2026-07-25"
+    },
+    "church-relevance": {
+      "value": "The Church of England identifies MyConcern as the National Safeguarding Case Management System supplied by its delivery partner, The Safeguarding Company, for dioceses and cathedrals.",
+      "state": "independent-source",
+      "source": "https://www.churchofengland.org/media/28963",
+      "checked": "2026-07-25"
+    },
+    "product-workflow": {
+      "value": "Tes describes concern and case management, reporting, chronology, secure sharing, staff safeguarding and community-reporting workflows for MyConcern.",
+      "state": "supplier-published",
+      "source": "https://www.tes.com/en-gb/for-schools/myconcern",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "The supplier's published material describes processor status for customer-uploaded data, UK data centres and a request-based data-sharing and processing agreement.",
+      "state": "supplier-published",
+      "source": "https://producttraining.thesafeguardingcompany.com/pages/privacy",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -39,21 +86,95 @@
   },
   "editorial": {
     "assessment": "Tes MyConcern is specialist safeguarding case-management software, not a church-management suite. Its significance for this directory is the Church of England's use of the product in its national safeguarding casework programme and the availability of substantive public UK data-handling information. The current public product pages focus on schools, so churches outside that programme should establish product fit, contractual eligibility, governance, workflows and support before treating it as an available local option.",
-    "bestFor": ["Church of England diocesan and cathedral safeguarding operations", "Church organisations that need formal case recording, chronology and controlled information sharing", "Safeguarding leaders working with professional data-governance support"],
-    "strengths": ["Active UK supplier company and Church of England casework relevance", "Specialist concern and case-management scope", "Supplier publishes useful initial UK data-centre and processor information", "Formal reporting, chronology, staff safeguarding and community-reporting workflows are described"],
-    "limitations": ["Public marketing is principally directed at schools", "Public pricing and a church self-service purchase route were not found", "Case-management software cannot determine a church's legal, safeguarding or pastoral decisions", "Current agreement, access controls, data-sharing, retention, export, audit, support and incident-response details need specialist review"],
-    "procurementVerdict": {"problem": "Managing sensitive safeguarding concerns and casework where informal records are unsuitable", "differentiator": "A specialist system with documented Church of England national-casework relevance and public UK infrastructure statements", "firstCheck": "Confirm whether the intended church setting can procure and configure the product, then obtain safeguarding-lead and data-protection approval for roles, access, sharing, retention, reporting, migration and exit"}
+    "bestFor": [
+      "Church of England diocesan and cathedral safeguarding operations",
+      "Church organisations that need formal case recording, chronology and controlled information sharing",
+      "Safeguarding leaders working with professional data-governance support"
+    ],
+    "strengths": [
+      "Active UK supplier company and Church of England casework relevance",
+      "Specialist concern and case-management scope",
+      "Supplier publishes useful initial UK data-centre and processor information",
+      "Formal reporting, chronology, staff safeguarding and community-reporting workflows are described"
+    ],
+    "limitations": [
+      "Public marketing is principally directed at schools",
+      "Public pricing and a church self-service purchase route were not found",
+      "Case-management software cannot determine a church's legal, safeguarding or pastoral decisions",
+      "Current agreement, access controls, data-sharing, retention, export, audit, support and incident-response details need specialist review"
+    ],
+    "procurementVerdict": {
+      "problem": "Managing sensitive safeguarding concerns and casework where informal records are unsuitable",
+      "differentiator": "A specialist system with documented Church of England national-casework relevance and public UK infrastructure statements",
+      "firstCheck": "Confirm whether the intended church setting can procure and configure the product, then obtain safeguarding-lead and data-protection approval for roles, access, sharing, retention, reporting, migration and exit"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Tes MyConcern product overview", "url": "https://www.tes.com/en-gb/for-schools/myconcern", "checked": "2026-07-25", "supports": ["Current product scope", "Case-management features", "Consultation and support routes"]},
-    {"label": "Church of England: National Safeguarding Casework", "url": "https://www.churchofengland.org/media/28963", "checked": "2026-07-25", "supports": ["Church of England MyConcern rollout", "Diocesan and cathedral relevance", "Delivery-partner relationship"]},
-    {"label": "The Safeguarding Company privacy policy", "url": "https://producttraining.thesafeguardingcompany.com/pages/privacy", "checked": "2026-07-25", "supports": ["Legal operator", "Processor statement", "UK data-centre statement", "Data-processing agreement route"]},
-    {"label": "The Safeguarding Company information-security statement", "url": "https://www.thesafeguardingcompany.com/media/4wunassl/otl-sd24-myconcern-information-security-statement-v4.pdf", "checked": "2026-07-25", "supports": ["UK Azure data-centre statement", "Security description", "Company registration number"]},
-    {"label": "Companies House: The Safeguarding Company Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/09075059", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]},
-    {"label": "Tes acquisition announcement", "url": "https://www.tes.com/en-gb/corporate/news-and-blogs/tes-further-invests-supporting-safeguarding-schools-acquisition", "checked": "2026-07-25", "supports": ["Tes ownership context"]}
+    {
+      "label": "Tes MyConcern product overview",
+      "url": "https://www.tes.com/en-gb/for-schools/myconcern",
+      "checked": "2026-07-25",
+      "supports": [
+        "Current product scope",
+        "Case-management features",
+        "Consultation and support routes"
+      ]
+    },
+    {
+      "label": "Church of England: National Safeguarding Casework",
+      "url": "https://www.churchofengland.org/media/28963",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church of England MyConcern rollout",
+        "Diocesan and cathedral relevance",
+        "Delivery-partner relationship"
+      ]
+    },
+    {
+      "label": "The Safeguarding Company privacy policy",
+      "url": "https://producttraining.thesafeguardingcompany.com/pages/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal operator",
+        "Processor statement",
+        "UK data-centre statement",
+        "Data-processing agreement route"
+      ]
+    },
+    {
+      "label": "The Safeguarding Company information-security statement",
+      "url": "https://www.thesafeguardingcompany.com/media/4wunassl/otl-sd24-myconcern-information-security-statement-v4.pdf",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK Azure data-centre statement",
+        "Security description",
+        "Company registration number"
+      ]
+    },
+    {
+      "label": "Companies House: The Safeguarding Company Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09075059",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Active status"
+      ]
+    },
+    {
+      "label": "Tes acquisition announcement",
+      "url": "https://www.tes.com/en-gb/corporate/news-and-blogs/tes-further-invests-supporting-safeguarding-schools-acquisition",
+      "checked": "2026-07-25",
+      "supports": [
+        "Tes ownership context"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Tes MyConcern review for UK churches", "description": "Independent Tes MyConcern profile: Church of England casework relevance, safeguarding workflows, UK data statements and procurement checks."}
+  "seo": {
+    "title": "Tes MyConcern review for UK churches",
+    "description": "Independent Tes MyConcern profile: Church of England casework relevance, safeguarding workflows, UK data statements and procurement checks."
+  }
 }

@@ -165,7 +165,27 @@
       ]
     }
   ],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/planning-by-worshiptools/id1586693784", "rating": 4.45455, "maximumRating": 5, "reviewCount": 11, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Planning by WorshipTools."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.worshipextreme.planning", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Planning by WorshipTools; this directory has not recorded an aggregate rating or review count."}],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/planning-by-worshiptools/id1586693784",
+      "rating": 4.45455,
+      "maximumRating": 5,
+      "reviewCount": 11,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Planning by WorshipTools."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.worshipextreme.planning",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Planning by WorshipTools; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

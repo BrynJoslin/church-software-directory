@@ -7,30 +7,163 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["room-bookings", "church-accounting", "church-websites"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches hiring out a hall or multiple rooms to the public", "Volunteer teams needing online booking requests and invoices", "Venues that want an availability calendar embedded in an existing website"],
-  "pricing": {"model": "flat-rate", "summary": "Hall Booking Online publishes a subscription price of £10 per month plus VAT and a free, no-commitment trial. Confirm the current evaluation length, renewal terms and payment-provider charges before purchase.", "startingPrice": {"amount": 10, "currency": "GBP", "period": "month", "qualifier": "plus VAT"}, "tiers": [{"label": "Hall Booking Online", "price": "£10/month plus VAT", "detail": "Online booking calendar, invoicing, payments, reports, calendar embedding and data export"}], "trialDetails": "Supplier promotes a free, no-commitment trial but does not state the trial duration on the reviewed home page."},
+  "categories": [
+    "room-bookings",
+    "church-accounting",
+    "church-websites"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches hiring out a hall or multiple rooms to the public",
+    "Volunteer teams needing online booking requests and invoices",
+    "Venues that want an availability calendar embedded in an existing website"
+  ],
+  "pricing": {
+    "model": "flat-rate",
+    "summary": "Hall Booking Online publishes a subscription price of £10 per month plus VAT and a free, no-commitment trial. Confirm the current evaluation length, renewal terms and payment-provider charges before purchase.",
+    "startingPrice": {
+      "amount": 10,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "plus VAT"
+    },
+    "tiers": [
+      {
+        "label": "Hall Booking Online",
+        "price": "£10/month plus VAT",
+        "detail": "Online booking calendar, invoicing, payments, reports, calendar embedding and data export"
+      }
+    ],
+    "trialDetails": "Supplier promotes a free, no-commitment trial but does not state the trial duration on the reviewed home page."
+  },
   "freePlan": "no",
   "freeTrial": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "Hall Booking Online identifies its ICO registration (ZB545615), says data is stored on UK/EU servers and publishes individual-rights information. Its policy does not establish current controller/processor roles for church booking data, the exact hosting provider, sub-processors, retention, backup or incident arrangements; obtain the current contractual data-processing pack before use.",
-  "coreFeatures": ["Online availability calendar", "Provisional one-off and repeat booking requests", "Multiple rooms", "Administrator accounts", "Invoice, receipt and credit-note generation", "Payment tracking", "Reporting and booking data export", "Website calendar widget", "Custom hire-rate calculation", "Venue terms-and-conditions link"],
-  "integrations": ["Stripe", "PayPal", "Square", "Google Calendar", "Calendar API"],
-  "importExport": ["Export invoice data for Xero, QuickBooks or Excel", "Calendar API"],
-  "support": ["Supplier publishes weekday contact hours of 9am to 5pm", "Online FAQ and documentation"],
+  "coreFeatures": [
+    "Online availability calendar",
+    "Provisional one-off and repeat booking requests",
+    "Multiple rooms",
+    "Administrator accounts",
+    "Invoice, receipt and credit-note generation",
+    "Payment tracking",
+    "Reporting and booking data export",
+    "Website calendar widget",
+    "Custom hire-rate calculation",
+    "Venue terms-and-conditions link"
+  ],
+  "integrations": [
+    "Stripe",
+    "PayPal",
+    "Square",
+    "Google Calendar",
+    "Calendar API"
+  ],
+  "importExport": [
+    "Export invoice data for Xero, QuickBooks or Excel",
+    "Calendar API"
+  ],
+  "support": [
+    "Supplier publishes weekday contact hours of 9am to 5pm",
+    "Online FAQ and documentation"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Hall Booking Online identifies itself as a trading name of Fen Street Designs Ltd, registered in England and Wales under number 14446544. Companies House lists that company as active and classified for software development.", "state": "supplier-published", "source": "https://hallbookingonline.com/privacy/", "checked": "2026-07-25"},
-    "church-hall-scope": {"value": "Supplier publishes an online booking and invoicing system for village halls, church halls and community centres.", "state": "supplier-published", "source": "https://hallbookingonline.com/", "checked": "2026-07-25"},
-    "pricing": {"value": "Supplier publishes £10 per month plus VAT and a free, no-commitment trial.", "state": "supplier-published", "source": "https://hallbookingonline.com/", "checked": "2026-07-25"},
-    "data-processing": {"value": "Supplier publishes an ICO registration number and says customer data is stored on UK/EU servers, but current controller/processor roles, sub-processors, retention and incident terms for venue data need supplier documentation.", "state": "needs-refresh", "source": "https://hallbookingonline.com/privacy/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Hall Booking Online identifies itself as a trading name of Fen Street Designs Ltd, registered in England and Wales under number 14446544. Companies House lists that company as active and classified for software development.",
+      "state": "supplier-published",
+      "source": "https://hallbookingonline.com/privacy/",
+      "checked": "2026-07-25"
+    },
+    "church-hall-scope": {
+      "value": "Supplier publishes an online booking and invoicing system for village halls, church halls and community centres.",
+      "state": "supplier-published",
+      "source": "https://hallbookingonline.com/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes £10 per month plus VAT and a free, no-commitment trial.",
+      "state": "supplier-published",
+      "source": "https://hallbookingonline.com/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier publishes an ICO registration number and says customer data is stored on UK/EU servers, but current controller/processor roles, sub-processors, retention and incident terms for venue data need supplier documentation.",
+      "state": "needs-refresh",
+      "source": "https://hallbookingonline.com/privacy/",
+      "checked": "2026-07-25"
+    }
   },
-  "editorial": {"assessment": "Hall Booking Online is a low-cost UK option for public church-hall hire. It focuses on practical venue administration: public availability, booking requests, invoices, payments, reports and a website calendar. The published £10-per-month price makes it particularly relevant to volunteer-run venues. It is not a church-management system or an internal ministry-room scheduler, and a church should review current data-processing and payment terms before uploading hirer records.", "bestFor": ["Church halls with public and community lettings", "Volunteer teams seeking a low-cost booking and invoicing workflow", "Venues wanting to embed availability and booking requests in their website"], "strengths": ["Named active UK software company and current privacy page", "Clear public monthly GBP price and free trial", "Booking, invoicing, payment tracking and reporting included", "Website calendar integration and export options"], "limitations": ["Designed for public venue hire rather than internal church administration", "Confirm payment-provider charges, deposits, cancellations and refunds", "Obtain current DPA, hosting, sub-processor, retention, backup and exit documentation", "Published free-trial duration was not established on the reviewed home page"], "procurementVerdict": {"problem": "Replacing manual church-hall booking, invoice and availability processes", "differentiator": "A low-cost UK product combining hall-booking calendar, invoices, payment links and website embedding", "firstCheck": "Use the trial with a real hall, regular hirer and invoice workflow, then agree the current data-processing and payment responsibilities"}},
+  "editorial": {
+    "assessment": "Hall Booking Online is a low-cost UK option for public church-hall hire. It focuses on practical venue administration: public availability, booking requests, invoices, payments, reports and a website calendar. The published £10-per-month price makes it particularly relevant to volunteer-run venues. It is not a church-management system or an internal ministry-room scheduler, and a church should review current data-processing and payment terms before uploading hirer records.",
+    "bestFor": [
+      "Church halls with public and community lettings",
+      "Volunteer teams seeking a low-cost booking and invoicing workflow",
+      "Venues wanting to embed availability and booking requests in their website"
+    ],
+    "strengths": [
+      "Named active UK software company and current privacy page",
+      "Clear public monthly GBP price and free trial",
+      "Booking, invoicing, payment tracking and reporting included",
+      "Website calendar integration and export options"
+    ],
+    "limitations": [
+      "Designed for public venue hire rather than internal church administration",
+      "Confirm payment-provider charges, deposits, cancellations and refunds",
+      "Obtain current DPA, hosting, sub-processor, retention, backup and exit documentation",
+      "Published free-trial duration was not established on the reviewed home page"
+    ],
+    "procurementVerdict": {
+      "problem": "Replacing manual church-hall booking, invoice and availability processes",
+      "differentiator": "A low-cost UK product combining hall-booking calendar, invoices, payment links and website embedding",
+      "firstCheck": "Use the trial with a real hall, regular hirer and invoice workflow, then agree the current data-processing and payment responsibilities"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "Hall Booking Online", "url": "https://hallbookingonline.com/", "checked": "2026-07-25", "supports": ["Church-hall scope", "Booking and invoicing features", "Published price", "Free trial"]}, {"label": "Hall Booking Online privacy policy", "url": "https://hallbookingonline.com/privacy/", "checked": "2026-07-25", "supports": ["Trading name", "ICO registration statement", "UK/EU server statement", "Data-subject rights"]}, {"label": "Companies House: Fen Street Designs Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/14446544", "checked": "2026-07-25", "supports": ["UK company identity", "Active status", "Software-development SIC"]}],
+  "sources": [
+    {
+      "label": "Hall Booking Online",
+      "url": "https://hallbookingonline.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church-hall scope",
+        "Booking and invoicing features",
+        "Published price",
+        "Free trial"
+      ]
+    },
+    {
+      "label": "Hall Booking Online privacy policy",
+      "url": "https://hallbookingonline.com/privacy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Trading name",
+        "ICO registration statement",
+        "UK/EU server statement",
+        "Data-subject rights"
+      ]
+    },
+    {
+      "label": "Companies House: Fen Street Designs Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14446544",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "Active status",
+        "Software-development SIC"
+      ]
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Hall Booking Online review for UK churches", "description": "Independent Hall Booking Online profile: UK church-hall bookings, invoices, public pricing and data-processing checks."},
+  "seo": {
+    "title": "Hall Booking Online review for UK churches",
+    "description": "Independent Hall Booking Online profile: UK church-hall bookings, invoices, public pricing and data-processing checks."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/hall-booking-online/hall-booking-online-logo.png",

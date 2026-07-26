@@ -6,6 +6,13 @@ Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
+- The 26 July 2026 base discovery pack ran 1,628 product-name queries across
+  all 148 active listings and the private ledger records every identity card
+  and query. The catalogue currently omits public panels while source-by-source
+  permission and editorial review are completed. Discovery found potential
+  feedback; it must not be represented publicly as no feedback merely because
+  it has not been retained for a permitted thematic synthesis.
+
 - The 26 July 2026 external-review audit checked the active catalogue against
   Trustpilot, the Apple App Store and Google Play. It retains only directly
   matched public product or company profiles, records scope explicitly and
@@ -401,6 +408,13 @@ Phase 6: contribution and continuous quality completed.
   it is retained as market context rather than a current UK purchasing option.
 
 ## Completed
+
+- Retired the Church123 profile after its official website and recorded terms
+  and pricing pages returned confirmed 404 responses. Its related ChurchBox
+  company evidence now relies on the current Companies House record rather than
+  the unavailable Church123 terms. Updated the remaining affected source records
+  to live first-party pages or removed stale app-store references where the
+  public source could no longer be checked.
 
 - Public evidence language now treats current official supplier material as
   sufficient evidence for what the supplier publishes. Overall completeness

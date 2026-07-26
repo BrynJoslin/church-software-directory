@@ -12,7 +12,11 @@
     "church-communications",
     "sermon-hosting"
   ],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Churches seeking one commercial platform for app, media and engagement",
     "Multi-site teams needing quote-based implementation and support"
@@ -134,7 +138,9 @@
       "label": "Subsplash terms and conditions",
       "url": "https://www.subsplash.com/legal/terms-and-conditions",
       "checked": "2026-07-25",
-      "supports": ["Trial terms reference"]
+      "supports": [
+        "Trial terms reference"
+      ]
     }
   ],
   "externalReviews": [

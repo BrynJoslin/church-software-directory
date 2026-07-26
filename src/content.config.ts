@@ -73,6 +73,40 @@ const externalReviewSchema = z
       });
     }
   });
+const publicFeedbackTheme = z.object({
+  label: z.string().min(1),
+  summary: z.string().min(1),
+  sourceUrls: z.array(z.url()).min(1)
+});
+const publicFeedback = z
+  .object({
+    status: z.enum(["themes-found", "limited", "no-usable-feedback"]),
+    summary: z.string().min(1),
+    positiveThemes: z.array(publicFeedbackTheme).default([]),
+    concernThemes: z.array(publicFeedbackTheme).default([]),
+    conflictingEvidence: z.array(publicFeedbackTheme).default([]),
+    ukChurchTakeaways: z.array(z.string().min(1)).default([]),
+    checked: z.coerce.date(),
+    windowStart: z.coerce.date().optional(),
+    windowEnd: z.coerce.date(),
+    itemsReviewed: z.number().int().nonnegative(),
+    sourceTypes: z.array(z.string().min(1)).min(1),
+    ukEvidence: z.enum(["substantial", "some", "limited", "none-found"]),
+    sampleMethod: z.string().min(1),
+    limitations: z.array(z.string().min(1)).min(1),
+    methodVersion: z.literal("1.0")
+  })
+  .superRefine((feedback, context) => {
+    if (feedback.checked > new Date()) context.addIssue({ code: "custom", message: "checked cannot be in the future.", path: ["checked"] });
+    if (feedback.windowEnd > feedback.checked) context.addIssue({ code: "custom", message: "windowEnd cannot be after checked.", path: ["windowEnd"] });
+    if (feedback.windowStart && feedback.windowStart > feedback.windowEnd) context.addIssue({ code: "custom", message: "windowStart cannot be after windowEnd.", path: ["windowStart"] });
+    if (feedback.status === "no-usable-feedback" && (feedback.positiveThemes.length || feedback.concernThemes.length || feedback.conflictingEvidence.length)) {
+      context.addIssue({ code: "custom", message: "no-usable-feedback cannot contain published themes.", path: ["status"] });
+    }
+    if (feedback.status !== "no-usable-feedback" && !feedback.ukChurchTakeaways.length) {
+      context.addIssue({ code: "custom", message: "UK church takeaways are required for themes-found and limited feedback.", path: ["ukChurchTakeaways"] });
+    }
+  });
 const longFormSection = z.object({
   heading: z.string().min(1),
   question: z.string().min(1),
@@ -176,6 +210,7 @@ const software = defineCollection({
     lastChecked: z.coerce.date(),
     sources: z.array(sourceSchema).min(1),
     externalReviews: z.array(externalReviewSchema).default([]),
+    publicFeedback: publicFeedback.optional(),
     affiliateRelationship: triState.default("no"),
     affiliateUrl: z.url().optional(),
     sponsored: z.boolean().default(false),

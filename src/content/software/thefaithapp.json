@@ -7,13 +7,35 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "church-mobile-apps", "church-communications", "events-ticketing", "sermon-hosting", "volunteer-scheduling", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches seeking a free entry tier for a broad member-facing platform", "Teams that need sermon, devotional, event and communication tools in a mobile app", "Churches able to evaluate a newer UK operator with an international audience"],
+  "categories": [
+    "church-management",
+    "church-mobile-apps",
+    "church-communications",
+    "events-ticketing",
+    "sermon-hosting",
+    "volunteer-scheduling",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches seeking a free entry tier for a broad member-facing platform",
+    "Teams that need sermon, devotional, event and communication tools in a mobile app",
+    "Churches able to evaluate a newer UK operator with an international audience"
+  ],
   "pricing": {
     "model": "freemium",
     "summary": "The supplier advertises a free plan for churches with up to 100 members and paid plans based on church size. Its optional AI add-on is advertised from $15/month; obtain a current order summary for paid platform and UK payment-processing costs.",
-    "tiers": [{"label": "Free plan", "price": "Free", "detail": "Supplier says this is available for churches with up to 100 members."}],
+    "tiers": [
+      {
+        "label": "Free plan",
+        "price": "Free",
+        "detail": "Supplier says this is available for churches with up to 100 members."
+      }
+    ],
     "trialDetails": "The supplier presents the small-church tier as free rather than as a time-limited trial."
   },
   "freePlan": "yes",
@@ -21,15 +43,51 @@
   "giftAid": "unknown",
   "demoAvailable": "yes",
   "gdprInformation": "The privacy policy names THEFAITH LTD in London, describes payment processors including Stripe, PayPal and Flutterwave, and says information may be processed internationally. Obtain a current data-processing agreement, hosting and sub-processor details, retention schedule, access controls and export process before storing member or donor data.",
-  "coreFeatures": ["Member, event and volunteer management", "Video and audio sermon streaming", "Daily devotions and church bulletins", "Church updates, real-time chat and prayer requests", "Mobile apps for iOS and Android", "Online-giving connections through third-party processors", "Email and SMS marketing", "Optional AI ministry assistant"],
-  "integrations": ["Stripe", "PayPal", "Flutterwave", "API access for integrations"],
+  "coreFeatures": [
+    "Member, event and volunteer management",
+    "Video and audio sermon streaming",
+    "Daily devotions and church bulletins",
+    "Church updates, real-time chat and prayer requests",
+    "Mobile apps for iOS and Android",
+    "Online-giving connections through third-party processors",
+    "Email and SMS marketing",
+    "Optional AI ministry assistant"
+  ],
+  "integrations": [
+    "Stripe",
+    "PayPal",
+    "Flutterwave",
+    "API access for integrations"
+  ],
   "importExport": [],
-  "support": ["Supplier offers a personalised demo booking route"],
+  "support": [
+    "Supplier offers a personalised demo booking route"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records THEFAITH LTD, company number 15841609, as an active UK private limited company; the supplier terms identify it as owner of TheFaithApp.", "state": "supplier-published", "source": "https://find-and-update.company-information.service.gov.uk/company/15841609", "checked": "2026-07-25"},
-    "free-tier": {"value": "Supplier advertises a free plan for churches with up to 100 members.", "state": "supplier-published", "source": "https://thefaithapp.com/", "checked": "2026-07-25"},
-    "payments": {"value": "Supplier says donations are processed by connected third-party providers, including Stripe, PayPal and Flutterwave, rather than storing card or bank data itself.", "state": "supplier-published", "source": "https://thefaithapp.com/terms", "checked": "2026-07-25"},
-    "privacy": {"value": "Supplier privacy policy says information may be processed internationally and identifies its third-party payment providers.", "state": "supplier-published", "source": "https://thefaithapp.com/privacy", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records THEFAITH LTD, company number 15841609, as an active UK private limited company; the supplier terms identify it as owner of TheFaithApp.",
+      "state": "supplier-published",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/15841609",
+      "checked": "2026-07-25"
+    },
+    "free-tier": {
+      "value": "Supplier advertises a free plan for churches with up to 100 members.",
+      "state": "supplier-published",
+      "source": "https://thefaithapp.com/",
+      "checked": "2026-07-25"
+    },
+    "payments": {
+      "value": "Supplier says donations are processed by connected third-party providers, including Stripe, PayPal and Flutterwave, rather than storing card or bank data itself.",
+      "state": "supplier-published",
+      "source": "https://thefaithapp.com/terms",
+      "checked": "2026-07-25"
+    },
+    "privacy": {
+      "value": "Supplier privacy policy says information may be processed internationally and identifies its third-party payment providers.",
+      "state": "supplier-published",
+      "source": "https://thefaithapp.com/privacy",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -41,20 +99,89 @@
   },
   "editorial": {
     "assessment": "TheFaithApp is a newer UK-operated platform offering a notably broad free entry tier: church administration, member-facing content, communications, events, mobile apps and payment-provider connections. Its public material is global rather than UK-specialist, and the product is young, so it should be assessed as a controlled pilot rather than an automatic replacement for established church systems. The payment integrations do not by themselves confirm UK Gift Aid or charity-accounting capability.",
-    "bestFor": ["Small churches seeking a free member-facing platform", "Churches that prioritise sermons, devotions, announcements and app access", "Teams prepared to conduct a careful privacy and payment-integration review"],
-    "strengths": ["Named active UK software publisher", "Free plan advertised for churches with up to 100 members", "Broad member, content, communication and mobile-app scope", "Supplier identifies third-party payment processors and offers a demo"],
-    "limitations": ["Paid platform pricing is not clearly published in GBP", "The platform serves churches worldwide and supplier privacy information allows international processing", "The reviewed material does not state Gift Aid support, UK payment methods, accounting exports or data-hosting location", "New supplier and public mobile-app data disclosures warrant additional due diligence"],
-    "procurementVerdict": {"problem": "A church seeking a low-cost, all-in-one member-facing platform", "differentiator": "Free small-church tier combining administration, content, communications and mobile apps", "firstCheck": "Use a non-sensitive pilot to test permissions, event and volunteer workflows, data export, payment-provider setup and UK charity requirements"}
+    "bestFor": [
+      "Small churches seeking a free member-facing platform",
+      "Churches that prioritise sermons, devotions, announcements and app access",
+      "Teams prepared to conduct a careful privacy and payment-integration review"
+    ],
+    "strengths": [
+      "Named active UK software publisher",
+      "Free plan advertised for churches with up to 100 members",
+      "Broad member, content, communication and mobile-app scope",
+      "Supplier identifies third-party payment processors and offers a demo"
+    ],
+    "limitations": [
+      "Paid platform pricing is not clearly published in GBP",
+      "The platform serves churches worldwide and supplier privacy information allows international processing",
+      "The reviewed material does not state Gift Aid support, UK payment methods, accounting exports or data-hosting location",
+      "New supplier and public mobile-app data disclosures warrant additional due diligence"
+    ],
+    "procurementVerdict": {
+      "problem": "A church seeking a low-cost, all-in-one member-facing platform",
+      "differentiator": "Free small-church tier combining administration, content, communications and mobile apps",
+      "firstCheck": "Use a non-sensitive pilot to test permissions, event and volunteer workflows, data export, payment-provider setup and UK charity requirements"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "TheFaithApp product overview", "url": "https://thefaithapp.com/", "checked": "2026-07-25", "supports": ["Feature scope", "Free small-church tier", "Mobile apps", "Demo route", "Supplier payment-provider claims"]},
-    {"label": "TheFaithApp terms", "url": "https://thefaithapp.com/terms", "checked": "2026-07-25", "supports": ["THEFAITH LTD ownership", "Payment-provider roles", "England and Wales governing law"]},
-    {"label": "TheFaithApp privacy policy", "url": "https://thefaithapp.com/privacy", "checked": "2026-07-25", "supports": ["UK company contact details", "International-processing statement", "Payment-processor disclosure", "Retention summary"]},
-    {"label": "Companies House: THEFAITH LTD", "url": "https://find-and-update.company-information.service.gov.uk/company/15841609", "checked": "2026-07-25", "supports": ["Active UK company", "Company number", "Software-publishing business activity"]}
+    {
+      "label": "TheFaithApp product overview",
+      "url": "https://thefaithapp.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Feature scope",
+        "Free small-church tier",
+        "Mobile apps",
+        "Demo route",
+        "Supplier payment-provider claims"
+      ]
+    },
+    {
+      "label": "TheFaithApp terms",
+      "url": "https://thefaithapp.com/terms",
+      "checked": "2026-07-25",
+      "supports": [
+        "THEFAITH LTD ownership",
+        "Payment-provider roles",
+        "England and Wales governing law"
+      ]
+    },
+    {
+      "label": "TheFaithApp privacy policy",
+      "url": "https://thefaithapp.com/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company contact details",
+        "International-processing statement",
+        "Payment-processor disclosure",
+        "Retention summary"
+      ]
+    },
+    {
+      "label": "Companies House: THEFAITH LTD",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/15841609",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK company",
+        "Company number",
+        "Software-publishing business activity"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.thefaithltd.app", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under TheFaithApp name; this directory has not recorded an aggregate rating or review count."}],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.thefaithltd.app",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under TheFaithApp name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "TheFaithApp review for UK churches", "description": "Independent TheFaithApp profile: free small-church tier, mobile app, member tools, payment connections and UK procurement checks."}
+  "seo": {
+    "title": "TheFaithApp review for UK churches",
+    "description": "Independent TheFaithApp profile: free small-church tier, mobile app, member tools, payment connections and UK procurement checks."
+  }
 }

@@ -7,23 +7,83 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["livestreaming"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches or cathedrals needing a managed live-service stream", "Parishes that need public or password-protected viewing", "Churches wanting a specialist provider across the UK and Ireland"],
-  "pricing": {"model": "quote-based", "summary": "No current public church-service price was located in the reviewed official material. Request a written scope covering equipment, installation, event coverage, support, storage, viewer access, recording retention and all recurring charges.", "tiers": [{"label": "Church livestreaming service", "price": "Contact supplier", "detail": "Supplier publishes service features but no current public church price in the reviewed pages."}]},
+  "categories": [
+    "livestreaming"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches or cathedrals needing a managed live-service stream",
+    "Parishes that need public or password-protected viewing",
+    "Churches wanting a specialist provider across the UK and Ireland"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "No current public church-service price was located in the reviewed official material. Request a written scope covering equipment, installation, event coverage, support, storage, viewer access, recording retention and all recurring charges.",
+    "tiers": [
+      {
+        "label": "Church livestreaming service",
+        "price": "Contact supplier",
+        "detail": "Supplier publishes service features but no current public church price in the reviewed pages."
+      }
+    ]
+  },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "MCN publishes church livestreaming guidance that discusses attendee visibility, password protection and recording retention. This is supplier guidance, not a substitute for the church’s own data-protection assessment. Obtain the current agreement, controller/processor roles, hosting and sub-processor information, retention settings, deletion workflow and international-transfer details before recording services or handling personal data.",
-  "coreFeatures": ["Church and cathedral livestreaming", "Live schedule and viewer pages", "Optional password protection", "Unlimited recordings stated by supplier", "Streaming to Facebook and YouTube", "Roku TV viewing", "Supplier-described seven-day support"],
-  "integrations": ["Facebook streaming", "YouTube streaming", "Roku TV viewing"],
-  "importExport": ["Supplier states that recordings can be deleted from its website or deletion can be requested by email", "Confirm download, archive export, media ownership and deletion evidence before purchase"],
-  "support": ["Supplier advertises seven-day support", "Published support email and Northern Ireland contact details", "Confirm support hours, incident response, installation and live-event cover in the agreement"],
+  "coreFeatures": [
+    "Church and cathedral livestreaming",
+    "Live schedule and viewer pages",
+    "Optional password protection",
+    "Unlimited recordings stated by supplier",
+    "Streaming to Facebook and YouTube",
+    "Roku TV viewing",
+    "Supplier-described seven-day support"
+  ],
+  "integrations": [
+    "Facebook streaming",
+    "YouTube streaming",
+    "Roku TV viewing"
+  ],
+  "importExport": [
+    "Supplier states that recordings can be deleted from its website or deletion can be requested by email",
+    "Confirm download, archive export, media ownership and deletion evidence before purchase"
+  ],
+  "support": [
+    "Supplier advertises seven-day support",
+    "Published support email and Northern Ireland contact details",
+    "Confirm support hours, incident response, installation and live-event cover in the agreement"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "MCN’s terms identify Service Stream Ltd, trading as MCN Media, as the operator. Companies House lists Service Stream Ltd, number NI694018, as an active Northern Ireland company.", "state": "supplier-published", "source": "https://www.mcn.live/Terms", "checked": "2026-07-25"},
-    "church-workflow": {"value": "MCN’s service page lists churches and cathedrals across Northern Ireland, England and Scotland and describes church livestreaming, recordings, password protection and social-platform streaming.", "state": "supplier-published", "source": "https://www.mcn.live/", "checked": "2026-07-25"},
-    "privacy-guidance": {"value": "Supplier guidance discusses camera positioning, notices, password-protected streams and recording retention for churches, weddings, funerals and services involving children.", "state": "supplier-published", "source": "https://www.mcn.live/GDPR-Guidelines", "checked": "2026-07-25"},
-    "support": {"value": "The service home page advertises seven-day support and publishes contact routes from Cookstown, Northern Ireland.", "state": "supplier-published", "source": "https://www.mcn.live/ContactUs", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "MCN’s terms identify Service Stream Ltd, trading as MCN Media, as the operator. Companies House lists Service Stream Ltd, number NI694018, as an active Northern Ireland company.",
+      "state": "supplier-published",
+      "source": "https://www.mcn.live/Terms",
+      "checked": "2026-07-25"
+    },
+    "church-workflow": {
+      "value": "MCN’s service page lists churches and cathedrals across Northern Ireland, England and Scotland and describes church livestreaming, recordings, password protection and social-platform streaming.",
+      "state": "supplier-published",
+      "source": "https://www.mcn.live/",
+      "checked": "2026-07-25"
+    },
+    "privacy-guidance": {
+      "value": "Supplier guidance discusses camera positioning, notices, password-protected streams and recording retention for churches, weddings, funerals and services involving children.",
+      "state": "supplier-published",
+      "source": "https://www.mcn.live/GDPR-Guidelines",
+      "checked": "2026-07-25"
+    },
+    "support": {
+      "value": "The service home page advertises seven-day support and publishes contact routes from Cookstown, Northern Ireland.",
+      "state": "supplier-published",
+      "source": "https://www.mcn.live/ContactUs",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -35,20 +95,83 @@
   },
   "editorial": {
     "assessment": "MCN Media is a managed livestreaming provider rather than a general church database or sermon-management system. Its church and cathedral focus, optional password protection and published guidance make it relevant to UK parishes, especially where a managed setup is preferable to operating a self-service platform. The public material does not establish pricing, contract, hosting or data-processing detail, so those matters should determine whether it is suitable for a particular service.",
-    "bestFor": ["Churches and cathedrals seeking a specialist managed streaming service", "Parishes that need optional restricted viewer access", "Teams that want a supplier-led livestream setup and ongoing support"],
-    "strengths": ["Named Northern Ireland operating company", "Church and cathedral workflow is explicit", "Optional password protection and recording management are documented", "Supplier advertises seven-day support and social-platform streaming"],
-    "limitations": ["No current public church price was located", "The product is livestreaming-focused, not a full sermon-hosting or church-management platform", "Churches remain responsible for their own lawful notices, consent decisions and service-recording policy", "Hosting, sub-processors, exact retention controls, export and contract terms require written supplier evidence"],
-    "procurementVerdict": {"problem": "Providing a reliable managed livestream for services while controlling who can view recordings", "differentiator": "A Northern Ireland-operated church and cathedral streaming specialist with optional password protection and published privacy-aware guidance", "firstCheck": "Obtain a written proposal covering the exact camera setup, viewer access, storage, deletion, emergency support, licensing responsibilities and data-processing terms, then test a real service"}
+    "bestFor": [
+      "Churches and cathedrals seeking a specialist managed streaming service",
+      "Parishes that need optional restricted viewer access",
+      "Teams that want a supplier-led livestream setup and ongoing support"
+    ],
+    "strengths": [
+      "Named Northern Ireland operating company",
+      "Church and cathedral workflow is explicit",
+      "Optional password protection and recording management are documented",
+      "Supplier advertises seven-day support and social-platform streaming"
+    ],
+    "limitations": [
+      "No current public church price was located",
+      "The product is livestreaming-focused, not a full sermon-hosting or church-management platform",
+      "Churches remain responsible for their own lawful notices, consent decisions and service-recording policy",
+      "Hosting, sub-processors, exact retention controls, export and contract terms require written supplier evidence"
+    ],
+    "procurementVerdict": {
+      "problem": "Providing a reliable managed livestream for services while controlling who can view recordings",
+      "differentiator": "A Northern Ireland-operated church and cathedral streaming specialist with optional password protection and published privacy-aware guidance",
+      "firstCheck": "Obtain a written proposal covering the exact camera setup, viewer access, storage, deletion, emergency support, licensing responsibilities and data-processing terms, then test a real service"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "MCN Media home", "url": "https://www.mcn.live/", "checked": "2026-07-25", "supports": ["Church and cathedral scope", "Livestreaming features", "Support claim"]},
-    {"label": "MCN Media terms", "url": "https://www.mcn.live/Terms", "checked": "2026-07-25", "supports": ["Operating entity", "Service terms"]},
-    {"label": "MCN Media church livestreaming guidance", "url": "https://www.mcn.live/GDPR-Guidelines", "checked": "2026-07-25", "supports": ["Password protection", "Recording retention guidance", "Church filming considerations"]},
-    {"label": "MCN Media contact information", "url": "https://www.mcn.live/ContactUs", "checked": "2026-07-25", "supports": ["Northern Ireland contact details", "Support contact"]},
-    {"label": "Companies House: Service Stream Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/NI694018", "checked": "2026-07-25", "supports": ["UK company registration", "Company status"]}
+    {
+      "label": "MCN Media home",
+      "url": "https://www.mcn.live/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church and cathedral scope",
+        "Livestreaming features",
+        "Support claim"
+      ]
+    },
+    {
+      "label": "MCN Media terms",
+      "url": "https://www.mcn.live/Terms",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating entity",
+        "Service terms"
+      ]
+    },
+    {
+      "label": "MCN Media church livestreaming guidance",
+      "url": "https://www.mcn.live/GDPR-Guidelines",
+      "checked": "2026-07-25",
+      "supports": [
+        "Password protection",
+        "Recording retention guidance",
+        "Church filming considerations"
+      ]
+    },
+    {
+      "label": "MCN Media contact information",
+      "url": "https://www.mcn.live/ContactUs",
+      "checked": "2026-07-25",
+      "supports": [
+        "Northern Ireland contact details",
+        "Support contact"
+      ]
+    },
+    {
+      "label": "Companies House: Service Stream Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/NI694018",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "MCN Media review for UK churches", "description": "Independent MCN Media profile for UK churches: managed livestreaming, recorded services, viewer access and procurement questions."}
+  "seo": {
+    "title": "MCN Media review for UK churches",
+    "description": "Independent MCN Media profile for UK churches: managed livestreaming, recorded services, viewer access and procurement questions."
+  }
 }

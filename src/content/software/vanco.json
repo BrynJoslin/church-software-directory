@@ -5,8 +5,16 @@
   "officialWebsite": "https://www.vancopayments.com/egiving",
   "company": "Vanco Payments",
   "ukFocus": "general",
-  "categories": ["online-giving", "church-communications"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "categories": [
+    "online-giving",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Churches in Vanco’s supported market seeking integrated digital giving",
     "Teams comparing US giving fees and integrations"
@@ -49,7 +57,10 @@
     "Parish Data Systems"
   ],
   "importExport": [],
-  "support": ["US-based ongoing support", "Personalised demo"],
+  "support": [
+    "US-based ongoing support",
+    "Personalised demo"
+  ],
   "editorial": {
     "assessment": "Vanco provides unusually detailed published US church-giving pricing and integrations, but those rates, ACH functionality and support are US-specific. It is useful comparison context, not a UK recommendation until the supplier confirms a UK product and finance workflow.",
     "bestFor": [
@@ -110,7 +121,13 @@
       "label": "Vanco online giving",
       "url": "https://www.vancopayments.com/egiving",
       "checked": "2026-07-25",
-      "supports": ["Pricing", "Features", "Integrations", "US support", "Demo"]
+      "supports": [
+        "Pricing",
+        "Features",
+        "Integrations",
+        "US support",
+        "Demo"
+      ]
     }
   ],
   "affiliateRelationship": "no",

@@ -27,6 +27,7 @@ export const COMPLETENESS_FIELDS = [
   ["support", "Useful", (item) => item.support?.length],
   ["logo", "Useful", (item) => item.brandAssets?.logo],
   ["long-form profile", "Useful", (item) => item.longForm]
+  ,["public feedback scan", "Useful", (item) => item.publicFeedback]
 ];
 
 export function parseDate(value) {

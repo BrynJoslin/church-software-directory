@@ -7,8 +7,16 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-accounting", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "categories": [
+    "church-accounting",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "UK churches and charities needing fund accounting alongside donation and Gift Aid records",
     "Finance teams that need expense approvals and web-based reporting"
@@ -31,16 +39,52 @@
     "Financial reporting",
     "ChurchSuite donation-data export"
   ],
-  "integrations": ["ChurchSuite donation-data export"],
-  "importExport": ["Donation-data export to ChurchSuite"],
-  "support": ["Free setup support and training are advertised by the supplier"],
+  "integrations": [
+    "ChurchSuite donation-data export"
+  ],
+  "importExport": [
+    "Donation-data export to ChurchSuite"
+  ],
+  "support": [
+    "Free setup support and training are advertised by the supplier"
+  ],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "UK subscription payment by Direct Debit or card is documented.", "state": "supplier-published", "source": "https://expenseplus.co.uk/legal/terms-of-service", "checked": "2026-07-25"},
-    "gbp-pricing": {"value": "Supplier terms state published prices are in GBP.", "state": "supplier-published", "source": "https://expenseplus.co.uk/legal/terms-of-service", "checked": "2026-07-25"},
-    "gift-aid": {"value": "The product page describes Gift Aid and GASDS management.", "state": "supplier-published", "source": "https://expenseplus.co.uk/", "checked": "2026-07-25"},
-    "data-processing": {"value": "Supplier terms describe controller and processor roles and reference a sub-processor list.", "state": "supplier-published", "source": "https://expenseplus.co.uk/legal/terms-of-service", "checked": "2026-07-25"},
-    "exports": {"value": "Supplier describes exporting donation data to ChurchSuite.", "state": "supplier-published", "source": "https://expenseplus.co.uk/", "checked": "2026-07-25"},
-    "contract": {"value": "Supplier terms describe a monthly renewing subscription; cancellation requires notice before the next billing day.", "state": "supplier-published", "source": "https://expenseplus.co.uk/legal/terms-of-service", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "UK subscription payment by Direct Debit or card is documented.",
+      "state": "supplier-published",
+      "source": "https://expenseplus.co.uk/legal/terms-of-service",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier terms state published prices are in GBP.",
+      "state": "supplier-published",
+      "source": "https://expenseplus.co.uk/legal/terms-of-service",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "The product page describes Gift Aid and GASDS management.",
+      "state": "supplier-published",
+      "source": "https://expenseplus.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier terms describe controller and processor roles and reference a sub-processor list.",
+      "state": "supplier-published",
+      "source": "https://expenseplus.co.uk/legal/terms-of-service",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Supplier describes exporting donation data to ChurchSuite.",
+      "state": "supplier-published",
+      "source": "https://expenseplus.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "contract": {
+      "value": "Supplier terms describe a monthly renewing subscription; cancellation requires notice before the next billing day.",
+      "state": "supplier-published",
+      "source": "https://expenseplus.co.uk/legal/terms-of-service",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "ExpensePlus is a UK-focused finance system rather than a general church database. It may be a strong fit where the main problem is fund accounting, expense controls and Gift Aid administration, especially if the treasurer needs a clearer hand-off from donations to financial reporting. Its suitability depends on the church's chart of accounts, approval practice, examiner requirements and the exact exports needed from its other systems.",
@@ -75,13 +119,62 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "ExpensePlus product overview", "url": "https://expenseplus.co.uk/", "checked": "2026-07-25", "supports": ["Church and charity focus", "Fund accounting", "Expenses", "Gift Aid and GASDS", "ChurchSuite export", "Free trial"]},
-    {"label": "ExpensePlus pricing information", "url": "https://support.expenseplus.co.uk/article/57-how-much-does-expenseplus-cost", "checked": "2026-07-25", "supports": ["Annual-income pricing model", "Monthly subscriptions", "Cancellation information"]},
-    {"label": "ExpensePlus terms of service", "url": "https://expenseplus.co.uk/legal/terms-of-service", "checked": "2026-07-25", "supports": ["Supplier legal name", "UK registration", "GBP pricing", "Subscription and cancellation terms", "Data-processing terms"]},
-    {"label": "ExpensePlus sub-processors", "url": "https://expenseplus.co.uk/legal/sub-processors", "checked": "2026-07-25", "supports": ["Published sub-processor information"]},
-    {"label": "Companies House: ExpensePlus Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/09404009", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+    {
+      "label": "ExpensePlus product overview",
+      "url": "https://expenseplus.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church and charity focus",
+        "Fund accounting",
+        "Expenses",
+        "Gift Aid and GASDS",
+        "ChurchSuite export",
+        "Free trial"
+      ]
+    },
+    {
+      "label": "ExpensePlus pricing information",
+      "url": "https://support.expenseplus.co.uk/article/57-how-much-does-expenseplus-cost",
+      "checked": "2026-07-25",
+      "supports": [
+        "Annual-income pricing model",
+        "Monthly subscriptions",
+        "Cancellation information"
+      ]
+    },
+    {
+      "label": "ExpensePlus terms of service",
+      "url": "https://expenseplus.co.uk/legal/terms-of-service",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier legal name",
+        "UK registration",
+        "GBP pricing",
+        "Subscription and cancellation terms",
+        "Data-processing terms"
+      ]
+    },
+    {
+      "label": "ExpensePlus sub-processors",
+      "url": "https://expenseplus.co.uk/legal/sub-processors",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published sub-processor information"
+      ]
+    },
+    {
+      "label": "Companies House: ExpensePlus Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09404009",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "ExpensePlus review for UK churches", "description": "Independent ExpensePlus profile for UK churches: fund accounting, Gift Aid, expense controls, pricing model and finance checks."}
+  "seo": {
+    "title": "ExpensePlus review for UK churches",
+    "description": "Independent ExpensePlus profile for UK churches: fund accounting, Gift Aid, expense controls, pricing model and finance checks."
+  }
 }

@@ -7,28 +7,89 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-mobile-apps", "church-communications", "sermon-hosting", "events-ticketing"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches seeking a focused mobile communication and content app", "Parishes needing app-based alerts, news, events and documents", "Churches that want members to receive notices without adopting a full church-management system"],
-  "pricing": {"model": "quote-based", "summary": "Pricing is by written proposal. Ask Piota to include app configuration, support, publishing, app-store arrangements and renewal terms.", "tiers": [{"label": "Chancel church app", "price": "Contact supplier", "detail": "Request complete pricing and contract terms in writing"}]},
+  "categories": [
+    "church-mobile-apps",
+    "church-communications",
+    "sermon-hosting",
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking a focused mobile communication and content app",
+    "Parishes needing app-based alerts, news, events and documents",
+    "Churches that want members to receive notices without adopting a full church-management system"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "Pricing is by written proposal. Ask Piota to include app configuration, support, publishing, app-store arrangements and renewal terms.",
+    "tiers": [
+      {
+        "label": "Chancel church app",
+        "price": "Contact supplier",
+        "detail": "Request complete pricing and contract terms in writing"
+      }
+    ]
+  },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "Schappit publishes a privacy policy for Piota apps and the App Store gives a developer-provided privacy disclosure. These sources do not establish an individual church's controller/processor roles, service DPA, hosting, sub-processors, retention or export arrangements. Obtain those before publishing personal or sensitive content.",
-  "coreFeatures": ["News, blogs, newsletters and website updates", "Events calendar and device-calendar links", "Targeted alerts and push notifications", "Sermons, photos and video", "Contacts, policies and key information", "Forms, surveys and app responses", "Multiple-church selection in one app"],
-  "integrations": ["Supplier describes content curating from websites and social media", "Mobile operating-system notifications and device-calendar additions"],
+  "coreFeatures": [
+    "News, blogs, newsletters and website updates",
+    "Events calendar and device-calendar links",
+    "Targeted alerts and push notifications",
+    "Sermons, photos and video",
+    "Contacts, policies and key information",
+    "Forms, surveys and app responses",
+    "Multiple-church selection in one app"
+  ],
+  "integrations": [
+    "Supplier describes content curating from websites and social media",
+    "Mobile operating-system notifications and device-calendar additions"
+  ],
   "importExport": [],
   "support": [],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "Schappit Ltd trades as Piota and is registered in England and Wales under company number 09084187.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/09084187", "checked": "2026-07-25"},
-    "mobile-platforms": {"value": "The App Store lists Chancel as an iPhone and iPad app developed by Schappit Ltd, with a release history including version 4.9.7 in July 2025.", "state": "independent-source", "source": "https://apps.apple.com/gb/app/chancel/id1363931498", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "Schappit Ltd trades as Piota and is registered in England and Wales under company number 09084187.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/09084187",
+      "checked": "2026-07-25"
+    },
+    "mobile-platforms": {
+      "value": "The App Store lists Chancel as an iPhone and iPad app developed by Schappit Ltd, with a release history including version 4.9.7 in July 2025.",
+      "state": "independent-source",
+      "source": "https://apps.apple.com/gb/app/chancel/id1363931498",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "Chancel is a specialist communication app rather than a replacement for a church database or finance system. It may suit a parish that wants a well-defined mobile channel for timely notices, events, documents and media, but it should be purchased only after the church agrees who curates content, how notifications are governed and what happens to the app, data and app-store presence if the service changes.",
-    "bestFor": ["Churches focused on mobile notices, events, alerts and member-facing information", "Parishes that need a lighter communication layer beside existing church software", "Teams able to assign named owners for app content and notification decisions"],
-    "strengths": ["Live iOS/iPadOS app with a recent recorded release", "Focused scope across news, calendar, alerts, forms and media", "UK company identity and public app privacy material are available"],
-    "limitations": ["Ask Piota for current pricing, service terms, support, hosting, DPA, sub-processors and export arrangements", "Not a substitute for governed people records, finance administration or safeguarding case management", "Developer-provided App Store privacy disclosures should be checked against the supplier’s current service documentation"],
-    "procurementVerdict": {"problem": "Giving a congregation a reliable mobile channel for notices and church information", "differentiator": "A communication-first church app rather than a full management suite", "firstCheck": "Request current pricing and data terms, then test editor workflow, notification permissions, accessibility and app-store ownership with a real parish content cycle"}
+    "bestFor": [
+      "Churches focused on mobile notices, events, alerts and member-facing information",
+      "Parishes that need a lighter communication layer beside existing church software",
+      "Teams able to assign named owners for app content and notification decisions"
+    ],
+    "strengths": [
+      "Live iOS/iPadOS app with a recent recorded release",
+      "Focused scope across news, calendar, alerts, forms and media",
+      "UK company identity and public app privacy material are available"
+    ],
+    "limitations": [
+      "Ask Piota for current pricing, service terms, support, hosting, DPA, sub-processors and export arrangements",
+      "Not a substitute for governed people records, finance administration or safeguarding case management",
+      "Developer-provided App Store privacy disclosures should be checked against the supplier’s current service documentation"
+    ],
+    "procurementVerdict": {
+      "problem": "Giving a congregation a reliable mobile channel for notices and church information",
+      "differentiator": "A communication-first church app rather than a full management suite",
+      "firstCheck": "Request current pricing and data terms, then test editor workflow, notification permissions, accessibility and app-store ownership with a real parish content cycle"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -40,13 +101,60 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Chancel App Store listing", "url": "https://apps.apple.com/gb/app/chancel/id1363931498", "checked": "2026-07-25", "supports": ["Live app", "Feature scope", "Developer identity", "Recent release history", "App privacy disclosure"]},
-    {"label": "Piota terms of website use", "url": "https://www.piota.co.uk/terms-and-conditions-of-website-use/", "checked": "2026-07-25", "supports": ["Operating company", "UK company number", "Registered address"]},
-    {"label": "Piota app privacy policy", "url": "https://www.piota.co.uk/privacy-cookies-policy-piota-app/", "checked": "2026-07-25", "supports": ["Published privacy material", "Need for service-specific data terms"]},
-    {"label": "Companies House: Schappit Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/09084187", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+    {
+      "label": "Chancel App Store listing",
+      "url": "https://apps.apple.com/gb/app/chancel/id1363931498",
+      "checked": "2026-07-25",
+      "supports": [
+        "Live app",
+        "Feature scope",
+        "Developer identity",
+        "Recent release history",
+        "App privacy disclosure"
+      ]
+    },
+    {
+      "label": "Piota terms of website use",
+      "url": "https://www.piota.co.uk/terms-and-conditions-of-website-use/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "UK company number",
+        "Registered address"
+      ]
+    },
+    {
+      "label": "Piota app privacy policy",
+      "url": "https://www.piota.co.uk/privacy-cookies-policy-piota-app/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published privacy material",
+        "Need for service-specific data terms"
+      ]
+    },
+    {
+      "label": "Companies House: Schappit Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09084187",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/chancel/id1363931498", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/chancel/id1363931498",
+      "lastChecked": "2026-07-25",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Chancel review for UK churches", "description": "Independent Chancel profile: UK church mobile communications, alerts, events, media and due-diligence questions."}
+  "seo": {
+    "title": "Chancel review for UK churches",
+    "description": "Independent Chancel profile: UK church mobile communications, alerts, events, media and due-diligence questions."
+  }
 }

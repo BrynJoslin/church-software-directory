@@ -1,7 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import SoftwareCard from "../../components/SoftwareCard.astro";
-import ExternalReviews from "../../components/ExternalReviews.astro";
+import PublicFeedbackScan from "../../components/PublicFeedbackScan.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { siteConfig } from "../../config/site";
 import { findRelatedProducts } from "../../utils/related-products";
@@ -64,20 +64,12 @@ const hasOperations =
   software.importExport.length > 0 ||
   software.support.length > 0;
 const longForm = software.longForm;
+const publicFeedback = software.publicFeedback;
 const hasAffiliateLink =
   siteConfig.features.affiliateLinks &&
   software.affiliateRelationship === "yes" &&
   Boolean(software.affiliateUrl);
 const visitUrl = hasAffiliateLink ? software.affiliateUrl! : software.officialWebsite;
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: software.name,
-  description: software.shortDescription,
-  url: new URL(Astro.url.pathname, Astro.site).href,
-  applicationCategory: "BusinessApplication",
-  operatingSystem: "Web"
-};
 const faqJsonLd = longForm
   ? {
       "@context": "https://schema.org",
@@ -94,7 +86,7 @@ const faqJsonLd = longForm
 <BaseLayout
   title={software.seo.title}
   description={software.seo.description}
-  jsonLd={faqJsonLd ? [jsonLd, faqJsonLd] : jsonLd}
+  jsonLd={faqJsonLd}
   breadcrumbs={[
     { label: "Software", href: "/software/" },
     { label: software.name }
@@ -172,7 +164,7 @@ const faqJsonLd = longForm
           <p>{software.editorial.assessment}</p>
         </section>
 
-        <ExternalReviews reviews={software.externalReviews} />
+        {publicFeedback && <PublicFeedbackScan feedback={publicFeedback} reviews={software.externalReviews} />}
 
         <section class="profile-verdict" aria-labelledby="procurement-verdict-heading">
           <p class="eyebrow">Procurement verdict</p>
@@ -310,13 +302,13 @@ const faqJsonLd = longForm
                 </section>
               ))}
 
-              <section class="profile-section" aria-labelledby="feedback-heading">
+              {!publicFeedback && <section class="profile-section" aria-labelledby="feedback-heading">
                 <p class="section-question">What does external feedback add?</p>
                 <h2 id="feedback-heading">What public reviews and peer discussion do — and do not — show</h2>
                 <p>{longForm.userFeedback.summary}</p>
                 <ul>{longForm.userFeedback.themes.map((theme) => <li>{theme}</li>)}</ul>
                 <p class="muted">{longForm.userFeedback.caveat}</p>
-              </section>
+              </section>}
 
               <section class="profile-section" aria-labelledby="faq-heading">
                 <p class="section-question">The questions a shortlist needs to answer</p>

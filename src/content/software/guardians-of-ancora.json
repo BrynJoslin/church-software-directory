@@ -7,22 +7,73 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["childrens-ministry", "bible-study"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Children's ministry for roughly ages eight to eleven", "Church or school clubs using a shared tablet or projected game activity", "English- or Welsh-language Bible-story engagement outside core church records"],
-  "pricing": {"model": "free", "summary": "The supplier describes Guardians of Ancora as free, with no advertising or in-app purchases. The public site does not state a paid church plan, implementation service or support agreement; obtain current platform availability and any group-use conditions before building it into a programme.", "tiers": []},
+  "categories": [
+    "childrens-ministry",
+    "bible-study"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Children's ministry for roughly ages eight to eleven",
+    "Church or school clubs using a shared tablet or projected game activity",
+    "English- or Welsh-language Bible-story engagement outside core church records"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "The supplier describes Guardians of Ancora as free, with no advertising or in-app purchases. The public site does not state a paid church plan, implementation service or support agreement; obtain current platform availability and any group-use conditions before building it into a programme.",
+    "tiers": []
+  },
   "freePlan": "yes",
   "freeTrial": "no",
   "demoAvailable": "no",
-  "gdprInformation": "Guardians of Ancora is intended for children, so churches should use it only with appropriate adult supervision and their own safeguarding processes. Google Play's current developer declaration says the app may share device or other IDs with third parties, declares no data collected, and says data are encrypted in transit; that is not a substitute for reviewing the current app privacy policy, account or profile design, device controls, newsletter data and the church's own children’s-data policy. Do not enter child safeguarding, attendance or pastoral data into the app.",
-  "coreFeatures": ["Bible-story adventure game", "Eleven Bible quests", "English and Welsh language options", "Bible videos", "Quizzes", "Creative art studio", "Up to three player profiles on one device", "Club and school-use resources"],
-  "integrations": ["Designed for tablet and smartphone use", "Supplier club guidance describes projecting the game on a large screen", "No church-management, check-in, safeguarding or donation integration is established"],
-  "importExport": ["No church-data import or export workflow identified", "Do not treat local player profiles as ministry records"],
-  "support": ["Supplier provides a contact route and frequently asked questions", "Scripture Union publishes club resources for group use", "Confirm current device compatibility and support before deployment"],
+  "gdprInformation": "Guardians of Ancora is intended for children, so churches should use it only with appropriate adult supervision and their own safeguarding processes. The reviewed public product material does not establish the current privacy, player-profile, device-data or third-party-processing position; obtain this directly before use. Do not enter child safeguarding, attendance or pastoral data into the app.",
+  "coreFeatures": [
+    "Bible-story adventure game",
+    "Eleven Bible quests",
+    "English and Welsh language options",
+    "Bible videos",
+    "Quizzes",
+    "Creative art studio",
+    "Up to three player profiles on one device",
+    "Club and school-use resources"
+  ],
+  "integrations": [
+    "Designed for tablet and smartphone use",
+    "Supplier club guidance describes projecting the game on a large screen",
+    "No church-management, check-in, safeguarding or donation integration is established"
+  ],
+  "importExport": [
+    "No church-data import or export workflow identified",
+    "Do not treat local player profiles as ministry records"
+  ],
+  "support": [
+    "Supplier provides a contact route and frequently asked questions",
+    "Scripture Union publishes club resources for group use",
+    "Confirm current device compatibility and support before deployment"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "The product site identifies Guardians of Ancora as a project by Scripture Union England & Wales Ltd.", "state": "supplier-published", "source": "https://guardiansofancora.com/", "checked": "2026-07-25"},
-    "product-scope": {"value": "Supplier describes a free Bible-story game for eight- to eleven-year-olds with no adverts or in-app purchases, while Scripture Union publishes club guidance for using it with children.", "state": "supplier-published", "source": "https://content.scriptureunion.org.uk/guardians-ancora-clubs", "checked": "2026-07-25"},
-    "app-availability-and-data-declaration": {"value": "Google Play lists the app under Scripture Union, describes English and Welsh gameplay and states the developer's current data-safety declarations.", "state": "independent-source", "source": "https://play.google.com/store/apps/details?hl=en_IN&id=com.dubitlimited.guardiansofancora", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "The product site identifies Guardians of Ancora as a project by Scripture Union England & Wales Ltd.",
+      "state": "supplier-published",
+      "source": "https://guardiansofancora.com/",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Supplier describes a free Bible-story game for eight- to eleven-year-olds with no adverts or in-app purchases, while Scripture Union publishes club guidance for using it with children.",
+      "state": "supplier-published",
+      "source": "https://content.scriptureunion.org.uk/guardians-ancora-clubs",
+      "checked": "2026-07-25"
+    },
+    "mobile-availability": {
+      "value": "The product site describes Guardians of Ancora as a free game for mobile devices with English and Welsh gameplay.",
+      "state": "supplier-published",
+      "source": "https://guardiansofancora.com/",
+      "checked": "2026-07-26"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -34,19 +85,59 @@
   },
   "editorial": {
     "assessment": "Guardians of Ancora is a free UK children’s Bible-engagement game, not a children’s check-in, safeguarding, curriculum-planning or church-management system. It is most plausible as an optional supervised activity for ages around eight to eleven, especially where a church can use the supplier's club guidance. Its age group, shared-device profiles and app-data declaration make adult supervision, current device testing and clear separation from church child records essential.",
-    "bestFor": ["Churches seeking a free, game-based Bible-story activity for junior-aged children", "Supervised clubs that can use a shared device or projected activity", "English- and Welsh-language children’s Bible engagement"],
-    "strengths": ["Current UK Scripture Union project", "Free with no adverts or in-app purchases stated", "Specific junior-age focus and group-use resources", "English and Welsh gameplay stated"],
-    "limitations": ["Not a child check-in, safeguarding, attendance or family-communication system", "Google Play's listed update date is March 2023, so current device compatibility needs testing", "Current privacy declaration and any player-account or profile behaviour require review", "Designed for a narrow age band rather than a full children’s curriculum"],
-    "procurementVerdict": {"problem": "Offering a supervised, age-appropriate Bible-story activity without buying a full children’s ministry platform", "differentiator": "A free UK Scripture Union game with Bible quests and supporting club-use material", "firstCheck": "Install and test the current app on the church's intended device, review its privacy policy and profile controls, involve the safeguarding lead in the supervised-use plan, and keep all child attendance or pastoral data in the church's approved system."}
+    "bestFor": [
+      "Churches seeking a free, game-based Bible-story activity for junior-aged children",
+      "Supervised clubs that can use a shared device or projected activity",
+      "English- and Welsh-language children’s Bible engagement"
+    ],
+    "strengths": [
+      "Current UK Scripture Union project",
+      "Free with no adverts or in-app purchases stated",
+      "Specific junior-age focus and group-use resources",
+      "English and Welsh gameplay stated"
+    ],
+    "limitations": [
+      "Not a child check-in, safeguarding, attendance or family-communication system",
+      "Current device compatibility needs testing before group use",
+      "Current privacy information and any player-account or profile behaviour require review",
+      "Designed for a narrow age band rather than a full children’s curriculum"
+    ],
+    "procurementVerdict": {
+      "problem": "Offering a supervised, age-appropriate Bible-story activity without buying a full children’s ministry platform",
+      "differentiator": "A free UK Scripture Union game with Bible quests and supporting club-use material",
+      "firstCheck": "Install and test the current app on the church's intended device, review its privacy policy and profile controls, involve the safeguarding lead in the supervised-use plan, and keep all child attendance or pastoral data in the church's approved system."
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Guardians of Ancora", "url": "https://guardiansofancora.com/", "checked": "2026-07-25", "supports": ["Operator", "Free model", "No adverts", "Age range", "Mobile availability"]},
-    {"label": "Scripture Union: Guardians of Ancora clubs", "url": "https://content.scriptureunion.org.uk/guardians-ancora-clubs", "checked": "2026-07-25", "supports": ["Club use", "Age range", "School resources", "Group activity"]},
-    {"label": "Google Play: Guardians of Ancora", "url": "https://play.google.com/store/apps/details?hl=en_IN&id=com.dubitlimited.guardiansofancora", "checked": "2026-07-25", "supports": ["Current app listing", "Language options", "Features", "Developer data-safety declaration"]}
+    {
+      "label": "Guardians of Ancora",
+      "url": "https://guardiansofancora.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operator",
+        "Free model",
+        "No adverts",
+        "Age range",
+        "Mobile availability"
+      ]
+    },
+    {
+      "label": "Scripture Union: Guardians of Ancora clubs",
+      "url": "https://content.scriptureunion.org.uk/guardians-ancora-clubs",
+      "checked": "2026-07-25",
+      "supports": [
+        "Club use",
+        "Age range",
+        "School resources",
+        "Group activity"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?hl=en_IN&id=com.dubitlimited.guardiansofancora", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Guardians of Ancora review for UK churches", "description": "Independent Guardians of Ancora profile: free UK children’s Bible game, club use, privacy and safeguarding checks."}
+  "seo": {
+    "title": "Guardians of Ancora review for UK churches",
+    "description": "Independent Guardians of Ancora profile: free UK children’s Bible game, club use, privacy and safeguarding checks."
+  }
 }

@@ -5,8 +5,16 @@
   "officialWebsite": "https://pushpay.com/",
   "company": "Pushpay",
   "ukFocus": "unknown",
-  "categories": ["church-management", "online-giving", "church-communications"],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Churches in Pushpay’s supported countries seeking a sales-led engagement suite",
     "Teams comparing ChurchStaq’s giving, ChMS and apps bundle"
@@ -106,13 +114,21 @@
       "label": "Pushpay pricing",
       "url": "https://pushpay.com/product/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Quote pricing", "Demo", "Customer countries", "Support"]
+      "supports": [
+        "Quote pricing",
+        "Demo",
+        "Customer countries",
+        "Support"
+      ]
     },
     {
       "label": "Pushpay ChurchStaq",
       "url": "https://pushpay.com/product/churchstaq/",
       "checked": "2026-07-25",
-      "supports": ["Platform features", "Packages"]
+      "supports": [
+        "Platform features",
+        "Packages"
+      ]
     }
   ],
   "externalReviews": [
