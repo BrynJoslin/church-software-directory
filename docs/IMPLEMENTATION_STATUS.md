@@ -519,6 +519,12 @@ Phase 6: contribution and continuous quality completed.
   becoming `no`; that sentinel is not rendered or exported.
 - Directory and comparison content is generated as static HTML; small browser
   modules progressively enhance it.
+- `llms.txt` is a static root resource describing the directory, its primary
+  decision tools and evidence limits for AI-assisted discovery. Product-profile
+  comparison links retain a no-JavaScript `/compare/` fallback, while browser
+  enhancement adds the selected product to the shareable comparison URL. This
+  prevents crawler-facing one-product query variants from becoming internal-link
+  destinations.
 - Form endpoints and analytics are disabled centrally by default. Affiliate
   links and sponsored listings are enabled only for confirmed, listing-level
   relationships that are visibly disclosed; the Logos Bible Study listing is

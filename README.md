@@ -137,6 +137,13 @@ or merging any change that adds, removes or makes a public page indexable, run
 `npm run check:sitemap`; GitHub Actions enforces this coverage check for pull
 requests and every push.
 
+## AI discovery
+
+`public/llms.txt` is published at `/llms.txt`. It gives AI tools a concise map
+of the directory, its core decision tools and the evidence limits that apply to
+every profile. Keep it aligned with the public routes, methodology and
+editorial boundary when those change.
+
 ## Content maintenance
 
 Software entries are structured JSON so the public data export can be generated

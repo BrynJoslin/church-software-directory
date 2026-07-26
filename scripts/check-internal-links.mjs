@@ -11,11 +11,15 @@ const filesIn = async (directory) => {
 };
 const htmlFiles = (await filesIn(output)).filter((file) => file.endsWith(".html"));
 const missing = [];
+const comparisonQueryLinks = [];
 
 for (const file of htmlFiles) {
   const html = await readFile(file, "utf8");
   const links = [...html.matchAll(/\bhref=["']([^"']+)["']/gi)].map((match) => match[1]);
   for (const href of links) {
+    if (/^\/compare\/\?products=/.test(href)) {
+      comparisonQueryLinks.push(`${path.relative(output, file)} -> ${href}`);
+    }
     if (!href.startsWith("/") || href.startsWith("//")) continue;
     const pathname = decodeURIComponent(href.split(/[?#]/)[0]);
     if (pathname.startsWith("/data/") || pathname.includes(".")) continue;
@@ -24,5 +28,11 @@ for (const file of htmlFiles) {
   }
 }
 
-if (missing.length) throw new Error(`Broken internal links:\n${[...new Set(missing)].join("\n")}`);
+if (missing.length || comparisonQueryLinks.length) {
+  const issues = [
+    missing.length && `Broken internal links:\n${[...new Set(missing)].join("\n")}`,
+    comparisonQueryLinks.length && `Static comparison query links are not allowed; use /compare/ with progressive enhancement:\n${[...new Set(comparisonQueryLinks)].join("\n")}`
+  ].filter(Boolean);
+  throw new Error(issues.join("\n"));
+}
 console.log(`Internal-link coverage verified across ${htmlFiles.length} HTML pages.`);

@@ -126,7 +126,8 @@ const faqJsonLd = longForm
           </a>
           <a
             class="button button--secondary"
-            href={`/compare/?products=${software.slug}`}
+            href="/compare/"
+            data-comparison-product={software.slug}
           >
             Add to comparison
           </a>
@@ -432,3 +433,14 @@ const faqJsonLd = longForm
     )
   }
 </BaseLayout>
+
+<script>
+  document.querySelectorAll("a[data-comparison-product]").forEach((link) => {
+    if (!(link instanceof HTMLAnchorElement)) return;
+
+    const product = link.dataset.comparisonProduct;
+    if (product) {
+      link.href = `/compare/?products=${encodeURIComponent(product)}`;
+    }
+  });
+</script>
