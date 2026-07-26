@@ -7,38 +7,168 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Church charities needing a separate browser-based HMRC Gift Aid filing route", "Treasurers preparing a single church claim", "Diocesan, agent or shared-service teams needing multiple charity claims"],
-  "pricing": {"model": "unknown", "summary": "The public product pages describe the Charities Online filing service but do not publish a current price, licence basis, VAT, user limit, implementation, support or cancellation terms. Request a written quote and test the full claim workflow before committing donor data.", "tiers": []},
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church charities needing a separate browser-based HMRC Gift Aid filing route",
+    "Treasurers preparing a single church claim",
+    "Diocesan, agent or shared-service teams needing multiple charity claims"
+  ],
+  "pricing": {
+    "model": "unknown",
+    "summary": "The public product pages describe the Charities Online filing service but do not publish a current price, licence basis, VAT, user limit, implementation, support or cancellation terms. Request a written quote and test the full claim workflow before committing donor data.",
+    "tiers": []
+  },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "giftAid": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "eFile Ready publishes a current ISO/IEC 27001:2022 certificate whose scope includes cloud eReturn services. That certificate and the public site do not replace a church's product data-processing review. Obtain the Charities Online service terms, DPA, controller-processor allocation, hosting location, sub-processors, retention, access-control, incident, audit-record and full data-export arrangements before uploading donor and declaration information.",
-  "coreFeatures": ["Browser-based e-filing", "HMRC Charities Online service", "Single charity claims", "Multiple charity claims", "Gift Aid repayment management", "Live and test account routes", "CSV-based e-filing approach"],
-  "integrations": ["Supplier describes open-standard data interchange and integration with client systems", "Confirm approved input format, APIs, field mapping and any agent or multi-charity permissions"],
-  "importExport": ["Supplier describes downloading relevant spreadsheets and e-filing them to HMRC", "Request accepted input templates and complete donor, declaration, claim, receipt, audit-trail and configuration export specifications"],
-  "support": ["Supplier publishes telephone and email support", "Supplier advertises live demonstration support and FAQ support", "Confirm service hours, response commitments and onboarding scope"],
+  "coreFeatures": [
+    "Browser-based e-filing",
+    "HMRC Charities Online service",
+    "Single charity claims",
+    "Multiple charity claims",
+    "Gift Aid repayment management",
+    "Live and test account routes",
+    "CSV-based e-filing approach"
+  ],
+  "integrations": [
+    "Supplier describes open-standard data interchange and integration with client systems",
+    "Confirm approved input format, APIs, field mapping and any agent or multi-charity permissions"
+  ],
+  "importExport": [
+    "Supplier describes downloading relevant spreadsheets and e-filing them to HMRC",
+    "Request accepted input templates and complete donor, declaration, claim, receipt, audit-trail and configuration export specifications"
+  ],
+  "support": [
+    "Supplier publishes telephone and email support",
+    "Supplier advertises live demonstration support and FAQ support",
+    "Confirm service hours, response commitments and onboarding scope"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records EFILE READY LIMITED (05600266) as an active UK private limited company, and the supplier's public contact page identifies its London office.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/05600266", "checked": "2026-07-25"},
-    "hmrc-recognition": {"value": "HMRC's current commercial Charities Online supplier list names eFile Ready Limited and Free Gift Aid eClaim.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"},
-    "claim-scope": {"value": "Supplier documents Charities Online filing for charities and CASCs, with single- and multiple-claim submissions and online sign-up.", "state": "supplier-published", "source": "https://www.efileready.com/charities.html", "checked": "2026-07-25"},
-    "security-certificate": {"value": "A published certificate states that eFile Ready Limited's cloud eReturn services are certified to ISO/IEC 27001:2022 through 25 July 2028, subject to ongoing certification conditions.", "state": "supplier-published", "source": "https://efileready.com/ISOCertificate.pdf", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records EFILE READY LIMITED (05600266) as an active UK private limited company, and the supplier's public contact page identifies its London office.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/05600266",
+      "checked": "2026-07-25"
+    },
+    "hmrc-recognition": {
+      "value": "HMRC's current commercial Charities Online supplier list names eFile Ready Limited and Free Gift Aid eClaim.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "claim-scope": {
+      "value": "Supplier documents Charities Online filing for charities and CASCs, with single- and multiple-claim submissions and online sign-up.",
+      "state": "supplier-published",
+      "source": "https://www.efileready.com/charities.html",
+      "checked": "2026-07-25"
+    },
+    "security-certificate": {
+      "value": "A published certificate states that eFile Ready Limited's cloud eReturn services are certified to ISO/IEC 27001:2022 through 25 July 2028, subject to ongoing certification conditions.",
+      "state": "supplier-published",
+      "source": "https://efileready.com/ISOCertificate.pdf",
+      "checked": "2026-07-25"
+    }
   },
-  "editorial": {"assessment": "Free Gift Aid eClaim is a UK e-filing service for Gift Aid, not a donor CRM, online donation form, payment processor or church-management platform. It may be relevant where a church has its donor and donation records elsewhere but needs a browser-based route for an HMRC claim. Its narrow scope can be a virtue, but it means that import, reconciliation, access, data retention and audit evidence need to be tested against the church's existing records and accounting process.", "bestFor": ["Church charities with a separate giving or accounting system and a clear Gift Aid file to submit", "Treasurers seeking a browser-based claim-filing route", "Shared-service teams with multiple charitable entities"], "strengths": ["Active UK software operator and current HMRC Charities Online listing", "Explicit single- and multiple-claim scope", "Published live and test account paths", "Published ISO/IEC 27001:2022 certificate for cloud eReturn-service scope"], "limitations": ["Not a complete online giving, CRM, safeguarding or church-management system", "No current public product price or contract terms found", "Certificate scope does not answer the church's DPA, hosting or retention questions", "Obtain the accepted input format, data-export specification and reconciliation process in writing for each church workflow"], "procurementVerdict": {"problem": "Submitting a Gift Aid claim from records held in a separate church system", "differentiator": "A UK browser-based Charities Online filing service that includes both single- and multiple-charity claims", "firstCheck": "Use the supplier's test route with a non-sensitive representative claim file, reconcile the output and receipt to the church's source records, then obtain written price, DPA, hosting, retention, access and export details before live submission."}},
+  "editorial": {
+    "assessment": "Free Gift Aid eClaim is a UK e-filing service for Gift Aid, not a donor CRM, online donation form, payment processor or church-management platform. It may be relevant where a church has its donor and donation records elsewhere but needs a browser-based route for an HMRC claim. Its narrow scope can be a virtue, but it means that import, reconciliation, access, data retention and audit evidence need to be tested against the church's existing records and accounting process.",
+    "bestFor": [
+      "Church charities with a separate giving or accounting system and a clear Gift Aid file to submit",
+      "Treasurers seeking a browser-based claim-filing route",
+      "Shared-service teams with multiple charitable entities"
+    ],
+    "strengths": [
+      "Active UK software operator and current HMRC Charities Online listing",
+      "Explicit single- and multiple-claim scope",
+      "Published live and test account paths",
+      "Published ISO/IEC 27001:2022 certificate for cloud eReturn-service scope"
+    ],
+    "limitations": [
+      "Not a complete online giving, CRM, safeguarding or church-management system",
+      "No current public product price or contract terms found",
+      "Certificate scope does not answer the church's DPA, hosting or retention questions",
+      "Obtain the accepted input format, data-export specification and reconciliation process in writing for each church workflow"
+    ],
+    "procurementVerdict": {
+      "problem": "Submitting a Gift Aid claim from records held in a separate church system",
+      "differentiator": "A UK browser-based Charities Online filing service that includes both single- and multiple-charity claims",
+      "firstCheck": "Use the supplier's test route with a non-sensitive representative claim file, reconcile the output and receipt to the church's source records, then obtain written price, DPA, hosting, retention, access and export details before live submission."
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "eFile Ready Charities Online", "url": "https://www.efileready.com/charities.html", "checked": "2026-07-25", "supports": ["Gift Aid scope", "Single claims", "Multiple claims"]},
-    {"label": "eFile Ready products", "url": "https://www.efileready.com/products.html", "checked": "2026-07-25", "supports": ["Charities Online product", "Live and test service routes"]},
-    {"label": "eFile Ready contact and support", "url": "https://www.efileready.com/supporthome.html", "checked": "2026-07-25", "supports": ["Support", "Live demo", "UK office"]},
-    {"label": "eFile Ready ISO certificate", "url": "https://efileready.com/ISOCertificate.pdf", "checked": "2026-07-25", "supports": ["ISO/IEC 27001:2022 certificate", "Cloud-service scope"]},
-    {"label": "HMRC commercial Charities Online suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Supplier and product listing", "Charities Online evidence context"]},
-    {"label": "Companies House: EFILE READY LIMITED", "url": "https://find-and-update.company-information.service.gov.uk/company/05600266", "checked": "2026-07-25", "supports": ["UK company record", "Active status"]}
+    {
+      "label": "eFile Ready Charities Online",
+      "url": "https://www.efileready.com/charities.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "Gift Aid scope",
+        "Single claims",
+        "Multiple claims"
+      ]
+    },
+    {
+      "label": "eFile Ready products",
+      "url": "https://www.efileready.com/products.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "Charities Online product",
+        "Live and test service routes"
+      ]
+    },
+    {
+      "label": "eFile Ready contact and support",
+      "url": "https://www.efileready.com/supporthome.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "Support",
+        "Live demo",
+        "UK office"
+      ]
+    },
+    {
+      "label": "eFile Ready ISO certificate",
+      "url": "https://efileready.com/ISOCertificate.pdf",
+      "checked": "2026-07-25",
+      "supports": [
+        "ISO/IEC 27001:2022 certificate",
+        "Cloud-service scope"
+      ]
+    },
+    {
+      "label": "HMRC commercial Charities Online suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier and product listing",
+        "Charities Online evidence context"
+      ]
+    },
+    {
+      "label": "Companies House: EFILE READY LIMITED",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/05600266",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company record",
+        "Active status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Free Gift Aid eClaim review for UK churches", "description": "Independent Free Gift Aid eClaim profile: UK HMRC filing scope, security evidence and procurement checks."},
+  "seo": {
+    "title": "Free Gift Aid eClaim review for UK churches",
+    "description": "Independent Free Gift Aid eClaim profile: UK HMRC filing scope, security evidence and procurement checks."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/free-gift-aid-eclaim/free-gift-aid-eclaim-logo.png",
@@ -46,5 +176,29 @@
       "source": "https://www.efileready.com/images/favicon.png",
       "checked": "2026-07-26"
     }
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

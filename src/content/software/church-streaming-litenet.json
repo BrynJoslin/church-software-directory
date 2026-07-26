@@ -7,26 +7,70 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["livestreaming"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches needing an installed single- or multi-camera service-streaming setup", "Churches that need internet connectivity or Wi-Fi addressed alongside broadcast equipment", "Teams wanting supplier support for a streaming installation rather than a software-only platform"],
+  "categories": [
+    "livestreaming"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches needing an installed single- or multi-camera service-streaming setup",
+    "Churches that need internet connectivity or Wi-Fi addressed alongside broadcast equipment",
+    "Teams wanting supplier support for a streaming installation rather than a software-only platform"
+  ],
   "pricing": {
     "model": "quote-based",
     "summary": "The supplier directs churches to discuss their requirements. A published supplier package document describes a £2,800 plus VAT basic installation with two cameras, switching equipment and cabling; treat it as an indicative historic package and request a current written quote.",
-    "tiers": [{"label": "Indicative basic package", "price": "£2,800 plus VAT", "detail": "A supplier package document describes two cameras, installation, cabling and switching equipment; confirm all current components and pricing."}]
+    "tiers": [
+      {
+        "label": "Indicative basic package",
+        "price": "£2,800 plus VAT",
+        "detail": "A supplier package document describes two cameras, installation, cabling and switching equipment; confirm all current components and pricing."
+      }
+    ]
   },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "This is an installation and connectivity service, with services generally broadcast through external platforms such as YouTube or Facebook Live. Obtain Litenet's current privacy, support-access and network-management terms, then separately assess the privacy, retention, moderation and accessibility settings of each chosen broadcast platform.",
-  "coreFeatures": ["Single-camera and multi-camera church streaming options", "Equipment installation and cabling", "Internet connectivity for churches", "Mesh Wi-Fi and data networking", "VoIP for church offices", "Streaming to external social platforms"],
-  "integrations": ["YouTube", "Facebook Live", "Mevo equipment option"],
+  "coreFeatures": [
+    "Single-camera and multi-camera church streaming options",
+    "Equipment installation and cabling",
+    "Internet connectivity for churches",
+    "Mesh Wi-Fi and data networking",
+    "VoIP for church offices",
+    "Streaming to external social platforms"
+  ],
+  "integrations": [
+    "YouTube",
+    "Facebook Live",
+    "Mevo equipment option"
+  ],
   "importExport": [],
-  "support": ["Supplier describes support options for hardware and software plus fixed-rate remote engineering"],
+  "support": [
+    "Supplier describes support options for hardware and software plus fixed-rate remote engineering"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records Litenet Ltd, company number 11868036, as an active UK telecommunications company. The church-streaming site identifies Litenet Ltd as its operator.", "state": "supplier-published", "source": "https://find-and-update.company-information.service.gov.uk/company/11868036", "checked": "2026-07-25"},
-    "church-scope": {"value": "Supplier describes dedicated streaming, connectivity, Wi-Fi, data-networking and VoIP offers for churches, with single- and multi-camera choices.", "state": "supplier-published", "source": "https://church-streaming.co.uk/", "checked": "2026-07-25"},
-    "package-indication": {"value": "A supplier church-streaming package document describes a £2,800 plus VAT basic installation package, with quoted pricing for additional cameras.", "state": "supplier-published", "source": "https://www.dur.ac.uk/media/durham-university/research-/research-centres/centre-for-digital-theology/documents/Video-Streaming-Solutions-for-Places-of-Worship.pdf", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records Litenet Ltd, company number 11868036, as an active UK telecommunications company. The church-streaming site identifies Litenet Ltd as its operator.",
+      "state": "supplier-published",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/11868036",
+      "checked": "2026-07-25"
+    },
+    "church-scope": {
+      "value": "Supplier describes dedicated streaming, connectivity, Wi-Fi, data-networking and VoIP offers for churches, with single- and multi-camera choices.",
+      "state": "supplier-published",
+      "source": "https://church-streaming.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "package-indication": {
+      "value": "A supplier church-streaming package document describes a £2,800 plus VAT basic installation package, with quoted pricing for additional cameras.",
+      "state": "supplier-published",
+      "source": "https://www.dur.ac.uk/media/durham-university/research-/research-centres/centre-for-digital-theology/documents/Video-Streaming-Solutions-for-Places-of-Worship.pdf",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -38,18 +82,91 @@
   },
   "editorial": {
     "assessment": "Church Streaming by Litenet is a UK technical-service option for a church that needs more than a streaming account: camera installation, cabling and reliable internet can be scoped together. It is not a video-hosting platform or a church-management system. A church should request an up-to-date site survey and quote, then decide separately where and how recorded services will be published and retained.",
-    "bestFor": ["Churches with limited in-house AV capacity", "Buildings needing broadcast equipment and connectivity together", "Churches evaluating a professionally installed service-streaming setup"],
-    "strengths": ["Named active UK telecommunications operator", "Church-specific single- and multi-camera offer", "Connectivity, Wi-Fi and cabling can be addressed alongside streaming", "Published package document gives a starting point for a discussion"],
-    "limitations": ["Installation service rather than a standalone software platform", "Current costs are quote-based and any historic package price needs refresh", "External broadcast-platform terms, accessibility and retention are outside the installation scope", "Churches must set their own consent, safeguarding, copyright and moderation procedures"],
-    "procurementVerdict": {"problem": "Building a reliable church livestream setup where internet and AV infrastructure are constraints", "differentiator": "One UK supplier can scope cameras, installation, connectivity and office network infrastructure", "firstCheck": "Request a site survey covering upload capacity, camera positions, cabling, accessibility, ownership, support hours and the destination platform for recordings"}
+    "bestFor": [
+      "Churches with limited in-house AV capacity",
+      "Buildings needing broadcast equipment and connectivity together",
+      "Churches evaluating a professionally installed service-streaming setup"
+    ],
+    "strengths": [
+      "Named active UK telecommunications operator",
+      "Church-specific single- and multi-camera offer",
+      "Connectivity, Wi-Fi and cabling can be addressed alongside streaming",
+      "Published package document gives a starting point for a discussion"
+    ],
+    "limitations": [
+      "Installation service rather than a standalone software platform",
+      "Current costs are quote-based and any historic package price needs refresh",
+      "External broadcast-platform terms, accessibility and retention are outside the installation scope",
+      "Churches must set their own consent, safeguarding, copyright and moderation procedures"
+    ],
+    "procurementVerdict": {
+      "problem": "Building a reliable church livestream setup where internet and AV infrastructure are constraints",
+      "differentiator": "One UK supplier can scope cameras, installation, connectivity and office network infrastructure",
+      "firstCheck": "Request a site survey covering upload capacity, camera positions, cabling, accessibility, ownership, support hours and the destination platform for recordings"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Church Streaming by Litenet", "url": "https://church-streaming.co.uk/", "checked": "2026-07-25", "supports": ["Church streaming scope", "Camera options", "Connectivity and network services", "External streaming-platform examples"]},
-    {"label": "Litenet church-streaming package document", "url": "https://www.dur.ac.uk/media/durham-university/research-/research-centres/centre-for-digital-theology/documents/Video-Streaming-Solutions-for-Places-of-Worship.pdf", "checked": "2026-07-25", "supports": ["Indicative installation package", "Equipment scope", "Support options"]},
-    {"label": "Companies House: Litenet Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/11868036", "checked": "2026-07-25", "supports": ["Active UK company", "Company number", "Telecommunications activity"]}
+    {
+      "label": "Church Streaming by Litenet",
+      "url": "https://church-streaming.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church streaming scope",
+        "Camera options",
+        "Connectivity and network services",
+        "External streaming-platform examples"
+      ]
+    },
+    {
+      "label": "Litenet church-streaming package document",
+      "url": "https://www.dur.ac.uk/media/durham-university/research-/research-centres/centre-for-digital-theology/documents/Video-Streaming-Solutions-for-Places-of-Worship.pdf",
+      "checked": "2026-07-25",
+      "supports": [
+        "Indicative installation package",
+        "Equipment scope",
+        "Support options"
+      ]
+    },
+    {
+      "label": "Companies House: Litenet Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11868036",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK company",
+        "Company number",
+        "Telecommunications activity"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Church Streaming by Litenet review", "description": "Independent Litenet church-streaming profile: UK installation, connectivity, camera options and practical procurement checks."}
+  "seo": {
+    "title": "Church Streaming by Litenet review",
+    "description": "Independent Litenet church-streaming profile: UK installation, connectivity, camera options and practical procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

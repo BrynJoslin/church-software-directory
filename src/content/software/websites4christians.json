@@ -7,32 +7,102 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-websites", "church-communications", "sermon-hosting"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["UK churches seeking a bespoke managed website rather than a fixed template", "Churches wanting supplier-managed hosting, backups and software updates", "Churches publishing events, news, member-only content or paid-event workflows"],
+  "categories": [
+    "church-websites",
+    "church-communications",
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches seeking a bespoke managed website rather than a fixed template",
+    "Churches wanting supplier-managed hosting, backups and software updates",
+    "Churches publishing events, news, member-only content or paid-event workflows"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Published FAQs state a typical bespoke design fee of £500–£800, monthly hosting, security, backup, software upgrades and day-to-day management at £7.99, and optional consultancy at £30/hour. The supplier says it sometimes provides sites or hosting free of charge. Confirm the scope, VAT, support level, payment method and full written quote before ordering.",
-    "startingPrice": {"amount": 7.99, "currency": "GBP", "period": "month", "qualifier": "published ongoing hosting and management fee; bespoke design is separate"},
+    "startingPrice": {
+      "amount": 7.99,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "published ongoing hosting and management fee; bespoke design is separate"
+    },
     "tiers": [
-      {"label": "Managed hosting and maintenance", "price": "£7.99/month", "detail": "Supplier includes hosting, security, backup, software upgrades and day-to-day site management in its published FAQ."},
-      {"label": "Bespoke design", "price": "Typically £500–£800", "detail": "Supplier says the range depends on requirements and pages designed."},
-      {"label": "Consultancy", "price": "£30/hour", "detail": "Supplier lists this as a possible additional cost."}
+      {
+        "label": "Managed hosting and maintenance",
+        "price": "£7.99/month",
+        "detail": "Supplier includes hosting, security, backup, software upgrades and day-to-day site management in its published FAQ."
+      },
+      {
+        "label": "Bespoke design",
+        "price": "Typically £500–£800",
+        "detail": "Supplier says the range depends on requirements and pages designed."
+      },
+      {
+        "label": "Consultancy",
+        "price": "£30/hour",
+        "detail": "Supplier lists this as a possible additional cost."
+      }
     ]
   },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "The reviewed hosting agreement establishes a contractual hosting service, but this research does not establish a current DPA, data-hosting location, sub-processor list, breach process, retention schedule or controller/processor allocation for each church. Obtain those details and determine what personal data should be held in any member area, contact form or event workflow before use.",
-  "coreFeatures": ["Bespoke church website design", "Managed hosting", "Email", "Backups", "Security and software updates", "Site management", "Member-only areas", "Events and paid-event options", "Telephone, email and remote-login support", "Responsive websites"],
-  "integrations": ["Supplier states that it uses Joomla and WordPress", "Supplier describes PayPal or another merchant system for event ticketing and payment workflows"],
-  "importExport": ["Supplier says a church owns its domain and it will help transfer that domain if the service is cancelled", "Confirm administrator access, website files, media, database and form-data export arrangements in the current agreement"],
-  "support": ["Supplier advertises telephone, email and remote-login technical support", "Supplier describes help with content updates and website transfer"],
+  "coreFeatures": [
+    "Bespoke church website design",
+    "Managed hosting",
+    "Email",
+    "Backups",
+    "Security and software updates",
+    "Site management",
+    "Member-only areas",
+    "Events and paid-event options",
+    "Telephone, email and remote-login support",
+    "Responsive websites"
+  ],
+  "integrations": [
+    "Supplier states that it uses Joomla and WordPress",
+    "Supplier describes PayPal or another merchant system for event ticketing and payment workflows"
+  ],
+  "importExport": [
+    "Supplier says a church owns its domain and it will help transfer that domain if the service is cancelled",
+    "Confirm administrator access, website files, media, database and form-data export arrangements in the current agreement"
+  ],
+  "support": [
+    "Supplier advertises telephone, email and remote-login technical support",
+    "Supplier describes help with content updates and website transfer"
+  ],
   "decisionEvidence": {
-    "operator": {"value": "The supplier’s published hosting agreement identifies Websites4Christians as a trading name of Project Huddle Ltd, registered in Scotland under company number SC346323.", "state": "supplier-published", "source": "https://websites4christians.com/images/Legal/Web_Hosting_Agreement.pdf", "checked": "2026-07-25"},
-    "uk-location": {"value": "The supplier publishes an office address at Spiersbridge Business Park in Thornliebank, Glasgow, with a UK telephone number.", "state": "supplier-published", "source": "https://websites4christians.com/contact-us", "checked": "2026-07-25"},
-    "pricing-and-exit": {"value": "Published FAQs give the monthly hosting fee, typical design range, consultancy price and domain-transfer assistance on cancellation.", "state": "supplier-published", "source": "https://websites4christians.com/faqs", "checked": "2026-07-25"},
-    "product-scope": {"value": "Supplier describes bespoke church websites with hosting, email, backup, security updates, site management and technical support.", "state": "supplier-published", "source": "https://websites4christians.com/about-us", "checked": "2026-07-25"}
+    "operator": {
+      "value": "The supplier’s published hosting agreement identifies Websites4Christians as a trading name of Project Huddle Ltd, registered in Scotland under company number SC346323.",
+      "state": "supplier-published",
+      "source": "https://websites4christians.com/images/Legal/Web_Hosting_Agreement.pdf",
+      "checked": "2026-07-25"
+    },
+    "uk-location": {
+      "value": "The supplier publishes an office address at Spiersbridge Business Park in Thornliebank, Glasgow, with a UK telephone number.",
+      "state": "supplier-published",
+      "source": "https://websites4christians.com/contact-us",
+      "checked": "2026-07-25"
+    },
+    "pricing-and-exit": {
+      "value": "Published FAQs give the monthly hosting fee, typical design range, consultancy price and domain-transfer assistance on cancellation.",
+      "state": "supplier-published",
+      "source": "https://websites4christians.com/faqs",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Supplier describes bespoke church websites with hosting, email, backup, security updates, site management and technical support.",
+      "state": "supplier-published",
+      "source": "https://websites4christians.com/about-us",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -44,20 +114,110 @@
   },
   "editorial": {
     "assessment": "Websites4Christians is a bespoke, supplier-supported website service rather than an off-the-shelf church-management suite. It is particularly relevant when a church values a tailored design and ongoing technical help, and its published trading-company identity and domain-transfer statement improve procurement clarity. Because it may host contact, member and event data, a church should still obtain current data-processing and technical arrangements rather than relying on broad security claims.",
-    "bestFor": ["Churches seeking a bespoke public website with ongoing UK supplier support", "Teams that need help with hosting, backups, updates and technical troubleshooting", "Churches wanting a website with optional member, event or ticketing functions"],
-    "strengths": ["Published Scottish trading-company identity and office location", "Published entry pricing and typical design range", "Bespoke design rather than fixed templates", "Hosting, backup, security-update and support scope is described", "Published domain-transfer assistance on cancellation"],
-    "limitations": ["Not a church database, safeguarding casework product, Gift Aid processor or accounting system", "Price is partly quote-based because design requirements vary", "Current DPA, data location, sub-processors, retention, service levels and full content-export terms are not established by the reviewed material", "Confirm rights to design assets, source files, administrator access and bespoke development before commissioning work"],
-    "procurementVerdict": {"problem": "Obtaining a tailored, supported church website without running technical hosting and maintenance internally", "differentiator": "A Scottish Christian web provider combining bespoke builds with a low published ongoing management fee", "firstCheck": "Request a written scope, accessibility approach, current hosting and DPA information, backup/restore and incident process, source/admin ownership terms and a live example of content, event and member-area administration"}
+    "bestFor": [
+      "Churches seeking a bespoke public website with ongoing UK supplier support",
+      "Teams that need help with hosting, backups, updates and technical troubleshooting",
+      "Churches wanting a website with optional member, event or ticketing functions"
+    ],
+    "strengths": [
+      "Published Scottish trading-company identity and office location",
+      "Published entry pricing and typical design range",
+      "Bespoke design rather than fixed templates",
+      "Hosting, backup, security-update and support scope is described",
+      "Published domain-transfer assistance on cancellation"
+    ],
+    "limitations": [
+      "Not a church database, safeguarding casework product, Gift Aid processor or accounting system",
+      "Price is partly quote-based because design requirements vary",
+      "Current DPA, data location, sub-processors, retention, service levels and full content-export terms are not established by the reviewed material",
+      "Confirm rights to design assets, source files, administrator access and bespoke development before commissioning work"
+    ],
+    "procurementVerdict": {
+      "problem": "Obtaining a tailored, supported church website without running technical hosting and maintenance internally",
+      "differentiator": "A Scottish Christian web provider combining bespoke builds with a low published ongoing management fee",
+      "firstCheck": "Request a written scope, accessibility approach, current hosting and DPA information, backup/restore and incident process, source/admin ownership terms and a live example of content, event and member-area administration"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Websites4Christians website", "url": "https://websites4christians.com/", "checked": "2026-07-25", "supports": ["Church-focused service", "Hosting and support scope", "Website capabilities"]},
-    {"label": "Websites4Christians FAQs", "url": "https://websites4christians.com/faqs", "checked": "2026-07-25", "supports": ["Pricing", "Domain transfer", "Support", "Software context"]},
-    {"label": "Websites4Christians about", "url": "https://websites4christians.com/about-us", "checked": "2026-07-25", "supports": ["Bespoke-service scope", "Hosting, backup and update services"]},
-    {"label": "Websites4Christians contact", "url": "https://websites4christians.com/contact-us", "checked": "2026-07-25", "supports": ["Glasgow office location", "UK telephone support"]},
-    {"label": "Websites4Christians hosting agreement", "url": "https://websites4christians.com/images/Legal/Web_Hosting_Agreement.pdf", "checked": "2026-07-25", "supports": ["Trading company", "Company number", "Hosting contractual context"]}
+    {
+      "label": "Websites4Christians website",
+      "url": "https://websites4christians.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church-focused service",
+        "Hosting and support scope",
+        "Website capabilities"
+      ]
+    },
+    {
+      "label": "Websites4Christians FAQs",
+      "url": "https://websites4christians.com/faqs",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Domain transfer",
+        "Support",
+        "Software context"
+      ]
+    },
+    {
+      "label": "Websites4Christians about",
+      "url": "https://websites4christians.com/about-us",
+      "checked": "2026-07-25",
+      "supports": [
+        "Bespoke-service scope",
+        "Hosting, backup and update services"
+      ]
+    },
+    {
+      "label": "Websites4Christians contact",
+      "url": "https://websites4christians.com/contact-us",
+      "checked": "2026-07-25",
+      "supports": [
+        "Glasgow office location",
+        "UK telephone support"
+      ]
+    },
+    {
+      "label": "Websites4Christians hosting agreement",
+      "url": "https://websites4christians.com/images/Legal/Web_Hosting_Agreement.pdf",
+      "checked": "2026-07-25",
+      "supports": [
+        "Trading company",
+        "Company number",
+        "Hosting contractual context"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Websites4Christians review for UK churches", "description": "Independent Websites4Christians profile: Scottish bespoke church websites, published costs, hosting agreement and procurement checks."}
+  "seo": {
+    "title": "Websites4Christians review for UK churches",
+    "description": "Independent Websites4Christians profile: Scottish bespoke church websites, published costs, hosting agreement and procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

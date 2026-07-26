@@ -5,8 +5,17 @@
   "officialWebsite": "https://flocknote.com/",
   "company": "Flocknote",
   "ukFocus": "general",
-  "categories": ["church-communications", "church-management", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "categories": [
+    "church-communications",
+    "church-management",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Churches prioritising email and text communication",
     "Catholic parishes and churches managing registrations and households"
@@ -50,8 +59,15 @@
     "Household database",
     "Attendance and registration"
   ],
-  "integrations": ["Website sign-up forms", "RSS feeds", "Social posting"],
-  "importExport": ["Data-transfer service on Complete", "Giving-data export"],
+  "integrations": [
+    "Website sign-up forms",
+    "RSS feeds",
+    "Social posting"
+  ],
+  "importExport": [
+    "Data-transfer service on Complete",
+    "Giving-data export"
+  ],
   "support": [
     "Supplier demo",
     "Training and migration for enterprise accounts"
@@ -120,13 +136,23 @@
       "label": "Flocknote pricing",
       "url": "https://flocknote.com/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Pricing", "Free plan", "Trial", "Features", "Demo"]
+      "supports": [
+        "Pricing",
+        "Free plan",
+        "Trial",
+        "Features",
+        "Demo"
+      ]
     },
     {
       "label": "Flocknote pricing help",
       "url": "https://help.flocknote.com/article/81-does-it-cost-anything-to-use-flocknote",
       "checked": "2026-07-25",
-      "supports": ["Free tier", "Pricing model", "Giving"]
+      "supports": [
+        "Free tier",
+        "Pricing model",
+        "Giving"
+      ]
     }
   ],
   "affiliateRelationship": "no",
@@ -134,5 +160,29 @@
   "seo": {
     "title": "Flocknote review for UK churches",
     "description": "Independent Flocknote profile for UK churches: US pricing, free trial, communications and member tools, UK checks and FAQs."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

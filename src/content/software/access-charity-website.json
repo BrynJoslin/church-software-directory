@@ -7,25 +7,128 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["church-websites", "online-giving", "events-ticketing"],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
-  "suitableContexts": ["Larger church charities needing a fundraising-focused website", "Churches running donation appeals, events or an online shop", "Organisations needing a supplier-led charity web platform rather than a simple church-site builder"],
-  "pricing": {"model": "quote-based", "summary": "A current UK Government Digital Marketplace listing shows Access Charity Website pricing from £953 per year for a website-suite instance. Confirm the current scope, implementation costs, VAT and contract term directly with Access.", "startingPrice": {"amount": 953, "currency": "GBP", "period": "year", "qualifier": "Digital Marketplace website-suite instance"}, "tiers": [], "trialDetails": "No public trial route was identified in reviewed material."},
+  "categories": [
+    "church-websites",
+    "online-giving",
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Larger church charities needing a fundraising-focused website",
+    "Churches running donation appeals, events or an online shop",
+    "Organisations needing a supplier-led charity web platform rather than a simple church-site builder"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "A current UK Government Digital Marketplace listing shows Access Charity Website pricing from £953 per year for a website-suite instance. Confirm the current scope, implementation costs, VAT and contract term directly with Access.",
+    "startingPrice": {
+      "amount": 953,
+      "currency": "GBP",
+      "period": "year",
+      "qualifier": "Digital Marketplace website-suite instance"
+    },
+    "tiers": [],
+    "trialDetails": "No public trial route was identified in reviewed material."
+  },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "yes",
   "gdprInformation": "Access publishes a group privacy notice. Its current product data-processing agreement, hosting region, sub-processors, retention, export and deletion arrangements should be obtained for the precise charity website and fundraising modules being procured.",
-  "coreFeatures": ["Website content management", "Donation and fundraising appeals", "Event ticketing", "Online shop", "Gift Aid claim support", "Analytics dashboards", "Stripe and GoCardless integration"],
-  "integrations": ["Stripe", "GoCardless", "Access Charity CRM"],
-  "importExport": ["Supplier describes an API; confirm available data export routes and scope in the current contract."],
-  "support": ["Supplier sales and implementation route", "Digital Marketplace listing describes a 99.70% monthly availability target for the service"],
-  "decisionEvidence": {"uk-operator": {"value": "Companies House records Access UK Ltd (02343760).", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/02343760", "checked": "2026-07-25"}, "product-scope": {"value": "The UK Government Digital Marketplace listing describes a charity website suite with fundraising, donations, Gift Aid, events, shop and API capabilities.", "state": "supplier-published", "source": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/240631340832625", "checked": "2026-07-25"}, "pricing": {"value": "The listing publishes pricing from £953 per year for a website-suite instance.", "state": "independent-source", "source": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/240631340832625", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "Access Charity Website is a broad UK charity platform, not a church-management system or a low-cost church-site builder. It can be relevant to a larger church charity with substantial fundraising, campaign, event or shop needs, but a church should assess implementation effort and the precise contracted modules before comparing its published starting price with simpler church products.", "bestFor": ["Larger church charities with fundraising and campaign requirements", "Organisations wanting website, donation and event workflows from one charity-sector supplier"], "strengths": ["UK supplier and published government-marketplace product record", "Fundraising, events, shop and Gift Aid capabilities are described", "Published starting price and supplier availability target"], "limitations": ["General charity product, not tailored specifically to church administration", "Current public material does not establish the exact package or implementation cost a church will need", "Churches should obtain current processing, hosting, export and exit evidence for their chosen modules"], "procurementVerdict": {"problem": "Combining a public-facing charity website with fundraising campaigns, donations and events", "differentiator": "A UK charity-sector suite rather than a church-specific site builder", "firstCheck": "Request a scoped demonstration covering a real church donation appeal, event and content workflow, then obtain the current pricing and data-processing pack"}},
+  "coreFeatures": [
+    "Website content management",
+    "Donation and fundraising appeals",
+    "Event ticketing",
+    "Online shop",
+    "Gift Aid claim support",
+    "Analytics dashboards",
+    "Stripe and GoCardless integration"
+  ],
+  "integrations": [
+    "Stripe",
+    "GoCardless",
+    "Access Charity CRM"
+  ],
+  "importExport": [
+    "Supplier describes an API; confirm available data export routes and scope in the current contract."
+  ],
+  "support": [
+    "Supplier sales and implementation route",
+    "Digital Marketplace listing describes a 99.70% monthly availability target for the service"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Companies House records Access UK Ltd (02343760).",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/02343760",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "The UK Government Digital Marketplace listing describes a charity website suite with fundraising, donations, Gift Aid, events, shop and API capabilities.",
+      "state": "supplier-published",
+      "source": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/240631340832625",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "The listing publishes pricing from £953 per year for a website-suite instance.",
+      "state": "independent-source",
+      "source": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/240631340832625",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Access Charity Website is a broad UK charity platform, not a church-management system or a low-cost church-site builder. It can be relevant to a larger church charity with substantial fundraising, campaign, event or shop needs, but a church should assess implementation effort and the precise contracted modules before comparing its published starting price with simpler church products.",
+    "bestFor": [
+      "Larger church charities with fundraising and campaign requirements",
+      "Organisations wanting website, donation and event workflows from one charity-sector supplier"
+    ],
+    "strengths": [
+      "UK supplier and published government-marketplace product record",
+      "Fundraising, events, shop and Gift Aid capabilities are described",
+      "Published starting price and supplier availability target"
+    ],
+    "limitations": [
+      "General charity product, not tailored specifically to church administration",
+      "Current public material does not establish the exact package or implementation cost a church will need",
+      "Churches should obtain current processing, hosting, export and exit evidence for their chosen modules"
+    ],
+    "procurementVerdict": {
+      "problem": "Combining a public-facing charity website with fundraising campaigns, donations and events",
+      "differentiator": "A UK charity-sector suite rather than a church-specific site builder",
+      "firstCheck": "Request a scoped demonstration covering a real church donation appeal, event and content workflow, then obtain the current pricing and data-processing pack"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "Access Charity Website: UK Government Digital Marketplace", "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/240631340832625", "checked": "2026-07-25", "supports": ["Product scope", "Starting price", "Availability target", "Integrations"]}, {"label": "Companies House: Access UK Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/02343760", "checked": "2026-07-25", "supports": ["UK operator"]}],
+  "sources": [
+    {
+      "label": "Access Charity Website: UK Government Digital Marketplace",
+      "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/240631340832625",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "Starting price",
+        "Availability target",
+        "Integrations"
+      ]
+    },
+    {
+      "label": "Companies House: Access UK Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02343760",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK operator"
+      ]
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Access Charity Website review for UK churches", "description": "Independent Access Charity Website profile: UK charity website, fundraising, Gift Aid and event-platform considerations for churches."},
+  "seo": {
+    "title": "Access Charity Website review for UK churches",
+    "description": "Independent Access Charity Website profile: UK charity website, fundraising, Gift Aid and event-platform considerations for churches."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/access-charity-website/access-charity-website-logo.png",
@@ -33,5 +136,29 @@
       "source": "https://www.theaccessgroup.com/apple-touch-icon.png",
       "checked": "2026-07-26"
     }
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

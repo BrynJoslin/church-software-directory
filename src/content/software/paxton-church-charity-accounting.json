@@ -7,16 +7,39 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-accounting"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches and charities needing multi-fund accounting", "Treasurers choosing between receipts-and-payments and accruals accounting", "UK organisations that need Gift Aid and Charity Commission reporting workflows"],
+  "categories": [
+    "church-accounting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches and charities needing multi-fund accounting",
+    "Treasurers choosing between receipts-and-payments and accruals accounting",
+    "UK organisations that need Gift Aid and Charity Commission reporting workflows"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Paxton publishes monthly direct-debit prices of £50 plus VAT for Standard and £75 plus VAT for Advanced. The subscriptions include helpdesk support, maintenance, new features and updates.",
-    "startingPrice": {"amount": 50, "currency": "GBP", "period": "month", "qualifier": "Standard, plus VAT; paid monthly by direct debit"},
+    "startingPrice": {
+      "amount": 50,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Standard, plus VAT; paid monthly by direct debit"
+    },
     "tiers": [
-      {"label": "Standard", "price": "£50/month plus VAT", "detail": "Online and desktop; includes multi-fund accounting, donations, Gift Aid, Charity Commission reports and transaction import."},
-      {"label": "Advanced", "price": "£75/month plus VAT", "detail": "Online and desktop; adds sales ledger, invoicing, foreign-currency processing and project analysis."}
+      {
+        "label": "Standard",
+        "price": "£50/month plus VAT",
+        "detail": "Online and desktop; includes multi-fund accounting, donations, Gift Aid, Charity Commission reports and transaction import."
+      },
+      {
+        "label": "Advanced",
+        "price": "£75/month plus VAT",
+        "detail": "Online and desktop; adds sales ledger, invoicing, foreign-currency processing and project analysis."
+      }
     ],
     "trialDetails": "The supplier offers a 30-day free trial."
   },
@@ -26,15 +49,49 @@
   "demoAvailable": "unknown",
   "dataHosting": "The supplier states that Paxton Charities Online is hosted in a secure UK-based data centre and that 14 days of backups are available.",
   "gdprInformation": "The reviewed terms describe UK hosting and supplier access for support or maintenance. Ask for the current data-processing agreement, security information, sub-processor list, retention terms and export process before procurement.",
-  "coreFeatures": ["Multi-fund accounting", "Donations and Gift Aid claims", "Charity Commission and SORP reporting", "Purchase ledger and budgets", "Transaction import", "VAT processing for Making Tax Digital", "Online and Windows desktop options"],
+  "coreFeatures": [
+    "Multi-fund accounting",
+    "Donations and Gift Aid claims",
+    "Charity Commission and SORP reporting",
+    "Purchase ledger and budgets",
+    "Transaction import",
+    "VAT processing for Making Tax Digital",
+    "Online and Windows desktop options"
+  ],
   "integrations": [],
-  "importExport": ["Transaction import", "Local backup from the cloud service, according to supplier terms"],
-  "support": ["Telephone and email support", "Monthly subscription includes helpdesk support, maintenance, new features and updates"],
+  "importExport": [
+    "Transaction import",
+    "Local backup from the cloud service, according to supplier terms"
+  ],
+  "support": [
+    "Telephone and email support",
+    "Monthly subscription includes helpdesk support, maintenance, new features and updates"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Paxton Software Limited identifies itself as registered in England number 1424228, at Rushden, Northamptonshire.", "state": "supplier-published", "source": "https://paxtonsoftware.co.uk/terms-conditions", "checked": "2026-07-25"},
-    "uk-availability": {"value": "Supplier terms state that the online service and website goods and services are available only to customers in the United Kingdom unless approved otherwise.", "state": "supplier-published", "source": "https://paxtonsoftware.co.uk/terms-conditions", "checked": "2026-07-25"},
-    "gbp-pricing": {"value": "Standard is published at £50/month plus VAT and Advanced at £75/month plus VAT, paid by monthly direct debit.", "state": "supplier-published", "source": "https://paxtonsoftware.co.uk/pricing/pricing-sign-up", "checked": "2026-07-25"},
-    "hosting": {"value": "Supplier states that Paxton Charities Online is hosted in a secure UK-based data centre and has 14 days of backups.", "state": "supplier-published", "source": "https://paxtonsoftware.co.uk/terms-conditions", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Paxton Software Limited identifies itself as registered in England number 1424228, at Rushden, Northamptonshire.",
+      "state": "supplier-published",
+      "source": "https://paxtonsoftware.co.uk/terms-conditions",
+      "checked": "2026-07-25"
+    },
+    "uk-availability": {
+      "value": "Supplier terms state that the online service and website goods and services are available only to customers in the United Kingdom unless approved otherwise.",
+      "state": "supplier-published",
+      "source": "https://paxtonsoftware.co.uk/terms-conditions",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Standard is published at £50/month plus VAT and Advanced at £75/month plus VAT, paid by monthly direct debit.",
+      "state": "supplier-published",
+      "source": "https://paxtonsoftware.co.uk/pricing/pricing-sign-up",
+      "checked": "2026-07-25"
+    },
+    "hosting": {
+      "value": "Supplier states that Paxton Charities Online is hosted in a secure UK-based data centre and has 14 days of backups.",
+      "state": "supplier-published",
+      "source": "https://paxtonsoftware.co.uk/terms-conditions",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -46,18 +103,93 @@
   },
   "editorial": {
     "assessment": "Paxton is a clearly UK-based charity-accounting option with current public prices, church-oriented accounting workflows and a desktop alternative to its online service. Its Standard and Advanced split makes the first procurement question practical: whether the church needs receipts-and-payments accounting or the additional sales, project and foreign-currency capability. A treasurer should test reports, migration, permissions, bank reconciliation and year-end work with the actual accounts before changing system.",
-    "bestFor": ["UK churches that need charity-specific fund accounting and Gift Aid workflows", "Treasurers who value published monthly pricing and a desktop option", "Churches that need to compare receipts-and-payments and accruals workflows"],
-    "strengths": ["Named active UK operator and published UK-only availability", "Published GBP pricing and a 30-day trial", "Supplier documents multi-fund accounting, Gift Aid and Charity Commission reporting", "Online and Windows desktop options"],
-    "limitations": ["Supplier's security and UK-hosting statements are not an independent assurance assessment", "The reviewed public terms do not provide a current full data-processing agreement, sub-processor list or exit-data procedure", "The Advanced version supports accruals accounting only", "Check migration, reporting and independent-examination requirements against the church's actual accounts"],
-    "procurementVerdict": {"problem": "UK churches seeking charity-specific multi-fund accounting", "differentiator": "Published monthly pricing with both online and Windows desktop deployment", "firstCheck": "Use the free trial to test fund reports, Gift Aid, bank reconciliation, permissions and year-end workflow with representative church data"}
+    "bestFor": [
+      "UK churches that need charity-specific fund accounting and Gift Aid workflows",
+      "Treasurers who value published monthly pricing and a desktop option",
+      "Churches that need to compare receipts-and-payments and accruals workflows"
+    ],
+    "strengths": [
+      "Named active UK operator and published UK-only availability",
+      "Published GBP pricing and a 30-day trial",
+      "Supplier documents multi-fund accounting, Gift Aid and Charity Commission reporting",
+      "Online and Windows desktop options"
+    ],
+    "limitations": [
+      "Supplier's security and UK-hosting statements are not an independent assurance assessment",
+      "The reviewed public terms do not provide a current full data-processing agreement, sub-processor list or exit-data procedure",
+      "The Advanced version supports accruals accounting only",
+      "Check migration, reporting and independent-examination requirements against the church's actual accounts"
+    ],
+    "procurementVerdict": {
+      "problem": "UK churches seeking charity-specific multi-fund accounting",
+      "differentiator": "Published monthly pricing with both online and Windows desktop deployment",
+      "firstCheck": "Use the free trial to test fund reports, Gift Aid, bank reconciliation, permissions and year-end workflow with representative church data"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Paxton Church & Charity Accounting Software", "url": "https://paxtonsoftware.co.uk/paxton-products/paxton-charity-accounting-software", "checked": "2026-07-25", "supports": ["Church and charity accounting scope", "Core features", "Published Standard and Advanced prices", "Online and desktop availability"]},
-    {"label": "Paxton pricing", "url": "https://paxtonsoftware.co.uk/pricing/pricing-sign-up", "checked": "2026-07-25", "supports": ["Current monthly GBP pricing", "Subscription inclusions", "Free-trial route"]},
-    {"label": "Paxton terms and conditions", "url": "https://paxtonsoftware.co.uk/terms-conditions", "checked": "2026-07-25", "supports": ["UK company identity", "UK-only availability", "UK hosting statement", "Backup statement", "Supplier access for support or maintenance"]}
+    {
+      "label": "Paxton Church & Charity Accounting Software",
+      "url": "https://paxtonsoftware.co.uk/paxton-products/paxton-charity-accounting-software",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church and charity accounting scope",
+        "Core features",
+        "Published Standard and Advanced prices",
+        "Online and desktop availability"
+      ]
+    },
+    {
+      "label": "Paxton pricing",
+      "url": "https://paxtonsoftware.co.uk/pricing/pricing-sign-up",
+      "checked": "2026-07-25",
+      "supports": [
+        "Current monthly GBP pricing",
+        "Subscription inclusions",
+        "Free-trial route"
+      ]
+    },
+    {
+      "label": "Paxton terms and conditions",
+      "url": "https://paxtonsoftware.co.uk/terms-conditions",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "UK-only availability",
+        "UK hosting statement",
+        "Backup statement",
+        "Supplier access for support or maintenance"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Paxton accounting review for UK churches", "description": "Independent Paxton Church & Charity Accounting Software profile: UK pricing, Gift Aid, fund accounting and procurement checks."}
+  "seo": {
+    "title": "Paxton accounting review for UK churches",
+    "description": "Independent Paxton Church & Charity Accounting Software profile: UK pricing, Gift Aid, fund accounting and procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

@@ -7,9 +7,22 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-mobile-apps", "church-communications", "sermon-hosting"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches seeking a branded member-facing mobile app", "Multi-location churches wanting a mobile-app option", "Teams that need app notifications, podcast or video connections alongside a church website"],
+  "categories": [
+    "church-mobile-apps",
+    "church-communications",
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking a branded member-facing mobile app",
+    "Multi-location churches wanting a mobile-app option",
+    "Teams that need app notifications, podcast or video connections alongside a church website"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Church Apps UK publishes monthly and annual GBP plans with setup fees. The public price page contains repeated and inconsistently labelled content, so a church should obtain a current written quote that confirms platform coverage, app-store costs, support and renewal terms.",
@@ -20,31 +33,93 @@
       "qualifier": "Starter App monthly price shown by the supplier, plus a £150 setup fee"
     },
     "tiers": [
-      {"label": "Starter App", "price": "£25/month + £150 setup", "detail": "Supplier describes Android, HTML5 and PWA options with basic support"},
-      {"label": "Custom App", "price": "£30/month + £300 setup", "detail": "Supplier describes custom Android, HTML5 and PWA app options"},
-      {"label": "Pro App", "price": "£35/month + £749 setup", "detail": "Supplier describes iOS, iPad and multiple-location options"},
-      {"label": "Enterprise App", "price": "Contact supplier", "detail": "Internal staff/team app option described for churches with more than 25 staff or team members"}
+      {
+        "label": "Starter App",
+        "price": "£25/month + £150 setup",
+        "detail": "Supplier describes Android, HTML5 and PWA options with basic support"
+      },
+      {
+        "label": "Custom App",
+        "price": "£30/month + £300 setup",
+        "detail": "Supplier describes custom Android, HTML5 and PWA app options"
+      },
+      {
+        "label": "Pro App",
+        "price": "£35/month + £749 setup",
+        "detail": "Supplier describes iOS, iPad and multiple-location options"
+      },
+      {
+        "label": "Enterprise App",
+        "price": "Contact supplier",
+        "detail": "Internal staff/team app option described for churches with more than 25 staff or team members"
+      }
     ]
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
   "demoAvailable": "unknown",
   "gdprInformation": "Church Apps UK publishes a website privacy policy, but the version reviewed is dated 2017 and refers to the Data Protection Act 1998. It is not sufficient evidence of current UK GDPR product terms, hosting, sub-processors, app data flows or retention. Obtain current service-specific documentation before processing member data.",
-  "coreFeatures": ["Branded Android, iOS, HTML5 and PWA app options depending on plan", "Push messages", "App usage analytics", "Custom galleries", "Podcast and YouTube connections", "Daily devotions", "Internal enterprise-app option"],
-  "integrations": ["Supplier describes podcast-channel and YouTube-channel connections", "Supplier describes Instagram, Flickr and Picasa gallery links"],
+  "coreFeatures": [
+    "Branded Android, iOS, HTML5 and PWA app options depending on plan",
+    "Push messages",
+    "App usage analytics",
+    "Custom galleries",
+    "Podcast and YouTube connections",
+    "Daily devotions",
+    "Internal enterprise-app option"
+  ],
+  "integrations": [
+    "Supplier describes podcast-channel and YouTube-channel connections",
+    "Supplier describes Instagram, Flickr and Picasa gallery links"
+  ],
   "importExport": [],
-  "support": ["Online support", "Supplier telephone and email contact", "Priority support stated on higher plans"],
+  "support": [
+    "Online support",
+    "Supplier telephone and email contact",
+    "Priority support stated on higher plans"
+  ],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "Supplier terms identify MediaWorkx Ltd, company number 10274151, as the England and Wales operating company.", "state": "supplier-published", "source": "https://www.churchapps.uk/terms-of-use/", "checked": "2026-07-25"},
-    "published-pricing": {"value": "Supplier publishes GBP setup fees and recurring monthly or annual app plans.", "state": "supplier-published", "source": "https://www.churchapps.uk/pricing/", "checked": "2026-07-25"},
-    "mobile-platforms": {"value": "Supplier describes Android, iOS, HTML5 and progressive web app options across its plans.", "state": "supplier-published", "source": "https://www.churchapps.uk/pricing/", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "Supplier terms identify MediaWorkx Ltd, company number 10274151, as the England and Wales operating company.",
+      "state": "supplier-published",
+      "source": "https://www.churchapps.uk/terms-of-use/",
+      "checked": "2026-07-25"
+    },
+    "published-pricing": {
+      "value": "Supplier publishes GBP setup fees and recurring monthly or annual app plans.",
+      "state": "supplier-published",
+      "source": "https://www.churchapps.uk/pricing/",
+      "checked": "2026-07-25"
+    },
+    "mobile-platforms": {
+      "value": "Supplier describes Android, iOS, HTML5 and progressive web app options across its plans.",
+      "state": "supplier-published",
+      "source": "https://www.churchapps.uk/pricing/",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "Church Apps UK is a specialist UK option for a church that has a clear reason to offer a branded app rather than only a responsive website. Its published plans make it a reasonable candidate for a practical quote, but the older privacy material and inconsistent price-page presentation mean that app-store ownership, data processing, platform scope and renewal charges should be settled in writing before a church commissions it.",
-    "bestFor": ["Churches with a defined need for branded member-facing mobile access", "Teams seeking a UK provider for Android, iOS, HTML5 or PWA options", "Multi-location churches that want an app layer for communications and media"],
-    "strengths": ["Published GBP recurring prices and setup fees", "Public terms identify a UK limited company", "Supplier describes several mobile platform options and church-oriented media and notification features"],
-    "limitations": ["The pricing page contains repeated and inconsistent labels, so current scope and costs need a written quote", "Ask the supplier about Current service-specific UK GDPR documentation, hosting, sub-processors and data-export arrangements", "An app creates a recurring content and app-store-management responsibility that should not be assumed to sit with the supplier"],
-    "procurementVerdict": {"problem": "Giving members a genuinely useful branded mobile route to church news, media and notifications", "differentiator": "UK church-app specialist offering native, web-app and internal-team options", "firstCheck": "Confirm app-store ownership, current plan scope, data processing, support response and the cost of future platform updates in writing"}
+    "bestFor": [
+      "Churches with a defined need for branded member-facing mobile access",
+      "Teams seeking a UK provider for Android, iOS, HTML5 or PWA options",
+      "Multi-location churches that want an app layer for communications and media"
+    ],
+    "strengths": [
+      "Published GBP recurring prices and setup fees",
+      "Public terms identify a UK limited company",
+      "Supplier describes several mobile platform options and church-oriented media and notification features"
+    ],
+    "limitations": [
+      "The pricing page contains repeated and inconsistent labels, so current scope and costs need a written quote",
+      "Ask the supplier about Current service-specific UK GDPR documentation, hosting, sub-processors and data-export arrangements",
+      "An app creates a recurring content and app-store-management responsibility that should not be assumed to sit with the supplier"
+    ],
+    "procurementVerdict": {
+      "problem": "Giving members a genuinely useful branded mobile route to church news, media and notifications",
+      "differentiator": "UK church-app specialist offering native, web-app and internal-team options",
+      "firstCheck": "Confirm app-store ownership, current plan scope, data processing, support response and the cost of future platform updates in writing"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -56,13 +131,82 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Church Apps UK pricing", "url": "https://www.churchapps.uk/pricing/", "checked": "2026-07-25", "supports": ["Published GBP plans", "Setup fees", "Mobile-platform scope", "Support and enterprise-app context"]},
-    {"label": "Church Apps UK features", "url": "https://www.churchapps.uk/features/", "checked": "2026-07-25", "supports": ["Media and communications features", "Podcast, video and gallery connections"]},
-    {"label": "Church Apps UK terms of use", "url": "https://www.churchapps.uk/terms-of-use/", "checked": "2026-07-25", "supports": ["Operating company", "UK company number", "Terms availability"]},
-    {"label": "Church Apps UK privacy policy", "url": "https://www.churchapps.uk/privacy-and-cookie-policy/", "checked": "2026-07-25", "supports": ["Published privacy-policy date", "Need for current service-specific data documentation"]},
-    {"label": "Companies House: MediaWorkx Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/10274151", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+    {
+      "label": "Church Apps UK pricing",
+      "url": "https://www.churchapps.uk/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published GBP plans",
+        "Setup fees",
+        "Mobile-platform scope",
+        "Support and enterprise-app context"
+      ]
+    },
+    {
+      "label": "Church Apps UK features",
+      "url": "https://www.churchapps.uk/features/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Media and communications features",
+        "Podcast, video and gallery connections"
+      ]
+    },
+    {
+      "label": "Church Apps UK terms of use",
+      "url": "https://www.churchapps.uk/terms-of-use/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "UK company number",
+        "Terms availability"
+      ]
+    },
+    {
+      "label": "Church Apps UK privacy policy",
+      "url": "https://www.churchapps.uk/privacy-and-cookie-policy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published privacy-policy date",
+        "Need for current service-specific data documentation"
+      ]
+    },
+    {
+      "label": "Companies House: MediaWorkx Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10274151",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Church Apps UK review for churches", "description": "Independent Church Apps UK profile: branded church apps, published GBP plans, ownership questions and UK data due diligence."}
+  "seo": {
+    "title": "Church Apps UK review for churches",
+    "description": "Independent Church Apps UK profile: branded church apps, published GBP plans, ownership questions and UK data due diligence."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

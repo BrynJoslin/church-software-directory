@@ -7,22 +7,169 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "online-giving", "worship-planning", "church-communications", "safeguarding", "pastoral-care", "sermon-hosting"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["UK churches seeking one platform for people records, giving, rotas and governance", "Churches that need documented UK Gift Aid and data-processing information", "Multi-site churches needing named permission and administration controls"],
-  "pricing": {"model": "tiered", "summary": "AltarDesk publishes VAT-inclusive monthly plans from £17 for up to 75 members through £99 for up to 1,000 members, plus a custom annual plan for larger organisations. Monthly and annual plans are stated to have no lock-in; annual billing saves two months.", "startingPrice": {"amount": 17, "currency": "GBP", "period": "month", "qualifier": "Starter plan for up to 75 members, including VAT"}, "tiers": [{"label": "Starter", "price": "£17/month including VAT", "detail": "Up to 75 members, member app, email, Gift Aid management, rotas and reports"}, {"label": "Standard", "price": "£35/month including VAT", "detail": "Up to 200 members; adds safeguarding, HMRC claim submission and more administration"}, {"label": "Pro", "price": "£69/month including VAT", "detail": "Up to 500 members; adds multi-site tools and custom admin groups"}, {"label": "Growth", "price": "£99/month including VAT", "detail": "Up to 1,000 members"}, {"label": "Custom", "price": "£1,990/year including VAT plus £1,250 setup", "detail": "1,000+ members; annual billing only"}], "trialDetails": "Every new account starts on a 30-day Pro trial without a payment card, according to the supplier."},
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning",
+    "church-communications",
+    "safeguarding",
+    "pastoral-care",
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches seeking one platform for people records, giving, rotas and governance",
+    "Churches that need documented UK Gift Aid and data-processing information",
+    "Multi-site churches needing named permission and administration controls"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "AltarDesk publishes VAT-inclusive monthly plans from £17 for up to 75 members through £99 for up to 1,000 members, plus a custom annual plan for larger organisations. Monthly and annual plans are stated to have no lock-in; annual billing saves two months.",
+    "startingPrice": {
+      "amount": 17,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Starter plan for up to 75 members, including VAT"
+    },
+    "tiers": [
+      {
+        "label": "Starter",
+        "price": "£17/month including VAT",
+        "detail": "Up to 75 members, member app, email, Gift Aid management, rotas and reports"
+      },
+      {
+        "label": "Standard",
+        "price": "£35/month including VAT",
+        "detail": "Up to 200 members; adds safeguarding, HMRC claim submission and more administration"
+      },
+      {
+        "label": "Pro",
+        "price": "£69/month including VAT",
+        "detail": "Up to 500 members; adds multi-site tools and custom admin groups"
+      },
+      {
+        "label": "Growth",
+        "price": "£99/month including VAT",
+        "detail": "Up to 1,000 members"
+      },
+      {
+        "label": "Custom",
+        "price": "£1,990/year including VAT plus £1,250 setup",
+        "detail": "1,000+ members; annual billing only"
+      }
+    ],
+    "trialDetails": "Every new account starts on a 30-day Pro trial without a payment card, according to the supplier."
+  },
   "freePlan": "unknown",
   "freeTrial": "yes",
   "giftAid": "yes",
   "demoAvailable": "unknown",
   "dataHosting": "The supplier's data-processing agreement states that primary application hosting is in the United Kingdom and database, authentication and file storage are in the European Economic Area. The agreement lists transfer safeguards for relevant US sub-processors.",
   "gdprInformation": "AltarDesk publishes a data-processing agreement identifying the church as controller and Rayscent as processor, with a named sub-processor list, security measures and transfer information. This is supplier information, not a compliance determination for a church.",
-  "coreFeatures": ["Member records and member app", "Gift Aid, GASDS and donation tracking", "Service rotas, events and attendance", "Email communications", "Safeguarding and DBS administration", "Governance records and trustee reporting", "Pastoral appointments", "Sermon and media hub using the church's Google Drive"],
-  "integrations": ["Stripe Payments UK for online donations", "Google Drive for sermon and media files", "The SMS Works for SMS delivery"],
-  "importExport": ["CSV and print export", "Full data export is listed across plans", "Google Drive keeps sermon and media files in the church's own storage"],
-  "support": ["Email support on Starter", "Priority email on Standard", "Phone and priority support from Pro", "Dedicated onboarding on Pro and above"],
-  "decisionEvidence": {"uk-purchasing": {"value": "Rayscent Ltd is registered in England and Wales; sterling, VAT-inclusive plans are published.", "state": "supplier-published", "source": "https://altardesk.co.uk/pricing", "checked": "2026-07-25"}, "gbp-pricing": {"value": "Published plans range from £17 to £99 per month including VAT, plus a custom annual plan.", "state": "supplier-published", "source": "https://altardesk.co.uk/pricing", "checked": "2026-07-25"}, "gift-aid": {"value": "Supplier documents Gift Aid and GASDS management on every plan, with direct HMRC claim submission from Standard upwards.", "state": "supplier-published", "source": "https://altardesk.co.uk/pricing", "checked": "2026-07-25"}, "data-processing": {"value": "A current DPA names controller and processor roles, sub-processors and international-transfer safeguards.", "state": "supplier-published", "source": "https://altardesk.co.uk/dpa", "checked": "2026-07-25"}, "hosting": {"value": "Supplier DPA identifies primary application hosting in the UK and database, authentication and file storage in the EEA.", "state": "supplier-published", "source": "https://altardesk.co.uk/dpa", "checked": "2026-07-25"}, "exports": {"value": "Supplier documents CSV, print and full data export; sermon and media files use the church's own Google Drive.", "state": "supplier-published", "source": "https://altardesk.co.uk/features", "checked": "2026-07-25"}, "role-permissions": {"value": "Supplier describes per-user permissions, row-level organisation isolation and restricted safeguarding records.", "state": "supplier-published", "source": "https://altardesk.co.uk/security", "checked": "2026-07-25"}, "audit-logs": {"value": "Supplier DPA describes administrative-access logs; product material describes an append-only sensitive-action log.", "state": "supplier-published", "source": "https://altardesk.co.uk/dpa", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "AltarDesk is a newer UK all-in-one contender with unusually detailed published pricing and data-processing documentation. Its breadth can simplify a church's stack, but the broadest workflows—Gift Aid, safeguarding, finance controls, pastoral records and Google Drive media—should be tested by their actual owners before a migration decision.", "bestFor": ["UK churches wanting people, giving, rotas and communications in one product", "Teams that need public documentation about UK pricing, processing roles and exports", "Growing or multi-site churches that need structured admin groups and permissions"], "strengths": ["Published GBP, VAT-inclusive plans and a 30-day trial", "Detailed public DPA includes sub-processors, processing roles and transfer safeguards", "Gift Aid, rotas, safeguarding, governance and media storage are documented in one platform"], "limitations": ["The supplier is newly incorporated, so long-term operational track record still needs independent assessment", "Supplier documentation remains a supplier claim, not a certification of a church's compliance or financial controls", "The church must separately govern sensitive pastoral and safeguarding information and its Google Drive access"], "procurementVerdict": {"problem": "UK churches seeking a documented all-in-one administration platform", "differentiator": "Broad church workflows are paired with unusually specific published pricing and data-processing information", "firstCheck": "Run a role-led trial of exports, Gift Aid, permissions, safeguarding boundaries, finance approval and Google Drive ownership"}},
+  "coreFeatures": [
+    "Member records and member app",
+    "Gift Aid, GASDS and donation tracking",
+    "Service rotas, events and attendance",
+    "Email communications",
+    "Safeguarding and DBS administration",
+    "Governance records and trustee reporting",
+    "Pastoral appointments",
+    "Sermon and media hub using the church's Google Drive"
+  ],
+  "integrations": [
+    "Stripe Payments UK for online donations",
+    "Google Drive for sermon and media files",
+    "The SMS Works for SMS delivery"
+  ],
+  "importExport": [
+    "CSV and print export",
+    "Full data export is listed across plans",
+    "Google Drive keeps sermon and media files in the church's own storage"
+  ],
+  "support": [
+    "Email support on Starter",
+    "Priority email on Standard",
+    "Phone and priority support from Pro",
+    "Dedicated onboarding on Pro and above"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Rayscent Ltd is registered in England and Wales; sterling, VAT-inclusive plans are published.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/pricing",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Published plans range from £17 to £99 per month including VAT, plus a custom annual plan.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/pricing",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "Supplier documents Gift Aid and GASDS management on every plan, with direct HMRC claim submission from Standard upwards.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/pricing",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "A current DPA names controller and processor roles, sub-processors and international-transfer safeguards.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/dpa",
+      "checked": "2026-07-25"
+    },
+    "hosting": {
+      "value": "Supplier DPA identifies primary application hosting in the UK and database, authentication and file storage in the EEA.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/dpa",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Supplier documents CSV, print and full data export; sermon and media files use the church's own Google Drive.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/features",
+      "checked": "2026-07-25"
+    },
+    "role-permissions": {
+      "value": "Supplier describes per-user permissions, row-level organisation isolation and restricted safeguarding records.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/security",
+      "checked": "2026-07-25"
+    },
+    "audit-logs": {
+      "value": "Supplier DPA describes administrative-access logs; product material describes an append-only sensitive-action log.",
+      "state": "supplier-published",
+      "source": "https://altardesk.co.uk/dpa",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "AltarDesk is a newer UK all-in-one contender with unusually detailed published pricing and data-processing documentation. Its breadth can simplify a church's stack, but the broadest workflows—Gift Aid, safeguarding, finance controls, pastoral records and Google Drive media—should be tested by their actual owners before a migration decision.",
+    "bestFor": [
+      "UK churches wanting people, giving, rotas and communications in one product",
+      "Teams that need public documentation about UK pricing, processing roles and exports",
+      "Growing or multi-site churches that need structured admin groups and permissions"
+    ],
+    "strengths": [
+      "Published GBP, VAT-inclusive plans and a 30-day trial",
+      "Detailed public DPA includes sub-processors, processing roles and transfer safeguards",
+      "Gift Aid, rotas, safeguarding, governance and media storage are documented in one platform"
+    ],
+    "limitations": [
+      "The supplier is newly incorporated, so long-term operational track record still needs independent assessment",
+      "Supplier documentation remains a supplier claim, not a certification of a church's compliance or financial controls",
+      "The church must separately govern sensitive pastoral and safeguarding information and its Google Drive access"
+    ],
+    "procurementVerdict": {
+      "problem": "UK churches seeking a documented all-in-one administration platform",
+      "differentiator": "Broad church workflows are paired with unusually specific published pricing and data-processing information",
+      "firstCheck": "Run a role-led trial of exports, Gift Aid, permissions, safeguarding boundaries, finance approval and Google Drive ownership"
+    }
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/altardesk/altardesk-logo.svg",
@@ -32,9 +179,110 @@
     }
   },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "AltarDesk pricing", "url": "https://altardesk.co.uk/pricing", "checked": "2026-07-25", "supports": ["GBP pricing", "VAT treatment", "Free trial", "Product features", "Member bands", "Support", "Gift Aid"]}, {"label": "AltarDesk data-processing agreement", "url": "https://altardesk.co.uk/dpa", "checked": "2026-07-25", "supports": ["Supplier legal name", "UK registration", "Controller and processor roles", "Hosting", "Sub-processors", "Transfers", "Security measures"]}, {"label": "AltarDesk security", "url": "https://altardesk.co.uk/security", "checked": "2026-07-25", "supports": ["Permission controls", "Audit logging", "Backup statements", "Data-export statement"]}, {"label": "AltarDesk features", "url": "https://altardesk.co.uk/features", "checked": "2026-07-25", "supports": ["Safeguarding features", "CSV and print export"]}, {"label": "Companies House: Rayscent Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/17120455", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/altardesk/id6782456720", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the AltarDesk name; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=uk.co.altardesk.member", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the AltarDesk name; this directory has not recorded an aggregate rating or review count."}],
+  "sources": [
+    {
+      "label": "AltarDesk pricing",
+      "url": "https://altardesk.co.uk/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "GBP pricing",
+        "VAT treatment",
+        "Free trial",
+        "Product features",
+        "Member bands",
+        "Support",
+        "Gift Aid"
+      ]
+    },
+    {
+      "label": "AltarDesk data-processing agreement",
+      "url": "https://altardesk.co.uk/dpa",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier legal name",
+        "UK registration",
+        "Controller and processor roles",
+        "Hosting",
+        "Sub-processors",
+        "Transfers",
+        "Security measures"
+      ]
+    },
+    {
+      "label": "AltarDesk security",
+      "url": "https://altardesk.co.uk/security",
+      "checked": "2026-07-25",
+      "supports": [
+        "Permission controls",
+        "Audit logging",
+        "Backup statements",
+        "Data-export statement"
+      ]
+    },
+    {
+      "label": "AltarDesk features",
+      "url": "https://altardesk.co.uk/features",
+      "checked": "2026-07-25",
+      "supports": [
+        "Safeguarding features",
+        "CSV and print export"
+      ]
+    },
+    {
+      "label": "Companies House: Rayscent Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/17120455",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/altardesk/id6782456720",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the AltarDesk name; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=uk.co.altardesk.member",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the AltarDesk name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "AltarDesk review for UK churches", "description": "Independent AltarDesk profile: UK pricing, Gift Aid, church management, safeguarding, exports and data-processing information."}
+  "seo": {
+    "title": "AltarDesk review for UK churches",
+    "description": "Independent AltarDesk profile: UK pricing, Gift Aid, church management, safeguarding, exports and data-processing information."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

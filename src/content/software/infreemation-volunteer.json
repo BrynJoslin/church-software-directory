@@ -7,14 +7,29 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["volunteer-scheduling", "church-communications"],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
-  "suitableContexts": ["Churches with structured volunteer application, approval and training workflows", "Churches needing to track event bookings and mandatory volunteer training", "Church charities that need a general-purpose volunteer system rather than a church member database"],
+  "categories": [
+    "volunteer-scheduling",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches with structured volunteer application, approval and training workflows",
+    "Churches needing to track event bookings and mandatory volunteer training",
+    "Church charities that need a general-purpose volunteer system rather than a church member database"
+  ],
   "pricing": {
     "model": "quote-based",
     "summary": "The reviewed public product page does not publish an amount. The supplier describes site licensing with unrestricted users and volunteers, and says both volunteer-portal and administration functions are included. Request a written quote covering subscription term, implementation, training, data migration, SMS or email costs, support, renewal and exit arrangements.",
     "tiers": [
-      {"label": "Site licence", "price": "Contact supplier", "detail": "Supplier says its software is licensed by site and gives unrestricted access, but does not publish an Infreemation Volunteer price."}
+      {
+        "label": "Site licence",
+        "price": "Contact supplier",
+        "detail": "Supplier says its software is licensed by site and gives unrestricted access, but does not publish an Infreemation Volunteer price."
+      }
     ],
     "trialDetails": "Supplier provides a free-trial request route; duration for this specific product is not stated on the reviewed volunteer page."
   },
@@ -22,15 +37,53 @@
   "freeTrial": "yes",
   "demoAvailable": "unknown",
   "gdprInformation": "Digital Interactive Ltd publishes a general data-protection statement and says its dedicated servers and customer data are UK-based. Its volunteer page also makes a supplier compliance claim. Those public statements are useful starting evidence but do not establish that a particular church's use, retention, vetting process or safeguarding policy is compliant. Obtain the current contract, DPA, security material, retention schedule, data-export process and sub-processor list before entering applicant, identity-document or vetting information.",
-  "coreFeatures": ["Custom volunteer sign-up forms", "Volunteer portal", "Application review and approval workflow", "ID-document and vetting-document collection", "Mandatory and optional training tracking", "Online training uploads or links", "Event search and booking", "Staff-to-applicant communications", "Unlimited volunteers, events and users according to supplier"],
-  "integrations": ["Online training can be uploaded or linked; confirm supported formats, providers and data flows"],
-  "importExport": ["No public import/export format was found in the reviewed product material; obtain a sample export and migration plan before adoption"],
-  "support": ["Supplier provides a free-trial request route", "Supplier says a system overview is included and training can be supplied separately", "Supplier publishes business-hours contact details and an email support address"],
+  "coreFeatures": [
+    "Custom volunteer sign-up forms",
+    "Volunteer portal",
+    "Application review and approval workflow",
+    "ID-document and vetting-document collection",
+    "Mandatory and optional training tracking",
+    "Online training uploads or links",
+    "Event search and booking",
+    "Staff-to-applicant communications",
+    "Unlimited volunteers, events and users according to supplier"
+  ],
+  "integrations": [
+    "Online training can be uploaded or linked; confirm supported formats, providers and data flows"
+  ],
+  "importExport": [
+    "No public import/export format was found in the reviewed product material; obtain a sample export and migration plan before adoption"
+  ],
+  "support": [
+    "Supplier provides a free-trial request route",
+    "Supplier says a system overview is included and training can be supplied separately",
+    "Supplier publishes business-hours contact details and an email support address"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Digital Interactive identifies itself as Digital Interactive Ltd, company 05189963 registered in England; Companies House records the company as active.", "state": "supplier-published", "source": "https://www.digital-interactive.com/contact-us", "checked": "2026-07-25"},
-    "volunteer-workflow": {"value": "Supplier describes end-to-end sign-up, vetting, approval, training, event booking, a volunteer portal and custom application workflows.", "state": "supplier-published", "source": "https://www.digital-interactive.com/products/volunteer", "checked": "2026-07-25"},
-    "commercial-model": {"value": "Supplier says volunteer-portal and administration functions are included, and its FAQ describes site licences with unrestricted access; the reviewed material does not publish an amount for Infreemation Volunteer.", "state": "supplier-published", "source": "https://www.digital-interactive.com/faq", "checked": "2026-07-25"},
-    "data-handling": {"value": "Supplier says its dedicated servers and customer data are in the UK, and publishes a general data-protection statement that describes processor obligations and authorisation for further processors.", "state": "supplier-published", "source": "https://www.digital-interactive.com/gdpr", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Digital Interactive identifies itself as Digital Interactive Ltd, company 05189963 registered in England; Companies House records the company as active.",
+      "state": "supplier-published",
+      "source": "https://www.digital-interactive.com/contact-us",
+      "checked": "2026-07-25"
+    },
+    "volunteer-workflow": {
+      "value": "Supplier describes end-to-end sign-up, vetting, approval, training, event booking, a volunteer portal and custom application workflows.",
+      "state": "supplier-published",
+      "source": "https://www.digital-interactive.com/products/volunteer",
+      "checked": "2026-07-25"
+    },
+    "commercial-model": {
+      "value": "Supplier says volunteer-portal and administration functions are included, and its FAQ describes site licences with unrestricted access; the reviewed material does not publish an amount for Infreemation Volunteer.",
+      "state": "supplier-published",
+      "source": "https://www.digital-interactive.com/faq",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "Supplier says its dedicated servers and customer data are in the UK, and publishes a general data-protection statement that describes processor obligations and authorisation for further processors.",
+      "state": "supplier-published",
+      "source": "https://www.digital-interactive.com/gdpr",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -42,20 +95,114 @@
   },
   "editorial": {
     "assessment": "Infreemation Volunteer is a general UK volunteer-administration product with more emphasis on applicant intake, approvals and training than a simple service rota. That may suit a larger church or church charity with a repeatable recruitment process, but it is not church-specific software. The product page's references to ID and CRB-check documents mean a church should be especially careful: a feature that accepts evidence is not proof that its safeguarding process, retention policy or handling of sensitive data is appropriate.",
-    "bestFor": ["Churches or church charities that need structured volunteer applications and training records", "Teams managing recurring volunteer events with an applicant-to-approved-volunteer workflow", "Organisations wanting a UK supplier and a site-licence commercial model"],
-    "strengths": ["Active identified UK company", "Applicant, approval, training and event-booking workflow", "Custom forms and a volunteer portal", "Supplier describes UK-hosted dedicated servers", "Free-trial route and unrestricted site-licence model"],
-    "limitations": ["General volunteer software rather than a church-management system", "No public product price, implementation cost or export format found", "Product references CRB-check documents; churches should use current DBS terminology and independently assess their lawful, safe handling", "Public information reviewed does not establish church-specific safeguarding, pastoral, member, giving or worship functionality", "Data protection claims require contract-level assessment for the church's actual use"],
-    "procurementVerdict": {"problem": "Managing a structured volunteer application, approval, training and event-booking process", "differentiator": "A UK-built general volunteer system that joins application workflow, training requirements and volunteer self-service", "firstCheck": "Map a real but non-sensitive volunteer journey from application to training and event booking; ask for the current quote, DPA, retention schedule, export sample and a documented approach to identity and vetting evidence before putting any sensitive records into the service"}
+    "bestFor": [
+      "Churches or church charities that need structured volunteer applications and training records",
+      "Teams managing recurring volunteer events with an applicant-to-approved-volunteer workflow",
+      "Organisations wanting a UK supplier and a site-licence commercial model"
+    ],
+    "strengths": [
+      "Active identified UK company",
+      "Applicant, approval, training and event-booking workflow",
+      "Custom forms and a volunteer portal",
+      "Supplier describes UK-hosted dedicated servers",
+      "Free-trial route and unrestricted site-licence model"
+    ],
+    "limitations": [
+      "General volunteer software rather than a church-management system",
+      "No public product price, implementation cost or export format found",
+      "Product references CRB-check documents; churches should use current DBS terminology and independently assess their lawful, safe handling",
+      "Public information reviewed does not establish church-specific safeguarding, pastoral, member, giving or worship functionality",
+      "Data protection claims require contract-level assessment for the church's actual use"
+    ],
+    "procurementVerdict": {
+      "problem": "Managing a structured volunteer application, approval, training and event-booking process",
+      "differentiator": "A UK-built general volunteer system that joins application workflow, training requirements and volunteer self-service",
+      "firstCheck": "Map a real but non-sensitive volunteer journey from application to training and event booking; ask for the current quote, DPA, retention schedule, export sample and a documented approach to identity and vetting evidence before putting any sensitive records into the service"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Infreemation Volunteer product page", "url": "https://www.digital-interactive.com/products/volunteer", "checked": "2026-07-25", "supports": ["Volunteer workflow", "Training", "Portal", "UK-server statement", "Free-trial route"]},
-    {"label": "Digital Interactive FAQ", "url": "https://www.digital-interactive.com/faq", "checked": "2026-07-25", "supports": ["Site-licence model", "Unrestricted access statement", "Training", "UK-server statement"]},
-    {"label": "Digital Interactive GDPR statement", "url": "https://www.digital-interactive.com/gdpr", "checked": "2026-07-25", "supports": ["Supplier data-protection statement", "Processor and sub-processor statements"]},
-    {"label": "Digital Interactive contact details", "url": "https://www.digital-interactive.com/contact-us", "checked": "2026-07-25", "supports": ["Legal operator", "Company number", "Support contact"]},
-    {"label": "Companies House: Digital Interactive Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/05189963", "checked": "2026-07-25", "supports": ["Active UK company", "Company number", "Registered office"]}
+    {
+      "label": "Infreemation Volunteer product page",
+      "url": "https://www.digital-interactive.com/products/volunteer",
+      "checked": "2026-07-25",
+      "supports": [
+        "Volunteer workflow",
+        "Training",
+        "Portal",
+        "UK-server statement",
+        "Free-trial route"
+      ]
+    },
+    {
+      "label": "Digital Interactive FAQ",
+      "url": "https://www.digital-interactive.com/faq",
+      "checked": "2026-07-25",
+      "supports": [
+        "Site-licence model",
+        "Unrestricted access statement",
+        "Training",
+        "UK-server statement"
+      ]
+    },
+    {
+      "label": "Digital Interactive GDPR statement",
+      "url": "https://www.digital-interactive.com/gdpr",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier data-protection statement",
+        "Processor and sub-processor statements"
+      ]
+    },
+    {
+      "label": "Digital Interactive contact details",
+      "url": "https://www.digital-interactive.com/contact-us",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal operator",
+        "Company number",
+        "Support contact"
+      ]
+    },
+    {
+      "label": "Companies House: Digital Interactive Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/05189963",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK company",
+        "Company number",
+        "Registered office"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Infreemation Volunteer review for UK churches", "description": "Independent Infreemation Volunteer profile: UK volunteer onboarding, training, pricing questions and sensitive-data procurement checks."}
+  "seo": {
+    "title": "Infreemation Volunteer review for UK churches",
+    "description": "Independent Infreemation Volunteer profile: UK volunteer onboarding, training, pricing questions and sensitive-data procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

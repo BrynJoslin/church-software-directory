@@ -7,17 +7,43 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-accounting"],
-  "suitableChurchSizes": ["large", "multi-site"],
-  "suitableContexts": ["Church charities with complex fund, project, donor or multi-entity finance needs", "Finance teams that use or intend to use Salesforce", "Charities with annual turnover above the supplier's stated £500,000 focus"],
+  "categories": [
+    "church-accounting"
+  ],
+  "suitableChurchSizes": [
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church charities with complex fund, project, donor or multi-entity finance needs",
+    "Finance teams that use or intend to use Salesforce",
+    "Charities with annual turnover above the supplier's stated £500,000 focus"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Aedon publishes £145 per month for a full Aedon.Charities user and £40 per month for a reviewer, plus £50 per additional company. The page says ten Salesforce Cloud licences are included and annual or longer commitments can reduce price. The supplier also states a one-year minimum subscription; obtain VAT treatment, implementation, migration, Salesforce configuration, payment, integration and termination costs in writing.",
-    "startingPrice": {"amount": 145, "currency": "GBP", "period": "month", "qualifier": "published full-user price, before VAT if applicable"},
+    "startingPrice": {
+      "amount": 145,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "published full-user price, before VAT if applicable"
+    },
     "tiers": [
-      {"label": "Aedon.Charities full user", "price": "£145/month", "detail": "Supplier's published per-full-user charity accounting price."},
-      {"label": "Aedon.Charities reviewer", "price": "£40/month", "detail": "Supplier's published per-reviewer price."},
-      {"label": "Additional company", "price": "£50/month", "detail": "Published per-additional-company price; the package states three companies are included."}
+      {
+        "label": "Aedon.Charities full user",
+        "price": "£145/month",
+        "detail": "Supplier's published per-full-user charity accounting price."
+      },
+      {
+        "label": "Aedon.Charities reviewer",
+        "price": "£40/month",
+        "detail": "Supplier's published per-reviewer price."
+      },
+      {
+        "label": "Additional company",
+        "price": "£50/month",
+        "detail": "Published per-additional-company price; the package states three companies are included."
+      }
     ]
   },
   "freePlan": "no",
@@ -25,15 +51,60 @@
   "giftAid": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "Aedon.Co publishes a privacy policy for its website and says some personal data may be stored in the UK and India. That policy is not a product data-processing agreement. Because Aedon.Charities is Salesforce-native and handles charity financial and donor-related data, a church should obtain the product DPA, controller-processor allocation, Salesforce and Aedon sub-processor list, hosting and transfer safeguards, retention, role permissions, audit logging, backup, breach process and complete export arrangements before implementation.",
-  "coreFeatures": ["Salesforce-native accounting", "SORP chart of accounts", "SORP SoFA and balance sheet", "Fund accounting", "Project accounting", "Partial VAT", "Gift Aid submission", "Donor tax statements", "Multi-company accounting", "Bank feeds and reconciliation", "Audit trail"],
-  "integrations": ["Salesforce Nonprofit Cloud", "Salesforce Nonprofit Success Pack", "Salesforce Sales Cloud", "SmarterPay Direct Debits and bulk payments described as optional", "Confirm the current implementation, licence and integration scope"],
-  "importExport": ["Supplier describes accounting, reporting and payment-file workflows within Salesforce", "Request migration templates and full finance, fund, donor, Gift Aid, audit-trail, attachment and configuration export documentation"],
-  "support": ["Supplier lists Aedon.Academy, phone and Microsoft Teams support, remote support and an annual health check", "Supplier describes implementation as typically within one VAT quarter", "Confirm included implementation, support hours, response commitments and training scope"],
+  "coreFeatures": [
+    "Salesforce-native accounting",
+    "SORP chart of accounts",
+    "SORP SoFA and balance sheet",
+    "Fund accounting",
+    "Project accounting",
+    "Partial VAT",
+    "Gift Aid submission",
+    "Donor tax statements",
+    "Multi-company accounting",
+    "Bank feeds and reconciliation",
+    "Audit trail"
+  ],
+  "integrations": [
+    "Salesforce Nonprofit Cloud",
+    "Salesforce Nonprofit Success Pack",
+    "Salesforce Sales Cloud",
+    "SmarterPay Direct Debits and bulk payments described as optional",
+    "Confirm the current implementation, licence and integration scope"
+  ],
+  "importExport": [
+    "Supplier describes accounting, reporting and payment-file workflows within Salesforce",
+    "Request migration templates and full finance, fund, donor, Gift Aid, audit-trail, attachment and configuration export documentation"
+  ],
+  "support": [
+    "Supplier lists Aedon.Academy, phone and Microsoft Teams support, remote support and an annual health check",
+    "Supplier describes implementation as typically within one VAT quarter",
+    "Confirm included implementation, support hours, response commitments and training scope"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records AEDON.CO LIMITED (14278135) as an active English private limited company, and the supplier privacy policy identifies it as the site operator.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/14278135", "checked": "2026-07-25"},
-    "charity-scope": {"value": "Supplier describes Aedon.Charities as a specialist accounting platform for UK charities with turnover above £500,000, including SORP, fund, project, VAT, Gift Aid and donor-tax-statement functions.", "state": "supplier-published", "source": "https://aedon.co/charity-accounting-software/", "checked": "2026-07-25"},
-    "pricing-and-support": {"value": "Supplier publishes full-user, reviewer and additional-company prices, included Salesforce Cloud licences, package functions and support materials.", "state": "supplier-published", "source": "https://aedon.co/pricing/", "checked": "2026-07-25"},
-    "data-location-boundary": {"value": "The supplier's website privacy policy states that some personal data may be stored in the UK and India; it does not establish the product data-processing arrangement.", "state": "supplier-published", "source": "https://aedon.co/privacy/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records AEDON.CO LIMITED (14278135) as an active English private limited company, and the supplier privacy policy identifies it as the site operator.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/14278135",
+      "checked": "2026-07-25"
+    },
+    "charity-scope": {
+      "value": "Supplier describes Aedon.Charities as a specialist accounting platform for UK charities with turnover above £500,000, including SORP, fund, project, VAT, Gift Aid and donor-tax-statement functions.",
+      "state": "supplier-published",
+      "source": "https://aedon.co/charity-accounting-software/",
+      "checked": "2026-07-25"
+    },
+    "pricing-and-support": {
+      "value": "Supplier publishes full-user, reviewer and additional-company prices, included Salesforce Cloud licences, package functions and support materials.",
+      "state": "supplier-published",
+      "source": "https://aedon.co/pricing/",
+      "checked": "2026-07-25"
+    },
+    "data-location-boundary": {
+      "value": "The supplier's website privacy policy states that some personal data may be stored in the UK and India; it does not establish the product data-processing arrangement.",
+      "state": "supplier-published",
+      "source": "https://aedon.co/privacy/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -45,20 +116,114 @@
   },
   "editorial": {
     "assessment": "Aedon.Charities is a UK charity-accounting product built inside Salesforce, rather than a conventional church finance package or a general church-management system. Its stated SORP, fund, project, VAT, Gift Aid and donor-tax capability could suit a larger church charity already committed to Salesforce. Its published entry price, implementation shape and Salesforce operating model are likely excessive for most small congregations, so it belongs in a narrow enterprise-style accounting shortlist rather than as a default recommendation.",
-    "bestFor": ["Larger church charities with complex restricted funds, projects or multiple legal entities", "Finance teams wanting their accounting and Salesforce charity data in one platform", "Organisations with budget and capability for a structured Salesforce implementation"],
-    "strengths": ["Active UK software supplier", "Published charity-specific price and functional scope", "Explicit SORP, fund accounting, partial-VAT and Gift Aid capabilities", "Native Salesforce and charity-CRM integration path"],
-    "limitations": ["Supplier positions the charity product for organisations turning over £500,000 or more", "Not a church-specific pastoral, membership, safeguarding or children’s system", "One-year minimum subscription is stated", "Product DPA, sub-processors, exact hosting and migration or export commitments require a current written pack"],
-    "procurementVerdict": {"problem": "Producing controlled charity accounts and fund reports where existing finance and Salesforce charity data are fragmented", "differentiator": "A UK charity-accounting product built natively inside Salesforce with published SORP and Gift Aid capability", "firstCheck": "Run a supplier demonstration using representative restricted-fund, Gift Aid, partial-VAT and year-end reporting scenarios; model all full-user, reviewer, implementation and Salesforce costs, then review the product DPA, international-transfer safeguards and complete finance-data export before commitment."}
+    "bestFor": [
+      "Larger church charities with complex restricted funds, projects or multiple legal entities",
+      "Finance teams wanting their accounting and Salesforce charity data in one platform",
+      "Organisations with budget and capability for a structured Salesforce implementation"
+    ],
+    "strengths": [
+      "Active UK software supplier",
+      "Published charity-specific price and functional scope",
+      "Explicit SORP, fund accounting, partial-VAT and Gift Aid capabilities",
+      "Native Salesforce and charity-CRM integration path"
+    ],
+    "limitations": [
+      "Supplier positions the charity product for organisations turning over £500,000 or more",
+      "Not a church-specific pastoral, membership, safeguarding or children’s system",
+      "One-year minimum subscription is stated",
+      "Product DPA, sub-processors, exact hosting and migration or export commitments require a current written pack"
+    ],
+    "procurementVerdict": {
+      "problem": "Producing controlled charity accounts and fund reports where existing finance and Salesforce charity data are fragmented",
+      "differentiator": "A UK charity-accounting product built natively inside Salesforce with published SORP and Gift Aid capability",
+      "firstCheck": "Run a supplier demonstration using representative restricted-fund, Gift Aid, partial-VAT and year-end reporting scenarios; model all full-user, reviewer, implementation and Salesforce costs, then review the product DPA, international-transfer safeguards and complete finance-data export before commitment."
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Aedon.Charities charity accounting", "url": "https://aedon.co/charity-accounting-software/", "checked": "2026-07-25", "supports": ["Charity focus", "Salesforce use", "SORP", "Fund accounting", "Gift Aid"]},
-    {"label": "Aedon pricing", "url": "https://aedon.co/pricing/", "checked": "2026-07-25", "supports": ["GBP prices", "Included licences", "Features", "Support", "Commitment discounts"]},
-    {"label": "Aedon FAQ", "url": "https://aedon.co/resources/frequently-asked-questions/", "checked": "2026-07-25", "supports": ["One-year minimum", "Payment route", "Account manager", "Salesforce scope"]},
-    {"label": "Aedon privacy policy", "url": "https://aedon.co/privacy/", "checked": "2026-07-25", "supports": ["Operator identity", "Website privacy", "International-storage statement"]},
-    {"label": "Companies House: AEDON.CO LIMITED", "url": "https://find-and-update.company-information.service.gov.uk/company/14278135", "checked": "2026-07-25", "supports": ["UK company record", "Active status"]}
+    {
+      "label": "Aedon.Charities charity accounting",
+      "url": "https://aedon.co/charity-accounting-software/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Charity focus",
+        "Salesforce use",
+        "SORP",
+        "Fund accounting",
+        "Gift Aid"
+      ]
+    },
+    {
+      "label": "Aedon pricing",
+      "url": "https://aedon.co/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "GBP prices",
+        "Included licences",
+        "Features",
+        "Support",
+        "Commitment discounts"
+      ]
+    },
+    {
+      "label": "Aedon FAQ",
+      "url": "https://aedon.co/resources/frequently-asked-questions/",
+      "checked": "2026-07-25",
+      "supports": [
+        "One-year minimum",
+        "Payment route",
+        "Account manager",
+        "Salesforce scope"
+      ]
+    },
+    {
+      "label": "Aedon privacy policy",
+      "url": "https://aedon.co/privacy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operator identity",
+        "Website privacy",
+        "International-storage statement"
+      ]
+    },
+    {
+      "label": "Companies House: AEDON.CO LIMITED",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14278135",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company record",
+        "Active status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Aedon.Charities review for UK churches", "description": "Independent Aedon.Charities profile: Salesforce-native UK charity accounting, SORP, Gift Aid and pricing."}
+  "seo": {
+    "title": "Aedon.Charities review for UK churches",
+    "description": "Independent Aedon.Charities profile: Salesforce-native UK charity accounting, SORP, Gift Aid and pricing."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

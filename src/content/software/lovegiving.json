@@ -7,14 +7,29 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches already using ExpensePlus", "Churches seeking branded online donation pages and fund-specific links", "Finance teams that want the donation and Gift Aid workflow within their ExpensePlus records"],
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches already using ExpensePlus",
+    "Churches seeking branded online donation pages and fund-specific links",
+    "Finance teams that want the donation and Gift Aid workflow within their ExpensePlus records"
+  ],
   "pricing": {
     "model": "usage-based",
     "summary": "LoveGiving publishes a worked example of 2.2% plus 20p for a £20 Gift Aid donation, totalling 64p. It uses Stripe to process payments and is currently available only to ExpensePlus customers; confirm the current ExpensePlus subscription, payment-processor rates, card-country pricing, VAT and refund costs for the church's situation.",
     "tiers": [
-      {"label": "Published worked example", "price": "2.2% + 20p", "detail": "Supplier's stated fee example for a £20 donation with Gift Aid; the example produces a 64p fee."}
+      {
+        "label": "Published worked example",
+        "price": "2.2% + 20p",
+        "detail": "Supplier's stated fee example for a £20 donation with Gift Aid; the example produces a 64p fee."
+      }
     ]
   },
   "freePlan": "unknown",
@@ -22,15 +37,53 @@
   "giftAid": "yes",
   "demoAvailable": "unknown",
   "gdprInformation": "LoveGiving's reviewed product pages identify ExpensePlus as the operator and Stripe as the payment processor, but they do not establish a complete LoveGiving-specific processing, hosting, sub-processor, retention or deletion position. Obtain the current ExpensePlus and Stripe contractual material, and test the church's donor-information and Gift Aid workflow before going live.",
-  "coreFeatures": ["Branded online donation page", "One-off and recurring donations", "Fund-specific donation links", "Donation campaigns", "Gift Aid declaration capture", "ExpensePlus donation records and reports", "Optional donor email-update opt-in", "Multi-site giving selection where configured"],
-  "integrations": ["ExpensePlus", "Stripe"],
-  "importExport": ["Supplier describes donation details and reports within ExpensePlus", "Test the precise donation, Gift Aid, donor and reconciliation exports required by the church before adoption"],
-  "support": ["Supplier directs LoveGiving questions to ExpensePlus", "Implementation, payment support, migration and response arrangements should be confirmed directly"],
+  "coreFeatures": [
+    "Branded online donation page",
+    "One-off and recurring donations",
+    "Fund-specific donation links",
+    "Donation campaigns",
+    "Gift Aid declaration capture",
+    "ExpensePlus donation records and reports",
+    "Optional donor email-update opt-in",
+    "Multi-site giving selection where configured"
+  ],
+  "integrations": [
+    "ExpensePlus",
+    "Stripe"
+  ],
+  "importExport": [
+    "Supplier describes donation details and reports within ExpensePlus",
+    "Test the precise donation, Gift Aid, donor and reconciliation exports required by the church before adoption"
+  ],
+  "support": [
+    "Supplier directs LoveGiving questions to ExpensePlus",
+    "Implementation, payment support, migration and response arrangements should be confirmed directly"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "LoveGiving states that it is designed and built by ExpensePlus Ltd, registered in England and Wales under number 09404009.", "state": "supplier-published", "source": "https://lovegiving.co.uk/", "checked": "2026-07-25"},
-    "church-eligibility": {"value": "Supplier says that LoveGiving is used by churches and charities, and is currently available only to organisations using ExpensePlus.", "state": "supplier-published", "source": "https://lovegiving.co.uk/", "checked": "2026-07-25"},
-    "giving-workflow": {"value": "Supplier describes branded giving pages, one-off and recurring donations, automated Gift Aid and ExpensePlus integration; its support material describes fund-specific links and multi-site options.", "state": "supplier-published", "source": "https://support.expenseplus.co.uk/article/579-setting-up-and-customising-your-lovegiving-online-donations-page", "checked": "2026-07-25"},
-    "published-fee-example": {"value": "Supplier gives a fee example of 2.2% plus 20p for a £20 donation with Gift Aid, totalling 64p.", "state": "supplier-published", "source": "https://lovegiving.co.uk/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "LoveGiving states that it is designed and built by ExpensePlus Ltd, registered in England and Wales under number 09404009.",
+      "state": "supplier-published",
+      "source": "https://lovegiving.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "church-eligibility": {
+      "value": "Supplier says that LoveGiving is used by churches and charities, and is currently available only to organisations using ExpensePlus.",
+      "state": "supplier-published",
+      "source": "https://lovegiving.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "giving-workflow": {
+      "value": "Supplier describes branded giving pages, one-off and recurring donations, automated Gift Aid and ExpensePlus integration; its support material describes fund-specific links and multi-site options.",
+      "state": "supplier-published",
+      "source": "https://support.expenseplus.co.uk/article/579-setting-up-and-customising-your-lovegiving-online-donations-page",
+      "checked": "2026-07-25"
+    },
+    "published-fee-example": {
+      "value": "Supplier gives a fee example of 2.2% plus 20p for a £20 donation with Gift Aid, totalling 64p.",
+      "state": "supplier-published",
+      "source": "https://lovegiving.co.uk/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -42,19 +95,106 @@
   },
   "editorial": {
     "assessment": "LoveGiving is not a standalone donation platform: it is the online-giving module for ExpensePlus customers. That constraint can be a strength for a church that already relies on ExpensePlus, because donation, fund and Gift Aid information can be handled in the same operating environment. It is less suitable for a church that wants a separate giving service, and the full payment, data-processing and exit arrangement should be understood across both ExpensePlus and Stripe.",
-    "bestFor": ["Existing ExpensePlus churches and charities", "Churches needing fund-specific, branded links alongside their ExpensePlus finance workflow", "Teams wanting an online Gift Aid declaration journey connected to their donation records"],
-    "strengths": ["UK operator identity is published", "Explicit church-and-charity use case", "Supplier publishes a worked GBP fee example", "One-off, recurring, fund-specific and multi-site donation options are documented", "Integrates directly with ExpensePlus"],
-    "limitations": ["Currently available only to ExpensePlus customers", "It is an online-giving module, not a complete contactless-hardware or church-management platform", "Stripe payment-processing terms and costs remain part of the purchasing decision", "Public product pages do not establish complete current hosting, sub-processor, retention, deletion or export detail"],
-    "procurementVerdict": {"problem": "Adding branded online giving and Gift Aid to an existing ExpensePlus finance process", "differentiator": "An ExpensePlus-native donation module with fund-specific links and supplier-described Gift Aid capture", "firstCheck": "Use a test fund to check Stripe connection, donation page accessibility, recurring-gift control, Gift Aid declaration, reconciliation, refunds and the reports the church actually needs"}
+    "bestFor": [
+      "Existing ExpensePlus churches and charities",
+      "Churches needing fund-specific, branded links alongside their ExpensePlus finance workflow",
+      "Teams wanting an online Gift Aid declaration journey connected to their donation records"
+    ],
+    "strengths": [
+      "UK operator identity is published",
+      "Explicit church-and-charity use case",
+      "Supplier publishes a worked GBP fee example",
+      "One-off, recurring, fund-specific and multi-site donation options are documented",
+      "Integrates directly with ExpensePlus"
+    ],
+    "limitations": [
+      "Currently available only to ExpensePlus customers",
+      "It is an online-giving module, not a complete contactless-hardware or church-management platform",
+      "Stripe payment-processing terms and costs remain part of the purchasing decision",
+      "Public product pages do not establish complete current hosting, sub-processor, retention, deletion or export detail"
+    ],
+    "procurementVerdict": {
+      "problem": "Adding branded online giving and Gift Aid to an existing ExpensePlus finance process",
+      "differentiator": "An ExpensePlus-native donation module with fund-specific links and supplier-described Gift Aid capture",
+      "firstCheck": "Use a test fund to check Stripe connection, donation page accessibility, recurring-gift control, Gift Aid declaration, reconciliation, refunds and the reports the church actually needs"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "LoveGiving product overview", "url": "https://lovegiving.co.uk/", "checked": "2026-07-25", "supports": ["Operator identity", "Church and charity use case", "ExpensePlus requirement", "Giving and Gift Aid features", "Stripe payment flow", "Published fee example"]},
-    {"label": "LoveGiving module overview", "url": "https://support.expenseplus.co.uk/article/556-expenseplus-donate", "checked": "2026-07-25", "supports": ["Donation and Gift Aid workflow", "Fund-specific links", "Stripe relationship", "Fee explanation"]},
-    {"label": "Setting up LoveGiving", "url": "https://support.expenseplus.co.uk/article/579-setting-up-and-customising-your-lovegiving-online-donations-page", "checked": "2026-07-25", "supports": ["Page customisation", "Fund-specific links", "Donor communications opt-in", "Multi-site option"]},
-    {"label": "Companies House: ExpensePlus Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/09404009", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
+    {
+      "label": "LoveGiving product overview",
+      "url": "https://lovegiving.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operator identity",
+        "Church and charity use case",
+        "ExpensePlus requirement",
+        "Giving and Gift Aid features",
+        "Stripe payment flow",
+        "Published fee example"
+      ]
+    },
+    {
+      "label": "LoveGiving module overview",
+      "url": "https://support.expenseplus.co.uk/article/556-expenseplus-donate",
+      "checked": "2026-07-25",
+      "supports": [
+        "Donation and Gift Aid workflow",
+        "Fund-specific links",
+        "Stripe relationship",
+        "Fee explanation"
+      ]
+    },
+    {
+      "label": "Setting up LoveGiving",
+      "url": "https://support.expenseplus.co.uk/article/579-setting-up-and-customising-your-lovegiving-online-donations-page",
+      "checked": "2026-07-25",
+      "supports": [
+        "Page customisation",
+        "Fund-specific links",
+        "Donor communications opt-in",
+        "Multi-site option"
+      ]
+    },
+    {
+      "label": "Companies House: ExpensePlus Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09404009",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Active status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "LoveGiving review for UK churches", "description": "Independent LoveGiving profile: ExpensePlus-linked online giving, Gift Aid, Stripe, published fee example and procurement checks."}
+  "seo": {
+    "title": "LoveGiving review for UK churches",
+    "description": "Independent LoveGiving profile: ExpensePlus-linked online giving, Gift Aid, Stripe, published fee example and procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

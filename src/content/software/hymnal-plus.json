@@ -7,32 +7,96 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["worship-planning", "presentation-software"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches without a regular organist or pianist", "Anglican, Methodist, Catholic and other hymn-led services", "Churches that need a portable programmed accompaniment system rather than a desktop presentation package"],
+  "categories": [
+    "worship-planning",
+    "presentation-software"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches without a regular organist or pianist",
+    "Anglican, Methodist, Catholic and other hymn-led services",
+    "Churches that need a portable programmed accompaniment system rather than a desktop presentation package"
+  ],
   "pricing": {
     "model": "flat-rate",
     "summary": "Hymn Technology publishes the HT-400 Hymnal Plus player at £2,499 including VAT, plus £18.50 mainland-UK carriage. It includes a core UK repertoire with over 2,880 tunes and 10 hymn-book indexes. Additional repertoire and service options are separately priced.",
-    "startingPrice": {"amount": 2499, "currency": "GBP", "period": "transaction", "qualifier": "HT-400 player unit with infrared remote, including VAT"},
+    "startingPrice": {
+      "amount": 2499,
+      "currency": "GBP",
+      "period": "transaction",
+      "qualifier": "HT-400 player unit with infrared remote, including VAT"
+    },
     "tiers": [
-      {"label": "HT-400 Hymnal Plus", "price": "£2,499 including VAT", "detail": "Player unit with infrared remote, core UK repertoire of over 2,880 tunes and 10 book indexes."},
-      {"label": "Psalm Player option", "price": "£199 including VAT", "detail": "Trigger and 242 recordings indexed to The Parish Psalter."},
-      {"label": "Additional repertoire", "price": "£49–£259 including VAT", "detail": "Supplier-published individual hymn-book, service-setting and repertoire upgrades."}
+      {
+        "label": "HT-400 Hymnal Plus",
+        "price": "£2,499 including VAT",
+        "detail": "Player unit with infrared remote, core UK repertoire of over 2,880 tunes and 10 book indexes."
+      },
+      {
+        "label": "Psalm Player option",
+        "price": "£199 including VAT",
+        "detail": "Trigger and 242 recordings indexed to The Parish Psalter."
+      },
+      {
+        "label": "Additional repertoire",
+        "price": "£49–£259 including VAT",
+        "detail": "Supplier-published individual hymn-book, service-setting and repertoire upgrades."
+      }
     ]
   },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "Hymn Technology publishes a website privacy notice and identifies UK headquarters, but the reviewed material does not establish data-processing, hosting, sub-processor, retention or deletion terms for church service files and any customer-support records. Obtain current written terms if the church will connect personal data, event information or third-party media to the system.",
-  "coreFeatures": ["Portable HT-400 digital hymn player", "Recorded accompaniment for congregational singing", "Core UK repertoire of over 2,880 tunes", "Hymn-book and service-setting indexes", "Service playlist programming", "Infrared remote handset", "Psalm Player option", "Playback of own MIDI files", "SD-card storage for own files"],
+  "coreFeatures": [
+    "Portable HT-400 digital hymn player",
+    "Recorded accompaniment for congregational singing",
+    "Core UK repertoire of over 2,880 tunes",
+    "Hymn-book and service-setting indexes",
+    "Service playlist programming",
+    "Infrared remote handset",
+    "Psalm Player option",
+    "Playback of own MIDI files",
+    "SD-card storage for own files"
+  ],
   "integrations": [],
-  "importExport": ["Supplier describes playback of own MIDI files and SD-card storage", "Confirm the supported file formats, workflow for service plans and transfer of bespoke content before purchase"],
-  "support": ["UK supplier contact, information-pack and enquiry routes are published", "Training, warranty, installation, repair, software-update and on-site-support terms should be agreed in writing"],
+  "importExport": [
+    "Supplier describes playback of own MIDI files and SD-card storage",
+    "Confirm the supported file formats, workflow for service plans and transfer of bespoke content before purchase"
+  ],
+  "support": [
+    "UK supplier contact, information-pack and enquiry routes are published",
+    "Training, warranty, installation, repair, software-update and on-site-support terms should be agreed in writing"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records Hymn Technology Ltd, number 03149968, as an active England-and-Wales company incorporated in 1996.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/03149968", "checked": "2026-07-25"},
-    "church-workflow": {"value": "Supplier describes Hymnal Plus as a worship-music solution for Christian denominations and explains its focus on accompaniment where a church does not have a musician or instrument.", "state": "supplier-published", "source": "https://www.hymntechnology.co.uk/about", "checked": "2026-07-25"},
-    "published-pricing": {"value": "Supplier publishes GBP prices for the HT-400 player, accessories and additional repertoire, including VAT and mainland-UK carriage information.", "state": "supplier-published", "source": "https://www.hymntechnology.co.uk/prices", "checked": "2026-07-25"},
-    "product-functions": {"value": "Supplier documents an HT-400 player with core UK hymn repertoire and additional book-index and Psalm Player options; its FAQ also refers to own MIDI files and SD-card storage.", "state": "supplier-published", "source": "https://www.hymntechnology.co.uk/faqs", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records Hymn Technology Ltd, number 03149968, as an active England-and-Wales company incorporated in 1996.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/03149968",
+      "checked": "2026-07-25"
+    },
+    "church-workflow": {
+      "value": "Supplier describes Hymnal Plus as a worship-music solution for Christian denominations and explains its focus on accompaniment where a church does not have a musician or instrument.",
+      "state": "supplier-published",
+      "source": "https://www.hymntechnology.co.uk/about",
+      "checked": "2026-07-25"
+    },
+    "published-pricing": {
+      "value": "Supplier publishes GBP prices for the HT-400 player, accessories and additional repertoire, including VAT and mainland-UK carriage information.",
+      "state": "supplier-published",
+      "source": "https://www.hymntechnology.co.uk/prices",
+      "checked": "2026-07-25"
+    },
+    "product-functions": {
+      "value": "Supplier documents an HT-400 player with core UK hymn repertoire and additional book-index and Psalm Player options; its FAQ also refers to own MIDI files and SD-card storage.",
+      "state": "supplier-published",
+      "source": "https://www.hymntechnology.co.uk/faqs",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -44,20 +108,110 @@
   },
   "editorial": {
     "assessment": "Hymnal Plus is dedicated hardware with embedded music software, not a full church-management platform or a conventional lyric-projection application. It is a relevant UK worship option for a hymn-led church that needs consistent accompaniment without relying on a live musician. The substantial up-front cost and repertoire model make a real service demonstration, audio test and copyright review essential before purchase.",
-    "bestFor": ["Hymn-led churches without a dependable regular musician", "Parishes that need programmable accompaniment and hymn-book indexes", "Churches seeking a self-contained, portable worship-music device"],
-    "strengths": ["Established active UK supplier", "Specific church accompaniment purpose", "Detailed GBP hardware and repertoire prices", "Core UK hymn repertoire and multiple denominational book indexes", "Own MIDI-file and SD-card capability are documented"],
-    "limitations": ["It is dedicated hardware rather than a browser, mobile or general projection service", "The up-front hardware cost is materially higher than many subscriptions", "Repertoire expansion is separately priced and content rights must be understood", "The reviewed privacy page does not establish current detailed data-processing or support-contract terms"],
-    "procurementVerdict": {"problem": "Sustaining congregational hymn singing when organist availability is unreliable", "differentiator": "A dedicated UK digital hymn player with published hardware and repertoire pricing, configured around established hymn books", "firstCheck": "Arrange a live audio and service-planning demonstration using the congregation's usual hymn books, sound system and room before approving hardware, repertoire and support costs"}
+    "bestFor": [
+      "Hymn-led churches without a dependable regular musician",
+      "Parishes that need programmable accompaniment and hymn-book indexes",
+      "Churches seeking a self-contained, portable worship-music device"
+    ],
+    "strengths": [
+      "Established active UK supplier",
+      "Specific church accompaniment purpose",
+      "Detailed GBP hardware and repertoire prices",
+      "Core UK hymn repertoire and multiple denominational book indexes",
+      "Own MIDI-file and SD-card capability are documented"
+    ],
+    "limitations": [
+      "It is dedicated hardware rather than a browser, mobile or general projection service",
+      "The up-front hardware cost is materially higher than many subscriptions",
+      "Repertoire expansion is separately priced and content rights must be understood",
+      "The reviewed privacy page does not establish current detailed data-processing or support-contract terms"
+    ],
+    "procurementVerdict": {
+      "problem": "Sustaining congregational hymn singing when organist availability is unreliable",
+      "differentiator": "A dedicated UK digital hymn player with published hardware and repertoire pricing, configured around established hymn books",
+      "firstCheck": "Arrange a live audio and service-planning demonstration using the congregation's usual hymn books, sound system and room before approving hardware, repertoire and support costs"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Hymn Technology about", "url": "https://www.hymntechnology.co.uk/about", "checked": "2026-07-25", "supports": ["Company history", "Church accompaniment purpose", "Denominational context"]},
-    {"label": "Hymnal Plus prices", "url": "https://www.hymntechnology.co.uk/prices", "checked": "2026-07-25", "supports": ["HT-400 price", "Accessory and repertoire prices", "UK VAT and carriage information"]},
-    {"label": "Hymnal Plus FAQ", "url": "https://www.hymntechnology.co.uk/faqs", "checked": "2026-07-25", "supports": ["MIDI-file playback", "SD-card storage", "Operational product detail"]},
-    {"label": "Hymn Technology privacy policy", "url": "https://www.hymnalplus.com/privacy-policy", "checked": "2026-07-25", "supports": ["UK contact information", "Website privacy statement"]},
-    {"label": "Companies House: Hymn Technology Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/03149968", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
+    {
+      "label": "Hymn Technology about",
+      "url": "https://www.hymntechnology.co.uk/about",
+      "checked": "2026-07-25",
+      "supports": [
+        "Company history",
+        "Church accompaniment purpose",
+        "Denominational context"
+      ]
+    },
+    {
+      "label": "Hymnal Plus prices",
+      "url": "https://www.hymntechnology.co.uk/prices",
+      "checked": "2026-07-25",
+      "supports": [
+        "HT-400 price",
+        "Accessory and repertoire prices",
+        "UK VAT and carriage information"
+      ]
+    },
+    {
+      "label": "Hymnal Plus FAQ",
+      "url": "https://www.hymntechnology.co.uk/faqs",
+      "checked": "2026-07-25",
+      "supports": [
+        "MIDI-file playback",
+        "SD-card storage",
+        "Operational product detail"
+      ]
+    },
+    {
+      "label": "Hymn Technology privacy policy",
+      "url": "https://www.hymnalplus.com/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK contact information",
+        "Website privacy statement"
+      ]
+    },
+    {
+      "label": "Companies House: Hymn Technology Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/03149968",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Active status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Hymnal Plus review for UK churches", "description": "Independent Hymnal Plus profile: UK digital hymn player, pricing, repertoire, worship workflow and procurement checks."}
+  "seo": {
+    "title": "Hymnal Plus review for UK churches",
+    "description": "Independent Hymnal Plus profile: UK digital hymn player, pricing, repertoire, worship workflow and procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

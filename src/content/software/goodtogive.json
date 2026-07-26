@@ -7,26 +7,183 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving", "church-accounting", "church-mobile-apps"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches wanting online donation collection and Gift Aid claim support", "Faith-based charities seeking a managed Gift Aid or finance-support service", "Churches considering a giving-focused mobile app alongside their donation workflow"],
-  "pricing": {"model": "usage-based", "summary": "GoodtoGive's published charity terms say there is no monthly subscription fee for charities using the service, but a 3.2% GoodtoGive processing fee and payment-processing fee are deducted from each donation and reclaimed Gift Aid. Separate product terms may apply to accounting, GDPR and mobile-app services.", "tiers": [{"label": "Giving and Gift Aid service", "price": "3.2% processing fee plus payment-processing fee", "detail": "Published terms say fees are deducted per donation and reclaimed Gift Aid; separate service terms can apply"}], "trialDetails": "No general product trial was found in the public material reviewed."},
+  "categories": [
+    "online-giving",
+    "church-accounting",
+    "church-mobile-apps"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches wanting online donation collection and Gift Aid claim support",
+    "Faith-based charities seeking a managed Gift Aid or finance-support service",
+    "Churches considering a giving-focused mobile app alongside their donation workflow"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "GoodtoGive's published charity terms say there is no monthly subscription fee for charities using the service, but a 3.2% GoodtoGive processing fee and payment-processing fee are deducted from each donation and reclaimed Gift Aid. Separate product terms may apply to accounting, GDPR and mobile-app services.",
+    "tiers": [
+      {
+        "label": "Giving and Gift Aid service",
+        "price": "3.2% processing fee plus payment-processing fee",
+        "detail": "Published terms say fees are deducted per donation and reclaimed Gift Aid; separate service terms can apply"
+      }
+    ],
+    "trialDetails": "No general product trial was found in the public material reviewed."
+  },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "GoodtoGive publishes privacy material and terms that describe charity data-processing roles. Its terms also refer to separate product-specific terms, so a church should obtain the documents that apply to the exact service it intends to use.",
-  "coreFeatures": ["Online donation pages", "Gift Aid claim management", "Donation and payout reporting", "Charity client account", "Church-focused mobile-app offering", "Financial controls and accounting support services"],
+  "coreFeatures": [
+    "Online donation pages",
+    "Gift Aid claim management",
+    "Donation and payout reporting",
+    "Charity client account",
+    "Church-focused mobile-app offering",
+    "Financial controls and accounting support services"
+  ],
   "integrations": [],
   "importExport": [],
-  "support": ["Supplier contact telephone and email", "Online support and FAQ material"],
-  "decisionEvidence": {"hmrc-claiming": {"value": "Good to Give Limited is included in HMRC's current commercial-supplier list for GoodtoGive Gift Aid Maximisation.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"}, "fees": {"value": "Published charity terms describe no monthly subscription fee, a 3.2% GoodtoGive processing fee, and payment-processing fees.", "state": "supplier-published", "source": "https://www.goodtogive.co.uk/terms-and-conditions/", "checked": "2026-07-25"}, "data-processing": {"value": "Published terms describe GoodtoGive as processor for personal information processed on a charity's behalf and link to privacy information.", "state": "supplier-published", "source": "https://www.goodtogive.co.uk/our-story/terms-conditions/", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "GoodtoGive combines online giving and Gift Aid claim services with broader charity support and a church-app offering. It is most relevant where a church wants a managed, fee-based donation and Gift Aid workflow rather than a standalone donor database. The terms describe payment and claim flows in detail; a church should map these against its own finance controls before changing provider.", "bestFor": ["Churches that want online donations with associated Gift Aid support", "Faith-based charities wanting one supplier for giving and broader financial support", "Teams considering a giving-focused church mobile app"], "strengths": ["UK supplier identity and current HMRC commercial-software listing are public", "Published terms set out the 3.2% platform fee, payment fees and monthly payout model", "Supplier describes church-focused mobile-app and Gift Aid services"], "limitations": ["The platform is a giving and managed-services provider, not a full church-management database", "Separate terms may apply to accounting, GDPR or mobile-app services", "Confirm direct costs, Gift Aid deduction handling, payment timing, exports and implementation responsibilities for the selected package"], "procurementVerdict": {"problem": "Online donations and Gift Aid administration managed across several manual workflows", "differentiator": "A UK faith-charity supplier combining donation collection, Gift Aid support and related services", "firstCheck": "Request the exact product terms and model a donation, Gift Aid claim, fee deduction and payout through the finance process"}},
+  "support": [
+    "Supplier contact telephone and email",
+    "Online support and FAQ material"
+  ],
+  "decisionEvidence": {
+    "hmrc-claiming": {
+      "value": "Good to Give Limited is included in HMRC's current commercial-supplier list for GoodtoGive Gift Aid Maximisation.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "fees": {
+      "value": "Published charity terms describe no monthly subscription fee, a 3.2% GoodtoGive processing fee, and payment-processing fees.",
+      "state": "supplier-published",
+      "source": "https://www.goodtogive.co.uk/terms-and-conditions/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Published terms describe GoodtoGive as processor for personal information processed on a charity's behalf and link to privacy information.",
+      "state": "supplier-published",
+      "source": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "GoodtoGive combines online giving and Gift Aid claim services with broader charity support and a church-app offering. It is most relevant where a church wants a managed, fee-based donation and Gift Aid workflow rather than a standalone donor database. The terms describe payment and claim flows in detail; a church should map these against its own finance controls before changing provider.",
+    "bestFor": [
+      "Churches that want online donations with associated Gift Aid support",
+      "Faith-based charities wanting one supplier for giving and broader financial support",
+      "Teams considering a giving-focused church mobile app"
+    ],
+    "strengths": [
+      "UK supplier identity and current HMRC commercial-software listing are public",
+      "Published terms set out the 3.2% platform fee, payment fees and monthly payout model",
+      "Supplier describes church-focused mobile-app and Gift Aid services"
+    ],
+    "limitations": [
+      "The platform is a giving and managed-services provider, not a full church-management database",
+      "Separate terms may apply to accounting, GDPR or mobile-app services",
+      "Confirm direct costs, Gift Aid deduction handling, payment timing, exports and implementation responsibilities for the selected package"
+    ],
+    "procurementVerdict": {
+      "problem": "Online donations and Gift Aid administration managed across several manual workflows",
+      "differentiator": "A UK faith-charity supplier combining donation collection, Gift Aid support and related services",
+      "firstCheck": "Request the exact product terms and model a donation, Gift Aid claim, fee deduction and payout through the finance process"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "GoodtoGive services overview", "url": "https://www.goodtogive.co.uk/", "checked": "2026-07-25", "supports": ["Gift Aid software", "Church mobile-app offering", "Church and charity relevance"]}, {"label": "GoodtoGive charity terms", "url": "https://www.goodtogive.co.uk/our-story/terms-conditions/", "checked": "2026-07-25", "supports": ["UK service operator", "Data-processing roles", "Donation and Gift Aid payout model"]}, {"label": "GoodtoGive fees terms", "url": "https://www.goodtogive.co.uk/terms-and-conditions/", "checked": "2026-07-25", "supports": ["No monthly subscription fee", "Published processing fees"]}, {"label": "GoodtoGive privacy policy", "url": "https://www.goodtogive.co.uk/privacy-policy/", "checked": "2026-07-25", "supports": ["Published privacy information"]}, {"label": "HMRC: Charities Online commercial software suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Charities Online supplier listing"]}],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/goodtogive-church-member/id1511724504", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This member listing is published as GoodtoGive Church Member; this directory has not recorded an aggregate rating or review count."}, {"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/goodtogive-church-manager/id1511719708", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This administrator listing is published as GoodtoGive Church Manager; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.goodtogivechurch", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This administrator listing is published as GoodtoGive Donation Manager; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.goodtogivemember", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This member listing is published as GoodtoGive Member App; this directory has not recorded an aggregate rating or review count."}],
+  "sources": [
+    {
+      "label": "GoodtoGive services overview",
+      "url": "https://www.goodtogive.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Gift Aid software",
+        "Church mobile-app offering",
+        "Church and charity relevance"
+      ]
+    },
+    {
+      "label": "GoodtoGive charity terms",
+      "url": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK service operator",
+        "Data-processing roles",
+        "Donation and Gift Aid payout model"
+      ]
+    },
+    {
+      "label": "GoodtoGive fees terms",
+      "url": "https://www.goodtogive.co.uk/terms-and-conditions/",
+      "checked": "2026-07-25",
+      "supports": [
+        "No monthly subscription fee",
+        "Published processing fees"
+      ]
+    },
+    {
+      "label": "GoodtoGive privacy policy",
+      "url": "https://www.goodtogive.co.uk/privacy-policy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published privacy information"
+      ]
+    },
+    {
+      "label": "HMRC: Charities Online commercial software suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Charities Online supplier listing"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/goodtogive-church-member/id1511724504",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This member listing is published as GoodtoGive Church Member; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/goodtogive-church-manager/id1511719708",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This administrator listing is published as GoodtoGive Church Manager; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.goodtogivechurch",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This administrator listing is published as GoodtoGive Donation Manager; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.goodtogivemember",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This member listing is published as GoodtoGive Member App; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "GoodtoGive review for UK churches", "description": "Independent GoodtoGive profile for UK churches: donations, Gift Aid, published fees, mobile apps and finance checks."},
+  "seo": {
+    "title": "GoodtoGive review for UK churches",
+    "description": "Independent GoodtoGive profile for UK churches: donations, Gift Aid, published fees, mobile apps and finance checks."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/goodtogive/goodtogive-logo.png",
@@ -34,5 +191,29 @@
       "source": "https://www.goodtogive.co.uk/wp-content/uploads/2019/02/cropped-favicon-1-180x180.png",
       "checked": "2026-07-26"
     }
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

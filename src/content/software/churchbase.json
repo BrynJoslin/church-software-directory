@@ -7,14 +7,29 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["safeguarding"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["UK churches consolidating safeguarding, governance and compliance records", "Safeguarding leads tracking DBS, training, actions and evidence", "Trustees and administrators needing reviews, policies, risks and premises records in one workspace"],
+  "categories": [
+    "safeguarding"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches consolidating safeguarding, governance and compliance records",
+    "Safeguarding leads tracking DBS, training, actions and evidence",
+    "Trustees and administrators needing reviews, policies, risks and premises records in one workspace"
+  ],
   "pricing": {
     "model": "quote-based",
     "summary": "The homepage currently states “from £10 per month” for all features and unlimited users, but the detailed pricing page asks each church to register interest for a current price. Obtain the applicable price, VAT treatment, contract term and any implementation charges in writing.",
     "tiers": [
-      {"label": "ChurchBase", "price": "Quote-led; homepage states from £10/month", "detail": "Detailed public tiers for churches up to 100, 100–300 and 300+ attendees currently direct users to enquire"}
+      {
+        "label": "ChurchBase",
+        "price": "Quote-led; homepage states from £10/month",
+        "detail": "Detailed public tiers for churches up to 100, 100–300 and 300+ attendees currently direct users to enquire"
+      }
     ]
   },
   "freePlan": "unknown",
@@ -22,22 +37,73 @@
   "demoAvailable": "unknown",
   "dataHosting": "Public product pages do not state a data-hosting location or subprocessor list. Obtain the current data-processing agreement, hosting locations, security controls, incident arrangements, retention settings and deletion/export terms before placing sensitive safeguarding records in the service.",
   "gdprInformation": "ChurchBase publishes GDPR-record and compliance features, but that does not establish the platform's own data-processing arrangements or a church's compliance. Its public privacy-policy link should be reviewed alongside current service terms before use.",
-  "coreFeatures": ["Safeguarding records, actions, training and evidence", "DBS and training-renewal tracking", "Policies, document versions, approvals and acknowledgements", "Risk assessments with review and PDF-export workflow", "Governance agendas, minutes, attendance and actions", "Buildings, inspections, maintenance and certificates", "People, roles and responsibility records", "Dashboard for upcoming reviews, renewals and actions"],
+  "coreFeatures": [
+    "Safeguarding records, actions, training and evidence",
+    "DBS and training-renewal tracking",
+    "Policies, document versions, approvals and acknowledgements",
+    "Risk assessments with review and PDF-export workflow",
+    "Governance agendas, minutes, attendance and actions",
+    "Buildings, inspections, maintenance and certificates",
+    "People, roles and responsibility records",
+    "Dashboard for upcoming reviews, renewals and actions"
+  ],
   "integrations": [],
-  "importExport": ["Supplier states that risk assessments can be exported as PDFs", "Establish data-import, record export and exit arrangements before use"],
-  "support": ["Supplier publishes email and telephone contact routes", "Support response, onboarding and account-management terms should be agreed before purchase"],
+  "importExport": [
+    "Supplier states that risk assessments can be exported as PDFs",
+    "Establish data-import, record export and exit arrangements before use"
+  ],
+  "support": [
+    "Supplier publishes email and telephone contact routes",
+    "Support response, onboarding and account-management terms should be agreed before purchase"
+  ],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "ChurchBase Ltd is a UK company, number 17297107, and the supplier positions the platform specifically for UK churches.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/17297107", "checked": "2026-07-25"},
-    "product-scope": {"value": "Supplier describes safeguarding, DBS, training, policy, risk, governance, people and premises records for churches.", "state": "supplier-published", "source": "https://churchbase.co.uk/", "checked": "2026-07-25"},
-    "pricing": {"value": "The homepage states from £10/month, while the detailed pricing page directs each published church-size tier to register interest for price information.", "state": "needs-refresh", "source": "https://churchbase.co.uk/pricing/", "checked": "2026-07-25"},
-    "terms": {"value": "Supplier publishes website terms dated May 2026 that make clear that churches remain responsible for their own safeguarding, governance and legal obligations.", "state": "supplier-published", "source": "https://churchbase.co.uk/terms/", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "ChurchBase Ltd is a UK company, number 17297107, and the supplier positions the platform specifically for UK churches.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/17297107",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Supplier describes safeguarding, DBS, training, policy, risk, governance, people and premises records for churches.",
+      "state": "supplier-published",
+      "source": "https://churchbase.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "The homepage states from £10/month, while the detailed pricing page directs each published church-size tier to register interest for price information.",
+      "state": "needs-refresh",
+      "source": "https://churchbase.co.uk/pricing/",
+      "checked": "2026-07-25"
+    },
+    "terms": {
+      "value": "Supplier publishes website terms dated May 2026 that make clear that churches remain responsible for their own safeguarding, governance and legal obligations.",
+      "state": "supplier-published",
+      "source": "https://churchbase.co.uk/terms/",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "ChurchBase is a new, specialised UK option for organising compliance work that is often spread across safeguarding spreadsheets, document folders and trustee action lists. Its published scope is broader than safeguarding alone, but it should not be treated as a determination that a church is compliant or that an individual is safe to serve. The service is early-stage and its detailed commercial and processing terms need careful procurement review before sensitive records are migrated.",
-    "bestFor": ["Church safeguarding leads tracking actions, evidence, DBS and training review dates", "Trustees and administrators coordinating policy, risk, governance and premises records", "Churches seeking a dedicated compliance workspace rather than a full people database"],
-    "strengths": ["Designed for UK church safeguarding and compliance responsibilities", "Published scope connects records, actions, reviews, policies, risk and premises work", "UK company identity and a current public terms page"],
-    "limitations": ["Newly incorporated supplier with limited public operating history", "Detailed public pricing currently requires an enquiry and does not match the homepage's headline exactly", "No public hosting, subprocessor, retention, export or service-contract detail located during this review"],
-    "procurementVerdict": {"problem": "Keeping safeguarding, governance and compliance evidence scattered across personal spreadsheets, shared drives and inboxes", "differentiator": "A focused UK church workspace joining safeguarding actions and DBS/training records with wider governance, risk and premises oversight", "firstCheck": "Request a live walkthrough and current service documents, then test role permissions, sensitive-record access, review reminders, PDF exports and data exit"}
+    "bestFor": [
+      "Church safeguarding leads tracking actions, evidence, DBS and training review dates",
+      "Trustees and administrators coordinating policy, risk, governance and premises records",
+      "Churches seeking a dedicated compliance workspace rather than a full people database"
+    ],
+    "strengths": [
+      "Designed for UK church safeguarding and compliance responsibilities",
+      "Published scope connects records, actions, reviews, policies, risk and premises work",
+      "UK company identity and a current public terms page"
+    ],
+    "limitations": [
+      "Newly incorporated supplier with limited public operating history",
+      "Detailed public pricing currently requires an enquiry and does not match the homepage's headline exactly",
+      "No public hosting, subprocessor, retention, export or service-contract detail located during this review"
+    ],
+    "procurementVerdict": {
+      "problem": "Keeping safeguarding, governance and compliance evidence scattered across personal spreadsheets, shared drives and inboxes",
+      "differentiator": "A focused UK church workspace joining safeguarding actions and DBS/training records with wider governance, risk and premises oversight",
+      "firstCheck": "Request a live walkthrough and current service documents, then test role permissions, sensitive-record access, review reminders, PDF exports and data exit"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -49,13 +115,90 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "ChurchBase product overview", "url": "https://churchbase.co.uk/", "checked": "2026-07-25", "supports": ["UK-church focus", "Safeguarding and compliance features", "Homepage price statement", "Company identity"]},
-    {"label": "ChurchBase pricing", "url": "https://churchbase.co.uk/pricing/", "checked": "2026-07-25", "supports": ["Church-size tiers", "Current enquiry-led pricing", "Included compliance areas"]},
-    {"label": "ChurchBase terms of use", "url": "https://churchbase.co.uk/terms/", "checked": "2026-07-25", "supports": ["Platform purpose", "Customer responsibility boundary", "Company identity", "Terms date"]},
-    {"label": "Companies House: ChurchBase Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/17297107", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
+    {
+      "label": "ChurchBase product overview",
+      "url": "https://churchbase.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-church focus",
+        "Safeguarding and compliance features",
+        "Homepage price statement",
+        "Company identity"
+      ]
+    },
+    {
+      "label": "ChurchBase pricing",
+      "url": "https://churchbase.co.uk/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church-size tiers",
+        "Current enquiry-led pricing",
+        "Included compliance areas"
+      ]
+    },
+    {
+      "label": "ChurchBase terms of use",
+      "url": "https://churchbase.co.uk/terms/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Platform purpose",
+        "Customer responsibility boundary",
+        "Company identity",
+        "Terms date"
+      ]
+    },
+    {
+      "label": "Companies House: ChurchBase Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/17297107",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Active status"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/churchbase.com", "rating": 2.4, "maximumRating": 5, "reviewCount": 11, "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile has a small number of largely historical reviews and does not establish suitability for UK churches."}],
+  "externalReviews": [
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/churchbase.com",
+      "rating": 2.4,
+      "maximumRating": 5,
+      "reviewCount": 11,
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile has a small number of largely historical reviews and does not establish suitability for UK churches."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "ChurchBase review for UK churches", "description": "Independent ChurchBase profile: UK church safeguarding and compliance records, published scope, indicative pricing and procurement questions."}
+  "seo": {
+    "title": "ChurchBase review for UK churches",
+    "description": "Independent ChurchBase profile: UK church safeguarding and compliance records, published scope, indicative pricing and procurement questions."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

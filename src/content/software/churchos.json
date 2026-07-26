@@ -7,18 +7,56 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-management", "church-communications", "events-ticketing", "pastoral-care", "room-bookings", "sermon-hosting", "volunteer-scheduling", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["UK churches seeking a new all-in-one administration platform", "Churches willing to trial an early-stage supplier before migrating live records"],
+  "categories": [
+    "church-management",
+    "church-communications",
+    "events-ticketing",
+    "pastoral-care",
+    "room-bookings",
+    "sermon-hosting",
+    "volunteer-scheduling",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches seeking a new all-in-one administration platform",
+    "Churches willing to trial an early-stage supplier before migrating live records"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "ChurchOS publishes monthly GBP plans from £29 for up to 50 members to £249 for unlimited multi-site use, with a 14-day trial. The public pricing page currently contains a few plan-label inconsistencies, so obtain the current order summary before purchase.",
-    "startingPrice": {"amount": 29, "currency": "GBP", "period": "month", "qualifier": "Seed plan, up to 50 members"},
+    "startingPrice": {
+      "amount": 29,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Seed plan, up to 50 members"
+    },
     "tiers": [
-      {"label": "Seed", "price": "£29/month", "detail": "Up to 50 members"},
-      {"label": "Growth", "price": "£69/month", "detail": "Up to 200 members"},
-      {"label": "Impact", "price": "£129/month", "detail": "Unlimited members"},
-      {"label": "Network", "price": "£249/month", "detail": "Unlimited members across multiple sites"}
+      {
+        "label": "Seed",
+        "price": "£29/month",
+        "detail": "Up to 50 members"
+      },
+      {
+        "label": "Growth",
+        "price": "£69/month",
+        "detail": "Up to 200 members"
+      },
+      {
+        "label": "Impact",
+        "price": "£129/month",
+        "detail": "Unlimited members"
+      },
+      {
+        "label": "Network",
+        "price": "£249/month",
+        "detail": "Unlimited members across multiple sites"
+      }
     ],
     "trialDetails": "The supplier advertises a 14-day free trial."
   },
@@ -27,14 +65,45 @@
   "giftAid": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "The supplier footer refers to a privacy policy and terms of service. A church should obtain and assess the current data-processing, retention, subprocessor and export arrangements before providing member or donor data.",
-  "coreFeatures": ["Member profiles and attendance", "Volunteer rotas and reminders", "Prayer-request follow-up", "Sermon preparation and archive", "Bulletins and church social posts", "Events and ticketing", "Room bookings", "Gift Aid declaration and claim workflow"],
-  "integrations": ["Stripe payments"],
-  "importExport": ["Supplier advertises a paid migration service for member records, giving history and Gift Aid declarations"],
-  "support": ["Priority support on the published Impact plan", "Dedicated account manager on the published Network plan"],
+  "coreFeatures": [
+    "Member profiles and attendance",
+    "Volunteer rotas and reminders",
+    "Prayer-request follow-up",
+    "Sermon preparation and archive",
+    "Bulletins and church social posts",
+    "Events and ticketing",
+    "Room bookings",
+    "Gift Aid declaration and claim workflow"
+  ],
+  "integrations": [
+    "Stripe payments"
+  ],
+  "importExport": [
+    "Supplier advertises a paid migration service for member records, giving history and Gift Aid declarations"
+  ],
+  "support": [
+    "Priority support on the published Impact plan",
+    "Dedicated account manager on the published Network plan"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "ChurchOS identifies itself as a product of Lyrion Ltd, and Companies House records Lyrion Ltd as an active England-and-Wales company.", "state": "supplier-published", "source": "https://www.churchos.co.uk/", "checked": "2026-07-25"},
-    "pricing": {"value": "Supplier publishes four monthly GBP plans from £29 to £249 and a 14-day free trial.", "state": "supplier-published", "source": "https://www.churchos.co.uk/pricing", "checked": "2026-07-25"},
-    "gift-aid": {"value": "Supplier describes Gift Aid declaration collection, eligible-giving tracking and R68 filing in its product and pricing material.", "state": "supplier-published", "source": "https://www.churchos.co.uk/pricing", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "ChurchOS identifies itself as a product of Lyrion Ltd, and Companies House records Lyrion Ltd as an active England-and-Wales company.",
+      "state": "supplier-published",
+      "source": "https://www.churchos.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes four monthly GBP plans from £29 to £249 and a 14-day free trial.",
+      "state": "supplier-published",
+      "source": "https://www.churchos.co.uk/pricing",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "Supplier describes Gift Aid declaration collection, eligible-giving tracking and R68 filing in its product and pricing material.",
+      "state": "supplier-published",
+      "source": "https://www.churchos.co.uk/pricing",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -46,18 +115,87 @@
   },
   "editorial": {
     "assessment": "ChurchOS is a very new UK all-in-one product with an unusually broad published scope, covering membership, rotas, content, events and Gift Aid workflows. Its current website gives useful price and feature detail, but churches should treat a real operational trial and careful contract review as essential before moving sensitive records.",
-    "bestFor": ["Churches wanting to evaluate an all-in-one UK administration product from a newly incorporated supplier", "Teams able to run a controlled pilot before a migration"],
-    "strengths": ["Published GBP prices, member limits and trial", "Broad connected workflow spanning members, rotas, content and events", "Supplier identifies a current UK company"],
-    "limitations": ["Very new supplier with no established public operating record", "Public plan labels and included-feature lists require clarification at ordering", "Churches should obtain current contractual, privacy, data-export and Gift Aid-process detail before live use"],
-    "procurementVerdict": {"problem": "A church seeking one new platform for several administrative and ministry workflows", "differentiator": "Supplier combines member administration, content tools, rotas, events and Gift Aid workflows in one published offer", "firstCheck": "Run a controlled trial using real rota, event, member-access and finance-report scenarios before migrating data"}
+    "bestFor": [
+      "Churches wanting to evaluate an all-in-one UK administration product from a newly incorporated supplier",
+      "Teams able to run a controlled pilot before a migration"
+    ],
+    "strengths": [
+      "Published GBP prices, member limits and trial",
+      "Broad connected workflow spanning members, rotas, content and events",
+      "Supplier identifies a current UK company"
+    ],
+    "limitations": [
+      "Very new supplier with no established public operating record",
+      "Public plan labels and included-feature lists require clarification at ordering",
+      "Churches should obtain current contractual, privacy, data-export and Gift Aid-process detail before live use"
+    ],
+    "procurementVerdict": {
+      "problem": "A church seeking one new platform for several administrative and ministry workflows",
+      "differentiator": "Supplier combines member administration, content tools, rotas, events and Gift Aid workflows in one published offer",
+      "firstCheck": "Run a controlled trial using real rota, event, member-access and finance-report scenarios before migrating data"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "ChurchOS product overview", "url": "https://www.churchos.co.uk/", "checked": "2026-07-25", "supports": ["Product scope", "UK operator statement", "Trial", "Supplier feature claims"]},
-    {"label": "ChurchOS pricing", "url": "https://www.churchos.co.uk/pricing", "checked": "2026-07-25", "supports": ["Published pricing", "Member limits", "Trial", "Feature and Gift Aid claims"]},
-    {"label": "Companies House: Lyrion Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/16904877", "checked": "2026-07-25", "supports": ["Active UK company"]}
+    {
+      "label": "ChurchOS product overview",
+      "url": "https://www.churchos.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "UK operator statement",
+        "Trial",
+        "Supplier feature claims"
+      ]
+    },
+    {
+      "label": "ChurchOS pricing",
+      "url": "https://www.churchos.co.uk/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published pricing",
+        "Member limits",
+        "Trial",
+        "Feature and Gift Aid claims"
+      ]
+    },
+    {
+      "label": "Companies House: Lyrion Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16904877",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK company"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "ChurchOS review for UK churches", "description": "Independent ChurchOS profile for UK churches: published plans, all-in-one feature scope, Gift Aid claims and practical checks."}
+  "seo": {
+    "title": "ChurchOS review for UK churches",
+    "description": "Independent ChurchOS profile for UK churches: published plans, all-in-one feature scope, Gift Aid claims and practical checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

@@ -7,47 +7,195 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["events-ticketing"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches running free registrations, paid events or conferences", "Teams that need online ticketing and on-the-day mobile check-in", "Charities wanting to collect optional donations alongside registrations"],
+  "categories": [
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches running free registrations, paid events or conferences",
+    "Teams that need online ticketing and on-the-day mobile check-in",
+    "Charities wanting to collect optional donations alongside registrations"
+  ],
   "pricing": {
     "model": "usage-based",
     "summary": "Bookitbee publishes no monthly subscription fee and no charge for free events. Its Standard plan is published at 3.5% of ticket price plus payment-processing fees, and Plus at 6.5% plus payment-processing fees. The supplier describes fee caps in GBP and gives organisers choices about passing booking fees to attendees.",
     "tiers": [
-      {"label": "Free events", "price": "Free", "detail": "Supplier states that free-event registrations have no Bookitbee fee."},
-      {"label": "Standard", "price": "3.5% of ticket price plus payment-processing fees", "detail": "Unlimited events, custom data collection, discount codes, donations and mobile ticket scanning."},
-      {"label": "Plus", "price": "6.5% of ticket price plus payment-processing fees", "detail": "Adds allocated seating, box-office point of sale, payment plans, invite-only events and priority email support."}
+      {
+        "label": "Free events",
+        "price": "Free",
+        "detail": "Supplier states that free-event registrations have no Bookitbee fee."
+      },
+      {
+        "label": "Standard",
+        "price": "3.5% of ticket price plus payment-processing fees",
+        "detail": "Unlimited events, custom data collection, discount codes, donations and mobile ticket scanning."
+      },
+      {
+        "label": "Plus",
+        "price": "6.5% of ticket price plus payment-processing fees",
+        "detail": "Adds allocated seating, box-office point of sale, payment plans, invite-only events and priority email support."
+      }
     ]
   },
   "freePlan": "yes",
   "freeTrial": "no",
   "demoAvailable": "unknown",
   "gdprInformation": "Bookitbee’s current terms identify LIVE IT Group Ltd as the service provider. The reviewed sources do not establish complete current controller/processor roles, hosting, sub-processors, retention, attendee-data export, deletion or direct-marketing arrangements for a church’s use. Obtain the live privacy, data-processing and payment terms before collecting attendee or donor data.",
-  "coreFeatures": ["Free and paid event registration", "Custom ticket and attendee data collection", "Discount codes", "Donations and merchandise add-ons", "Stripe, PayPal and LIVE IT Payments options", "Daily payouts using an organiser’s Stripe account", "Mobile ticket scanning", "Allocated seating and box office on Plus", "Attendee data download and Mailchimp sync stated by supplier"],
-  "integrations": ["Stripe", "PayPal", "Mailchimp", "Slack", "Apple Wallet and Google Wallet ticket branding on Plus"],
-  "importExport": ["Supplier describes attendee-data downloads and Mailchimp sync", "Confirm the current export format, retention, access permissions and deletion workflow before purchase"],
-  "support": ["Supplier advertises 24/7 support on the product page", "Plus includes priority email support", "Confirm incident response and event-day support arrangements for a critical event"],
+  "coreFeatures": [
+    "Free and paid event registration",
+    "Custom ticket and attendee data collection",
+    "Discount codes",
+    "Donations and merchandise add-ons",
+    "Stripe, PayPal and LIVE IT Payments options",
+    "Daily payouts using an organiser’s Stripe account",
+    "Mobile ticket scanning",
+    "Allocated seating and box office on Plus",
+    "Attendee data download and Mailchimp sync stated by supplier"
+  ],
+  "integrations": [
+    "Stripe",
+    "PayPal",
+    "Mailchimp",
+    "Slack",
+    "Apple Wallet and Google Wallet ticket branding on Plus"
+  ],
+  "importExport": [
+    "Supplier describes attendee-data downloads and Mailchimp sync",
+    "Confirm the current export format, retention, access permissions and deletion workflow before purchase"
+  ],
+  "support": [
+    "Supplier advertises 24/7 support on the product page",
+    "Plus includes priority email support",
+    "Confirm incident response and event-day support arrangements for a critical event"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "LIVE IT Group’s terms identify LIVE IT Group Ltd, number 08432364, as trading as Bookitbee and providing the service from London.", "state": "supplier-published", "source": "https://terms.liveit.io/terms-of-service/", "checked": "2026-07-25"},
-    "product-scope": {"value": "Bookitbee documents event setup, ticket sales, attendee management, custom questions, donation add-ons and mobile check-in.", "state": "supplier-published", "source": "https://bookitbee.com/", "checked": "2026-07-25"},
-    "published-pricing": {"value": "Supplier publishes free-event access and Standard and Plus percentage fees, plus payment-processing fees and GBP fee caps.", "state": "supplier-published", "source": "https://bookitbee.com/", "checked": "2026-07-25"},
-    "data-access": {"value": "Supplier states that organisers can download attendee data and can sync with Mailchimp.", "state": "supplier-published", "source": "https://bookitbee.com/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "LIVE IT Group’s terms identify LIVE IT Group Ltd, number 08432364, as trading as Bookitbee and providing the service from London.",
+      "state": "supplier-published",
+      "source": "https://terms.liveit.io/terms-of-service/",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Bookitbee documents event setup, ticket sales, attendee management, custom questions, donation add-ons and mobile check-in.",
+      "state": "supplier-published",
+      "source": "https://bookitbee.com/",
+      "checked": "2026-07-25"
+    },
+    "published-pricing": {
+      "value": "Supplier publishes free-event access and Standard and Plus percentage fees, plus payment-processing fees and GBP fee caps.",
+      "state": "supplier-published",
+      "source": "https://bookitbee.com/",
+      "checked": "2026-07-25"
+    },
+    "data-access": {
+      "value": "Supplier states that organisers can download attendee data and can sync with Mailchimp.",
+      "state": "supplier-published",
+      "source": "https://bookitbee.com/",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "Bookitbee is a general UK event-ticketing platform, rather than a church database, Gift Aid system or safeguarding platform. It can be a practical option for church conferences, paid events and free registrations because its documented workflow includes ticketing, custom attendee questions, donations and check-in. A church should separate event administration from any pastoral or safeguarding records and review the data and payment terms before collecting personal information.",
-    "bestFor": ["Church events that need free registration or paid tickets", "Teams seeking ticket scanning and registration administration", "Organisers that want an optional donation or merchandise step during checkout"],
-    "strengths": ["Identified UK operator and public terms", "No published fee for free events", "Clear percentage pricing for paid tickets", "Ticketing, donations, custom questions and mobile check-in are documented"],
-    "limitations": ["It is not church-specific software", "Transaction and payment-processing fees can materially affect event economics", "Do not treat a ticketing checkout as a substitute for consent, safeguarding or pastoral-record processes", "Current data-processing, retention, export and deletion terms need written review before collecting attendee data"],
-    "procurementVerdict": {"problem": "Managing church event registrations, paid tickets and on-the-day check-in", "differentiator": "A UK ticketing provider that publishes free-event access, percentage fees and donation-capable event workflows", "firstCheck": "Model the full fee and refund outcome for a real church event, then check attendee-data fields, export, marketing consent, payment responsibilities and event-day support"}
+    "bestFor": [
+      "Church events that need free registration or paid tickets",
+      "Teams seeking ticket scanning and registration administration",
+      "Organisers that want an optional donation or merchandise step during checkout"
+    ],
+    "strengths": [
+      "Identified UK operator and public terms",
+      "No published fee for free events",
+      "Clear percentage pricing for paid tickets",
+      "Ticketing, donations, custom questions and mobile check-in are documented"
+    ],
+    "limitations": [
+      "It is not church-specific software",
+      "Transaction and payment-processing fees can materially affect event economics",
+      "Do not treat a ticketing checkout as a substitute for consent, safeguarding or pastoral-record processes",
+      "Current data-processing, retention, export and deletion terms need written review before collecting attendee data"
+    ],
+    "procurementVerdict": {
+      "problem": "Managing church event registrations, paid tickets and on-the-day check-in",
+      "differentiator": "A UK ticketing provider that publishes free-event access, percentage fees and donation-capable event workflows",
+      "firstCheck": "Model the full fee and refund outcome for a real church event, then check attendee-data fields, export, marketing consent, payment responsibilities and event-day support"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Bookitbee product and pricing", "url": "https://bookitbee.com/", "checked": "2026-07-25", "supports": ["Features", "Published fees", "Payment options", "Data download statement"]},
-    {"label": "Bookitbee features", "url": "https://bookitbee.com/features/", "checked": "2026-07-25", "supports": ["Donations", "Payment plans", "Reporting", "Event workflow"]},
-    {"label": "LIVE IT Group terms", "url": "https://terms.liveit.io/terms-of-service/", "checked": "2026-07-25", "supports": ["Operating company", "UK company number", "Payment-provider context"]},
-    {"label": "Companies House: LIVE IT Group Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/08432364", "checked": "2026-07-25", "supports": ["UK company registration", "Company status"]}
+    {
+      "label": "Bookitbee product and pricing",
+      "url": "https://bookitbee.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Features",
+        "Published fees",
+        "Payment options",
+        "Data download statement"
+      ]
+    },
+    {
+      "label": "Bookitbee features",
+      "url": "https://bookitbee.com/features/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Donations",
+        "Payment plans",
+        "Reporting",
+        "Event workflow"
+      ]
+    },
+    {
+      "label": "LIVE IT Group terms",
+      "url": "https://terms.liveit.io/terms-of-service/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "UK company number",
+        "Payment-provider context"
+      ]
+    },
+    {
+      "label": "Companies House: LIVE IT Group Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/08432364",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Bookitbee review for UK church events", "description": "Independent Bookitbee profile for UK church events: ticketing, free registration, donations, fees and data-protection questions."}
+  "seo": {
+    "title": "Bookitbee review for UK church events",
+    "description": "Independent Bookitbee profile for UK church events: ticketing, free registration, donations, fees and data-protection questions."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

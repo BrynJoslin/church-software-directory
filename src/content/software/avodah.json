@@ -7,28 +7,87 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["church-accounting", "church-communications", "church-management", "pastoral-care", "volunteer-scheduling", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches seeking a connected roster, people and expense-management tool", "Teams that want mobile access for volunteer scheduling and member communication"],
+  "categories": [
+    "church-accounting",
+    "church-communications",
+    "church-management",
+    "pastoral-care",
+    "volunteer-scheduling",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking a connected roster, people and expense-management tool",
+    "Teams that want mobile access for volunteer scheduling and member communication"
+  ],
   "pricing": {
     "model": "freemium",
     "summary": "Avodah publishes a free Starter plan for up to 50 people and a $29-per-month Growth plan. The reviewed page does not publish GBP pricing, VAT treatment or a UK-specific tariff.",
-    "startingPrice": {"amount": 29, "currency": "USD", "period": "month", "qualifier": "Growth plan"},
-    "tiers": [{"label": "Starter", "price": "Free", "detail": "Up to 50 people, basic roster scheduling and people database"}, {"label": "Growth", "price": "$29/month", "detail": "Unlimited people, advanced rostering, expenses, groups and communications"}],
+    "startingPrice": {
+      "amount": 29,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Growth plan"
+    },
+    "tiers": [
+      {
+        "label": "Starter",
+        "price": "Free",
+        "detail": "Up to 50 people, basic roster scheduling and people database"
+      },
+      {
+        "label": "Growth",
+        "price": "$29/month",
+        "detail": "Unlimited people, advanced rostering, expenses, groups and communications"
+      }
+    ],
     "trialDetails": "The supplier invites churches to start a free trial but does not publish its duration on the reviewed page."
   },
   "freePlan": "yes",
   "freeTrial": "yes",
   "demoAvailable": "unknown",
   "gdprInformation": "Avodah publishes a privacy policy with access, correction and deletion routes. It describes pastoral notes, contacts, messages and expenses, so a church should assess the current controller, processor, hosting and special-category-data arrangements before use.",
-  "coreFeatures": ["Volunteer roster scheduling", "People and household directory", "Pastoral notes and visitor follow-up", "Expense tracking and reimbursement approvals", "Small groups", "Targeted email and push notifications", "Service planning"],
+  "coreFeatures": [
+    "Volunteer roster scheduling",
+    "People and household directory",
+    "Pastoral notes and visitor follow-up",
+    "Expense tracking and reimbursement approvals",
+    "Small groups",
+    "Targeted email and push notifications",
+    "Service planning"
+  ],
   "integrations": [],
-  "importExport": ["Exportable financial reports"],
-  "support": ["Email support on the published Starter plan", "Priority support on the published Growth plan"],
+  "importExport": [
+    "Exportable financial reports"
+  ],
+  "support": [
+    "Email support on the published Starter plan",
+    "Priority support on the published Growth plan"
+  ],
   "decisionEvidence": {
-    "uk-location": {"value": "The supplier privacy notice identifies Avodah Software at an address in Newcastle upon Tyne, United Kingdom.", "state": "supplier-published", "source": "https://avodahapp.com/privacy.html", "checked": "2026-07-25"},
-    "product-and-pricing": {"value": "Supplier publishes a free Starter plan and a $29 monthly Growth plan, alongside roster, people, expense and communication features.", "state": "supplier-published", "source": "https://avodahapp.com/", "checked": "2026-07-25"},
-    "data-handling": {"value": "Supplier privacy policy describes role controls, multi-tenant isolation, account deletion and the personal data processed by the platform.", "state": "supplier-published", "source": "https://avodahapp.com/privacy.html", "checked": "2026-07-25"}
+    "uk-location": {
+      "value": "The supplier privacy notice identifies Avodah Software at an address in Newcastle upon Tyne, United Kingdom.",
+      "state": "supplier-published",
+      "source": "https://avodahapp.com/privacy.html",
+      "checked": "2026-07-25"
+    },
+    "product-and-pricing": {
+      "value": "Supplier publishes a free Starter plan and a $29 monthly Growth plan, alongside roster, people, expense and communication features.",
+      "state": "supplier-published",
+      "source": "https://avodahapp.com/",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "Supplier privacy policy describes role controls, multi-tenant isolation, account deletion and the personal data processed by the platform.",
+      "state": "supplier-published",
+      "source": "https://avodahapp.com/privacy.html",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -40,18 +99,97 @@
   },
   "editorial": {
     "assessment": "Avodah brings volunteer scheduling, people records, expense workflows and service planning into one church-management product. Its official privacy notice gives a Newcastle address, but the supplier does not publish a company-registration number or a detailed UK commercial pack, making direct supplier due diligence particularly important before live adoption.",
-    "bestFor": ["Churches wanting connected volunteer, people and expense administration", "Teams willing to evaluate a newer supplier through its free plan or trial"],
-    "strengths": ["Free entry plan and published Growth price", "Connected roster, people, expense and worship-planning workflow", "Supplier publishes a detailed privacy notice and account-deletion information"],
-    "limitations": ["Supplier does not publish a company-registration number", "Pricing is shown in USD rather than GBP", "Obtain current contractual, processor, hosting and support information before migrating sensitive records"],
-    "procurementVerdict": {"problem": "Disconnected volunteer, people, expense and Sunday-service administration", "differentiator": "One newer product connects roster scheduling, pastoral records, expenses and service planning", "firstCheck": "Request the current UK contract and data-processing pack, then test the ordinary rota and expense-approval workflow"}
+    "bestFor": [
+      "Churches wanting connected volunteer, people and expense administration",
+      "Teams willing to evaluate a newer supplier through its free plan or trial"
+    ],
+    "strengths": [
+      "Free entry plan and published Growth price",
+      "Connected roster, people, expense and worship-planning workflow",
+      "Supplier publishes a detailed privacy notice and account-deletion information"
+    ],
+    "limitations": [
+      "Supplier does not publish a company-registration number",
+      "Pricing is shown in USD rather than GBP",
+      "Obtain current contractual, processor, hosting and support information before migrating sensitive records"
+    ],
+    "procurementVerdict": {
+      "problem": "Disconnected volunteer, people, expense and Sunday-service administration",
+      "differentiator": "One newer product connects roster scheduling, pastoral records, expenses and service planning",
+      "firstCheck": "Request the current UK contract and data-processing pack, then test the ordinary rota and expense-approval workflow"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Avodah product and pricing", "url": "https://avodahapp.com/", "checked": "2026-07-25", "supports": ["Product scope", "Free plan", "Growth pricing", "Mobile availability"]},
-    {"label": "Avodah privacy policy", "url": "https://avodahapp.com/privacy.html", "checked": "2026-07-25", "supports": ["Newcastle location", "Data-processing detail", "Account rights", "Security descriptions"]}
+    {
+      "label": "Avodah product and pricing",
+      "url": "https://avodahapp.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "Free plan",
+        "Growth pricing",
+        "Mobile availability"
+      ]
+    },
+    {
+      "label": "Avodah privacy policy",
+      "url": "https://avodahapp.com/privacy.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "Newcastle location",
+        "Data-processing detail",
+        "Account rights",
+        "Security descriptions"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/avodah/id6764895005", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Avodah name; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.epicat.avodah", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Avodah name; this directory has not recorded an aggregate rating or review count."}],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/avodah/id6764895005",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Avodah name; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.epicat.avodah",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Avodah name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Avodah review for UK churches", "description": "Independent Avodah profile for UK churches: people, rotas, expenses, published pricing and supplier due-diligence checks."}
+  "seo": {
+    "title": "Avodah review for UK churches",
+    "description": "Independent Avodah profile for UK churches: people, rotas, expenses, published pricing and supplier due-diligence checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

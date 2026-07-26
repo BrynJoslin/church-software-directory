@@ -7,31 +7,95 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["room-bookings"],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
-  "suitableContexts": ["Churches or charities that hire out halls, rooms or facilities", "Parishes with several bookable spaces and formal hire administration", "Venues needing online payment and invoice workflows"],
+  "categories": [
+    "room-bookings"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches or charities that hire out halls, rooms or facilities",
+    "Parishes with several bookable spaces and formal hire administration",
+    "Venues needing online payment and invoice workflows"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Bookteq currently publishes a software package from £100 per month. It also offers enterprise add-ons and managed services at quoted prices. Confirm the price, payment fees, VAT treatment, contract term and fit for a church or charity venue before purchase.",
-    "startingPrice": {"amount": 100, "currency": "GBP", "period": "month", "qualifier": "published Bookteq software package price"},
+    "startingPrice": {
+      "amount": 100,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "published Bookteq software package price"
+    },
     "tiers": [
-      {"label": "Bookteq software", "price": "From £100 per month", "detail": "Self-service bookings and payments, account management and multi-venue administration."},
-      {"label": "Enterprise add-ons and managed services", "price": "Contact supplier", "detail": "Lockteq, Bookteam and fully managed-lettings options."}
+      {
+        "label": "Bookteq software",
+        "price": "From £100 per month",
+        "detail": "Self-service bookings and payments, account management and multi-venue administration."
+      },
+      {
+        "label": "Enterprise add-ons and managed services",
+        "price": "Contact supplier",
+        "detail": "Lockteq, Bookteam and fully managed-lettings options."
+      }
     ]
   },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "yes",
   "gdprInformation": "Bookteq’s privacy notice identifies My Local Pitch Limited as the operator and data controller, gives a UK company number and contact address, and was last updated in May 2025. It does not by itself establish a church’s data-processing agreement, sub-processors, hosting locations, retention or support arrangements; obtain current contractual material before handling hirer or volunteer data.",
-  "coreFeatures": ["Online hall, room and facility bookings", "Public booking widget", "Customer portal", "Single and recurring bookings", "Approval workflows", "Invoices and payment schedules", "Stripe card, Apple Pay and Google Pay payments", "Financial and utilisation reporting", "Multi-venue administration"],
-  "integrations": ["Bookteq booking widget for organisation websites", "Playfinder marketplace", "Stripe payment integration"],
-  "importExport": ["Supplier describes financial and booking reports", "Confirm current import, export, data-retention and exit formats before purchase"],
-  "support": ["Supplier publishes dedicated account management and support as part of the Bookteq package", "Published sales and support hours are Monday to Friday, 09:00–18:00", "Confirm implementation, incident and weekend-support arrangements before purchase"],
+  "coreFeatures": [
+    "Online hall, room and facility bookings",
+    "Public booking widget",
+    "Customer portal",
+    "Single and recurring bookings",
+    "Approval workflows",
+    "Invoices and payment schedules",
+    "Stripe card, Apple Pay and Google Pay payments",
+    "Financial and utilisation reporting",
+    "Multi-venue administration"
+  ],
+  "integrations": [
+    "Bookteq booking widget for organisation websites",
+    "Playfinder marketplace",
+    "Stripe payment integration"
+  ],
+  "importExport": [
+    "Supplier describes financial and booking reports",
+    "Confirm current import, export, data-retention and exit formats before purchase"
+  ],
+  "support": [
+    "Supplier publishes dedicated account management and support as part of the Bookteq package",
+    "Published sales and support hours are Monday to Friday, 09:00–18:00",
+    "Confirm implementation, incident and weekend-support arrangements before purchase"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Bookteq’s privacy notice identifies My Local Pitch Limited, company number 08427059, as the legal entity that owns and operates the online booking system.", "state": "supplier-published", "source": "https://www.bookteq.com/privacy/", "checked": "2026-07-25"},
-    "product-scope": {"value": "Supplier pages describe UK venue and community-space bookings with self-service scheduling, payments, invoices and reporting.", "state": "supplier-published", "source": "https://www.bookteq.com/venue-hire-booking/", "checked": "2026-07-25"},
-    "published-pricing": {"value": "The pricing page publishes Bookteq software from £100 per month and quotes enterprise add-ons and managed services separately.", "state": "supplier-published", "source": "https://www.bookteq.com/pricing/", "checked": "2026-07-25"},
-    "payment-workflow": {"value": "Supplier documentation describes Stripe card payments, Apple Pay and Google Pay, invoices and payment schedules for venue bookings.", "state": "supplier-published", "source": "https://www.bookteq.com/online-payment-processing/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Bookteq’s privacy notice identifies My Local Pitch Limited, company number 08427059, as the legal entity that owns and operates the online booking system.",
+      "state": "supplier-published",
+      "source": "https://www.bookteq.com/privacy/",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Supplier pages describe UK venue and community-space bookings with self-service scheduling, payments, invoices and reporting.",
+      "state": "supplier-published",
+      "source": "https://www.bookteq.com/venue-hire-booking/",
+      "checked": "2026-07-25"
+    },
+    "published-pricing": {
+      "value": "The pricing page publishes Bookteq software from £100 per month and quotes enterprise add-ons and managed services separately.",
+      "state": "supplier-published",
+      "source": "https://www.bookteq.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "payment-workflow": {
+      "value": "Supplier documentation describes Stripe card payments, Apple Pay and Google Pay, invoices and payment schedules for venue bookings.",
+      "state": "supplier-published",
+      "source": "https://www.bookteq.com/online-payment-processing/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -43,20 +107,108 @@
   },
   "editorial": {
     "assessment": "Bookteq is general UK venue-booking software, not a church-management system or a church-specialist product. It is relevant where a church, parish or charity operates substantial hall or room hire and needs mature booking, payment and reporting workflows. Smaller volunteer-run halls should compare its cost and operational complexity with church-specific and lower-cost alternatives.",
-    "bestFor": ["Larger church or charity venues with multiple spaces", "Teams needing online booking, payments, invoices and reporting in one system", "Organisations that need centralised multi-venue controls"],
-    "strengths": ["Identified active UK operator and privacy notice", "Published GBP starting price", "Online bookings, approvals, payments, invoices and reporting are documented", "Multi-venue and community-space workflows are explicit"],
-    "limitations": ["It is not church-specific software", "The starting price may be disproportionate for a small volunteer-led hall", "Obtain current payment-fee, VAT, contract-term and charity-pricing details before purchase", "Detailed data-processing, export and exit arrangements are not established by the reviewed public pages"],
-    "procurementVerdict": {"problem": "Managing recurring church-hall or multi-room hire with online payments and formal reporting", "differentiator": "A UK venue-management product with a published starting price, online booking widget and payment workflows", "firstCheck": "Request a demonstration using the church’s real hire rules, invoice process, access permissions and cancellation policy, then obtain current data-processing and exit terms"}
+    "bestFor": [
+      "Larger church or charity venues with multiple spaces",
+      "Teams needing online booking, payments, invoices and reporting in one system",
+      "Organisations that need centralised multi-venue controls"
+    ],
+    "strengths": [
+      "Identified active UK operator and privacy notice",
+      "Published GBP starting price",
+      "Online bookings, approvals, payments, invoices and reporting are documented",
+      "Multi-venue and community-space workflows are explicit"
+    ],
+    "limitations": [
+      "It is not church-specific software",
+      "The starting price may be disproportionate for a small volunteer-led hall",
+      "Obtain current payment-fee, VAT, contract-term and charity-pricing details before purchase",
+      "Detailed data-processing, export and exit arrangements are not established by the reviewed public pages"
+    ],
+    "procurementVerdict": {
+      "problem": "Managing recurring church-hall or multi-room hire with online payments and formal reporting",
+      "differentiator": "A UK venue-management product with a published starting price, online booking widget and payment workflows",
+      "firstCheck": "Request a demonstration using the church’s real hire rules, invoice process, access permissions and cancellation policy, then obtain current data-processing and exit terms"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Bookteq venue booking overview", "url": "https://www.bookteq.com/venue-hire-booking/", "checked": "2026-07-25", "supports": ["Community-space relevance", "Booking workflow", "Payments and reporting"]},
-    {"label": "Bookteq pricing", "url": "https://www.bookteq.com/pricing/", "checked": "2026-07-25", "supports": ["Published monthly price", "Managed-service options"]},
-    {"label": "Bookteq payment processing", "url": "https://www.bookteq.com/online-payment-processing/", "checked": "2026-07-25", "supports": ["Stripe payments", "Invoice workflows", "Support hours"]},
-    {"label": "Bookteq privacy notice", "url": "https://www.bookteq.com/privacy/", "checked": "2026-07-25", "supports": ["Legal operator", "UK company number", "Privacy contact details"]},
-    {"label": "Companies House: My Local Pitch Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/08427059", "checked": "2026-07-25", "supports": ["UK company registration", "Company status"]}
+    {
+      "label": "Bookteq venue booking overview",
+      "url": "https://www.bookteq.com/venue-hire-booking/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Community-space relevance",
+        "Booking workflow",
+        "Payments and reporting"
+      ]
+    },
+    {
+      "label": "Bookteq pricing",
+      "url": "https://www.bookteq.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published monthly price",
+        "Managed-service options"
+      ]
+    },
+    {
+      "label": "Bookteq payment processing",
+      "url": "https://www.bookteq.com/online-payment-processing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Stripe payments",
+        "Invoice workflows",
+        "Support hours"
+      ]
+    },
+    {
+      "label": "Bookteq privacy notice",
+      "url": "https://www.bookteq.com/privacy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal operator",
+        "UK company number",
+        "Privacy contact details"
+      ]
+    },
+    {
+      "label": "Companies House: My Local Pitch Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/08427059",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Bookteq review for UK church halls", "description": "Independent Bookteq profile for UK church halls: bookings, online payments, pricing, reporting and procurement questions."}
+  "seo": {
+    "title": "Bookteq review for UK church halls",
+    "description": "Independent Bookteq profile for UK church halls: bookings, online payments, pricing, reporting and procurement questions."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

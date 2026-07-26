@@ -5,8 +5,16 @@
   "officialWebsite": "https://www.acstechnologies.com/realm/",
   "company": "ACS Technologies",
   "ukFocus": "general",
-  "categories": ["church-management", "online-giving", "church-communications"],
-  "suitableChurchSizes": ["medium", "large", "multi-site"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Churches needing an established people and contribution platform",
     "Teams prepared to use a supplier-led trial and pricing conversation"
@@ -46,8 +54,12 @@
     "Multi-campus tools"
   ],
   "integrations": [],
-  "importExport": ["Migration options described by supplier"],
-  "support": ["Subscriber training and support resources"],
+  "importExport": [
+    "Migration options described by supplier"
+  ],
+  "support": [
+    "Subscriber training and support resources"
+  ],
   "editorial": {
     "assessment": "Realm is a substantial US church-management option with a broad people, giving and engagement feature set. Its public price picture is incomplete in this review, so UK churches should establish availability, data processing, payment methods, Gift Aid and total implementation cost before treating it as a viable alternative.",
     "bestFor": [
@@ -108,19 +120,27 @@
       "label": "Realm Inform",
       "url": "https://www.acstechnologies.com/realm/plans/inform/",
       "checked": "2026-07-25",
-      "supports": ["Trial", "Features", "Plan structure"]
+      "supports": [
+        "Trial",
+        "Features",
+        "Plan structure"
+      ]
     },
     {
       "label": "Realm solutions",
       "url": "https://www.acstechnologies.com/realm/solutions/",
       "checked": "2026-07-25",
-      "supports": ["Features"]
+      "supports": [
+        "Features"
+      ]
     },
     {
       "label": "Realm help centre",
       "url": "https://help.acst.com/en/realm",
       "checked": "2026-07-25",
-      "supports": ["Support resources"]
+      "supports": [
+        "Support resources"
+      ]
     }
   ],
   "affiliateRelationship": "no",
@@ -128,5 +148,29 @@
   "seo": {
     "title": "Realm review for UK churches",
     "description": "Independent Realm profile for UK churches: trial, people and giving tools, pricing gaps and UK due diligence."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

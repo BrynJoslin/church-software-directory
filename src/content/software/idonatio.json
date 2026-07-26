@@ -7,24 +7,209 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving", "church-accounting"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches needing online donations alongside Gift Aid claims", "Churches recording eligible digital, plate or envelope donations", "Charities that want donor Gift Aid preferences and claims administered in one platform"],
-  "pricing": {"model": "usage-based", "summary": "iDonatio publishes free organisation registration and a 5.75% + £0.30 transaction fee per donation. It offers an option for donors to cover that fee. Its terms say some transaction charges vary by card and that Stripe-connected accounts can carry gateway charges.", "tiers": [{"label": "iDonatio giving platform", "price": "5.75% + £0.30 per donation", "detail": "Published fee; donor can elect to cover it"}], "trialDetails": "No general free trial was found in the public material reviewed."},
+  "categories": [
+    "online-giving",
+    "church-accounting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches needing online donations alongside Gift Aid claims",
+    "Churches recording eligible digital, plate or envelope donations",
+    "Charities that want donor Gift Aid preferences and claims administered in one platform"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "iDonatio publishes free organisation registration and a 5.75% + £0.30 transaction fee per donation. It offers an option for donors to cover that fee. Its terms say some transaction charges vary by card and that Stripe-connected accounts can carry gateway charges.",
+    "tiers": [
+      {
+        "label": "iDonatio giving platform",
+        "price": "5.75% + £0.30 per donation",
+        "detail": "Published fee; donor can elect to cover it"
+      }
+    ],
+    "trialDetails": "No general free trial was found in the public material reviewed."
+  },
   "freePlan": "yes",
   "freeTrial": "unknown",
   "demoAvailable": "yes",
   "gdprInformation": "iDonatio publishes donor and donee privacy policies and terms. Its donor policy states Gift Aid declarations and donation records are retained for the legally specified periods described there; churches should read the applicable current policy and agree how donor data will be used.",
-  "coreFeatures": ["Online donations", "Digital Gift Aid declarations", "Direct HMRC Gift Aid claim submission", "GASDS support", "Donation and declaration audit trail", "Donor donation history", "Plate and envelope donation workflows"],
-  "integrations": ["Stripe payment gateway", "AWS infrastructure provider"],
-  "importExport": ["Donor-facing donation-history download described by the supplier"],
-  "support": ["Supplier contact and demo route"],
-  "decisionEvidence": {"hmrc-claiming": {"value": "iDonatio UK Ltd is included in HMRC's current commercial-supplier list for iGACOS.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"}, "fees": {"value": "Supplier publishes a 5.75% + £0.30 transaction fee and free organisation registration.", "state": "supplier-published", "source": "https://www.idonatio.com/pricing", "checked": "2026-07-25"}, "data-processing": {"value": "Supplier publishes privacy policy material covering donor data, Gift Aid data sharing and stated retention periods.", "state": "supplier-published", "source": "https://www.idonatio.com/donor-privacy-policy", "checked": "2026-07-25"}},
-  "editorial": {"assessment": "iDonatio is a UK donation and Gift Aid platform rather than a full church-management system. It may suit churches that want a donor-facing digital giving option with Gift Aid, GASDS and paper-donation workflows in one service. Its published transaction fee is materially higher than some alternatives, so a church should model it against donation patterns and donor-fee choice before adoption.", "bestFor": ["Churches wanting Gift Aid-enabled online donations and a related donor app", "Teams needing to bring plate, envelope and digital Gift Aid administration together", "Charities prepared to evaluate a per-donation fee model"], "strengths": ["Active UK company and current HMRC commercial-software listing", "Published transaction fee and donor-pays-fee option", "Supplier describes Gift Aid, GASDS, digital declarations and audit trails"], "limitations": ["It is not a complete people, rota or church-website platform", "Transaction and gateway costs need realistic scenario modelling", "Read the applicable data, deletion, Gift Aid and Stripe terms before importing donor records"], "procurementVerdict": {"problem": "Gift Aid information and donations spread across digital and paper workflows", "differentiator": "Donation collection, digital declarations and HMRC claim submission in a UK product", "firstCheck": "Model donation fees and test a digital, envelope and Gift Aid claim journey with the finance team"}},
+  "coreFeatures": [
+    "Online donations",
+    "Digital Gift Aid declarations",
+    "Direct HMRC Gift Aid claim submission",
+    "GASDS support",
+    "Donation and declaration audit trail",
+    "Donor donation history",
+    "Plate and envelope donation workflows"
+  ],
+  "integrations": [
+    "Stripe payment gateway",
+    "AWS infrastructure provider"
+  ],
+  "importExport": [
+    "Donor-facing donation-history download described by the supplier"
+  ],
+  "support": [
+    "Supplier contact and demo route"
+  ],
+  "decisionEvidence": {
+    "hmrc-claiming": {
+      "value": "iDonatio UK Ltd is included in HMRC's current commercial-supplier list for iGACOS.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "fees": {
+      "value": "Supplier publishes a 5.75% + £0.30 transaction fee and free organisation registration.",
+      "state": "supplier-published",
+      "source": "https://www.idonatio.com/pricing",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier publishes privacy policy material covering donor data, Gift Aid data sharing and stated retention periods.",
+      "state": "supplier-published",
+      "source": "https://www.idonatio.com/donor-privacy-policy",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "iDonatio is a UK donation and Gift Aid platform rather than a full church-management system. It may suit churches that want a donor-facing digital giving option with Gift Aid, GASDS and paper-donation workflows in one service. Its published transaction fee is materially higher than some alternatives, so a church should model it against donation patterns and donor-fee choice before adoption.",
+    "bestFor": [
+      "Churches wanting Gift Aid-enabled online donations and a related donor app",
+      "Teams needing to bring plate, envelope and digital Gift Aid administration together",
+      "Charities prepared to evaluate a per-donation fee model"
+    ],
+    "strengths": [
+      "Active UK company and current HMRC commercial-software listing",
+      "Published transaction fee and donor-pays-fee option",
+      "Supplier describes Gift Aid, GASDS, digital declarations and audit trails"
+    ],
+    "limitations": [
+      "It is not a complete people, rota or church-website platform",
+      "Transaction and gateway costs need realistic scenario modelling",
+      "Read the applicable data, deletion, Gift Aid and Stripe terms before importing donor records"
+    ],
+    "procurementVerdict": {
+      "problem": "Gift Aid information and donations spread across digital and paper workflows",
+      "differentiator": "Donation collection, digital declarations and HMRC claim submission in a UK product",
+      "firstCheck": "Model donation fees and test a digital, envelope and Gift Aid claim journey with the finance team"
+    }
+  },
   "lastChecked": "2026-07-25",
-  "sources": [{"label": "iDonatio pricing", "url": "https://www.idonatio.com/pricing", "checked": "2026-07-25", "supports": ["Registration fee", "Transaction fee", "Donor-pays-fee option", "Stripe and AWS references"]}, {"label": "iDonatio Gift Aid and GASDS information", "url": "https://www.idonatio.com/gift-aids", "checked": "2026-07-25", "supports": ["Gift Aid workflow", "GASDS support", "Claim submission", "Digital declarations"]}, {"label": "iDonatio donee terms", "url": "https://www.idonatio.com/donee-terms-of-service", "checked": "2026-07-25", "supports": ["Customer terms", "Fees", "Platform scope"]}, {"label": "iDonatio donor privacy policy", "url": "https://www.idonatio.com/donor-privacy-policy", "checked": "2026-07-25", "supports": ["Privacy policy", "Data sharing", "Retention wording"]}, {"label": "HMRC: Charities Online commercial software suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Charities Online supplier listing"]}, {"label": "Companies House: iDonatio UK Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/12722710", "checked": "2026-07-25", "supports": ["Active UK-registered organisation"]}],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/idonatio/id1627754544", "rating": 5, "maximumRating": 5, "reviewCount": 1, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the iDonatio name."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.idonatio.idonatio", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the iDonatio name; this directory has not recorded an aggregate rating or review count."}],
+  "sources": [
+    {
+      "label": "iDonatio pricing",
+      "url": "https://www.idonatio.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Registration fee",
+        "Transaction fee",
+        "Donor-pays-fee option",
+        "Stripe and AWS references"
+      ]
+    },
+    {
+      "label": "iDonatio Gift Aid and GASDS information",
+      "url": "https://www.idonatio.com/gift-aids",
+      "checked": "2026-07-25",
+      "supports": [
+        "Gift Aid workflow",
+        "GASDS support",
+        "Claim submission",
+        "Digital declarations"
+      ]
+    },
+    {
+      "label": "iDonatio donee terms",
+      "url": "https://www.idonatio.com/donee-terms-of-service",
+      "checked": "2026-07-25",
+      "supports": [
+        "Customer terms",
+        "Fees",
+        "Platform scope"
+      ]
+    },
+    {
+      "label": "iDonatio donor privacy policy",
+      "url": "https://www.idonatio.com/donor-privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Privacy policy",
+        "Data sharing",
+        "Retention wording"
+      ]
+    },
+    {
+      "label": "HMRC: Charities Online commercial software suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Charities Online supplier listing"
+      ]
+    },
+    {
+      "label": "Companies House: iDonatio UK Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/12722710",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK-registered organisation"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/idonatio/id1627754544",
+      "rating": 5,
+      "maximumRating": 5,
+      "reviewCount": 1,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the iDonatio name."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.idonatio.idonatio",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the iDonatio name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "iDonatio review for UK churches", "description": "Independent iDonatio profile for UK churches: online giving, Gift Aid, GASDS, published transaction fees and data checks."}
+  "seo": {
+    "title": "iDonatio review for UK churches",
+    "description": "Independent iDonatio profile for UK churches: online giving, Gift Aid, GASDS, published transaction fees and data checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

@@ -7,27 +7,82 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-accounting"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches and church charities needing fund and project accounting", "Treasurers preparing SORP-aligned reports and ongoing trustee information", "Charities that need separate fund, project, donor and location reporting"],
+  "categories": [
+    "church-accounting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches and church charities needing fund and project accounting",
+    "Treasurers preparing SORP-aligned reports and ongoing trustee information",
+    "Charities that need separate fund, project, donor and location reporting"
+  ],
   "pricing": {
     "model": "unknown",
     "summary": "CharityFinancials' public website does not publish a current product price or billing model. Request a written quote covering implementation, data migration, user limits, support, VAT, payment frequency, contract term and any accountant-access charges.",
-    "tiers": [{"label": "CharityFinancials", "price": "Contact supplier", "detail": "No current public product price was found in the reviewed supplier material."}]
+    "tiers": [
+      {
+        "label": "CharityFinancials",
+        "price": "Contact supplier",
+        "detail": "No current public product price was found in the reviewed supplier material."
+      }
+    ]
   },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "The marketing site identifies NfP Accountants Ltd as its author and the accountancy firm publishes a general controller privacy notice. The reviewed public material does not establish the product's controller-processor allocation, hosting location, sub-processors, retention, security commitments, data-export process or product-specific DPA. Obtain these in writing before importing donor, supplier, payroll or other personal financial data.",
-  "coreFeatures": ["Fund accounting for restricted, unrestricted, designated and endowment funds", "Project and programme costing", "SOFA, Income and Expenditure, Balance Sheet and Trial Balance reports", "Donor, fund and project reporting", "Budgets and budget-versus-actual reporting", "CSV and Excel bank-transaction imports", "PDF and Excel report exports", "VAT transaction tracking"],
-  "integrations": ["Supplier describes direct Making Tax Digital VAT submission as pending HMRC recognition; confirm the live status and supported workflow", "No public accounting, banking, payments, payroll or donor-system integration list was found; request current integration documentation"],
-  "importExport": ["Supplier describes CSV and Excel bank-transaction imports", "Supplier describes PDF and Excel report exports", "Request a complete ledger, contact, attachment, audit-trail and configuration export specification before migration"],
-  "support": ["Supplier asks prospective organisations to get in touch to start a new organisation", "Support channels, response commitments and implementation support require confirmation"],
+  "coreFeatures": [
+    "Fund accounting for restricted, unrestricted, designated and endowment funds",
+    "Project and programme costing",
+    "SOFA, Income and Expenditure, Balance Sheet and Trial Balance reports",
+    "Donor, fund and project reporting",
+    "Budgets and budget-versus-actual reporting",
+    "CSV and Excel bank-transaction imports",
+    "PDF and Excel report exports",
+    "VAT transaction tracking"
+  ],
+  "integrations": [
+    "Supplier describes direct Making Tax Digital VAT submission as pending HMRC recognition; confirm the live status and supported workflow",
+    "No public accounting, banking, payments, payroll or donor-system integration list was found; request current integration documentation"
+  ],
+  "importExport": [
+    "Supplier describes CSV and Excel bank-transaction imports",
+    "Supplier describes PDF and Excel report exports",
+    "Request a complete ledger, contact, attachment, audit-trail and configuration export specification before migration"
+  ],
+  "support": [
+    "Supplier asks prospective organisations to get in touch to start a new organisation",
+    "Support channels, response commitments and implementation support require confirmation"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "The CharityFinancials site identifies NfP Accountants Ltd as author. NfP Accountants identifies itself as an English company (08217088) and a London charity-accountancy firm.", "state": "supplier-published", "source": "https://nfpaccountants.co.uk/", "checked": "2026-07-25"},
-    "church-relevance": {"value": "Supplier says the product is built for UK charities, CIOs, churches and faith organisations, and describes church bookkeeping and financial management.", "state": "supplier-published", "source": "https://charityfinancials.uk/", "checked": "2026-07-25"},
-    "accounting-scope": {"value": "Supplier documents fund accounting, project costing, SORP-aligned reports, charity financial statements, CSV or Excel bank imports and report exports.", "state": "supplier-published", "source": "https://charityfinancials.uk/charity-accounting-features", "checked": "2026-07-25"},
-    "vat-boundary": {"value": "Supplier says its HMRC software-recognition listing is pending and advises alternative VAT-return submission options in the meantime.", "state": "supplier-published", "source": "https://charityfinancials.uk/charity-accounting-features", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "The CharityFinancials site identifies NfP Accountants Ltd as author. NfP Accountants identifies itself as an English company (08217088) and a London charity-accountancy firm.",
+      "state": "supplier-published",
+      "source": "https://nfpaccountants.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "church-relevance": {
+      "value": "Supplier says the product is built for UK charities, CIOs, churches and faith organisations, and describes church bookkeeping and financial management.",
+      "state": "supplier-published",
+      "source": "https://charityfinancials.uk/",
+      "checked": "2026-07-25"
+    },
+    "accounting-scope": {
+      "value": "Supplier documents fund accounting, project costing, SORP-aligned reports, charity financial statements, CSV or Excel bank imports and report exports.",
+      "state": "supplier-published",
+      "source": "https://charityfinancials.uk/charity-accounting-features",
+      "checked": "2026-07-25"
+    },
+    "vat-boundary": {
+      "value": "Supplier says its HMRC software-recognition listing is pending and advises alternative VAT-return submission options in the meantime.",
+      "state": "supplier-published",
+      "source": "https://charityfinancials.uk/charity-accounting-features",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -39,21 +94,119 @@
   },
   "editorial": {
     "assessment": "CharityFinancials is a newer UK charity-accounting option with a credible specialist accountancy supplier and a clearly stated church use case. Its model is focused on accounting dimensions—funds, projects, donors and locations—rather than on a full church-management database. The public product pages describe the accounting workflow well, but material commercial, data-processing, implementation and product-support information is not yet published clearly enough for a low-risk procurement decision without a written supplier pack.",
-    "bestFor": ["Church charities with restricted funds, projects or grant reporting needs", "Treasurers who want fund and project reporting to feed management and trustee information", "Churches evaluating an accountant-led alternative to general small-business bookkeeping software"],
-    "strengths": ["UK charity and church focus stated by the supplier", "Fund, project, donor and location dimensions described", "SORP-aligned reporting and bank-import workflow documented", "Supplier is an established UK charity-accountancy firm"],
-    "limitations": ["No current public product price, contract term or user limit found", "HMRC recognition for direct Making Tax Digital VAT submission is stated as pending", "No public product-specific DPA, hosting-region, sub-processor, security or retention detail found", "No detailed public integration, migration, support-service or full-data-export specification found", "Not a substitute for a church's own financial controls, independent examination or professional advice"],
-    "procurementVerdict": {"problem": "Keeping charity funds, projects and reporting coherent without relying on a commercial chart of accounts or year-end spreadsheet reconstruction", "differentiator": "A UK charity-accountant-led platform that treats funds, projects, donors and locations as separate reporting dimensions", "firstCheck": "Ask for a demonstration using a representative restricted-fund and project-reporting scenario, then obtain written price, implementation plan, DPA, hosting and sub-processor information, VAT workflow, exports and support commitments before moving financial records"}
+    "bestFor": [
+      "Church charities with restricted funds, projects or grant reporting needs",
+      "Treasurers who want fund and project reporting to feed management and trustee information",
+      "Churches evaluating an accountant-led alternative to general small-business bookkeeping software"
+    ],
+    "strengths": [
+      "UK charity and church focus stated by the supplier",
+      "Fund, project, donor and location dimensions described",
+      "SORP-aligned reporting and bank-import workflow documented",
+      "Supplier is an established UK charity-accountancy firm"
+    ],
+    "limitations": [
+      "No current public product price, contract term or user limit found",
+      "HMRC recognition for direct Making Tax Digital VAT submission is stated as pending",
+      "No public product-specific DPA, hosting-region, sub-processor, security or retention detail found",
+      "No detailed public integration, migration, support-service or full-data-export specification found",
+      "Not a substitute for a church's own financial controls, independent examination or professional advice"
+    ],
+    "procurementVerdict": {
+      "problem": "Keeping charity funds, projects and reporting coherent without relying on a commercial chart of accounts or year-end spreadsheet reconstruction",
+      "differentiator": "A UK charity-accountant-led platform that treats funds, projects, donors and locations as separate reporting dimensions",
+      "firstCheck": "Ask for a demonstration using a representative restricted-fund and project-reporting scenario, then obtain written price, implementation plan, DPA, hosting and sub-processor information, VAT workflow, exports and support commitments before moving financial records"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "CharityFinancials product overview", "url": "https://charityfinancials.uk/", "checked": "2026-07-25", "supports": ["Church relevance", "UK charity focus", "Product scope"]},
-    {"label": "CharityFinancials features", "url": "https://charityfinancials.uk/charity-accounting-features", "checked": "2026-07-25", "supports": ["Fund accounting", "Reports", "Bank import", "Exports", "VAT recognition boundary"]},
-    {"label": "CharityFinancials project accounting", "url": "https://charityfinancials.uk/project-accounting-charities", "checked": "2026-07-25", "supports": ["Project costing", "Budgets", "Fund and donor reporting"]},
-    {"label": "NfP Accountants company and charity specialism", "url": "https://nfpaccountants.co.uk/", "checked": "2026-07-25", "supports": ["Supplier identity", "English company number", "Charity-accountancy specialism"]},
-    {"label": "NfP Accountants privacy notice", "url": "https://nfpaccountants.co.uk/about-us/nfp-accountants-data-controller-privacy-notice/", "checked": "2026-07-25", "supports": ["General supplier privacy notice"]},
-    {"label": "Companies House: NFP ACCOUNTANTS LTD", "url": "https://find-and-update.company-information.service.gov.uk/company/08217088", "checked": "2026-07-25", "supports": ["UK company record"]}
+    {
+      "label": "CharityFinancials product overview",
+      "url": "https://charityfinancials.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church relevance",
+        "UK charity focus",
+        "Product scope"
+      ]
+    },
+    {
+      "label": "CharityFinancials features",
+      "url": "https://charityfinancials.uk/charity-accounting-features",
+      "checked": "2026-07-25",
+      "supports": [
+        "Fund accounting",
+        "Reports",
+        "Bank import",
+        "Exports",
+        "VAT recognition boundary"
+      ]
+    },
+    {
+      "label": "CharityFinancials project accounting",
+      "url": "https://charityfinancials.uk/project-accounting-charities",
+      "checked": "2026-07-25",
+      "supports": [
+        "Project costing",
+        "Budgets",
+        "Fund and donor reporting"
+      ]
+    },
+    {
+      "label": "NfP Accountants company and charity specialism",
+      "url": "https://nfpaccountants.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier identity",
+        "English company number",
+        "Charity-accountancy specialism"
+      ]
+    },
+    {
+      "label": "NfP Accountants privacy notice",
+      "url": "https://nfpaccountants.co.uk/about-us/nfp-accountants-data-controller-privacy-notice/",
+      "checked": "2026-07-25",
+      "supports": [
+        "General supplier privacy notice"
+      ]
+    },
+    {
+      "label": "Companies House: NFP ACCOUNTANTS LTD",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/08217088",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company record"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "CharityFinancials review for UK churches", "description": "Independent CharityFinancials profile: UK church fund accounting, SORP reporting and procurement checks."}
+  "seo": {
+    "title": "CharityFinancials review for UK churches",
+    "description": "Independent CharityFinancials profile: UK church fund accounting, SORP reporting and procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

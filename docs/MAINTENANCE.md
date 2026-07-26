@@ -77,11 +77,20 @@ The command fails when any `lastChecked` date exceeds the threshold. Reviewing a
 listing means re-opening its sources, checking material facts and recording
 changes or remaining questions. Do not update the date without doing the review.
 
-## Public data export
-
 ## Review public feedback scans
 
 Keep the feedback scan date separate from `lastChecked`. Recheck scans after 180 days, or earlier after a major product, app or supplier change. Confirm profile scope, source availability, date range, source-permission position, theme support and contrary evidence. Do not automatically rewrite a public summary from newly found material. Report a misleading scan through `/update-a-listing/`; retain the internal challenge and editorial-decision record outside the public repository.
+
+Create or refresh the private scan queue and anonymised evidence ledger with:
+
+```bash
+npm run prepare:public-feedback-ledger -- YYYY-MM-DD
+```
+
+After the full base query pack has actually been run, add
+`--complete-discovery` to record that fact. The generated
+`.internal/public-feedback/ledger.json` is ignored by Git; it is not a
+publishable evidence store.
 
 ## Public data export
 

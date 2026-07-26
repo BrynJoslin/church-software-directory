@@ -7,17 +7,46 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["online-giving", "events-ticketing"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches and charities wanting branded online donation pages", "Fundraising appeals, memorial giving or participant-led campaigns", "Church events requiring paid registration rather than a full church database"],
+  "categories": [
+    "online-giving",
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches and charities wanting branded online donation pages",
+    "Fundraising appeals, memorial giving or participant-led campaigns",
+    "Church events requiring paid registration rather than a full church database"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Enthuse publishes Donations at £39.99 per month, Fundraising at £24.99 per month and Event Registration at £39.99 per month, all before VAT where applicable. The published price table also gives transaction, Gift Aid and ticketing fees for the relevant products. Churches should model the exact plan, payment route, Gift Aid and payout charges before adopting it.",
-    "startingPrice": {"amount": 24.99, "currency": "GBP", "period": "month", "qualifier": "Fundraising subscription, before VAT where applicable"},
+    "startingPrice": {
+      "amount": 24.99,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Fundraising subscription, before VAT where applicable"
+    },
     "tiers": [
-      {"label": "Fundraising", "price": "£24.99/month plus published transaction fees", "detail": "Branded fundraising, appeal and in-memory pages; the published table lists 1.9% + 30p payment processing and a 5% Gift Aid fee."},
-      {"label": "Donations", "price": "£39.99/month", "detail": "Branded one-off and regular donation pages; supplier states no platform or payment-provider fee, while its published table lists a 5% Gift Aid fee."},
-      {"label": "Event Registration", "price": "£39.99/month plus published ticketing fees", "detail": "Event registration and ticketing; supplier's price table lists 3.5% + 75p ticketing, 1.9% + 30p payment-processing and a 5% Gift Aid fee."}
+      {
+        "label": "Fundraising",
+        "price": "£24.99/month plus published transaction fees",
+        "detail": "Branded fundraising, appeal and in-memory pages; the published table lists 1.9% + 30p payment processing and a 5% Gift Aid fee."
+      },
+      {
+        "label": "Donations",
+        "price": "£39.99/month",
+        "detail": "Branded one-off and regular donation pages; supplier states no platform or payment-provider fee, while its published table lists a 5% Gift Aid fee."
+      },
+      {
+        "label": "Event Registration",
+        "price": "£39.99/month plus published ticketing fees",
+        "detail": "Event registration and ticketing; supplier's price table lists 3.5% + 75p ticketing, 1.9% + 30p payment-processing and a 5% Gift Aid fee."
+      }
     ]
   },
   "freePlan": "no",
@@ -25,16 +54,58 @@
   "giftAid": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "Enthuse publishes customer terms and a privacy notice. Its customer terms describe the service as facilitating donations, events and fundraising, and include UK GDPR-related definitions and international-transfer provisions. The public privacy notice identifies Online Giving Ltd as controller in the stated circumstances. Churches should obtain the current data-processing documentation, confirm controller/processor responsibilities for their chosen service, and check donor-data export, retention, sub-processors and payment/payout terms.",
-  "coreFeatures": ["Branded one-off and regular donation pages", "Gift Aid capture and processing", "Appeal, in-memory and peer-fundraising pages", "Event registration and ticketing", "Real-time fundraising and donation data", "Charity-branded payment journeys", "Fundraiser and supporter pages"],
-  "integrations": ["Payment acquirers and Stripe client accounts described in customer terms", "Event-partner app integrations on the Mass Participation product"],
-  "importExport": ["Supplier states that charity data belongs to the charity on the Fundraising plan", "Obtain current data-export, access, retention and deletion workflow in writing before onboarding donor records"],
-  "support": ["Supplier offers a free demo request", "Customer terms provide a UK contact route; confirm support hours and event-day escalation arrangements for the selected product"],
+  "coreFeatures": [
+    "Branded one-off and regular donation pages",
+    "Gift Aid capture and processing",
+    "Appeal, in-memory and peer-fundraising pages",
+    "Event registration and ticketing",
+    "Real-time fundraising and donation data",
+    "Charity-branded payment journeys",
+    "Fundraiser and supporter pages"
+  ],
+  "integrations": [
+    "Payment acquirers and Stripe client accounts described in customer terms",
+    "Event-partner app integrations on the Mass Participation product"
+  ],
+  "importExport": [
+    "Supplier states that charity data belongs to the charity on the Fundraising plan",
+    "Obtain current data-export, access, retention and deletion workflow in writing before onboarding donor records"
+  ],
+  "support": [
+    "Supplier offers a free demo request",
+    "Customer terms provide a UK contact route; confirm support hours and event-day escalation arrangements for the selected product"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House lists Online Giving Ltd, number 06886190, as an active England-and-Wales company. Enthuse's terms identify it as the operator trading as Enthuse.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/06886190", "checked": "2026-07-25"},
-    "fundraising-scope": {"value": "Enthuse's customer terms describe a SaaS platform for collecting and managing donations, events and fundraising for charitable causes.", "state": "supplier-published", "source": "https://enthuse.com/customer-terms/", "checked": "2026-07-25"},
-    "pricing-and-gift-aid": {"value": "Supplier publishes GBP monthly subscriptions, applicable transaction fees and a 5% fee on the Gift Aid value, alongside automatic Gift Aid capture and processing on its Donations product.", "state": "supplier-published", "source": "https://enthuse.com/pricing/", "checked": "2026-07-25"},
-    "payments-regulation": {"value": "Enthuse states that Online Giving Ltd is registered with the Financial Conduct Authority under the Payment Services Regulations 2017, reference 797344, for payment services.", "state": "supplier-published", "source": "https://enthuse.com/website-terms/", "checked": "2026-07-25"},
-    "privacy-and-terms": {"value": "Supplier publishes a privacy notice and customer terms that cover its personal-data handling and include UK GDPR-related contractual provisions.", "state": "supplier-published", "source": "https://enthuse.com/privacy/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House lists Online Giving Ltd, number 06886190, as an active England-and-Wales company. Enthuse's terms identify it as the operator trading as Enthuse.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/06886190",
+      "checked": "2026-07-25"
+    },
+    "fundraising-scope": {
+      "value": "Enthuse's customer terms describe a SaaS platform for collecting and managing donations, events and fundraising for charitable causes.",
+      "state": "supplier-published",
+      "source": "https://enthuse.com/customer-terms/",
+      "checked": "2026-07-25"
+    },
+    "pricing-and-gift-aid": {
+      "value": "Supplier publishes GBP monthly subscriptions, applicable transaction fees and a 5% fee on the Gift Aid value, alongside automatic Gift Aid capture and processing on its Donations product.",
+      "state": "supplier-published",
+      "source": "https://enthuse.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "payments-regulation": {
+      "value": "Enthuse states that Online Giving Ltd is registered with the Financial Conduct Authority under the Payment Services Regulations 2017, reference 797344, for payment services.",
+      "state": "supplier-published",
+      "source": "https://enthuse.com/website-terms/",
+      "checked": "2026-07-25"
+    },
+    "privacy-and-terms": {
+      "value": "Supplier publishes a privacy notice and customer terms that cover its personal-data handling and include UK GDPR-related contractual provisions.",
+      "state": "supplier-published",
+      "source": "https://enthuse.com/privacy/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -46,21 +117,120 @@
   },
   "editorial": {
     "assessment": "Enthuse is a UK charity fundraising platform, not church-management, accounting or safeguarding software. It may fit a church or Christian charity that needs a branded donation, campaign or paid-event journey and wants Gift Aid collected within that process. Its pricing is clearer than many fundraising services, but the different product subscriptions and percentage fees mean a church should model an ordinary donation, a Gift Aid donation and an event sale through to the actual payout before choosing it.",
-    "bestFor": ["Church charities running branded fundraising appeals or memorial giving", "Churches collecting online donations and Gift Aid without adopting a church database", "Event teams needing participant registration or ticketing alongside fundraising"],
-    "strengths": ["Identified active UK operator with public customer terms", "Published monthly subscription and fee information", "Gift Aid capture and processing are documented", "Donation, fundraising and event-registration products are separately described"],
-    "limitations": ["It is a general charity platform, not church-specific administration software", "Subscription, payment, ticketing and Gift Aid charges differ by product and need total-cost modelling", "Confirm current controller/processor roles, DPA, sub-processors, export, retention and payout arrangements", "Do not use a fundraising platform as a substitute for pastoral, safeguarding or core membership records"],
-    "procurementVerdict": {"problem": "Running branded charitable donations, appeals and event registrations while collecting Gift Aid", "differentiator": "A UK fundraising platform with separate donation, fundraising and event products and published fee components", "firstCheck": "Model one normal donation, one Gift Aid donation and one paid event sale from checkout through refund and payout; then obtain the current data-processing and export terms"}
+    "bestFor": [
+      "Church charities running branded fundraising appeals or memorial giving",
+      "Churches collecting online donations and Gift Aid without adopting a church database",
+      "Event teams needing participant registration or ticketing alongside fundraising"
+    ],
+    "strengths": [
+      "Identified active UK operator with public customer terms",
+      "Published monthly subscription and fee information",
+      "Gift Aid capture and processing are documented",
+      "Donation, fundraising and event-registration products are separately described"
+    ],
+    "limitations": [
+      "It is a general charity platform, not church-specific administration software",
+      "Subscription, payment, ticketing and Gift Aid charges differ by product and need total-cost modelling",
+      "Confirm current controller/processor roles, DPA, sub-processors, export, retention and payout arrangements",
+      "Do not use a fundraising platform as a substitute for pastoral, safeguarding or core membership records"
+    ],
+    "procurementVerdict": {
+      "problem": "Running branded charitable donations, appeals and event registrations while collecting Gift Aid",
+      "differentiator": "A UK fundraising platform with separate donation, fundraising and event products and published fee components",
+      "firstCheck": "Model one normal donation, one Gift Aid donation and one paid event sale from checkout through refund and payout; then obtain the current data-processing and export terms"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Enthuse pricing", "url": "https://enthuse.com/pricing/", "checked": "2026-07-25", "supports": ["Monthly subscriptions", "Transaction fees", "Gift Aid fee", "Donation, fundraising and event products"]},
-    {"label": "Enthuse customer terms", "url": "https://enthuse.com/customer-terms/", "checked": "2026-07-25", "supports": ["Fundraising and payment workflow", "Operating company", "Data-processing provisions"]},
-    {"label": "Enthuse website terms", "url": "https://enthuse.com/website-terms/", "checked": "2026-07-25", "supports": ["Operating company", "UK company number", "Payment-services registration statement"]},
-    {"label": "Enthuse privacy notice", "url": "https://enthuse.com/privacy/", "checked": "2026-07-25", "supports": ["Privacy scope", "Controller statement", "Data-protection contact"]},
-    {"label": "Companies House: Online Giving Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/06886190", "checked": "2026-07-25", "supports": ["UK company identity", "Active status"]}
+    {
+      "label": "Enthuse pricing",
+      "url": "https://enthuse.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Monthly subscriptions",
+        "Transaction fees",
+        "Gift Aid fee",
+        "Donation, fundraising and event products"
+      ]
+    },
+    {
+      "label": "Enthuse customer terms",
+      "url": "https://enthuse.com/customer-terms/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Fundraising and payment workflow",
+        "Operating company",
+        "Data-processing provisions"
+      ]
+    },
+    {
+      "label": "Enthuse website terms",
+      "url": "https://enthuse.com/website-terms/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "UK company number",
+        "Payment-services registration statement"
+      ]
+    },
+    {
+      "label": "Enthuse privacy notice",
+      "url": "https://enthuse.com/privacy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Privacy scope",
+        "Controller statement",
+        "Data-protection contact"
+      ]
+    },
+    {
+      "label": "Companies House: Online Giving Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06886190",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "Active status"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/enthuse.com", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for Enthuse and does not establish suitability for a particular church."}],
+  "externalReviews": [
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/enthuse.com",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Enthuse and does not establish suitability for a particular church."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Enthuse review for UK churches", "description": "Independent Enthuse profile for UK churches: donations, fundraising, ticketing, Gift Aid, fees and data checks."}
+  "seo": {
+    "title": "Enthuse review for UK churches",
+    "description": "Independent Enthuse profile for UK churches: donations, fundraising, ticketing, Gift Aid, fees and data checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

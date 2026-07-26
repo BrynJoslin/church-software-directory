@@ -7,15 +7,34 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches seeking contactless, QR and website donation routes", "Fundraising teams that need reusable campaigns and individual supporter collection", "Events or services where a phone-based contactless donation option would reduce hardware needs"],
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking contactless, QR and website donation routes",
+    "Fundraising teams that need reusable campaigns and individual supporter collection",
+    "Events or services where a phone-based contactless donation option would reduce hardware needs"
+  ],
   "pricing": {
     "model": "usage-based",
     "summary": "GiveTap publishes a 2.5% plus VAT platform fee for the card-reader rental offer, alongside Stripe's stated 1.5% + 10p in-person processing fee. It also advertises a £2 monthly fee for its Stripe S700 option when there is at least one transaction. Request current pricing for the church's chosen devices, online donations, Gift Aid workflow and payment provider.",
     "tiers": [
-      {"label": "Card-reader rental", "price": "£10/week for Stripe BBPOS WisePad 3 or £25/week for Stripe S700", "detail": "Supplier says a 2.5% + VAT GiveTap platform fee and Stripe processing fee apply"},
-      {"label": "Stripe S700 option", "price": "£2/month when there is at least one transaction", "detail": "Supplier states standard processing fees are additional"}
+      {
+        "label": "Card-reader rental",
+        "price": "£10/week for Stripe BBPOS WisePad 3 or £25/week for Stripe S700",
+        "detail": "Supplier says a 2.5% + VAT GiveTap platform fee and Stripe processing fee apply"
+      },
+      {
+        "label": "Stripe S700 option",
+        "price": "£2/month when there is at least one transaction",
+        "detail": "Supplier states standard processing fees are additional"
+      }
     ]
   },
   "freePlan": "unknown",
@@ -23,22 +42,78 @@
   "demoAvailable": "yes",
   "dataHosting": "GiveTap's published privacy notice says data is stored on encrypted European servers. Ask for the current subprocessor list, precise hosting locations, retention settings, security documentation and current data-processing agreement before use.",
   "gdprInformation": "The supplier's privacy notice distinguishes its controller role for its marketing site from its processor role for a charity customer's platform use. This is supplier documentation, not an assessment of a church's compliance or privacy notice.",
-  "coreFeatures": ["Website donation pages and embeddable donation-button route", "QR and NFC donation points", "Contactless and chip-and-PIN card-reader options", "Tap-to-pay donations on compatible iPhone and Android devices", "Campaign branding and donation amounts", "Donation dashboard and report export", "Supporter fundraising invitations", "Supplier-described Gift Aid configuration and HMRC integration"],
-  "integrations": ["Stripe", "Square for relevant charity payment flows according to the supplier privacy notice", "Apple Pay and Google Pay on website-donation pages according to the supplier"],
-  "importExport": ["Supplier states dashboard donation reports can be exported", "Its terms say a client can arrange a transfer of client information, such as donation reports, before cancellation", "Test the report fields, Gift Aid records and export format with real sample data before committing"],
-  "support": ["Supplier publishes demo, email and help-centre routes", "Current support response and onboarding scope should be agreed before purchase"],
+  "coreFeatures": [
+    "Website donation pages and embeddable donation-button route",
+    "QR and NFC donation points",
+    "Contactless and chip-and-PIN card-reader options",
+    "Tap-to-pay donations on compatible iPhone and Android devices",
+    "Campaign branding and donation amounts",
+    "Donation dashboard and report export",
+    "Supporter fundraising invitations",
+    "Supplier-described Gift Aid configuration and HMRC integration"
+  ],
+  "integrations": [
+    "Stripe",
+    "Square for relevant charity payment flows according to the supplier privacy notice",
+    "Apple Pay and Google Pay on website-donation pages according to the supplier"
+  ],
+  "importExport": [
+    "Supplier states dashboard donation reports can be exported",
+    "Its terms say a client can arrange a transfer of client information, such as donation reports, before cancellation",
+    "Test the report fields, Gift Aid records and export format with real sample data before committing"
+  ],
+  "support": [
+    "Supplier publishes demo, email and help-centre routes",
+    "Current support response and onboarding scope should be agreed before purchase"
+  ],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "GiveTap Limited is an active England-and-Wales private limited company, number 12166824.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/12166824", "checked": "2026-07-25"},
-    "cashless-giving": {"value": "Supplier documents website donation pages, QR/NFC giving, card readers and phone-based contactless donations.", "state": "supplier-published", "source": "https://givetap.co.uk/card", "checked": "2026-07-25"},
-    "published-fee-example": {"value": "Supplier publishes a 2.5% + VAT platform fee and a 1.5% + 10p Stripe in-person processing example for its card-reader rental offer.", "state": "supplier-published", "source": "https://givetap.co.uk/card", "checked": "2026-07-25"},
-    "data-and-exit": {"value": "Supplier privacy notice describes its charity-platform processor role and encrypted European servers; published terms describe cancellation and a pre-cancellation information-transfer arrangement.", "state": "supplier-published", "source": "https://www.givetap.co.uk/assets/terms.pdf", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "GiveTap Limited is an active England-and-Wales private limited company, number 12166824.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/12166824",
+      "checked": "2026-07-25"
+    },
+    "cashless-giving": {
+      "value": "Supplier documents website donation pages, QR/NFC giving, card readers and phone-based contactless donations.",
+      "state": "supplier-published",
+      "source": "https://givetap.co.uk/card",
+      "checked": "2026-07-25"
+    },
+    "published-fee-example": {
+      "value": "Supplier publishes a 2.5% + VAT platform fee and a 1.5% + 10p Stripe in-person processing example for its card-reader rental offer.",
+      "state": "supplier-published",
+      "source": "https://givetap.co.uk/card",
+      "checked": "2026-07-25"
+    },
+    "data-and-exit": {
+      "value": "Supplier privacy notice describes its charity-platform processor role and encrypted European servers; published terms describe cancellation and a pre-cancellation information-transfer arrangement.",
+      "state": "supplier-published",
+      "source": "https://www.givetap.co.uk/assets/terms.pdf",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "GiveTap is a credible UK option when a church needs more than a single website donation button: it combines online pages with QR, NFC, portable card readers and phone-based contactless collection. Its cost depends on the route used, so compare the platform fee, payment-processing fee, hardware charge and VAT across the church's real mix of gifts. The supplier describes Gift Aid configuration and HMRC integration, but the church remains responsible for its declarations, eligibility and claims process.",
-    "bestFor": ["Churches adding contactless giving to services, events and community fundraising", "Teams wanting QR/NFC and web donation journeys alongside physical collection points", "Fundraising teams that want supporters to collect contactless donations through their own compatible phones"],
-    "strengths": ["Active UK company with published privacy notice and platform terms", "Broad online and in-person cashless donation routes", "Published device-rental and fee examples, plus report-export and cancellation information"],
-    "limitations": ["Current public examples do not provide a complete pricing schedule for every online, terminal and Gift Aid use case", "Supplier privacy notice says data is stored in Europe rather than identifying UK-only hosting", "Device compatibility, signal resilience, payment-provider terms and supporter-fee presentation need practical testing"],
-    "procurementVerdict": {"problem": "Giving churches and fundraisers a consistent cashless donation route across a website, services and community events", "differentiator": "A UK platform combining web donations, QR/NFC, card devices and phone-based contactless collection", "firstCheck": "Run a real donation, fee-cover, Gift Aid, report-export and cancellation scenario; then obtain the current pricing and data-processing schedule"}
+    "bestFor": [
+      "Churches adding contactless giving to services, events and community fundraising",
+      "Teams wanting QR/NFC and web donation journeys alongside physical collection points",
+      "Fundraising teams that want supporters to collect contactless donations through their own compatible phones"
+    ],
+    "strengths": [
+      "Active UK company with published privacy notice and platform terms",
+      "Broad online and in-person cashless donation routes",
+      "Published device-rental and fee examples, plus report-export and cancellation information"
+    ],
+    "limitations": [
+      "Current public examples do not provide a complete pricing schedule for every online, terminal and Gift Aid use case",
+      "Supplier privacy notice says data is stored in Europe rather than identifying UK-only hosting",
+      "Device compatibility, signal resilience, payment-provider terms and supporter-fee presentation need practical testing"
+    ],
+    "procurementVerdict": {
+      "problem": "Giving churches and fundraisers a consistent cashless donation route across a website, services and community events",
+      "differentiator": "A UK platform combining web donations, QR/NFC, card devices and phone-based contactless collection",
+      "firstCheck": "Run a real donation, fee-cover, Gift Aid, report-export and cancellation scenario; then obtain the current pricing and data-processing schedule"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -50,14 +125,116 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "GiveTap card and contactless giving", "url": "https://givetap.co.uk/card", "checked": "2026-07-25", "supports": ["Card-reader options", "Rental pricing", "Fee example", "Phone donation route", "Donation management"]},
-    {"label": "GiveTap website donations", "url": "https://www.givetap.co.uk/website", "checked": "2026-07-25", "supports": ["Website donation button", "Gift Aid configuration statement", "Dashboard and reports", "Payment methods"]},
-    {"label": "GiveTap terms and conditions", "url": "https://www.givetap.co.uk/assets/terms.pdf", "checked": "2026-07-25", "supports": ["Operating company", "Cancellation process", "Information-transfer arrangement", "VAT terms"]},
-    {"label": "GiveTap privacy notice", "url": "https://www.givetap.co.uk/privacy.html", "checked": "2026-07-25", "supports": ["Legal identity", "Controller/processor roles", "European-server statement", "Payment-provider context"]},
-    {"label": "Companies House: GiveTap Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/12166824", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
+    {
+      "label": "GiveTap card and contactless giving",
+      "url": "https://givetap.co.uk/card",
+      "checked": "2026-07-25",
+      "supports": [
+        "Card-reader options",
+        "Rental pricing",
+        "Fee example",
+        "Phone donation route",
+        "Donation management"
+      ]
+    },
+    {
+      "label": "GiveTap website donations",
+      "url": "https://www.givetap.co.uk/website",
+      "checked": "2026-07-25",
+      "supports": [
+        "Website donation button",
+        "Gift Aid configuration statement",
+        "Dashboard and reports",
+        "Payment methods"
+      ]
+    },
+    {
+      "label": "GiveTap terms and conditions",
+      "url": "https://www.givetap.co.uk/assets/terms.pdf",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "Cancellation process",
+        "Information-transfer arrangement",
+        "VAT terms"
+      ]
+    },
+    {
+      "label": "GiveTap privacy notice",
+      "url": "https://www.givetap.co.uk/privacy.html",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal identity",
+        "Controller/processor roles",
+        "European-server statement",
+        "Payment-provider context"
+      ]
+    },
+    {
+      "label": "Companies House: GiveTap Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/12166824",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Active status"
+      ]
+    }
   ],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/givetap-payments/id1565321905", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as GiveTap Payments; this directory has not recorded an aggregate rating or review count."}, {"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/givetap-events/id6499212502", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as GiveTap Events; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.givetap", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as GiveTap Payments; this directory has not recorded an aggregate rating or review count."}],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/givetap-payments/id1565321905",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as GiveTap Payments; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/givetap-events/id6499212502",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as GiveTap Events; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.givetap",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as GiveTap Payments; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "GiveTap review for UK churches", "description": "Independent GiveTap profile for UK churches: cashless donation routes, fee examples, website giving, Gift Aid workflow and data questions."}
+  "seo": {
+    "title": "GiveTap review for UK churches",
+    "description": "Independent GiveTap profile for UK churches: cashless donation routes, fee examples, website giving, Gift Aid workflow and data questions."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

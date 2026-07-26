@@ -5,8 +5,15 @@
   "officialWebsite": "https://clearstream.io/",
   "company": "Clearstream",
   "ukFocus": "general",
-  "categories": ["church-communications"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "categories": [
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Churches evaluating dedicated SMS and email communication",
     "Teams needing a separate messaging layer alongside a people database"
@@ -56,9 +63,13 @@
     "NFC tags",
     "Engagement metrics"
   ],
-  "integrations": ["Planning Center"],
+  "integrations": [
+    "Planning Center"
+  ],
   "importExport": [],
-  "support": ["Chat, email, phone and Zoom support"],
+  "support": [
+    "Chat, email, phone and Zoom support"
+  ],
   "editorial": {
     "assessment": "Clearstream is a messaging layer, not a replacement for a governed church people database. UK churches should obtain supplier evidence for number availability, message delivery, costs, consent, opt-out and PECR responsibilities before importing contacts.",
     "bestFor": [
@@ -119,13 +130,21 @@
       "label": "Clearstream pricing",
       "url": "https://clearstream.io/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Pricing", "Credits", "30-day trial", "Support"]
+      "supports": [
+        "Pricing",
+        "Credits",
+        "30-day trial",
+        "Support"
+      ]
     },
     {
       "label": "Clearstream overview",
       "url": "https://clearstream.io/",
       "checked": "2026-07-25",
-      "supports": ["Messaging features", "Planning Center integration"]
+      "supports": [
+        "Messaging features",
+        "Planning Center integration"
+      ]
     }
   ],
   "externalReviews": [
@@ -159,5 +178,29 @@
   "seo": {
     "title": "Clearstream review for UK churches",
     "description": "Independent Clearstream profile for UK churches: SMS pricing, trial, consent and messaging workflow checks, and FAQs."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

@@ -7,18 +7,50 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "general",
   "ukOrganisation": "yes",
-  "categories": ["presentation-software", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches or small groups using backing tracks with lyric projection", "Worship teams that need to adapt song sections, keys, tempos or arrangements live", "Services where one operator needs music, lyrics and an external display in a single app"],
+  "categories": [
+    "presentation-software",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches or small groups using backing tracks with lyric projection",
+    "Worship teams that need to adapt song sections, keys, tempos or arrangements live",
+    "Services where one operator needs music, lyrics and an external display in a single app"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "The supplier publishes individual-song purchases at £3.99 each. It also publishes USD subscriptions: iSingWorship Plus at $16.99/month or $199.99/year, Essential at $12.99/month or $155.88/year, and Upgrade at $5.99/month or $69.99/year. Ask for the payable currency, VAT, licence scope and current payment route before purchase.",
-    "startingPrice": {"amount": 3.99, "currency": "GBP", "period": "transaction", "qualifier": "Individual song purchase according to the supplier"},
+    "startingPrice": {
+      "amount": 3.99,
+      "currency": "GBP",
+      "period": "transaction",
+      "qualifier": "Individual song purchase according to the supplier"
+    },
     "tiers": [
-      {"label": "Individual song", "price": "£3.99", "detail": "One-off song purchase"},
-      {"label": "iSingWorship Plus", "price": "$16.99/month or $199.99/year", "detail": "Supplier lists full library access and flexible app features while subscribed"},
-      {"label": "iSingWorship Essential", "price": "$12.99/month or $155.88/year", "detail": "Supplier lists a simpler preset-arrangement offer"},
-      {"label": "iSingWorship Upgrade", "price": "$5.99/month or $69.99/year", "detail": "Supplier describes feature access without additional music for existing song purchasers"}
+      {
+        "label": "Individual song",
+        "price": "£3.99",
+        "detail": "One-off song purchase"
+      },
+      {
+        "label": "iSingWorship Plus",
+        "price": "$16.99/month or $199.99/year",
+        "detail": "Supplier lists full library access and flexible app features while subscribed"
+      },
+      {
+        "label": "iSingWorship Essential",
+        "price": "$12.99/month or $155.88/year",
+        "detail": "Supplier lists a simpler preset-arrangement offer"
+      },
+      {
+        "label": "iSingWorship Upgrade",
+        "price": "$5.99/month or $69.99/year",
+        "detail": "Supplier describes feature access without additional music for existing song purchasers"
+      }
     ]
   },
   "freePlan": "yes",
@@ -26,22 +58,78 @@
   "demoAvailable": "unknown",
   "dataHosting": "The supplier documents cloud support for synchronising playlists and arrangements between devices, but the public pages reviewed do not establish hosting location, retention or subprocessor detail. Ask for current data and account-closure information if church accounts or user data will be stored.",
   "gdprInformation": "The supplier's app terms link to a privacy and cookies policy, but the public material reviewed here does not establish a detailed current processor or hosting statement. This app normally handles worship assets rather than church member records; avoid uploading personal data unless the supplier terms fit the intended use.",
-  "coreFeatures": ["Congregation-friendly backing tracks", "Lyric projection and external congregation screen", "Song-library purchase and subscriptions", "Playlists and custom song arrangements", "Live section changes, Talk/Soft/Full playback options", "Key and tempo changes", "Chord display", "Custom backgrounds, videos and motion backgrounds", "PC, Mac, iOS and Android availability"],
-  "integrations": ["Stripe for subscriptions according to the supplier", "PowerPoint use on PC according to supplier release notes", "The Worship Zone partner resources for music, chord and lyric formats for other presentation software"],
-  "importExport": ["Supplier points users to The Worship Zone for music, chord and lyric resources in formats for other software", "Test any required song, lyric and licence exports against the church's presentation workflow"],
-  "support": ["Email support is published", "Supplier states it does not offer phone support because it is a small not-for-profit organisation"],
+  "coreFeatures": [
+    "Congregation-friendly backing tracks",
+    "Lyric projection and external congregation screen",
+    "Song-library purchase and subscriptions",
+    "Playlists and custom song arrangements",
+    "Live section changes, Talk/Soft/Full playback options",
+    "Key and tempo changes",
+    "Chord display",
+    "Custom backgrounds, videos and motion backgrounds",
+    "PC, Mac, iOS and Android availability"
+  ],
+  "integrations": [
+    "Stripe for subscriptions according to the supplier",
+    "PowerPoint use on PC according to supplier release notes",
+    "The Worship Zone partner resources for music, chord and lyric formats for other presentation software"
+  ],
+  "importExport": [
+    "Supplier points users to The Worship Zone for music, chord and lyric resources in formats for other software",
+    "Test any required song, lyric and licence exports against the church's presentation workflow"
+  ],
+  "support": [
+    "Email support is published",
+    "Supplier states it does not offer phone support because it is a small not-for-profit organisation"
+  ],
   "decisionEvidence": {
-    "uk-purchasing": {"value": "The active company holding number 09650251 is The Worship Zone Ltd; Companies House records iSingWorship Ltd as its immediately previous name. Supplier terms identify the same number and a UK registered office.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/09650251", "checked": "2026-07-25"},
-    "product-scope": {"value": "Supplier describes flexible backing tracks with lyric projection for churches and small groups, available across desktop and mobile platforms.", "state": "supplier-published", "source": "https://www.isingworship.com/app", "checked": "2026-07-25"},
-    "pricing": {"value": "Supplier publishes £3.99 individual songs and USD subscription prices for Plus, Essential and Upgrade plans.", "state": "supplier-published", "source": "https://www.isingworship.com/subscription", "checked": "2026-07-25"},
-    "terms": {"value": "Supplier app terms identify iSingWorship Ltd, company number 09650251, and link app use to privacy and cookies policies.", "state": "needs-refresh", "source": "https://www.isingworship.com/appTermsAndConditions", "checked": "2026-07-25"}
+    "uk-purchasing": {
+      "value": "The active company holding number 09650251 is The Worship Zone Ltd; Companies House records iSingWorship Ltd as its immediately previous name. Supplier terms identify the same number and a UK registered office.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/09650251",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Supplier describes flexible backing tracks with lyric projection for churches and small groups, available across desktop and mobile platforms.",
+      "state": "supplier-published",
+      "source": "https://www.isingworship.com/app",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes £3.99 individual songs and USD subscription prices for Plus, Essential and Upgrade plans.",
+      "state": "supplier-published",
+      "source": "https://www.isingworship.com/subscription",
+      "checked": "2026-07-25"
+    },
+    "terms": {
+      "value": "Supplier app terms identify iSingWorship Ltd, company number 09650251, and link app use to privacy and cookies policies.",
+      "state": "needs-refresh",
+      "source": "https://www.isingworship.com/appTermsAndConditions",
+      "checked": "2026-07-25"
+    }
   },
   "editorial": {
     "assessment": "iSingWorship is a focused worship-leading and projection tool, not a general slide deck or church-management platform. It is especially relevant where a church needs flexible backing tracks and lyrics without a full live band, or wants to alter arrangement, key or tempo during worship. The active company name has changed, and subscription prices are displayed in USD despite the UK organisation, so ask for the payable price, music licence scope and device limits before adopting it.",
-    "bestFor": ["Small churches and groups using backing tracks with projected lyrics", "Worship teams that want flexible song arrangement, key and tempo control", "Teams wanting an app that runs across common desktop and mobile devices"],
-    "strengths": ["Active UK not-for-profit company with a documented company-number continuity", "Distinctive backing-track and live-arrangement workflow", "Individual-song and subscription routes, with broad device support"],
-    "limitations": ["Not a general-purpose presentation, livestreaming or church-administration system", "Subscription prices are displayed in USD and purchase/licensing terms need a live checkout check", "Current detailed hosting, privacy and account-deletion information was not established in this review"],
-    "procurementVerdict": {"problem": "Delivering sung worship with adaptable backing tracks and lyrics when a full band or complex production stack is impractical", "differentiator": "A UK-developed app that combines backing tracks, lyric projection and live arrangement controls", "firstCheck": "Run a complete service with the intended display, songs and licences, including a live key or section change and an offline contingency"}
+    "bestFor": [
+      "Small churches and groups using backing tracks with projected lyrics",
+      "Worship teams that want flexible song arrangement, key and tempo control",
+      "Teams wanting an app that runs across common desktop and mobile devices"
+    ],
+    "strengths": [
+      "Active UK not-for-profit company with a documented company-number continuity",
+      "Distinctive backing-track and live-arrangement workflow",
+      "Individual-song and subscription routes, with broad device support"
+    ],
+    "limitations": [
+      "Not a general-purpose presentation, livestreaming or church-administration system",
+      "Subscription prices are displayed in USD and purchase/licensing terms need a live checkout check",
+      "Current detailed hosting, privacy and account-deletion information was not established in this review"
+    ],
+    "procurementVerdict": {
+      "problem": "Delivering sung worship with adaptable backing tracks and lyrics when a full band or complex production stack is impractical",
+      "differentiator": "A UK-developed app that combines backing tracks, lyric projection and live arrangement controls",
+      "firstCheck": "Run a complete service with the intended display, songs and licences, including a live key or section change and an offline contingency"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -53,12 +141,80 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "iSingWorship app overview", "url": "https://www.isingworship.com/app", "checked": "2026-07-25", "supports": ["Worship focus", "Lyric projection", "Platform availability", "Individual-song price", "Streaming statement"]},
-    {"label": "iSingWorship subscriptions", "url": "https://www.isingworship.com/subscription", "checked": "2026-07-25", "supports": ["Subscription prices", "Plan features", "Stripe payments", "UK non-profit statement"]},
-    {"label": "iSingWorship app terms", "url": "https://www.isingworship.com/appTermsAndConditions", "checked": "2026-07-25", "supports": ["Former operating name", "Company number", "UK registered office", "App terms"]},
-    {"label": "Companies House: The Worship Zone Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/09650251", "checked": "2026-07-25", "supports": ["Current legal name", "Company-number continuity", "Active status", "Prior iSingWorship name"]}
+    {
+      "label": "iSingWorship app overview",
+      "url": "https://www.isingworship.com/app",
+      "checked": "2026-07-25",
+      "supports": [
+        "Worship focus",
+        "Lyric projection",
+        "Platform availability",
+        "Individual-song price",
+        "Streaming statement"
+      ]
+    },
+    {
+      "label": "iSingWorship subscriptions",
+      "url": "https://www.isingworship.com/subscription",
+      "checked": "2026-07-25",
+      "supports": [
+        "Subscription prices",
+        "Plan features",
+        "Stripe payments",
+        "UK non-profit statement"
+      ]
+    },
+    {
+      "label": "iSingWorship app terms",
+      "url": "https://www.isingworship.com/appTermsAndConditions",
+      "checked": "2026-07-25",
+      "supports": [
+        "Former operating name",
+        "Company number",
+        "UK registered office",
+        "App terms"
+      ]
+    },
+    {
+      "label": "Companies House: The Worship Zone Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09650251",
+      "checked": "2026-07-25",
+      "supports": [
+        "Current legal name",
+        "Company-number continuity",
+        "Active status",
+        "Prior iSingWorship name"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "iSingWorship review for UK churches", "description": "Independent iSingWorship profile: UK worship backing tracks, lyric projection, live song control, licensing and pricing questions."}
+  "seo": {
+    "title": "iSingWorship review for UK churches",
+    "description": "Independent iSingWorship profile: UK worship backing tracks, lyric projection, live song control, licensing and pricing questions."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

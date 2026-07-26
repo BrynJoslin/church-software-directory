@@ -5,8 +5,15 @@
   "officialWebsite": "https://www.aplos.com/",
   "company": "Aplos Software",
   "ukFocus": "general",
-  "categories": ["church-accounting", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large"],
+  "categories": [
+    "church-accounting",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
   "suitableContexts": [
     "Churches evaluating fund-accounting software",
     "Treasurers needing financial reports by fund"
@@ -58,10 +65,15 @@
   ],
   "integrations": [],
   "importExport": [],
-  "support": ["Email, phone and chat support", "Training webinars"],
+  "support": [
+    "Email, phone and chat support",
+    "Training webinars"
+  ],
   "editorial": {
     "assessment": "Aplos is primarily a fund-accounting decision. Its US-dollar pricing and US nonprofit features mean a UK church should validate VAT, Gift Aid, statutory reporting, bank connections and accountant workflow before using it as its ledger.",
-    "bestFor": ["Treasurers needing fund accounting and board reporting"],
+    "bestFor": [
+      "Treasurers needing fund accounting and board reporting"
+    ],
     "strengths": [
       "Published plan structure and 15-day trial",
       "Fund-accounting reporting is central to the product"
@@ -116,13 +128,22 @@
       "label": "Aplos pricing",
       "url": "https://www.aplos.com/pricing",
       "checked": "2026-07-25",
-      "supports": ["Pricing", "Fund accounting", "Features", "Support"]
+      "supports": [
+        "Pricing",
+        "Fund accounting",
+        "Features",
+        "Support"
+      ]
     },
     {
       "label": "Aplos free trial",
       "url": "https://www.aplos.com/free-trial",
       "checked": "2026-07-25",
-      "supports": ["15-day trial", "No-card trial", "Plan details"]
+      "supports": [
+        "15-day trial",
+        "No-card trial",
+        "Plan details"
+      ]
     }
   ],
   "affiliateRelationship": "no",
@@ -130,5 +151,29 @@
   "seo": {
     "title": "Aplos review for UK churches",
     "description": "Independent Aplos profile for UK churches: fund accounting, pricing, trial, UK finance checks and FAQs."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

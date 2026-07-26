@@ -7,16 +7,41 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-accounting", "online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches needing UK charity fund accounting and payroll", "Church of England parishes preparing Return of Parish Finance information", "Treasurers managing Gift Aid, GASDS, donor ledgers, funds and SoFA reports"],
+  "categories": [
+    "church-accounting",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches needing UK charity fund accounting and payroll",
+    "Church of England parishes preparing Return of Parish Finance information",
+    "Treasurers managing Gift Aid, GASDS, donor ledgers, funds and SoFA reports"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Liberty Accounts publishes welcome pricing from £14.95 plus VAT per month for businesses and charities, with scalable pricing for established organisations. Confirm the applicable charity package, user limits, payroll, implementation, add-ons, VAT and cancellation terms before purchase.",
-    "startingPrice": {"amount": 14.95, "currency": "GBP", "period": "month", "qualifier": "Supplier's published welcome price; plus VAT"},
+    "startingPrice": {
+      "amount": 14.95,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Supplier's published welcome price; plus VAT"
+    },
     "tiers": [
-      {"label": "Welcome pricing", "price": "From £14.95 + VAT/month", "detail": "Supplier's published starting price for businesses and charities."},
-      {"label": "Established organisation", "price": "Contact supplier", "detail": "Supplier describes scalable pricing; current scope and price depend on the organisation."}
+      {
+        "label": "Welcome pricing",
+        "price": "From £14.95 + VAT/month",
+        "detail": "Supplier's published starting price for businesses and charities."
+      },
+      {
+        "label": "Established organisation",
+        "price": "Contact supplier",
+        "detail": "Supplier describes scalable pricing; current scope and price depend on the organisation."
+      }
     ]
   },
   "freePlan": "no",
@@ -24,15 +49,54 @@
   "giftAid": "yes",
   "demoAvailable": "unknown",
   "gdprInformation": "The reviewed product pages establish a UK operator and church-accounting functionality, but do not provide enough current detail about hosting, sub-processors, retention, access controls, breach handling, deletion or exit. Request the current data-processing agreement and security material before uploading donor, payroll or financial records.",
-  "coreFeatures": ["Fund accounting", "Bank reconciliation", "Budgeting", "Online expense management and approvals", "Payroll", "Donor ledger", "Gift Aid claims", "Gift Aid Small Donations Scheme support", "Statement of Financial Activities reports", "Church of England Return of Parish Finance support"],
-  "integrations": ["Supplier help describes a donation upload process for external donation aggregators"],
-  "importExport": ["Supplier documents a donation upload process for external donation aggregators", "Confirm the required general-ledger, donor, Gift Aid, payroll and archive exports before migration"],
-  "support": ["Supplier publishes help material for charity and church treasurers", "Implementation, migration, support hours and accountant access should be confirmed in the current proposal"],
+  "coreFeatures": [
+    "Fund accounting",
+    "Bank reconciliation",
+    "Budgeting",
+    "Online expense management and approvals",
+    "Payroll",
+    "Donor ledger",
+    "Gift Aid claims",
+    "Gift Aid Small Donations Scheme support",
+    "Statement of Financial Activities reports",
+    "Church of England Return of Parish Finance support"
+  ],
+  "integrations": [
+    "Supplier help describes a donation upload process for external donation aggregators"
+  ],
+  "importExport": [
+    "Supplier documents a donation upload process for external donation aggregators",
+    "Confirm the required general-ledger, donor, Gift Aid, payroll and archive exports before migration"
+  ],
+  "support": [
+    "Supplier publishes help material for charity and church treasurers",
+    "Implementation, migration, support hours and accountant access should be confirmed in the current proposal"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records Liberty Accounts Limited, number 04907629, as an active England-and-Wales company.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/04907629", "checked": "2026-07-25"},
-    "church-finance-scope": {"value": "Supplier describes fund accounting, payroll, VAT, donor ledger, Gift Aid and GASDS claims, SoFA reporting and Return of Parish Finance for Anglican churches.", "state": "supplier-published", "source": "https://www.libertyaccounts.com/accounting/charity/cloud-accounting-payroll-charity-software.jsp", "checked": "2026-07-25"},
-    "church-workflow": {"value": "Supplier's help material specifically addresses handling regular church collections, Gift Aid envelopes, card-reader postings and charity or church setup.", "state": "supplier-published", "source": "https://help.libertyaccounts.com/topics/setting_up_a_nfp.jsp", "checked": "2026-07-25"},
-    "published-pricing": {"value": "Supplier publishes welcome pricing from £14.95 plus VAT per month for businesses and charities.", "state": "supplier-published", "source": "https://www.libertyaccounts.com/", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records Liberty Accounts Limited, number 04907629, as an active England-and-Wales company.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/04907629",
+      "checked": "2026-07-25"
+    },
+    "church-finance-scope": {
+      "value": "Supplier describes fund accounting, payroll, VAT, donor ledger, Gift Aid and GASDS claims, SoFA reporting and Return of Parish Finance for Anglican churches.",
+      "state": "supplier-published",
+      "source": "https://www.libertyaccounts.com/accounting/charity/cloud-accounting-payroll-charity-software.jsp",
+      "checked": "2026-07-25"
+    },
+    "church-workflow": {
+      "value": "Supplier's help material specifically addresses handling regular church collections, Gift Aid envelopes, card-reader postings and charity or church setup.",
+      "state": "supplier-published",
+      "source": "https://help.libertyaccounts.com/topics/setting_up_a_nfp.jsp",
+      "checked": "2026-07-25"
+    },
+    "published-pricing": {
+      "value": "Supplier publishes welcome pricing from £14.95 plus VAT per month for businesses and charities.",
+      "state": "supplier-published",
+      "source": "https://www.libertyaccounts.com/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -44,20 +108,111 @@
   },
   "editorial": {
     "assessment": "Liberty Accounts is a UK charity-accounting and payroll product with explicit church workflows, rather than a complete church-management system. It is particularly relevant where a church needs charity finance capabilities including funds, Gift Aid, GASDS and formal reporting, with Church of England Return of Parish Finance support. It should be assessed alongside the church's independent accounting advice, existing payment tools and controls for donor and payroll data.",
-    "bestFor": ["Churches prioritising UK charity fund accounting and formal financial reports", "Anglican parishes needing a Return of Parish Finance workflow", "Treasurers needing Gift Aid, GASDS and a donor ledger within an accounting system"],
-    "strengths": ["Active UK software supplier", "Published charity and church accounting scope", "Fund accounting, donor ledger, Gift Aid, GASDS and SoFA reporting are documented", "Church-specific help material covers regular collections and payment postings", "Published starting GBP price"],
-    "limitations": ["It is not a church people database, worship planner, safeguarding system or general communications platform", "Public pricing is a starting point rather than a complete church package", "The reviewed public pages do not establish current detailed data-processing, hosting, sub-processor or exit arrangements", "Churches should obtain appropriate accounting advice for their own reporting and tax position"],
-    "procurementVerdict": {"problem": "Running UK church and charity finance with fund, donor, Gift Aid and formal-reporting requirements", "differentiator": "A UK accounting product that explicitly documents church collection workflows and Church of England Return of Parish Finance support", "firstCheck": "Map a real month-end: collections, bank reconciliation, restricted funds, expense approval, Gift Aid/GASDS, payroll, trustee reporting and exports for the accountant"}
+    "bestFor": [
+      "Churches prioritising UK charity fund accounting and formal financial reports",
+      "Anglican parishes needing a Return of Parish Finance workflow",
+      "Treasurers needing Gift Aid, GASDS and a donor ledger within an accounting system"
+    ],
+    "strengths": [
+      "Active UK software supplier",
+      "Published charity and church accounting scope",
+      "Fund accounting, donor ledger, Gift Aid, GASDS and SoFA reporting are documented",
+      "Church-specific help material covers regular collections and payment postings",
+      "Published starting GBP price"
+    ],
+    "limitations": [
+      "It is not a church people database, worship planner, safeguarding system or general communications platform",
+      "Public pricing is a starting point rather than a complete church package",
+      "The reviewed public pages do not establish current detailed data-processing, hosting, sub-processor or exit arrangements",
+      "Churches should obtain appropriate accounting advice for their own reporting and tax position"
+    ],
+    "procurementVerdict": {
+      "problem": "Running UK church and charity finance with fund, donor, Gift Aid and formal-reporting requirements",
+      "differentiator": "A UK accounting product that explicitly documents church collection workflows and Church of England Return of Parish Finance support",
+      "firstCheck": "Map a real month-end: collections, bank reconciliation, restricted funds, expense approval, Gift Aid/GASDS, payroll, trustee reporting and exports for the accountant"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Liberty Accounts overview and pricing", "url": "https://www.libertyaccounts.com/", "checked": "2026-07-25", "supports": ["UK business, charity and church positioning", "Published starting price", "Accounting and payroll scope"]},
-    {"label": "Liberty Accounts charity software", "url": "https://www.libertyaccounts.com/accounting/charity/cloud-accounting-payroll-charity-software.jsp", "checked": "2026-07-25", "supports": ["Fund accounting", "Gift Aid and GASDS", "SoFA", "Return of Parish Finance"]},
-    {"label": "Liberty Accounts charity and church setup help", "url": "https://help.libertyaccounts.com/topics/setting_up_a_nfp.jsp", "checked": "2026-07-25", "supports": ["Church collection workflow", "Charity and church setup"]},
-    {"label": "Liberty Accounts charity and church treasurer manual", "url": "https://help.libertyaccounts.com/topics/Charity%20or%20Church%20Treasurers%20Manual.jsp", "checked": "2026-07-25", "supports": ["Donor ledger", "Gift Aid claims", "Donation upload process"]},
-    {"label": "Companies House: Liberty Accounts Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/04907629", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
+    {
+      "label": "Liberty Accounts overview and pricing",
+      "url": "https://www.libertyaccounts.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK business, charity and church positioning",
+        "Published starting price",
+        "Accounting and payroll scope"
+      ]
+    },
+    {
+      "label": "Liberty Accounts charity software",
+      "url": "https://www.libertyaccounts.com/accounting/charity/cloud-accounting-payroll-charity-software.jsp",
+      "checked": "2026-07-25",
+      "supports": [
+        "Fund accounting",
+        "Gift Aid and GASDS",
+        "SoFA",
+        "Return of Parish Finance"
+      ]
+    },
+    {
+      "label": "Liberty Accounts charity and church setup help",
+      "url": "https://help.libertyaccounts.com/topics/setting_up_a_nfp.jsp",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church collection workflow",
+        "Charity and church setup"
+      ]
+    },
+    {
+      "label": "Liberty Accounts charity and church treasurer manual",
+      "url": "https://help.libertyaccounts.com/topics/Charity%20or%20Church%20Treasurers%20Manual.jsp",
+      "checked": "2026-07-25",
+      "supports": [
+        "Donor ledger",
+        "Gift Aid claims",
+        "Donation upload process"
+      ]
+    },
+    {
+      "label": "Companies House: Liberty Accounts Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04907629",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Active status"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Liberty Accounts review for UK churches", "description": "Independent Liberty Accounts profile: UK church fund accounting, Gift Aid, GASDS, SoFA, parish-finance reporting and procurement checks."}
+  "seo": {
+    "title": "Liberty Accounts review for UK churches",
+    "description": "Independent Liberty Accounts profile: UK church fund accounting, Gift Aid, GASDS, SoFA, parish-finance reporting and procurement checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

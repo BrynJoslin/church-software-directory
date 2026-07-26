@@ -7,35 +7,186 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["online-giving"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Church charities that need Gift Aid and GASDS workflows alongside several donation channels", "Churches migrating existing donation records by CSV", "Churches wanting to automate or reduce manual Charity Online claim administration"],
-  "pricing": {"model": "tiered", "summary": "The Donation App advertises plans from £9 per month after a free 14-day trial, with custom pricing for more than 10,500 unique donors. It describes Bronze, Silver and Gold workflow tiers but the reviewed search material does not establish all live tier prices, payment-processing charges, VAT, contract or cancellation conditions; obtain these in writing.", "startingPrice": {"amount": 9, "currency": "GBP", "period": "month", "qualifier": "advertised starting price after 14-day trial"}, "tiers": [{"label": "Bronze", "price": "Contact supplier", "detail": "CSV donation import and Gift Aid claims in three clicks."}, {"label": "Silver", "price": "Contact supplier", "detail": "Integrated payments and described automated Gift Aid workflow."}, {"label": "Gold", "price": "Contact supplier", "detail": "Supplier describes combined own-channel and platform payments, cash management, CSV import and Gift Aid or GASDS claims."}], "trialDetails": "Supplier advertises a free 14-day Gift Aid automation trial and onboarding help for historic Gift Aid backlogs."},
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church charities that need Gift Aid and GASDS workflows alongside several donation channels",
+    "Churches migrating existing donation records by CSV",
+    "Churches wanting to automate or reduce manual Charity Online claim administration"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "The Donation App advertises plans from £9 per month after a free 14-day trial, with custom pricing for more than 10,500 unique donors. It describes Bronze, Silver and Gold workflow tiers but the reviewed search material does not establish all live tier prices, payment-processing charges, VAT, contract or cancellation conditions; obtain these in writing.",
+    "startingPrice": {
+      "amount": 9,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "advertised starting price after 14-day trial"
+    },
+    "tiers": [
+      {
+        "label": "Bronze",
+        "price": "Contact supplier",
+        "detail": "CSV donation import and Gift Aid claims in three clicks."
+      },
+      {
+        "label": "Silver",
+        "price": "Contact supplier",
+        "detail": "Integrated payments and described automated Gift Aid workflow."
+      },
+      {
+        "label": "Gold",
+        "price": "Contact supplier",
+        "detail": "Supplier describes combined own-channel and platform payments, cash management, CSV import and Gift Aid or GASDS claims."
+      }
+    ],
+    "trialDetails": "Supplier advertises a free 14-day Gift Aid automation trial and onboarding help for historic Gift Aid backlogs."
+  },
   "freePlan": "no",
   "freeTrial": "yes",
   "demoAvailable": "yes",
   "gdprInformation": "The Donation App publishes a privacy notice with rights requests through the account or apps@abacusaps.uk. Its own feature pages describe online payments, bank transfer, cash and donor information, so a church should obtain the current controller-processor allocation, DPA, payment-provider terms, hosting location, sub-processors, retention schedule, access controls, breach process and export procedure before loading donor records.",
-  "coreFeatures": ["Gift Aid and GASDS claim workflows", "Online donation forms", "Card and e-wallet payments", "Integrated bank transfer", "Contactless-payment workflow", "Cash donation management", "CSV donation import", "Donor and donation dashboard", "Automated or three-click claim paths", "Donation reporting"],
-  "integrations": ["Supplier describes integrated card, e-wallet and bank-transfer donation routes", "Request current payment-provider, accounting, CRM and web integration documentation"],
-  "importExport": ["Gift Aid-ready CSV template for donation imports", "Request full donor, donation, declaration, claim, payment, audit-trail and attachment export specifications"],
-  "support": ["Supplier offers an eight-minute demo video and an instant-demo route", "Supplier describes a dedicated onboarding team during the trial", "Request support hours, response commitments and migration scope"],
+  "coreFeatures": [
+    "Gift Aid and GASDS claim workflows",
+    "Online donation forms",
+    "Card and e-wallet payments",
+    "Integrated bank transfer",
+    "Contactless-payment workflow",
+    "Cash donation management",
+    "CSV donation import",
+    "Donor and donation dashboard",
+    "Automated or three-click claim paths",
+    "Donation reporting"
+  ],
+  "integrations": [
+    "Supplier describes integrated card, e-wallet and bank-transfer donation routes",
+    "Request current payment-provider, accounting, CRM and web integration documentation"
+  ],
+  "importExport": [
+    "Gift Aid-ready CSV template for donation imports",
+    "Request full donor, donation, declaration, claim, payment, audit-trail and attachment export specifications"
+  ],
+  "support": [
+    "Supplier offers an eight-minute demo video and an instant-demo route",
+    "Supplier describes a dedicated onboarding team during the trial",
+    "Request support hours, response commitments and migration scope"
+  ],
   "decisionEvidence": {
-    "uk-operator": {"value": "Companies House records ABACUS APPS LIMITED (11757195) as an active English private limited company. The product site and current HMRC supplier list name Abacus Apps Limited as the supplier.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/11757195", "checked": "2026-07-25"},
-    "hmrc-recognition": {"value": "HMRC's current commercial Charities Online supplier list names Abacus Apps Limited and The Donation App, identifying suppliers that have provided evidence of software able to interact with Charities Online.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"},
-    "pricing": {"value": "Supplier advertises Gift Aid automation from £9 per month after a 14-day trial and says custom pricing applies above 10,500 unique donors.", "state": "supplier-published", "source": "https://www.thedonationapp.com/pricing", "checked": "2026-07-25"},
-    "giving-and-claim-workflows": {"value": "Supplier documents card, e-wallet, bank-transfer, contactless, cash and CSV donation workflows, alongside Gift Aid and GASDS claims.", "state": "supplier-published", "source": "https://www.thedonationapp.com/features", "checked": "2026-07-25"}
+    "uk-operator": {
+      "value": "Companies House records ABACUS APPS LIMITED (11757195) as an active English private limited company. The product site and current HMRC supplier list name Abacus Apps Limited as the supplier.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/11757195",
+      "checked": "2026-07-25"
+    },
+    "hmrc-recognition": {
+      "value": "HMRC's current commercial Charities Online supplier list names Abacus Apps Limited and The Donation App, identifying suppliers that have provided evidence of software able to interact with Charities Online.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier advertises Gift Aid automation from £9 per month after a 14-day trial and says custom pricing applies above 10,500 unique donors.",
+      "state": "supplier-published",
+      "source": "https://www.thedonationapp.com/pricing",
+      "checked": "2026-07-25"
+    },
+    "giving-and-claim-workflows": {
+      "value": "Supplier documents card, e-wallet, bank-transfer, contactless, cash and CSV donation workflows, alongside Gift Aid and GASDS claims.",
+      "state": "supplier-published",
+      "source": "https://www.thedonationapp.com/features",
+      "checked": "2026-07-25"
+    }
   },
-  "editorial": {"assessment": "The Donation App is a UK charity-giving and Gift Aid specialist rather than a full church-management platform. Its breadth across bank transfer, cash, online and contactless donations is potentially useful for churches with fragmented giving records, while its HMRC supplier listing is useful external evidence for the claim connection. The published site makes ambitious automation claims; a church should prove its exact declaration, reconciliation, payment and access-control workflows in a controlled trial before moving live donor data.", "bestFor": ["Church charities needing to combine Gift Aid, GASDS and several donation channels", "Treasurers reducing manual bank-transfer and spreadsheet claim administration", "Churches able to test the live export, reconciliation and payment workflow before migration"], "strengths": ["Active UK supplier and current HMRC Charities Online listing", "Published entry price and 14-day trial", "Multiple donation channels plus CSV import and cash workflow", "Supplier documents both automated and hybrid claim routes"], "limitations": ["General charity product, not church-management, pastoral-care or safeguarding software", "Full tier prices, card or payment fees, VAT and contract terms require a current written quote", "No public product DPA, sub-processor list, hosting detail or full export specification found", "Supplier claims about automation and data security should be tested against the church's own controls"], "procurementVerdict": {"problem": "Joining online, bank-transfer, cash and contactless donations with a manageable UK Gift Aid process", "differentiator": "A UK charity giving platform that explicitly combines GASDS, bank-transfer and CSV workflows with Gift Aid claims", "firstCheck": "Run the 14-day trial using a small non-sensitive sample, reconcile one representative donation of each intended type, inspect the HMRC claim output and obtain written payment, DPA, export, access-control and fee information before importing historical donor data"}},
+  "editorial": {
+    "assessment": "The Donation App is a UK charity-giving and Gift Aid specialist rather than a full church-management platform. Its breadth across bank transfer, cash, online and contactless donations is potentially useful for churches with fragmented giving records, while its HMRC supplier listing is useful external evidence for the claim connection. The published site makes ambitious automation claims; a church should prove its exact declaration, reconciliation, payment and access-control workflows in a controlled trial before moving live donor data.",
+    "bestFor": [
+      "Church charities needing to combine Gift Aid, GASDS and several donation channels",
+      "Treasurers reducing manual bank-transfer and spreadsheet claim administration",
+      "Churches able to test the live export, reconciliation and payment workflow before migration"
+    ],
+    "strengths": [
+      "Active UK supplier and current HMRC Charities Online listing",
+      "Published entry price and 14-day trial",
+      "Multiple donation channels plus CSV import and cash workflow",
+      "Supplier documents both automated and hybrid claim routes"
+    ],
+    "limitations": [
+      "General charity product, not church-management, pastoral-care or safeguarding software",
+      "Full tier prices, card or payment fees, VAT and contract terms require a current written quote",
+      "No public product DPA, sub-processor list, hosting detail or full export specification found",
+      "Supplier claims about automation and data security should be tested against the church's own controls"
+    ],
+    "procurementVerdict": {
+      "problem": "Joining online, bank-transfer, cash and contactless donations with a manageable UK Gift Aid process",
+      "differentiator": "A UK charity giving platform that explicitly combines GASDS, bank-transfer and CSV workflows with Gift Aid claims",
+      "firstCheck": "Run the 14-day trial using a small non-sensitive sample, reconcile one representative donation of each intended type, inspect the HMRC claim output and obtain written payment, DPA, export, access-control and fee information before importing historical donor data"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "The Donation App features", "url": "https://www.thedonationapp.com/features", "checked": "2026-07-25", "supports": ["Donation methods", "Gift Aid", "GASDS", "CSV import", "Tier scope"]},
-    {"label": "The Donation App pricing", "url": "https://www.thedonationapp.com/pricing", "checked": "2026-07-25", "supports": ["GBP starting price", "Trial", "Custom-pricing threshold"]},
-    {"label": "The Donation App privacy", "url": "https://www.thedonationapp.com/privacy", "checked": "2026-07-25", "supports": ["Privacy rights", "Account-data request route"]},
-    {"label": "HMRC commercial Charities Online suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Supplier and product listing", "Charities Online evidence context"]},
-    {"label": "Companies House: ABACUS APPS LIMITED", "url": "https://find-and-update.company-information.service.gov.uk/company/11757195", "checked": "2026-07-25", "supports": ["UK company record", "Active status"]}
+    {
+      "label": "The Donation App features",
+      "url": "https://www.thedonationapp.com/features",
+      "checked": "2026-07-25",
+      "supports": [
+        "Donation methods",
+        "Gift Aid",
+        "GASDS",
+        "CSV import",
+        "Tier scope"
+      ]
+    },
+    {
+      "label": "The Donation App pricing",
+      "url": "https://www.thedonationapp.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "GBP starting price",
+        "Trial",
+        "Custom-pricing threshold"
+      ]
+    },
+    {
+      "label": "The Donation App privacy",
+      "url": "https://www.thedonationapp.com/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Privacy rights",
+        "Account-data request route"
+      ]
+    },
+    {
+      "label": "HMRC commercial Charities Online suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier and product listing",
+        "Charities Online evidence context"
+      ]
+    },
+    {
+      "label": "Companies House: ABACUS APPS LIMITED",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11757195",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company record",
+        "Active status"
+      ]
+    }
   ],
-  "affiliateRelationship": "no", "sponsored": false,
-  "seo": {"title": "The Donation App review for UK churches", "description": "Independent The Donation App profile: UK Gift Aid automation, donation channels, pricing and data checks."},
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "The Donation App review for UK churches",
+    "description": "Independent The Donation App profile: UK Gift Aid automation, donation channels, pricing and data checks."
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/the-donation-app/the-donation-app-logo.webp",
@@ -43,5 +194,29 @@
       "source": "https://images.squarespace-cdn.com/content/v1/614be91d66d6d5295b9c39b1/e7a6b599-d416-4348-81f3-134c62d25491/favicon.ico?format=100w",
       "checked": "2026-07-26"
     }
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

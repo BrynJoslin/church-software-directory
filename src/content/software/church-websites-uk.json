@@ -7,31 +7,98 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "unknown",
-  "categories": ["church-websites", "church-communications", "sermon-hosting"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["UK churches seeking a managed public website with hosting and support", "Churches publishing sermons, events, news and contact forms", "Ministries wanting a website service from a church-focused UK supplier"],
+  "categories": [
+    "church-websites",
+    "church-communications",
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches seeking a managed public website with hosting and support",
+    "Churches publishing sermons, events, news and contact forms",
+    "Ministries wanting a website service from a church-focused UK supplier"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Published pricing lists a Basic plan at £29.99/month plus a £150 setup fee, or £299.99/year plus setup; and a Pro plan at £49.99/month plus a £250 setup fee, or £499.99/year plus setup. The supplier says UK prices are subject to VAT. Reconfirm the current package, domain, email, storage, mobile-app, payment and cancellation terms in writing before ordering.",
-    "startingPrice": {"amount": 29.99, "currency": "GBP", "period": "month", "qualifier": "Basic plan, plus a published £150 setup fee and VAT where applicable"},
+    "startingPrice": {
+      "amount": 29.99,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Basic plan, plus a published £150 setup fee and VAT where applicable"
+    },
     "tiers": [
-      {"label": "Basic", "price": "£29.99/month + £150 setup", "detail": "Supplier also lists £299.99/year plus the setup fee."},
-      {"label": "Pro", "price": "£49.99/month + £250 setup", "detail": "Supplier also lists £499.99/year plus the setup fee and describes e-commerce support."}
+      {
+        "label": "Basic",
+        "price": "£29.99/month + £150 setup",
+        "detail": "Supplier also lists £299.99/year plus the setup fee."
+      },
+      {
+        "label": "Pro",
+        "price": "£49.99/month + £250 setup",
+        "detail": "Supplier also lists £499.99/year plus the setup fee and describes e-commerce support."
+      }
     ]
   },
   "freePlan": "no",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
   "gdprInformation": "The reviewed pages do not establish a current product-specific DPA, hosting location, sub-processor list, retention schedule or controller/processor allocation for church website content, forms, email accounts or any linked giving service. Obtain these in writing and avoid placing sensitive pastoral, safeguarding or children’s data in public-site forms without an appropriate local process.",
-  "coreFeatures": ["Managed hosting", "Custom church website design", "Responsive layouts", "Events calendar", "Sermon and media publishing", "News and blog publishing", "Custom forms", "Email accounts", "Support ticket system", "Church-focused mobile-app services"],
-  "integrations": ["ChurchGiving UK integration is advertised", "GoCardless is named as the supplier’s Direct Debit payment processor"],
-  "importExport": ["Supplier states that, after cancellation notice, it will export content and data for download", "Supplier states that the subscription website design remains its property", "Confirm exact export formats, media completeness, domain transfer and timing before adoption"],
-  "support": ["Supplier advertises email, telephone and support-site support", "Supplier states support is included with the monthly subscription"],
+  "coreFeatures": [
+    "Managed hosting",
+    "Custom church website design",
+    "Responsive layouts",
+    "Events calendar",
+    "Sermon and media publishing",
+    "News and blog publishing",
+    "Custom forms",
+    "Email accounts",
+    "Support ticket system",
+    "Church-focused mobile-app services"
+  ],
+  "integrations": [
+    "ChurchGiving UK integration is advertised",
+    "GoCardless is named as the supplier’s Direct Debit payment processor"
+  ],
+  "importExport": [
+    "Supplier states that, after cancellation notice, it will export content and data for download",
+    "Supplier states that the subscription website design remains its property",
+    "Confirm exact export formats, media completeness, domain transfer and timing before adoption"
+  ],
+  "support": [
+    "Supplier advertises email, telephone and support-site support",
+    "Supplier states support is included with the monthly subscription"
+  ],
   "decisionEvidence": {
-    "uk-operator-context": {"value": "The supplier describes ChurchWebsites UK as part of MediaWorkx Creative Digital, based in Coventry, United Kingdom, and publishes a Coventry contact address and UK telephone number.", "state": "supplier-published", "source": "https://www.churchwebsitesuk.com/about-us/", "checked": "2026-07-25"},
-    "pricing": {"value": "Published pricing lists Basic and Pro monthly and annual subscriptions with separate setup fees and states that UK prices are subject to VAT.", "state": "supplier-published", "source": "https://www.churchwebsitesuk.com/pricing/", "checked": "2026-07-25"},
-    "product-scope": {"value": "Supplier lists church-specific website capabilities including sermons, events, custom forms, livestream player, social links, blog publishing and media tools.", "state": "supplier-published", "source": "https://www.churchwebsitesuk.com/on-websites/", "checked": "2026-07-25"},
-    "exit-and-support": {"value": "Supplier says it can export customer content and data following cancellation, while retaining ownership of the subscription website design; it also describes included email, telephone and support-site assistance.", "state": "supplier-published", "source": "https://www.churchwebsitesuk.com/faqs/", "checked": "2026-07-25"}
+    "uk-operator-context": {
+      "value": "The supplier describes ChurchWebsites UK as part of MediaWorkx Creative Digital, based in Coventry, United Kingdom, and publishes a Coventry contact address and UK telephone number.",
+      "state": "supplier-published",
+      "source": "https://www.churchwebsitesuk.com/about-us/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Published pricing lists Basic and Pro monthly and annual subscriptions with separate setup fees and states that UK prices are subject to VAT.",
+      "state": "supplier-published",
+      "source": "https://www.churchwebsitesuk.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "product-scope": {
+      "value": "Supplier lists church-specific website capabilities including sermons, events, custom forms, livestream player, social links, blog publishing and media tools.",
+      "state": "supplier-published",
+      "source": "https://www.churchwebsitesuk.com/on-websites/",
+      "checked": "2026-07-25"
+    },
+    "exit-and-support": {
+      "value": "Supplier says it can export customer content and data following cancellation, while retaining ownership of the subscription website design; it also describes included email, telephone and support-site assistance.",
+      "state": "supplier-published",
+      "source": "https://www.churchwebsitesuk.com/faqs/",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -43,19 +110,102 @@
   },
   "editorial": {
     "assessment": "ChurchWebsites UK is a church-focused managed website subscription, rather than a general church-management system. It is relevant where a church wants a public site, hosting, media publishing and supplier support bundled together, and its published content-export statement is helpful for assessing exit. The church should distinguish its own content from the supplier-owned subscription design, and make the hosting, form, email, domain, accessibility, payment and data-processing arrangements explicit before moving a live site.",
-    "bestFor": ["UK churches seeking a managed church-website subscription", "Teams publishing services, events, sermons, livestream links and contact information", "Churches that want supplier help with hosting and ongoing website support"],
-    "strengths": ["Church-focused product scope and UK contact location", "Published monthly and annual price points", "Hosting, sermons, events, forms and media tools are listed", "Supplier publishes a content-export statement for cancellation", "Support channels and included-support claim are published"],
-    "limitations": ["Public material does not establish the legal entity, current DPA, hosting location, sub-processors or data-retention arrangements", "The supplier states that its subscription website design remains its property", "Not a church database, safeguarding case-management system, accounting package or Gift Aid processor", "Confirm the actual mobile-app, giving and e-commerce terms separately rather than inferring them from feature lists"],
-    "procurementVerdict": {"problem": "Launching and maintaining a church website without separately arranging design, hosting and routine technical help", "differentiator": "A UK church-focused managed subscription that combines website publishing, hosting, media features and support", "firstCheck": "Ask the supplier for the current agreement, DPA, hosting and backup details, a full export example, domain-transfer process and accessibility approach; then build a representative page, event, sermon and contact-form workflow before moving the live site"}
+    "bestFor": [
+      "UK churches seeking a managed church-website subscription",
+      "Teams publishing services, events, sermons, livestream links and contact information",
+      "Churches that want supplier help with hosting and ongoing website support"
+    ],
+    "strengths": [
+      "Church-focused product scope and UK contact location",
+      "Published monthly and annual price points",
+      "Hosting, sermons, events, forms and media tools are listed",
+      "Supplier publishes a content-export statement for cancellation",
+      "Support channels and included-support claim are published"
+    ],
+    "limitations": [
+      "Public material does not establish the legal entity, current DPA, hosting location, sub-processors or data-retention arrangements",
+      "The supplier states that its subscription website design remains its property",
+      "Not a church database, safeguarding case-management system, accounting package or Gift Aid processor",
+      "Confirm the actual mobile-app, giving and e-commerce terms separately rather than inferring them from feature lists"
+    ],
+    "procurementVerdict": {
+      "problem": "Launching and maintaining a church website without separately arranging design, hosting and routine technical help",
+      "differentiator": "A UK church-focused managed subscription that combines website publishing, hosting, media features and support",
+      "firstCheck": "Ask the supplier for the current agreement, DPA, hosting and backup details, a full export example, domain-transfer process and accessibility approach; then build a representative page, event, sermon and contact-form workflow before moving the live site"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "ChurchWebsites UK about", "url": "https://www.churchwebsitesuk.com/about-us/", "checked": "2026-07-25", "supports": ["MediaWorkx context", "Coventry location", "Church-focused scope"]},
-    {"label": "ChurchWebsites UK pricing", "url": "https://www.churchwebsitesuk.com/pricing/", "checked": "2026-07-25", "supports": ["Plan prices", "Setup fees", "VAT note", "Feature lists"]},
-    {"label": "ChurchWebsites UK website features", "url": "https://www.churchwebsitesuk.com/on-websites/", "checked": "2026-07-25", "supports": ["Website, event, sermon, form and media features"]},
-    {"label": "ChurchWebsites UK FAQs", "url": "https://www.churchwebsitesuk.com/faqs/", "checked": "2026-07-25", "supports": ["Cancellation", "Content export", "Design ownership", "Support", "Domain process"]}
+    {
+      "label": "ChurchWebsites UK about",
+      "url": "https://www.churchwebsitesuk.com/about-us/",
+      "checked": "2026-07-25",
+      "supports": [
+        "MediaWorkx context",
+        "Coventry location",
+        "Church-focused scope"
+      ]
+    },
+    {
+      "label": "ChurchWebsites UK pricing",
+      "url": "https://www.churchwebsitesuk.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Plan prices",
+        "Setup fees",
+        "VAT note",
+        "Feature lists"
+      ]
+    },
+    {
+      "label": "ChurchWebsites UK website features",
+      "url": "https://www.churchwebsitesuk.com/on-websites/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Website, event, sermon, form and media features"
+      ]
+    },
+    {
+      "label": "ChurchWebsites UK FAQs",
+      "url": "https://www.churchwebsitesuk.com/faqs/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Cancellation",
+        "Content export",
+        "Design ownership",
+        "Support",
+        "Domain process"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "ChurchWebsites UK review for churches", "description": "Independent ChurchWebsites UK profile: managed church websites, published UK pricing, content export and hosting due-diligence questions."}
+  "seo": {
+    "title": "ChurchWebsites UK review for churches",
+    "description": "Independent ChurchWebsites UK profile: managed church websites, published UK pricing, content export and hosting due-diligence questions."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

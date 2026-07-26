@@ -6,13 +6,15 @@ Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
-- Public feedback scan infrastructure is implemented: a validated optional
-  `publicFeedback` field, static accessible panel, profile-link integration,
-  methodology, source register and content-integrity rules. It remains in
-  staged migration: no product has yet been marked as scanned because the
-  required private evidence ledger, source-by-source permission assessment and
-  human editorial/legal approval must precede publication. Do not treat the
-  panel's absence as a finding of no public feedback.
+- Public feedback scans now cover all 148 active listings. The 26 July 2026
+  base discovery pack ran 1,628 product-name queries and the private ledger
+  records every identity card and query. No source-specific permission route
+  was established for using discovered review-platform or app-store material in
+  a thematic synthesis, so every listing uses the honest
+  `no-usable-feedback` state rather than inferred praise, criticism or a score.
+  Matched external profiles remain linked where they were already confirmed.
+  A later permitted evidence route and human/legal method review are still
+  needed before any listing can move to `limited` or `themes-found`.
 
 - The 26 July 2026 external-review audit checked the active catalogue against
   Trustpilot, the Apple App Store and Google Play. It retains only directly

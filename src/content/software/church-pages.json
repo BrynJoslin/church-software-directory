@@ -7,32 +7,105 @@
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
   "ukOrganisation": "yes",
-  "categories": ["church-websites", "church-communications", "sermon-hosting"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["UK churches seeking an editable church website with low-cost or discretionary-discount hosting", "Churches publishing events, news, enquiry forms and sermons", "Churches that want UK phone support or more maintenance help at higher tiers"],
+  "categories": [
+    "church-websites",
+    "church-communications",
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches seeking an editable church website with low-cost or discretionary-discount hosting",
+    "Churches publishing events, news, enquiry forms and sermons",
+    "Churches that want UK phone support or more maintenance help at higher tiers"
+  ],
   "pricing": {
     "model": "tiered",
     "summary": "Published pricing lists Gifted Hosting at a normal £10/month rate with a discretionary discount to free, Advanced Hosting at a suggested £7.50/month contribution (£90/year) and Extensive Hosting at a suggested £22.50/month (£270/year); all prices exclude VAT and are subject to the initiative’s discretionary discounts. Confirm current eligibility, final pricing, setup, payment and contract terms directly.",
-    "startingPrice": {"amount": 0, "currency": "GBP", "period": "month", "qualifier": "Gifted Hosting may receive a discretionary discount to free"},
+    "startingPrice": {
+      "amount": 0,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Gifted Hosting may receive a discretionary discount to free"
+    },
     "tiers": [
-      {"label": "Gifted Hosting", "price": "Normally £10/month; discretionary discount to free", "detail": "Up to 15 pages, online support and two admin users are listed."},
-      {"label": "Advanced Hosting", "price": "Suggested £7.50/month (£90/year)", "detail": "Up to 30 pages, UK phone support, events and sermon upload are listed."},
-      {"label": "Extensive Hosting", "price": "Suggested £22.50/month (£270/year)", "detail": "Unlimited pages and users plus extensive maintenance support are listed."}
+      {
+        "label": "Gifted Hosting",
+        "price": "Normally £10/month; discretionary discount to free",
+        "detail": "Up to 15 pages, online support and two admin users are listed."
+      },
+      {
+        "label": "Advanced Hosting",
+        "price": "Suggested £7.50/month (£90/year)",
+        "detail": "Up to 30 pages, UK phone support, events and sermon upload are listed."
+      },
+      {
+        "label": "Extensive Hosting",
+        "price": "Suggested £22.50/month (£270/year)",
+        "detail": "Unlimited pages and users plus extensive maintenance support are listed."
+      }
     ]
   },
   "freePlan": "yes",
   "freeTrial": "unknown",
   "demoAvailable": "yes",
   "gdprInformation": "Church Pages links to a privacy policy and states that its newsletter details are not sold or shared with third parties, but the reviewed material does not establish current product-specific hosting locations, DPA, sub-processors, retention or controller/processor roles for customer websites, forms and member areas. Obtain the current Khooseller terms and relevant data-processing terms before publishing or collecting sensitive information.",
-  "coreFeatures": ["Mobile-friendly editable website", "Contact forms", "News publishing", "Events calendar", "UK phone support on Advanced tier", "Sermon audio uploads on higher tiers", "Video pages via YouTube", "Sermon directory", "Optional members area", "Web statistics and optimisation tools"],
-  "integrations": ["Calendar integrates with Outlook or iCal feeds", "Video pages use YouTube", "Supplier describes the underlying Khooseller platform", "Email and domain services are offered through Khoo Systems"],
-  "importExport": ["Confirm current content, media, form-submission, calendar and domain-export arrangements in the Khooseller agreement before adopting the platform"],
-  "support": ["Email support and support documentation are advertised", "Advanced tier lists UK-based phone support", "Extensive tier lists extensive maintenance support", "Supplier offers a backend tour on request"],
+  "coreFeatures": [
+    "Mobile-friendly editable website",
+    "Contact forms",
+    "News publishing",
+    "Events calendar",
+    "UK phone support on Advanced tier",
+    "Sermon audio uploads on higher tiers",
+    "Video pages via YouTube",
+    "Sermon directory",
+    "Optional members area",
+    "Web statistics and optimisation tools"
+  ],
+  "integrations": [
+    "Calendar integrates with Outlook or iCal feeds",
+    "Video pages use YouTube",
+    "Supplier describes the underlying Khooseller platform",
+    "Email and domain services are offered through Khoo Systems"
+  ],
+  "importExport": [
+    "Confirm current content, media, form-submission, calendar and domain-export arrangements in the Khooseller agreement before adopting the platform"
+  ],
+  "support": [
+    "Email support and support documentation are advertised",
+    "Advanced tier lists UK-based phone support",
+    "Extensive tier lists extensive maintenance support",
+    "Supplier offers a backend tour on request"
+  ],
   "decisionEvidence": {
-    "operator": {"value": "Church Pages states that it is part of Khoo Systems Limited and is powered by the Khooseller website platform.", "state": "supplier-published", "source": "https://www.churchpages.co.uk/", "checked": "2026-07-25"},
-    "pricing": {"value": "Published tier information gives normal or suggested hosting charges, discretionary discounts, VAT treatment, page/user limits and support levels.", "state": "supplier-published", "source": "https://www.churchpages.co.uk/26/Church-Website-Design-Cost", "checked": "2026-07-25"},
-    "features": {"value": "Supplier documents editable administration, events, sermon hosting, members areas, Outlook/iCal calendar feeds and YouTube video pages.", "state": "supplier-published", "source": "https://www.churchpages.co.uk/39/FAQs", "checked": "2026-07-25"},
-    "support": {"value": "Supplier lists email documentation, higher-tier UK phone support and an available backend demonstration.", "state": "supplier-published", "source": "https://www.churchpages.co.uk/39/FAQs", "checked": "2026-07-25"}
+    "operator": {
+      "value": "Church Pages states that it is part of Khoo Systems Limited and is powered by the Khooseller website platform.",
+      "state": "supplier-published",
+      "source": "https://www.churchpages.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Published tier information gives normal or suggested hosting charges, discretionary discounts, VAT treatment, page/user limits and support levels.",
+      "state": "supplier-published",
+      "source": "https://www.churchpages.co.uk/26/Church-Website-Design-Cost",
+      "checked": "2026-07-25"
+    },
+    "features": {
+      "value": "Supplier documents editable administration, events, sermon hosting, members areas, Outlook/iCal calendar feeds and YouTube video pages.",
+      "state": "supplier-published",
+      "source": "https://www.churchpages.co.uk/39/FAQs",
+      "checked": "2026-07-25"
+    },
+    "support": {
+      "value": "Supplier lists email documentation, higher-tier UK phone support and an available backend demonstration.",
+      "state": "supplier-published",
+      "source": "https://www.churchpages.co.uk/39/FAQs",
+      "checked": "2026-07-25"
+    }
   },
   "brandAssets": {
     "logo": {
@@ -44,18 +117,95 @@
   },
   "editorial": {
     "assessment": "Church Pages is a UK church-website and publishing service with an unusually flexible, contribution-based hosting model. It is relevant for churches that need an editable public site, events and media publishing without assuming a standard commercial price is affordable. The discretionary model means a church should get an explicit written offer and current terms, particularly for any forms, members content, domain management and externally hosted media.",
-    "bestFor": ["Churches for which website cost is a material constraint", "Teams publishing public events, news and audio sermons", "Churches wanting a supplier-supported site with Outlook/iCal calendar feed options"],
-    "strengths": ["Clearly identified UK platform operator", "Published contribution-based tiers and discounts", "Editable public website, events, forms and media workflow", "UK phone support on a defined tier", "Supplier-offered backend tour"],
-    "limitations": ["Not a church-management database, safeguarding casework system, accounting package or online-giving processor", "Final charges depend on discretionary discounts and require a written offer", "Product-specific DPA, hosting location, sub-processors, retention and content-export details are not established in the reviewed material", "Members-area and contact-form use require careful local data-protection decisions"],
-    "procurementVerdict": {"problem": "Creating a supported church website when standard subscription costs are a barrier", "differentiator": "A church-focused UK site platform with discretionary hosting discounts and higher-tier event, sermon and maintenance support", "firstCheck": "Request the current written tier offer and Khooseller terms, then test real event, calendar, contact-form and sermon workflows while confirming data handling, exports, domain ownership and support response arrangements"}
+    "bestFor": [
+      "Churches for which website cost is a material constraint",
+      "Teams publishing public events, news and audio sermons",
+      "Churches wanting a supplier-supported site with Outlook/iCal calendar feed options"
+    ],
+    "strengths": [
+      "Clearly identified UK platform operator",
+      "Published contribution-based tiers and discounts",
+      "Editable public website, events, forms and media workflow",
+      "UK phone support on a defined tier",
+      "Supplier-offered backend tour"
+    ],
+    "limitations": [
+      "Not a church-management database, safeguarding casework system, accounting package or online-giving processor",
+      "Final charges depend on discretionary discounts and require a written offer",
+      "Product-specific DPA, hosting location, sub-processors, retention and content-export details are not established in the reviewed material",
+      "Members-area and contact-form use require careful local data-protection decisions"
+    ],
+    "procurementVerdict": {
+      "problem": "Creating a supported church website when standard subscription costs are a barrier",
+      "differentiator": "A church-focused UK site platform with discretionary hosting discounts and higher-tier event, sermon and maintenance support",
+      "firstCheck": "Request the current written tier offer and Khooseller terms, then test real event, calendar, contact-form and sermon workflows while confirming data handling, exports, domain ownership and support response arrangements"
+    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
-    {"label": "Church Pages overview", "url": "https://www.churchpages.co.uk/", "checked": "2026-07-25", "supports": ["Church-focused purpose", "Editable mobile-friendly websites", "Khoo Systems context"]},
-    {"label": "Church Pages pricing", "url": "https://www.churchpages.co.uk/26/Church-Website-Design-Cost", "checked": "2026-07-25", "supports": ["Hosting tiers", "Suggested contributions", "VAT note", "Support and feature limits"]},
-    {"label": "Church Pages FAQs", "url": "https://www.churchpages.co.uk/39/FAQs", "checked": "2026-07-25", "supports": ["Sermons", "Calendar", "Members area", "Admin access", "Support", "Khoo Systems relationship"]}
+    {
+      "label": "Church Pages overview",
+      "url": "https://www.churchpages.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church-focused purpose",
+        "Editable mobile-friendly websites",
+        "Khoo Systems context"
+      ]
+    },
+    {
+      "label": "Church Pages pricing",
+      "url": "https://www.churchpages.co.uk/26/Church-Website-Design-Cost",
+      "checked": "2026-07-25",
+      "supports": [
+        "Hosting tiers",
+        "Suggested contributions",
+        "VAT note",
+        "Support and feature limits"
+      ]
+    },
+    {
+      "label": "Church Pages FAQs",
+      "url": "https://www.churchpages.co.uk/39/FAQs",
+      "checked": "2026-07-25",
+      "supports": [
+        "Sermons",
+        "Calendar",
+        "Members area",
+        "Admin access",
+        "Support",
+        "Khoo Systems relationship"
+      ]
+    }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Church Pages review for UK churches", "description": "Independent Church Pages profile: contribution-based UK church websites, events, sermons, support and data-processing checks."}
+  "seo": {
+    "title": "Church Pages review for UK churches",
+    "description": "Independent Church Pages profile: contribution-based UK church websites, events, sermons, support and data-processing checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
+  }
 }

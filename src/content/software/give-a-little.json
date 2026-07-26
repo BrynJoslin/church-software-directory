@@ -155,11 +155,71 @@
       ]
     }
   ],
-  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/give-a-little-champion/id6737087999", "rating": 5, "maximumRating": 5, "reviewCount": 2, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as Give A Little Champion."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.kiosk", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Give A Little; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.supporter", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as Give A Little Champion; this directory has not recorded an aggregate rating or review count."}, {"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/givealittle.co", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for Give A Little and does not establish suitability for a particular church."}],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/give-a-little-champion/id6737087999",
+      "rating": 5,
+      "maximumRating": 5,
+      "reviewCount": 2,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Give A Little Champion."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.kiosk",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Give A Little; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.supporter",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Give A Little Champion; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/givealittle.co",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Give A Little and does not establish suitability for a particular church."
+    }
+  ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {
     "title": "Give A Little review for UK churches",
     "description": "Independent Give A Little profile for UK churches: contactless giving, fees, Parish Buying context and FAQs."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

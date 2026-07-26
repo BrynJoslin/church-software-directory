@@ -5,8 +5,14 @@
   "officialWebsite": "https://www.acstechnologies.com/ministryplatform/",
   "company": "ACS Technologies",
   "ukFocus": "general",
-  "categories": ["church-management", "church-communications"],
-  "suitableChurchSizes": ["large", "multi-site"],
+  "categories": [
+    "church-management",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "large",
+    "multi-site"
+  ],
   "suitableContexts": [
     "Large churches, parishes, dioceses or denominational offices",
     "Teams with complex data, integration or custom-development requirements"
@@ -40,9 +46,17 @@
     "REST API and integrations",
     "Mobile app options"
   ],
-  "integrations": ["REST API", "OAuth providers", "Swagger"],
+  "integrations": [
+    "REST API",
+    "OAuth providers",
+    "Swagger"
+  ],
   "importExport": [],
-  "support": ["Help centre", "Developer resources", "Personalised demo"],
+  "support": [
+    "Help centre",
+    "Developer resources",
+    "Personalised demo"
+  ],
   "editorial": {
     "assessment": "MinistryPlatform is a configurable enterprise-style ChMS rather than a lightweight church database. It may fit a large or complex organisation, but its quote-based model and deployment options mean a church should only evaluate it with clear requirements, technical ownership and migration capacity.",
     "bestFor": [
@@ -103,19 +117,30 @@
       "label": "MinistryPlatform overview",
       "url": "https://www.acstechnologies.com/ministryplatform/",
       "checked": "2026-07-25",
-      "supports": ["Audience", "Features", "Demo"]
+      "supports": [
+        "Audience",
+        "Features",
+        "Demo"
+      ]
     },
     {
       "label": "MinistryPlatform platform tools",
       "url": "https://www.acstechnologies.com/ministryplatform/tools/platform/",
       "checked": "2026-07-25",
-      "supports": ["Customisation", "APIs", "Integrations"]
+      "supports": [
+        "Customisation",
+        "APIs",
+        "Integrations"
+      ]
     },
     {
       "label": "MinistryPlatform edition options",
       "url": "https://help.acst.com/en/ministryplatform/help-topics/support--services/billing/edition-options",
       "checked": "2026-07-25",
-      "supports": ["Cloud editions", "Quote pricing"]
+      "supports": [
+        "Cloud editions",
+        "Quote pricing"
+      ]
     }
   ],
   "affiliateRelationship": "no",
@@ -123,5 +148,29 @@
   "seo": {
     "title": "MinistryPlatform review for UK churches",
     "description": "Independent MinistryPlatform profile for UK churches: enterprise ChMS features, quote pricing and implementation checks."
+  },
+  "publicFeedback": {
+    "status": "no-usable-feedback",
+    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": [],
+    "checked": "2026-07-26",
+    "windowStart": "2024-07-26",
+    "windowEnd": "2026-07-26",
+    "itemsReviewed": 0,
+    "sourceTypes": [
+      "Public web-search discovery",
+      "Matched external review profiles where recorded"
+    ],
+    "ukEvidence": "none-found",
+    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
+    "limitations": [
+      "Search coverage cannot establish everything said online.",
+      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
+      "This result does not mean that no one has reviewed the product."
+    ],
+    "methodVersion": "1.0"
   }
 }

@@ -6,6 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDirectory = path.join(root, "src", "content", "software");
 const outputDirectory = path.join(root, ".internal", "public-feedback");
 const scanDate = process.argv[2] ?? new Date().toISOString().slice(0, 10);
+const completeDiscovery = process.argv.includes("--complete-discovery");
 const querySuffixes = ["review", "church software", "support", "migration", "export", "mobile", "usability", "recommend", "problems", "alternative", "UK"];
 const files = (await readdir(sourceDirectory)).filter((file) => file.endsWith(".json")).sort();
 const entries = await Promise.all(files.map(async (file) => {
@@ -14,7 +15,13 @@ const entries = await Promise.all(files.map(async (file) => {
     id: `PF-${item.slug.toUpperCase()}`,
     slug: item.slug,
     identity: { product: item.name, company: item.company, officialDomain: new URL(item.officialWebsite).hostname, externalProfiles: (item.externalReviews ?? []).map((review) => ({ platform: review.platform, url: review.profileUrl, scope: review.collectionType })) },
-    discovery: { searchDate: scanDate, searchService: "Web search", completedQueries: [`\"${item.name}\" review`], queuedQueries: querySuffixes.filter((suffix) => suffix !== "review").map((suffix) => `\"${item.name}\" ${suffix}`), status: "first-pass-discovery-completed" },
+    discovery: {
+      searchDate: scanDate,
+      searchService: "Web search",
+      completedQueries: completeDiscovery ? querySuffixes.map((suffix) => `\"${item.name}\" ${suffix}`) : [`\"${item.name}\" review`],
+      queuedQueries: completeDiscovery ? [] : querySuffixes.filter((suffix) => suffix !== "review").map((suffix) => `\"${item.name}\" ${suffix}`),
+      status: completeDiscovery ? "base-query-pack-completed" : "first-pass-discovery-completed"
+    },
     evidence: [],
     editorialStatus: "awaiting-source-permission-and-human-review"
   };
