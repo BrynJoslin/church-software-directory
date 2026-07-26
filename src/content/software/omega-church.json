@@ -34,6 +34,14 @@
     "exports": {"value": "Supplier states records can be exported to Excel, Word or PDF.", "state": "supplier-published", "source": "https://omegachurch.co.uk/features/church-administrators/", "checked": "2026-07-25"},
     "technical-administration": {"value": "Network edition requires a church central server; other editions are installed on church computers.", "state": "supplier-published", "source": "https://omegachurch.co.uk/pricing/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/omega-church/omega-church-logo.png",
+      "alt": "Omega Church logo",
+      "source": "https://omegachurch.co.uk/wp-content/themes/omega-web/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Omega Church is structurally different from the cloud-first systems in this directory: its published options are installed Single Site, Multi-Site or Network editions with an optional annual support service. It may appeal where a church wants that locally managed model, but that choice places greater weight on backup, device access, updates, network administration and a clear handover plan.",
     "bestFor": ["Church offices that prefer a locally installed administration product", "Churches needing member records, reporting and basic finance workflows", "Teams with a named person able to own device, network and backup decisions"],

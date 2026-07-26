@@ -140,7 +140,7 @@ For a fuller market view, browse the directory’s [church management systems](/
 
 Church records can include ordinary contact information and, depending on how they are used, more sensitive information about religious belief, health, safeguarding, pastoral circumstances or criminal allegations. Do not assume that a general statement that a product is “GDPR compliant” answers your church’s questions.
 
-The ICO explains that special category data needs additional protection, including an Article 6 lawful basis and a separate Article 9 condition. A data protection impact assessment is required when processing is likely to create a high risk. This guide is not legal advice; use appropriate professional advice where the church’s processing or risk warrants it. [Read the ICO’s special category data guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/).
+The ICO explains that special category data needs additional protection, including an Article 6 lawful basis and a separate Article 9 condition. A data protection impact assessment is required when processing is likely to create a high risk. This guide is not legal advice; use appropriate professional advice where the church’s processing or risk warrants it. <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/" target="_blank" rel="noopener noreferrer">Read the ICO’s special category data guidance</a>.
 
 ### Set your data boundary before the demo
 
@@ -153,9 +153,9 @@ Decide, in writing:
 - which reports leaders and trustees need, and who is allowed to see them;
 - how consent, contact preferences, retention and correction requests will be handled.
 
-Ask each supplier for current documentation, not a verbal assurance: its data-processing terms, sub-processor information, security and account-access controls, incident process, data locations or transfers, retention arrangements and export process. The ICO’s guidance on controller–processor contracts explains why these details matter, including security, sub-processors, end-of-contract arrangements and audits. [Read the ICO’s contract guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/).
+Ask each supplier for current documentation, not a verbal assurance: its data-processing terms, sub-processor information, security and account-access controls, incident process, data locations or transfers, retention arrangements and export process. The ICO’s guidance on controller–processor contracts explains why these details matter, including security, sub-processors, end-of-contract arrangements and audits. <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/" target="_blank" rel="noopener noreferrer">Read the ICO’s contract guidance</a>.
 
-If you are a Church of England body, also use the current Church of England records and information management guidance for retention questions. Other churches should use the retention policy and safeguarding guidance that apply to their own structure. [Church of England record-retention guidance](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management).
+If you are a Church of England body, also use the current Church of England records and information management guidance for retention questions. Other churches should use the retention policy and safeguarding guidance that apply to their own structure. <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England record-retention guidance</a>.
 
 ## Build a shortlist
 
@@ -235,7 +235,7 @@ Include:
 
 Do not invent a total where the supplier quotes individually. Record “written quote required”, state the missing assumption and ask the supplier for it. A lower subscription can cost more if it creates extra manual work, requires several add-ons or leaves the church paying for a service it cannot maintain.
 
-If the system touches church finances, keep the software decision separate from the church’s responsibility for appropriate financial controls. The Charity Commission says trustees remain responsible for financial management and for implementing and monitoring internal controls, even where detailed work is delegated. [Read the Charity Commission’s internal-financial-controls guidance](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities).
+If the system touches church finances, keep the software decision separate from the church’s responsibility for appropriate financial controls. The Charity Commission says trustees remain responsible for financial management and for implementing and monitoring internal controls, even where detailed work is delegated. <a href="https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities" target="_blank" rel="noopener noreferrer">Read the Charity Commission’s internal-financial-controls guidance</a>.
 
 ## Plan migration and exit
 
@@ -310,9 +310,9 @@ catalogue rather than a complete market review and does not claim hands-on
 product testing, supplier interviews or legal advice. Product features,
 contracts and prices must be rechecked for the account a church is considering.
 
-- [Information Commissioner’s Office: Special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/) (accessed 25 July 2026)
-- [Information Commissioner’s Office: Contracts and liabilities between controllers and processors](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/) (accessed 25 July 2026)
-- [Information Commissioner’s Office: Data protection impact assessments](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/data-protection-impact-assessments/) (accessed 25 July 2026)
-- [Charity Commission: Internal financial controls for charities](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities) (updated 27 November 2024; accessed 25 July 2026)
-- [GOV.UK: Managing faith charities as trustees](https://www.gov.uk/government/publications/faith-based-charities/managing-faith-charities-as-trustees) (accessed 25 July 2026)
-- [Church of England: Records and information management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/" target="_blank" rel="noopener noreferrer">Information Commissioner’s Office: Special category data</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/" target="_blank" rel="noopener noreferrer">Information Commissioner’s Office: Contracts and liabilities between controllers and processors</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/data-protection-impact-assessments/" target="_blank" rel="noopener noreferrer">Information Commissioner’s Office: Data protection impact assessments</a> (accessed 25 July 2026)
+- <a href="https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities" target="_blank" rel="noopener noreferrer">Charity Commission: Internal financial controls for charities</a> (updated 27 November 2024; accessed 25 July 2026)
+- <a href="https://www.gov.uk/government/publications/faith-based-charities/managing-faith-charities-as-trustees" target="_blank" rel="noopener noreferrer">GOV.UK: Managing faith charities as trustees</a> (accessed 25 July 2026)
+- <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: Records and information management</a> (accessed 25 July 2026)

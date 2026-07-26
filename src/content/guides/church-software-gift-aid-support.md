@@ -101,9 +101,9 @@ Draw the church’s real donation-to-bank journey on one page, nominate a financ
 
 Researched 25 July 2026 from the sources below and current supplier documentation. No hands-on testing, supplier interview or market-wide review is claimed. This guide does not decide whether any particular donation qualifies for Gift Aid.
 
-- [HMRC: Chapter 3, Gift Aid](https://www.gov.uk/government/publications/charities-detailed-guidance-notes/chapter-3-gift-aid) (updated 17 July 2026; accessed 25 July 2026)
-- [HMRC: Gift Aid declarations](https://www.gov.uk/claim-gift-aid/gift-aid-declarations) (accessed 25 July 2026)
-- [Charity Commission: internal financial controls for charities](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities) (accessed 25 July 2026)
-- [ChurchSuite: Getting started with Giving](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module) (accessed 25 July 2026)
-- [KindLink pricing](https://www.kindlink.org/pricing) (accessed 25 July 2026)
-- [Stewardship Partner Account fees](https://www.stewardship.org.uk/partner-account-fees) (accessed 25 July 2026)
+- <a href="https://www.gov.uk/government/publications/charities-detailed-guidance-notes/chapter-3-gift-aid" target="_blank" rel="noopener noreferrer">HMRC: Chapter 3, Gift Aid</a> (updated 17 July 2026; accessed 25 July 2026)
+- <a href="https://www.gov.uk/claim-gift-aid/gift-aid-declarations" target="_blank" rel="noopener noreferrer">HMRC: Gift Aid declarations</a> (accessed 25 July 2026)
+- <a href="https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities" target="_blank" rel="noopener noreferrer">Charity Commission: internal financial controls for charities</a> (accessed 25 July 2026)
+- <a href="https://support.churchsuite.com/article/455-getting-started-with-the-giving-module" target="_blank" rel="noopener noreferrer">ChurchSuite: Getting started with Giving</a> (accessed 25 July 2026)
+- <a href="https://www.kindlink.org/pricing" target="_blank" rel="noopener noreferrer">KindLink pricing</a> (accessed 25 July 2026)
+- <a href="https://www.stewardship.org.uk/partner-account-fees" target="_blank" rel="noopener noreferrer">Stewardship Partner Account fees</a> (accessed 25 July 2026)

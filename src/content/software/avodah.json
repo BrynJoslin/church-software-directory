@@ -30,6 +30,14 @@
     "product-and-pricing": {"value": "Supplier publishes a free Starter plan and a $29 monthly Growth plan, alongside roster, people, expense and communication features.", "state": "supplier-published", "source": "https://avodahapp.com/", "checked": "2026-07-25"},
     "data-handling": {"value": "Supplier privacy policy describes role controls, multi-tenant isolation, account deletion and the personal data processed by the platform.", "state": "supplier-published", "source": "https://avodahapp.com/privacy.html", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/avodah/avodah-logo.png",
+      "alt": "Avodah logo",
+      "source": "https://avodahapp.com/logo_icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Avodah brings volunteer scheduling, people records, expense workflows and service planning into one church-management product. Its official privacy notice gives a Newcastle address, but the supplier does not publish a company-registration number or a detailed UK commercial pack, making direct supplier due diligence particularly important before live adoption.",
     "bestFor": ["Churches wanting connected volunteer, people and expense administration", "Teams willing to evaluate a newer supplier through its free plan or trial"],
@@ -42,6 +50,7 @@
     {"label": "Avodah product and pricing", "url": "https://avodahapp.com/", "checked": "2026-07-25", "supports": ["Product scope", "Free plan", "Growth pricing", "Mobile availability"]},
     {"label": "Avodah privacy policy", "url": "https://avodahapp.com/privacy.html", "checked": "2026-07-25", "supports": ["Newcastle location", "Data-processing detail", "Account rights", "Security descriptions"]}
   ],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/avodah/id6764895005", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Avodah name; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.epicat.avodah", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Avodah name; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Avodah review for UK churches", "description": "Independent Avodah profile for UK churches: people, rotas, expenses, published pricing and supplier due-diligence checks."}

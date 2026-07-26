@@ -38,5 +38,13 @@
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "GiftAider review for UK churches", "description": "Independent GiftAider profile: UK Gift Aid claims, CRM, cloud and self-hosted pricing and procurement checks."}
+  "seo": {"title": "GiftAider review for UK churches", "description": "Independent GiftAider profile: UK Gift Aid claims, CRM, cloud and self-hosted pricing and procurement checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/giftaider/giftaider-logo.png",
+      "alt": "GiftAider logo",
+      "source": "https://giftaider.com/apple-icon-57x57.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

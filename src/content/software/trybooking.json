@@ -33,6 +33,14 @@
     "published-pricing": {"value": "Supplier publishes free-event access and its paid-event fees for TryBooking and Stripe-connected payment routes.", "state": "supplier-published", "source": "https://www.trybooking.com/uk/info/event-ticketing-platform", "checked": "2026-07-25"},
     "data-processing": {"value": "TryBooking publishes a UK GDPR data-processing addendum and a sub-processor page that names AWS infrastructure in London.", "state": "supplier-published", "source": "https://www.trybooking.com/uk/info/data-processing-addendum", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/trybooking/trybooking-logo.ico",
+      "alt": "TryBooking logo",
+      "source": "https://www.trybooking.com/uk/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "TryBooking is an event-registration and ticketing service, not a church-management, Gift Aid or safeguarding system. It is particularly relevant for UK churches because its official material addresses church events directly and its public legal and data-processing material is more detailed than many generic alternatives. Churches should still minimise the data they collect and keep event registration separate from sensitive pastoral or safeguarding records.",
     "bestFor": ["Free church events requiring online registration", "Paid events needing ticket scanning and either supplier or Stripe payment processing", "Churches that want public DPA and sub-processor documentation before use"],
@@ -50,6 +58,7 @@
     {"label": "TryBooking sub-processors", "url": "https://www.trybooking.com/uk/info/subprocessor-list", "checked": "2026-07-25", "supports": ["AWS London infrastructure statement"]},
     {"label": "Companies House: TryBooking UK Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/08559255", "checked": "2026-07-25", "supports": ["UK company registration", "Company status"]}
   ],
+  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.trybooking.scanapp", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as TryBooking Scanning App; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "TryBooking review for UK church events", "description": "Independent TryBooking profile for UK churches: event registration, ticketing, fees, data processing and mobile check-in."}

@@ -35,6 +35,14 @@
     "pricing-and-access": {"value": "Supplier states that pricing is annual and turnover-based, gives illustrative prices from about £174 to about £270 including VAT, may offer free access to the smallest organisations, and offers both a demo and free trial.", "state": "supplier-published", "source": "https://threerings.org.uk/get-a-3r-account/get-an-account/", "checked": "2026-07-25"},
     "data-handling": {"value": "Supplier's public terms and GDPR statement describe controller/processor roles, UK and EEA storage arrangements, access controls, action logging, contractual sub-processor restrictions and termination handling.", "state": "supplier-published", "source": "https://threerings.org.uk/terms-and-conditions/terms-and-conditions/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/three-rings/three-rings-logo.png",
+      "alt": "Three Rings logo",
+      "source": "https://threerings.org.uk/wp-content/uploads/2020/04/cropped-roundel-180x180.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Three Rings is a mature UK general charity-sector option for a church whose immediate problem is volunteer coordination rather than member management. It has a clearer public accountability and data-handling position than many small rota products, alongside a turnover-linked annual price. The service is not church-specific: it does not publicly claim church directory, giving, service planning, safeguarding-case or pastoral-care functionality, so a church should keep its evaluation focused on volunteer administration.",
     "bestFor": ["Churches with recurring teams that need volunteer self-sign-up, allocation and communications", "Churches wanting to replace separate rota spreadsheets, contact lists and shared files", "Charitable church projects that value an identified UK CIC and published controller-processor terms"],
@@ -51,6 +59,7 @@
     {"label": "Three Rings GDPR statement", "url": "https://threerings.org.uk/get-a-3r-account/gdpr-statement/", "checked": "2026-07-25", "supports": ["UK and EEA storage statement", "Encryption", "Action logging", "Access controls", "DPO"]},
     {"label": "Companies House: Three Rings CIC", "url": "https://find-and-update.company-information.service.gov.uk/company/06820837", "checked": "2026-07-25", "supports": ["Active UK CIC", "Company number", "Registered office"]}
   ],
+  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=uk.org.threerings.pwa", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Three Rings name; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Three Rings review for UK churches", "description": "Independent Three Rings profile: UK volunteer rotas, team communications, charity pricing and church procurement checks."}

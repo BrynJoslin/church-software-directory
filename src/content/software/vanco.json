@@ -5,23 +5,15 @@
   "officialWebsite": "https://www.vancopayments.com/egiving",
   "company": "Vanco Payments",
   "ukFocus": "general",
-  "categories": [
-    "online-giving",
-    "church-communications"
-  ],
-  "suitableChurchSizes": [
-    "small",
-    "medium",
-    "large",
-    "multi-site"
-  ],
+  "categories": ["online-giving", "church-communications"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
   "suitableContexts": [
     "Churches in Vanco’s supported market seeking integrated digital giving",
     "Teams comparing US giving fees and integrations"
   ],
   "pricing": {
     "model": "tiered",
-    "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; ask whether the service is available to UK churches.",
+    "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; the published material does not establish a UK route.",
     "tiers": [
       {
         "label": "Grow",
@@ -57,10 +49,7 @@
     "Parish Data Systems"
   ],
   "importExport": [],
-  "support": [
-    "US-based ongoing support",
-    "Personalised demo"
-  ],
+  "support": ["US-based ongoing support", "Personalised demo"],
   "editorial": {
     "assessment": "Vanco provides unusually detailed published US church-giving pricing and integrations, but those rates, ACH functionality and support are US-specific. It is useful comparison context, not a UK recommendation until the supplier confirms a UK product and finance workflow.",
     "bestFor": [
@@ -73,13 +62,8 @@
     ],
     "limitations": [
       "US pricing, ACH and support context",
-      "Ask the supplier about UK availability, GBP settlement and Gift Aid"
-    ],
-    "procurementVerdict": {
-      "problem": "Churches in Vanco’s supported market needing US giving integrations",
-      "differentiator": "Online giving",
-      "firstCheck": "US pricing, ACH and support context"
-    }
+      "UK availability, GBP settlement and Gift Aid require supplier evidence"
+    ]
   },
   "longForm": {
     "verdict": "Vanco is a detailed US giving-platform benchmark, but not currently a normal UK shortlist candidate on the information reviewed. Its published figures should not be converted into an assumed UK cost.",
@@ -116,17 +100,9 @@
       },
       {
         "question": "Can UK churches use Vanco?",
-        "answer": "The published material is US-focused, so ask about UK availability, GBP settlement and Gift Aid before considering it."
+        "answer": "The published material is US-focused. Ask the supplier for evidence covering availability, GBP settlement and Gift Aid before considering it."
       }
     ]
-  },
-  "brandAssets": {
-    "logo": {
-      "src": "/images/software/vanco/vanco-logo.svg",
-      "alt": "Vanco logo",
-      "source": "https://www.vancopayments.com/hubfs/MJTW-assets/logos/vanco-logo-primary-long.svg",
-      "checked": "2026-07-25"
-    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
@@ -134,13 +110,7 @@
       "label": "Vanco online giving",
       "url": "https://www.vancopayments.com/egiving",
       "checked": "2026-07-25",
-      "supports": [
-        "Pricing",
-        "Features",
-        "Integrations",
-        "US support",
-        "Demo"
-      ]
+      "supports": ["Pricing", "Features", "Integrations", "US support", "Demo"]
     }
   ],
   "affiliateRelationship": "no",

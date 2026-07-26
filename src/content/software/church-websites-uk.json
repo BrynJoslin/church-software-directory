@@ -33,6 +33,14 @@
     "product-scope": {"value": "Supplier lists church-specific website capabilities including sermons, events, custom forms, livestream player, social links, blog publishing and media tools.", "state": "supplier-published", "source": "https://www.churchwebsitesuk.com/on-websites/", "checked": "2026-07-25"},
     "exit-and-support": {"value": "Supplier says it can export customer content and data following cancellation, while retaining ownership of the subscription website design; it also describes included email, telephone and support-site assistance.", "state": "supplier-published", "source": "https://www.churchwebsitesuk.com/faqs/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/church-websites-uk/church-websites-uk-logo.png",
+      "alt": "ChurchWebsites UK logo",
+      "source": "https://churchwebsitesuk.b-cdn.net/wp-content/uploads/2019/01/cropped-ChurchWebsitesUK-Favicon-180x180.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "ChurchWebsites UK is a church-focused managed website subscription, rather than a general church-management system. It is relevant where a church wants a public site, hosting, media publishing and supplier support bundled together, and its published content-export statement is helpful for assessing exit. The church should distinguish its own content from the supplier-owned subscription design, and make the hosting, form, email, domain, accessibility, payment and data-processing arrangements explicit before moving a live site.",
     "bestFor": ["UK churches seeking a managed church-website subscription", "Teams publishing services, events, sermons, livestream links and contact information", "Churches that want supplier help with hosting and ongoing website support"],

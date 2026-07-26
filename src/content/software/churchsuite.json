@@ -420,6 +420,17 @@
       "collectionType": "product",
       "dataAccessMethod": "manual",
       "note": "The reviewed feedback was historical and partly non-UK; no aggregate is displayed here."
+    },
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/churchsuite.com",
+      "rating": 3.1,
+      "maximumRating": 5,
+      "reviewCount": 2,
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "A small number of reviews should not be treated as a representative usability verdict."
     }
   ],
   "affiliateRelationship": "no",

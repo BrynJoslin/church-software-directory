@@ -29,6 +29,14 @@
     "accounting-scope": {"value": "Supplier documents fund accounting, project costing, SORP-aligned reports, charity financial statements, CSV or Excel bank imports and report exports.", "state": "supplier-published", "source": "https://charityfinancials.uk/charity-accounting-features", "checked": "2026-07-25"},
     "vat-boundary": {"value": "Supplier says its HMRC software-recognition listing is pending and advises alternative VAT-return submission options in the meantime.", "state": "supplier-published", "source": "https://charityfinancials.uk/charity-accounting-features", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/charityfinancials/charityfinancials-logo.ico",
+      "alt": "CharityFinancials logo",
+      "source": "https://charityfinancials.uk/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "CharityFinancials is a newer UK charity-accounting option with a credible specialist accountancy supplier and a clearly stated church use case. Its model is focused on accounting dimensions—funds, projects, donors and locations—rather than on a full church-management database. The public product pages describe the accounting workflow well, but material commercial, data-processing, implementation and product-support information is not yet published clearly enough for a low-risk procurement decision without a written supplier pack.",
     "bestFor": ["Church charities with restricted funds, projects or grant reporting needs", "Treasurers who want fund and project reporting to feed management and trustee information", "Churches evaluating an accountant-led alternative to general small-business bookkeeping software"],

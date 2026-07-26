@@ -34,6 +34,14 @@
     "pricing-and-exit": {"value": "Published FAQs give the monthly hosting fee, typical design range, consultancy price and domain-transfer assistance on cancellation.", "state": "supplier-published", "source": "https://websites4christians.com/faqs", "checked": "2026-07-25"},
     "product-scope": {"value": "Supplier describes bespoke church websites with hosting, email, backup, security updates, site management and technical support.", "state": "supplier-published", "source": "https://websites4christians.com/about-us", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/websites4christians/websites4christians-logo.ico",
+      "alt": "Websites4Christians logo",
+      "source": "https://websites4christians.com/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Websites4Christians is a bespoke, supplier-supported website service rather than an off-the-shelf church-management suite. It is particularly relevant when a church values a tailored design and ongoing technical help, and its published trading-company identity and domain-transfer statement improve procurement clarity. Because it may host contact, member and event data, a church should still obtain current data-processing and technical arrangements rather than relying on broad security claims.",
     "bestFor": ["Churches seeking a bespoke public website with ongoing UK supplier support", "Teams that need help with hosting, backups, updates and technical troubleshooting", "Churches wanting a website with optional member, event or ticketing functions"],

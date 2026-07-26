@@ -2,12 +2,19 @@ export const categoryFamilies = [
   {
     name: "Church administration and people",
     description: "Shared records, communication, children and day-to-day church administration.",
-    categories: ["church-management", "childrens-ministry", "church-communications"]
+    categories: [
+      "church-management",
+      "pastoral-care",
+      "safeguarding",
+      "childrens-ministry",
+      "volunteer-scheduling",
+      "church-communications"
+    ]
   },
   {
     name: "Finance, giving and bookings",
     description: "Giving, charity finance and practical event or booking workflows.",
-    categories: ["church-accounting", "online-giving", "events-ticketing"]
+    categories: ["church-accounting", "online-giving", "events-ticketing", "room-bookings"]
   },
   {
     name: "Services, worship and media",
@@ -17,7 +24,7 @@ export const categoryFamilies = [
   {
     name: "Websites, communication and discipleship",
     description: "Public-facing church information and resources for learning and discipleship.",
-    categories: ["church-websites", "bible-study"]
+    categories: ["church-websites", "church-mobile-apps", "bible-study"]
   }
 ] as const;
 

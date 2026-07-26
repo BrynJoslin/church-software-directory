@@ -4,17 +4,9 @@
   "shortDescription": "A digital giving, church management, apps and analytics platform for churches and parishes in selected countries.",
   "officialWebsite": "https://pushpay.com/",
   "company": "Pushpay",
-  "ukFocus": "general",
-  "categories": [
-    "church-management",
-    "online-giving",
-    "church-communications"
-  ],
-  "suitableChurchSizes": [
-    "medium",
-    "large",
-    "multi-site"
-  ],
+  "ukFocus": "unknown",
+  "categories": ["church-management", "online-giving", "church-communications"],
+  "suitableChurchSizes": ["medium", "large", "multi-site"],
   "suitableContexts": [
     "Churches in Pushpay’s supported countries seeking a sales-led engagement suite",
     "Teams comparing ChurchStaq’s giving, ChMS and apps bundle"
@@ -39,8 +31,6 @@
   "freeTrial": "unknown",
   "giftAid": "unknown",
   "demoAvailable": "yes",
-  "dataHosting": "Pushpay's published cybersecurity material names AWS as its hosting provider but does not establish a data region for a particular customer. Confirm current hosting and transfer arrangements directly before considering the service.",
-  "gdprInformation": "Pushpay publishes privacy and security material that discusses GDPR and customer privacy requests. Its published country list does not include the UK, so this is not evidence that the service is currently suitable for a UK church or that a church's use would be compliant.",
   "coreFeatures": [
     "Digital giving",
     "Giving reports and analytics",
@@ -49,20 +39,15 @@
     "Text, push and polling",
     "Volunteer, event and check-in workflows"
   ],
-  "integrations": [
-    "Public API and API integrations",
-    "Integration-partner catalogue"
-  ],
-  "importExport": [
-    "Native file exports"
-  ],
+  "integrations": [],
+  "importExport": [],
   "support": [
     "Customer portal",
     "Phone and email support",
     "Weekend support for urgent service issues stated by supplier"
   ],
   "editorial": {
-    "assessment": "Pushpay is a substantial commercial church platform, but its own current pricing page says customers must be based in the USA, Canada, New Zealand or Australia. It is included for market context and should not be presented as available to UK churches unless the supplier publishes or provides a current UK purchasing route.",
+    "assessment": "Pushpay is a substantial commercial church platform, but its own current pricing page says customers must be based in the USA, Canada, New Zealand or Australia. It is included for market context and should not be presented as available to UK churches without direct supplier confirmation.",
     "bestFor": [
       "Churches located in a supported country seeking giving and engagement tools",
       "UK teams researching overseas market options rather than buying now"
@@ -73,13 +58,8 @@
     ],
     "limitations": [
       "UK customer availability is not supported by the supplier’s published country list",
-      "Pricing is quote based; ask the supplier to demonstrate the required UK Gift Aid workflow"
-    ],
-    "procurementVerdict": {
-      "problem": "Churches located in a supported country seeking giving and engagement tools",
-      "differentiator": "Digital giving",
-      "firstCheck": "UK customer availability is not supported by the supplier’s published country list"
-    }
+      "Pricing is quote based and Gift Aid requires supplier evidence"
+    ]
   },
   "longForm": {
     "verdict": "Pushpay is useful as a reference point for an integrated giving-and-engagement platform, but its published customer-location restriction makes it unsuitable for a normal UK shortlist at present.",
@@ -116,17 +96,9 @@
       },
       {
         "question": "Does Pushpay support UK Gift Aid?",
-        "answer": "Ask the supplier to demonstrate the required UK Gift Aid declaration, claim, export and reconciliation workflow."
+        "answer": "Ask Pushpay for supplier evidence before treating Gift Aid as available."
       }
     ]
-  },
-  "brandAssets": {
-    "logo": {
-      "src": "/images/software/pushpay/pushpay-logo.svg",
-      "alt": "Pushpay logo",
-      "source": "https://s41008.pcdn.co/wp-content/uploads/2026/03/pushpay.svg",
-      "checked": "2026-07-25"
-    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
@@ -134,48 +106,23 @@
       "label": "Pushpay pricing",
       "url": "https://pushpay.com/product/pricing/",
       "checked": "2026-07-25",
-      "supports": [
-        "Quote pricing",
-        "Demo",
-        "Customer countries",
-        "Support"
-      ]
+      "supports": ["Quote pricing", "Demo", "Customer countries", "Support"]
     },
     {
       "label": "Pushpay ChurchStaq",
       "url": "https://pushpay.com/product/churchstaq/",
       "checked": "2026-07-25",
-      "supports": [
-        "Platform features",
-        "Packages"
-      ]
-    },
+      "supports": ["Platform features", "Packages"]
+    }
+  ],
+  "externalReviews": [
     {
-      "label": "Pushpay pricing details",
-      "url": "https://pushpay.com/product/pricing/pricing-details/",
-      "checked": "2026-07-25",
-      "supports": [
-        "Native file exports",
-        "Public API",
-        "API integrations"
-      ]
-    },
-    {
-      "label": "Pushpay legal FAQs",
-      "url": "https://pushpay.com/legal-center/faqs",
-      "checked": "2026-07-25",
-      "supports": [
-        "Published GDPR and privacy information",
-        "Privacy contact"
-      ]
-    },
-    {
-      "label": "Pushpay cybersecurity overview",
-      "url": "https://pushpay.com/wp-content/uploads/2024/02/Cybersecurity.pdf",
-      "checked": "2026-07-25",
-      "supports": [
-        "Published AWS hosting-provider statement"
-      ]
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/pushpay.com",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Pushpay and does not establish suitability for a particular church or current UK availability."
     }
   ],
   "affiliateRelationship": "no",

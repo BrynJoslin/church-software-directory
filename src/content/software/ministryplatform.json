@@ -5,14 +5,8 @@
   "officialWebsite": "https://www.acstechnologies.com/ministryplatform/",
   "company": "ACS Technologies",
   "ukFocus": "general",
-  "categories": [
-    "church-management",
-    "church-communications"
-  ],
-  "suitableChurchSizes": [
-    "large",
-    "multi-site"
-  ],
+  "categories": ["church-management", "church-communications"],
+  "suitableChurchSizes": ["large", "multi-site"],
   "suitableContexts": [
     "Large churches, parishes, dioceses or denominational offices",
     "Teams with complex data, integration or custom-development requirements"
@@ -35,6 +29,7 @@
   },
   "freePlan": "no",
   "freeTrial": "unknown",
+  "giftAid": "unknown",
   "demoAvailable": "yes",
   "coreFeatures": [
     "Central people and operations database",
@@ -45,17 +40,9 @@
     "REST API and integrations",
     "Mobile app options"
   ],
-  "integrations": [
-    "REST API",
-    "OAuth providers",
-    "Swagger"
-  ],
+  "integrations": ["REST API", "OAuth providers", "Swagger"],
   "importExport": [],
-  "support": [
-    "Help centre",
-    "Developer resources",
-    "Personalised demo"
-  ],
+  "support": ["Help centre", "Developer resources", "Personalised demo"],
   "editorial": {
     "assessment": "MinistryPlatform is a configurable enterprise-style ChMS rather than a lightweight church database. It may fit a large or complex organisation, but its quote-based model and deployment options mean a church should only evaluate it with clear requirements, technical ownership and migration capacity.",
     "bestFor": [
@@ -69,12 +56,7 @@
     "limitations": [
       "Pricing and trial terms are not public in this review",
       "Likely higher implementation and governance burden than a simple ChMS"
-    ],
-    "procurementVerdict": {
-      "problem": "Large churches and multi-site organisations with complex data needs",
-      "differentiator": "Central people and operations database",
-      "firstCheck": "Pricing and trial terms are not public in this review"
-    }
+    ]
   },
   "longForm": {
     "verdict": "MinistryPlatform is a shortlist option for complex, well-resourced organisations—not a default answer for a small church seeking a simple directory. Its flexibility is valuable only when the organisation can govern the resulting data model and integrations.",
@@ -115,44 +97,25 @@
       }
     ]
   },
-  "brandAssets": {
-    "logo": {
-      "src": "/images/software/ministryplatform/ministryplatform-logo.png",
-      "alt": "MinistryPlatform logo",
-      "source": "https://cdn-jehol.nitrocdn.com/XBwbYFbRYVMjkUYSoaVcGgRdcPyjhKvO/assets/images/optimized/rev-544d524/www.acstechnologies.com/ministryplatform/wp-content/uploads/sites/13/2022/04/MinistryPlatform_logo-1.png",
-      "checked": "2026-07-25"
-    }
-  },
   "lastChecked": "2026-07-25",
   "sources": [
     {
       "label": "MinistryPlatform overview",
       "url": "https://www.acstechnologies.com/ministryplatform/",
       "checked": "2026-07-25",
-      "supports": [
-        "Audience",
-        "Features",
-        "Demo"
-      ]
+      "supports": ["Audience", "Features", "Demo"]
     },
     {
       "label": "MinistryPlatform platform tools",
       "url": "https://www.acstechnologies.com/ministryplatform/tools/platform/",
       "checked": "2026-07-25",
-      "supports": [
-        "Customisation",
-        "APIs",
-        "Integrations"
-      ]
+      "supports": ["Customisation", "APIs", "Integrations"]
     },
     {
       "label": "MinistryPlatform edition options",
       "url": "https://help.acst.com/en/ministryplatform/help-topics/support--services/billing/edition-options",
       "checked": "2026-07-25",
-      "supports": [
-        "Cloud editions",
-        "Quote pricing"
-      ]
+      "supports": ["Cloud editions", "Quote pricing"]
     }
   ],
   "affiliateRelationship": "no",

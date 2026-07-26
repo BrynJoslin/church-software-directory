@@ -23,7 +23,16 @@
   "editorial": {"assessment": "GoodHub is a general UK charity fundraising platform, not a church-management database. It may suit a church needing online donations, Gift Aid and event ticketing without a subscription, provided the organisation is comfortable with its transaction and Gift Aid fee model. Finance teams should model those fees and reconcile the payout process before switching.", "bestFor": ["Churches using online fundraising and occasional paid events", "Charities wanting a no-subscription giving platform", "Teams needing Gift Aid collection alongside ticket sales"], "strengths": ["Named active UK operator and public organisation terms", "Published no-subscription model, payment fee and Gift Aid fee", "Donation, ticketing and Gift Aid workflows are described"], "limitations": ["Not designed as a church people, rota or website-management platform", "Gift Aid processing fee should be included in total-cost calculations", "Confirm payout timing, exports, supporter-data access and the exact privacy documents for the selected service"], "procurementVerdict": {"problem": "Collecting donations, event income and Gift Aid across multiple tools", "differentiator": "General charity fundraising and ticketing with no stated subscription fee", "firstCheck": "Model a representative donation, Gift Aid claim and paid-event ticket sale from donor payment through to payout"}},
   "lastChecked": "2026-07-25",
   "sources": [{"label": "GoodHub fees", "url": "https://www.goodhub.com/fees/", "checked": "2026-07-25", "supports": ["No subscription statement", "Payment fee", "Gift Aid fee", "Supporter contribution"]}, {"label": "GoodHub user terms", "url": "https://www.goodhub.com/user-terms-conditions/", "checked": "2026-07-25", "supports": ["Gift Aid claim handling", "English-law terms"]}, {"label": "GoodHub organisation terms", "url": "https://www.goodhub.com/organisation-terms-conditions/", "checked": "2026-07-25", "supports": ["Organisation data responsibilities", "Donation and Gift Aid terms"]}, {"label": "GoodHub fundraiser terms", "url": "https://www.goodhub.com/fundraiser-terms-conditions/", "checked": "2026-07-25", "supports": ["UK company identity", "Fundraising scope"]}, {"label": "Companies House: GoodHub Platforms Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/10702553", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
+  "externalReviews": [{"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/www.goodhub.com", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for GoodHub and does not establish suitability for a particular church."}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "GoodHub review for UK churches", "description": "Independent GoodHub profile for UK churches: donations, ticketing, Gift Aid, fees and procurement checks."}
+  "seo": {"title": "GoodHub review for UK churches", "description": "Independent GoodHub profile for UK churches: donations, ticketing, Gift Aid, fees and procurement checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/goodhub/goodhub-logo.png",
+      "alt": "GoodHub logo",
+      "source": "https://www.goodhub.com/images/touch/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

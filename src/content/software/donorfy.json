@@ -22,5 +22,13 @@
   "lastChecked": "2026-07-25",
   "sources": [{"label": "Donorfy pricing and integrations", "url": "https://donorfy.com/pricing", "checked": "2026-07-25", "supports": ["Pricing model", "Gift Aid", "Integrations", "Support", "Implementation", "Trial"]}, {"label": "Donorfy terms", "url": "https://donorfy.com/termsandconditions?hsLang=en", "checked": "2026-07-25", "supports": ["Legal operator", "Terms", "DPA incorporation"]}, {"label": "Donorfy data protection", "url": "https://donorfy.com/data-protection", "checked": "2026-07-25", "supports": ["Processor statement", "Data-protection documentation"]}, {"label": "HMRC Charities Online suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Supplier listing"]}, {"label": "Companies House: DONORFY LIMITED", "url": "https://find-and-update.company-information.service.gov.uk/company/08922148", "checked": "2026-07-25", "supports": ["UK company record", "Access UK control"]}],
   "affiliateRelationship": "no", "sponsored": false,
-  "seo": {"title": "Donorfy review for UK churches", "description": "Independent Donorfy profile: UK charity CRM, Gift Aid, pricing model and procurement checks."}
+  "seo": {"title": "Donorfy review for UK churches", "description": "Independent Donorfy profile: UK charity CRM, Gift Aid, pricing model and procurement checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/donorfy/donorfy-logo.ico",
+      "alt": "Donorfy logo",
+      "source": "https://6986386.fs1.hubspotusercontent-na1.net/hubfs/6986386/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  }
 }

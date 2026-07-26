@@ -45,6 +45,7 @@
     {"label": "Piota app privacy policy", "url": "https://www.piota.co.uk/privacy-cookies-policy-piota-app/", "checked": "2026-07-25", "supports": ["Published privacy material", "Need for service-specific data terms"]},
     {"label": "Companies House: Schappit Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/09084187", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
   ],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/chancel/id1363931498", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Chancel review for UK churches", "description": "Independent Chancel profile: UK church mobile communications, alerts, events, media and due-diligence questions."}

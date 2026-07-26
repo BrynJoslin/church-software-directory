@@ -97,9 +97,9 @@ Your next step is to model a typical month of giving and run the trial script ag
 
 Researched 25 July 2026 using the official and supplier sources below. Fees, payment terms, hardware, eligibility and product features may change. This is not a complete market review, tax advice or a claim of independent product testing.
 
-- [Charity Commission: internal financial controls for charities](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities) (accessed 25 July 2026)
-- [HMRC: Gift Aid declarations](https://www.gov.uk/claim-gift-aid/gift-aid-declarations) (accessed 25 July 2026)
-- [ICO: controller–processor contracts](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/) (accessed 25 July 2026)
-- [GoodBox pricing](https://www.goodbox.com/pricing/) (accessed 25 July 2026)
-- [Give A Little FAQ](https://givealittle.co/faq) (accessed 25 July 2026)
-- [Stewardship Partner Account fees](https://www.stewardship.org.uk/partner-account-fees) (accessed 25 July 2026)
+- <a href="https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities" target="_blank" rel="noopener noreferrer">Charity Commission: internal financial controls for charities</a> (accessed 25 July 2026)
+- <a href="https://www.gov.uk/claim-gift-aid/gift-aid-declarations" target="_blank" rel="noopener noreferrer">HMRC: Gift Aid declarations</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/" target="_blank" rel="noopener noreferrer">ICO: controller–processor contracts</a> (accessed 25 July 2026)
+- <a href="https://www.goodbox.com/pricing/" target="_blank" rel="noopener noreferrer">GoodBox pricing</a> (accessed 25 July 2026)
+- <a href="https://givealittle.co/faq" target="_blank" rel="noopener noreferrer">Give A Little FAQ</a> (accessed 25 July 2026)
+- <a href="https://www.stewardship.org.uk/partner-account-fees" target="_blank" rel="noopener noreferrer">Stewardship Partner Account fees</a> (accessed 25 July 2026)

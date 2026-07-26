@@ -34,5 +34,13 @@
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "BMc Azurri Tap To Donate review for UK churches", "description": "Independent BMc Azurri Tap To Donate profile: UK contactless giving, Gift Aid, fees and data checks."}
+  "seo": {"title": "BMc Azurri Tap To Donate review for UK churches", "description": "Independent BMc Azurri Tap To Donate profile: UK contactless giving, Gift Aid, fees and data checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/bmc-azurri-tap-to-donate/bmc-azurri-tap-to-donate-logo.png",
+      "alt": "BMc Azurri Tap To Donate logo",
+      "source": "https://bmcazurri.com/wp-content/uploads/2021/03/cropped-favicon-180x180.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

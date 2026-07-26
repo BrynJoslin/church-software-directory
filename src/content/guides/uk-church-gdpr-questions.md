@@ -104,8 +104,8 @@ Your next step is to complete the worksheet for two plausible suppliers and ask 
 
 Researched 25 July 2026 from the authoritative sources below and the directory’s recorded supplier sources. This is not legal advice, a complete market review or hands-on testing. Supplier claims, terms, locations and security features must be checked for the exact product and plan under consideration.
 
-- [ICO: special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data/) (accessed 25 July 2026)
-- [ICO: contracts and liabilities between controllers and processors](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/) (accessed 25 July 2026)
-- [ICO: data protection impact assessments](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/data-protection-impact-assessments/) (accessed 25 July 2026)
-- [NCSC: choosing a cloud provider](https://www.ncsc.gov.uk/collection/cloud/choosing-a-cloud-provider) (accessed 25 July 2026)
-- [Charity Commission: internal financial controls for charities](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities) (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data/" target="_blank" rel="noopener noreferrer">ICO: special category data</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/" target="_blank" rel="noopener noreferrer">ICO: contracts and liabilities between controllers and processors</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/data-protection-impact-assessments/" target="_blank" rel="noopener noreferrer">ICO: data protection impact assessments</a> (accessed 25 July 2026)
+- <a href="https://www.ncsc.gov.uk/collection/cloud/choosing-a-cloud-provider" target="_blank" rel="noopener noreferrer">NCSC: choosing a cloud provider</a> (accessed 25 July 2026)
+- <a href="https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities" target="_blank" rel="noopener noreferrer">Charity Commission: internal financial controls for charities</a> (accessed 25 July 2026)

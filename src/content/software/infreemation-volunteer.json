@@ -32,6 +32,14 @@
     "commercial-model": {"value": "Supplier says volunteer-portal and administration functions are included, and its FAQ describes site licences with unrestricted access; the reviewed material does not publish an amount for Infreemation Volunteer.", "state": "supplier-published", "source": "https://www.digital-interactive.com/faq", "checked": "2026-07-25"},
     "data-handling": {"value": "Supplier says its dedicated servers and customer data are in the UK, and publishes a general data-protection statement that describes processor obligations and authorisation for further processors.", "state": "supplier-published", "source": "https://www.digital-interactive.com/gdpr", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/infreemation-volunteer/infreemation-volunteer-logo.png",
+      "alt": "Infreemation Volunteer logo",
+      "source": "https://www.digital-interactive.com/img/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Infreemation Volunteer is a general UK volunteer-administration product with more emphasis on applicant intake, approvals and training than a simple service rota. That may suit a larger church or church charity with a repeatable recruitment process, but it is not church-specific software. The product page's references to ID and CRB-check documents mean a church should be especially careful: a feature that accepts evidence is not proof that its safeguarding process, retention policy or handling of sensitive data is appropriate.",
     "bestFor": ["Churches or church charities that need structured volunteer applications and training records", "Teams managing recurring volunteer events with an applicant-to-approved-volunteer workflow", "Organisations wanting a UK supplier and a site-licence commercial model"],

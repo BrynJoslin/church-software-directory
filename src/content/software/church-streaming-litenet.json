@@ -28,6 +28,14 @@
     "church-scope": {"value": "Supplier describes dedicated streaming, connectivity, Wi-Fi, data-networking and VoIP offers for churches, with single- and multi-camera choices.", "state": "supplier-published", "source": "https://church-streaming.co.uk/", "checked": "2026-07-25"},
     "package-indication": {"value": "A supplier church-streaming package document describes a £2,800 plus VAT basic installation package, with quoted pricing for additional cameras.", "state": "supplier-published", "source": "https://www.dur.ac.uk/media/durham-university/research-/research-centres/centre-for-digital-theology/documents/Video-Streaming-Solutions-for-Places-of-Worship.pdf", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/church-streaming-litenet/church-streaming-litenet-logo.png",
+      "alt": "Church Streaming by Litenet logo",
+      "source": "https://img1.wsimg.com/isteam/ip/1ca9ffdf-1b28-4452-a8a8-93c2f479b8db/LITENET_LOGO_02_02_2022_0001d_V1.png/:/rs=w:57,h:57,m",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Church Streaming by Litenet is a UK technical-service option for a church that needs more than a streaming account: camera installation, cabling and reliable internet can be scoped together. It is not a video-hosting platform or a church-management system. A church should request an up-to-date site survey and quote, then decide separately where and how recorded services will be published and retained.",
     "bestFor": ["Churches with limited in-house AV capacity", "Buildings needing broadcast equipment and connectivity together", "Churches evaluating a professionally installed service-streaming setup"],

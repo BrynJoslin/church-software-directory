@@ -33,6 +33,14 @@
     "pricing-model": {"value": "Supplier publishes a free sampler and child-number-based paid plans, monthly or annual billing, and a GBP currency selector. Obtain the exact GBP figures from the live quote or checkout before purchase.", "state": "supplier-published", "source": "https://www.raiseupfaith.com/pricing", "checked": "2026-07-25"},
     "commercial-operation": {"value": "Energize states that its website is owned by Urban Saints and commercially operated by RaiseUpFaith, including payment processing, call-centre operations, content and subscription management.", "state": "supplier-published", "source": "https://www.energize.uk.net/pages/privacy", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/raiseup-faith/raiseup-faith-logo.ico",
+      "alt": "RaiseUp Faith logo",
+      "source": "https://www.raiseupfaith.com/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "RaiseUp Faith is a distinct UK curriculum-platform option for churches that need more than downloadable lesson PDFs: it combines a resource library with lesson adaptation, presentation and volunteer sharing. It should be compared with the theological and pedagogical fit of the actual curriculum, not only with its platform features. It is not a child check-in, safeguarding-case, pastoral-record or consent-management system, and its public account-data documentation needs strengthening before a church adds personal information to team accounts.",
     "bestFor": ["Children’s and youth teams that need adaptable, media-rich session material", "Churches giving several volunteers shared access to lesson plans and presentation resources", "Teams wanting a free sampler before committing to a child-number-based subscription"],

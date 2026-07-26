@@ -37,6 +37,14 @@
     "data-processing": {"value": "Current customer terms describe customer-controller and supplier-processor roles and list hosting, email and support sub-processors with stated UK, EU and worldwide locations.", "state": "supplier-published", "source": "https://www.jovoapp.com/legal/terms-and-conditions", "checked": "2026-07-25"},
     "operator-identity-boundary": {"value": "Jovo's current website terms name Jovo App Ltd and company number 12631707, while Companies House records a current JOVO APP LTD with company number 15525783 and previous names CommLoop Ltd and Joyned Ltd. Obtain the current legal contracting entity and company number in writing before purchase.", "state": "supplier-published", "source": "https://www.jovoapp.com/legal/terms-and-conditions", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/jovo/jovo-logo.png",
+      "alt": "Jovo logo",
+      "source": "https://cdn.prod.website-files.com/667184930170702c21945cee/6989c35e56aa277900ed1ca5_jovo-icon-square_full-colour%40256px.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Jovo is a focused UK church and community communications option rather than a full church-management system. It is especially relevant where a church wants structured groups, broadcasts, temporary event groups and permissions without relying on personal messaging channels. The published ChurchSuite and Planning Center connections make it a plausible companion to an existing management platform. Its public contract documentation is more detailed than many communication apps, but its current company-number discrepancy is material: a church should establish who it is contracting with before entering data or paying a subscription.",
     "bestFor": ["Churches replacing informal staff, volunteer or group messaging with a managed community space", "ChurchSuite or Planning Center users who need group communications alongside their existing data platform", "Multi-site churches and event teams needing role-controlled and temporary communication groups"],

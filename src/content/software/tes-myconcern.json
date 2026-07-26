@@ -29,6 +29,14 @@
     "product-workflow": {"value": "Tes describes concern and case management, reporting, chronology, secure sharing, staff safeguarding and community-reporting workflows for MyConcern.", "state": "supplier-published", "source": "https://www.tes.com/en-gb/for-schools/myconcern", "checked": "2026-07-25"},
     "data-handling": {"value": "The supplier's published material describes processor status for customer-uploaded data, UK data centres and a request-based data-sharing and processing agreement.", "state": "supplier-published", "source": "https://producttraining.thesafeguardingcompany.com/pages/privacy", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/tes-myconcern/tes-myconcern-logo.png",
+      "alt": "Tes MyConcern logo",
+      "source": "https://www.tes.com/themes/custom/tes_marketing/tes-180x180.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Tes MyConcern is specialist safeguarding case-management software, not a church-management suite. Its significance for this directory is the Church of England's use of the product in its national safeguarding casework programme and the availability of substantive public UK data-handling information. The current public product pages focus on schools, so churches outside that programme should establish product fit, contractual eligibility, governance, workflows and support before treating it as an available local option.",
     "bestFor": ["Church of England diocesan and cathedral safeguarding operations", "Church organisations that need formal case recording, chronology and controlled information sharing", "Safeguarding leaders working with professional data-governance support"],

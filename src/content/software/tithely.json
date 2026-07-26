@@ -177,6 +177,7 @@
       ]
     }
   ],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/tithe-ly/id694740700", "rating": 4.4, "maximumRating": 5, "reviewCount": 32, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "The UK App Store listing is for Tithe.ly Mobile Giving and may not represent every product in the wider suite."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=ly.tithe.tithely", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Tithe.ly name; this directory has not recorded an aggregate rating or review count."}, {"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/tithe.ly", "rating": 4.3, "maximumRating": 5, "reviewCount": 1166, "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is largely international and does not establish suitability for UK churches."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

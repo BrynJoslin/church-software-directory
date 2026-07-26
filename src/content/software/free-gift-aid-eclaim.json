@@ -38,5 +38,13 @@
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Free Gift Aid eClaim review for UK churches", "description": "Independent Free Gift Aid eClaim profile: UK HMRC filing scope, security evidence and procurement checks."}
+  "seo": {"title": "Free Gift Aid eClaim review for UK churches", "description": "Independent Free Gift Aid eClaim profile: UK HMRC filing scope, security evidence and procurement checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/free-gift-aid-eclaim/free-gift-aid-eclaim-logo.png",
+      "alt": "Free Gift Aid eClaim logo",
+      "source": "https://www.efileready.com/images/favicon.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

@@ -59,6 +59,7 @@
     {"label": "Companies House: Klemi.co LLP", "url": "https://find-and-update.company-information.service.gov.uk/company/OC414047", "checked": "2026-07-25", "supports": ["UK-registered organisation", "Active status", "Company number"]},
     {"label": "Klemi knowledgebase: What is Klemi?", "url": "https://help.klemi.co/index.php/article/what-is-klemi", "checked": "2026-07-25", "supports": ["Church-management purpose", "Browser and mobile access", "Member, group and attendance use cases"]}
   ],
+  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.klemi.app", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Klemi name; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Klemi review for UK churches", "description": "Independent Klemi profile: UK church administration, rotas, services, mobile app, £30 pricing and data questions."}

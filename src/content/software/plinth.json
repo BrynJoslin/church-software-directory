@@ -29,6 +29,14 @@
     "faith-charity-relevance": {"value": "Supplier's faith-based-charity guidance describes Plinth as combining case management, room bookings, volunteering and impact reporting for UK charities.", "state": "supplier-published", "source": "https://www.plinth.org.uk/complete-guide/software-faith-charities", "checked": "2026-07-25"},
     "data-handling": {"value": "Supplier's privacy policy describes UK and EU processing, encryption in transit and at rest, deletion times after cancellation, recovery-log retention and a sub-processor listing.", "state": "supplier-published", "source": "https://www.plinth.org.uk/privacy", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/plinth/plinth-logo.png",
+      "alt": "Plinth logo",
+      "source": "https://www.plinth.org.uk/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Plinth is a broad UK charity-sector platform rather than church-management software. Its volunteer module is potentially relevant to church charities and sizeable community projects because it joins recruitment, matching, rota coordination, DBS-status tracking, communications and reporting. Its breadth and data sensitivity mean a church should treat it as a formal procurement exercise, especially where case-management, sensitive volunteer information or supplier AI features are in scope.",
     "bestFor": ["Church-run charities and community services with a substantial volunteer programme", "Networks or umbrella bodies coordinating volunteers across multiple organisations", "Teams needing structured volunteer records, matching, reporting and compliance-status reminders rather than a simple Sunday rota"],

@@ -32,6 +32,7 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [{"label": "Donation Station product overview", "url": "https://donationstation.co.uk/", "checked": "2026-07-25", "supports": ["Tablet and SumUp model", "Published monthly price", "Church use case", "Gift Aid"]}, {"label": "Donation Station App Store listing", "url": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694", "checked": "2026-07-25", "supports": ["Premium price", "Developer identity", "Gift Aid feature", "Google Sheets export", "Privacy disclosure"]}, {"label": "Companies House: Donation Station Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/15933875", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/donation-station-tap-to-give/id6758314694", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Donation Station review for UK churches", "description": "Independent Donation Station profile: tablet contactless giving, SumUp, UK monthly price, Gift Aid and finance checks."}

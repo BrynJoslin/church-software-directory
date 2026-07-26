@@ -12,11 +12,7 @@
     "church-communications",
     "sermon-hosting"
   ],
-  "suitableChurchSizes": [
-    "medium",
-    "large",
-    "multi-site"
-  ],
+  "suitableChurchSizes": ["medium", "large", "multi-site"],
   "suitableContexts": [
     "Churches seeking one commercial platform for app, media and engagement",
     "Multi-site teams needing quote-based implementation and support"
@@ -41,7 +37,7 @@
         "detail": "Tailored package"
       }
     ],
-    "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; ask sales for its current duration and eligibility."
+    "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; ask sales for the applicable duration and eligibility."
   },
   "freePlan": "yes",
   "freeTrial": "unknown",
@@ -74,13 +70,8 @@
     ],
     "limitations": [
       "Core-suite pricing is quote based",
-      "Ask the supplier about UK availability, Gift Aid, payment terms and data-processing fit"
-    ],
-    "procurementVerdict": {
-      "problem": "Churches wanting app, media and website delivery in one commercial platform",
-      "differentiator": "Custom mobile and TV apps",
-      "firstCheck": "Core-suite pricing is quote based"
-    }
+      "UK availability, Gift Aid, payment terms and data-processing fit require supplier evidence"
+    ]
   },
   "longForm": {
     "verdict": "Subsplash is a platform evaluation rather than a quick subscription comparison. It could consolidate apps, media and engagement work, but a UK church needs a detailed written scope before deciding whether the bundle replaces enough existing services.",
@@ -113,7 +104,7 @@
       },
       {
         "question": "Does Subsplash offer a trial?",
-        "answer": "The supplier’s terms mention free trials for applicable subscriptions. Ask sales for written duration and eligibility terms."
+        "answer": "The supplier’s terms mention free trials for applicable subscriptions. Ask sales for the applicable duration and eligibility."
       },
       {
         "question": "How much does Subsplash cost?",
@@ -121,17 +112,9 @@
       },
       {
         "question": "Does Subsplash support UK Gift Aid?",
-        "answer": "Ask the supplier to demonstrate UK donor records, Gift Aid declarations, reporting and reconciliation before use."
+        "answer": "Ask the supplier for evidence covering UK donor records, Gift Aid declarations, reporting and reconciliation before use."
       }
     ]
-  },
-  "brandAssets": {
-    "logo": {
-      "src": "/images/software/subsplash/subsplash-logo.svg",
-      "alt": "Subsplash logo",
-      "source": "https://cdn.prod.website-files.com/627d5cb7a65390b3f8dcbc63/64d1546f0b2e6541c7beed66_Subsplash_Logo_Black%201.svg",
-      "checked": "2026-07-25"
-    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
@@ -151,9 +134,17 @@
       "label": "Subsplash terms and conditions",
       "url": "https://www.subsplash.com/legal/terms-and-conditions",
       "checked": "2026-07-25",
-      "supports": [
-        "Trial terms reference"
-      ]
+      "supports": ["Trial terms reference"]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/subsplash.com",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Subsplash and does not establish suitability for a particular church."
     }
   ],
   "affiliateRelationship": "no",

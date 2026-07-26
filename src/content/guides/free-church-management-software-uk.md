@@ -34,13 +34,13 @@ This guide covers free or free-entry tools for people, rota and basic church adm
 | [B1 Church](/software/b1-church/) | Supplier states all features are free. | Due diligence on support, payments, data handling and continuity is essential. |
 | [WorshipTools](/software/worshiptools/) | Free app set for planning, presentation and basic people work. | Its supplier material does not describe UK finance, Gift Aid or safeguarding administration. |
 
-Sources: [Planning Center](https://help.planningcenter.com/en/136790-planning-center-pricing.html), [ChMeetings](https://www.chmeetings.com/pricing/), [ChurchLinker](https://churchlinker.com/), [ChurchCRM](https://churchcrm.io/faq.html), [B1 Church](https://www.b1.church/) and [WorshipTools](https://www.worshiptools.com/).
+Sources: <a href="https://help.planningcenter.com/en/136790-planning-center-pricing.html" target="_blank" rel="noopener noreferrer">Planning Center</a>, <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings</a>, <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker</a>, <a href="https://churchcrm.io/faq.html" target="_blank" rel="noopener noreferrer">ChurchCRM</a>, <a href="https://www.b1.church/" target="_blank" rel="noopener noreferrer">B1 Church</a> and <a href="https://www.worshiptools.com/" target="_blank" rel="noopener noreferrer">WorshipTools</a>.
 
 ## The cost that does not disappear
 
 Free plans often charge through capacity, transaction fees, paid modules, hardware, messages, migration or the team’s time. Open-source software moves more of that cost into technical responsibility. Neither approach is wrong; both need to be budgeted.
 
-Do not upload live pastoral, safeguarding or finance data to a free trial before checking account controls, processor terms, data location or transfer information, export and cancellation. Religious belief is special category data under UK GDPR. [ICO guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/).
+Do not upload live pastoral, safeguarding or finance data to a free trial before checking account controls, processor terms, data location or transfer information, export and cancellation. Religious belief is special category data under UK GDPR. <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/" target="_blank" rel="noopener noreferrer">ICO guidance</a>.
 
 ## Choose the free model deliberately
 
@@ -93,9 +93,9 @@ Consider whether the free plan’s public support and documentation are sufficie
 
 Researched 25 July 2026 from official supplier pages and ICO guidance. Feature availability, limits and terms may change. No product score or hands-on testing is claimed.
 
-- [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html) (accessed 25 July 2026)
-- [ChMeetings pricing](https://www.chmeetings.com/pricing/) (accessed 25 July 2026)
-- [ChurchLinker](https://churchlinker.com/) (accessed 25 July 2026)
-- [ChurchCRM FAQ](https://churchcrm.io/faq.html) (accessed 25 July 2026)
-- [B1 Church](https://www.b1.church/) (accessed 25 July 2026)
-- [NCSC: choosing a cloud provider](https://www.ncsc.gov.uk/collection/cloud/choosing-a-cloud-provider) (accessed 25 July 2026)
+- <a href="https://help.planningcenter.com/en/136790-planning-center-pricing.html" target="_blank" rel="noopener noreferrer">Planning Center pricing</a> (accessed 25 July 2026)
+- <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings pricing</a> (accessed 25 July 2026)
+- <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker</a> (accessed 25 July 2026)
+- <a href="https://churchcrm.io/faq.html" target="_blank" rel="noopener noreferrer">ChurchCRM FAQ</a> (accessed 25 July 2026)
+- <a href="https://www.b1.church/" target="_blank" rel="noopener noreferrer">B1 Church</a> (accessed 25 July 2026)
+- <a href="https://www.ncsc.gov.uk/collection/cloud/choosing-a-cloud-provider" target="_blank" rel="noopener noreferrer">NCSC: choosing a cloud provider</a> (accessed 25 July 2026)

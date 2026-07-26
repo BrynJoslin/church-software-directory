@@ -25,6 +25,14 @@
     "safeguarding-scope": {"value": "The supplier describes Role Compliance as focused on roles and responsibilities and says it has a strong focus on safeguarding. The reviewed material does not establish that it manages safeguarding cases or replaces professional safeguarding advice.", "state": "supplier-published", "source": "https://thedigitalchurchplatform.com/role-compliance", "checked": "2026-07-25"},
     "pricing-and-data": {"value": "Public pricing, support commitments, hosting detail and current processor documentation were not established in the reviewed material.", "state": "needs-refresh", "source": "https://thedigitalchurchplatform.com/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/digital-church-platform/digital-church-platform-logo.png",
+      "alt": "The Digital Church Platform logo",
+      "source": "https://26637033.fs1.hubspotusercontent-eu1.net/hubfs/26637033/DCP%20FAVICON.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "The Digital Church Platform is a UK module-based product aimed at parish administration and digital transformation. Its published scope is more specialised than an all-purpose church database: visitation documents, role compliance, a document repository and a managed parish website. It may be relevant to churches or diocesan teams with those defined workflows, but public pricing and detailed data-processing information were not established in this review. Its role-compliance module should not be treated as a safeguarding-case management system without direct supplier evidence.",
     "bestFor": ["Parishes seeking UK-specific document and visitation workflows", "Teams wanting a managed parish website alongside administration modules", "Organisations prepared to procure through a scoped supplier proposal"],

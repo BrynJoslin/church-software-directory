@@ -32,6 +32,7 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [{"label": "Levites website", "url": "https://www.levites.app/", "checked": "2026-07-25", "supports": ["Church team purpose", "Communication and rota positioning", "UK pilot-support claim"]}, {"label": "Levites App Store listing", "url": "https://apps.apple.com/us/app/levites/id6758666266", "checked": "2026-07-25", "supports": ["Live app", "Developer identity", "Release history", "App privacy disclosure", "Free and paid workspace statement"]}, {"label": "Companies House: Levites Tech Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/17059524", "checked": "2026-07-25", "supports": ["UK company", "Active status", "Software-development SIC"]}],
+  "externalReviews": [{"platform": "Apple App Store US", "profileUrl": "https://apps.apple.com/us/app/levites/id6758666266", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Levites review for UK churches", "description": "Independent Levites profile: UK church rota and communications app, live iPhone releases and key procurement questions."}

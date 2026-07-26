@@ -34,6 +34,14 @@
     "published-pricing": {"value": "Supplier publishes a 30-day no-card trial and £35 annual subscription for unlimited rota types and volunteers.", "state": "supplier-published", "source": "https://www.simplechurchrota.com/landing.php", "checked": "2026-07-25"},
     "app-data-safety": {"value": "Google Play's developer-provided data-safety summary records data collection/sharing categories, encryption in transit and a deletion-request route.", "state": "independent-source", "source": "https://play.google.com/store/apps/details?id=com.simplechurchrota", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/simple-church-rota/simple-church-rota-logo.png",
+      "alt": "Simple Church Rota logo",
+      "source": "https://www.simplechurchrota.com/pwa-icons/icon-192x192.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Simple Church Rota is a focused UK-developed volunteer scheduling product, not a full church database or safeguarding system. It offers a notably low published annual price and a practical set of rota, swap, calendar and notification tools for a small church. The public legal and data-processing material is limited, so it is best assessed with a trial using non-sensitive team details while the church obtains the provider, privacy, hosting and exit information required for wider use.",
     "bestFor": ["Small churches moving away from rota spreadsheets", "Teams needing volunteer availability, swaps, cover requests and reminders", "Churches seeking one low-cost rota tool rather than a full suite"],
@@ -46,6 +54,7 @@
     {"label": "Simple Church Rota product and pricing", "url": "https://www.simplechurchrota.com/landing.php", "checked": "2026-07-25", "supports": ["Church rota features", "Trial", "Annual price", "Calendar and notification features"]},
     {"label": "Church Rota Scheduler on Google Play", "url": "https://play.google.com/store/apps/details?id=com.simplechurchrota", "checked": "2026-07-25", "supports": ["Developer identity and country", "Current app availability", "Data-safety summary", "Support route"]}
   ],
+  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.simplechurchrota", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Simple Church Rota review for UK churches", "description": "Independent Simple Church Rota profile: UK volunteer scheduling, swaps, calendar sync, £35 annual price and due-diligence checks."}

@@ -36,6 +36,14 @@
     "gbp-pricing": {"value": "Standard is published at £50/month plus VAT and Advanced at £75/month plus VAT, paid by monthly direct debit.", "state": "supplier-published", "source": "https://paxtonsoftware.co.uk/pricing/pricing-sign-up", "checked": "2026-07-25"},
     "hosting": {"value": "Supplier states that Paxton Charities Online is hosted in a secure UK-based data centre and has 14 days of backups.", "state": "supplier-published", "source": "https://paxtonsoftware.co.uk/terms-conditions", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/paxton-church-charity-accounting/paxton-church-charity-accounting-logo.png",
+      "alt": "Paxton Church & Charity Accounting Software logo",
+      "source": "https://impro.usercontent.one/appid/oneComWsb/domain/paxtonsoftware.co.uk/media/paxtonsoftware.co.uk/onewebmedia/Logo-3.png?etag=null&sourceContentType=image%2Fpng&resize=57,57&ignoreAspectRatio",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Paxton is a clearly UK-based charity-accounting option with current public prices, church-oriented accounting workflows and a desktop alternative to its online service. Its Standard and Advanced split makes the first procurement question practical: whether the church needs receipts-and-payments accounting or the additional sales, project and foreign-currency capability. A treasurer should test reports, migration, permissions, bank reconciliation and year-end work with the actual accounts before changing system.",
     "bestFor": ["UK churches that need charity-specific fund accounting and Gift Aid workflows", "Treasurers who value published monthly pricing and a desktop option", "Churches that need to compare receipts-and-payments and accruals workflows"],

@@ -31,6 +31,7 @@
   },
   "lastChecked": "2026-07-25",
   "sources": [{"label": "iKnow Safeguarding product overview", "url": "https://www.iknowsafeguarding.co.uk/", "checked": "2026-07-25", "supports": ["Concerns", "Checks and DBS administration", "Risk assessments", "Access control", "Audit history", "Multi-location support", "Free trial"]}, {"label": "iKnow Safeguarding for churches", "url": "https://www.iknowsafeguarding.co.uk/safeguarding-for/safeguarding-software-for-churches/", "checked": "2026-07-25", "supports": ["Church-specific use case"]}, {"label": "iKnow Safeguarding about", "url": "https://www.iknowsafeguarding.co.uk/about/", "checked": "2026-07-25", "supports": ["UK organisation focus", "Solihull team location"]}, {"label": "iKnow Safeguarding contact", "url": "https://iknowsafeguarding.co.uk/contact", "checked": "2026-07-25", "supports": ["Published UK support contact"]}],
+  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.iknow.mobileapp", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This mobile listing is published as iKnow Mobile; confirm the current safeguarding-specific scope before relying on it for a safeguarding workflow."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "iKnow Safeguarding review for UK churches", "description": "Independent iKnow Safeguarding profile for UK churches: concerns, DBS checks, access controls, audit history and due diligence."}

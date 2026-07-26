@@ -146,6 +146,7 @@ The architecture should support:
  /software/[slug]/
  /categories/
  /categories/[slug]/
+ /shortlist/
  /compare/
  /guides/
  /guides/[slug]/
@@ -219,6 +220,19 @@ A comparison must be shareable through the URL:
 The comparison should use structured factual fields, not arbitrary marketing
 claims. It should omit incidental gaps and turn missing material fields into
 specific questions to settle.
+
+## Guided shortlist
+
+The shortlist journey should begin with the software category and ask no more
+than one follow-up question at a time. After each answer it should show the
+exact number of recorded products still matching and let the user either answer
+another useful question or view the shortlist.
+
+A follow-up answer must be offered only when it leaves a smaller, non-empty
+candidate set. Questions with no such answer must be skipped automatically; if
+none remain, the results should be shown. The complete selected state must
+remain shareable through the URL, and one or two supported matches must not be
+turned into an artificial empty state.
 
 ## Software listing pages
 

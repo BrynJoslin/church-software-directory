@@ -194,6 +194,22 @@ The comparison table should:
 - allow a comparison link to be copied
 - handle missing or invalid products gracefully
 
+## Guided shortlist
+
+Keep exact candidate matching separate from the maximum-five detailed result.
+Use the exact set for every count shown during the journey.
+
+The first question is the category. Later question definitions belong in one
+typed rules module and use a deterministic order. Before displaying an answer,
+apply it to the current candidate set; include it only when the result is
+greater than zero and smaller than the current count. Skip questions with no
+eligible answers and show results when no useful question remains.
+
+Selected requirements, skipped questions and the results view must use validated
+query parameters. Invalid, zero-result and no-change URL answers should be
+ignored safely. Keep the controls native, announce count changes politely and
+move focus only after an explicit navigation action.
+
 ## Accessibility
 
 Aim for WCAG 2.2 AA.

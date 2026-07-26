@@ -25,5 +25,13 @@
   "sources": [{"label": "Fund Filer overview", "url": "https://www.fundfiler.com/", "checked": "2026-07-25", "supports": ["Gift Aid management scope", "GASDS scope", "Entry pricing", "Free trial", "Multiple users"]}, {"label": "Fund Filer prices", "url": "https://www.fundfiler.com/prices", "checked": "2026-07-25", "supports": ["Current supplier pricing page"]}, {"label": "Fund Filer terms", "url": "https://www.fundfiler.com/terms", "checked": "2026-07-25", "supports": ["Published service terms"]}, {"label": "Fund Filer privacy policy", "url": "https://www.fundfiler.com/privacy", "checked": "2026-07-25", "supports": ["Published privacy policy"]}, {"label": "HMRC: Charities Online commercial software suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Charities Online supplier listing"]}, {"label": "Companies House: Fund Filer Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/06979043", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Fund Filer review for UK churches", "description": "Independent Fund Filer profile for UK churches: Gift Aid and GASDS claims, pricing, trial and data-handling checks."}
+  "seo": {"title": "Fund Filer review for UK churches", "description": "Independent Fund Filer profile for UK churches: Gift Aid and GASDS claims, pricing, trial and data-handling checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/fund-filer/fund-filer-logo.png",
+      "alt": "Fund Filer logo",
+      "source": "https://www.fundfiler.com/icons/favicon-192x192.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

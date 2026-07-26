@@ -6,6 +6,24 @@ Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
+- The 26 July 2026 external-review audit checked the active catalogue against
+  Trustpilot, the Apple App Store and Google Play. It retains only directly
+  matched public product or company profiles, records scope explicitly and
+  omits volatile aggregate figures unless separately verified. The current
+  working catalogue contains 148 listings and 107 profile references; removed
+  listings were not restored solely to carry review data.
+
+- A catalogue-relevance review on 26 July 2026 reduced the main directory from
+  156 to 140 listings. Sixteen entries were removed because they fell outside
+  the tightened organisational-use boundary, were not available to UK
+  customers, remained in private beta, relied on US-specific core workflows or
+  lacked sufficient evidence of a usable UK route. The public methodology now
+  requires current UK availability, a defined church-role decision, functional
+  UK category fit, useful evidence and a non-arbitrary reason for including a
+  general-purpose product. Historical catalogue notes below remain as a record
+  of earlier research and do not indicate that a removed product is still
+  published.
+
 - A reviewed UK-vendor expansion batch adds ExpensePlus, Church Planner,
   Omega Church, Hallmaster and iKnow Safeguarding. It also adds explicit room
   booking and safeguarding-administration categories so those specialist tools
@@ -404,16 +422,19 @@ Phase 6: contribution and continuous quality completed.
   triage remains independent of commercial status. The validation workflow now
   covers source-reference integrity, critical static accessibility conditions,
   built internal links, source-health reporting and core interaction states.
-- The Phase 5 guided shortlist groups categories into four families and adds a
-  URL-shareable, rules-based `/shortlist/` journey. It only returns three to
-  five profiles when all selected structured requirements match, explains why
-  each appears and exposes remaining questions rather than scoring products or
-  silently widening the result set. The page includes qualified individual GBP
-  starting points where published, never a total-cost estimate, plus a
-  print-ready requirements worksheet, supplier questions, trial plan and
-  trustee or elder summary. Technical-administration capacity is intentionally
-  visible but not filtered because the catalogue does not yet have enough
-  evidence to support that rule.
+- The Phase 5 guided shortlist groups every current category into four families
+  and adds a URL-shareable, rules-based `/shortlist/` journey. It begins with
+  category, asks one useful question at a time and reports the exact remaining
+  count after every answer. An option appears only when it produces a smaller,
+  non-empty set; unusable questions are skipped and exhausted journeys show the
+  list automatically. Up to five profiles receive detailed explanations, with
+  all remaining matches still visible and one- or two-profile results retained.
+  The page includes qualified individual GBP starting points where published,
+  never a total-cost estimate, plus a print-ready requirements worksheet,
+  supplier questions, trial plan and trustee or elder summary.
+  Technical-administration capacity remains a due-diligence question rather
+  than a filter because the catalogue does not yet have enough evidence to
+  support that rule.
 - The Phase 4 evidence layer defines procurement fields, transparent source
   provenance and checked dates; all listings have a structured
   problem, differentiator and first-check verdict. The directory no longer

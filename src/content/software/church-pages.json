@@ -34,6 +34,14 @@
     "features": {"value": "Supplier documents editable administration, events, sermon hosting, members areas, Outlook/iCal calendar feeds and YouTube video pages.", "state": "supplier-published", "source": "https://www.churchpages.co.uk/39/FAQs", "checked": "2026-07-25"},
     "support": {"value": "Supplier lists email documentation, higher-tier UK phone support and an available backend demonstration.", "state": "supplier-published", "source": "https://www.churchpages.co.uk/39/FAQs", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/church-pages/church-pages-logo.png",
+      "alt": "Church Pages logo",
+      "source": "https://www.churchpages.co.uk/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Church Pages is a UK church-website and publishing service with an unusually flexible, contribution-based hosting model. It is relevant for churches that need an editable public site, events and media publishing without assuming a standard commercial price is affordable. The discretionary model means a church should get an explicit written offer and current terms, particularly for any forms, members content, domain management and externally hosted media.",
     "bestFor": ["Churches for which website cost is a material constraint", "Teams publishing public events, news and audio sermons", "Churches wanting a supplier-supported site with Outlook/iCal calendar feed options"],

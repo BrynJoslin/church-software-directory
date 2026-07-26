@@ -34,6 +34,14 @@
     "volunteer-workflow": {"value": "Supplier describes magic-link access, availability, rota sign-up, confirmations, calendar links, events and role preferences for volunteers.", "state": "supplier-published", "source": "https://www.onnuma.com/", "checked": "2026-07-25"},
     "sensitive-workflow-boundary": {"value": "Supplier lists DBS/safeguarding, children/youth and church/pastoral tools, while the reviewed public page does not establish their detailed data-processing or compliance controls.", "state": "supplier-published", "source": "https://www.onnuma.com/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/onnuma/onnuma-logo.png",
+      "alt": "OnNuma logo",
+      "source": "https://www.onnuma.com/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "OnNuma is a UK volunteer-coordination platform that extends into church events, communications, youth and pastoral workflows. Its central distinction is a low-friction volunteer experience: passwordless links, simple availability and self-service rota sign-up. The breadth makes it useful for small teams, but it also makes due diligence important—especially before using the safeguarding, DBS, pastoral or youth labels for sensitive records.",
     "bestFor": ["Churches trying to replace ad hoc volunteer rota spreadsheets and reminder messages", "Volunteer teams that need easy self-service availability and shift confirmation", "Churches combining rota, events and simple communication workflows"],

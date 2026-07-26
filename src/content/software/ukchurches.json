@@ -31,6 +31,14 @@
     "data-processing": {"value": "Supplier privacy notice describes personal-data handling and EEA server storage, but the reviewed material does not establish a current processor agreement, sub-processors, backup and recovery commitments or church-specific cookie terms.", "state": "needs-refresh", "source": "https://www.ukchurches.co.uk/privacy/", "checked": "2026-07-25"},
     "supplier-identity": {"value": "The supplier publishes its business name and Bristol administrative address but no company-registration number was found in the reviewed public material.", "state": "needs-refresh", "source": "https://www.ukchurches.co.uk/ukc-web-design-agreement/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/ukchurches/ukchurches-logo.png",
+      "alt": "UKChurches logo",
+      "source": "https://www.ukchurches.co.uk/wp-content/uploads/cropped-Screenshot-2024-03-18-at-14.49.46-180x180.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "UKChurches is a managed church-website service rather than a self-managed site builder: it bundles design, hosting, updates and a support route into published GBP packages. That can suit a church without web capacity. Its agreement and privacy notice give a Bristol address, but a company-registration number and more detailed data-processing and exit material were not found in the reviewed sources, so those points should be settled in writing before a church migrates content or collects personal data.",
     "bestFor": ["Churches wanting a managed public website with ongoing support", "Small teams that prefer supplier-led design and updates", "Churches that value published GBP package prices"],

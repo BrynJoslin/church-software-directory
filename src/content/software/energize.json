@@ -33,6 +33,14 @@
     "published-pricing": {"value": "Energize publishes a subscription from £21 per month and a larger-organisation price of £25 per month or £300 per year, while noting that prices may change.", "state": "supplier-published", "source": "https://www.energize.uk.net/pages/subscribe_now", "checked": "2026-07-25"},
     "product-functions": {"value": "Supplier pages describe session plans, a plan editor, session viewing on computer or tablet, resource access and a 30-day trial.", "state": "supplier-published", "source": "https://www.energize.uk.net/pages/unlock", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/energize/energize-logo.png",
+      "alt": "Energize logo",
+      "source": "https://www.energize.uk.net/favicon/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Energize is a web-based resource and planning service, rather than a child check-in, attendance or safeguarding case-management system. It is relevant where a UK church needs digitally managed children’s and youth session resources, but it should be evaluated separately from systems that store child records or coordinate safe collection.",
     "bestFor": ["Churches seeking adaptable children’s and youth meeting plans", "Teams that want shared leader access and a digital session editor", "Volunteer leaders needing resources and training support"],
