@@ -22,7 +22,7 @@ There is no responsible single cost for church-management software. A UK church 
 
 ## Scope and method
 
-This is a cost guide for church-management software and connected giving/operations, not financial advice or an accounting budget. The examples are representative directory entries with public supplier prices; they are not a price league table or a complete market survey. Public price is recorded only with its stated capacity, currency, billing and VAT qualifier. Any missing cost should remain “pricing needs verification”, not be assumed to be zero.
+This is a cost guide for church-management software and connected giving/operations, not financial advice or an accounting budget. The examples are representative directory entries with public supplier prices; they are not a price league table or a complete market survey. Public price is recorded only with its stated capacity, currency, billing and VAT qualifier. Record a missing cost as “written quote required”, never as zero.
 
 ## Published examples, not a price league table
 
@@ -51,7 +51,7 @@ The hidden cost is the unmanaged process left outside the product. A lower subsc
 
 ## Ask for a comparable quote
 
-Give every supplier the same scenario: active people, administrators, modules, sites, rooms, check-ins, messages, giving volume and implementation support. Ask for first-year and renewal totals, with VAT and every known fee stated. Record unknowns as “pricing needs verification”, not zero.
+Give every supplier the same scenario: active people, administrators, modules, sites, rooms, check-ins, messages, giving volume and implementation support. Ask for first-year and renewal totals, with VAT and every known fee stated. Record unanswered costs as “written quote required”, not zero.
 
 ## Use a three-year worksheet
 
@@ -88,7 +88,7 @@ These profiles provide source notes for the published examples. They are not end
 
 ## Your next step
 
-Write one common scenario, complete the worksheet for two to four plausible services and have the operational owner and finance lead review the assumptions together. Do not approve the purchase until every material unknown has an owner and the renewal and exit positions are recorded.
+Write one common scenario, complete the worksheet for two to four plausible services and have the operational owner and finance lead review the assumptions together. Do not approve the purchase until every material question has an owner and the renewal and exit positions are recorded.
 
 Keep the worksheet with the approval record. At renewal, replace assumptions with the actual number of active contacts, message use, support calls, payment fees and administration effort. That makes the next decision evidence-led rather than dependent on the original sales comparison.
 
@@ -96,7 +96,7 @@ Where a supplier offers a discount for annual or multi-year payment, distinguish
 
 For a small church, the least expensive responsible option may be a narrow paid tool combined with a documented process. Treat that as a valid comparator against a suite, rather than assuming every requirement must be purchased from one supplier.
 
-Do not hide uncertainty in a contingency line. State whether a figure is confirmed, a supplier claim or a church assumption, then revisit it before authorising renewal.
+Do not hide uncertainty in a contingency line. State whether a figure comes from current supplier material, an independent source or a church assumption, then revisit it before authorising renewal.
 
 ## Sources and research limits
 

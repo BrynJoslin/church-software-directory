@@ -6,7 +6,8 @@
 2. Name the new file after its slug in `src/content/software/`.
 3. Confirm the product and official site are active.
 4. Research current first-party sources and record what each supports.
-5. Use `unknown` or omit optional fields where evidence is missing.
+5. Use `unknown` only as an internal three-state sentinel; omit unsupported
+   optional fields and write material gaps as supplier questions.
 6. Keep supplier facts outside the `editorial` object and assessment inside it.
 7. Run:
 
@@ -39,8 +40,14 @@ Copy `docs/content-templates/guide.template.md` into `src/content/guides/`.
 Read and follow `docs/GUIDE_STANDARD.md` before researching or drafting. Define
 the reader, decision, guide type, scope and inclusion criteria before selecting
 products. Use only structured or evidence-backed listing information, record
-source access dates, name material unknowns and keep the guide useful without a
+source access dates, name material questions and keep the guide useful without a
 supplier click.
+
+Before starting a new guide, check `docs/GUIDE_BACKLOG.md`. Add new search terms
+there, group wording variants under a single decision and use its transparent
+priority score to select the next brief. Do not create a separate guide for a
+minor keyword variation when an existing canonical guide can answer the same
+decision.
 
 Complete the standard's human editorial checklist, then run:
 
@@ -68,7 +75,7 @@ npm run check:stale
 
 The command fails when any `lastChecked` date exceeds the threshold. Reviewing a
 listing means re-opening its sources, checking material facts and recording
-changes or remaining unknowns. Do not update the date without doing the review.
+changes or remaining questions. Do not update the date without doing the review.
 
 ## Public data export
 

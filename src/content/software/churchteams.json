@@ -22,7 +22,7 @@
   ],
   "pricing": {
     "model": "tiered",
-    "summary": "Churchteams prices its plans by database people count. The current page confirms plan structure, included essentials and 30-day trial, but the displayed prices need confirmation directly with the supplier.",
+    "summary": "Churchteams prices its plans by database people count. The current page publishes the plan structure, included essentials and 30-day trial, but does not display the subscription amounts; ask the supplier for a current quote.",
     "tiers": [
       {
         "label": "Database-based plans",
@@ -64,7 +64,7 @@
     "Trial support"
   ],
   "editorial": {
-    "assessment": "Churchteams offers a genuinely practical evaluation route because it says the full system, support and a church’s own data can be used during its 30-day trial. A UK church should still verify payment, Gift Aid, currency, data-processing and total text-message cost.",
+    "assessment": "Churchteams offers a genuinely practical evaluation route because it says the full system, support and a church’s own data can be used during its 30-day trial. A UK church should still ask about payment, Gift Aid, currency, data-processing and total text-message cost.",
     "bestFor": [
       "Teams that want to test a complete church-management environment",
       "Churches with active group, check-in and volunteer workflows"
@@ -74,13 +74,13 @@
       "Supplier describes broad operational coverage"
     ],
     "limitations": [
-      "Current subscription prices need direct confirmation",
-      "UK finance and data arrangements are not confirmed here"
+      "The public pricing page does not display current subscription amounts; ask for a quote",
+      "Ask the supplier about UK finance and data arrangements"
     ],
     "procurementVerdict": {
       "problem": "Teams that want to test a complete church-management environment",
       "differentiator": "Members",
-      "firstCheck": "Current subscription prices need direct confirmation"
+      "firstCheck": "Ask for the subscription price at the church's expected database size"
     }
   },
   "longForm": {
@@ -118,11 +118,18 @@
       },
       {
         "question": "Does Churchteams support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify UK payment methods, Gift Aid workflow, finance exports and data-processing terms before adoption."
+        "answer": "Ask the supplier to demonstrate UK payment methods, Gift Aid workflow, finance exports and data-processing terms before adoption."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchteams/churchteams-logo.webp",
+      "alt": "Churchteams logo",
+      "source": "https://go.churchteams.com/wp-content/uploads/2025/11/CT-Churchteams-Logopng-1024x200.webp",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

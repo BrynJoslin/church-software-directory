@@ -136,7 +136,14 @@
       }
     ]
   },
-  "verificationStatus": "verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/bookwhen/bookwhen-logo.png",
+      "alt": "Bookwhen logo",
+      "source": "https://cdn.bookwhen.com/assets/home/json_ld/bookwhen_logo-d08e3214ef4aa950bef4228170ed3f053c85cdd39306dfe266527631b316a818.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

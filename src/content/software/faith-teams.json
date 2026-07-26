@@ -69,7 +69,7 @@
     "US-based phone and email support"
   ],
   "editorial": {
-    "assessment": "Faith Teams publishes a clear active-person pricing model and broad operational feature set. UK churches should verify payment availability, Gift Aid, data-processing terms and the implications of US-based support before use.",
+    "assessment": "Faith Teams publishes a clear active-person pricing model and broad operational feature set. UK churches should ask about payment availability, Gift Aid, data-processing terms and the implications of US-based support before use.",
     "bestFor": [
       "Churches wanting one subscription for people, groups and service workflows"
     ],
@@ -79,7 +79,7 @@
     ],
     "limitations": [
       "US-dollar pricing",
-      "UK finance and compliance fit not confirmed"
+      "Ask the supplier to demonstrate the required UK finance and data-protection workflows"
     ],
     "procurementVerdict": {
       "problem": "Churches wanting one subscription for people, groups and service workflows",
@@ -122,11 +122,18 @@
       },
       {
         "question": "Does Faith Teams support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify UK payment, Gift Aid and finance workflows directly."
+        "answer": "Ask the supplier to demonstrate UK payment, Gift Aid and finance workflows directly."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/faith-teams/faith-teams-logo.png",
+      "alt": "Faith Teams logo",
+      "source": "https://faithteams.com/wp-content/uploads/2023/08/logo-full-1024x167.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

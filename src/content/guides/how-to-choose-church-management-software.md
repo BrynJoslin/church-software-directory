@@ -118,7 +118,7 @@ Then classify each requirement:
 | Could have | Useful, but not part of the buying decision. | Defer until after the core choice. |
 | Will not use now | Explicitly out of scope for this decision. | Review only if circumstances change. |
 
-Keep a separate column for evidence. Mark a requirement as **confirmed**, **supplier claim**, **not confirmed** or **not applicable**. Do not turn an unknown into a “no” simply because a salesperson has not answered yet.
+Keep a separate column for evidence. Mark a requirement as **supplier-published**, **independent source**, **observed in trial**, **question to settle** or **not applicable**. Do not turn a missing answer into “no”.
 
 ### Decide what belongs together
 
@@ -171,9 +171,9 @@ Use the same questions for every product:
 - Is the pricing model understandable for your current scale and likely changes?
 - How much technical administration, configuration and training does it require?
 - Does it work with the tools you have deliberately decided to keep?
-- What remains unconfirmed, and who will get the answer in writing?
+- Which questions remain, and who will get each answer in writing?
 
-The directory’s [comparison tool](/compare/) is designed for two to four products and shows unknown information as “Not confirmed”. Treat it as a research aid, not a ranking or a final recommendation.
+The directory’s [comparison tool](/compare/) is designed for two to four products. It shows sourced facts and turns material gaps into supplier questions. Treat it as a research aid, not a ranking or a final recommendation.
 
 ### Do not confuse familiarity with fit
 
@@ -187,7 +187,7 @@ The listings below illustrate different approaches that may be relevant to a chu
 - [iKnow Church](/software/iknow-church/) may be relevant where people administration, donation management and Gift Aid workflows need to sit together. Check any charges associated with Gift Aid submissions and payment processing.
 - [ChurchLinker](/software/churchlinker/) may be worth exploring for its UK-focused people, rota, giving and Gift Aid tools, including a free plan for up to 50 contacts. Test the maturity of the exact features your church would rely on.
 - [ChurchDesk](/software/churchdesk/) may suit a church that wants people records, forms and a public website or calendar in a connected service. Check the package limits, VAT treatment and its data-hosting position for your requirements.
-- [Planning Center](/software/planning-center/) may be relevant for a church that prefers a connected suite of products, beginning with a free people database. UK-specific Gift Aid support has not been confirmed in this directory review.
+- [Planning Center](/software/planning-center/) may be relevant for a church that prefers a connected suite of products, beginning with a free people database. Its reviewed supplier material does not describe UK-specific Gift Aid support, so ask how that workflow would be handled.
 - [ChMeetings](/software/chmeetings/) may offer a free starting point for a smaller church needing people, groups and volunteer tools. Check US-dollar pricing, hosting and data-transfer arrangements before deciding.
 - [ChurchCRM](/software/churchcrm/) may be relevant for a technically capable church that wants open-source software and can take responsibility for hosting, security, maintenance and support.
 
@@ -233,7 +233,7 @@ Include:
 - equipment, check-in devices or other services required to make a workflow work;
 - contract length, renewal terms, price-review clauses and cancellation conditions.
 
-Do not invent a total where the supplier quotes individually. Record “pricing needs verification”, state the missing assumption and ask the supplier to confirm it. A lower subscription can cost more if it creates extra manual work, requires several add-ons or leaves the church paying for a service it cannot maintain.
+Do not invent a total where the supplier quotes individually. Record “written quote required”, state the missing assumption and ask the supplier for it. A lower subscription can cost more if it creates extra manual work, requires several add-ons or leaves the church paying for a service it cannot maintain.
 
 If the system touches church finances, keep the software decision separate from the church’s responsibility for appropriate financial controls. The Charity Commission says trustees remain responsible for financial management and for implementing and monitoring internal controls, even where detailed work is delegated. [Read the Charity Commission’s internal-financial-controls guidance](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities).
 
@@ -266,13 +266,13 @@ Make the recommendation in a short paper or decision record that a leadership te
 - the problem being solved and the option of doing nothing or simplifying first;
 - the shortlisted products and why each was considered;
 - the must-have requirements and trial evidence;
-- material unknowns, risks and supplier answers still required;
+- material risks, questions and supplier answers still required;
 - total-cost assumptions and approval route;
 - the named system owner, data-access model, migration plan and launch date;
 - the export and cancellation position;
 - the review date and the decision-maker.
 
-This record is more valuable than a points score. It shows why the church chose a system, what it still needs to verify and who is responsible for the next step.
+This record is more valuable than a points score. It shows why the church chose a system, which questions remain and who is responsible for the next step.
 
 ## Supplier questions and warning signs
 

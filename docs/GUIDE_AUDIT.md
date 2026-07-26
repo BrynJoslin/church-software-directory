@@ -33,7 +33,7 @@ starting points but do not yet form complete buying guides.
 | Best church management software for small churches | `buyers-guide` | 566 | Migrated to version 1.0 | Scope, fit matrix, UK checks, named ownership, export and trial coverage added |
 | Church software with Gift Aid support | `explainer` | 503 | Migrated to version 1.0 | HMRC record-keeping, finance controls, trial script, ownership and exit coverage added; continue routine source review |
 | Best online giving platforms for UK churches | `buyers-guide` | 391 | Migrated to version 1.0 | Giving-model taxonomy, fee worksheet, finance trial, data/exit and accessible adoption coverage added; review live payment terms routinely |
-| How much does church management software cost? | `cost-guide` | 377 | Migrated to version 1.0 | Three-year worksheet, fictional method, unknown-cost treatment, renewal and exit coverage added |
+| How much does church management software cost? | `cost-guide` | 377 | Migrated to version 1.0 | Three-year worksheet, fictional method, unanswered-cost treatment, renewal and exit coverage added |
 | GDPR questions for church software suppliers | `explainer` | 363 | Migrated to version 1.0 | ICO/NCSC sources, evidence worksheet, DPIA limits, contract, access, incident and exit coverage added; obtain legal advice where needed |
 | Best church rota and volunteer scheduling software | `buyers-guide` | 348 | Migrated to version 1.0 | Scheduling scenarios, permissions, safeguarding boundary, accessible trial and continuity coverage added |
 | Free church management software in the UK | `buyers-guide` | 340 | Migrated to version 1.0 | Free-model comparison, UK checks, ownership, continuity, export and review coverage added |

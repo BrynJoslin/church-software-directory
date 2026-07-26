@@ -1,0 +1,38 @@
+{
+  "name": "BMc Azurri Tap To Donate",
+  "slug": "bmc-azurri-tap-to-donate",
+  "shortDescription": "A UK NFC and QR-code donation platform for charities and places of worship, with branded donation pages, dashboard reporting, contactless payment and optional Gift Aid workflows.",
+  "officialWebsite": "https://bmcazurri.com/taptodonate/",
+  "company": "BMc Azurri GA Solutions Limited",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches adding NFC or QR-code donation points to existing online giving", "Places of worship needing fixed, movable or event-specific contactless giving points", "Church charities that need campaign or location-level donation reporting"],
+  "pricing": {"model": "usage-based", "summary": "The published charity plan has a 12-month term, £150 setup fee, 2.5% plus 5p transaction fee and a hosted-platform fee from £25 per month, all exclusive of VAT. It includes five tags and branded marketing material. Short-term options have stated setup, transaction and fixed service fees. Obtain the current payment-provider, Gift Aid, hardware, VAT, cancellation and full contract terms in writing.", "startingPrice": {"amount": 25, "currency": "GBP", "period": "month", "qualifier": "charity hosted-platform fee from, excluding VAT and plus published setup and transaction fees"}, "tiers": [{"label": "Charity", "price": "From £25/month + VAT", "detail": "12-month term; £150 setup fee and 2.5% plus 5p transaction fee stated."}, {"label": "Short term", "price": "£150 or £250 fixed service fee", "detail": "Published three- and six-month options also state £150 setup and 2.5% plus 5p transaction fee."}]},
+  "freePlan": "no",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "BMc Azurri's privacy policy identifies BMc Azurri GA Solutions Limited as controller for its published policy and describes suppliers providing application development, hosting and maintenance, possible overseas transfers with safeguards, and retention on contract termination subject to legitimate needs. The material does not define the Tap To Donate product's donor-data roles or payment-provider arrangements. A church should obtain its current DPA, payment and Gift Aid terms, sub-processors, hosting, retention, access controls, incident process and donor, donation, declaration and report export details before launch.",
+  "coreFeatures": ["NFC donation tags", "QR-code donation route", "Branded donation pages", "Apple Pay, Google Pay and card payments", "Campaign and location reporting dashboard", "Optional Gift Aid integration", "HMRC claim-submission and donor-maintenance scope on stated charity plan", "Fixed and moveable donation points"],
+  "integrations": ["Supplier says donation pages can be integrated into an existing website", "Payment route supports Apple Pay, Google Pay and card information", "Confirm payment processor, accounting, CRM and website integration arrangements"],
+  "importExport": ["Dashboard reports are described by campaign and location", "Request donation, donor, Gift Aid declaration, payment, campaign, audit-trail and report export specifications"],
+  "support": ["Supplier describes ongoing support through the platform offer", "Confirm support hours, response commitments, setup and tag replacement arrangements"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "Companies House records BMC AZURRI GA SOLUTIONS LIMITED (08510755) as an active English private limited company, and the supplier privacy policy identifies it as controller.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/08510755", "checked": "2026-07-25"},
+    "product-and-pricing": {"value": "Supplier documents NFC or QR-code giving, payment methods, charity and event price components, reporting, optional Gift Aid and stated use by places of worship.", "state": "supplier-published", "source": "https://bmcazurri.com/taptodonate/", "checked": "2026-07-25"},
+    "data-policy": {"value": "Supplier publishes a privacy policy naming its data controller and describing supplier categories, transfer safeguards and retention principles.", "state": "supplier-published", "source": "https://bmcazurri.com/privacy-policy/", "checked": "2026-07-25"}
+  },
+  "editorial": {"assessment": "BMc Azurri Tap To Donate is a UK contactless-giving product rather than a complete church-management or donor CRM system. It may be useful where a church wants low-friction NFC or QR-code donation points at services, events or around a site, with campaign reporting and an optional Gift Aid route. Its published percentage and fixed charges need to be modelled against expected gift size and volume, and its gift-aid, payment and donor-data workflows need a full church-specific contractual review.", "bestFor": ["Churches adding physical or mobile contactless donation points", "Events, services and sites where donors can use their own smartphones", "Church charities wanting location- or campaign-level giving reports"], "strengths": ["Active UK software supplier", "Published price components and term for charity plan", "NFC, QR, website and mobile-payment routes", "Optional Gift Aid and reporting scope documented"], "limitations": ["Not a full membership, pastoral-care, safeguarding or finance-management system", "Published costs include transaction, setup and hosted-platform components", "Product DPA, payment-provider, Gift Aid processing and export details require a current written pack", "A 12-month charity-plan term is stated"], "procurementVerdict": {"problem": "Accepting simple contactless gifts beyond a conventional card terminal or web form", "differentiator": "A UK NFC and QR giving offer that explicitly includes places of worship and stated campaign-level reporting", "firstCheck": "Run a small live pilot with a clearly labelled donation point, reconcile payment settlement and Gift Aid evidence, model the full fee stack against expected gifts, and obtain current DPA, payment, export and cancellation terms before a wider rollout."}},
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "BMc Azurri Tap To Donate", "url": "https://bmcazurri.com/taptodonate/", "checked": "2026-07-25", "supports": ["NFC and QR scope", "Payment methods", "Places of worship", "Pricing", "Gift Aid", "Reporting"]},
+    {"label": "BMc Azurri privacy policy", "url": "https://bmcazurri.com/privacy-policy/", "checked": "2026-07-25", "supports": ["Legal operator", "Privacy-policy scope", "Transfer safeguards", "Retention principles"]},
+    {"label": "Companies House: BMC AZURRI GA SOLUTIONS LIMITED", "url": "https://find-and-update.company-information.service.gov.uk/company/08510755", "checked": "2026-07-25", "supports": ["UK company record", "Active status"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "BMc Azurri Tap To Donate review for UK churches", "description": "Independent BMc Azurri Tap To Donate profile: UK contactless giving, Gift Aid, fees and data checks."}
+}

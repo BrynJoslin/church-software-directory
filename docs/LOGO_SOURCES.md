@@ -3,6 +3,10 @@
 Official supplier assets gathered on 25 July 2026. Each file is stored locally
 under `public/images/software/`; no logo is hotlinked.
 
+Each connected listing also records its exact official asset URL and check date
+in `brandAssets.logo`. That content metadata is the complete provenance record;
+the table below is a supporting index of the initial asset batch.
+
 | Software | Local asset | Official source |
 | --- | --- | --- |
 | B1 Church | `b1-church/b1-church-logo.png` | https://www.b1.church/b1-church-logo.png |
@@ -38,6 +42,6 @@ under `public/images/software/`; no logo is hotlinked.
 | Vanco | `vanco/vanco-logo.svg` | https://www.vancopayments.com/hubfs/MJTW-assets/logos/vanco-logo-primary-long.svg |
 
 Some suppliers expose only an app mark or favicon through their public site;
-those are recorded above rather than a recreated wordmark. Aplos, Beacon CRM,
-Church Edit, Donorbox, FreePresenter and Pushpay still need a suitable official
-asset before the initials fallback can be replaced.
+those are recorded rather than a recreated wordmark. Aplos, Church Edit,
+FreePresenter, Omega Church, SongPro 5 and The Church Organiser still need a
+suitable official asset before the initials fallback can be replaced.

@@ -22,7 +22,7 @@ This guide is for UK churches assessing hosted church-management, giving, rota o
 
 ## Scope, method and the decision before the questions
 
-This is a representative guide, not a market-wide compliance review. The product examples are drawn from the directory’s current evidence records. They were not hands-on tested, suppliers were not interviewed, and an unknown item is not a negative finding.
+This is a representative guide, not a market-wide compliance review. The product examples are drawn from the directory’s current evidence records. They were not hands-on tested and suppliers were not interviewed. Missing supplier information is turned into a question, not a negative finding.
 
 Start by mapping the activity, rather than asking a generic privacy question. A public newsletter sign-up, a regular-attender record, a children’s check-in list, a pastoral note and a Gift Aid claim do not carry the same risks. Church records may reveal religious belief and sometimes health, safeguarding or criminal-offence information. The ICO explains that special-category data needs additional conditions as well as a lawful basis; seek appropriately qualified advice where the processing, structure or risk requires it.
 
@@ -75,11 +75,11 @@ Use this short worksheet for each candidate. It avoids a cosmetic compliance sco
 
 | Topic | Evidence received | Status | Owner and next action |
 | --- | --- | --- | --- |
-| Contract and processing terms | URL/version and date saved | Confirmed / supplier claim / not confirmed | Name the church reviewer and question |
-| Roles and permissions | Trial result using fictional data | Confirmed / not confirmed | Test restricted leader and administrator roles |
-| Sub-processors and locations | Current supplier list and explanation | Confirmed / supplier claim / not confirmed | Compare with church data map |
-| Incident and support process | Contract or policy reference | Confirmed / not confirmed | Agree internal escalation contact |
-| Export, deletion and cancellation | Trial export and written terms | Confirmed / not confirmed | Inspect file and record exit steps |
+| Contract and processing terms | URL/version and date saved | Supplier-published / independent source / question to settle | Name the church reviewer and question |
+| Roles and permissions | Trial result using fictional data | Observed in trial / question to settle | Test restricted leader and administrator roles |
+| Sub-processors and locations | Current supplier list and explanation | Supplier-published / independent source / question to settle | Compare with church data map |
+| Incident and support process | Contract or policy reference | Supplier-published / question to settle | Agree internal escalation contact |
+| Export, deletion and cancellation | Trial export and written terms | Observed in trial / supplier-published / question to settle | Inspect file and record exit steps |
 
 If planned processing is likely to be high risk, a DPIA is not a supplier form to tick. The ICO describes it as a way to identify and minimise risks before processing begins and says it is legally required for processing likely to create high risk. A church should decide whether it needs one using its own processing, then obtain advice if unsure.
 
@@ -90,7 +90,7 @@ These profiles publish or record supplier-provided privacy, hosting or processin
 - [ChurchSuite](/software/churchsuite/) is relevant for its published UK GDPR and Data Protection Act material and configurable access controls. Confirm the current hosting and sub-processor position for your account.
 - [ChurchLinker](/software/churchlinker/) publishes GDPR, sub-processor and data-processing-agreement links and states that data is held in UK/EU data centres. Request the live documents.
 - [ChurchDesk](/software/churchdesk/) publishes security, privacy and data-processing material and states hosting in Germany. Check the contractual terms, sub-processors and account settings.
-- [ChMeetings](/software/chmeetings/) publishes security, terms and a data-processing addendum. Its profile records supplier-published US hosting information; verify applicable region and transfer safeguards.
+- [ChMeetings](/software/chmeetings/) publishes security, terms and a data-processing addendum. Its profile records supplier-published US hosting information; ask which region and transfer safeguards apply to the church.
 
 ## Implement, review and leave responsibly
 

@@ -1,0 +1,49 @@
+{
+  "name": "Gracely",
+  "slug": "gracely",
+  "shortDescription": "UK daily-reflection and Bible-study app with scripture memory, small-group study and accountability features.",
+  "officialWebsite": "https://www.gracely.co.uk/",
+  "company": "KQ Technology Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": ["bible-study"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Young Christians using personal reflection and scripture-memory tools", "Small groups wanting a mobile study, prayer and accountability space"],
+  "pricing": {
+    "model": "freemium",
+    "summary": "Gracely is free to use with an optional Pro subscription. The supplier publishes £4.99 per month or £39.99 per year for additional study and accountability features.",
+    "startingPrice": {"amount": 4.99, "currency": "GBP", "period": "month", "qualifier": "Gracely Pro"},
+    "tiers": [{"label": "Free", "price": "Free", "detail": "Daily reflection app"}, {"label": "Gracely Pro monthly", "price": "£4.99/month", "detail": "Additional study, scripture-memory and accountability features"}, {"label": "Gracely Pro yearly", "price": "£39.99/year", "detail": "Annual Pro subscription"}],
+    "trialDetails": "The supplier advertises a free trial of Pro features but does not publish its duration on the reviewed page."
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "demoAvailable": "no",
+  "gdprInformation": "The supplier publishes a privacy policy and account-deletion instructions. The policy describes profile, reflection, prayer-request and conversation data, so churches should assess its suitability before recommending it for sensitive pastoral use.",
+  "coreFeatures": ["Daily reflections and biblical prompts", "Scripture memory exercises", "Small-group Study Buddy with voice, video and chat", "Accountability-partner check-ins", "Prayer requests and gratitude journal"],
+  "integrations": [],
+  "importExport": [],
+  "support": ["Supplier support email"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "Gracely's terms identify KQ Technology Ltd, company number 17161786, as its England-and-Wales operator.", "state": "supplier-published", "source": "https://www.gracely.co.uk/", "checked": "2026-07-25"},
+    "pricing": {"value": "Supplier publishes a £4.99 monthly and £39.99 annual Pro subscription.", "state": "supplier-published", "source": "https://www.gracely.co.uk/", "checked": "2026-07-25"},
+    "current-app": {"value": "Google Play lists Gracely as a Christian spiritual-growth app made by KQ Technology Ltd and shows a June 2026 update.", "state": "independent-source", "source": "https://play.google.com/store/apps/details?id=com.danielque.gracely", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Gracely is a new personal and small-group spiritual-growth app, not a church-management platform or a replacement for safeguarding-aware pastoral systems. Its daily reflection, scripture-memory and accountability tools may be useful to individuals or voluntary study groups, but its social features require careful local guidance.",
+    "bestFor": ["Individuals who want a mobile daily-reflection and scripture-memory habit", "Adult small groups choosing a lightweight study and accountability tool"],
+    "strengths": ["Free starting point with published GBP Pro pricing", "Current UK operator and public privacy information", "Study, reflection and small-group features are connected in one app"],
+    "limitations": ["New product with a short operating history", "Not a church-management, safeguarding or formal pastoral-record system", "Social features and sensitive prayer content need clear local boundaries"],
+    "procurementVerdict": {"problem": "Personal or small-group spiritual habits that need more structure than a reading plan", "differentiator": "Combines reflection, scripture memory and accountable study in a mobile app", "firstCheck": "Review the privacy policy and test group permissions before inviting a church group to use it"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Gracely product, terms and privacy information", "url": "https://www.gracely.co.uk/", "checked": "2026-07-25", "supports": ["Product scope", "GBP pricing", "Free and Pro plans", "UK operator", "Privacy and deletion information"]},
+    {"label": "Google Play: Gracely", "url": "https://play.google.com/store/apps/details?id=com.danielque.gracely", "checked": "2026-07-25", "supports": ["Current app availability", "UK developer attribution", "App scope", "Published subscription prices"]},
+    {"label": "Companies House: KQ Technology Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/17161786", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Gracely review for UK churches", "description": "Independent Gracely profile for UK churches: daily reflection, scripture-memory features, Pro pricing and group-use checks."}
+}

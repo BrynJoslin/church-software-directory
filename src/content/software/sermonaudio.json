@@ -21,12 +21,12 @@
   "pricing": {
     "model": "unknown",
     "summary": "SermonAudio’s current broadcaster pricing is not published clearly enough in the sources reviewed for this profile. A historic supplier brochure quoted a $29.95 monthly base fee and a 2025 supplier post refers to a monthly bill; confirm current pricing directly.",
-    "trialDetails": "A 2025 SermonAudio post says churches joining through a referral link can try the service free for the first month. General trial availability is not confirmed here."
+    "trialDetails": "A 2025 SermonAudio post says churches joining through a referral link can try the service free for the first month. Ask for the current general trial terms."
   },
   "freePlan": "unknown",
   "freeTrial": "unknown",
   "demoAvailable": "unknown",
-  "gdprInformation": "SermonAudio publishes a privacy policy with a stated account-deletion request process and a 90-day deletion timeframe. The reviewed policy does not state a UK GDPR or data-hosting position, so those points require direct confirmation.",
+  "gdprInformation": "SermonAudio publishes a privacy policy with a stated account-deletion request process and a 90-day deletion timeframe. The reviewed policy does not state a UK GDPR or data-hosting position, so ask which terms and hosting arrangements would apply to a UK church.",
   "coreFeatures": [
     "Audio and video sermon publishing",
     "Sermon archive and discovery",
@@ -52,13 +52,13 @@
       "Supplier states that cross-publishing is included for broadcasters"
     ],
     "limitations": [
-      "Current public broadcaster pricing is not confirmed here",
+      "Ask SermonAudio for current broadcaster pricing",
       "Churches should assess theological fit, rights, privacy and UK data arrangements"
     ],
     "procurementVerdict": {
       "problem": "Churches wanting dedicated sermon hosting and a discoverable archive",
       "differentiator": "Audio and video sermon publishing",
-      "firstCheck": "Current public broadcaster pricing is not confirmed here"
+      "firstCheck": "Ask SermonAudio for current broadcaster pricing"
     }
   },
   "longForm": {
@@ -88,11 +88,11 @@
     "faq": [
       {
         "question": "How much does SermonAudio cost?",
-        "answer": "Current broadcaster pricing is not confirmed in this profile. An older supplier brochure quoted a $29.95 monthly base fee, but churches should request current written pricing."
+        "answer": "An older supplier brochure quoted a $29.95 monthly base fee; request current written broadcaster pricing before budgeting."
       },
       {
         "question": "Does SermonAudio offer a free trial?",
-        "answer": "A 2025 supplier post describes a free first month for churches joining through a referral link. General trial terms are not confirmed here."
+        "answer": "A 2025 supplier post describes a free first month for churches joining through a referral link. Ask for the current general trial terms."
       },
       {
         "question": "Can SermonAudio cross-publish sermons?",
@@ -100,7 +100,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/sermonaudio/sermonaudio-logo.svg",
+      "alt": "SermonAudio logo",
+      "source": "https://www.sermonaudio.com/favicons/sa/favicon.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

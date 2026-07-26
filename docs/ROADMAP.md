@@ -14,7 +14,8 @@ trustee discussion.
 
 This direction does not turn the directory into an automated ranking service.
 Recommendations must remain explainable, use structured evidence and be
-described as starting points rather than winners. Unknown facts remain unknown.
+described as starting points rather than winners. Missing facts are not guessed:
+incidental gaps are omitted and material gaps become supplier questions.
 AI-assisted research and drafting remain subject to the evidence and human
 accountability rules in `AGENTS.md` and `docs/PRINCIPLES.md`.
 
@@ -266,7 +267,7 @@ further numerical target.
 - Show the responsible publisher or organisation, a working contact route,
   relevant supplied background, how AI assists the work, the commercial
   inclusion policy and the correction process.
-- Omit unknown publisher facts rather than filling them with placeholders.
+- Omit missing publisher facts rather than filling them with placeholders.
 - Keep supplier payment, affiliate and sponsorship disclosures separate from
   editorial assessment.
 
@@ -299,9 +300,9 @@ further numerical target.
 
 - Every public total agrees with generated content.
 - No public page describes the deployed site using obsolete prototype or
-  unverified hosting language.
+  unsupported hosting language.
 - Every visible submission action either works or has been removed.
-- Verified publisher, contact, commercial-policy and AI-use information is
+- Source-backed publisher, contact, commercial-policy and AI-use information is
   visible, or the missing user-supplied facts are explicitly recorded as a
   launch blocker.
 - Every related product shares a meaningful primary decision context and shows
@@ -321,17 +322,16 @@ state.
 ### Goal
 
 Reshape structured content around the questions a church must answer during
-procurement, while preserving uncertainty and source traceability.
+procurement, while preserving source traceability.
 
 ### Completion record — 25 July 2026
 
 - All 51 listings use the revised schema and have a structured procurement
   verdict covering the problem, differentiator and first uncertainty to check.
-- Profiles and the public export expose procurement fields with evidence state,
-  source and checked-date fallbacks; evidence summaries are explicitly not
-  product scores.
-- Comparisons group key differences, shared characteristics and unresolved
-  supplier questions, while keeping `No` distinct from `Not confirmed`.
+- Profiles and the public export expose sourced procurement fields with
+  provenance and checked dates.
+- Comparisons group key differences, shared characteristics and questions to
+  settle, while keeping an evidenced `No` distinct from a missing answer.
 - Content validation checks structured verdict coverage and flags repeated or
   generic wording for editorial review without blocking legitimate factual
   repetition. The broad church-size filter was removed because the replacement
@@ -341,12 +341,9 @@ procurement, while preserving uncertainty and source traceability.
 
 - Define a small set of important decision fields and attach a source reference,
   checked date and evidence state to each.
-- Use the states `Confirmed`, `Independently evidenced`, `Supplier claim`,
-  `Not confirmed` and `Possibly outdated`, with precise editorial definitions.
-- Calculate and display a profile evidence summary without turning it into a
-  quality score or product rating.
-- Keep the existing overall verification status as a broad editorial workflow
-  state.
+- Use the provenance states `Supplier published`, `Independent source`,
+  `Directory tested` and `Needs refresh`, with precise editorial definitions.
+- Display sourced fields without an overall completeness or quality badge.
 - Migrate every existing entry, templates, field documentation, components and
   the public JSON export in the same schema change.
 
@@ -360,15 +357,14 @@ procurement, while preserving uncertainty and source traceability.
   MFA, role-based permissions, audit logs, data-processing agreement, hosting
   and transfers, export formats, migration assistance, UK support hours and
   contract or cancellation terms.
-- Make every field optional or explicitly unknown where the evidence does not
-  support a value.
+- Make every field optional where the evidence does not support a value.
 - Update directory filters only where the new data is complete enough to avoid
   misleading users.
 
 ### Workstream 4.3: Product-specific assessment
 
 - Require each opening verdict to identify the relevant problem, the product's
-  material differentiator and the first risk or uncertainty to investigate.
+  material differentiator and the first risk or question to investigate.
 - Add a content check for repeated generic verdict phrases and high similarity.
 - Review flagged copy manually; do not auto-rewrite assessments without checking
   their recorded evidence.
@@ -376,14 +372,14 @@ procurement, while preserving uncertainty and source traceability.
 ### Workstream 4.4: Comparison as a due-diligence tool
 
 - Group selected-product rows into `Key differences`, `Shared characteristics`
-  and `Unresolved supplier questions`.
+  and `Questions to settle`.
 - Open key differences by default and use accessible disclosure controls for the
   other groups.
-- Generate a copyable, product-specific supplier-question list from unknown or
+- Generate a copyable, product-specific supplier-question list from missing or
   stale decision fields.
 - Order security, exit, Gift Aid, cost and support evidence ahead of
   low-signal organisation facts.
-- Preserve the distinction between `No` and `Not confirmed`.
+- Preserve the distinction between an evidenced `No` and a missing answer.
 
 ### Completion gate
 
@@ -392,7 +388,7 @@ procurement, while preserving uncertainty and source traceability.
   date.
 - No evidence summary is presented as a product score.
 - A two-product comparison emphasises differences, separates shared facts and
-  produces useful unresolved questions.
+  produces useful supplier questions.
 - Content checks flag generic verdict repetition without blocking legitimate
   repeated factual language.
 - Full schema, route, export, accessibility and build checks pass.
@@ -417,7 +413,7 @@ starting points and practical next steps.
 - The `/shortlist/` journey uses URL-encoded answers and deterministic,
   published rules. It returns only three to five matching profiles; fewer than
   three produces an honest no-result state rather than widened requirements.
-- Each starting point explains the matching recorded facts, material unknowns,
+- Each starting point explains the matching recorded facts, material questions,
   a first workflow to test and—only where a public GBP starting point exists—a
   qualified pricing reference. It never calculates a quote or total cost.
 - A printable decision pack produces a requirements worksheet, supplier
@@ -441,8 +437,8 @@ starting points and practical next steps.
   versus specialist preference and available technical administration.
 - Encode answers and the resulting shortlist in the URL.
 - Return three to five starting points only when the evidence supports them.
-- Explain why each product appeared, which requirements are evidenced, what
-  remains unconfirmed and the first real workflow to test.
+- Explain why each product appeared, which requirements are evidenced, which
+  questions remain and the first real workflow to test.
 - Publish the rules and tie handling. Do not label the output `best`, use an
   overall score or use commercial relationships as ranking inputs.
 - Provide a useful no-result state that helps the user relax or verify
@@ -454,7 +450,7 @@ starting points and practical next steps.
   be represented faithfully.
 - Separate subscription, transaction, implementation, add-on and tax questions.
 - Show the pricing date, currency, assumptions and unresolved costs.
-- Use `Contact supplier` or `Pricing needs verification` rather than estimating
+- Use `Pricing by quote` or `Written quote required` rather than estimating
   quote-based or ambiguous charges.
 
 ### Workstream 5.4: Practical decision pack
@@ -476,7 +472,7 @@ been tested.
 
 - Representative scenarios return three to five explainable starting points,
   including an honest no-result case.
-- Every reason is traceable to structured evidence and unknown requirements are
+- Every reason is traceable to structured evidence and material questions are
   visible.
 - Cost output never invents or extrapolates an unsupported price.
 - URL-loaded, invalid, empty, keyboard, reduced-motion and mobile states work.
@@ -627,7 +623,7 @@ Only consider after demand has been demonstrated.
 - public data API
 - affiliate links or sponsored placements with strict disclosure
 
-Avoid user reviews until moderation, verification and legal implications are
-understood. Do not automate legal or regulatory compliance claims, safeguarding
+Avoid user reviews until moderation, reviewer-authenticity and legal
+implications are understood. Do not automate legal or regulatory compliance claims, safeguarding
 judgements, fabricated user experience, affiliate-influenced ranking or
 unsupported `best software` verdicts.

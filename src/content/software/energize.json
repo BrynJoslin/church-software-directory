@@ -1,0 +1,54 @@
+{
+  "name": "Energize",
+  "slug": "energize",
+  "shortDescription": "A UK web-based session-planning and resource service from Urban Saints for church children’s and youth leaders.",
+  "officialWebsite": "https://www.energize.uk.net/",
+  "company": "The Crusaders’ Union, operating as Urban Saints (company number 07771037; charity numbers 1144923 and SC039313)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["childrens-ministry"],
+  "suitableChurchSizes": ["small", "medium", "large"],
+  "suitableContexts": ["Church children’s and youth groups", "Volunteer-led ministry teams", "Churches that need adaptable session plans and leader resources"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Energize publishes subscriptions from £21 per month; its current pricing page lists a £25 per month or £300 per year rate for larger organisations. The supplier says prices can change, so confirm the applicable organisation band and payment terms before purchase.",
+    "startingPrice": {"amount": 21, "currency": "GBP", "period": "month", "qualifier": "published ‘from’ price; supplier says prices are subject to change"},
+    "tiers": [
+      {"label": "Published starting price", "price": "From £21 per month", "detail": "Supplier-published starting subscription price."},
+      {"label": "Larger organisations", "price": "£25 per month or £300 per year", "detail": "For organisations with turnover above £300,000 in each of the last three published accounts."}
+    ]
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Energize’s privacy notice identifies Urban Saints as the website owner and data controller, and says the service is commercially operated by RaiseUpFaith. It lists third parties used for financial processing, call-centre operations, content and subscription management. Confirm the current data-processing terms, retention, hosting locations and roles for any church or child-related data before rollout.",
+  "coreFeatures": ["Web-based session resources for ages 3 to 15+", "Bible-based games, activities, discussions and videos", "Meeting-plan editor", "View, edit and save session plans", "Sharing and unlimited organisation users on subscriptions", "Plan viewer for computer or tablet", "Leader training articles and support resources"],
+  "integrations": [],
+  "importExport": ["Supplier describes viewing, editing, saving and sharing session plans", "Confirm downloading, printing, exporting and ownership arrangements for adapted materials before purchase"],
+  "support": ["Urban Saints publishes a support contact route", "Subscription includes access to supplier-described support and advice", "Confirm support hours, response targets and safeguarding escalation process before purchase"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "The Energize privacy notice identifies Urban Saints as the operating name of The Crusaders’ Union, a company limited by guarantee registered in England and Wales, number 07771037.", "state": "supplier-published", "source": "https://www.energize.uk.net/pages/privacy", "checked": "2026-07-25"},
+    "church-workflow": {"value": "Urban Saints describes Energize as web-based discipleship materials, with adaptable biblical sessions, training and support for leaders in churches and groups.", "state": "supplier-published", "source": "https://www.urbansaints.org/resources/energize", "checked": "2026-07-25"},
+    "published-pricing": {"value": "Energize publishes a subscription from £21 per month and a larger-organisation price of £25 per month or £300 per year, while noting that prices may change.", "state": "supplier-published", "source": "https://www.energize.uk.net/pages/subscribe_now", "checked": "2026-07-25"},
+    "product-functions": {"value": "Supplier pages describe session plans, a plan editor, session viewing on computer or tablet, resource access and a 30-day trial.", "state": "supplier-published", "source": "https://www.energize.uk.net/pages/unlock", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Energize is a web-based resource and planning service, rather than a child check-in, attendance or safeguarding case-management system. It is relevant where a UK church needs digitally managed children’s and youth session resources, but it should be evaluated separately from systems that store child records or coordinate safe collection.",
+    "bestFor": ["Churches seeking adaptable children’s and youth meeting plans", "Teams that want shared leader access and a digital session editor", "Volunteer leaders needing resources and training support"],
+    "strengths": ["Identified active UK charity operator", "Specific church children’s and youth workflow", "Published subscription and trial information", "Session editor and shared-user capability are documented", "Clear distinction from child-record management systems"],
+    "limitations": ["It is a resource and session-planning service, not a child check-in or safeguarding case-management platform", "Published prices are subject to supplier change", "The public notice does not establish all procurement details for adapted content or user-data handling", "Supplier says RaiseUpFaith commercially operates the service, so obtain current contracting and controller/processor roles in writing"],
+    "procurementVerdict": {"problem": "Preparing consistent, adaptable children’s and youth sessions for leaders", "differentiator": "A UK charity-owned web service combining session resources, an editor and leader support", "firstCheck": "Run the 30-day trial with representative leaders and confirm current pricing, permissions, adapted-content ownership and data-processing terms before purchase"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Energize home and pricing", "url": "https://www.energize.uk.net/", "checked": "2026-07-25", "supports": ["Published subscription bands", "Resource scope", "Organisation-user access"]},
+    {"label": "Energize subscription page", "url": "https://www.energize.uk.net/pages/subscribe_now", "checked": "2026-07-25", "supports": ["Starting price", "Larger-organisation price", "Subscription features"]},
+    {"label": "Energize trial and product workflow", "url": "https://www.energize.uk.net/pages/unlock", "checked": "2026-07-25", "supports": ["30-day trial", "Session editor", "Resource access"]},
+    {"label": "Urban Saints: Energize resources", "url": "https://www.urbansaints.org/resources/energize", "checked": "2026-07-25", "supports": ["Church and group context", "Web-based resource description"]},
+    {"label": "Energize privacy notice", "url": "https://www.energize.uk.net/pages/privacy", "checked": "2026-07-25", "supports": ["Operator identity", "UK company number", "Commercial operator and privacy details"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Energize review for UK church children’s ministry", "description": "Independent Energize profile: UK web-based children’s and youth session resources, pricing, privacy and procurement checks."}
+}

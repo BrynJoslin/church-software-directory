@@ -58,7 +58,7 @@
     "House-of-worship sales contact"
   ],
   "editorial": {
-    "assessment": "BoxCast is a specialist streaming option for a church that has moved beyond an informal social-stream workflow. Its public US pricing and 14-day trial make it practical to evaluate, but UK contracting, support fit and the complete production setup need direct confirmation.",
+    "assessment": "BoxCast is a specialist streaming option for a church that has moved beyond an informal social-stream workflow. Its public US pricing and 14-day trial make it practical to evaluate, but a UK church should ask for its applicable contract, support arrangements and complete production setup.",
     "bestFor": [
       "Churches wanting a dedicated stream embedded on their website",
       "Teams prepared to test a repeatable Sunday broadcast workflow"
@@ -69,7 +69,7 @@
     ],
     "limitations": [
       "US-dollar public pricing",
-      "UK availability, data terms and hardware requirements need confirmation"
+      "Ask about UK availability, applicable data terms and hardware requirements"
     ],
     "procurementVerdict": {
       "problem": "Churches wanting a dedicated stream embedded on their website",
@@ -112,11 +112,18 @@
       },
       {
         "question": "Can a UK church use BoxCast?",
-        "answer": "UK availability and local contractual terms are not confirmed in this profile. Ask BoxCast directly before treating its US pricing as a UK quote."
+        "answer": "Ask BoxCast to confirm UK availability and local contractual terms before treating its US pricing as a UK quote."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/boxcast/boxcast-logo.png",
+      "alt": "BoxCast logo",
+      "source": "https://www.boxcast.com/hubfs/BoxCast%20Logos%20-%202021/400x113_BoxCast-Logo_Blue_RGB.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

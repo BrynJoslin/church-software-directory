@@ -83,7 +83,7 @@
     "Group training calls during the trial"
   ],
   "editorial": {
-    "assessment": "ChurchTools adds a European-hosted option to the foundation set and publishes package limits clearly. UK churches still need to verify Gift Aid, sterling payments, support fit and UK regulatory requirements.",
+    "assessment": "ChurchTools adds a European-hosted option to the foundation set and publishes package limits clearly. UK churches still need to ask about Gift Aid, sterling payments and support, then check their own regulatory requirements.",
     "bestFor": [
       "Churches that value European hosting information",
       "Teams combining member administration with service planning"
@@ -93,20 +93,20 @@
       "The supplier states that hosting is in Germany"
     ],
     "limitations": [
-      "No UK-specific Gift Aid support has been confirmed",
+      "The reviewed supplier material does not describe UK-specific Gift Aid support",
       "Published entry pricing is in euros rather than pounds sterling"
     ],
     "procurementVerdict": {
       "problem": "Churches that value European hosting information",
       "differentiator": "People administration",
-      "firstCheck": "No UK-specific Gift Aid support has been confirmed"
+      "firstCheck": "Ask how the required UK Gift Aid workflow would be handled"
     }
   },
   "longForm": {
     "verdict": "ChurchTools gives a UK church a clearly documented European-hosted alternative, with a broad operational feature set and visible package limits. The main decision is whether its people, campus and role limits — plus euro pricing — fit the church’s real operating shape.",
     "decisionLens": {
       "heading": "Hosting geography is a starting point for due diligence, not the conclusion.",
-      "text": "German hosting is a meaningful supplier statement for churches assessing data location, but it does not settle the church’s UK data-protection responsibilities. The practical work remains: verify the agreement, permissions, processors, retention and exit arrangements."
+      "text": "German hosting is a meaningful supplier statement for churches assessing data location, but it does not settle the church’s UK data-protection responsibilities. The practical work remains: check the agreement, permissions, processors, retention and exit arrangements."
     },
     "sections": [
       {
@@ -145,7 +145,7 @@
     "faq": [
       {
         "question": "Where does ChurchTools say it hosts data?",
-        "answer": "ChurchTools states that hosted accounts are in Germany. A UK church should still verify current contractual, sub-processor and data-protection details directly."
+        "answer": "ChurchTools states that hosted accounts are in Germany. A UK church should still ask for the current contractual, sub-processor and data-protection details."
       },
       {
         "question": "Is there a ChurchTools free trial?",
@@ -153,7 +153,7 @@
       },
       {
         "question": "Does ChurchTools support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Do not infer Gift Aid capability from the presence of general giving or finance features."
+        "answer": "Do not infer Gift Aid capability from general giving or finance features. Ask the supplier to demonstrate the declaration, claim and reconciliation workflow required by the church."
       }
     ]
   },
@@ -165,7 +165,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {
@@ -186,6 +185,6 @@
   "sponsored": false,
   "seo": {
     "title": "ChurchTools: UK church software profile",
-    "description": "Independent ChurchTools profile covering pricing, German hosting, trial and service planning, with UK-specific unknowns made explicit."
+    "description": "Independent ChurchTools profile covering pricing, German hosting, trial and service planning, with UK-specific questions to settle."
   }
 }

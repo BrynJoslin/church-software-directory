@@ -1,0 +1,51 @@
+{
+  "name": "OnNuma",
+  "slug": "onnuma",
+  "shortDescription": "A London-built volunteer coordination platform for churches, charities and community organisations, covering rotas, events, communications, youth workflows and oversight records.",
+  "officialWebsite": "https://www.onnuma.com/",
+  "company": "The Media Lounge Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["volunteer-scheduling", "church-communications", "church-management", "childrens-ministry", "safeguarding", "pastoral-care", "worship-planning"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches coordinating volunteers through rotas, availability and self-service sign-up", "Teams wanting a low-friction volunteer portal without a separate app", "Churches organising events, youth activity and team communications alongside volunteer workflows"],
+  "pricing": {
+    "model": "freemium",
+    "summary": "Published pricing includes a free plan for up to 20 contacts and a £17/month or £170/year paid plan. The supplier lists optional SMS notifications at £8/month including 100 messages, with further blocks available. Confirm current feature limits, data volumes, multi-site rules, SMS terms and renewal arrangements before adopting it.",
+    "startingPrice": {"amount": 0, "currency": "GBP", "period": "month", "qualifier": "freemium plan for up to 20 contacts"},
+    "tiers": [
+      {"label": "Freemium", "price": "£0/month", "detail": "Supplier lists volunteer database and rotas, events, volunteer portal, youth portal, church/pastoral tools, DBS/safeguarding, children/youth and teams for up to 20 contacts."},
+      {"label": "Paid plan", "price": "£17/month or £170/year", "detail": "Supplier adds multi-site, email campaigns, custom forms, branding and priority support."},
+      {"label": "SMS notifications", "price": "£8/month", "detail": "Supplier lists 100 messages per month with additional 100-message blocks available."}
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "yes",
+  "gdprInformation": "The reviewed public page links to terms and privacy material but does not itself establish the current DPA, hosting location, sub-processor list, retention rules, access controls, audit log, data-export or breach-response arrangements. The supplier’s feature labels for DBS, safeguarding, pastoral and youth work do not demonstrate that a church’s policy or legal duties have been met; obtain and assess the written controls before putting sensitive records into the service.",
+  "coreFeatures": ["Volunteer database and role preferences", "Rota planning and open sign-up", "Magic-link volunteer portal", "Availability and absence reporting", "Events and meetings", "Email campaigns", "Custom forms", "Youth portal", "DBS and safeguarding tracking", "Church and pastoral tools", "Multi-site support", "Service planner"],
+  "integrations": ["Google and Outlook calendar links", "iCal-style calendar workflow is implied by add-to-calendar links; confirm current feed formats", "SMS notification add-on"],
+  "importExport": ["Confirm CSV import/export, historical rota, form, DBS, pastoral and youth-record retrieval, plus account closure and data-deletion workflow before moving sensitive or long-term records"],
+  "support": ["Supplier provides a public product demo", "Paid plan includes priority support according to published pricing", "Supplier describes a free plan with no card requirement"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "OnNuma’s product page identifies the service as a product of The Media Lounge Ltd and publishes a London contact address.", "state": "supplier-published", "source": "https://www.onnuma.com/", "checked": "2026-07-25"},
+    "pricing": {"value": "The product page lists a free plan, a £17/month or £170/year paid plan and an £8/month SMS add-on.", "state": "supplier-published", "source": "https://www.onnuma.com/", "checked": "2026-07-25"},
+    "volunteer-workflow": {"value": "Supplier describes magic-link access, availability, rota sign-up, confirmations, calendar links, events and role preferences for volunteers.", "state": "supplier-published", "source": "https://www.onnuma.com/", "checked": "2026-07-25"},
+    "sensitive-workflow-boundary": {"value": "Supplier lists DBS/safeguarding, children/youth and church/pastoral tools, while the reviewed public page does not establish their detailed data-processing or compliance controls.", "state": "supplier-published", "source": "https://www.onnuma.com/", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "OnNuma is a UK volunteer-coordination platform that extends into church events, communications, youth and pastoral workflows. Its central distinction is a low-friction volunteer experience: passwordless links, simple availability and self-service rota sign-up. The breadth makes it useful for small teams, but it also makes due diligence important—especially before using the safeguarding, DBS, pastoral or youth labels for sensitive records.",
+    "bestFor": ["Churches trying to replace ad hoc volunteer rota spreadsheets and reminder messages", "Volunteer teams that need easy self-service availability and shift confirmation", "Churches combining rota, events and simple communication workflows"],
+    "strengths": ["Clearly identified London product context", "Free entry plan and published paid pricing", "Volunteer portal designed to avoid passwords and app installation", "Events, rotas, preferences and reminders in one workflow", "Published multi-site, forms and communications options"],
+    "limitations": ["A broad feature set does not replace a church’s safeguarding policy, professional judgement or statutory processes", "Public material reviewed does not establish DPA, data residency, sub-processors, retention, export or access-control detail", "Feature and contact limits, SMS cost, support levels and youth/DBS workflow suitability need testing against a real church", "Not an accounting package, Gift Aid processor or a substitute for specialist safeguarding advice"],
+    "procurementVerdict": {"problem": "Coordinating volunteers, events and routine communication without chasing people through disconnected tools", "differentiator": "A UK product centred on friction-light volunteer self-service, with church, youth and pastoral extensions", "firstCheck": "Run a non-sensitive pilot rota with real volunteers, availability, reminders and calendar links; then obtain the current DPA, hosting and retention details before loading DBS, pastoral, youth or safeguarding information"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "OnNuma product and pricing", "url": "https://www.onnuma.com/", "checked": "2026-07-25", "supports": ["UK operator context", "Pricing", "Volunteer workflows", "Features", "Contact address"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "OnNuma review for UK churches", "description": "Independent OnNuma profile: UK volunteer rotas, events, communications and sensitive-data procurement checks for churches."}
+}

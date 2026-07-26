@@ -1,0 +1,52 @@
+{
+  "name": "ShareRota",
+  "slug": "sharerota",
+  "shortDescription": "UK-operated rota software for church worship, welcome, media, youth and prayer teams, with reminders, swaps and exports.",
+  "officialWebsite": "https://www.sharerota.com/use-cases/churches",
+  "company": "Soft Creative Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "unknown",
+  "categories": ["volunteer-scheduling", "worship-planning", "church-communications"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches scheduling worship, welcome, media, youth and prayer volunteers", "Teams moving rota work away from spreadsheets", "Leaders needing controlled swap approval and recurring schedules"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "ShareRota publishes monthly GBP plans from £9 for up to 10 members to £39 for unlimited members, with a 14-day free trial and no card required until continuing.",
+    "startingPrice": {"amount": 9, "currency": "GBP", "period": "month", "qualifier": "Basic plan, up to 10 team members"},
+    "tiers": [
+      {"label": "Basic", "price": "£9/month", "detail": "Up to 10 team members, basic scheduling, email notifications and PDF/CSV export."},
+      {"label": "Standard", "price": "£19/month", "detail": "Up to 25 members, advanced scheduling, email and SMS notifications, recurring schedules, roles and permissions."},
+      {"label": "Premium", "price": "£39/month", "detail": "Unlimited members, all notification methods, API access, unlimited history, custom branding and priority support."}
+    ],
+    "trialDetails": "All published plans include a 14-day free trial with no card required until continuation."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "The site identifies a privacy-policy and terms route, but their current contents were not available in the reviewed public index. Obtain the current data-processing agreement, hosting region, sub-processor list, retention schedule, deletion process and export format before adding volunteer records.",
+  "coreFeatures": ["Multi-ministry rota planning", "Volunteer reminders", "Leader-approved swaps", "Recurring schedules", "Team roles and permissions", "PDF and CSV export", "SMS notifications on Standard and above", "API access on Premium"],
+  "integrations": ["Stripe card payments", "Polar subscription payments", "API access on Premium"],
+  "importExport": ["PDF export", "CSV export", "Additional export formats on Standard and Premium"],
+  "support": ["Priority support on the Premium plan", "Supplier offers a demo and migration assistance"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "ShareRota identifies itself as a product of Soft Creative Ltd, London, and publishes a London contact location and UK telephone number.", "state": "supplier-published", "source": "https://www.sharerota.com/use-cases/churches", "checked": "2026-07-25"},
+    "church-workflow": {"value": "Supplier has a church-specific page covering worship, welcome, media, youth and prayer rotas, reminders, swaps and leader oversight.", "state": "supplier-published", "source": "https://www.sharerota.com/use-cases/churches", "checked": "2026-07-25"},
+    "gbp-pricing": {"value": "Supplier publishes monthly GBP plans at £9, £19 and £39, with a 14-day free trial.", "state": "supplier-published", "source": "https://www.sharerota.com/pricing", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "ShareRota is a focused scheduling option for churches that need to organise several ministry teams without adopting a broader church-management system. Its published tiers, UK operator statement and church-specific workflow make it a useful specialist comparison. The public research index did not expose the contents of its linked legal pages, so it should be assessed with a current supplier privacy and processing pack before the church stores personal information or sends SMS reminders.",
+    "bestFor": ["Churches wanting a specialist rota tool for several ministry teams", "Teams that need controlled swaps, recurring schedules and permissions", "Churches that value published GBP pricing and a no-card trial"],
+    "strengths": ["Explicit church rota use case", "Published GBP prices and a 14-day trial", "SMS reminders, recurring schedules and permissions on the Standard plan", "PDF and CSV exports are published"],
+    "limitations": ["It is a general scheduling product rather than a full church-management system", "The supplier's linked terms and privacy content require direct review", "Hosting, sub-processors, retention, accessibility and exit-data arrangements are not established by the reviewed public material", "SMS delivery, payment and any API usage introduce third-party terms to assess"],
+    "procurementVerdict": {"problem": "Coordinating multiple church volunteer teams without spreadsheet churn", "differentiator": "A church-specific rota workflow with published GBP tiers, reminder channels and controlled swaps", "firstCheck": "Trial a real rota with availability, decline, swap, reminder, export and leadership-approval scenarios before importing the whole team"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "ShareRota for Churches", "url": "https://www.sharerota.com/use-cases/churches", "checked": "2026-07-25", "supports": ["Church rota use case", "UK operator statement", "Church ministry workflow", "Trial and demo routes"]},
+    {"label": "ShareRota pricing", "url": "https://www.sharerota.com/pricing", "checked": "2026-07-25", "supports": ["Published GBP tiers", "Team-member limits", "Notifications", "Exports", "Trial", "Payment providers"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "ShareRota review for UK churches", "description": "Independent ShareRota profile: church volunteer rotas, GBP plans, reminders, swaps, exports and data-protection checks."}
+}

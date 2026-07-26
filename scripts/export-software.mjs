@@ -30,24 +30,27 @@ const decisionFields = [
   ["contract", ["cancellation", "termination", "contract"]]
 ];
 
-const decisionEvidenceFor = (entry) => Object.fromEntries(decisionFields.map(([key, hints]) => {
+const decisionEvidenceFor = (entry) => Object.fromEntries(decisionFields.flatMap(([key, hints]) => {
   const override = entry.decisionEvidence?.[key];
-  if (override) return [key, override];
+  if (override) return [[key, override]];
   const source = entry.sources.find((item) => {
     const supports = item.supports.join(" ").toLowerCase();
     return hints.some((hint) => supports.includes(hint));
   });
-  let value = "Not confirmed";
-  if (key === "gbp-pricing") value = entry.pricing.startingPrice?.currency === "GBP" ? "Published GBP starting price" : entry.pricing.startingPrice ? `Published ${entry.pricing.startingPrice.currency} starting price` : "Pricing needs verification";
-  if (key === "gift-aid") value = entry.giftAid ? ({ yes: "Yes", no: "No", unknown: "Not confirmed" })[entry.giftAid] : "Not applicable to this product profile";
-  if (key === "hosting") value = entry.dataHosting ?? "Not confirmed";
-  if (key === "exports") value = entry.importExport?.length ? entry.importExport.join("; ") : "Not confirmed";
-  if (key === "uk-support") value = entry.support?.length ? entry.support.join("; ") : "Not confirmed";
-  return [key, {
+  let value = null;
+  if (key === "gbp-pricing") value = entry.pricing.startingPrice?.currency === "GBP" ? "Published GBP starting price" : entry.pricing.startingPrice ? `Published ${entry.pricing.startingPrice.currency} starting price` : null;
+  if (key === "gift-aid" && entry.giftAid !== "unknown") value = entry.giftAid ? ({ yes: "Yes", no: "No" })[entry.giftAid] : null;
+  if (key === "hosting") value = entry.dataHosting ?? null;
+  if (key === "exports") value = entry.importExport?.length ? entry.importExport.join("; ") : null;
+  if (key === "uk-support") value = entry.support?.length ? entry.support.join("; ") : null;
+  if (!source || !value) return [];
+  return [[key, {
     value,
-    state: value === "Not confirmed" || value === "Pricing needs verification" ? "not-confirmed" : source ? (Date.now() - new Date(source.checked).getTime() > 180 * 24 * 60 * 60 * 1000 ? "possibly-outdated" : "supplier-claim") : "not-confirmed",
-    ...(source ? { source: source.url, checked: source.checked, sourceLabel: source.label } : { note: "No supporting source is recorded for this field." })
-  }];
+    state: Date.now() - new Date(source.checked).getTime() > 180 * 24 * 60 * 60 * 1000 ? "needs-refresh" : "supplier-published",
+    source: source.url,
+    checked: source.checked,
+    sourceLabel: source.label
+  }]];
 }));
 
 const files = (await readdir(sourceDirectory))
@@ -68,15 +71,16 @@ const entries = await Promise.all(
       company: entry.company,
       countryOfOrigin: entry.countryOfOrigin ?? null,
       ukFocus: entry.ukFocus,
-      ukOrganisation: entry.ukOrganisation ?? "unknown",
+      ...(entry.ukOrganisation && entry.ukOrganisation !== "unknown" ? { ukOrganisation: entry.ukOrganisation } : {}),
       categories: entry.categories,
       suitableChurchSizes: entry.suitableChurchSizes,
-      pricing: entry.pricing,
-      freePlan: entry.freePlan,
-      freeTrial: entry.freeTrial,
-      ...(entry.giftAid ? { giftAid: entry.giftAid } : {}),
+      pricing: entry.pricing.model === "unknown"
+        ? { ...entry.pricing, model: undefined }
+        : entry.pricing,
+      ...(entry.freePlan !== "unknown" ? { freePlan: entry.freePlan } : {}),
+      ...(entry.freeTrial !== "unknown" ? { freeTrial: entry.freeTrial } : {}),
+      ...(entry.giftAid && entry.giftAid !== "unknown" ? { giftAid: entry.giftAid } : {}),
       decisionEvidence: decisionEvidenceFor(entry),
-      verificationStatus: entry.verificationStatus,
       lastChecked: entry.lastChecked,
       sources: entry.sources
     };

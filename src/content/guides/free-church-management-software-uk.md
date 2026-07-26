@@ -28,11 +28,11 @@ This guide covers free or free-entry tools for people, rota and basic church adm
 | Product | Published free model | What changes the decision |
 | --- | --- | --- |
 | [Planning Center](/software/planning-center/) | People is free; other products have free tiers and paid capacity. | The full workflow may need several products. |
-| [ChMeetings](/software/chmeetings/) | Free Forever up to 50 people. | Paid prices are published in US dollars; verify UK fit. |
+| [ChMeetings](/software/chmeetings/) | Free Forever up to 50 people. | Paid prices are published in US dollars; ask about UK billing, support and data terms. |
 | [ChurchLinker](/software/churchlinker/) | Free Seed plan to 50 contacts. | Validate a newer product’s workflow, support and data terms. |
 | [ChurchCRM](/software/churchcrm/) | Free, open-source software. | The church supplies hosting, security, backups and support. |
 | [B1 Church](/software/b1-church/) | Supplier states all features are free. | Due diligence on support, payments, data handling and continuity is essential. |
-| [WorshipTools](/software/worshiptools/) | Free app set for planning, presentation and basic people work. | It is not a confirmed replacement for UK finance, Gift Aid or safeguarding administration. |
+| [WorshipTools](/software/worshiptools/) | Free app set for planning, presentation and basic people work. | Its supplier material does not describe UK finance, Gift Aid or safeguarding administration. |
 
 Sources: [Planning Center](https://help.planningcenter.com/en/136790-planning-center-pricing.html), [ChMeetings](https://www.chmeetings.com/pricing/), [ChurchLinker](https://churchlinker.com/), [ChurchCRM](https://churchcrm.io/faq.html), [B1 Church](https://www.b1.church/) and [WorshipTools](https://www.worshiptools.com/).
 
@@ -44,7 +44,7 @@ Do not upload live pastoral, safeguarding or finance data to a free trial before
 
 ## Choose the free model deliberately
 
-| Model | May suit | Material trade-off | First verification |
+| Model | May suit | Material trade-off | First question to settle |
 | --- | --- | --- | --- |
 | Hosted free tier: Planning Center, ChMeetings or ChurchLinker | A church testing defined workflows with limited contacts or usage. | Capacity, paid modules, currency and service terms can change the long-term cost. | Threshold, renewal route, permissions and usable export. |
 | Supplier says all features are free: B1 Church or WorshipTools | A church with a narrow, evidenced workflow to test. | Support, continuity, UK-fit and excluded finance/giving work remain material. | Current terms, support route and data handling documentation. |
@@ -74,7 +74,7 @@ The proportionate answer may be a clearly bounded free tool alongside an existin
 
 These profiles are research starting points, not rankings or endorsements.
 
-- [Planning Center](/software/planning-center/) for a free central People database and product-by-product expansion; verify complete workflow cost and UK requirements.
+- [Planning Center](/software/planning-center/) for a free central People database and product-by-product expansion; calculate the complete workflow cost and ask about UK requirements.
 - [ChMeetings](/software/chmeetings/) and [ChurchLinker](/software/churchlinker/) for contact-limited free tiers; check currency, support, data and growth path.
 - [ChurchCRM](/software/churchcrm/) for open-source control only where technical responsibility is real and named.
 - [B1 Church](/software/b1-church/) and [WorshipTools](/software/worshiptools/) for their published free models; validate the exact workflow and continuity evidence.

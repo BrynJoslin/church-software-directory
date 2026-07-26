@@ -36,7 +36,7 @@ For a low volume of gifts, a clear bank-transfer instruction and a restricted, d
 | Contactless alongside online gifts | [GoodBox](/software/goodbox/), [Give A Little](/software/give-a-little/) | Hardware, connectivity, device management and transaction routes can change the total. | What will a typical in-person gift cost and how is it reconciled? |
 | Planned regular giving for eligible parishes | [Parish Giving Scheme](/software/parish-giving-scheme/) | It is tied to participating Church of England dioceses and local processes. | Is our parish eligible and how does it feed our accounts? |
 
-This is a decision framework, not a claim that every product offers every channel or applies to every church. Where Gift Aid is not confirmed in a profile, ask rather than assuming absence.
+This is a decision framework, not a claim that every product offers every channel or applies to every church. Where a profile does not cite a supplier-published Gift Aid workflow, ask the supplier to demonstrate it rather than assuming absence.
 
 ## Compare net, reconciled income
 
@@ -44,7 +44,7 @@ Published fees are meaningful only with their conditions. GoodBox publishes a UK
 
 Use the same fictional annual mix for each candidate:
 
-| Cost line | Your assumption | Supplier confirmation needed |
+| Cost line | Your assumption | Question for the supplier |
 | --- | --- | --- |
 | Online cards and regular gifts | Number and average value | Rate, fixed fee, payment-provider route and refunds |
 | Contactless and hardware | Devices, connectivity and replacement | Purchase/rental, support and transaction terms |
@@ -66,7 +66,7 @@ Give each shortlist the same realistic test using fictional data. A polished don
 5. Reconcile that output to a mock bank statement with a restricted finance role.
 6. Export the records and establish whether a second authorised person can understand the file.
 
-Record whether each result was observed in the test, a supplier claim or not confirmed. Ask an occasional volunteer and the treasurer to complete their own tasks: accessibility and adoption matter when a donor needs to give on a phone and when a finance volunteer is working at month end.
+Record whether each result was observed in the test, published by the supplier or remains a question to settle. Ask an occasional volunteer and the treasurer to complete their own tasks: accessibility and adoption matter when a donor needs to give on a phone and when a finance volunteer is working at month end.
 
 ## Data, permissions and exit
 

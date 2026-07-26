@@ -1,0 +1,59 @@
+{
+  "name": "Swiftaid",
+  "slug": "swiftaid",
+  "shortDescription": "A UK Gift Aid intermediary and claim-submission service for charities, covering connected donation platforms, uploaded donation data and recovery of previously missed eligible Gift Aid.",
+  "officialWebsite": "https://www.swiftaid.co.uk/charity",
+  "company": "Streeva Ltd (trading as Swiftaid)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Church charities that need an intermediary to submit Gift Aid claims", "Churches receiving donations through a supported platform or with claim data to upload", "Treasurers seeking a separate Gift Aid process rather than a full giving or church-management system"],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Swiftaid publishes a free platform plan with a Gift Aid-processing allowance of up to £6,000 per tax year, subject to its stated conditions. Its Plus plan is £25 per month plus VAT billed annually, with percentage fees above the allowance; uploaded claim submission is advertised at 5% plus VAT of Gift Aid processed, and the finder service at 10% plus VAT of Gift Aid found. Confirm eligibility, allowance timing, platform compatibility, contract terms and all applicable fees in writing.",
+    "startingPrice": {"amount": 25, "currency": "GBP", "period": "month", "qualifier": "Plus plan, plus VAT and billed annually"},
+    "tiers": [
+      {"label": "Gift Aid via Platforms: Basic", "price": "Free", "detail": "Up to £6,000 stated annual processing allowance; annual claim submission after the tax year and 5% plus VAT above the allowance."},
+      {"label": "Gift Aid via Platforms: Plus", "price": "£25/month + VAT", "detail": "Billed annually; monthly claims and 2.5% plus VAT above the stated allowance."},
+      {"label": "Claim Submission Service", "price": "5% + VAT", "detail": "Supplier describes secure donation-data upload, validation and HMRC claim submission."},
+      {"label": "Gift Aid Finder", "price": "10% + VAT", "detail": "Supplier states that the fee applies only to Gift Aid found, with a £100 minimum per claim."}
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Swiftaid publishes a privacy policy and describes itself as a donor intermediary. Its public charity material states that it processes declarations and claims as a nominee, while its connected-platform material makes broad claims about GDPR responsibility. A church should obtain and review the current charity terms, controller-processor allocation, data-processing terms, hosting, sub-processors, retention, breach process, data subject arrangements and export or audit-record access before sharing donor data.",
+  "coreFeatures": ["Gift Aid nominee and claim submission", "Donation-source connection", "Donation-data upload", "Donor-data validation", "HMRC claim submission", "Gift Aid Finder service", "Claim dashboard", "Record storage on stated plans", "Audit support on stated plans"],
+  "integrations": ["Connected donation-platform workflows", "Supplier API for advanced integrations on enterprise arrangements", "Confirm the church's exact donation platform, payment flow and data-sharing arrangement"],
+  "importExport": ["Supplier describes CSV or ODS donation-data upload for claim submission", "Request complete claim, declaration, donor-data, audit-record and account export documentation"],
+  "support": ["Supplier states that email support is available during UK business hours for platform plans", "Supplier says its customer-success team targets a reply within two days", "Confirm support commitments, audit assistance and migration or integration scope"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "Swiftaid's legal material identifies STREEVA LTD, a company registered in England and Wales with company number 09451226, as the operator trading as Swiftaid.", "state": "supplier-published", "source": "https://www.swiftaid.co.uk/legal/terms/", "checked": "2026-07-25"},
+    "hmrc-recognition": {"value": "HMRC's current commercial Charities Online supplier list names Streeva Ltd and Swiftaid, identifying suppliers that have provided evidence of software able to interact with Charities Online.", "state": "independent-source", "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25"},
+    "claim-workflow-and-pricing": {"value": "Supplier documents platform, data-upload and finder claim services, including current published plan and success-fee prices.", "state": "supplier-published", "source": "https://www.swiftaid.co.uk/pricing/", "checked": "2026-07-25"},
+    "charity-nominee-workflow": {"value": "Supplier says charities register it as nominee, link a donation source or upload data, and it validates information and submits Gift Aid claims to HMRC on the charity's behalf.", "state": "supplier-published", "source": "https://www.swiftaid.co.uk/guide/charity/questions-about-swiftaid/how-does-swiftaid-work/", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Swiftaid is a UK Gift Aid service, not a church-management system, donor CRM or general donation platform. It may suit a church charity that already takes donations through an appropriate source and wants an intermediary to validate, submit and manage Gift Aid claims. The published platform allowance and service fees make it worth modelling for smaller and larger claims alike, but a church must confirm whether its actual payment and donation routes can connect, who controls each element of donor data, and how records remain accessible for audit.",
+    "bestFor": ["Church charities with a compatible existing donation source", "Treasurers wanting to outsource or simplify HMRC Gift Aid claim processing", "Churches able to test the nominee, reconciliation and audit-record workflow before launch"],
+    "strengths": ["Active UK operator and current HMRC Charities Online listing", "Published platform, upload and finder service prices", "Free stated platform allowance for qualifying use", "Explicit claim submission, data validation and audit-support workflow"],
+    "limitations": ["Not a complete online giving, membership, pastoral-care or church-management platform", "Compatibility, exact data flow and commercial terms depend on the selected donation source and service", "Published materials do not replace a church's review of data-protection roles and product terms", "Percentage-based fees can materially affect the net benefit for higher-value claims"],
+    "procurementVerdict": {"problem": "Submitting accurate Gift Aid claims from donation sources without creating a large manual administration burden", "differentiator": "A UK Gift Aid intermediary with platform-connected, uploaded-data and missed-Gift-Aid routes", "firstCheck": "Map one intended donation source through the service, obtain written nominee-status and no-double-claim controls, reconcile a test claim, compare the applicable fee against expected recovered Gift Aid, and obtain current charity data-processing and audit-record terms before transferring donor data."}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Swiftaid charity services", "url": "https://www.swiftaid.co.uk/charity", "checked": "2026-07-25", "supports": ["Service scope", "Connected-platform workflow", "Donation-source boundary"]},
+    {"label": "Swiftaid pricing", "url": "https://www.swiftaid.co.uk/pricing/", "checked": "2026-07-25", "supports": ["Free allowance", "Plus price", "Percentage fees", "Support", "Record-storage scope"]},
+    {"label": "Swiftaid charity workflow", "url": "https://www.swiftaid.co.uk/guide/charity/questions-about-swiftaid/how-does-swiftaid-work/", "checked": "2026-07-25", "supports": ["Registration", "Nominee workflow", "HMRC claim submission"]},
+    {"label": "Swiftaid claim-submission service", "url": "https://www.swiftaid.co.uk/charity/claim", "checked": "2026-07-25", "supports": ["CSV or ODS upload", "Validation", "Claim workflow"]},
+    {"label": "Swiftaid terms", "url": "https://www.swiftaid.co.uk/legal/terms/", "checked": "2026-07-25", "supports": ["Legal operator", "Company number", "Terms publication"]},
+    {"label": "Swiftaid legal and privacy material", "url": "https://www.swiftaid.co.uk/legal/privacy/", "checked": "2026-07-25", "supports": ["Operator identity", "Privacy-policy publication"]},
+    {"label": "HMRC commercial Charities Online suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Supplier and product listing", "Charities Online evidence context"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Swiftaid review for UK churches", "description": "Independent Swiftaid profile: UK Gift Aid claims, pricing, platform workflow and data checks."}
+}

@@ -21,7 +21,7 @@
   ],
   "pricing": {
     "model": "quote-based",
-    "summary": "Realm’s public product pages invite churches to start a free trial and purchase plans, but this profile has not confirmed a complete current plan-price schedule. Obtain a written quote that covers modules, implementation, payments and support.",
+    "summary": "Realm’s public product pages invite churches to start a free trial and purchase plans. Obtain a written quote covering modules, implementation, payments and support.",
     "tiers": [
       {
         "label": "Inform",
@@ -71,13 +71,13 @@
       "Free trial and substantial training resources are published"
     ],
     "limitations": [
-      "Complete public pricing is not confirmed",
-      "UK commercial, finance and data-processing fit are not confirmed"
+      "Ask ACS Technologies for complete current plan pricing",
+      "Ask the supplier about UK commercial, finance and data-processing fit"
     ],
     "procurementVerdict": {
       "problem": "Established churches that need a broad people and contribution system",
       "differentiator": "Member profiles",
-      "firstCheck": "Complete public pricing is not confirmed"
+      "firstCheck": "Ask ACS Technologies for complete current plan pricing"
     }
   },
   "longForm": {
@@ -89,7 +89,7 @@
     "sections": [
       {
         "heading": "People, giving and engagement",
-        "question": "Can the church verify its full workflow and commercial fit?",
+        "question": "Can the church test its full workflow and establish the commercial fit?",
         "paragraphs": [
           "Realm describes people profiles, contributions, pledges, reporting, groups, events and communications. Its Inform, Connect and Multiply pages describe increasing scope, and the supplier offers a free trial.",
           "Use the trial to test one ordinary member journey and a finance report. Before importing live records, request current UK availability, contract, hosting, payment and Gift Aid details in writing."
@@ -102,7 +102,7 @@
         "The platform is broad enough to require workflow-level evaluation.",
         "Unpublished total pricing and UK fit are key research gaps."
       ],
-      "caveat": "Supplier claims are not independent testing or confirmation that Realm is commercially available for UK churches."
+      "caveat": "Supplier claims are not independent testing, and the reviewed material does not establish that Realm is commercially available for UK churches."
     },
     "faq": [
       {
@@ -111,15 +111,22 @@
       },
       {
         "question": "How much does Realm cost?",
-        "answer": "A complete current public plan-price schedule was not confirmed in this profile. Ask ACS Technologies for a written quote including modules, implementation and payment costs."
+        "answer": "Ask ACS Technologies for a written quote including modules, implementation and payment costs."
       },
       {
         "question": "Does Realm support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify the required UK declaration, claim and reconciliation workflow directly."
+        "answer": "Ask the supplier to demonstrate the required UK declaration, claim and reconciliation workflow directly."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/realm/realm-logo.png",
+      "alt": "Realm logo",
+      "source": "https://www.acstechnologies.com/realm/wp-content/uploads/sites/3/2022/04/realm.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

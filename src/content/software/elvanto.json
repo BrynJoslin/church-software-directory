@@ -45,7 +45,7 @@
         "detail": "The supplier publishes a people-count selector; all features are described as included"
       }
     ],
-    "trialDetails": "Trial duration is not confirmed in the current source record; contact the supplier for a current evaluation arrangement."
+    "trialDetails": "Ask the supplier for its current trial duration and evaluation arrangement."
   },
   "freePlan": "no",
   "freeTrial": "unknown",
@@ -79,7 +79,7 @@
     ],
     "limitations": [
       "Published pricing is in US dollars",
-      "UK Gift Aid, payments and trial terms are not confirmed here"
+      "Ask the supplier about UK Gift Aid, payments and trial terms"
     ],
     "procurementVerdict": {
       "problem": "Churches that want one system for volunteers, services and people",
@@ -118,11 +118,11 @@
       },
       {
         "question": "What counts as an active adult in Elvanto?",
-        "answer": "The supplier describes an active adult as someone who attends, volunteers or gives financially. Contacts and archived people are described separately; verify the current definitions before budgeting."
+        "answer": "The supplier describes an active adult as someone who attends, volunteers or gives financially. Contacts and archived people are described separately; check the current definitions before budgeting."
       },
       {
         "question": "Does Elvanto support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Ask the supplier for an up-to-date demonstration of UK giving, payment, Gift Aid and reconciliation workflows."
+        "answer": "Ask the supplier for an up-to-date demonstration of UK giving, payment, Gift Aid and reconciliation workflows."
       }
     ]
   },
@@ -134,7 +134,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

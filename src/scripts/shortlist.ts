@@ -1,4 +1,13 @@
-import { answerLabels, shortlistJobs, shortlistProducts, unresolvedFor, type ShortlistAnswers, type ShortlistProduct } from "../utils/shortlist";
+import {
+  answerLabels,
+  decisionFieldLabel,
+  decisionFieldQuestion,
+  shortlistJobs,
+  shortlistProducts,
+  unresolvedFor,
+  type ShortlistAnswers,
+  type ShortlistProduct
+} from "../utils/shortlist";
 
 export {};
 
@@ -63,9 +72,13 @@ const renderPack = (answers: ShortlistAnswers, matched: ReturnType<typeof shortl
   (Object.keys(answerLabels) as Array<keyof typeof answerLabels>).forEach((key) => appendText(requirementList, "li", `${key === "contactBand" ? "Church scale" : key === "ukLocation" ? "Location" : key === "giftAid" ? "Gift Aid" : key === "approach" ? "System preference" : "Technical administration"}: ${answerLabels[key][answers[key]]}.`));
   appendText(requirements, "p", "Use this as a working brief. Confirm the details below with the people who will own the process."); requirements.append(requirementList);
   const questionList = document.createElement("ul");
-  matched.forEach(({ product }) => unresolvedFor(product, answers).forEach((key) => appendText(questionList, "li", `${product.name}: confirm ${key.replaceAll("-", " ")}.`)));
+  matched.forEach(({ product }) =>
+    unresolvedFor(product, answers).forEach((key) =>
+      appendText(questionList, "li", `${product.name}: ${decisionFieldQuestion(key)}`)
+    )
+  );
   appendText(questionList, "li", "Ask each supplier to demonstrate one real workflow using your church’s roles, data and reporting needs."); questions.append(questionList);
-  appendText(trusteeSummary, "p", `The team investigated ${matched.map(({ product }) => product.name).join(", ")}. These are evidence-backed starting points for ${job.toLowerCase()}, not a recommendation or final purchase decision.`);
+  appendText(trusteeSummary, "p", `The team investigated ${matched.map(({ product }) => product.name).join(", ")}. This is an evidence-backed shortlist for ${job.toLowerCase()}, not a recommendation or final purchase decision.`);
   appendText(trusteeSummary, "p", "Before approval, record the total cost, contract and cancellation terms, data export route, implementation owner, and the outcome of a real workflow trial.");
 };
 
@@ -85,7 +98,14 @@ const render = (answers: ShortlistAnswers) => {
     const heading = document.createElement("h3"); const link = document.createElement("a"); link.href = `/software/${product.slug}/`; link.textContent = product.name; heading.append(link); article.append(heading);
     const why = document.createElement("ul"); why.className = "shortlist-card__reasons"; reasons.forEach((reason) => appendText(why, "li", reason)); article.append(why);
     appendText(article, "p", `First workflow to test: ${product.procurementVerdict.problem}.`);
-    const unresolved = unresolvedFor(product, answers); appendText(article, "p", unresolved.length ? `Still unconfirmed: ${unresolved.map((key) => key.replaceAll("-", " ")).join(", ")}.` : `First check: ${product.procurementVerdict.firstCheck}.`);
+    const unresolved = unresolvedFor(product, answers);
+    appendText(
+      article,
+      "p",
+      unresolved.length
+        ? `Questions to settle: ${unresolved.map(decisionFieldLabel).join(", ")}.`
+        : `First check: ${product.procurementVerdict.firstCheck}.`
+    );
     const pricing = product.pricing.startingPrice;
     if (pricing?.currency === "GBP") appendText(article, "p", `Published starting point: £${pricing.amount} per ${pricing.period}${pricing.qualifier ? ` (${pricing.qualifier})` : ""}. This is not a total cost estimate.`);
     else appendText(article, "p", "Pricing: Contact supplier or review the profile; this tool does not estimate quote-based, foreign-currency or incomplete costs.");

@@ -68,7 +68,7 @@
     ],
     "limitations": [
       "Pricing is published in US dollars",
-      "Gift Aid and UK-specific payment support have not been confirmed"
+      "The reviewed supplier material does not describe Gift Aid or UK-specific payment support"
     ],
     "procurementVerdict": {
       "problem": "Churches that want predictable contact-independent ChMS pricing",
@@ -77,7 +77,7 @@
     }
   },
   "longForm": {
-    "verdict": "Breeze is easiest to understand as a flat-rate church-management subscription rather than a UK-first finance system. Its predictable base price is attractive, but a UK shortlist still depends on the answers to payment, Gift Aid, currency and data-protection questions that the current research has not confirmed.",
+    "verdict": "Breeze is easiest to understand as a flat-rate church-management subscription rather than a UK-first finance system. Its predictable base price is attractive, but a UK shortlist still depends on written answers about payments, Gift Aid, currency and data protection.",
     "decisionLens": {
       "heading": "A flat subscription is not the same as a predictable total cost.",
       "text": "Breeze avoids contact-based subscription tiers, but its published pricing separates the ChMS subscription from payment processing and some messaging charges. The right comparison is the full operating cost for the church’s actual giving and communication habits."
@@ -95,7 +95,7 @@
         "heading": "The UK finance questions to resolve first",
         "question": "Can the giving workflow fit the church’s existing finance and Gift Aid process?",
         "paragraphs": [
-          "Breeze lists online giving among its product capabilities, but this profile has not confirmed Gift Aid support, UK payment availability or a UK-specific reconciliation workflow. An absence of confirmation is not evidence that the capability is unavailable.",
+          "Breeze lists online giving among its product capabilities. Ask the supplier to demonstrate Gift Aid support, UK payment availability and a UK-specific reconciliation workflow before relying on it for giving administration.",
           "Before treating Breeze as an all-in-one finance option, ask the supplier to demonstrate donation intake, exports, reconciliation and the exact treatment of Gift Aid declarations and claims for a UK charity."
         ]
       },
@@ -123,7 +123,7 @@
       },
       {
         "question": "Does Breeze support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Contact the supplier to verify the current UK Gift Aid, payment and finance workflow before relying on Breeze for church giving administration."
+        "answer": "Ask the supplier to demonstrate the current UK Gift Aid, payment and finance workflow before relying on Breeze for church giving administration."
       },
       {
         "question": "Is Breeze pricing based on contacts?",
@@ -139,7 +139,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {
@@ -169,6 +168,6 @@
   "sponsored": false,
   "seo": {
     "title": "Breeze ChMS: UK church software profile",
-    "description": "Independent Breeze ChMS profile covering flat-rate pricing, its trial and core features, with UK Gift Aid and payment unknowns highlighted."
+    "description": "Independent Breeze ChMS profile covering flat-rate pricing, its trial and core features, with UK Gift Aid and payment questions highlighted."
   }
 }

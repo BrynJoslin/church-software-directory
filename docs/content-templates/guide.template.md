@@ -45,7 +45,7 @@ exit questions. Do not reproduce a generic feature list.
 
 Apply the same criteria to every option. For each, explain why it is in scope,
 the context it may fit, its evidence-backed differentiator, a limitation or
-unknown and the first point to verify.
+question to settle and the first practical check.
 
 ## Software listings to explore
 
@@ -71,7 +71,7 @@ Give one concrete, proportionate next action.
 
 ## Sources and research limits
 
-State the research date, market-coverage limit, important unknowns, testing
+State the research date, market-coverage limit, important supplier questions, testing
 status and advice boundary. List the most important sources with explicit
 accessed dates. Use current supplier sources for product facts and authoritative
 UK sources for regulatory, tax, security and governance context.

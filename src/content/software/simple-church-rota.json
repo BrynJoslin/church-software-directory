@@ -1,0 +1,52 @@
+{
+  "name": "Simple Church Rota",
+  "slug": "simple-church-rota",
+  "shortDescription": "A UK-developed volunteer rota app for church teams, with scheduling, swaps, calendar sync, team messages, notifications and print-ready rotas.",
+  "officialWebsite": "https://www.simplechurchrota.com/landing.php",
+  "company": "Andrew Bents (developer identity published in Google Play; legal trading entity not established in reviewed public material)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "unknown",
+  "categories": ["volunteer-scheduling", "church-communications"],
+  "suitableChurchSizes": ["small", "medium"],
+  "suitableContexts": ["Small churches replacing volunteer rota spreadsheets", "Church teams needing swap and cover requests", "Churches wanting calendar-synchronised rotas and notifications without a full church-management suite"],
+  "pricing": {
+    "model": "flat-rate",
+    "summary": "Supplier publishes a 30-day free trial without a card, followed by £35 per year for a church with unlimited rota types and volunteers. Confirm VAT treatment, payment provider, renewal, cancellation and refund terms before purchase.",
+    "startingPrice": {"amount": 35, "currency": "GBP", "period": "year", "qualifier": "published annual church subscription"},
+    "tiers": [
+      {"label": "30-day trial", "price": "Free", "detail": "Supplier states that all features are available without a card for 30 days."},
+      {"label": "Annual subscription", "price": "£35/year", "detail": "Supplier states that this includes unlimited volunteers and rota types, calendar tools, notifications, PDF export and email support."}
+    ],
+    "trialDetails": "Supplier advertises a 30-day full-feature trial with no card required."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "The product page describes the service as UK-based and GDPR-aware. Google Play lists developer-provided data-safety information, including personal information, messages and calendar data, encryption in transit and a deletion-request route. The reviewed public material did not establish the legal entity, full privacy notice, controller/processor roles, hosting, sub-processors, retention, export or breach process. Obtain those details in writing before uploading church team or family-directory data.",
+  "coreFeatures": ["Weekly and one-off church rotas", "Custom ministry categories and roles", "Drag-and-drop scheduling", "Volunteer availability", "Swap and cover requests", "Team message centre", "Family and household scheduling", "Google Calendar sync", "iCal calendar feed", "Email, SMS and Telegram notifications", "Print-ready and PDF rotas", "Optional family directory", "Volunteer participation reports"],
+  "integrations": ["Google Calendar", "iCal-compatible calendars including Apple Calendar and Outlook", "Telegram notifications", "SMS notifications"],
+  "importExport": ["Supplier documents PDF print/export and iCal feeds", "Obtain the current people-data export, migration, retention and deletion workflow before purchase"],
+  "support": ["Email support is included in the published trial and annual subscription", "Google Play lists a public support email", "Confirm support hours and data-incident escalation arrangements before adoption"],
+  "decisionEvidence": {
+    "uk-developer-and-availability": {"value": "Google Play lists Andrew Bents as the developer in the United Kingdom, records an update in May 2026 and links the product website and support email.", "state": "independent-source", "source": "https://play.google.com/store/apps/details?id=com.simplechurchrota", "checked": "2026-07-25"},
+    "church-rota-scope": {"value": "Supplier documents church-specific rota types, volunteer scheduling, swaps, cover requests, messages, calendar sync, notification routes and PDF output.", "state": "supplier-published", "source": "https://www.simplechurchrota.com/landing.php", "checked": "2026-07-25"},
+    "published-pricing": {"value": "Supplier publishes a 30-day no-card trial and £35 annual subscription for unlimited rota types and volunteers.", "state": "supplier-published", "source": "https://www.simplechurchrota.com/landing.php", "checked": "2026-07-25"},
+    "app-data-safety": {"value": "Google Play's developer-provided data-safety summary records data collection/sharing categories, encryption in transit and a deletion-request route.", "state": "independent-source", "source": "https://play.google.com/store/apps/details?id=com.simplechurchrota", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Simple Church Rota is a focused UK-developed volunteer scheduling product, not a full church database or safeguarding system. It offers a notably low published annual price and a practical set of rota, swap, calendar and notification tools for a small church. The public legal and data-processing material is limited, so it is best assessed with a trial using non-sensitive team details while the church obtains the provider, privacy, hosting and exit information required for wider use.",
+    "bestFor": ["Small churches moving away from rota spreadsheets", "Teams needing volunteer availability, swaps, cover requests and reminders", "Churches seeking one low-cost rota tool rather than a full suite"],
+    "strengths": ["Current UK app-store developer listing and recent recorded update", "Church-focused rota, swap, calendar and notification workflow", "Published 30-day trial and flat £35 annual price", "Google Calendar, iCal, SMS and Telegram routes are described"],
+    "limitations": ["The reviewed public material does not establish a legal company or complete contractual identity", "It is not a church-management, accounting, Gift Aid or safeguarding case-management platform", "Privacy, controller/processor roles, hosting, sub-processors, retention, export and incident arrangements require a written supplier response", "SMS, messaging and calendar connections need permission and data-flow checks"],
+    "procurementVerdict": {"problem": "Replacing volunteer rota spreadsheets, late swap messages and fragmented calendar updates", "differentiator": "A narrowly focused church rota tool with a simple published annual price and multiple notification/calendar options", "firstCheck": "Run the 30-day trial with non-sensitive team data, then obtain the provider identity, privacy and export terms before adding family-directory or wider contact records"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Simple Church Rota product and pricing", "url": "https://www.simplechurchrota.com/landing.php", "checked": "2026-07-25", "supports": ["Church rota features", "Trial", "Annual price", "Calendar and notification features"]},
+    {"label": "Church Rota Scheduler on Google Play", "url": "https://play.google.com/store/apps/details?id=com.simplechurchrota", "checked": "2026-07-25", "supports": ["Developer identity and country", "Current app availability", "Data-safety summary", "Support route"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Simple Church Rota review for UK churches", "description": "Independent Simple Church Rota profile: UK volunteer scheduling, swaps, calendar sync, £35 annual price and due-diligence checks."}
+}

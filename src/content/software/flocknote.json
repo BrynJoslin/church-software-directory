@@ -84,7 +84,7 @@
     ],
     "limitations": [
       "US-dollar pricing",
-      "UK payment, Gift Aid, data-processing and messaging compliance are not confirmed here"
+      "Ask the supplier about UK payment, Gift Aid, data-processing and messaging compliance"
     ],
     "procurementVerdict": {
       "problem": "Teams that want communications and sign-ups before a full operational suite",
@@ -131,11 +131,18 @@
       },
       {
         "question": "Does Flocknote support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify payment availability, Gift Aid and donor reporting directly with Flocknote."
+        "answer": "Ask the supplier to demonstrate payment availability, Gift Aid and donor reporting directly with Flocknote."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/flocknote/flocknote-logo.webp",
+      "alt": "Flocknote logo",
+      "source": "https://flocknote.com/wp-content/uploads/2021/12/New-Flocknote-Logo.webp",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

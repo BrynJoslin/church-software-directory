@@ -62,7 +62,7 @@
     "Weekend support for urgent service issues stated by supplier"
   ],
   "editorial": {
-    "assessment": "Pushpay is a substantial commercial church platform, but its own current pricing page says customers must be based in the USA, Canada, New Zealand or Australia. It is included for market context and should not be presented as available to UK churches without direct supplier confirmation.",
+    "assessment": "Pushpay is a substantial commercial church platform, but its own current pricing page says customers must be based in the USA, Canada, New Zealand or Australia. It is included for market context and should not be presented as available to UK churches unless the supplier publishes or provides a current UK purchasing route.",
     "bestFor": [
       "Churches located in a supported country seeking giving and engagement tools",
       "UK teams researching overseas market options rather than buying now"
@@ -73,7 +73,7 @@
     ],
     "limitations": [
       "UK customer availability is not supported by the supplier’s published country list",
-      "Pricing is quote based and Gift Aid is not confirmed"
+      "Pricing is quote based; ask the supplier to demonstrate the required UK Gift Aid workflow"
     ],
     "procurementVerdict": {
       "problem": "Churches located in a supported country seeking giving and engagement tools",
@@ -116,11 +116,18 @@
       },
       {
         "question": "Does Pushpay support UK Gift Aid?",
-        "answer": "Not confirmed in this profile."
+        "answer": "Ask the supplier to demonstrate the required UK Gift Aid declaration, claim, export and reconciliation workflow."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/pushpay/pushpay-logo.svg",
+      "alt": "Pushpay logo",
+      "source": "https://s41008.pcdn.co/wp-content/uploads/2026/03/pushpay.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

@@ -30,7 +30,7 @@ The most useful alternative is the one that changes the particular trade-off pro
 | You want service planning and volunteer scheduling first | [Planning Center](/software/planning-center/), [WorshipTools](/software/worshiptools/), [Elvanto](/software/elvanto/) | Whether a specialist worship workflow still needs a separate people, giving or safeguarding process. |
 | You want self-hosting and no licence charge | [ChurchCRM](/software/churchcrm/) | The church becomes responsible for hosting, patching, backup, access and support. |
 
-This is a starting map, not a ranked market list. It reflects the current representative catalogue and source records. It does not imply that each product has confirmed Gift Aid, data-hosting or UK purchasing support.
+This is a starting map, not a ranked market list. It reflects the current representative catalogue and source records. Inclusion does not mean that supplier material documents Gift Aid, data hosting or UK purchasing for every product.
 
 ## The angle most comparisons miss
 
@@ -46,7 +46,7 @@ That breadth is a strength only if the church can name an owner, clean and maint
 
 Planning Center’s People database is free, and each other product has its own pricing measure and free tier. Its model can suit a team that wants to start with people records or service planning rather than adopt a full suite. The supplier says the first 30 days are free and there are no setup fees or contracts. [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html).
 
-The risk is incomplete total-cost thinking. Confirm the complete set of products, equipment, payment arrangements, data-processing terms and UK Gift Aid workflow before deciding it is a cheaper equivalent. Gift Aid is not confirmed in this directory’s current Planning Center record.
+The risk is incomplete total-cost thinking. Confirm the complete set of products, equipment, payment arrangements, data-processing terms and UK Gift Aid workflow before deciding it is a cheaper equivalent. Ask Planning Center to demonstrate any required UK Gift Aid workflow.
 
 ### iKnow Church and ChurchLinker: UK-oriented alternatives
 
@@ -64,7 +64,7 @@ Do not make that choice from a homepage mock-up. Ask editors to publish a servic
 
 ChMeetings publishes a free-forever plan up to 50 people and paid plans starting in US dollars, with a 30-day no-card trial. [ChMeetings pricing](https://www.chmeetings.com/pricing/). That makes it useful for a small church that needs evidence before committing.
 
-Free entry is not UK fit. Verify the currency, payment model, support, data-processing terms and any Gift Aid requirement. Use the trial with fictional data and a fixed task script.
+Free entry is not UK fit. Check the currency, payment model, support, data-processing terms and any Gift Aid requirement. Use the trial with fictional data and a fixed task script.
 
 ### ChurchCRM: choose responsibility, not just free software
 
@@ -106,14 +106,14 @@ Test a usable export from both the old and proposed system. Check that an author
 
 These listings offer different operating-model alternatives to ChurchSuite. They are not a ranking or endorsement, and each needs the same trial and migration scrutiny.
 
-- [Planning Center](/software/planning-center/) for a modular people and service-planning approach; verify total product cost and UK giving arrangements.
+- [Planning Center](/software/planning-center/) for a modular people and service-planning approach; check the total product cost and ask how UK giving would work.
 - [iKnow Church](/software/iknow-church/) and [ChurchLinker](/software/churchlinker/) for UK-oriented administration and giving contexts; validate the exact migration, fee and support model.
 - [ChurchDesk](/software/churchdesk/) where the public website and administration need to connect; test editor workflow and website migration.
 - [ChurchCRM](/software/churchcrm/) only where the church can genuinely own hosting, patches, backups and support.
 
 ## Sources and research limits
 
-Researched 25 July 2026 from official supplier pages. Prices, terms and features change, and every claim should be confirmed for the relevant plan before a migration. This guide does not provide hands-on testing or an overall score.
+Researched 25 July 2026 from official supplier pages. Prices, terms and features change, so check the relevant plan and written terms before a migration. This guide does not provide hands-on testing or an overall score.
 
 - [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
 - [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html) (accessed 25 July 2026)

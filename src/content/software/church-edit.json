@@ -39,7 +39,7 @@
         "detail": "Member-only pages and up to ten editors; supplier displays an associated promotional two-year figure"
       }
     ],
-    "trialDetails": "Church Edit advertises a free trial; the duration is not confirmed in this profile."
+    "trialDetails": "Church Edit advertises a free trial; the the current duration should be checked with the supplier."
   },
   "freePlan": "no",
   "freeTrial": "yes",
@@ -69,7 +69,7 @@
     ],
     "limitations": [
       "Promotional terms are shown alongside pricing",
-      "No integrated giving or data-protection workflow is confirmed here"
+      "The reviewed supplier material does not describe an integrated giving or data-protection workflow"
     ],
     "procurementVerdict": {
       "problem": "Churches wanting a modest-cost hosted church website",
@@ -104,7 +104,7 @@
     "faq": [
       {
         "question": "Does Church Edit offer a free trial?",
-        "answer": "Yes. Church Edit advertises a free trial, although its current duration is not confirmed in this profile."
+        "answer": "Yes. Church Edit advertises a free trial, although its current the current duration should be checked with the supplier."
       },
       {
         "question": "How much does Church Edit cost?",
@@ -112,11 +112,10 @@
       },
       {
         "question": "Does Church Edit include online giving?",
-        "answer": "Not confirmed in this profile. Ask the supplier how giving links or forms would connect to the church’s chosen payment service."
+        "answer": "Ask the supplier how giving links or forms would connect to the church’s chosen payment service."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

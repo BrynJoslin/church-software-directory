@@ -36,7 +36,7 @@
       {
         "label": "Pro",
         "price": "See supplier",
-        "detail": "Adds capacity and presentation features for eligible apps; current price not confirmed in this profile"
+        "detail": "Adds capacity and presentation features for eligible apps; ask the supplier for the current price"
       },
       {
         "label": "Pro Plus",
@@ -44,7 +44,7 @@
         "detail": "Adds higher capacity, advanced permissions and selected presentation resources for eligible apps"
       }
     ],
-    "trialDetails": "The supplier publishes a free plan rather than a time-limited evaluation for the core app set; a separate trial duration is not confirmed here."
+    "trialDetails": "The supplier publishes a free plan rather than a time-limited evaluation for the core app set; ask whether a separate trial is offered."
   },
   "freePlan": "yes",
   "freeTrial": "unknown",
@@ -74,13 +74,13 @@
       "Purpose-built tools cover planning, presentation, charts and rehearsal"
     ],
     "limitations": [
-      "Paid Pro and Pro Plus prices are not confirmed in this profile",
-      "Gift Aid and wider UK administration requirements are not confirmed"
+      "Ask the supplier about Paid Pro and Pro Plus prices",
+      "Ask the supplier about Gift Aid and wider UK administration requirements"
     ],
     "procurementVerdict": {
       "problem": "Volunteer worship teams seeking free planning and presentation tools",
       "differentiator": "Service planning and scheduling",
-      "firstCheck": "Paid Pro and Pro Plus prices are not confirmed in this profile"
+      "firstCheck": "Ask the supplier about Paid Pro and Pro Plus prices"
     }
   },
   "longForm": {
@@ -118,7 +118,7 @@
       },
       {
         "question": "Does WorshipTools support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. WorshipTools should not be assumed to replace a UK giving, Gift Aid or charity-finance workflow."
+        "answer": "Do not assume WorshipTools replaces a UK giving, Gift Aid or charity-finance workflow. Ask the supplier to demonstrate any relevant capability."
       }
     ]
   },
@@ -130,7 +130,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

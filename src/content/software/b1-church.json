@@ -23,7 +23,7 @@
   ],
   "pricing": {
     "model": "free",
-    "summary": "B1 Church states that every feature is $0 per month, with no tiers, trials, per-member pricing or added transaction fees. Verify the live availability and terms of payment-related services before adopting them.",
+    "summary": "B1 Church states that every feature is $0 per month, with no tiers, trials, per-member pricing or added transaction fees. Check the live availability and ask for the terms of payment-related services before adopting them.",
     "tiers": [
       {
         "label": "B1 Church",
@@ -65,20 +65,20 @@
     "assessment": "B1 Church is unusually ambitious for a free platform, bundling public, member and administration tools. The absence of subscription cost makes a controlled trial attractive, but it also makes due diligence around support, payment processing, data handling and business continuity especially important.",
     "bestFor": [
       "Churches wanting to pilot an all-in-one platform without a software budget",
-      "Teams willing to verify free-service limits and migration options before changing systems"
+      "Teams willing to check free-service limits and migration options before changing systems"
     ],
     "strengths": [
       "Supplier publishes a no-tier, no-per-member free model",
       "Broad app, website, people, forms and workflow coverage"
     ],
     "limitations": [
-      "UK payment, Gift Aid and data-processing fit are not confirmed",
+      "Ask the supplier about UK payment, Gift Aid and data-processing fit",
       "A free model still needs a clear support and exit plan"
     ],
     "procurementVerdict": {
       "problem": "Churches wanting to pilot an all-in-one platform without a software budget",
       "differentiator": "Member app",
-      "firstCheck": "UK payment, Gift Aid and data-processing fit are not confirmed"
+      "firstCheck": "Ask the supplier about UK payment, Gift Aid and data-processing fit"
     }
   },
   "longForm": {
@@ -93,7 +93,7 @@
         "question": "Can it replace enough separate tools safely?",
         "paragraphs": [
           "B1 Church describes a member app, website builder, online giving, child check-in, member records, groups, workflows and multi-campus tools. It also lists a number of third-party integrations.",
-          "Set up a test church and complete the tasks that matter: form approval, volunteer permissions, a website update, a donation record and an export. Do not infer that payment or Gift Aid workflows meet UK needs without direct confirmation."
+          "Set up a test church and complete the tasks that matter: form approval, volunteer permissions, a website update, a donation record and an export. Do not infer that payment or Gift Aid workflows meet UK needs without current supplier documentation for those workflows."
         ]
       }
     ],
@@ -103,7 +103,7 @@
         "The free all-in-one offer makes a realistic evaluation possible.",
         "Payment, support and exit arrangements matter more than headline subscription price."
       ],
-      "caveat": "Supplier feature claims are not independent testing or confirmation of UK suitability."
+      "caveat": "Supplier feature claims are not independent testing or evidence of UK suitability."
     },
     "faq": [
       {
@@ -116,11 +116,18 @@
       },
       {
         "question": "Does B1 Church support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify donation processing, declarations, reporting and reconciliation directly."
+        "answer": "Ask the supplier to demonstrate donation processing, declarations, reporting and reconciliation directly."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/b1-church/b1-church-logo.png",
+      "alt": "B1 Church logo",
+      "source": "https://www.b1.church/b1-church-logo.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

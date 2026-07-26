@@ -1,0 +1,46 @@
+{
+  "name": "Cadence",
+  "slug": "cadence",
+  "shortDescription": "A UK church volunteer-rota product in private beta, designed to balance availability, recent serving history, rest and workload when building team rotas.",
+  "officialWebsite": "https://churchcadence.com/",
+  "company": "Vue Solutions Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["volunteer-scheduling"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["UK churches willing to participate in a closely supported private beta", "Ministry teams wanting rota suggestions that consider rest, availability and prior serving", "Churches using another system for member data but needing a focused rota workflow"],
+  "pricing": {
+    "model": "free",
+    "summary": "Cadence states that its first eight UK private-beta churches receive access at no cost during beta. No post-beta pricing, contract term or renewal arrangement is published in the reviewed material; obtain these in writing before relying on the service.",
+    "tiers": [{"label": "Private beta", "price": "No cost during beta", "detail": "Supplier says its first eight UK beta churches receive founder-led onboarding and no cost during beta."}]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The reviewed public page links to a privacy policy for its waitlist form but does not establish the live product's DPA, hosting location, security controls, sub-processors, retention rules, access permissions, export process or deletion workflow. It says spreadsheet import is available. Do not load a complete member or sensitive pastoral dataset during a private beta without written data-processing and exit arrangements.",
+  "coreFeatures": ["Rota suggestions based on availability and serving history", "Rest and workload balancing", "Unavailability handling", "Assignment reasons", "Gap identification and suggested replacements", "Spreadsheet people import", "Manual assignment changes", "Founder-led beta onboarding"],
+  "integrations": ["Supplier says Cadence can be used alongside ChurchSuite, Planning Center or other systems; no direct integration is established in the reviewed material"],
+  "importExport": ["Supplier says people can be imported from a spreadsheet", "No public export format or account-closure process was found; obtain this before beta use"],
+  "support": ["Supplier describes founder-led onboarding for beta churches", "Contact route is published at support@churchcadence.com"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "Cadence identifies Vue Solutions Ltd in its footer. Companies House lists Vue Solutions Ltd (07772890) as active and registered in Croydon.", "state": "supplier-published", "source": "https://churchcadence.com/", "checked": "2026-07-25"},
+    "church-rota-workflow": {"value": "Supplier describes a church-focused rota product that considers availability, recent serving history, rest, fairness, gaps and replacements.", "state": "supplier-published", "source": "https://churchcadence.com/", "checked": "2026-07-25"},
+    "beta-status": {"value": "Supplier states that Cadence is in private beta for its first eight UK churches, with founder-led onboarding and no cost during beta.", "state": "supplier-published", "source": "https://churchcadence.com/", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Cadence is an early-stage, explicitly UK church-focused rota product with a distinctive aim: reduce uneven volunteer load by making rest, availability and serving history part of rota suggestions. Its public positioning is clear, but it remains a private beta rather than a proven general release. It can be a sensible discovery option for a church happy to co-shape the product, not a low-risk choice for a team that needs established integrations, contract terms or sensitive-data assurances today.",
+    "bestFor": ["UK churches that can trial an early product with a small, non-sensitive team", "Rota coordinators concerned about fairness, fatigue and repeated over-allocation", "Churches willing to retain their existing management system while testing a focused rota layer"],
+    "strengths": ["Explicitly built for UK churches", "Clear focus on rest, fairness and serving history", "Supplier promises founder-led beta onboarding", "No-cost beta access for the initial cohort", "Spreadsheet import is described"],
+    "limitations": ["Private beta, with the supplier initially onboarding only eight UK churches", "No public post-beta price, terms, DPA, hosting, support commitment or exit process", "No direct ChurchSuite or Planning Center integration is established by the reviewed material", "Not presented as a member database, giving, safeguarding, pastoral-care or worship-planning system", "Operator remains active at Companies House, but its latest confirmation statement is recorded as overdue; obtain current contracting details before entering an agreement"],
+    "procurementVerdict": {"problem": "Building fairer volunteer rotas while reducing over-serving and manual rota work", "differentiator": "A church-specific private-beta product that turns rest and serving history into rota-planning inputs", "firstCheck": "Ask for the current beta agreement, DPA, hosting and export details; then run a small non-sensitive ministry rota alongside the current process and compare suggested assignments, gaps, overrides and coordinator time"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Cadence church volunteer rota software", "url": "https://churchcadence.com/", "checked": "2026-07-25", "supports": ["Church scope", "Rota features", "Private-beta status", "No-cost beta", "Operator footer", "Spreadsheet import"]},
+    {"label": "Companies House: Vue Solutions Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/07772890", "checked": "2026-07-25", "supports": ["Active company status", "Company number", "Registered office", "Confirmation-statement status"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Cadence review for UK churches", "description": "Independent Cadence profile: UK church volunteer rotas, private-beta status, pricing and procurement checks."}
+}

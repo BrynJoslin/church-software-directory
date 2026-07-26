@@ -115,7 +115,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/goodbox/goodbox-logo.png",
+      "alt": "GoodBox logo",
+      "source": "https://www.goodbox.com/wp-content/uploads/2018/11/gblogo.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

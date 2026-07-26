@@ -27,8 +27,8 @@ It must:
    may not be needed;
 4. use explicit, topic-relevant criteria rather than a generic feature list;
 5. address the material UK context;
-6. distinguish confirmed facts, supplier claims, directory assessment and
-   unknowns;
+6. distinguish supplier-published facts, independent sources, documented
+   directory testing, directory assessment and questions still to settle;
 7. explain fit, trade-offs, limitations and operating responsibility;
 8. give the reader a reusable tool such as a comparison table, checklist,
    trial script, calculation method, decision record or supplier-question list;
@@ -98,7 +98,7 @@ trust standard:
 - supplier-authored or affiliate content presented as neutral market research;
 - precise prices, market claims or savings without a dated primary source;
 - claims of hands-on testing, interviews or user experience that did not occur;
-- comparison tables that turn an unknown into `No`;
+- comparison tables that turn a missing answer into `No`;
 - product summaries that repeat marketing copy without analysing fit;
 - confident UK, GDPR, Gift Aid or safeguarding claims inferred from general
   availability;
@@ -116,9 +116,9 @@ Set `guideType` in frontmatter and use the relevant module below.
 | Type | Use it for | Additional required coverage |
 | --- | --- | --- |
 | `buyers-guide` | `Best`, shortlist and category-selection guides | Inclusion boundary, decision criteria, comparable option summaries, who each option may suit, who it may not suit and a common trial method |
-| `comparison` | Named product-versus-product guides | Same criteria for every product, material similarities and differences, scenario-based fit, unknowns and no universal winner unless evidence supports one |
+| `comparison` | Named product-versus-product guides | Same criteria for every product, material similarities and differences, scenario-based fit, questions to settle and no universal winner unless evidence supports one |
 | `alternatives` | Alternatives to a named product or approach | Reasons for switching, viable non-switch options, alternatives grouped by trade-off, migration cost and what may be lost |
-| `cost-guide` | Pricing and total-cost explainers | Dated examples, tax/currency/term qualifiers, a reusable cost model, unknown-cost treatment and no invented total |
+| `cost-guide` | Pricing and total-cost explainers | Dated examples, tax/currency/term qualifiers, a reusable cost model, unanswered-cost treatment and no invented total |
 | `explainer` | GDPR, Gift Aid, safeguarding and concept guides | Clear limits, authoritative sources, practical questions or controls, and a statement of when professional or denominational advice is needed |
 | `how-to` | Step-by-step procurement, implementation or migration guidance | Roles, prerequisites, ordered process, reusable working material, decision or completion gate and review point |
 
@@ -188,12 +188,12 @@ must include:
 - why it is in scope;
 - the context it may fit;
 - the material strength or differentiator supported by evidence;
-- a limitation, trade-off or unconfirmed point;
-- the first thing to verify; and
+- a limitation, trade-off or question to settle;
+- the first practical check; and
 - a link to its directory listing where one exists.
 
-Use `Not confirmed` for unknown facts. Do not use a vague `best for` label as a
-substitute for analysis.
+Omit incidental gaps. Turn material gaps into precise supplier questions. Do
+not use a vague `best for` label as a substitute for analysis.
 
 ### 6. Software listings to explore
 
@@ -237,7 +237,7 @@ Use a final `## Sources and research limits` section.
   authoritative material for legal, tax, security and governance context.
 - Use independent reviews or community discussions only for clearly attributed
   experience themes; describe sample and recency limits.
-- State the research date, market-coverage limit, material unknowns and whether
+- State the research date, market-coverage limit, material questions and whether
   hands-on testing occurred.
 - Do not cite search-result pages, AI output or another comparison article as
   proof of a product fact.
@@ -287,7 +287,7 @@ and every section changes what the reader understands or does.
    or duplication.
 3. Define inclusion and comparison criteria before choosing products.
 4. Research official and authoritative sources; record URLs, access dates,
-   supported claims and material unknowns.
+   supported claims and material questions.
 5. Draft the opening answer and decision tool before expanding product sections.
 6. Check every factual claim against its source and keep supplier claims
    attributable.
@@ -319,8 +319,8 @@ The author or reviewer must answer every item before publication.
 - [ ] Product facts use current first-party sources wherever possible.
 - [ ] Regulatory, tax, security and governance statements use authoritative
       sources and are appropriately qualified.
-- [ ] Facts, supplier claims, directory assessment and unknowns are
-      distinguishable.
+- [ ] Supplier-published facts, independent sources, documented testing,
+      directory assessment and questions to settle are distinguishable.
 - [ ] Price statements include date, currency, tax/term/capacity qualifiers
       where relevant.
 - [ ] No hands-on testing, market coverage, interview or user-experience claim
@@ -330,8 +330,8 @@ The author or reviewer must answer every item before publication.
 ### Decision usefulness
 
 - [ ] The same relevant criteria are applied to every compared option.
-- [ ] Each option includes fit, trade-off, limitation or unknown and first
-      verification step.
+- [ ] Each option includes fit, trade-off, limitation or material question and
+      a first practical check.
 - [ ] UK-specific questions are covered where they could change the decision.
 - [ ] The guide includes a usable table, checklist, trial, calculation, question
       pack or decision record.

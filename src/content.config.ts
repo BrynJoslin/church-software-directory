@@ -13,17 +13,11 @@ const pricingModel = z.enum([
   "quote-based",
   "unknown"
 ]);
-const verificationStatus = z.enum([
-  "verified",
-  "partially-verified",
-  "needs-review"
-]);
 const evidenceState = z.enum([
-  "confirmed",
-  "independently-evidenced",
-  "supplier-claim",
-  "not-confirmed",
-  "possibly-outdated"
+  "supplier-published",
+  "independent-source",
+  "directory-tested",
+  "needs-refresh"
 ]);
 const decisionEvidence = z.object({
   value: z.string().min(1),
@@ -179,7 +173,6 @@ const software = defineCollection({
           .min(1)
       })
       .optional(),
-    verificationStatus,
     lastChecked: z.coerce.date(),
     sources: z.array(sourceSchema).min(1),
     externalReviews: z.array(externalReviewSchema).default([]),

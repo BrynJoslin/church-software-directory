@@ -70,7 +70,7 @@
     "Chat, email, phone and Zoom support"
   ],
   "editorial": {
-    "assessment": "Clearstream is a messaging layer, not a replacement for a governed church people database. UK churches should verify UK number availability, message delivery, costs, consent, opt-out and PECR responsibilities before importing contacts.",
+    "assessment": "Clearstream is a messaging layer, not a replacement for a governed church people database. UK churches should ask about UK number availability, message delivery, costs and opt-out handling, then check their own consent and PECR responsibilities before importing contacts.",
     "bestFor": [
       "Churches that need intentional text-message journeys",
       "Teams keeping their system of record elsewhere"
@@ -81,7 +81,7 @@
     ],
     "limitations": [
       "Published pricing is US-oriented",
-      "UK SMS compliance and availability are not confirmed"
+      "Ask the supplier about UK SMS compliance and availability"
     ],
     "procurementVerdict": {
       "problem": "Churches that need intentional text-message journeys",
@@ -128,7 +128,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/clearstream/clearstream-logo.png",
+      "alt": "Clearstream logo",
+      "source": "https://clearstream.io/images/logo-square.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

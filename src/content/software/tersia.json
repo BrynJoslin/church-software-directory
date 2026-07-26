@@ -1,0 +1,44 @@
+{
+  "name": "Tersia",
+  "slug": "tersia",
+  "shortDescription": "A UK Christian-community app for groups, events, prayer, tickets and Stripe-connected fundraising, including parish and young-adult community use cases.",
+  "officialWebsite": "https://tersia.com/",
+  "company": "Tersia Limited (company number 16497836)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": ["church-mobile-apps", "church-communications", "events-ticketing", "online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large"],
+  "suitableContexts": ["Parishes and Christian communities coordinating events and fundraising", "Young-adult, prayer and fellowship groups", "Groups wanting a community-facing mobile app rather than a full church database"],
+  "pricing": {"model": "unknown", "summary": "Tersia says it is free to set up and free for members to join communities and free events. It states that it charges a small platform fee on donations and paid events but does not publish the amount in the reviewed public material. Obtain current fee, VAT, payment, refund and payout terms before use.", "tiers": [{"label": "Community setup and free events", "price": "Free", "detail": "Supplier says communities can be set up free and free events remain free."}, {"label": "Donations and paid events", "price": "Contact supplier", "detail": "Supplier states a platform fee applies but does not publish the amount on the reviewed page."}]},
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Tersia publishes a privacy policy covering its website and app, including account, event and payment information, UK/EEA rights, and access/deletion requests. The policy does not identify the legal entity by company number in the reviewed material, nor establish detailed controller/processor roles, hosting locations, sub-processors, retention schedules or a DPA for church/group use. The published company record shows Tersia Limited was incorporated in June 2025, so early-stage supplier due diligence is especially important.",
+  "coreFeatures": ["Christian community and group profiles", "Events, RSVPs, approvals, tickets and reminders", "Stripe-connected one-off and monthly donations", "Paid and pay-what-you-can events", "Event and community chat", "Prayer requests", "Community discovery and maps", "Calendar sync", "iOS and Android apps"],
+  "integrations": ["Stripe payouts", "Phone calendar sync"],
+  "importExport": ["No current group-data import, export or deletion workflow was established beyond privacy-policy account-data rights", "Obtain written information on migration, export, data access and deletion before using it for enduring community records"],
+  "support": ["Supplier publishes email, telephone and London contact details", "Confirm service hours, incident response and safeguarding escalation process before use"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "Companies House lists Tersia Limited, number 16497836, as an active England-and-Wales company incorporated in June 2025. The product site gives a London contact location.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/16497836", "checked": "2026-07-25"},
+    "church-community-workflow": {"value": "Tersia describes communities including parishes, prayer groups and young-adult groups, combining event coordination, tickets, chat, prayer and fundraising.", "state": "supplier-published", "source": "https://tersia.com/", "checked": "2026-07-25"},
+    "payment-workflow": {"value": "Supplier states that communities connect Stripe for payouts and can receive one-off and monthly donations and paid-event income.", "state": "supplier-published", "source": "https://tersia.com/", "checked": "2026-07-25"},
+    "privacy": {"value": "Tersia publishes a privacy policy for its website and app with UK/EEA rights, account data, event data and payment-information handling.", "state": "supplier-published", "source": "https://tersia.com/legal/privacy", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Tersia is a community and fundraising app for Christian groups, not a conventional church-management database, Gift Aid system, accounting package or safeguarding case-management platform. It may suit a parish, fellowship or young-adult group that wants public discovery, events, prayer and Stripe-connected giving in one member-facing experience. Its recent incorporation and sparse public contractual detail make a limited pilot and written due diligence essential before loading a church’s main records or relying on it for finance administration.",
+    "bestFor": ["Christian communities coordinating events, prayer and basic fundraising", "Parishes or groups seeking a public-facing community and discovery app", "Groups that can operate a limited pilot before adopting it for core workflows"],
+    "strengths": ["Identified active UK company", "Specific Christian community and parish use cases", "Events, tickets, prayer, chat and Stripe-connected giving are documented", "Free setup and free-event use are stated"],
+    "limitations": ["Recently incorporated supplier with limited public operational history", "It is not a full church-management, accounting, Gift Aid or safeguarding system", "The platform-fee amount, refunds, VAT, contract and payout detail are not published in the reviewed material", "DPA, sub-processors, hosting, export, retention and exit information need written supplier evidence"],
+    "procurementVerdict": {"problem": "Helping a Christian community coordinate gatherings and raise money without stitching together many consumer tools", "differentiator": "A UK Christian-community app that connects events, prayer, chat, tickets and Stripe payouts", "firstCheck": "Run a small low-risk event pilot and obtain the current fee, refund, data-processing, retention, export, moderation and safeguarding terms before adopting it for ongoing group operations"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Tersia product overview", "url": "https://tersia.com/", "checked": "2026-07-25", "supports": ["Christian-community scope", "Events", "Prayer", "Fundraising", "Stripe payout workflow", "Pricing summary"]},
+    {"label": "Tersia privacy policy", "url": "https://tersia.com/legal/privacy", "checked": "2026-07-25", "supports": ["Website and app privacy scope", "Account and event data", "UK/EEA rights"]},
+    {"label": "Companies House: Tersia Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/16497836", "checked": "2026-07-25", "supports": ["UK company registration", "Recent incorporation", "Company status"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Tersia review for UK Christian communities", "description": "Independent Tersia profile for UK Christian communities: events, tickets, prayer, fundraising and early-stage procurement checks."}
+}

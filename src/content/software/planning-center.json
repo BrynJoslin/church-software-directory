@@ -58,7 +58,7 @@
   "importExport": [],
   "support": [],
   "editorial": {
-    "assessment": "Planning Center can be explored with free tiers and expanded product by product. UK churches should verify Gift Aid workflows, payment availability, currency, contracts and data-processing details before shortlisting it.",
+    "assessment": "Planning Center can be explored with free tiers and expanded product by product. UK churches should ask about Gift Aid workflows, payment availability, currency, contracts and data-processing details before shortlisting it.",
     "bestFor": [
       "Churches that want a modular product suite",
       "Teams that need volunteer scheduling and service planning"
@@ -68,13 +68,13 @@
       "Every product has a capacity-limited free tier"
     ],
     "limitations": [
-      "No UK-specific Gift Aid support has been confirmed in this review",
+      "The reviewed supplier material does not describe UK-specific Gift Aid support",
       "A multi-product setup requires careful total-cost and workflow assessment"
     ],
     "procurementVerdict": {
       "problem": "Churches that want a modular product suite",
       "differentiator": "People database",
-      "firstCheck": "No UK-specific Gift Aid support has been confirmed in this review"
+      "firstCheck": "Ask Planning Center to demonstrate the required UK Gift Aid workflow"
     }
   },
   "longForm": {
@@ -102,9 +102,9 @@
       },
       {
         "heading": "UK finance and data questions",
-        "question": "Which assumptions still need direct confirmation?",
+        "question": "Which questions should a UK church settle with the supplier?",
         "paragraphs": [
-          "The current profile confirms free-tier information and broad product capability. It does not confirm UK Gift Aid support, payment availability, UK-specific contractual terms or a complete data-processing position.",
+          "The current profile records supplier-published free-tier information and broad product capability. The reviewed material does not describe UK Gift Aid support, payment availability, UK-specific contractual terms or the complete data-processing position.",
           "Planning Center publishes information-security material and user data-export guidance, which are valuable starting points. A UK church should still ask the supplier to demonstrate the exact exporting, permissions, payment and data-protection arrangements it needs."
         ]
       }
@@ -124,7 +124,7 @@
       },
       {
         "question": "Does Planning Center support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify the current UK payment, Gift Aid and finance workflow directly with the supplier before relying on its Giving product."
+        "answer": "Ask the supplier to demonstrate the current UK payment, Gift Aid and finance workflow before relying on its Giving product."
       },
       {
         "question": "Can Planning Center data be exported?",
@@ -140,7 +140,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {
@@ -197,6 +196,6 @@
   "sponsored": false,
   "seo": {
     "title": "Planning Center: UK church software profile",
-    "description": "Independent Planning Center profile covering free tiers, service planning and church management, plus UK-specific questions still to verify."
+    "description": "Independent Planning Center profile covering free tiers, service planning and church management, plus specific questions for UK churches to ask."
   }
 }

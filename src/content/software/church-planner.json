@@ -1,0 +1,68 @@
+{
+  "name": "Church Planner",
+  "slug": "church-planner",
+  "shortDescription": "UK web-based church management software for contacts, groups, communication, events, service planning and volunteer rotas.",
+  "officialWebsite": "https://churchplanner.co.uk/",
+  "company": "Hello Technology Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["church-management", "worship-planning"],
+  "suitableChurchSizes": ["small", "medium"],
+  "suitableContexts": [
+    "Smaller churches seeking contacts, groups, events and rotas in one web-based system",
+    "Church teams that want to plan services and send rota information without a broader enterprise suite"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Church Planner publishes a £19/month Standard package for up to 200 contacts and 5GB of file storage. Larger, bespoke or self-hosted requirements are quoted separately.",
+    "startingPrice": {"amount": 19, "currency": "GBP", "period": "month", "qualifier": "Standard package for up to 200 contacts and 5GB of file storage; supplier terms state it is not registered for VAT"},
+    "tiers": [
+      {"label": "Standard", "price": "£19/month", "detail": "Up to 200 contacts, 5GB storage, unlimited groups and events"},
+      {"label": "Advanced", "price": "Contact supplier", "detail": "For more contacts, more storage, a specific feature or self-hosting"}
+    ],
+    "trialDetails": "30-day free trial with access to the product; no payment card is required according to the supplier pricing page."
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Church Planner publishes UK data-protection terms, a privacy notice and a sub-processor page. Its terms say the customer organisation remains responsible for its own data-protection responsibilities. This is supplier information, not a compliance determination for a church.",
+  "coreFeatures": ["Contact records", "Groups", "Communication", "Calendar and events", "Service planning", "Volunteer rotas", "Contact portal"],
+  "integrations": [],
+  "importExport": ["Supplier terms state that user data can be accessed and backed up through the website"],
+  "support": ["Support contact is published by the supplier"],
+  "decisionEvidence": {
+    "uk-purchasing": {"value": "The supplier publishes GBP pricing and a UK company and service address.", "state": "supplier-published", "source": "https://churchplanner.co.uk/terms/", "checked": "2026-07-25"},
+    "gbp-pricing": {"value": "The Standard package is published at £19/month; terms say the supplier is not registered for VAT.", "state": "supplier-published", "source": "https://churchplanner.co.uk/pricing/", "checked": "2026-07-25"},
+    "data-processing": {"value": "Supplier terms describe customer controller and supplier processor roles; a separate sub-processor page is published.", "state": "supplier-published", "source": "https://churchplanner.co.uk/terms/", "checked": "2026-07-25"},
+    "exports": {"value": "Supplier terms state that user data can be accessed and backed up through the service.", "state": "supplier-published", "source": "https://churchplanner.co.uk/terms/", "checked": "2026-07-25"},
+    "contract": {"value": "Supplier terms describe a monthly automatically renewing subscription and administration-initiated cancellation.", "state": "supplier-published", "source": "https://churchplanner.co.uk/terms/", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Church Planner is a UK-operated church-management option with a deliberately compact published package for smaller churches. The relevant evaluation is whether its contact limit, planning workflow and chosen data model cover the church's actual teams and records, rather than whether it can be compared feature-for-feature with a much larger suite.",
+    "bestFor": ["Smaller churches that need shared contacts, events and rotas", "Teams looking for a published low-contact-count monthly package", "Churches willing to test their Sunday planning and availability process in a 30-day trial"],
+    "strengths": ["Published GBP price and trial terms are straightforward", "The product scope includes contacts, groups, communication, planning and rotas", "Supplier terms and sub-processor information give a starting point for data due diligence"],
+    "limitations": ["The published Standard package is limited to 200 contacts and 5GB of storage", "Advanced needs are quoted rather than publicly priced", "Ask the supplier for hosting location, accessibility information, migration assistance or the precise formats available for export"],
+    "procurementVerdict": {"problem": "Smaller churches that need shared contacts, events and rotas", "differentiator": "A compact published package combines church management with service planning and rotas", "firstCheck": "Test the real contact count, rota workflow and data-export requirements before relying on the Standard package"}
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/church-planner/church-planner-logo.png",
+      "alt": "Church Planner logo",
+      "source": "https://churchplanner.co.uk/assets/images/apple-touch-icon.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Church Planner product overview", "url": "https://churchplanner.co.uk/", "checked": "2026-07-25", "supports": ["Church-management scope", "Contacts", "Groups", "Communication", "Planning", "Rotas"]},
+    {"label": "Church Planner pricing", "url": "https://churchplanner.co.uk/pricing/", "checked": "2026-07-25", "supports": ["Published GBP pricing", "Contact and storage limit", "Free trial", "Advanced package"]},
+    {"label": "Church Planner terms", "url": "https://churchplanner.co.uk/terms/", "checked": "2026-07-25", "supports": ["Supplier legal name", "UK registration", "VAT status", "Data access and backup", "Subscription and cancellation terms", "Data-processing roles"]},
+    {"label": "Church Planner privacy notice", "url": "https://churchplanner.co.uk/privacy/", "checked": "2026-07-25", "supports": ["Supplier privacy information", "UK contact route"]},
+    {"label": "Church Planner sub-processors", "url": "https://churchplanner.co.uk/sub-processors/", "checked": "2026-07-25", "supports": ["Published sub-processor information"]},
+    {"label": "Companies House: Hello Technology Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/15512176", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Church Planner review for UK churches", "description": "Independent Church Planner profile for UK churches: published pricing, contacts, service planning, rotas and data checks."}
+}

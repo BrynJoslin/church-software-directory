@@ -1,0 +1,37 @@
+{
+  "name": "ShepherdCare",
+  "slug": "shepherdcare",
+  "shortDescription": "A UK-developed pastoral-care and church-administration platform for care requests, visits, prayer, events, teams and member communication.",
+  "officialWebsite": "https://www.shepherdcare.co.uk/",
+  "company": "Nathanoak Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "unknown",
+  "categories": ["pastoral-care", "church-management", "volunteer-scheduling"],
+  "suitableChurchSizes": ["small", "medium"],
+  "suitableContexts": ["Churches seeking a focused pastoral-care request and follow-up workflow", "Teams that want pastoral visits, prayer, events and member coordination in one newer product"],
+  "pricing": {"model": "freemium", "summary": "The supplier advertises a free tier for up to 15 members. Ask the supplier for current paid-plan prices.", "tiers": [{"label": "Free tier", "price": "Free", "detail": "Supplier advertises use for up to 15 members"}]},
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The supplier describes the application as multi-tenant and secure. Ask for its privacy terms, data-processing agreement, hosting location, retention and export arrangements.",
+  "coreFeatures": ["Pastoral care requests", "Home, hospital, prayer and counselling-visit tracking", "Pastoral calendar and events", "Prayer requests", "Member and family records", "Visitor follow-up", "Sunday service roster"],
+  "integrations": ["Google Calendar sync"],
+  "importExport": [],
+  "support": [],
+  "decisionEvidence": {"uk-purchasing": {"value": "Nathanoak describes itself as UK-based and identifies ShepherdCare as a live production pastoral-care product.", "state": "supplier-published", "source": "https://www.nathanoak.co.uk/", "checked": "2026-07-25"}, "volunteer-usability": {"value": "Supplier describes ministry teams and a Sunday service roster.", "state": "supplier-published", "source": "https://www.shepherdcare.co.uk/", "checked": "2026-07-25"}},
+  "editorial": {"assessment": "ShepherdCare addresses a useful but sensitive operational gap: coordinating requests, visits and follow-up without relying solely on memory or informal messages. It is a newer product with significant due-diligence gaps, so a church should begin with a low-risk trial and agree what information should never be stored before putting pastoral history into the system.", "bestFor": ["Small church pastoral teams wanting a structured request and visit workflow", "Churches that need basic member, event and rota features alongside pastoral coordination", "Teams prepared to start with a limited, carefully governed pilot"], "strengths": ["Pastoral requests, visits, prayer and follow-up are explicit product functions", "A free tier is advertised for up to 15 members", "Supplier presents it as a live UK-developed product"], "limitations": ["Ask the supplier about Paid pricing, company registration, privacy terms, hosting, processor terms, retention and exports", "Pastoral notes may be highly sensitive; the church must set firm access and recording boundaries", "The product cannot replace safeguarding response, emergency services, professional care or pastoral judgement"], "procurementVerdict": {"problem": "Church pastoral teams needing a structured request and follow-up workflow", "differentiator": "Care requests, visit tracking and prayer coordination are core rather than incidental functions", "firstCheck": "Run a limited pilot with agreed data boundaries and test access, handover, safeguarding escalation and exit arrangements"}},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/shepherdcare/shepherdcare-logo.svg",
+      "alt": "ShepherdCare logo",
+      "source": "https://www.shepherdcare.co.uk/icons/logo.svg",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [{"label": "ShepherdCare product overview", "url": "https://www.shepherdcare.co.uk/", "checked": "2026-07-25", "supports": ["Pastoral-care features", "Member and event features", "Free tier", "Calendar integration", "Sunday rota"]}, {"label": "Nathanoak product portfolio", "url": "https://www.nathanoak.co.uk/", "checked": "2026-07-25", "supports": ["UK-based development company", "Live production status", "Pastoral-care product scope"]}],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "ShepherdCare review for UK churches", "description": "Independent ShepherdCare profile for UK churches: pastoral care requests, visits, prayer, free tier and data-governance checks."}
+}

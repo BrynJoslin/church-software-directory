@@ -236,15 +236,21 @@ Never invent:
 
 Use official supplier sources as the primary evidence where possible. Write independent summaries rather than copying marketing text.
 
-When information is uncertain, use clear wording such as:
+Treat a current official supplier page as sufficient evidence for what the
+supplier publishes. Attribute higher-risk claims where needed; supplier
+material does not by itself establish legal compliance, real-world performance,
+accessibility quality or suitability for a particular church.
 
-- `Not confirmed`
-- `Contact supplier`
-- `Pricing needs verification`
-- `No UK-specific information found`
-- `Last checked: [date]`
+When evidence does not establish an answer:
 
-Absence of evidence does not establish that a feature is unavailable. Use `Not confirmed` rather than `No` unless a reliable source establishes the absence.
+- omit incidental optional details;
+- turn material procurement gaps into precise supplier questions;
+- use `Pricing by quote` when the supplier publishes a quote-based model;
+- retain the exact source and checked date; and
+- use `No` only when a suitable source explicitly establishes absence.
+
+Do not expose internal values such as `unknown` as public copy. Absence of
+evidence does not establish that a feature is unavailable.
 
 ## Research standards
 
@@ -256,7 +262,8 @@ Before publishing a listing:
 4. Record source URLs and the date checked.
 5. Separate supplier claims from directory assessment.
 6. Do not infer legal or regulatory compliance from vague marketing language.
-7. Mark unresolved fields instead of guessing.
+7. Omit incidental unresolved fields and turn material gaps into specific
+   supplier questions instead of guessing.
 8. Do not publish dozens of listings in one unreviewed batch.
 
 ## UK context
@@ -372,7 +379,10 @@ Do not add affiliate or sponsored links unless instructed. Any future commercial
 
 Comparisons must use structured factual data.
 
-Users should be able to compare two to four products. Selection must be encoded in the URL. Unknown data should display as `Not confirmed`, not as a negative answer.
+Users should be able to compare two to four products. Selection must be encoded
+in the URL. Missing information must not display as a negative answer. Omit
+incidental gaps and present material comparison gaps as specific questions to
+settle.
 
 Do not create an overall score unless the methodology is transparent, evidence-based and visible.
 

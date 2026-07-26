@@ -7,21 +7,27 @@ const cards = Array.from(
 export {};
 const resultCount = document.querySelector<HTMLElement>("#result-count");
 const emptyState = document.querySelector<HTMLElement>("[data-empty-state]");
+const categoryValues = new Set(
+  Array.from(
+    document.querySelectorAll<HTMLOptionElement>("#category option[value]")
+  )
+    .map((option) => option.value)
+    .filter(Boolean)
+);
 const allowedValues: Record<string, Set<string>> = {
-  category: new Set(["church-management", "online-giving", "worship-planning"]),
-  "uk-focus": new Set(["strong", "general", "unknown"]),
-  "uk-organisation": new Set(["yes", "unknown"]),
-  "free-plan": new Set(["yes", "no", "unknown"]),
-  "free-trial": new Set(["yes", "no", "unknown"]),
-  "gift-aid": new Set(["yes", "no", "unknown"]),
+  category: categoryValues,
+  "uk-focus": new Set(["strong", "general"]),
+  "uk-organisation": new Set(["yes"]),
+  "free-plan": new Set(["yes", "no"]),
+  "free-trial": new Set(["yes", "no"]),
+  "gift-aid": new Set(["yes", "no"]),
   pricing: new Set([
     "free",
     "freemium",
     "flat-rate",
     "tiered",
     "usage-based",
-    "quote-based",
-    "unknown"
+    "quote-based"
   ]),
   sort: new Set(["name", "last-checked"])
 };

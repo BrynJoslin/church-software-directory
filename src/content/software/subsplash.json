@@ -41,7 +41,7 @@
         "detail": "Tailored package"
       }
     ],
-    "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; duration and eligibility are not confirmed in this profile."
+    "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; ask sales for its current duration and eligibility."
   },
   "freePlan": "yes",
   "freeTrial": "unknown",
@@ -74,7 +74,7 @@
     ],
     "limitations": [
       "Core-suite pricing is quote based",
-      "UK availability, Gift Aid, payment terms and data-processing fit are not confirmed here"
+      "Ask the supplier about UK availability, Gift Aid, payment terms and data-processing fit"
     ],
     "procurementVerdict": {
       "problem": "Churches wanting app, media and website delivery in one commercial platform",
@@ -113,7 +113,7 @@
       },
       {
         "question": "Does Subsplash offer a trial?",
-        "answer": "The supplier’s terms mention free trials for applicable subscriptions, but this profile has not confirmed the duration or eligibility. Ask sales for written terms."
+        "answer": "The supplier’s terms mention free trials for applicable subscriptions. Ask sales for written duration and eligibility terms."
       },
       {
         "question": "How much does Subsplash cost?",
@@ -121,11 +121,18 @@
       },
       {
         "question": "Does Subsplash support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify UK donor records, Gift Aid declarations, reporting and reconciliation before use."
+        "answer": "Ask the supplier to demonstrate UK donor records, Gift Aid declarations, reporting and reconciliation before use."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/subsplash/subsplash-logo.svg",
+      "alt": "Subsplash logo",
+      "source": "https://cdn.prod.website-files.com/627d5cb7a65390b3f8dcbc63/64d1546f0b2e6541c7beed66_Subsplash_Logo_Black%201.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

@@ -50,7 +50,7 @@
         "detail": "5,000 contacts and unlimited time-registration users; billed annually, excluding VAT"
       }
     ],
-    "trialDetails": "A free trial is advertised; the current trial duration is not confirmed in this profile."
+    "trialDetails": "A free trial is advertised; the current trial the current duration should be checked with the supplier."
   },
   "freePlan": "no",
   "freeTrial": "yes",
@@ -89,7 +89,7 @@
     ],
     "limitations": [
       "Prices exclude VAT",
-      "Gift Aid capability and payment-fee details are not confirmed here"
+      "Ask the supplier about Gift Aid capability and payment-fee details"
     ],
     "procurementVerdict": {
       "problem": "Churches that value a connected public website and calendar",
@@ -109,7 +109,7 @@
         "question": "Will integration remove enough double handling to justify a platform change?",
         "paragraphs": [
           "ChurchDesk publishes calendar, people, forms, website, payments and workflow modules. Its product material describes calendar and form content updating connected website components.",
-          "Use the trial to run an ordinary event from website listing through registration, rota, room booking and follow-up. Ask finance staff to verify the payment and donation workflow separately before relying on it for live giving."
+          "Use the trial to run an ordinary event from website listing through registration, rota, room booking and follow-up. Ask finance staff to test the payment and donation workflow separately before relying on it for live giving."
         ]
       }
     ],
@@ -124,7 +124,7 @@
     "faq": [
       {
         "question": "Does ChurchDesk offer a free trial?",
-        "answer": "Yes. ChurchDesk advertises a free trial, but this profile has not confirmed the current trial duration. Confirm the terms before entering live church data."
+        "answer": "Yes. ChurchDesk advertises a free trial; ask for the current duration and terms before entering live church data."
       },
       {
         "question": "How much does ChurchDesk cost?",
@@ -132,7 +132,7 @@
       },
       {
         "question": "Does ChurchDesk support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Ask the supplier to demonstrate the exact UK donation, declaration, reconciliation and Gift Aid workflow needed by the church."
+        "answer": "Ask the supplier to demonstrate the exact UK donation, declaration, reconciliation and Gift Aid workflow needed by the church."
       }
     ]
   },
@@ -144,7 +144,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

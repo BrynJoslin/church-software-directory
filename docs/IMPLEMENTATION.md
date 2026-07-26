@@ -106,7 +106,7 @@ Likely components include:
 - category card
 - guide card
 - badge
-- verification badge
+- evidence provenance label
 - product logo fallback
 - search box
 - filter panel
@@ -187,7 +187,8 @@ Support two to four products. Keep product slugs in the URL.
 The comparison table should:
 
 - use structured fields only
-- distinguish `No` from `Not confirmed`
+- distinguish an evidenced `No` from a missing answer
+- turn missing material fields into specific supplier questions
 - remain readable on mobile
 - provide links to complete listings
 - allow a comparison link to be copied
@@ -318,9 +319,9 @@ the queue CSV has stable maintenance fields.
 
 Priority rules are explicit: invalid category references, duplicate identifiers
 and invalid official URLs are Critical; absent sources, stale or invalid dates
-and missing required fields are High; partial verification, useful missing data
-and metadata are Medium; logos, short summaries and comparison opportunities
-are Low. The optional `check:links` command uses limited-concurrency HEAD
+and missing required fields are High; facts needing a source refresh, useful
+missing data and metadata are Medium; logos, short summaries and comparison
+opportunities are Low. The optional `check:links` command uses limited-concurrency HEAD
 requests and reports blocked automated requests separately from failures.
 
 ## Deployment

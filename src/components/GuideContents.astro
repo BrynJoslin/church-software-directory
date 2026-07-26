@@ -10,29 +10,52 @@ interface Props {
 }
 
 const { headings } = Astro.props;
-const contentsHeadings = headings.filter((heading) => heading.depth >= 2 && heading.depth <= 3);
+const contentsHeadings = headings.filter((heading) => heading.depth === 2);
+const firstHeading = contentsHeadings[0];
+const sectionLabel = `${contentsHeadings.length} ${
+  contentsHeadings.length === 1 ? "section" : "sections"
+}`;
 ---
 
 {
-  contentsHeadings.length > 0 && (
-    <aside class="guide-contents" data-guide-contents>
-      <nav aria-labelledby="guide-contents-heading">
-        <p class="guide-contents__label" id="guide-contents-heading">What's in this guide</p>
+  firstHeading && (
+    <nav
+      class="guide-contents"
+      aria-labelledby="guide-contents-heading"
+      data-guide-contents
+    >
+      <div class="guide-contents__header">
+        <p class="guide-contents__label" id="guide-contents-heading">In this guide</p>
+        <p class="guide-contents__count">{sectionLabel}</p>
+      </div>
+      <button
+        class="guide-contents__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="guide-contents-body"
+        data-guide-contents-toggle
+      >
+        <span>In this guide</span>
+        <span class="guide-contents__toggle-count">{sectionLabel}</span>
+      </button>
+      <div
+        class="guide-contents__body"
+        id="guide-contents-body"
+        data-guide-contents-body
+        data-collapsed="true"
+      >
+        <a class="guide-contents__skip" href={`#${firstHeading.slug}`}>
+          Skip guide contents
+        </a>
         <ol class="guide-contents__list">
-          {contentsHeadings.map((heading, index) => (
-            <li class:list={{ "guide-contents__item--nested": heading.depth === 3 }}>
-              <a
-                href={`#${heading.slug}`}
-                data-guide-contents-link
-                aria-current={index === 0 ? "location" : undefined}
-              >
-                {heading.text}
-              </a>
+          {contentsHeadings.map((heading) => (
+            <li>
+              <a href={`#${heading.slug}`}>{heading.text}</a>
             </li>
           ))}
         </ol>
-      </nav>
-    </aside>
+      </div>
+    </nav>
   )
 }
 
@@ -40,48 +63,15 @@ const contentsHeadings = headings.filter((heading) => heading.depth >= 2 && head
   const contents = document.querySelector<HTMLElement>("[data-guide-contents]");
 
   if (contents) {
-    const links = Array.from(contents.querySelectorAll<HTMLAnchorElement>("[data-guide-contents-link]"));
-    const headings = links
-      .map((link) => {
-        const id = link.getAttribute("href")?.slice(1);
-        const heading = id ? document.getElementById(id) : null;
-        return heading ? { link, heading } : null;
-      })
-      .filter((item): item is { link: HTMLAnchorElement; heading: HTMLElement } => item !== null);
+    const toggle = contents.querySelector<HTMLButtonElement>("[data-guide-contents-toggle]");
+    const body = contents.querySelector<HTMLElement>("[data-guide-contents-body]");
 
-    const setCurrent = (link: HTMLAnchorElement) => {
-      links.forEach((item) => {
-        if (item === link) {
-          item.setAttribute("aria-current", "location");
-        } else {
-          item.removeAttribute("aria-current");
-        }
+    if (toggle && body) {
+      toggle.addEventListener("click", () => {
+        const expanded = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!expanded));
+        body.dataset.collapsed = String(expanded);
       });
-
-      link.scrollIntoView({ block: "nearest", inline: "nearest" });
-    };
-
-    const hashTarget = window.location.hash.slice(1);
-    const linkedHashTarget = headings.find(({ heading }) => heading.id === hashTarget);
-    if (linkedHashTarget) {
-      setCurrent(linkedHashTarget.link);
     }
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
-
-        if (!visible) return;
-
-        const current = headings.find(({ heading }) => heading === visible.target);
-        if (current) setCurrent(current.link);
-      },
-      { rootMargin: "-18% 0px -68% 0px", threshold: 0 }
-    );
-
-    headings.forEach(({ heading }) => observer.observe(heading));
-    links.forEach((link) => link.addEventListener("click", () => setCurrent(link)));
   }
 </script>

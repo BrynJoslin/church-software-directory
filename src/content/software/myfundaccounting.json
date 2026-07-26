@@ -1,0 +1,37 @@
+{
+  "name": "MyFundAccounting.Online",
+  "slug": "myfundaccounting",
+  "shortDescription": "UK online fund-accounting software for churches and charities, with church-focused financial administration and optional additional licences.",
+  "officialWebsite": "https://www.datadevelopments.co.uk/solutions/myfundaccounting",
+  "company": "Data Developments",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "unknown",
+  "categories": ["church-accounting"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Church treasurers and charities needing a church-focused fund-accounting product", "Church of England parishes able to use a diocesan accounting offer or template"],
+  "pricing": {"model": "tiered", "summary": "The supplier product page publishes £15/month including VAT for the first licence, plus £4/month per additional licence. Diocesan arrangements can have different terms and prices, so check the relevant route before budgeting.", "startingPrice": {"amount": 15, "currency": "GBP", "period": "month", "qualifier": "First licence, including VAT; £4/month per additional licence is published"}, "tiers": [{"label": "First licence", "price": "£15/month including VAT", "detail": "Supplier-published monthly purchase option"}, {"label": "Additional licence", "price": "£4/month", "detail": "Supplier-published additional licence price"}], "trialDetails": "The supplier page offers a free trial; ask the supplier for its current duration."},
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The reviewed material includes supplier security statements. Ask for the current data-processing agreement, hosting geography and sub-processor information.",
+  "coreFeatures": ["Church and charity fund accounting", "Financial records and reporting", "Optional additional licences", "Church-focused account configuration"],
+  "integrations": [],
+  "importExport": [],
+  "support": ["Supplier states that technical-support staff monitor its servers 24/7"],
+  "decisionEvidence": {"uk-purchasing": {"value": "Supplier publishes GBP VAT-inclusive pricing and presents the product for UK churches and charities.", "state": "supplier-published", "source": "https://www.datadevelopments.co.uk/solutions/myfundaccounting", "checked": "2026-07-25"}, "gbp-pricing": {"value": "£15/month including VAT for the first licence and £4/month per additional licence are published.", "state": "supplier-published", "source": "https://www.datadevelopments.co.uk/solutions/myfundaccounting", "checked": "2026-07-25"}, "hosting": {"value": "Supplier states that servers are PCI DSS compliant and backed up regularly.", "state": "supplier-published", "source": "https://www.datadevelopments.co.uk/solutions/myfundaccounting", "checked": "2026-07-25"}},
+  "editorial": {"assessment": "MyFundAccounting.Online is a UK church-finance option with a simple published licence price and named diocesan use cases. A treasurer should still compare its reporting, fund structure, bank process, year-end workflow, independent-examination requirements and handover against the church's actual accounts before relying on a product description or diocesan recommendation.", "bestFor": ["Churches seeking a church-focused online fund-accounting product", "Church of England parishes where a diocese offers a supported arrangement", "Treasurers who prefer published per-licence pricing"], "strengths": ["Supplier publishes a GBP VAT-inclusive starting price", "The product is presented specifically for churches and charities", "Church of England diocesan sources document relevant parish use cases"], "limitations": ["Diocesan pricing and support arrangements can differ from the public supplier price", "Ask the supplier for data-processing terms, location, export formats, accessibility information or detailed migration support", "Supplier security statements are not a financial-control, cyber-security or compliance assessment for an individual church"], "procurementVerdict": {"problem": "Church treasurers seeking church-focused online fund accounting", "differentiator": "Published per-licence pricing and church-specific diocesan use cases", "firstCheck": "Test the fund structure, reports, bank reconciliation, year-end and examiner workflow with the actual church accounts"}},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/myfundaccounting/myfundaccounting-logo.png",
+      "alt": "Data Developments app mark",
+      "source": "https://www.datadevelopments.co.uk/favicon/apple-touch-icon.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [{"label": "Data Developments MyFundAccounting.Online", "url": "https://www.datadevelopments.co.uk/solutions/myfundaccounting", "checked": "2026-07-25", "supports": ["Church and charity focus", "Published GBP pricing", "Free trial", "Supplier security statements"]}, {"label": "Church of England national support page", "url": "https://www.churchofengland.org/resources/support-running-your-church-whats-available-nationally", "checked": "2026-07-25", "supports": ["Church treasurer use case", "Church of England discount context"]}, {"label": "Diocese of Salisbury parish-finance information", "url": "https://www.salisbury.anglican.org/supportforparishes/finance/parish-finances/", "checked": "2026-07-25", "supports": ["Diocesan use case", "Church-focused chart-of-accounts context"]}],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "MyFundAccounting review for UK churches", "description": "Independent MyFundAccounting.Online profile: church fund accounting, UK licence pricing, diocesan context and finance checks."}
+}

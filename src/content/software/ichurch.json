@@ -1,0 +1,54 @@
+{
+  "name": "iChurch",
+  "slug": "ichurch",
+  "shortDescription": "A United Reformed Church-supported WordPress website service for churches and faith organisations, combining hosting, church themes, training and optional managed content updates.",
+  "officialWebsite": "https://ichurch.website/",
+  "company": "United Reformed Church Communications Department",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["church-websites", "church-communications", "sermon-hosting"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["United Reformed Church congregations and pastorates", "Other UK churches seeking a supported WordPress website", "Churches that want optional help uploading content rather than managing every update themselves"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Published pricing lists iChurch at £11.99/month, iChurch+ at £16.99/month and a £175 one-off website setup fee; all stated prices exclude VAT. The supplier also lists optional unlimited email at £4.99/month. Confirm current terms, multi-church charges, domain arrangements and any managed-content limits before ordering.",
+    "startingPrice": {"amount": 11.99, "currency": "GBP", "period": "month", "qualifier": "standard iChurch plan, excluding VAT and separate setup fee"},
+    "tiers": [
+      {"label": "iChurch", "price": "£11.99/month", "detail": "Supplier lists WordPress website, secure domain and hosting, theme/security/plugin updates, training and support."},
+      {"label": "iChurch+", "price": "£16.99/month", "detail": "Supplier adds quarterly content uploads, discounted training and performance reviews."},
+      {"label": "Website set-up", "price": "£175 one-off", "detail": "Supplier says additional fees apply to websites for multiple churches."}
+    ]
+  },
+  "freePlan": "no",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The reviewed material establishes that iChurch uses WordPress and describes hosting provision through VTSDesign, but does not establish a current product-specific DPA, hosting location, sub-processor list, backup schedule or controller/processor responsibilities. Obtain those terms before publishing sensitive personal data or accepting detailed enquiries through the site.",
+  "coreFeatures": ["WordPress church website", "Secure domain and hosting", "Theme, security and plugin updates", "Church-focused training videos and tutorials", "Customer support", "Optional managed content uploads", "Performance reviews on iChurch+", "Church website community"],
+  "integrations": ["Supplier states that iChurch uses WordPress", "Supplier describes hosting provision through VTSDesign", "Recommended plugins include contact forms, events calendar, accessibility tools, security and SEO tools"],
+  "importExport": ["The product is based on WordPress; confirm ownership, administrator access, database/media export, domain transfer and handover arrangements in the current agreement"],
+  "support": ["Supplier publishes training videos, help sheets, online training and an iChurch community", "iChurch+ includes supplier-uploaded content on a quarterly basis according to published pricing"],
+  "decisionEvidence": {
+    "operator-and-scope": {"value": "The iChurch site states that it sits within the United Reformed Church Communications Department in London and is open to all denominations.", "state": "supplier-published", "source": "https://ichurch.website/", "checked": "2026-07-25"},
+    "urc-context": {"value": "The United Reformed Church describes iChurch as its service to help churches and community groups build and manage a website.", "state": "independent-source", "source": "https://urc.org.uk/your-church/church-local-and-global/ichurch/", "checked": "2026-07-25"},
+    "pricing": {"value": "Published pricing lists standard, managed-update and setup charges, together with an optional email service, and says all prices exclude VAT.", "state": "supplier-published", "source": "https://ichurch.website/pricing/", "checked": "2026-07-25"},
+    "technical-model": {"value": "Supplier states that iChurch uses WordPress and describes hosting provision through VTSDesign, plus training and support resources.", "state": "supplier-published", "source": "https://ichurch.website/our-story/", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "iChurch is a supported WordPress website service operated within the United Reformed Church’s communications work, rather than a general church-management system. It is especially relevant to URC churches, but the supplier says it is open to other denominations. The clear published price structure and optional content-management service make it a credible option for small teams; prospective churches should still obtain the current agreement and test website ownership, data protection, content export, accessibility and support boundaries.",
+    "bestFor": ["URC churches, pastorates and synods", "Churches wanting a WordPress site with training and routine technical updates", "Small teams that may need optional help uploading content"],
+    "strengths": ["Clearly identified UK denominational operator", "Open to churches across denominations", "Published monthly, setup and optional-email prices", "WordPress foundation with training and support", "Optional supplier-managed content updates"],
+    "limitations": ["Not a church database, online-giving processor, safeguarding system or booking-management suite", "Current DPA, hosting location, sub-processors, backups and data-exit terms are not established in the reviewed material", "iChurch+ content uploads are described as quarterly, so confirm responsiveness for urgent updates", "Confirm domain, admin access, WordPress plugin governance and accessibility responsibilities in the current contract"],
+    "procurementVerdict": {"problem": "Running a maintained church website without relying on a single volunteer for technical upkeep", "differentiator": "A URC-supported, WordPress-based church website service with training, community support and an optional managed-update tier", "firstCheck": "Build a representative services, events, sermons and contact page with the current theme; then obtain the DPA, hosting/backup details, WordPress administrator and export arrangements, and service levels for routine and urgent updates"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "iChurch website", "url": "https://ichurch.website/", "checked": "2026-07-25", "supports": ["URC Communications Department context", "Denominational scope", "Portfolio"]},
+    {"label": "United Reformed Church: iChurch", "url": "https://urc.org.uk/your-church/church-local-and-global/ichurch/", "checked": "2026-07-25", "supports": ["URC service", "Website-management purpose"]},
+    {"label": "iChurch pricing", "url": "https://ichurch.website/pricing/", "checked": "2026-07-25", "supports": ["Plan prices", "Setup fee", "Email option", "VAT note"]},
+    {"label": "iChurch story", "url": "https://ichurch.website/our-story/", "checked": "2026-07-25", "supports": ["WordPress", "Hosting-provider context", "Training and support"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "iChurch website service review for UK churches", "description": "Independent iChurch profile: URC-supported WordPress websites, pricing, managed updates and website-procurement checks."}
+}

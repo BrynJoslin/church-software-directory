@@ -1,0 +1,56 @@
+{
+  "name": "MIDAS Room Booking",
+  "slug": "midas-room-booking",
+  "shortDescription": "A UK-developed room and resource booking system with cloud-hosted and self-hosted options, invoices, availability, bookings and configurable hire rates.",
+  "officialWebsite": "https://mid.as/",
+  "company": "Blue Box Technical Services (trading name shown on MIDAS order material; no company number established in reviewed public material)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "unknown",
+  "categories": ["room-bookings"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches managing halls, rooms, resources and community hire", "Facilities teams needing booking approvals, invoices and hire-rate rules", "Churches choosing between supplier-hosted and self-hosted room-booking software"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "MIDAS publishes price configuration by the number of venues, users, databases, edition and optional add-ons. Cloud-hosted use is available by monthly or annual subscription; self-hosted use is sold as a one-time licence with optional annual support. Obtain a current GBP quote for the chosen configuration, including VAT, payment, migration and support costs.",
+    "tiers": [
+      {"label": "Cloud-hosted", "price": "Monthly or annual subscription", "detail": "Supplier states that the price depends on venues, users, databases and optional add-ons."},
+      {"label": "Self-hosted", "price": "One-time licence plus optional annual support", "detail": "Supplier states that the software can run on the church’s own web-server infrastructure."}
+    ],
+    "trialDetails": "Supplier advertises a 30-day private trial with no credit card required."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "MIDAS publishes a DPA, privacy policy, retention policy and cloud-hosting terms. Its cloud terms identify the church as controller and MIDAS as processor. Current cloud choices include a European data centre and US locations, with UK backups; the supplier also offers self-hosting. Churches should select and document the actual data location, transfers, backup configuration, payment providers and exit process for the edition they buy.",
+  "coreFeatures": ["Room and resource booking", "Availability calendars and booking requests", "Client and booking records", "Invoices", "Configurable hire rates and discounts", "Equipment, consumables and staffing resources", "Cloud-hosted and self-hosted deployment", "Data import and export", "Optional API and SAML SSO", "Payment-processor connections"],
+  "integrations": ["Stripe and PayPal payment processing described in supplier policy", "Cloudflare", "SMTP2GO", "Optional API", "SAML SSO"],
+  "importExport": ["Supplier describes export of booking, client, invoice, resource and user data in Excel, CSV, tab-delimited text and XML", "Supplier describes migration between cloud-hosted and self-hosted editions"],
+  "support": ["Supplier offers a 30-day private trial and direct support material", "Supplier states UK-based support", "Confirm support hours, incident response and any priority-support cost for the selected subscription"],
+  "decisionEvidence": {
+    "uk-development": {"value": "Supplier describes MIDAS as developed and supported in Greater Manchester since 2005, with a UK ICO registration number ZA131245 stated in its legal information.", "state": "supplier-published", "source": "https://mid.as/uk-based-room-booking-system", "checked": "2026-07-25"},
+    "deployment-and-contract": {"value": "Supplier offers cloud-hosted and self-hosted editions; its cloud terms identify the customer as controller and MIDAS as processor.", "state": "supplier-published", "source": "https://mid.as/kb/00023/terms-conditions-cloud-hosted-midas", "checked": "2026-07-25"},
+    "hosting-and-transfers": {"value": "Supplier documents European, US East and US West live-data-centre choices for cloud hosting, plus UK and US backup arrangements.", "state": "supplier-published", "source": "https://mid.as/kb/00079/where-is-data-be-stored-in-cloud-hosted-midas", "checked": "2026-07-25"},
+    "exports-and-retention": {"value": "Supplier documents data exports and a retention policy covering active databases, six-month backups, cancellation and trial-data handling.", "state": "supplier-published", "source": "https://mid.as/kb/00109/data-retention-policy", "checked": "2026-07-25"},
+    "pricing-and-trial": {"value": "Supplier publishes configuration-based pricing and a 30-day no-card trial, with cloud subscriptions and self-hosted licences described separately.", "state": "supplier-published", "source": "https://mid.as/pricing", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "MIDAS is a general UK room and resource-booking product rather than church-specific software, but its booking, client, invoice and hire-rate workflows can suit churches with a hall or multiple spaces. The meaningful choice is deployment: self-hosting may give a church greater control, while cloud hosting creates specific EU, UK and US data-location and backup questions. The product has unusually detailed public retention and export material; a church should still configure and document its own live data location and booking-data policy before use.",
+    "bestFor": ["Church halls and multi-room sites with regular internal or community bookings", "Teams needing bookings, rates, resources and invoices in one workflow", "Churches that require a self-hosted deployment option"],
+    "strengths": ["UK-developed product with a long-running public support base", "Cloud-hosted and self-hosted deployment choices", "Published DPA, retention, export and hosting information", "Detailed room-hire and resource-rate functionality"],
+    "limitations": ["Not a church-specific management or pastoral-care platform", "The reviewed public material does not establish a limited-company number for the trading operator", "Cloud-hosted data can involve EU, UK and US locations, so configuration requires careful due diligence", "Current price depends on configuration rather than a single published church package"],
+    "procurementVerdict": {"problem": "Managing rooms, resources, public hire and booking income without scattered calendars and spreadsheets", "differentiator": "A UK-developed system that allows a choice between supplier-hosted and self-hosted operation with detailed export and retention information", "firstCheck": "Run the 30-day trial using non-sensitive test bookings, then model the selected data-centre and backup arrangement, hire rates, export, renewal and cancellation workflow"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "MIDAS UK development and support", "url": "https://mid.as/uk-based-room-booking-system", "checked": "2026-07-25", "supports": ["UK development", "UK support", "Trial", "Long-running product"]},
+    {"label": "MIDAS pricing", "url": "https://mid.as/pricing", "checked": "2026-07-25", "supports": ["Configuration pricing", "Deployment options", "Trial", "Exports"]},
+    {"label": "MIDAS cloud-hosted terms", "url": "https://mid.as/kb/00023/terms-conditions-cloud-hosted-midas", "checked": "2026-07-25", "supports": ["Controller/processor roles", "Cloud terms", "Renewal"]},
+    {"label": "MIDAS cloud-hosting locations", "url": "https://mid.as/kb/00079/where-is-data-be-stored-in-cloud-hosted-midas", "checked": "2026-07-25", "supports": ["Data locations", "UK and US backups", "Self-hosted option"]},
+    {"label": "MIDAS data-retention policy", "url": "https://mid.as/kb/00109/data-retention-policy", "checked": "2026-07-25", "supports": ["Backups", "Retention", "Deletion", "Exports"]},
+    {"label": "MIDAS legal information", "url": "https://mid.as/legal", "checked": "2026-07-25", "supports": ["ICO registration statement", "DPA and policy availability", "English-law jurisdiction"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "MIDAS Room Booking review for UK churches", "description": "Independent MIDAS profile for UK churches: rooms, invoices, self-hosting, data locations, exports and trial checks."}
+}

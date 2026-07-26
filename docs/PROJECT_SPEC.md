@@ -216,7 +216,9 @@ A comparison must be shareable through the URL:
 /compare/?products=churchsuite,planning-center,breeze
 ```
 
-The comparison should use structured factual fields, not arbitrary marketing claims. Unknown information should be shown as `Not confirmed`.
+The comparison should use structured factual fields, not arbitrary marketing
+claims. It should omit incidental gaps and turn missing material fields into
+specific questions to settle.
 
 ## Software listing pages
 
@@ -239,7 +241,6 @@ Each listing should be able to show:
 - integrations
 - import and export options
 - support information
-- verification status
 - last checked date
 - official sources
 - official website link
@@ -303,7 +304,7 @@ The software schema should be capable of representing fields such as:
 - suitable contexts or traditions
 - pricing model
 - pricing summary
-- starting price and currency where verified
+- starting price and currency where published
 - free plan
 - free trial
 - demo availability
@@ -326,14 +327,14 @@ The software schema should be capable of representing fields such as:
 - onboarding information
 - affiliate relationship
 - sponsorship status
-- verification status
 - last checked
 - official sources
 - optional external review-platform references, clearly marked as product- or
   company-level and separate from the directory assessment
 - SEO title and description
 
-Not every field should be mandatory. Unknown fields must remain unknown rather than being guessed.
+Not every field should be mandatory. Missing fields must not be guessed or
+turned into negative claims. Internal three-state sentinels are not public copy.
 
 ## Trust and methodology
 
@@ -341,7 +342,7 @@ The site must explain:
 
 - which products are included
 - how facts are researched
-- what verification statuses mean
+- how supplier, independent and directory-tested evidence is distinguished
 - how often entries are reviewed
 - how corrections are handled
 - how commercial relationships are disclosed
@@ -349,13 +350,9 @@ The site must explain:
 - that product details can change
 - that churches should verify legal, security, safeguarding, tax and contractual matters directly
 
-Suggested verification states:
-
-- Verified
-- Partially verified
-- Needs review
-
-A product must not be labelled `Verified` merely because its website exists.
+The site should not apply an overall completeness badge to a product. A current
+official supplier source is sufficient to publish what the supplier states;
+source provenance, checked dates and material questions remain visible.
 
 ## Design direction
 

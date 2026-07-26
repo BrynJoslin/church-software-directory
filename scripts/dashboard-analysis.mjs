@@ -11,7 +11,6 @@ export const COMPLETENESS_FIELDS = [
   ["pricing summary", "Required", (item) => item.pricing?.summary],
   ["editorial assessment", "Required", (item) => item.editorial?.assessment],
   ["sources", "Required", (item) => item.sources?.length],
-  ["verification status", "Required", (item) => item.verificationStatus],
   ["last checked", "Required", (item) => item.lastChecked],
   ["SEO title", "Required", (item) => item.seo?.title],
   ["SEO description", "Required", (item) => item.seo?.description],
@@ -63,7 +62,7 @@ export function csvEscape(value) {
 export const priorityFor = (type) => ({
   "invalid-category": "Critical", "duplicate-identifier": "Critical", "invalid-url": "Critical",
   "no-sources": "High", "stale": "High", "invalid-date": "High", "missing-required": "High",
-  "needs-review": "Medium", "partially-verified": "Medium", "missing-optional": "Medium", "missing-seo": "Medium",
+  "missing-optional": "Medium", "missing-seo": "Medium",
   "missing-logo": "Low", "short-summary": "Low", "comparison-opportunity": "Low", "taxonomy": "Medium"
 }[type] ?? "Low");
 

@@ -45,7 +45,7 @@
         "detail": "Partner hosting prices and setup arrangements vary"
       }
     ],
-    "trialDetails": "No standard trial is confirmed in this profile; evaluation arrangements depend on the hosting approach."
+    "trialDetails": "The reviewed supplier material does not describe a standard trial; evaluation arrangements depend on the hosting approach."
   },
   "freePlan": "yes",
   "freeTrial": "unknown",
@@ -75,13 +75,13 @@
       "Pricing approach distinguishes supplier support from hosting cost"
     ],
     "limitations": [
-      "No standard trial is confirmed",
+      "The reviewed supplier material does not describe a standard trial",
       "UK data protection, support, payments and Gift Aid require project-specific assessment"
     ],
     "procurementVerdict": {
       "problem": "Technically resourced churches and multi-site organisations",
       "differentiator": "People and groups",
-      "firstCheck": "No standard trial is confirmed"
+      "firstCheck": "Ask how the chosen hosting route can be evaluated safely"
     }
   },
   "longForm": {
@@ -106,7 +106,7 @@
         "Hosting and implementation capability are decisive.",
         "A project plan is needed before product configuration begins."
       ],
-      "caveat": "This profile does not establish suitability for a particular church or verify any supplier’s UK compliance position."
+      "caveat": "This profile does not establish suitability for a particular church or any supplier’s UK compliance position."
     },
     "faq": [
       {
@@ -119,11 +119,18 @@
       },
       {
         "question": "Does Rock RMS have a free trial?",
-        "answer": "A standard trial is not confirmed in this profile. The right evaluation path depends on whether the church self-hosts or works with a cloud partner."
+        "answer": "Ask the chosen cloud partner about its trial arrangement. The right evaluation path depends on whether the church self-hosts or uses a partner."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/rock-rms/rock-rms-logo.png",
+      "alt": "Rock RMS logo",
+      "source": "https://www.rockrms.com/GetImage.ashx?id=72534&optimizer=image",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

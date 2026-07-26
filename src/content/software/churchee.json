@@ -1,0 +1,51 @@
+{
+  "name": "Churchee",
+  "slug": "churchee",
+  "shortDescription": "A Welsh church-website management system in beta, with managed cloud hosting, configurable templates and connections to church content tools.",
+  "officialWebsite": "https://churchee.com/",
+  "company": "Treefish Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["church-websites", "church-communications", "sermon-hosting"],
+  "suitableChurchSizes": ["small", "medium", "large"],
+  "suitableContexts": ["UK churches seeking a managed website platform while it remains in beta", "Church teams wanting a website that pulls through content from existing tools", "Churches able to accept a 36-month published contract term after checking the beta agreement"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Churchee publishes beta monthly prices of £30, £50 and £100, each described with a 36-month contract, cloud hosting, backups and ongoing support. Obtain the actual beta agreement, annual-payment position, termination rights, implementation scope, add-ons and any post-beta price changes in writing before committing.",
+    "startingPrice": {"amount": 30, "currency": "GBP", "period": "month", "qualifier": "Small plan, published with a 36-month contract"},
+    "tiers": [
+      {"label": "Small", "price": "£30/month", "detail": "Seven page template designs, two integrations, ongoing support, backups and Azure cloud hosting; published with a 36-month contract."},
+      {"label": "Medium", "price": "£50/month", "detail": "Ten page template designs, three integrations, ongoing support, backups and Azure cloud hosting; published with a 36-month contract."},
+      {"label": "Large", "price": "£100/month", "detail": "Fifteen page template designs, four integrations, ongoing support, backups and Azure cloud hosting; published with a 36-month contract."}
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The reviewed public page describes Azure cloud hosting and backups but does not publish a product privacy notice, DPA, hosting region, sub-processor list, retention schedule, access-control model, content-export process or incident arrangements. Confirm these, along with analytics and each integration's data flow, before placing member data, form submissions or pastoral information in the service.",
+  "coreFeatures": ["Church-focused website content management", "Template design options", "Content and design separation", "Media management with responsive image crops", "Managed cloud hosting", "Backups", "Ongoing support", "Two to four integrations depending on plan", "Open-source MIT-licensed codebase according to supplier"],
+  "integrations": ["Supplier says it can pull sermons, events and social posts from tools the church already uses; the available integrations depend on plan and are not enumerated on the reviewed page"],
+  "importExport": ["No public content or data-export format was found; obtain an export demonstration, migration plan, ownership position and exit process before agreeing to a 36-month term"],
+  "support": ["Supplier includes ongoing support in each published plan", "Supplier says backups and cloud hosting are included", "Beta registration-of-interest route is published"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "Churchee identifies Treefish Ltd in its footer. Companies House identifies Treefish Ltd, company 16400717, with a Caerphilly registered office.", "state": "supplier-published", "source": "https://churchee.com/", "checked": "2026-07-25"},
+    "website-workflow": {"value": "Supplier describes a church website system with separate content and design management, media handling, responsive images, integrations and Azure cloud hosting.", "state": "supplier-published", "source": "https://churchee.com/", "checked": "2026-07-25"},
+    "pricing-and-beta": {"value": "Supplier publishes £30, £50 and £100 monthly plans, each with a 36-month contract, and says Churchee is currently in beta.", "state": "supplier-published", "source": "https://churchee.com/", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Churchee is a focused UK church-website product rather than a general design agency service. Its public offer gives a useful early indication of website, media, hosting and integration scope, but it remains in beta and its published 36-month contract makes contract and exit diligence essential. A church should also establish exactly which third-party tools are supported before treating automated sermon, event or social-content publishing as part of the purchase.",
+    "bestFor": ["Churches willing to evaluate a Welsh beta product with managed hosting and a clear published price direction", "Teams that want their website to draw content from existing church tools", "Churches that value a content-editor workflow separated from template and design changes"],
+    "strengths": ["Identified UK company and church-specific product focus", "Published GBP beta prices and included hosting, backups and support", "Content, design and media-management workflow described", "Supplier describes integration-led updates for sermons, events and social posts", "Open-source codebase is stated"],
+    "limitations": ["Currently in beta", "Published plans carry a 36-month contract", "No public service DPA, privacy terms, hosting-region or sub-processor detail found", "Supported integrations and their data flows are not enumerated", "No public content-export, cancellation or migration process found"],
+    "procurementVerdict": {"problem": "Keeping a church website current without re-entering sermons, events and social content in several places", "differentiator": "A UK church-specific website product combining managed hosting with a content-editor workflow and limited plan-based integrations", "firstCheck": "Request the beta agreement, current integration list, DPA, hosting region, backup-and-restoration terms and a complete content export demonstration before committing to the 36-month contract"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Churchee church website management system", "url": "https://churchee.com/", "checked": "2026-07-25", "supports": ["Product scope", "Published beta prices", "Contract term", "Hosting", "Backups", "Support", "Integration claim", "Operator footer"]},
+    {"label": "Companies House: Treefish Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/16400717", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Registered office"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Churchee review for UK churches", "description": "Independent Churchee profile: UK church websites, beta pricing, hosting and procurement checks."}
+}

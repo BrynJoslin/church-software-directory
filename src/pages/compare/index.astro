@@ -21,7 +21,7 @@ const fieldsBySlug = new Map(
   ])
 );
 const fieldsFor = (slug: string, key: DecisionFieldKey) =>
-  fieldsBySlug.get(slug)?.get(key) as DecisionField;
+  fieldsBySlug.get(slug)?.get(key) as DecisionField | undefined;
 ---
 
 <BaseLayout
@@ -35,7 +35,7 @@ const fieldsFor = (slug: string, key: DecisionFieldKey) =>
       <h1>Compare church software</h1>
       <p class="measure">
         Choose two to four products. The comparison separates material differences,
-        shared evidence and questions the recorded sources do not yet answer.
+        shared evidence and practical questions to settle before choosing.
       </p>
 
       <noscript>
@@ -73,7 +73,7 @@ const fieldsFor = (slug: string, key: DecisionFieldKey) =>
       <section class="comparison-questions enhancement" data-comparison-questions hidden aria-labelledby="supplier-questions-heading">
         <div class="section-intro">
           <div>
-            <p class="eyebrow">Unresolved supplier questions</p>
+            <p class="eyebrow">Questions to settle</p>
             <h2 id="supplier-questions-heading">Questions worth taking to a supplier</h2>
           </div>
           <button type="button" class="button button--secondary" data-copy-questions>Copy questions</button>
@@ -99,15 +99,26 @@ const fieldsFor = (slug: string, key: DecisionFieldKey) =>
                 <th scope="row">{definition.label}</th>
                 {software.map((entry) => {
                   const field = fieldsFor(entry.data.slug, definition.key);
+                  const hasEvidence = Boolean(field);
                   return <td
                     data-product-column={entry.data.slug}
-                    data-comparison-value={field.value}
-                    data-evidence-state={field.state}
+                    data-comparison-value={field?.value ?? ""}
+                    data-evidence-state={field?.state ?? "question"}
+                    data-has-evidence={hasEvidence ? "true" : "false"}
                     data-product-name={entry.data.name}
                   >
-                    <span class={`evidence-state evidence-state--${field.state}`}>{evidenceStateLabel(field.state)}</span>
-                    <span>{field.value}</span>
-                    {field.source ? <small>Source: <a href={field.source.url} rel="noopener noreferrer">{field.source.label}</a> · {formatCompactDate(field.source.checked)}</small> : <small>{field.note}</small>}
+                    {field ? (
+                      <>
+                        <span class={`evidence-state evidence-state--${field.state}`}>{evidenceStateLabel(field.state)}</span>
+                        <span>{field.value}</span>
+                        {field.source && <small>Source: <a href={field.source.url} rel="noopener noreferrer">{field.source.label}</a> · {formatCompactDate(field.source.checked)}</small>}
+                      </>
+                    ) : (
+                      <>
+                        <span class="evidence-state evidence-state--question">Question to settle</span>
+                        <small>{definition.question}</small>
+                      </>
+                    )}
                   </td>;
                 })}
               </tr>
@@ -119,7 +130,7 @@ const fieldsFor = (slug: string, key: DecisionFieldKey) =>
           <tbody data-comparison-group="shared" hidden>
           </tbody>
           <tbody data-comparison-group-heading="unresolved" hidden>
-            <tr class="comparison-group-heading"><th colspan="5" scope="rowgroup"><button type="button" data-comparison-toggle="unresolved" aria-expanded="false">Unresolved supplier questions <span data-comparison-group-count="unresolved"></span></button></th></tr>
+            <tr class="comparison-group-heading"><th colspan="5" scope="rowgroup"><button type="button" data-comparison-toggle="unresolved" aria-expanded="false">Questions to settle <span data-comparison-group-count="unresolved"></span></button></th></tr>
           </tbody>
           <tbody data-comparison-group="unresolved" hidden>
           </tbody>

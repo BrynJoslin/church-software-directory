@@ -117,7 +117,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/openlp/openlp-logo.png",
+      "alt": "OpenLP logo",
+      "source": "https://openlp.org/assets/images/logo.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

@@ -104,7 +104,7 @@ badges and selected states.
 
 ### Badges and tags
 
-Use `--accent-soft` sparingly for verified or selected states. Ordinary tags
+Use `--accent-soft` sparingly for sourced or selected states. Ordinary tags
 are outlined pills. Labels must make the state understandable without colour.
 
 ### Tables

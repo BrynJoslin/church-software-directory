@@ -118,7 +118,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/freeworship/freeworship-logo.png",
+      "alt": "FreeWorship logo",
+      "source": "https://freeworship.co.uk/wp-content/uploads/2016/01/freeworshiplogo_small_transparent.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

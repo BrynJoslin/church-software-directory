@@ -1,0 +1,38 @@
+{
+  "name": "Dona Donations",
+  "slug": "dona-donations",
+  "shortDescription": "UK contactless fundraising technology for churches and charities, including fixed donation boxes, portable collection plates, online giving and Gift Aid administration.",
+  "officialWebsite": "https://donadonations.com/",
+  "company": "Regium Consulting Limited",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches needing permanent or portable contactless donation devices", "Churches that want online giving alongside a device and a management portal"],
+  "pricing": {"model": "usage-based", "summary": "Dona publishes hardware prices of £490 for Wi-Fi or £560 for Wi-Fi plus 4G, with a £12.50 plus VAT monthly service fee. It describes hardware as VAT zero-rated for charitable organisations; check the church's own eligibility and ask for the transaction costs that would apply.", "tiers": [{"label": "Wi-Fi donation terminal", "price": "£490", "detail": "Published hardware price"}, {"label": "Wi-Fi + 4G terminal", "price": "£560", "detail": "Published hardware price"}, {"label": "Monthly service", "price": "£12.50 + VAT/month", "detail": "Supplier-published service fee"}]},
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Dona describes its products as GDPR and PCI DSS compliant and publishes materials about privacy. This profile treats those as supplier claims, not a determination that a church's use is compliant.",
+  "coreFeatures": ["Fixed digital donation box", "Portable digital collection plate", "Contactless, mobile-wallet and Chip and PIN donations", "Online donation page", "Gift Aid declaration collection", "Management portal and HMRC-ready reports"],
+  "integrations": [],
+  "importExport": ["Supplier states that HMRC-ready Gift Aid declarations can be downloaded from the management portal"],
+  "support": ["Published UK phone and email support, Monday to Friday 9am–5.30pm"],
+  "decisionEvidence": {"uk-purchasing": {"value": "Dona is a product of Regium Consulting Limited, an active England-registered company, and is presented as UK-based.", "state": "supplier-published", "source": "https://donadonations.com/about-us/", "checked": "2026-07-25"}, "gbp-pricing": {"value": "Supplier publishes hardware prices in GBP and a monthly service fee plus VAT.", "state": "supplier-published", "source": "https://donadonations.com/faq/", "checked": "2026-07-25"}, "gift-aid": {"value": "Supplier describes Gift Aid declarations and downloadable HMRC-ready reports.", "state": "supplier-published", "source": "https://donadonations.com/features/", "checked": "2026-07-25"}, "exports": {"value": "Supplier states that HMRC-ready Gift Aid declarations can be downloaded from its management portal.", "state": "supplier-published", "source": "https://donadonations.com/features/", "checked": "2026-07-25"}, "uk-support": {"value": "Supplier advertises UK phone and email support during published weekday hours.", "state": "supplier-published", "source": "https://donadonations.com/faq/", "checked": "2026-07-25"}},
+  "editorial": {"assessment": "Dona is a contactless-fundraising implementation rather than a church database. It may suit a church that needs a durable donation point or portable collection device, but the device location, network, physical security, transaction fee, Gift Aid declaration journey and finance reconciliation should be tested together.", "bestFor": ["Churches seeking purpose-built contactless donation hardware", "Buildings or events where a permanent or portable donation point matters", "Finance teams that want downloadable Gift Aid declarations from the device workflow"], "strengths": ["Published hardware and monthly service prices", "Contactless, Chip and PIN, mobile wallet, online giving and Gift Aid are within the documented scope", "Supplier is an established UK-registered technology company"], "limitations": ["Ask for the transaction fees, hardware warranty, connectivity requirements and VAT treatment in writing", "Ask the supplier for hosting location, data-processing terms, accessibility information or detailed export coverage", "A contactless device does not remove the need for gift-acceptance, Gift Aid and financial-control processes"], "procurementVerdict": {"problem": "Churches needing purpose-built contactless donation hardware", "differentiator": "Fixed and portable devices combine contactless giving with a Gift Aid and online-giving workflow", "firstCheck": "Model device, service and transaction cost, then run a real donation, declaration, report and reconciliation test"}},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/dona-donations/dona-donations-logo.svg",
+      "alt": "Dona Donations logo",
+      "source": "https://donadonations.com/wp-content/uploads/2020/06/Dona-logo.svg",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [{"label": "Dona product overview", "url": "https://donadonations.com/", "checked": "2026-07-25", "supports": ["Contactless devices", "UK organisation", "Gift Aid", "Online giving"]}, {"label": "Dona features", "url": "https://donadonations.com/features/", "checked": "2026-07-25", "supports": ["Payment methods", "Gift Aid workflow", "Management-portal reports"]}, {"label": "Dona frequently asked questions", "url": "https://donadonations.com/faq/", "checked": "2026-07-25", "supports": ["Hardware prices", "Monthly service fee", "UK support"]}, {"label": "Dona about", "url": "https://donadonations.com/about-us/", "checked": "2026-07-25", "supports": ["Regium Consulting relationship", "Church use case"]}, {"label": "Companies House: Regium Consulting Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/09756497", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Dona Donations review for UK churches", "description": "Independent Dona Donations profile: contactless devices, UK pricing, online giving, Gift Aid reports and finance checks."}
+}

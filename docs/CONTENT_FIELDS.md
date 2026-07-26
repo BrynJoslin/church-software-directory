@@ -7,8 +7,14 @@ how maintainers should use them without turning uncertainty into a claim.
 
 - Use official supplier pages as the primary source.
 - Record a `checked` date and a short `supports` list for every source.
-- A source supports only the named fields; it does not verify the whole product.
-- Use `unknown` when evidence does not establish `yes` or `no`.
+- A source supports only the named fields; it does not establish the quality or
+  suitability of the whole product.
+- Current official supplier material is sufficient evidence for what the
+  supplier publishes.
+- Use `unknown` only as an internal sentinel when evidence does not establish
+  `yes` or `no`; never render it as public copy.
+- Omit incidental gaps and turn material procurement gaps into precise
+  supplier questions.
 - Do not infer UK suitability from worldwide availability.
 - Do not infer legal compliance from a general marketing statement.
 - Structured facts and editorial assessment must remain distinct.
@@ -36,7 +42,7 @@ Software entries are JSON files in `src/content/software/`.
 `ukFocus` is one of:
 
 - `strong`: current supplier evidence is specifically UK-facing.
-- `general`: the product is presented for broader use without verified
+- `general`: the product is presented for broader use without current
   UK-specific evidence in this review.
 - `unknown`: relevance could not be classified safely.
 
@@ -59,7 +65,7 @@ editorial fit labels, not supplier customer-count claims.
 `pricing.model` is `free`, `freemium`, `flat-rate`, `tiered`, `usage-based`,
 `quote-based` or `unknown`.
 
-`pricing.summary` explains the verified structure. `startingPrice` is optional
+`pricing.summary` explains the source-backed structure. `startingPrice` is optional
 and must have a current official pricing source. Use `qualifier` to name contact,
 module, tax or transaction conditions. A displayed starting price is not a
 complete cost estimate.
@@ -74,9 +80,9 @@ published duration or evaluation arrangement beside the three-state trial fact.
 
 `freePlan`, `freeTrial`, `demoAvailable` and `affiliateRelationship` use:
 
-- `yes`: current evidence confirms it.
-- `no`: current evidence explicitly confirms absence.
-- `unknown`: not established.
+- `yes`: current supplier or independent evidence supports it.
+- `no`: current evidence explicitly establishes absence.
+- `unknown`: internal sentinel; omit it from public output.
 
 An empty search result must never turn `unknown` into `no`.
 
@@ -88,8 +94,8 @@ the directory treats omission as not applicable, not as unknown.
 
 `dataHosting`, `gdprInformation`, `coreFeatures`, `integrations`,
 `importExport` and `support` contain only evidence-backed information. Omit an
-optional string or use an empty array when not confirmed; the interface displays
-`Not confirmed`.
+optional string or use an empty array where no supported detail is recorded.
+The interface omits the corresponding row.
 
 ### Decision evidence
 
@@ -103,17 +109,15 @@ and comparisons: `contact-band`, `multi-site`, `administrator-limits`,
 Each populated field has a reader-facing `value`, an evidence `state`, and—when
 known—a direct `source` URL and `checked` date. The permitted states are:
 
-- `confirmed`: a direct, current source establishes the fact.
-- `independently-evidenced`: a reliable non-supplier source establishes it.
-- `supplier-claim`: the supplier publishes the claim; it is not an independent
-  certification or hands-on test.
-- `not-confirmed`: no suitable source currently establishes the fact.
-- `possibly-outdated`: the recorded evidence needs rechecking before use.
+- `supplier-published`: a current official supplier source supports the value.
+- `independent-source`: a reliable non-supplier source supports the value.
+- `directory-tested`: the directory performed and documented the stated test.
+- `needs-refresh`: previously recorded evidence must be rechecked before use.
 
-An omitted field is rendered as `Not confirmed` with that absence made visible.
-Do not turn a missing record into `no`. The public export derives a transparent
-fallback from existing source support labels until a listing has a field-specific
-override.
+Omit a field that has no suitable evidence. Profiles do not render a placeholder.
+Comparisons turn a missing material field into the field's specific supplier
+question. Missing data must never become `no`. The public export includes only
+field-specific or safely derived evidence with a supporting source.
 
 ### Brand assets (optional)
 
@@ -157,19 +161,15 @@ It contains:
   structured data is emitted only for this visible content.
 
 Long-form copy is editorial assessment. Keep supplier statements attributable
-through the listing’s sources, state uncertainty plainly and never imply
-hands-on testing.
+through the listing’s sources, express material gaps as questions and never
+imply hands-on testing.
 
-### Verification and sources
-
-`verificationStatus` is:
-
-- `verified`: important fields in scope are strongly evidenced and reviewed.
-- `partially-verified`: useful facts are evidenced, but material unknowns remain.
-- `needs-review`: evidence is old, incomplete or awaiting editorial review.
+### Sources and review dates
 
 `lastChecked` is the most recent meaningful review date. Every source needs a
-label, URL, checked date and list of fields it supports.
+label, URL, checked date and list of fields it supports. There is no overall
+public completeness badge: provenance and dates are more useful than labelling
+an entire listing.
 
 `sponsored` must remain `false` unless a real relationship is approved and
 disclosed. `seo` holds the unique title and description.
@@ -239,7 +239,7 @@ Guide entries are Markdown files in `src/content/guides/`.
 
 Guides must be useful without requiring a supplier click and should name when a
 simpler process may be enough. Link only to relevant listings, draw claims from
-their structured or evidence-backed content, and identify material unknowns
+their structured or evidence-backed content, and identify material questions
 instead of filling gaps with inference.
 
 Every new guide and every substantially revised guide must meet

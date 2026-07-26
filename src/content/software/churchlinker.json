@@ -9,7 +9,11 @@
   "categories": [
     "church-management",
     "online-giving",
-    "worship-planning"
+    "worship-planning",
+    "volunteer-scheduling",
+    "church-communications",
+    "sermon-hosting",
+    "church-mobile-apps"
   ],
   "suitableChurchSizes": [
     "small",
@@ -23,7 +27,7 @@
   ],
   "pricing": {
     "model": "tiered",
-    "summary": "ChurchLinker publishes GBP contact-band prices, a permanent free plan up to 50 contacts and a 14-day trial for paid plans. Verify the live scope of new-product features and add-ons before relying on them.",
+    "summary": "ChurchLinker publishes GBP contact-band prices, a permanent free plan up to 50 contacts and a 14-day trial for paid plans. Check the live scope of new-product features and add-ons before relying on them.",
     "startingPrice": {
       "amount": 19,
       "currency": "GBP",
@@ -97,7 +101,7 @@
     ],
     "limitations": [
       "Newer product with feature maturity requiring practical validation",
-      "Churches must separately verify Stripe fees, contractual terms and data-processing suitability"
+      "Churches must separately check Stripe fees, contractual terms and data-processing suitability"
     ],
     "procurementVerdict": {
       "problem": "Small and growing UK churches that want GBP pricing and native Gift Aid tools",
@@ -113,7 +117,7 @@
     },
     "sections": [
       {
-        "heading": "UK-first claims need operational confirmation",
+        "heading": "Test the UK-first claims in a real church workflow",
         "question": "Can the product support the church’s real financial and safeguarding controls?",
         "paragraphs": [
           "ChurchLinker says its paid plans include Gift Aid and GASDS reports, that donations route through the church’s own Stripe account, and that it uses UK/EU data centres. It also describes DBS tracking and reminders.",
@@ -144,11 +148,18 @@
       },
       {
         "question": "Does ChurchLinker support Gift Aid?",
-        "answer": "Yes, according to the supplier. It describes built-in Gift Aid and GASDS reports. The church should still verify its own HMRC, declaration and reconciliation workflow."
+        "answer": "Yes, according to the supplier. It describes built-in Gift Aid and GASDS reports. The church should still test its own HMRC, declaration and reconciliation workflow."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchlinker/churchlinker-logo.svg",
+      "alt": "ChurchLinker logo",
+      "source": "https://churchlinker.com/brand/churchlinker-logo.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

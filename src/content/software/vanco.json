@@ -21,7 +21,7 @@
   ],
   "pricing": {
     "model": "tiered",
-    "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; UK availability is not confirmed.",
+    "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; ask whether the service is available to UK churches.",
     "tiers": [
       {
         "label": "Grow",
@@ -73,7 +73,7 @@
     ],
     "limitations": [
       "US pricing, ACH and support context",
-      "UK availability, GBP settlement and Gift Aid are not confirmed"
+      "Ask the supplier about UK availability, GBP settlement and Gift Aid"
     ],
     "procurementVerdict": {
       "problem": "Churches in Vanco’s supported market needing US giving integrations",
@@ -116,11 +116,18 @@
       },
       {
         "question": "Can UK churches use Vanco?",
-        "answer": "Not confirmed in this profile. The published material is US-focused, so confirm availability, GBP settlement and Gift Aid directly before considering it."
+        "answer": "The published material is US-focused, so ask about UK availability, GBP settlement and Gift Aid before considering it."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/vanco/vanco-logo.svg",
+      "alt": "Vanco logo",
+      "source": "https://www.vancopayments.com/hubfs/MJTW-assets/logos/vanco-logo-primary-long.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

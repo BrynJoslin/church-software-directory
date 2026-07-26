@@ -21,16 +21,16 @@ ChurchSuite and Planning Center both cover the core work that leads churches to 
 
 ## Quick answer
 
-| Question | ChurchSuite | Planning Center | What to verify |
+| Question | ChurchSuite | Planning Center | What to ask or test |
 | --- | --- | --- | --- |
 | How does it start? | Address Book is always included; add modules or choose the full Suite package. | People is free; products begin on free tiers and are upgraded separately. | Which modules or products solve your real workflows? |
 | How is subscription cost shaped? | Active contacts and selected modules. Published GBP prices include VAT where applicable. | Each product has its own pricing metric; the supplier’s calculator combines selections. | The complete monthly cost for your people, rooms, check-ins, services and communications. |
 | People records | Address Book is the central contact record. | People is the central database and is free for unlimited users. | Import quality, permissions and usable export. |
 | Rotas and services | Rotas supports teams, availability, swaps, responses and service-linked schedules. | Services is a dedicated service-planning and volunteer product. | Run the same service and cancellation scenario in both. |
-| UK Gift Aid | The Giving module documents UK Gift Aid declarations, Small Donations Scheme handling and HMRC claim production. | Not confirmed in this directory’s current source record. | Whether your intended giving and Gift Aid process is supported end to end. |
+| UK Gift Aid | The Giving module documents UK Gift Aid declarations, Small Donations Scheme handling and HMRC claim production. | Ask Planning Center to demonstrate the required UK workflow. | Whether your intended giving and Gift Aid process is supported end to end. |
 | UK focus | Strong, including GBP pricing and UK direct debit. | General rather than UK-specific in this directory’s current evidence. | Payment methods, currency, VAT, contracts and data-processing terms. |
 
-The table describes published information, not hands-on testing. A blank or “not confirmed” field needs a supplier answer; it is not a negative product claim.
+The table describes published information, not hands-on testing. A question to settle needs a supplier answer; it is not a negative product claim.
 
 ## The real choice: fixed suite boundary or selective assembly
 
@@ -49,7 +49,7 @@ Ask both suppliers to price the same written scenario over a year, including VAT
 
 If a church wants its management system to help administer giving, this comparison becomes materially less symmetrical. ChurchSuite’s Giving documentation states that UK customers can manage Gift Aid declarations, the Gift Aid Small Donation Scheme and HMRC claims. It also documents online donations, contactless donations, statements, pledges and funds. [ChurchSuite Giving](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module).
 
-Planning Center’s giving capability should not be assumed to match that UK workflow. This directory has not confirmed Gift Aid support for Planning Center. That does not mean a church cannot use Planning Center alongside a separate UK giving provider. It means the church must decide whether it is deliberately choosing a specialist giving arrangement and how donor, declaration and finance records will be reconciled.
+Planning Center’s giving capability should not be assumed to match that UK workflow. The supplier material reviewed for this directory does not describe a UK Gift Aid workflow. That does not mean a church cannot use Planning Center alongside a separate UK giving provider. It means the church must decide whether it is deliberately choosing a specialist giving arrangement and how donor, declaration and finance records will be reconciled.
 
 The question is not “does it say donations?” It is:
 
@@ -106,11 +106,11 @@ Make the recommendation in one page. Name the workflows tested, the total-cost a
 The directory profiles below contain the structured evidence used as a starting point for this comparison. They are not a ranking or endorsement: test the exact package, terms and workflow your church would use.
 
 - [ChurchSuite](/software/churchsuite/) is relevant for its UK-oriented suite, published GBP module pricing and documented Gift Aid workflow.
-- [Planning Center](/software/planning-center/) is relevant for its free People database and selectable product model; UK Gift Aid remains unconfirmed in the directory record.
+- [Planning Center](/software/planning-center/) is relevant for its free People database and selectable product model; ask the supplier to demonstrate any required UK Gift Aid workflow.
 
 ## Sources and research limits
 
-Researched 25 July 2026 from official supplier material and ICO guidance. Feature availability, prices, taxes, payment arrangements and terms can change; request confirmation for the exact account and plan before buying. This guide does not report hands-on testing or assign an overall score.
+Researched 25 July 2026 from official supplier material and ICO guidance. Feature availability, prices, taxes, payment arrangements and terms can change; request the exact account and plan details in writing before buying. This guide does not report hands-on testing or assign an overall score.
 
 - [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
 - [ChurchSuite Giving module](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module) (accessed 25 July 2026)

@@ -1,0 +1,44 @@
+{
+  "name": "Bible Companion",
+  "slug": "bible-companion",
+  "shortDescription": "A free Bible-study app from Carelinks, a UK charitable incorporated organisation, with Bible text, commentary, audio, reading plans and a structured study course.",
+  "officialWebsite": "https://carelinks-uk.org/resources.html",
+  "company": "Carelinks (Charity number 1157202)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": ["bible-study"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Individuals seeking a no-cost Bible reading and study app", "Churches or groups for which the New European Version and Carelinks' Christadelphian teaching context are appropriate", "Multilingual users seeking English, Russian, Spanish, French or Farsi study resources"],
+  "pricing": {"model": "free", "summary": "Carelinks presents Bible Companion as a free, ad-free app. No paid plan is published in the reviewed material.", "tiers": [{"label": "Bible Companion", "price": "Free", "detail": "Bible text, audio, commentary, reading plan and Bible Basics study course"}]},
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "no",
+  "gdprInformation": "No current privacy notice specific to Bible Companion was located in the reviewed public sources. Before recommending the app for a church programme, review the live app-store privacy disclosures and any account, tutor-contact or notification data handling.",
+  "coreFeatures": ["New European Version Bible text", "Audio Bible and chapter messages", "Commentary on Bible verses", "Daily reading plan", "Bible Basics study course", "Search", "Basic devotionals", "English, Russian, Spanish, French and Farsi versions"],
+  "integrations": [],
+  "importExport": [],
+  "support": ["Carelinks offers online Bible study with a personal tutor through its website"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "Carelinks is a charitable incorporated organisation registered in England and Wales under charity number 1157202; the Charity Commission lists its Bath address and Carelinks UK as its website.", "state": "independent-source", "source": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5046292/full-print", "checked": "2026-07-25"},
+    "app-scope": {"value": "Carelinks UK publishes direct Android and Apple download links for Bible Companion and describes Bible text, commentary, audio, a reading plan and a study course.", "state": "supplier-published", "source": "https://carelinks-uk.org/resources.html", "checked": "2026-07-25"},
+    "theological-context": {"value": "Carelinks states that its charitable objects advance Christianity in accordance with its statement of faith, and its site presents the New European Version and its own Bible-study materials.", "state": "independent-source", "source": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5046292/full-print", "checked": "2026-07-25"},
+    "privacy": {"value": "A current privacy notice specific to Bible Companion was not found in the reviewed public sources.", "state": "needs-refresh", "source": "https://carelinks-uk.org/resources.html", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Bible Companion is a genuinely free Bible-study app supported by Carelinks, a UK charitable incorporated organisation. It combines Bible text, audio, commentary, reading plans and an online study course, making it a substantial no-cost option for personal use. Its teaching materials and New European Version are produced within Carelinks' own Christian tradition, so churches should assess theological fit before recommending it across a mixed congregation or using its content in formal teaching.",
+    "bestFor": ["Individuals wanting a free, ad-free Bible reading and study app", "Users who value audio, reading plans and multiple language options", "Groups that have assessed the Carelinks teaching context and the New European Version as suitable"],
+    "strengths": ["Named UK charitable operator with an active Charity Commission record", "Free and ad-free access stated by the supplier", "Bible text, audio, commentary, reading plan and study course in one product", "Published Android and Apple download routes"],
+    "limitations": ["The app's theological and translation context may not suit every church or tradition", "No current app-specific privacy notice was found in the reviewed public sources", "It is an individual Bible-study resource, not church-management, safeguarding or worship-presentation software"],
+    "procurementVerdict": {"problem": "Finding a no-cost Bible-study resource with text, audio and structured study material", "differentiator": "A UK charity-backed, ad-free app with commentary, Bible Basics and multilingual versions", "firstCheck": "Review the translation, commentary and Bible Basics material with a leader from your tradition, then check the current app-store privacy disclosure"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Carelinks UK Bible Companion resources", "url": "https://carelinks-uk.org/resources.html", "checked": "2026-07-25", "supports": ["App download links", "Languages", "Bible text, commentary and audio", "Study resources"]},
+    {"label": "Carelinks Ministries", "url": "https://carelinks.org/", "checked": "2026-07-25", "supports": ["App feature description", "Carelinks ministry context", "Free and ad-free statement"]},
+    {"label": "Charity Commission: Carelinks", "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5046292/full-print", "checked": "2026-07-25", "supports": ["UK CIO identity", "Charity number", "Bath address", "Charitable objects"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Bible Companion review for UK churches", "description": "Independent Bible Companion profile: a free Carelinks study app, Bible text, commentary, audio and theological-fit checks."}
+}

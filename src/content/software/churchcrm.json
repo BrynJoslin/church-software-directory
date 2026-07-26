@@ -112,11 +112,18 @@
       },
       {
         "question": "Does ChurchCRM support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify the exact records, reports and HMRC workflow the church needs."
+        "answer": "Ask the supplier to demonstrate the exact records, reports and HMRC workflow the church needs."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchcrm/churchcrm-logo.png",
+      "alt": "ChurchCRM logo",
+      "source": "https://churchcrm.io/media/android-chrome-512x512.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

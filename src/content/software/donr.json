@@ -1,0 +1,62 @@
+{
+  "name": "Donr",
+  "slug": "donr",
+  "shortDescription": "A UK charity fundraising platform focused on text giving, text raffles, Gift Aid information and campaign-based supporter donations.",
+  "officialWebsite": "https://donr.com/",
+  "company": "Donr Limited (company number 10402410)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches or church charities seeking UK text-donation campaigns", "Teams running fundraising appeals or compliant text raffles", "Organisations wanting Gift Aid information captured alongside relevant donations"],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Donr publishes no sign-up or subscription fee. Text Giving and optional text-raffle donations are charged at 5% plus VAT, with an additional 1.5% + 20p plus VAT card-processing charge where a text donation falls back to card. Text Giving and Text Raffle payouts carry a £5 plus VAT processing charge, capped at 50% of a payout below £10.",
+    "tiers": [
+      {"label": "Text Giving", "price": "5% + VAT of each donation", "detail": "Supplier states failed text donations offered a card route also incur 1.5% + 20p + VAT"},
+      {"label": "Text Raffles", "price": "5% + VAT of each optional donation", "detail": "Supplier states raffle entry itself does not incur a charity charge"},
+      {"label": "Text donation / raffle payout", "price": "£5 + VAT per monthly payout", "detail": "Supplier caps the charge at 50% of a gross payout below £10"}
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "dataHosting": "Public sources reviewed do not establish current data-hosting locations or the full subprocessor list. Obtain the current data-processing schedule, international-transfer information, retention periods and data-return process for the proposed service.",
+  "gdprInformation": "Donr's published terms include a UK data-protection schedule and describe Gift Aid, donation and marketing purposes. This is supplier documentation, not a determination that a church's fundraising notices, consent or lawful-basis decisions are sufficient.",
+  "coreFeatures": ["Text Giving campaigns", "One-off and monthly text donations", "Text raffles", "Campaign creation and supporter fundraising", "Gift Aid information collection", "Gift Aid information download", "Donation and payout administration", "Consumer-care telephone route according to supplier terms"],
+  "integrations": ["Stripe for card fallback from failed text donations according to the supplier", "Text-message networks; standard network-rate messages may apply to donors"],
+  "importExport": ["Supplier terms state that customers can download and view Gift Aid information", "Ask for a sample of donation, payer, Gift Aid and finance exports before migrating a campaign"],
+  "support": ["Supplier publishes telephone, email and knowledge-base routes", "Supplier terms describe a consumer-care telephone facility where requested"],
+  "decisionEvidence": {
+    "uk-purchasing": {"value": "Donr Limited is an active England-and-Wales company, number 10402410, and its terms identify it as the operator trading as Donr.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/10402410", "checked": "2026-07-25"},
+    "published-pricing": {"value": "Supplier publishes 5% + VAT text-giving and optional text-raffle donation fees, with a £5 + VAT payout-processing fee and stated card-fallback fee.", "state": "supplier-published", "source": "https://donr.com/pricing", "checked": "2026-07-25"},
+    "gift-aid-workflow": {"value": "Supplier terms state that it provides a facility to download and view Gift Aid information; the pricing page says it collects Gift Aid information for the charity to claim through HMRC.", "state": "supplier-published", "source": "https://donr.com/terms-and-conditions", "checked": "2026-07-25"},
+    "terms": {"value": "Supplier's current terms set out the service, customer responsibilities, fees and UK data-protection schedule.", "state": "supplier-published", "source": "https://donr.com/terms-and-conditions", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Donr is a UK fundraising option for churches whose appeal strategy includes text giving, rather than a general church-management or card-terminal platform. Its fee structure is clear enough to model, but churches should include VAT, the monthly payout charge, text-network charges and any card-fallback cost in their comparison. Donr provides Gift Aid information for the charity to work with; it does not remove the church's responsibility to assess declarations and make a correct claim.",
+    "bestFor": ["Text-to-donate church appeals", "Church charities running fundraising campaigns or text raffles", "Teams that want a published Gift Aid-information download route"],
+    "strengths": ["Active UK company with public terms and an explicit UK data-protection schedule", "Published usage fees without subscription or sign-up charges", "Text giving, text raffles and Gift Aid information are documented"],
+    "limitations": ["Not a church-specific platform or a full giving, people-records and finance system", "Payout timing for text donations is longer than instant card settlement and is described by the supplier as approximately 80 days after month end", "Ask for the data-hosting location, full subprocessor detail and a sample campaign export"],
+    "procurementVerdict": {"problem": "Running a UK text-donation appeal without stitching together text keywords, donation administration and Gift Aid information", "differentiator": "A UK fundraising service focused on text giving and raffles with published percentage and payout charges", "firstCheck": "Model a £10, £100 and low-volume monthly appeal, then test donor messages, Gift Aid declaration capture, finance exports and payout timing"}
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/donr/donr-logo.png",
+      "alt": "Donr logo",
+      "source": "https://donr.com/apple-touch-icon.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Donr pricing", "url": "https://donr.com/pricing", "checked": "2026-07-25", "supports": ["Text-giving fees", "Text-raffle fees", "Payout fee", "Gift Aid information statement", "Payout timing"]},
+    {"label": "Donr terms and conditions", "url": "https://donr.com/terms-and-conditions", "checked": "2026-07-25", "supports": ["Operating entity", "Service terms", "Gift Aid-information download", "Fees", "Data-protection schedule"]},
+    {"label": "Donr fee guidance", "url": "https://knowledge.donr.com/hc/en-gb/articles/19014511397917-What-are-Donr-s-fees", "checked": "2026-07-25", "supports": ["Fee examples", "Card-fallback fee", "Network-rate message context", "Payout-fee cap"]},
+    {"label": "Companies House: Donr Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/10402410", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Donr review for UK churches", "description": "Independent Donr profile for UK church fundraising: text giving, text raffle fees, Gift Aid information and procurement questions."}
+}

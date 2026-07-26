@@ -23,7 +23,7 @@ For a small UK church, start with the smallest dependable system that fixes two 
 
 This guide is for UK churches with a small regular team and limited administrative capacity; it does not define “small” solely by attendance or contact count. It considers people records, rotas, events and giving administration, not accounting, specialist safeguarding case management or a full website project. The examples are a representative directory shortlist, selected because current first-party material identifies a relevant free or lower-entry route. They are not a market-wide review, ranking or hands-on test.
 
-The decisive criteria are the recurring problem, the people available to maintain the service, role permissions, UK billing and giving requirements, usable exports, and the whole cost over time. A missing fact is a question to verify, not evidence that a feature is absent.
+The decisive criteria are the recurring problem, the people available to maintain the service, role permissions, UK billing and giving requirements, usable exports, and the whole cost over time. A missing material fact becomes a specific question; it is not evidence that a feature is absent.
 
 ## Start with the work, not church size
 
@@ -85,7 +85,7 @@ The best system for a small church is the smallest dependable system that solves
 
 These profiles are relevant starting points, not endorsements. They remain subject to the trial and evidence checks above.
 
-- [ChurchSuite](/software/churchsuite/) for a modular, UK-oriented connected system; verify the modules that solve the documented problem.
+- [ChurchSuite](/software/churchsuite/) for a modular, UK-oriented connected system; check which modules solve the documented problem.
 - [iKnow Church](/software/iknow-church/) for a UK people, giving and Gift Aid context; check the real member band and finance charges.
 - [ChMeetings](/software/chmeetings/) and [ChurchLinker](/software/churchlinker/) for lower-entry plans; confirm data, billing, support and capacity.
 - [ChurchCRM](/software/churchcrm/) where the church can deliberately accept technical operating responsibility.

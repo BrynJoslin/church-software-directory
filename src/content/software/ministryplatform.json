@@ -115,7 +115,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/ministryplatform/ministryplatform-logo.png",
+      "alt": "MinistryPlatform logo",
+      "source": "https://cdn-jehol.nitrocdn.com/XBwbYFbRYVMjkUYSoaVcGgRdcPyjhKvO/assets/images/optimized/rev-544d524/www.acstechnologies.com/ministryplatform/wp-content/uploads/sites/13/2022/04/MinistryPlatform_logo-1.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

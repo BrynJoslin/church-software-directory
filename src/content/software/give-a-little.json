@@ -104,7 +104,7 @@
     "faq": [
       {
         "question": "What does Give A Little charge?",
-        "answer": "Its FAQ states a 1.58% UK web and app transaction fee for a new Give A Little Stripe account. Hardware and other arrangements should be confirmed directly."
+        "answer": "Its FAQ states a 1.58% UK web and app transaction fee for a new Give A Little Stripe account. Ask for the hardware and other costs that would apply to the church."
       },
       {
         "question": "Can Give A Little take contactless gifts?",
@@ -116,7 +116,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/give-a-little/give-a-little-logo.png",
+      "alt": "Give A Little logo",
+      "source": "https://givealittle.co/_app/immutable/assets/logo.CRcuSnc8.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

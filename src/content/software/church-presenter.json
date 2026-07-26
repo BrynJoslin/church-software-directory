@@ -52,7 +52,7 @@
     "GitHub discussions and issue tracker"
   ],
   "editorial": {
-    "assessment": "Church Presenter is a recently published free open-source option with an unusually broad stated feature set. Its appeal is clear for budget-limited teams, but churches should verify platform support, training, project maturity and real-service reliability before moving away from an established presenter.",
+    "assessment": "Church Presenter is a recently published free open-source option with an unusually broad stated feature set. Its appeal is clear for budget-limited teams, but churches should check platform support and training, assess project maturity and test real-service reliability before moving away from an established presenter.",
     "bestFor": [
       "Churches that want free offline-capable worship presentation",
       "Teams able to evaluate a newer open-source project in rehearsals"
@@ -63,7 +63,7 @@
     ],
     "limitations": [
       "Newer project needing local reliability validation",
-      "Commercial support, UK licensing workflow and long-term maintenance commitments are not confirmed"
+      "Ask the supplier about Commercial support, UK licensing workflow and long-term maintenance commitments"
     ],
     "procurementVerdict": {
       "problem": "Churches that want free offline-capable worship presentation",
@@ -110,11 +110,18 @@
       },
       {
         "question": "Does Church Presenter include music licences?",
-        "answer": "Not confirmed. Churches remain responsible for CCLI and other content or streaming licences."
+        "answer": "Churches remain responsible for CCLI and other content or streaming licences."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/church-presenter/church-presenter-logo.png",
+      "alt": "Church Presenter logo",
+      "source": "https://www.churchpresenter.org/app.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

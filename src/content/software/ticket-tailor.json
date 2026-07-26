@@ -84,7 +84,7 @@
     ],
     "limitations": [
       "Payment-provider fees are additional",
-      "Gift Aid workflows and charity-discount eligibility must be confirmed"
+      "Ask how Gift Aid would be handled and whether the church qualifies for the charity discount"
     ],
     "procurementVerdict": {
       "problem": "Churches selling tickets or taking registrations for events and courses",
@@ -127,11 +127,18 @@
       },
       {
         "question": "Does Ticket Tailor handle Gift Aid?",
-        "answer": "Gift Aid support was not confirmed in this profile. Ask the supplier and obtain appropriate charity-finance advice before designing a Gift Aid process around ticket sales."
+        "answer": "Ask the supplier to describe any Gift Aid support and obtain appropriate charity-finance advice before designing a Gift Aid process around ticket sales."
       }
     ]
   },
-  "verificationStatus": "verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/ticket-tailor/ticket-tailor-logo.png",
+      "alt": "Ticket Tailor logo",
+      "source": "https://www.tickettailor.com/favicon.ico",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

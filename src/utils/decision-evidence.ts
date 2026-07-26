@@ -1,5 +1,5 @@
 import type { CollectionEntry } from "astro:content";
-import { formatCompactDate, triStateLabel } from "./content";
+import { formatCompactDate, triStateLabel } from "./content.ts";
 
 export const decisionFieldDefinitions = [
   { key: "contact-band", label: "Contact or pricing band", question: "Which contact, attendance or pricing band applies to us, and how would it change as we grow?", hints: ["contact", "package limit"] },
@@ -25,7 +25,11 @@ export const decisionFieldDefinitions = [
 ] as const;
 
 export type DecisionFieldKey = (typeof decisionFieldDefinitions)[number]["key"];
-export type EvidenceState = "confirmed" | "independently-evidenced" | "supplier-claim" | "not-confirmed" | "possibly-outdated";
+export type EvidenceState =
+  | "supplier-published"
+  | "independent-source"
+  | "directory-tested"
+  | "needs-refresh";
 export type DecisionField = {
   key: DecisionFieldKey;
   label: string;
@@ -39,11 +43,10 @@ export type DecisionField = {
 type SoftwareEntry = CollectionEntry<"software">;
 
 export const evidenceStateLabel = (state: EvidenceState) => ({
-  confirmed: "Confirmed",
-  "independently-evidenced": "Independently evidenced",
-  "supplier-claim": "Supplier claim",
-  "not-confirmed": "Not confirmed",
-  "possibly-outdated": "Possibly outdated"
+  "supplier-published": "Supplier source",
+  "independent-source": "Independent source",
+  "directory-tested": "Directory tested",
+  "needs-refresh": "Recheck source"
 })[state];
 
 const findSource = (entry: SoftwareEntry, hints: readonly string[]) =>
@@ -55,25 +58,25 @@ const findSource = (entry: SoftwareEntry, hints: readonly string[]) =>
 const isPossiblyOutdated = (date: Date) =>
   Date.now() - date.getTime() > 180 * 24 * 60 * 60 * 1000;
 
-const inferredValue = (entry: SoftwareEntry, key: DecisionFieldKey) => {
+const inferredValue = (entry: SoftwareEntry, key: DecisionFieldKey): string | null => {
   const { data } = entry;
   if (key === "gbp-pricing") {
     if (data.pricing.startingPrice?.currency === "GBP") return "Published GBP starting price";
     if (data.pricing.startingPrice) return `Published ${data.pricing.startingPrice.currency} starting price`;
-    return "Pricing needs verification";
+    return null;
   }
-  if (key === "gift-aid") return data.giftAid ? triStateLabel(data.giftAid) : "Not applicable to this product profile";
-  if (key === "hosting") return data.dataHosting ?? "Not confirmed";
-  if (key === "exports") return data.importExport.length ? data.importExport.join("; ") : "Not confirmed";
-  if (key === "uk-support") return data.support.length ? data.support.join("; ") : "Not confirmed";
-  return "Not confirmed";
+  if (key === "gift-aid") return data.giftAid ? triStateLabel(data.giftAid) : null;
+  if (key === "hosting") return data.dataHosting ?? null;
+  if (key === "exports") return data.importExport.length ? data.importExport.join("; ") : null;
+  if (key === "uk-support") return data.support.length ? data.support.join("; ") : null;
+  return null;
 };
 
 export const decisionFieldsFor = (entry: SoftwareEntry): DecisionField[] =>
-  decisionFieldDefinitions.map((definition) => {
+  decisionFieldDefinitions.flatMap((definition) => {
     const override = entry.data.decisionEvidence[definition.key];
     if (override) {
-      return {
+      return [{
         key: definition.key,
         label: definition.label,
         value: override.value,
@@ -83,16 +86,15 @@ export const decisionFieldsFor = (entry: SoftwareEntry): DecisionField[] =>
           : undefined,
         note: override.note,
         question: definition.question
-      };
+      }];
     }
     const source = findSource(entry, definition.hints);
     const value = inferredValue(entry, definition.key);
-    const state: EvidenceState = value === "Not confirmed" || value === "Pricing needs verification"
-      ? "not-confirmed"
-      : source
-        ? (isPossiblyOutdated(source.checked) ? "possibly-outdated" : "supplier-claim")
-        : "not-confirmed";
-    return {
+    if (!source || !value) return [];
+    const state: EvidenceState = isPossiblyOutdated(source.checked)
+      ? "needs-refresh"
+      : "supplier-published";
+    return [{
       key: definition.key,
       label: definition.label,
       value,
@@ -100,9 +102,9 @@ export const decisionFieldsFor = (entry: SoftwareEntry): DecisionField[] =>
       source: source ? { label: source.label, url: source.url, checked: source.checked } : undefined,
       note: source
         ? `Checked ${formatCompactDate(source.checked)}`
-        : `No supporting source is recorded for this field. Listing checked ${formatCompactDate(entry.data.lastChecked)}.`,
+        : undefined,
       question: definition.question
-    };
+    }];
   });
 
 export const evidenceSummaryFor = (entry: SoftwareEntry) => {
@@ -110,6 +112,11 @@ export const evidenceSummaryFor = (entry: SoftwareEntry) => {
   const counts = fields.reduce<Record<EvidenceState, number>>((result, field) => {
     result[field.state] += 1;
     return result;
-  }, { confirmed: 0, "independently-evidenced": 0, "supplier-claim": 0, "not-confirmed": 0, "possibly-outdated": 0 });
+  }, {
+    "supplier-published": 0,
+    "independent-source": 0,
+    "directory-tested": 0,
+    "needs-refresh": 0
+  });
   return { fields, counts };
 };

@@ -80,7 +80,7 @@
     ],
     "limitations": [
       "US-focused tax and reporting context",
-      "UK charity, VAT and Gift Aid fit is not confirmed"
+      "Ask the supplier to demonstrate the required UK charity, VAT and Gift Aid workflows"
     ],
     "procurementVerdict": {
       "problem": "Treasurers needing fund accounting and board reporting",
@@ -100,7 +100,7 @@
         "question": "Can the church recreate its actual financial controls?",
         "paragraphs": [
           "Aplos publishes fund accounting, bank reconciliation, reporting and paid tiers that add budgeting, payables and receivables.",
-          "Use the trial with a copy of a recent month: funds, bank reconciliation, reports and exports. Do not use a trial to infer UK tax or Gift Aid treatment without direct confirmation."
+          "Use the trial with a copy of a recent month: funds, bank reconciliation, reports and exports. Do not infer UK tax or Gift Aid treatment without written supplier terms and appropriate professional advice."
         ]
       }
     ],
@@ -123,11 +123,10 @@
       },
       {
         "question": "Is Aplos suitable for UK church accounting?",
-        "answer": "Not confirmed. Verify VAT, Gift Aid, UK reporting, banking and accountant requirements before adoption."
+        "answer": "Ask the supplier to demonstrate VAT, Gift Aid, UK reporting, banking and accountant requirements before adoption."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

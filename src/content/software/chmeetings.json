@@ -43,7 +43,7 @@
       {
         "label": "Unlimited",
         "price": "See supplier",
-        "detail": "An Unlimited plan is published; current price should be verified directly"
+        "detail": "An Unlimited plan is published; ask the supplier for its current price"
       }
     ],
     "trialDetails": "30 days, no credit card required; the supplier describes demo-data and blank-database options with some trial limitations."
@@ -78,7 +78,7 @@
     "Published email, online-chat and telephone support routes"
   ],
   "editorial": {
-    "assessment": "ChMeetings offers a low-risk evaluation route through a free plan and 30-day trial. A UK church should not translate that affordability into an assumption about UK payment, Gift Aid, data-protection or SMS costs; those must be confirmed against its own workflow.",
+    "assessment": "ChMeetings offers a low-risk evaluation route through a free plan and 30-day trial. A UK church should not translate that affordability into an assumption about UK payment, Gift Aid, data-protection or SMS costs; ask the supplier how each would work for the church's own workflow.",
     "bestFor": [
       "Small churches wanting a free starting point",
       "Teams that want to test a full platform before deciding on paid capacity"
@@ -89,7 +89,7 @@
     ],
     "limitations": [
       "Published starting prices are in US dollars",
-      "Gift Aid and UK-specific finance arrangements are not confirmed here"
+      "Ask the supplier about Gift Aid and UK-specific finance arrangements"
     ],
     "procurementVerdict": {
       "problem": "Small churches wanting a free starting point",
@@ -132,7 +132,7 @@
       },
       {
         "question": "Does ChMeetings support UK Gift Aid?",
-        "answer": "Not confirmed in this profile. Verify UK payment methods, Gift Aid processes, finance exports and processing costs directly before adoption."
+        "answer": "Ask the supplier to demonstrate UK payment methods, Gift Aid processes, finance exports and processing costs directly before adoption."
       }
     ]
   },
@@ -144,7 +144,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

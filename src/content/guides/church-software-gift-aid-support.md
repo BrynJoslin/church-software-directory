@@ -22,7 +22,7 @@ This guide is for UK churches and charities assessing a church-management or giv
 
 ## Scope and method
 
-The examples are a representative directory shortlist, not a complete market review or a ranking. Inclusion means that the product has published Gift Aid-related material or a relevant giving workflow in the directory’s current evidence. No product was hands-on tested and no conclusion is drawn from a supplier’s silence. “Not confirmed” means ask a specific question.
+The examples are a representative directory shortlist, not a complete market review or a ranking. Inclusion means that the product has published Gift Aid-related material or a relevant giving workflow in the directory’s current evidence. No product was hands-on tested and no conclusion is drawn from a supplier’s silence. Important gaps are written as specific supplier questions.
 
 Gift Aid is tax relief on qualifying donations, not a feature a platform can guarantee for every gift. The church needs to determine eligibility and keep evidence. HMRC says a charity must retain a clear auditable link between a donation and the donor’s declaration. A declaration can cover one or multiple donations, but it does not turn an ineligible payment into a qualifying one.
 
@@ -50,16 +50,16 @@ HMRC says declarations and donations must be backed by adequate records. It also
 
 ## Options and evidence to explore
 
-| Product | Why it is in scope | Material evidence and trade-off | First verification |
+| Product | Why it is in scope | Material evidence and trade-off | First question to settle |
 | --- | --- | --- | --- |
 | [ChurchSuite](/software/churchsuite/) | A connected people and giving platform with UK Giving documentation. | The supplier documents declarations, the Gift Aid Small Donations Scheme and claim submission. Confirm the required module, payment charges and finance workflow. | Run a fictional donation through declaration, claim/report and export. |
-| [iKnow Church](/software/iknow-church/) | UK church-management system with Gift Aid documentation. | The supplier describes Gift Aid and separate finance charges. Claim/correction handling needs confirmation for the church’s workflow. | Ask for a current fee and claim-process explanation. |
-| [KindLink](/software/kindlink/) | UK giving service with published plan distinctions. | Its pricing distinguishes Gift Aid records from automated submission. Verify who submits, who holds the evidence and payment/data terms. | Compare the free and paid plan outputs. |
+| [iKnow Church](/software/iknow-church/) | UK church-management system with Gift Aid documentation. | The supplier describes Gift Aid and separate finance charges, but the reviewed material does not explain claim corrections for this church’s workflow. | Ask for a current fee and claim-process explanation. |
+| [KindLink](/software/kindlink/) | UK giving service with published plan distinctions. | Its pricing distinguishes Gift Aid records from automated submission. Ask who submits, who holds the evidence and which payment and data terms apply. | Compare the free and paid plan outputs. |
 | [Stewardship](/software/stewardship/) | UK Partner Account and Gift Aid service. | Published examples describe deductions from gifts and applicable Gift Aid; this is not a total-cost quote. | Reconcile a sample settlement to the charity accounts. |
 | [Give A Little](/software/give-a-little/) | UK contactless and online giving context. | Supplier material describes Gift Aid; declaration and claim steps depend on the arrangement. | Confirm the exact path for contactless and online gifts. |
 | [Parish Giving Scheme](/software/parish-giving-scheme/) | Regular Direct Debit and Gift Aid workflow for participating Church of England dioceses. | Eligibility and local reconciliation are material limitations. | Check diocesan participation and local finance process. |
 
-The table is not an endorsement. Broad platforms such as Planning Center, ChurchDesk and ChMeetings are not described here as Gift Aid options because that support is not confirmed in the current directory records.
+The table is not an endorsement. Broad platforms such as Planning Center, ChurchDesk and ChMeetings are not described here as Gift Aid options because the current directory records do not cite a supplier-published Gift Aid workflow for them.
 
 ## Trial the exceptions, not only the happy path
 
@@ -73,7 +73,7 @@ Use fictional or minimised data; do not upload a live donor database just to tes
 6. Match the settlement, fees, Gift Aid and bank statement using a restricted finance role.
 7. Export the relevant records and check that the church can understand them independently.
 
-Record whether the task was confirmed in a trial, a supplier claim or remains unconfirmed. The treasurer should be able to explain the output to trustees without relying on a private spreadsheet.
+Record whether the task was observed in a trial, published by the supplier or remains a question to settle. The treasurer should be able to explain the output to trustees without relying on a private spreadsheet.
 
 ## Ownership, data and financial controls
 
@@ -87,7 +87,7 @@ Before subscribing, check the cancellation and export position. The church shoul
 
 These relevant profiles provide structured source notes and may help form a shortlist. They are not a ranking or endorsement, and the guide remains useful without clicking them.
 
-- [ChurchSuite](/software/churchsuite/) for a connected people, giving and claims workflow; verify plan, fees and controls.
+- [ChurchSuite](/software/churchsuite/) for a connected people, giving and claims workflow; check the plan, fees and controls.
 - [iKnow Church](/software/iknow-church/) for a UK church-management and Gift Aid context; confirm charges and operational process.
 - [KindLink](/software/kindlink/) for published Gift Aid record and automation distinctions.
 - [Stewardship](/software/stewardship/) for its UK giving and Partner Account model; reconcile the fee treatment for your mix of gifts.

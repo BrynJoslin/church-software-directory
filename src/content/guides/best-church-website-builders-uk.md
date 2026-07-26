@@ -43,7 +43,7 @@ If a website collects contact details or gives access to member content, treat f
 
 ## Evaluate the operational trade-offs
 
-| Route | Context it may fit | First limitation to verify |
+| Route | Context it may fit | First question to settle |
 | --- | --- | --- |
 | Church Edit | A focused UK church website with editors who need an approachable hosted builder. | Normal renewal, VAT, domain control and whether the real content tasks are easy. |
 | ChurchDesk | A church that wants website, calendar and administration to connect. | Migration, editor permissions and whether integration removes rather than creates duplicate work. |
@@ -68,7 +68,7 @@ Also check what is not provided: photography, copywriting, email service, paymen
 
 These profiles are relevant starting points, not recommendations.
 
-- [Church Edit](/software/church-edit/) for a dedicated UK church website route; verify term, domain and editor workflow.
+- [Church Edit](/software/church-edit/) for a dedicated UK church website route; check the term, domain and editor workflow.
 - [ChurchDesk](/software/churchdesk/) where connected calendar and administration matter; test publishing and migration.
 - [Tithely](/software/tithely/) and [Subsplash](/software/subsplash/) for wider bundles; check UK commercial and data arrangements.
 - [B1 Church](/software/b1-church/) for a free model; complete continuity and support due diligence.

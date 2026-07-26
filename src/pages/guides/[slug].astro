@@ -45,7 +45,6 @@ const articleJsonLd = {
 >
   <section class="section">
     <div class="container page-grid guide-layout">
-      <GuideContents headings={headings} />
       <article class="prose">
         <p class="eyebrow">Practical guide</p>
         <h1>{entry.data.title}</h1>
@@ -58,6 +57,7 @@ const articleJsonLd = {
             {formatDate(entry.data.updated)}
           </time>
         </p>
+        <GuideContents headings={headings} />
         <Content />
       </article>
       <aside class="aside-card guide-related">
@@ -74,7 +74,7 @@ const articleJsonLd = {
           }
         </ul>
         <p>
-          Product and regulatory details can change. Verify material decisions
+          Product and regulatory details can change. Check material decisions
           with suppliers and qualified advisers.
         </p>
       </aside>

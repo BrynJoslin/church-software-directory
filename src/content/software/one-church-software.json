@@ -84,7 +84,7 @@
     ],
     "limitations": [
       "US-dollar pricing and total-profile billing need careful comparison",
-      "UK Gift Aid and finance suitability are not confirmed here"
+      "Ask the supplier about UK Gift Aid and finance suitability"
     ],
     "procurementVerdict": {
       "problem": "Churches that need workflow automation and service planning",
@@ -127,7 +127,7 @@
       },
       {
         "question": "Can a UK church use One Church Software?",
-        "answer": "International availability and relevant feature limits should be confirmed directly with the supplier. This profile does not establish UK payments, Gift Aid or accounting suitability."
+        "answer": "Ask the supplier whether it currently sells to UK churches and which feature limits apply. This profile does not establish UK payments, Gift Aid or accounting suitability."
       }
     ]
   },
@@ -139,7 +139,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

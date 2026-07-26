@@ -32,7 +32,7 @@ Generic AI articles and mass social posting are weak strategies: they are easy
 to reproduce, difficult to verify, rarely earn durable trust and can consume a
 maintainer's time without improving a church's decision. Defensible value comes
 from accurate UK-specific product information, comparison and decision pages,
-original structured data, trusted editorial judgement, supplier verification,
+original structured data, trusted editorial judgement, supplier corrections,
 practical tools, existing networks sharing useful resources, systematic
 internal links and continual improvement using actual search data. The aim is a
 trusted decision resource, not merely a long software list or an affiliate
@@ -48,7 +48,7 @@ publication of claims or external contact.
 | Priority | Channel | Likely impact | Speed | Agent autonomy | Human involvement | Factual / reputational risk | Ongoing maintenance |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | High-intent comparison and buying pages | High | Medium | High | High editorial review | Medium | Medium |
-| 2 | Vendor verification and supplier distribution | High | Medium | High | High for sending and disputes | Medium | Medium |
+| 2 | Supplier correction and distribution | High | Medium | High | High for sending and disputes | Medium | Medium |
 | 3 | Borrow existing audience distribution | High | Medium | Medium | High relationship work | Medium | Medium |
 | 4 | Original UK church software dataset | High | Slow | High | High evidence judgement | High if mishandled | High |
 | 5 | Free decision tools and downloadable resources | High | Medium | High | High review | Medium | Medium |
@@ -58,16 +58,16 @@ publication of claims or external contact.
 | 9 | Technical search discovery and indexing | Medium | Fast | High | Low | Low | Low |
 | 10 | Strategic partnerships and guest contributions | Medium-high | Slow | Medium | High | Medium | Medium |
 
-Start with priorities 1, 2, 5, 6 and 7. They reinforce one another: verified
+Start with priorities 1, 2, 5, 6 and 7. They reinforce one another: source-backed
 facts support high-intent pages; those pages feed tools and supplier outreach;
 internal links make assets discoverable; real search data determines the next
 iteration. Do not treat the order as permission to run every channel at once.
 
-## Vendor verification and distribution campaign
+## Supplier correction and distribution campaign
 
 ### Objective and selection
 
-Use verification to improve factual accuracy first and create a legitimate
+Use source-backed corrections to improve factual accuracy first and create a legitimate
 reason for suppliers to notice and, if they choose, share a corrected listing.
 It is not a request for a favourable review, a reciprocal link campaign or a
 sales programme.
@@ -77,7 +77,7 @@ clear UK relevance, a correction could materially improve a buyer's decision,
 and there is a credible official route to evidence. Prioritise products with
 high search interest or comparison relevance, materially stale/high-value
 fields, an active UK customer base indicated by evidence, and suppliers whose
-audience overlaps the site's target users. Deprioritise unverified products,
+audience overlaps the site's target users. Deprioritise unsupported products,
 poor-fit international products and suppliers with no identifiable business
 contact route.
 
@@ -116,13 +116,13 @@ evidence-backed limitations or direct the listing's conclusion. On receipt,
 log the reply, check whether it supports the claimed field, retain source
 provenance, update only supported fields, preserve uncertainty where it
 remains, and ask Bryn to approve contested or consequential changes. State the
-listing's updated date and verification state honestly.
+listing's updated date and source provenance honestly.
 
 Once a factual update is live, send a concise note: thank the supplier, link to
 the accurate listing, restate independence, and invite—not pressure—them to
 share it with customers or followers if they believe it is useful. Do not ask
 for a backlink; a share should have a clear value to their audience, such as a
-neutral UK comparison, buying checklist or verified product record.
+neutral UK comparison, buying checklist or source-backed product record.
 
 Send one polite follow-up after 7–14 working days, then a final close-out after
 another 14–21 working days only if the facts are decision-critical. Stop after
@@ -158,7 +158,7 @@ draft emails and change proposals, detect staleness and summarise replies.
 Bryn must approve emails, send relationship-based outreach, approve material
 corrections, decide disputed claims and handle any commercial discussion.
 
-Verification is not endorsement: use visible wording such as “facts updated
+Supplier correction is not endorsement: use visible wording such as “facts updated
 with supplier evidence” rather than “approved” or “partner”. If a supplier asks
 to remove criticism, distinguish an erroneous factual statement (correct it
 when evidenced) from a fair, attributed limitation or uncertainty (retain it,
@@ -186,7 +186,7 @@ a generic link request.
 | Newsletters, podcasts and conferences | Pitch a useful story, briefing, guest appearance or conference handout, anchored in an asset rather than self-promotion. |
 | Consultants and implementation specialists | Ask for bounded expert input, offer a neutral template, or create a clearly attributed contributor quote. |
 | Facebook and LinkedIn communities | Respond usefully to an existing question; start a discussion from a specific, evidenced decision trade-off. |
-| Supplier audiences | After verification, offer a shareable accurate listing, comparison or buyer checklist that helps prospective churches ask better questions. |
+| Supplier audiences | After a source-backed correction, offer a shareable accurate listing, comparison or buyer checklist that helps prospective churches ask better questions. |
 
 Approach an organisation only when its audience overlaps a defined decision
 problem, its public work suggests an appropriate fit, the resource is
@@ -210,14 +210,13 @@ strategy does not authorise schema changes.
 ### Proposed fields
 
 Record, where evidenced and relevant: product/categories; operational or church
-size indicators; pricing model and verified UK pricing; free plan/trial;
+size indicators; pricing model and source-backed UK pricing; free plan/trial;
 Gift Aid functions; UK payment and GBP support; charity discounts; UK office or
 support hours; data-hosting statements; data-processing agreement; export and
 migration assistance; safeguarding administration; children's check-in;
 volunteer rotas; multi-site support; accounting, website and mobile-app
 integrations; accessibility information; contract/cancellation requirements;
-onboarding; evidence sources; last checked date; field-level evidence state;
-and overall verification status.
+onboarding; evidence sources; last checked date; and field-level provenance.
 
 The highest editorial and commercial value fields are UK purchasing availability,
 total-cost questions (including VAT, implementation and transaction costs),
@@ -227,7 +226,8 @@ operational fit. They answer costly questions that generic supplier directories
 often leave vague. Hosting location, UK GDPR/legal claims, accessibility,
 safeguarding capability, integrations, contract terms and “church size served”
 are especially risky or difficult: retain the supplier's precise statement and
-source, do not infer a conclusion, and label absence as `Not confirmed`.
+source, do not infer a conclusion, omit incidental gaps and turn material gaps
+into supplier questions.
 
 ### Maintenance and provenance
 
@@ -236,8 +236,8 @@ checked date, evidence state and optional concise note explaining scope. Flag a
 field for review when its source is older than the configured threshold, returns
 a confirmed failure, has a changed page title/content signal, conflicts with a
 newer official source, or a supplier submits credible evidence. Supplier
-verification updates the same provenance record; it does not erase the prior
-editorial decision or turn the whole listing into “verified”.
+corrections update the same provenance record; it does not erase the prior
+editorial decision or create an overall completeness badge.
 
 The agent can suggest stale records and structured changes, but a human must
 confirm scope and publish. Do not copy protected supplier tables or marketing
@@ -255,7 +255,7 @@ as “No”.
 ### Periodic report: *The State of UK Church Software*
 
 Publish only after the dataset has sufficient coverage and an explicit method.
-The report can state scope, dates, inclusion rules, verification mix and data
+The report can state scope, dates, inclusion rules, source mix and data
 limits; describe observed pricing-publication patterns, field completeness,
 common buyer questions or documented capability availability; and include
 charts such as category coverage, evidence-state distribution, pricing-model
@@ -311,11 +311,11 @@ the canonical page stronger.
 | Tool / resource | Problem and user | Minimum viable version / information | Agent / human roles | Distribution and SEO | Maintenance | Priority |
 | --- | --- | --- | --- | --- | --- | --- |
 | Church Software Requirements Builder | Teams need a shared brief; leaders/admins/treasurers | Static, printable question flow producing a requirements sheet | Agent builds deterministic flow; Bryn reviews criteria and wording | Networks, consultants, category guides; strong | Medium | 1 |
-| Supplier-question checklist | Buyers need defensible questions | Printable checklist by category: cost, data, exit, support | Agent drafts from evidence gaps; Bryn reviews risk claims | Supplier verification, newsletters, guides; medium | Low | 2 |
+| Supplier-question checklist | Buyers need defensible questions | Printable checklist by category: cost, data, exit, support | Agent drafts from evidence gaps; Bryn reviews risk claims | Supplier corrections, newsletters, guides; medium | Low | 2 |
 | Comparison worksheet | Teams need to compare consistently | Accessible printable table for two to four options | Agent formats; Bryn tests usefulness | Comparisons, administrator networks; medium | Low | 3 |
 | Migration checklist | Teams fear transition | Phased checklist: data, ownership, training, exit | Agent drafts; Bryn checks operational realism | Migration guide, consultants; medium | Medium | 4 |
 | GDPR supplier-question checklist | Leaders need questions, not legal advice | Bounded questions with official-resource links and advice limits | Agent researches/drafts; Bryn conducts high-risk review | GDPR guide, technology groups; high | Medium-high | 5 |
-| Total-cost calculator | Treasurers need cost visibility | Assumption-led worksheet; only verified inputs, blanks for quotes | Agent codes; Bryn approves model | Pricing guide, finance organisations; high | High | 6 |
+| Total-cost calculator | Treasurers need cost visibility | Assumption-led worksheet; only source-backed inputs, blanks for quotes | Agent codes; Bryn approves model | Pricing guide, finance organisations; high | High | 6 |
 | Gift Aid capability checklist | Giving teams need workflow checks | Checklist from documented workflow questions | Agent drafts; Bryn reviews evidence | Giving guides/partners; medium | Medium | 7 |
 | Trustee or PCC decision brief | Governance teams need a concise record | One-page printable rationale, risk and next step template | Agent templates; Bryn reviews | Requirements builder, dioceses; medium | Low | 8 |
 | Implementation readiness assessment | Teams need to know if they are ready | Short self-assessment with non-scored readiness prompts | Agent builds; Bryn validates | Migration content; medium | Medium | 9 |
@@ -341,7 +341,7 @@ administration, frank about trade-offs, not generic productivity advice, not
 disguised advertising, and able to invite discussion without manufactured
 controversy. Possible angles include the questions a treasurer should ask about
 total cost; what “data export” needs to mean before a migration; the difference
-between an evidenced fact and an unconfirmed feature; or the decision a small
+between an evidenced fact and a supplier question; or the decision a small
 church can simplify before buying anything. Do not draft final posts here or
 claim results not supported by the asset.
 
@@ -421,7 +421,7 @@ exists.
 
 ## What not to prioritise
 
-- Hundreds of shallow AI-generated listings: they multiply verification debt and
+- Hundreds of shallow AI-generated listings: they multiply evidence-review debt and
   dilute the trust asset.
 - Generic daily social posts: without a valuable underlying asset they create
   noise, not durable demand.
@@ -431,7 +431,7 @@ exists.
   editorial growth.
 - Fake user reviews or software rankings: both are deceptive; rankings need a
   visible, defensible method.
-- Unverified product data: a plausible error about cost, data or safeguarding
+- Unsupported product data: a plausible error about cost, data or safeguarding
   is more damaging than an incomplete record.
 - Aggressive affiliate design: it creates implied endorsement and weakens
   decision confidence.
@@ -489,7 +489,7 @@ publisher/contact information and the individual action are approved.
 | Period | Agent work | Bryn work | Output |
 | --- | --- | --- | --- |
 | Days 1–5 | Audit analytics/search-tool readiness, sitemap/indexing and baseline technical search discovery | Select/approve tools and access; confirm launch constraints | Measurement and indexing checklist |
-| Days 6–10 | Prepare audits and evidence packs for a small initial supplier group | Approve outreach scope and send selected verification emails | Verified-facts queue and contact log |
+| Days 6–10 | Prepare audits and evidence packs for a small initial supplier group | Approve outreach scope and send selected correction emails | Source-backed facts queue and contact log |
 | Days 11–16 | Produce briefs/drafts for one or two high-intent pages; propose contextual links | Review evidence, conclusions and publication quality | Small, excellent content set ready for a separate publish task |
 | Days 17–21 | Prototype the first requirements-builder/checklist specification; audit internal links | Decide whether to implement and review criteria | Approved tool brief and link queue |
 | Days 22–25 | Research a small number of suitable partners; draft tailored approaches | Choose and send one or two relationship-led approaches | Partner tracker |
@@ -499,7 +499,7 @@ publisher/contact information and the individual action are approved.
 
 ### Phase A — establish trustworthy assets (days 1–30)
 
-Complete the 30-day plan, prioritising verified listings, two high-intent pages,
+Complete the 30-day plan, prioritising source-backed listings, two high-intent pages,
 one requirements tool specification and an internal-link baseline. Stop or
 delay publication if the evidence is not adequate.
 
@@ -515,7 +515,7 @@ distribution fit or title/metadata rather than multiplying pages.
 ### Phase C — compound evidence (days 61–90)
 
 Turn the best-performing evidence into one comparison, alternative or capability
-cluster; conduct the next verification cycle; close internal-link gaps; and
+cluster; conduct the next supplier-correction cycle; close internal-link gaps; and
 publish a short learning record. Consider a small dataset insight or joint
 briefing only if coverage and a partner justify it. Stop a channel after a fair
 test if it repeatedly produces no relevant response, consumes disproportionate
@@ -548,7 +548,7 @@ For every substantial page, tool, dataset or report:
 | Initiative | Expected impact | Effort | Agent autonomy | Human involvement | Time to likely result | Maintenance | Risk | Prerequisites | Current status | Next action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Search/indexing baseline | High | S | High | Tool/access approval | Days | Low | Low | Launch readiness | Not started | Create measurement checklist |
-| Initial supplier verification batch | High | M | High preparation | High send/decision | Weeks | Medium | Medium | Approved listings/contact route | Not started | Select 5–8 candidates and audit |
+| Initial supplier corrections batch | High | M | High preparation | High send/decision | Weeks | Medium | Medium | Approved listings/contact route | Not started | Select 5–8 candidates and audit |
 | Church Software Requirements Builder | High | M | High | High criteria review | Weeks | Medium | Medium | Approved tool brief | Not started | Define MVP questions/output |
 | ChurchSuite vs Planning Center evidence brief | High | M | High | High editorial review | Weeks | Medium | Medium | Adequate current sources | Not started | Prepare scope and evidence matrix |
 | UK church-management buying guide refresh | High | M | High | High | Weeks | Medium | Medium | Guide-standard evidence | Not started | Identify gaps and original tool |

@@ -51,7 +51,7 @@
         "detail": "100,000+ contacts and bespoke scope"
       }
     ],
-    "trialDetails": "Beacon advertises a free trial; duration is not confirmed in this profile."
+    "trialDetails": "Beacon advertises a free trial; the current duration should be checked with the supplier."
   },
   "freePlan": "no",
   "freeTrial": "yes",
@@ -98,7 +98,7 @@
     ],
     "limitations": [
       "Implementation is separate from subscription",
-      "Church-specific workflows such as rotas and safeguarding are not confirmed"
+      "Ask the supplier about Church-specific workflows such as rotas and safeguarding"
     ],
     "procurementVerdict": {
       "problem": "UK charity churches with a developed supporter or donor CRM need",
@@ -145,7 +145,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/beacon-crm/beacon-crm-logo.png",
+      "alt": "Beacon CRM logo",
+      "source": "https://cdn.prod.website-files.com/6369f7fe243b240624080be7/636b4591b520df93d05a3388_beacon-webclip.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

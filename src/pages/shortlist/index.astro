@@ -10,9 +10,12 @@ const products = software.map((entry) => ({
   name: entry.data.name,
   categories: entry.data.categories.map((category) => category.id),
   suitableChurchSizes: entry.data.suitableChurchSizes,
-  ukFocus: entry.data.ukFocus,
-  giftAid: entry.data.giftAid,
-  pricing: entry.data.pricing,
+  ukFocus: entry.data.ukFocus === "strong" ? "strong" : "general",
+  giftAid: entry.data.giftAid === "unknown" ? undefined : entry.data.giftAid,
+  pricing: {
+    summary: entry.data.pricing.summary,
+    startingPrice: entry.data.pricing.startingPrice
+  },
   procurementVerdict: entry.data.editorial.procurementVerdict ?? {
     problem: entry.data.editorial.bestFor[0],
     firstCheck: entry.data.editorial.limitations[0]
@@ -22,16 +25,16 @@ const products = software.map((entry) => ({
 ---
 
 <BaseLayout
-  title="Find church software starting points"
+  title="Build a church software shortlist"
   description="Use recorded church software evidence to create a small, explainable shortlist and a printable decision pack for your next conversation."
-  breadcrumbs={[{ label: "Find starting points" }]}
+  breadcrumbs={[{ label: "Build a shortlist" }]}
 >
   <section class="section">
     <div class="container shortlist-layout" data-shortlist data-products={JSON.stringify(products)}>
       <div class="shortlist-intro">
         <p class="eyebrow">Guided shortlist</p>
-        <h1>Find suitable starting points</h1>
-        <p class="measure">Answer a few practical questions. This is not a ranking: it only returns three to five profiles when the recorded evidence supports that starting point.</p>
+        <h1>Build a church software shortlist</h1>
+        <p class="measure">Answer a few practical questions to find three to five products that match the recorded evidence. This is not a ranking or recommendation.</p>
         <noscript><div class="notice"><p>This guided shortlist needs JavaScript. You can still <a href="/categories/">browse categories</a> and compare products manually.</p></div></noscript>
         <form class="shortlist-form enhancement" data-shortlist-form action="/shortlist/" method="get">
           <div class="form-field">
@@ -48,12 +51,12 @@ const products = software.map((entry) => ({
             <div class="form-field"><label for="approach">System preference</label><select id="approach" name="approach"><option value="any">No preference</option><option value="integrated">Prefer an integrated system</option><option value="specialist">Prefer a specialist tool</option></select></div>
             <div class="form-field"><label for="technical-administration">Technical administration</label><select id="technical-administration" name="technical-administration"><option value="any">Not specified</option><option value="limited">Limited capacity</option><option value="available">Capacity is available</option></select><p class="field-hint">This remains a question to test: the catalogue does not yet support filtering it reliably.</p></div>
           </div>
-          <div class="cluster"><button type="submit">Find starting points</button><a class="button button--secondary" href="/shortlist/">Clear answers</a></div>
+          <div class="cluster"><button type="submit">Build a shortlist</button><a class="button button--secondary" href="/shortlist/">Clear answers</a></div>
         </form>
       </div>
 
       <section class="shortlist-results enhancement" data-shortlist-results aria-live="polite" aria-labelledby="shortlist-results-heading" hidden>
-        <div class="section-intro"><div><p class="eyebrow">Your starting points</p><h2 id="shortlist-results-heading">Profiles to investigate first</h2></div><button class="button button--secondary" type="button" data-print-pack>Print decision pack</button></div>
+        <div class="section-intro"><div><p class="eyebrow">Your shortlist</p><h2 id="shortlist-results-heading">Products to investigate</h2></div><button class="button button--secondary" type="button" data-print-pack>Print decision pack</button></div>
         <p data-shortlist-summary></p>
         <div class="shortlist-cards" data-shortlist-cards></div>
         <section class="decision-pack" data-decision-pack aria-labelledby="decision-pack-heading">
@@ -61,12 +64,12 @@ const products = software.map((entry) => ({
           <h2 id="decision-pack-heading">Take this into your next meeting</h2>
           <details open><summary>Requirements worksheet</summary><div data-pack-requirements></div></details>
           <details><summary>Supplier question pack</summary><div data-pack-questions></div></details>
-          <details><summary>Four-week trial plan</summary><ol><li><strong>Week 1:</strong> Agree one real workflow, its owner and what success looks like.</li><li><strong>Week 2:</strong> Use safe sample data with the people who will do the ordinary work.</li><li><strong>Week 3:</strong> Test permissions, reporting, exports and the relevant finance or Gift Aid path.</li><li><strong>Week 4:</strong> Review what worked, what took extra effort and what still needs supplier confirmation.</li></ol></details>
+          <details><summary>Four-week trial plan</summary><ol><li><strong>Week 1:</strong> Agree one real workflow, its owner and what success looks like.</li><li><strong>Week 2:</strong> Use safe sample data with the people who will do the ordinary work.</li><li><strong>Week 3:</strong> Test permissions, reporting, exports and the relevant finance or Gift Aid path.</li><li><strong>Week 4:</strong> Review what worked, what took extra effort and which questions still need answers from the supplier.</li></ol></details>
           <details><summary>Trustee or elder decision summary</summary><div data-pack-summary></div></details>
         </section>
       </section>
 
-      <section class="empty-state enhancement" data-shortlist-empty hidden aria-labelledby="shortlist-empty-heading"><h2 id="shortlist-empty-heading">No evidence-backed shortlist yet</h2><p data-shortlist-empty-copy></p><p>Try relaxing one requirement, or verify it directly with suppliers before making it a deciding condition. The tool will not silently widen your requirements.</p></section>
+      <section class="empty-state enhancement" data-shortlist-empty hidden aria-labelledby="shortlist-empty-heading"><h2 id="shortlist-empty-heading">No evidence-backed shortlist yet</h2><p data-shortlist-empty-copy></p><p>Try relaxing one requirement, or check it directly with suppliers before making it a deciding condition. The tool will not silently widen your requirements.</p></section>
 
       <aside class="aside-card shortlist-rules"><h2>How this works</h2><p>The rules first require the selected job, then apply only the requirements with a clear structured match: scale, UK-specific evidence, recorded Gift Aid workflow and integrated or specialist preference.</p><p>Matches are shown with the selected job as a primary category first, then UK-specific evidence, then name. This is a tie-break, not a score or endorsement. Commercial relationships are never inputs.</p><p>Technical administration is included in the pack but not used to filter because too few profiles have evidence for it. Pricing is presented only as an individual, dated starting point where a public GBP price is recorded.</p><p>Browse by family: {categoryFamilies.map((family) => <span class="shortlist-family">{family.name}</span>)}</p></aside>
     </div>

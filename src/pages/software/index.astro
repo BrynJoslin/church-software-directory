@@ -34,11 +34,11 @@ const itemListJsonLd = {
 >
   <section class="section">
     <div class="container">
-      <p class="eyebrow">Six researched examples</p>
+      <p class="eyebrow">{software.length} researched profiles</p>
       <h1>Church software directory</h1>
       <p class="measure">
-        Search verified facts and independent notes. “Not confirmed” means the
-        current sources did not establish the answer.
+        Search supplier-sourced facts and independent directory assessments.
+        Details without useful evidence are omitted from cards.
       </p>
 
       <noscript>
@@ -81,7 +81,6 @@ const itemListJsonLd = {
                 <option value="">Any UK focus</option>
                 <option value="strong">UK-specific evidence</option>
                 <option value="general">Available more broadly</option>
-                <option value="unknown">Not confirmed</option>
               </select>
             </div>
             <div class="form-field">
@@ -89,7 +88,6 @@ const itemListJsonLd = {
               <select id="uk-organisation" name="uk-organisation">
                 <option value="">Any organisation</option>
                 <option value="yes">UK-registered organisation</option>
-                <option value="unknown">Not confirmed</option>
               </select>
               <p class="field-hint">
                 Includes companies and charities where the recorded sources confirm UK registration.
@@ -101,7 +99,6 @@ const itemListJsonLd = {
                 <option value="">Any status</option>
                 <option value="yes">Available</option>
                 <option value="no">Not available</option>
-                <option value="unknown">Not confirmed</option>
               </select>
             </div>
             <div class="form-field">
@@ -110,16 +107,14 @@ const itemListJsonLd = {
                 <option value="">Any status</option>
                 <option value="yes">Available</option>
                 <option value="no">Not available</option>
-                <option value="unknown">Not confirmed</option>
               </select>
             </div>
             <div class="form-field">
               <label for="gift-aid">Gift Aid workflow</label>
               <select id="gift-aid" name="gift-aid">
                 <option value="">Any status</option>
-                <option value="yes">Confirmed</option>
-                <option value="no">Confirmed unavailable</option>
-                <option value="unknown">Not confirmed</option>
+                <option value="yes">Supplier publishes a Gift Aid workflow</option>
+                <option value="no">Supplier states it is unavailable</option>
               </select>
             </div>
             <div class="form-field">
@@ -132,7 +127,6 @@ const itemListJsonLd = {
                 <option value="tiered">Tiered</option>
                 <option value="usage-based">Usage based</option>
                 <option value="quote-based">Quote based</option>
-                <option value="unknown">Not confirmed</option>
               </select>
             </div>
             <div class="form-field">
@@ -172,8 +166,8 @@ const itemListJsonLd = {
           <div class="empty-state" data-empty-state hidden>
             <h2>No software matches those filters</h2>
             <p>
-              Try removing one or more filters. An unknown answer is not treated
-              as a negative result.
+              Try removing one or more filters. A profile only matches a factual
+              filter when the directory has supporting evidence for that value.
             </p>
             <button class="button--secondary" type="button" data-empty-clear>
               Clear all filters

@@ -68,9 +68,9 @@ Those files are gitignored and a production-build check prevents internal
 dashboard files entering `dist/`.
 
 The dashboard's completeness percentage is a private maintenance measure, not
-an accuracy, verification or product score. It distinguishes required fields
-from useful optional fields and does not expect genuinely inapplicable or
-unverified data. `staleListingDays` in `src/config/site.json` is the single
+an accuracy or product score. It distinguishes required fields from useful
+optional fields and does not expect genuinely inapplicable or unsupported data.
+`staleListingDays` in `src/config/site.json` is the single
 freshness threshold (currently 180 days). `npm run check:content` performs the
 local analysis; optional `npm run check:links` stores cautious live URL results
 at `.internal/dashboard/link-check.json`. Blocked or rate-limited automated
@@ -145,7 +145,8 @@ Before publishing or updating an entry:
 
 1. Prefer current official supplier sources.
 2. Record the URL, checked date and exact fields each source supports.
-3. Leave uncertain values as `unknown` or omit optional fields.
+3. Use `unknown` only as an internal three-state value; omit unsupported
+   optional fields from public output.
 4. Keep supplier facts separate from editorial assessment.
 5. Run the full checks and review the rendered page.
 
@@ -167,5 +168,7 @@ unconfigured until the hosting and responsible publisher are confirmed.
 ## Editorial boundary
 
 Inclusion is not endorsement. The project does not invent prices, features,
-integrations, compliance claims, reviews or hands-on testing. “Not confirmed” is
-different from “No”.
+integrations, compliance claims, reviews or hands-on testing. Current supplier
+material is accepted as evidence for what the supplier publishes. Incidental
+gaps are omitted; material gaps become specific supplier questions. “No” is
+used only when a suitable source explicitly establishes absence.

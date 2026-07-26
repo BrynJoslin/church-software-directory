@@ -44,7 +44,7 @@ Scheduling fails when availability is stale, volunteers cannot see commitments, 
 
 ## Choose the operating model
 
-| Need | Why it may fit | Limitation or unknown to test |
+| Need | Why it may fit | Question or limitation to test |
 | --- | --- | --- |
 | Connected teams, groups and people records | ChurchSuite or ChurchLinker | Does the broader platform have the exact service-planning depth and permissions needed? |
 | Dedicated worship and production planning | Planning Center Services, WorshipTools or Elvanto | Will the church create a second unowned people record or communication route? |
@@ -76,14 +76,14 @@ The profiles below are relevant research starting points, not endorsements or a 
 
 - [ChurchSuite](/software/churchsuite/) for connected rotas, teams, availability and swaps; trial leader permissions and a late cancellation.
 - [Planning Center](/software/planning-center/) for a dedicated Services workflow; check the complete product mix and UK operating requirements.
-- [WorshipTools](/software/worshiptools/) and [Elvanto](/software/elvanto/) for worship/service-planning routes; verify people, export and support arrangements.
+- [WorshipTools](/software/worshiptools/) and [Elvanto](/software/elvanto/) for worship/service-planning routes; check the people, export and support arrangements.
 - [ChurchLinker](/software/churchlinker/) for a broader UK-oriented option; test product maturity and the exact rota workflow.
 
 ## Your next step
 
 Write one real service scenario, shortlist two options and have a ministry leader and an occasional volunteer run the same fictional-data trial. If the church cannot name the owner, access boundary and replacement process, fix those before purchasing software.
 
-For children’s or vulnerable-adult teams, take advice from the church’s safeguarding lead about the information that belongs in the rota and the access boundary. Scheduling software can support an agreed process, but it cannot verify recruitment, DBS status, training or supervision. Keep those responsibilities clear rather than treating a team label as evidence of safeguarding clearance.
+For children’s or vulnerable-adult teams, take advice from the church’s safeguarding lead about the information that belongs in the rota and the access boundary. Scheduling software can support an agreed process, but it cannot establish recruitment, DBS status, training or supervision. Keep those responsibilities clear rather than treating a team label as evidence of safeguarding clearance.
 
 For multi-site churches, add a location and service to the trial. Check whether leaders can see enough to solve a problem without receiving every other site’s volunteer details. The right boundary is an operational and pastoral decision, not a default setting.
 

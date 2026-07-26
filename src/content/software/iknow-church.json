@@ -60,7 +60,7 @@
         "detail": "Published bands by member count; 4,000+ is custom pricing"
       }
     ],
-    "trialDetails": "A free trial is referenced in the supplier’s donation-features material; the current duration is not confirmed in this profile."
+    "trialDetails": "A free trial is referenced in the supplier’s donation-features material; the current duration should be checked with the supplier."
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
@@ -94,7 +94,7 @@
     ],
     "limitations": [
       "Gift Aid submissions and payment processing can carry additional charges",
-      "Data hosting and accessibility information have not yet been verified for this listing"
+      "Data hosting and accessibility information should be requested from the supplier"
     ],
     "procurementVerdict": {
       "problem": "UK churches that want administration and giving in one service",
@@ -153,7 +153,7 @@
       },
       {
         "question": "Where is iKnow Church data hosted?",
-        "answer": "Not confirmed in this profile. Ask the supplier for current hosting, data-processing and sub-processor information."
+        "answer": "Ask the supplier for current hosting, data-processing and sub-processor information."
       }
     ]
   },
@@ -165,7 +165,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {
@@ -212,6 +211,6 @@
   "sponsored": false,
   "seo": {
     "title": "iKnow Church: UK church software profile",
-    "description": "Independent iKnow Church profile covering verified UK pricing, Gift Aid, giving and church management information, with clear caveats."
+    "description": "Independent iKnow Church profile covering supplier-published UK pricing, Gift Aid, giving and church management information, with clear caveats."
   }
 }

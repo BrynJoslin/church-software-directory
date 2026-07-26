@@ -7,7 +7,7 @@ const software = await getCollection("software");
 
 <BaseLayout
   title="Research methodology"
-  description="How church software entries are selected, sourced, verified, dated, corrected and separated from editorial assessment and commercial interests."
+  description="How church software entries are selected, sourced, dated, corrected and separated from editorial assessment and commercial interests."
   breadcrumbs={[{ label: "Methodology" }]}
 >
   <section class="section">
@@ -16,9 +16,10 @@ const software = await getCollection("software");
         <p class="eyebrow">Trust and evidence</p>
         <h1>Research methodology</h1>
         <p>
-          The directory aims to make the status of every important claim visible.
-          A supplier source can establish what the supplier publishes; it does not
-          amount to hands-on testing or independent certification.
+          The directory publishes facts that can be traced to a dated source.
+          A current official supplier page is sufficient evidence for what the
+          supplier publishes; it does not amount to hands-on testing or
+          independent certification.
         </p>
 
         <h2>Which products are included</h2>
@@ -33,35 +34,43 @@ const software = await getCollection("software");
           <li>Prefer official product, pricing, support and policy pages.</li>
           <li>Record the source URL, checked date and fields it supports.</li>
           <li>Keep structured facts separate from directory assessment.</li>
-          <li>Use “Not confirmed” when the evidence does not establish an answer.</li>
+          <li>Omit incidental details that do not have useful supporting evidence.</li>
+          <li>Turn material gaps into a precise question for the supplier.</li>
           <li>Do not infer compliance from general marketing language.</li>
         </ol>
 
-        <h2>Verification statuses</h2>
+        <h2>How sources are described</h2>
         <dl class="stack">
           <div>
-            <dt>Verified</dt>
+            <dt>Supplier source</dt>
             <dd>
-              The important fields in scope have strong, current evidence and
-              have received editorial review. None of the foundation listings
-              currently uses this status.
+              A current official product, pricing, support, policy or terms page
+              supports what the supplier publishes.
             </dd>
           </div>
           <div>
-            <dt>Partially verified</dt>
+            <dt>Independent source</dt>
             <dd>
-              Several useful fields have current first-party sources, but
-              material unknowns or unreviewed areas remain.
+              A relevant public record, regulator, authoritative body or other
+              non-supplier source supports the fact.
             </dd>
           </div>
           <div>
-            <dt>Needs review</dt>
+            <dt>Directory tested</dt>
             <dd>
-              Evidence is old, incomplete or awaiting editorial review. Treat the
-              entry as a lead for further research.
+              Church Software UK performed and documented the stated test. This
+              label is not used unless that work actually occurred.
             </dd>
           </div>
         </dl>
+
+        <h2>When a detail is missing</h2>
+        <p>
+          Optional details are omitted. Matters that could change a purchasing
+          decision—such as hosting, Gift Aid, contracts or data export—become
+          specific questions to settle. “No” is used only when a suitable source
+          explicitly establishes absence.
+        </p>
 
         <h2>Review cycle</h2>
         <p>
@@ -95,7 +104,7 @@ const software = await getCollection("software");
       <aside class="aside-card">
         <h2>Important boundary</h2>
         <p>
-          Churches should verify legal, security, safeguarding, tax, data-hosting
+          Churches should check legal, security, safeguarding, tax, data-hosting
           and contractual matters directly with suppliers and appropriate
           advisers.
         </p>

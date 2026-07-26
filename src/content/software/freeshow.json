@@ -66,13 +66,13 @@
       "Supplier lists multi-output, remote control and several import options"
     ],
     "limitations": [
-      "No paid supplier support model is confirmed here",
+      "The project material does not describe a paid supplier-support option",
       "Churches remain responsible for content licences, hardware and live-service contingency"
     ],
     "procurementVerdict": {
       "problem": "Cost-conscious churches with volunteers who can rehearse and support the system",
       "differentiator": "Song lyrics and scripture slides",
-      "firstCheck": "No paid supplier support model is confirmed here"
+      "firstCheck": "Decide who will support the software during a live service"
     }
   },
   "longForm": {
@@ -114,11 +114,18 @@
       },
       {
         "question": "Does FreeShow include song and Bible licences?",
-        "answer": "Not confirmed. Churches remain responsible for their own Bible, song and streaming licences."
+        "answer": "Churches remain responsible for their own Bible, song and streaming licences."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/freeshow/freeshow-logo.png",
+      "alt": "FreeShow logo",
+      "source": "https://freeshow.app/images/favicon.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

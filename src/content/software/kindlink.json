@@ -70,7 +70,7 @@
     "Onboarding and training on paid plans"
   ],
   "editorial": {
-    "assessment": "KindLink provides an unusually strong UK Gift Aid feature set at a free entry point, but it is charity software rather than a complete church operating system. A church should verify its live HMRC submission workflow, payment-provider terms and the boundary between donor CRM and ministry records.",
+    "assessment": "KindLink provides an unusually strong UK Gift Aid feature set at a free entry point, but it is charity software rather than a complete church operating system. A church should test its live HMRC submission workflow, ask for the payment-provider terms and decide the boundary between donor CRM and ministry records.",
     "bestFor": [
       "UK charities needing a free supporter CRM with Gift Aid records",
       "Churches combining online, Direct Debit and contactless giving with donor management"
@@ -110,7 +110,7 @@
       "summary": "This profile does not use an independent review score. It is based on KindLink’s official pricing, feature and FAQ pages.",
       "themes": [
         "The free plan enables a focused donor-CRM pilot.",
-        "Gift Aid automation and payment options need finance-team verification."
+        "Ask the finance team to test Gift Aid automation and payment options."
       ],
       "caveat": "Supplier information does not establish a church’s own Gift Aid eligibility, HMRC process or data-governance design."
     },
@@ -125,7 +125,7 @@
       },
       {
         "question": "Does KindLink support UK Gift Aid?",
-        "answer": "Yes, according to the supplier. Its plans list UK Gift Aid recording, reports and automated submission on paid plans. Verify the exact HMRC workflow before use."
+        "answer": "Yes, according to the supplier. Its plans list UK Gift Aid recording, reports and automated submission on paid plans. Test the exact HMRC workflow before use."
       },
       {
         "question": "How much does KindLink cost?",
@@ -133,7 +133,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/kindlink/kindlink-logo.svg",
+      "alt": "KindLink logo",
+      "source": "https://www.kindlink.org/img/kindlink-logo.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

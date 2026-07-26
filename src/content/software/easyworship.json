@@ -117,7 +117,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/easyworship/easyworship-logo.svg",
+      "alt": "EasyWorship logo",
+      "source": "https://ewwebresources.blob.core.windows.net/files/shared/fonts/logo/EW-IconLogo.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

@@ -11,7 +11,7 @@
   "suitableContexts": ["A carefully qualified context"],
   "pricing": {
     "model": "unknown",
-    "summary": "Pricing needs verification.",
+    "summary": "Ask the supplier for a written price covering the relevant plan, limits, VAT, implementation and renewal.",
     "tiers": [
       {
         "label": "Published tier name",
@@ -29,6 +29,14 @@
   "integrations": [],
   "importExport": [],
   "support": [],
+  "decisionEvidence": {
+    "gbp-pricing": {
+      "value": "State only what the cited supplier page publishes.",
+      "state": "supplier-published",
+      "source": "https://supplier.example/pricing",
+      "checked": "YYYY-MM-DD"
+    }
+  },
   "brandAssets": {
     "logo": {
       "src": "/images/software/product-slug/product-logo.svg",
@@ -38,7 +46,7 @@
     }
   },
   "editorial": {
-    "assessment": "State the evidence-backed fit and the material questions a church still needs to verify.",
+    "assessment": "State the evidence-backed fit and the material questions a church still needs to settle.",
     "bestFor": ["A qualified context, not a universal recommendation"],
     "strengths": ["An evidence-backed strength"],
     "limitations": ["A limitation, caveat or unresolved question"]
@@ -68,7 +76,6 @@
       }
     ]
   },
-  "verificationStatus": "needs-review",
   "lastChecked": "YYYY-MM-DD",
   "sources": [
     {

@@ -1,0 +1,63 @@
+{
+  "name": "Eventcube",
+  "slug": "eventcube",
+  "shortDescription": "A UK-developed event-ticketing platform for free and paid in-person, online or hybrid events, with Stripe payments, white-label options and QR check-in.",
+  "officialWebsite": "https://www.eventcube.io/",
+  "company": "Eventcube Solutions Ltd (company number 08939283)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": ["events-ticketing"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches running free or paid public events", "Conference, training or hybrid-event teams that need branded ticketing", "Organisations already using Stripe for ticket payment"],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "The Starter ticketing plan has no monthly charge and a published 5% Eventcube fee on paid-ticket transaction totals; free tickets are stated to be free of Eventcube fees. Pro is published at $99/month billed annually or $125/month monthly, plus a 3% ticket fee. Stripe processing fees and VAT are additional considerations.",
+    "tiers": [
+      {"label": "Starter", "price": "No monthly charge; 5% of paid-ticket transaction total", "detail": "Supplier states free tickets do not incur Eventcube fees; Stripe processing fees apply"},
+      {"label": "Pro", "price": "$99/month annually or $125/month monthly; 3% of paid-ticket transaction total", "detail": "Supplier publishes additional branding and event features; UK prices and percentages exclude VAT"},
+      {"label": "Enterprise", "price": "Quote based", "detail": "For high-volume or bespoke requirements"}
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "dataHosting": "Eventcube's privacy policy says some third-party processing may take place outside the UK. Ask for the current subprocessor list, hosting locations, transfer safeguards, retention schedule and data-processing terms before use.",
+  "gdprInformation": "The supplier publishes a UK privacy policy and terms that refer to UK data-protection legislation. Its privacy policy was last updated in April 2021, so a church should obtain current contractual data-processing information as part of procurement.",
+  "coreFeatures": ["Free and paid ticketing", "Stripe-connected payment flow", "Custom ticket stores and booking fees", "Custom registration forms", "QR ticket validation and mobile check-in", "In-person, online and hybrid events", "Waitlists, discounts and event pages according to supplier feature information", "White-label and custom-domain options on higher plans"],
+  "integrations": ["Stripe", "Zoom, Microsoft Teams and other third-party platforms for relevant virtual-event plans according to the supplier", "Bespoke payment gateways on Enterprise according to the supplier"],
+  "importExport": ["Establish the available attendee, financial and reporting exports in a live account or supplier demonstration", "Agree the exit process for event and customer data before adoption"],
+  "support": ["Supplier directs customers to its support centre", "Enhanced support is listed for Pro in the supplier's published fee guidance"],
+  "decisionEvidence": {
+    "uk-purchasing": {"value": "Eventcube Solutions Ltd is an active UK private limited company, number 08939283, and its published pricing expressly addresses UK VAT.", "state": "independent-source", "source": "https://find-and-update.company-information.service.gov.uk/company/08939283", "checked": "2026-07-25"},
+    "ticket-pricing": {"value": "Supplier publishes a 5% Starter fee for paid tickets, free Eventcube fees for free tickets, and a Pro option with a 3% fee plus monthly USD subscription pricing.", "state": "supplier-published", "source": "https://www.eventcube.io/pricing", "checked": "2026-07-25"},
+    "ticketing-terms": {"value": "Supplier terms describe a white-label online event-management and ticketing system for event organisers, with transaction and payment processing arrangements.", "state": "supplier-published", "source": "https://www.eventcube.io/legal/terms-conditions", "checked": "2026-07-25"},
+    "data-transfers": {"value": "Supplier privacy policy says that some external third parties are based outside the UK and describes transfer safeguards at a high level.", "state": "supplier-published", "source": "https://www.eventcube.io/legal/privacy-policy", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Eventcube is a general event platform rather than church software, but it can suit churches that run public conferences, ticketed events or online and hybrid programmes. Its no-monthly-charge Starter plan can make occasional paid events practical, while its 5% platform fee and separate Stripe fee need pricing against a real ticket mix. Treat it as an event-operation tool: it does not replace church people records, Gift Aid workflows or safeguarding administration.",
+    "bestFor": ["Free or paid public church events using Stripe", "Church conferences and training events needing flexible ticket pages and QR check-in", "Teams that may later need a branded or white-label event store"],
+    "strengths": ["Active UK company with published platform terms and public ticket-fee structure", "Free tickets and a no-monthly-charge Starter option", "Ticketing, registration, booking-fee and QR check-in workflow documented by the supplier"],
+    "limitations": ["Not purpose-built for churches, Gift Aid administration, volunteer rotas or safeguarding records", "Paid ticket pricing combines Eventcube fees, Stripe fees and potentially VAT", "Published privacy policy notes overseas third-party processing and is dated April 2021"],
+    "procurementVerdict": {"problem": "Publishing and operating paid or free church events without building a bespoke booking journey", "differentiator": "A UK-developed general event platform with a free-ticket route, Stripe payment flow and configurable ticket-store options", "firstCheck": "Build a real free and paid event, test the booking fee, refund and QR scan journey, and obtain current data-processing and export terms"}
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/eventcube/eventcube-logo.png",
+      "alt": "Eventcube logo",
+      "source": "https://cdn.prod.website-files.com/60914c777b5c064bd504092a/6091549e693edd1bf31c7159_ec_logo_white_text.27b6e56ce65a.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Eventcube pricing", "url": "https://www.eventcube.io/pricing", "checked": "2026-07-25", "supports": ["Starter and Pro fees", "Free-ticket policy", "Stripe context", "VAT note", "Charity-rate statement"]},
+    {"label": "Eventcube ticket-fee guidance", "url": "https://help.eventcube.io/en/articles/8434395-eventcube-fees-pricing-explained-all-you-need-to-know", "checked": "2026-07-25", "supports": ["Fee calculation", "Booking-fee options", "Stripe-fee context", "Payout description", "Pro features"]},
+    {"label": "Eventcube terms and conditions", "url": "https://www.eventcube.io/legal/terms-conditions", "checked": "2026-07-25", "supports": ["Operating entity", "Ticketing system description", "Customer responsibilities", "UK data-protection terms"]},
+    {"label": "Eventcube privacy policy", "url": "https://www.eventcube.io/legal/privacy-policy", "checked": "2026-07-25", "supports": ["Operating entity", "Privacy-policy date", "International-transfer statement", "Retention statement"]},
+    {"label": "Companies House: Eventcube Solutions Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/08939283", "checked": "2026-07-25", "supports": ["UK company registration", "Active status", "Company number"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Eventcube review for UK churches", "description": "Independent Eventcube profile for UK church events: free and paid ticketing, fees, Stripe payments, QR check-in and data questions."}
+}

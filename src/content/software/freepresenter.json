@@ -67,7 +67,7 @@
     ],
     "limitations": [
       "Cloud support and its future pricing are not yet published",
-      "UK content licensing and operational support are not confirmed"
+      "Ask the supplier about UK content licensing and operational support"
     ],
     "procurementVerdict": {
       "problem": "Production teams needing multiple distinct outputs",
@@ -78,7 +78,7 @@
   "longForm": {
     "verdict": "FreePresenter is most appealing for teams that need to adapt outputs live rather than prepare a fixed slide deck. It should be tested on the church’s actual screens and streaming setup before it becomes a Sunday dependency.",
     "decisionLens": {
-      "heading": "Verify the output path end to end.",
+      "heading": "Test the output path end to end.",
       "text": "Multiple outputs, NDI and DeckLink matter only if they work with the church’s particular projector, stage display, stream and network. Test both the desired layout and failure recovery with the operator who will normally run it."
     },
     "sections": [
@@ -114,7 +114,6 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

@@ -83,7 +83,7 @@
     "limitations": [
       "The paid subscription and library costs require a current, UK-specific check",
       "A large feature set brings a learning curve and may exceed a casual user's needs",
-      "Resource licences and any shared church use should be verified before purchase"
+      "Check resource licences and any shared church use before purchase"
     ],
     "procurementVerdict": {
       "problem": "Regular sermon, Bible-study or theological research",
@@ -147,7 +147,7 @@
       },
       {
         "question": "Should a small church buy Logos for every leader?",
-        "answer": "Not automatically. Start with the people who repeatedly prepare teaching or research, test the resources they need and verify the relevant licence terms before considering any wider purchase."
+        "answer": "Not automatically. Start with the people who repeatedly prepare teaching or research, test the resources they need and check the relevant licence terms before considering any wider purchase."
       }
     ]
   },
@@ -159,7 +159,6 @@
       "checked": "2026-07-25"
     }
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {

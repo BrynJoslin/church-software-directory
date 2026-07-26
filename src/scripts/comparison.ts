@@ -55,9 +55,9 @@ const groupComparisonRows = (selected: string[]) => {
     const cells = selected.map((slug) =>
       row.querySelector<HTMLElement>(`[data-product-column="${slug}"]`)
     );
-    const states = cells.map((cell) => cell?.dataset.evidenceState ?? "not-confirmed");
+    const states = cells.map((cell) => cell?.dataset.evidenceState ?? "question");
     const values = new Set(cells.map((cell) => cell?.dataset.comparisonValue ?? ""));
-    const group = states.some((state) => state === "not-confirmed" || state === "possibly-outdated")
+    const group = states.some((state) => state === "question" || state === "needs-refresh")
       ? "unresolved"
       : values.size > 1
         ? "differences"
@@ -89,7 +89,7 @@ const renderSupplierQuestions = (selected: string[]) => {
     if (!question) return [];
     return selected.flatMap((slug) => {
       const cell = row.querySelector<HTMLElement>(`[data-product-column="${slug}"]`);
-      if (!cell || !["not-confirmed", "possibly-outdated"].includes(cell.dataset.evidenceState ?? "")) return [];
+      if (!cell || !["question", "needs-refresh"].includes(cell.dataset.evidenceState ?? "")) return [];
       return [`${cell.dataset.productName}: ${question}`];
     });
   });
@@ -181,7 +181,7 @@ if (picker && table && message) {
   if (invalid.length > 0 || overflow) {
     const issue = [
       invalid.length > 0
-        ? `Ignored unknown product ${
+        ? `Ignored unrecognised product ${
             invalid.length === 1 ? "slug" : "slugs"
           }: ${invalid.join(", ")}.`
         : "",

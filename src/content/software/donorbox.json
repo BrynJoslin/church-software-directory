@@ -74,7 +74,7 @@
     "Published help centre and contact routes"
   ],
   "editorial": {
-    "assessment": "Donorbox is a flexible UK-facing fundraising layer with published Gift Aid integration, but it is not church management software. A church should calculate the combined platform and processor fees, verify Gift Aid eligibility and decide how donor records will reconcile with its existing finance and people systems.",
+    "assessment": "Donorbox is a flexible UK-facing fundraising layer with published Gift Aid integration, but it is not church management software. A church should calculate the combined platform and processor fees, check its Gift Aid eligibility and decide how donor records will reconcile with its existing finance and people systems.",
     "bestFor": [
       "Registered UK charities that want configurable online fundraising",
       "Churches needing campaign, ticketing or membership payments alongside donations"
@@ -132,7 +132,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/donorbox/donorbox-logo.svg",
+      "alt": "Donorbox logo",
+      "source": "https://donorbox-www.herokuapp.com/landing_pages_assets/new-landing-pages/donorbox-logo-b007498227b575bbca83efad467e73805837c02601fc3d2da33ab7fc5772f1d0.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

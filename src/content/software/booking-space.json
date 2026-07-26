@@ -1,0 +1,51 @@
+{
+  "name": "Booking Space",
+  "slug": "booking-space",
+  "shortDescription": "UK shared-resource booking software for rooms, desks, equipment and other church-office or venue resources.",
+  "officialWebsite": "https://www.bookingspace.com/",
+  "company": "Booking Space Limited",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": ["room-bookings"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Church offices managing internal meeting rooms, desks or shared equipment", "Churches or charities needing straightforward resource booking rather than a public-hire venue-management suite"],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Booking Space advertises a 15-day trial and a 50p-per-monthly-active-user charge plus a £5 account charge. Confirm whether the current tariff meets the church's mix of internal and public users.",
+    "startingPrice": {"amount": 0.5, "currency": "GBP", "period": "month", "qualifier": "per monthly active user, plus a £5 account charge"},
+    "tiers": [{"label": "Monthly active-user pricing", "price": "50p/user/month + £5 account charge", "detail": "The supplier says charges apply only to monthly active users"}],
+    "trialDetails": "The supplier advertises a 15-day free trial."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "dataHosting": "The supplier's terms say the service is hosted in the United Kingdom and/or EU from time to time.",
+  "gdprInformation": "Booking Space publishes privacy and service terms. Its terms refer to UK/EU hosting and data-protection legislation; churches should assess the current processor terms, retention and role controls for their own use.",
+  "coreFeatures": ["Shared-resource and meeting-room booking", "Desk booking with interactive floor plans", "Booking administration", "Google, Microsoft and Slack provisioning"],
+  "integrations": ["Google", "Microsoft", "Slack"],
+  "importExport": ["The supplier's Digital Marketplace listing describes CSV data extraction at the end of contract"],
+  "support": ["Supplier support email", "Digital Marketplace listing describes UK-hours phone and web-chat support"],
+  "decisionEvidence": {
+    "uk-operator": {"value": "The supplier's terms identify Booking Space Limited, company number 15695980, as the England-and-Wales operator.", "state": "supplier-published", "source": "https://www.bookingspace.com/legal/terms-of-use", "checked": "2026-07-25"},
+    "pricing": {"value": "The supplier homepage advertises a 15-day trial and 50p-per-monthly-active-user pricing plus a £5 account charge.", "state": "supplier-published", "source": "https://www.bookingspace.com/", "checked": "2026-07-25"},
+    "charity-relevance": {"value": "The UK government's Digital Marketplace entry describes shared-resource use by a company, school or charity.", "state": "independent-source", "source": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/994462849873504", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Booking Space is a general UK resource-booking product rather than church-specific software. It may suit a church office or charity team managing internal rooms and shared equipment, but its public material does not present a full community-hall hire, invoicing and safeguarding workflow.",
+    "bestFor": ["Church offices sharing rooms, desks or equipment among staff and volunteers", "Church charities seeking a lightweight, per-active-user booking system"],
+    "strengths": ["Published low-cost active-user pricing and trial", "UK operator and public legal terms", "Integrations for common workplace identity systems"],
+    "limitations": ["Not presented as church-specific or public venue-hire software", "Churches hiring rooms externally should test invoices, public bookings, payments and access rules", "Review current data-processing terms before adding volunteer or hirer records"],
+    "procurementVerdict": {"problem": "Conflicts over internal rooms, desks and shared equipment", "differentiator": "Simple active-user pricing for general shared resources", "firstCheck": "Test a real room, equipment and volunteer-access workflow, including any public-hire boundary"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Booking Space overview and pricing", "url": "https://www.bookingspace.com/", "checked": "2026-07-25", "supports": ["Product scope", "Trial", "Active-user pricing", "Integrations"]},
+    {"label": "Booking Space terms of use", "url": "https://www.bookingspace.com/legal/terms-of-use", "checked": "2026-07-25", "supports": ["UK company identity", "Data-hosting statement", "Data-protection terms"]},
+    {"label": "UK Digital Marketplace: BookingSpace.com", "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/994462849873504", "checked": "2026-07-25", "supports": ["Charity use case", "Support", "CSV data extraction"]},
+    {"label": "Companies House: Booking Space Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/15695980", "checked": "2026-07-25", "supports": ["UK-registered organisation"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Booking Space review for UK churches", "description": "Independent Booking Space profile for UK churches: shared rooms and resources, active-user pricing, data terms and practical checks."}
+}

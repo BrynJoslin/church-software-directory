@@ -21,7 +21,7 @@
   ],
   "pricing": {
     "model": "tiered",
-    "summary": "StreamingChurch.tv publishes US-dollar Social Embed, Basic, Premium and Platinum plans, from US$19 to US$179 per month. Its plans describe unlimited audience and bandwidth; UK availability and terms need confirmation.",
+    "summary": "StreamingChurch.tv publishes US-dollar Social Embed, Basic, Premium and Platinum plans, from US$19 to US$179 per month. Its plans describe unlimited audience and bandwidth; ask whether these plans and terms are available to a UK church.",
     "startingPrice": {
       "amount": 19,
       "currency": "USD",
@@ -83,7 +83,7 @@
     ],
     "limitations": [
       "US commercial context",
-      "UK data, payment and contracting details are not confirmed"
+      "Ask the supplier about UK data, payment and contracting details"
     ],
     "procurementVerdict": {
       "problem": "Churches that want to test a dedicated church streaming service",
@@ -113,7 +113,7 @@
         "A no-card trial makes operational testing possible.",
         "The decision should include website and volunteer workflow, not just broadcast delivery."
       ],
-      "caveat": "Supplier statements describe its own offer and do not verify UK availability, local support cover or local data arrangements."
+      "caveat": "Supplier statements describe its own offer and do not establish UK availability, local support cover or local data arrangements."
     },
     "faq": [
       {
@@ -126,11 +126,18 @@
       },
       {
         "question": "Is StreamingChurch.tv UK-focused?",
-        "answer": "No UK-specific offer was confirmed in this profile. Confirm contracting, support timing and data arrangements directly with the supplier."
+        "answer": "The reviewed supplier material does not describe a UK-specific offer. Ask about contracting, support timing and data arrangements directly."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/streamingchurch/streamingchurch-logo.png",
+      "alt": "StreamingChurch.tv logo",
+      "source": "https://streamingchurch.tv/sctv/assets/img/logos/sctv-main.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

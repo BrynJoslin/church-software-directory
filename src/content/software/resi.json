@@ -21,7 +21,7 @@
   ],
   "pricing": {
     "model": "tiered",
-    "summary": "Resi publishes US-dollar livestreaming plans. Its Social Only plan is shown at US$119 per month on an annual billing basis, and it also offers higher-level live and multi-site options; current UK pricing and eligibility need confirmation.",
+    "summary": "Resi publishes US-dollar livestreaming plans. Its Social Only plan is shown at US$119 per month on an annual billing basis, and it also offers higher-level live and multi-site options. Ask whether Resi currently contracts with UK churches and for a written UK quote.",
     "startingPrice": {
       "amount": 119,
       "currency": "USD",
@@ -74,7 +74,7 @@
     ],
     "limitations": [
       "Higher US-dollar starting price than basic streaming approaches",
-      "UK availability, hardware and final plan scope need confirmation"
+      "Ask about UK availability, required hardware and the final plan scope"
     ],
     "procurementVerdict": {
       "problem": "Churches where interrupted broadcasts have a real pastoral or operational cost",
@@ -104,7 +104,7 @@
         "Reliability is a distinct buying criterion from basic social streaming.",
         "A multi-site use case needs end-to-end technical validation."
       ],
-      "caveat": "The supplier’s reliability statements are product claims; this directory has not independently tested a Resi broadcast or confirmed UK commercial availability."
+      "caveat": "The supplier’s reliability statements are product claims; this directory has not independently tested a Resi broadcast, and the reviewed material does not establish UK commercial availability."
     },
     "faq": [
       {
@@ -113,7 +113,7 @@
       },
       {
         "question": "Does Resi offer a free trial?",
-        "answer": "A free trial was not confirmed from the material reviewed. Resi does offer a guided demo request."
+        "answer": "Resi offers a guided demo request. Ask whether a time-limited trial is available for the proposed plan."
       },
       {
         "question": "Is Resi for multi-site churches?",
@@ -121,7 +121,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/resi/resi-logo.svg",
+      "alt": "Resi logo",
+      "source": "https://resi.io/wp-content/themes/resi/img/branding/logo-resi-pp-red.svg",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

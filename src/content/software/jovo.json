@@ -1,0 +1,58 @@
+{
+  "name": "Jovo",
+  "slug": "jovo",
+  "shortDescription": "A UK mobile and web communication platform for churches, volunteer teams and communities, with role-based groups, broadcasts, temporary groups and ChurchSuite or Planning Center connections.",
+  "officialWebsite": "https://www.jovoapp.com/",
+  "company": "Jovo App Ltd (contracting identity requires written confirmation)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["church-mobile-apps", "church-communications", "volunteer-scheduling"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches seeking a structured alternative to informal group messaging", "Teams using ChurchSuite or Planning Center for group data", "Churches coordinating temporary groups, events and volunteer communications"],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Jovo publishes monthly church and volunteer plans including VAT: Lite at £49 for up to 100 users; Jovo from £110 for up to 499 users, £224 for 500–999, and £399 for 999–1,999; Plus is custom. Its public pricing page also contains a separate £44/£99/£202/£359 set, apparently annual-payment figures, so obtain the current checkout quote, payment frequency and VAT treatment in writing.",
+    "startingPrice": {"amount": 49, "currency": "GBP", "period": "month", "qualifier": "Lite, up to 100 users, including VAT"},
+    "tiers": [
+      {"label": "Jovo Lite", "price": "£49/month including VAT", "detail": "Up to 100 users, 20 groups, essential communication features and ChurchSuite integration."},
+      {"label": "Jovo", "price": "£110/month including VAT", "detail": "Up to 499 users, all features, live onboarding, priority support and ChurchSuite or Planning Center integrations."},
+      {"label": "Jovo", "price": "£224/month including VAT", "detail": "Published 500–999-user tier."},
+      {"label": "Jovo", "price": "£399/month including VAT", "detail": "Published 999–1,999-user tier."},
+      {"label": "Jovo Plus", "price": "Custom", "detail": "Supplier describes a multi-location, unlimited-user plan with dedicated account management."}
+    ],
+    "trialDetails": "Supplier offers an unrestricted 30-day free trial with no stated setup fee and says subscriptions can be cancelled from the admin panel or by contacting support."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Jovo publishes customer terms with a data-processing schedule. It identifies customer-controller and supplier-processor roles for community content and group membership, lists DigitalOcean and Google Cloud for UK hosting, Sendinblue in the EU for email, and Zendesk worldwide for support. Its public material also says the platform handles only users aged 13+ and requires parental or guardian consent for users under 18. A church should still assess the actual enabled features, user ages, message retention, exports, access roles, safeguarding processes and the current legal contracting party before use.",
+  "coreFeatures": ["Group messaging and one-way broadcasts", "Temporary groups", "Role-based permissions", "Admin dashboard", "Audit logs", "Image library", "Mobile and browser access", "ChurchSuite group sync", "Planning Center group integration", "Multi-location support on Plus", "Live onboarding and priority support on paid tiers"],
+  "integrations": ["ChurchSuite small-group integration", "Planning Center groups integration", "Confirm current integration scope, sync direction, data mapping and API responsibilities"],
+  "importExport": ["Customer subscription terms state that Jovo can archive relevant user-account records on behalf of a customer and share them with that customer; confirm message, member, file and audit-log export formats, timing and deletion process before adoption"],
+  "support": ["30-day unrestricted trial", "In-app support route and email support at support@jovoapp.com", "Live onboarding and priority support on published Jovo tiers", "Dedicated account manager and quarterly health checks on Plus"],
+  "decisionEvidence": {
+    "church-relevance": {"value": "Supplier positions Jovo as a church communication app and publishes ChurchSuite and Planning Center integration support, including ChurchSuite small-group synchronisation.", "state": "supplier-published", "source": "https://www.jovoapp.com/industries/churches", "checked": "2026-07-25"},
+    "pricing": {"value": "Supplier publishes GBP monthly tiers for churches and volunteers, an unrestricted 30-day trial, no stated setup fee and cancellation through the admin panel or support.", "state": "supplier-published", "source": "https://www.jovoapp.com/pricing", "checked": "2026-07-25"},
+    "data-processing": {"value": "Current customer terms describe customer-controller and supplier-processor roles and list hosting, email and support sub-processors with stated UK, EU and worldwide locations.", "state": "supplier-published", "source": "https://www.jovoapp.com/legal/terms-and-conditions", "checked": "2026-07-25"},
+    "operator-identity-boundary": {"value": "Jovo's current website terms name Jovo App Ltd and company number 12631707, while Companies House records a current JOVO APP LTD with company number 15525783 and previous names CommLoop Ltd and Joyned Ltd. Obtain the current legal contracting entity and company number in writing before purchase.", "state": "supplier-published", "source": "https://www.jovoapp.com/legal/terms-and-conditions", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "Jovo is a focused UK church and community communications option rather than a full church-management system. It is especially relevant where a church wants structured groups, broadcasts, temporary event groups and permissions without relying on personal messaging channels. The published ChurchSuite and Planning Center connections make it a plausible companion to an existing management platform. Its public contract documentation is more detailed than many communication apps, but its current company-number discrepancy is material: a church should establish who it is contracting with before entering data or paying a subscription.",
+    "bestFor": ["Churches replacing informal staff, volunteer or group messaging with a managed community space", "ChurchSuite or Planning Center users who need group communications alongside their existing data platform", "Multi-site churches and event teams needing role-controlled and temporary communication groups"],
+    "strengths": ["Church-specific use case and published UK pricing", "Mobile and browser access with role-based groups and broadcasts", "Documented ChurchSuite and Planning Center group connections", "Published 30-day unrestricted trial and cancellation route", "Published controller-processor schedule and named sub-processors"],
+    "limitations": ["Not a full member-management, giving, accounting, safeguarding-case or pastoral-care system", "Published pricing page contains alternative GBP figures, so obtain the payment frequency and final price in writing", "Current website terms cite a company number that conflicts with a Companies House record for JOVO APP LTD; confirm the contractual entity before purchase", "The platform is not intended for users under 13 and use by under-18s requires guardian consent under its terms", "Assess message retention, user roles, integrations and export scope against the church's own policy"],
+    "procurementVerdict": {"problem": "Keeping church teams and groups informed without unmanaged personal-message threads", "differentiator": "A UK communication app with church-focused group integrations, temporary groups and detailed public processing terms", "firstCheck": "Run a 30-day trial with one adult volunteer team and a non-sensitive event group; confirm the current contracting company, plan price, ChurchSuite or Planning Center data mapping, export process and user-age safeguards before wider rollout"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "Jovo church communication app", "url": "https://www.jovoapp.com/industries/churches", "checked": "2026-07-25", "supports": ["Church use case", "Communication features"]},
+    {"label": "Jovo pricing", "url": "https://www.jovoapp.com/pricing", "checked": "2026-07-25", "supports": ["GBP prices", "User tiers", "Trial", "Cancellation", "Support", "Features"]},
+    {"label": "Jovo customer subscription terms", "url": "https://www.jovoapp.com/legal/terms-and-conditions", "checked": "2026-07-25", "supports": ["Contract terms", "Data-processing schedule", "Sub-processors", "Operator identity stated by supplier"]},
+    {"label": "Jovo ChurchSuite group integration", "url": "https://www.jovoapp.com/support/how-to-set-up-a-churchsuite-group-integration-with-jovo", "checked": "2026-07-25", "supports": ["ChurchSuite integration", "API workflow"]},
+    {"label": "Companies House: JOVO APP LTD", "url": "https://find-and-update.company-information.service.gov.uk/company/15525783", "checked": "2026-07-25", "supports": ["Active company record", "Current company number", "Previous CommLoop and Joyned names", "Registered office"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "Jovo review for UK churches", "description": "Independent Jovo profile: UK church messaging, ChurchSuite integration, pricing and contracting checks."}
+}

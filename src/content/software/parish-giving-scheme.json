@@ -95,7 +95,7 @@
         "Eligibility through a participating diocese is the first constraint.",
         "Regular and one-off gifts have different payment and fee arrangements."
       ],
-      "caveat": "Parish-level access, fees and settlement arrangements should be confirmed with PGS and the local diocese before relying on this profile."
+      "caveat": "Ask PGS and the local diocese for the parish-level access, fees and settlement arrangements that would apply."
     },
     "faq": [
       {
@@ -112,7 +112,14 @@
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/parish-giving-scheme/parish-giving-scheme-logo.png",
+      "alt": "Parish Giving Scheme logo",
+      "source": "https://www.parishgiving.org.uk/pgs-logo.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

@@ -24,13 +24,13 @@ For most UK churches, the best shortlist is two to four products that meet a wri
 Start with the operational shape of your church, not the supplier with the longest feature list.
 
 - **ChurchSuite** is a strong starting point for UK churches that need a broad, connected system covering people, rotas, events and giving. It publishes GBP prices, including VAT where applicable, that scale by active contacts and chosen modules. Its Giving module documents Gift Aid claims. [ChurchSuite pricing](https://churchsuite.com/pricing/) and [Giving documentation](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module) should still be checked against the exact package you would buy.
-- **iKnow Church** is worth shortlisting where UK giving and Gift Aid are central. The supplier publishes prices by adult-member band, says VAT is included, and documents separate finance charges; verify modules, payment charges and migration help in writing. [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) and [charges](https://www.iknowchurch.co.uk/charges/).
-- **Planning Center** is a credible modular option for teams focused on people, service planning and volunteers. Its People product is free, while other products have separate capacity-based pricing. Before a UK church treats it as a final contender, it should verify payment availability, currency, Gift Aid and contract arrangements. [Planning Center People](https://www.planningcenter.com/people) and [free-use guidance](https://support.planningcenteronline.com/hc/en-us/articles/12214037068827-Use-Planning-Center-for-free).
+- **iKnow Church** is worth shortlisting where UK giving and Gift Aid are central. The supplier publishes prices by adult-member band, says VAT is included, and documents separate finance charges; ask for the required modules, payment charges and migration help in writing. [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) and [charges](https://www.iknowchurch.co.uk/charges/).
+- **Planning Center** is a credible modular option for teams focused on people, service planning and volunteers. Its People product is free, while other products have separate capacity-based pricing. Before a UK church treats it as a final contender, it should ask about payment availability, currency, Gift Aid and contract arrangements. [Planning Center People](https://www.planningcenter.com/people) and [free-use guidance](https://support.planningcenteronline.com/hc/en-us/articles/12214037068827-Use-Planning-Center-for-free).
 - **ChurchDesk** may suit a church that wants its public website, calendar and administration to share data. It publishes annual-billing GBP prices excluding VAT. Confirm Gift Aid, payment fees, the contract and the practical website-migration work. [ChurchDesk pricing](https://churchdesk.com/en/pricing/).
 - **ChMeetings** gives small teams a free starting point for up to 50 people and a 30-day trial. Its published paid prices are in US dollars, so a UK team should confirm currency, tax, payment and data arrangements before using the price as a comparison. [ChMeetings pricing](https://www.chmeetings.com/pricing/) and [trial limitations](https://help.chmeetings.com/hc/en-us/articles/17358496665116-ChMeetings-Trial-Limitations).
 - **ChurchCRM** is free, open-source software rather than a supplier-run service. It can reduce licence spend, but the church takes responsibility for hosting, updates, backups, access control and support. [ChurchCRM FAQ](https://churchcrm.io/faq.html).
 
-These are examples from this directory’s current, representative catalogue—not a market-wide ranking. “Not confirmed” is a reason to ask the supplier a better question, not evidence that a feature is absent.
+These are examples from this directory’s current, representative catalogue—not a market-wide ranking. Important gaps are expressed as supplier questions, not evidence that a feature is absent.
 
 ## The decision most churches miss
 
@@ -49,7 +49,7 @@ Use this as a starting pattern, then run the same test tasks in every shortliste
 | One UK-oriented system for people, rotas, events and giving | ChurchSuite, iKnow Church | Which exact modules, contact or member band, and Gift Aid workflow are included? |
 | A modular suite with strong service-planning and volunteer tools | Planning Center | Which products will you need, and what does the complete UK cost and giving workflow look like? |
 | A connected public website, calendar and administration process | ChurchDesk | Can the website, booking and contact workflows replace your current tools without a costly migration? |
-| A low-risk evaluation for a small church | ChMeetings | Which UK requirements remain unconfirmed once the free capacity or trial ends? |
+| A low-risk evaluation for a small church | ChMeetings | Which UK requirements need a written supplier answer once the free capacity or trial ends? |
 | No licence fee and technical control | ChurchCRM | Who is accountable for hosting, patching, backups, access reviews and incident response? |
 
 This table is not a scorecard. It only identifies the product’s decision shape. Use the directory’s [church management category](/categories/church-management/) and [comparison tool](/compare/) to test a two-to-four-product shortlist with the same evidence fields.
@@ -64,9 +64,9 @@ This is not a reason to reject cloud software automatically. It is a reason to a
 
 ### Check Gift Aid as a workflow, not a tick box
 
-Gift Aid support is only relevant if the church wants the product to help with its giving administration. When it is relevant, ask whether the exact workflow covers donor declarations, eligible donations, claim preparation, correction handling, exports and any per-claim charge. The directory currently has Gift Aid confirmed for [ChurchSuite](/software/churchsuite/) and [iKnow Church](/software/iknow-church/); it is not confirmed for [Planning Center](/software/planning-center/), [ChurchDesk](/software/churchdesk/) or [ChMeetings](/software/chmeetings/).
+Gift Aid support is only relevant if the church wants the product to help with its giving administration. When it is relevant, ask whether the exact workflow covers donor declarations, eligible donations, claim preparation, correction handling, exports and any per-claim charge. The directory cites supplier-published Gift Aid workflows for [ChurchSuite](/software/churchsuite/) and [iKnow Church](/software/iknow-church/). Ask [Planning Center](/software/planning-center/), [ChurchDesk](/software/churchdesk/) or [ChMeetings](/software/chmeetings/) to demonstrate the required workflow before relying on them for Gift Aid.
 
-Do not interpret an unconfirmed field as a product failing. Ask for the answer in writing, then check it with a realistic sample workflow.
+Do not interpret a supplier question as a product failing. Ask for the answer in writing, then check it with a realistic sample workflow.
 
 ### Compare the bill you will actually receive
 
@@ -111,7 +111,7 @@ The best church management software is the one that passes your church’s real 
 These representative directory listings are starting points, not a ranking or endorsement. Check their current evidence against the requirements and trial method above.
 
 - [ChurchSuite](/software/churchsuite/) may suit a church seeking a connected UK-oriented people, rota, events and giving service; confirm modules and contact-band cost.
-- [iKnow Church](/software/iknow-church/) may suit a UK church where management, giving and Gift Aid sit together; verify charges and the finance workflow.
+- [iKnow Church](/software/iknow-church/) may suit a UK church where management, giving and Gift Aid sit together; check the charges and test the finance workflow.
 - [Planning Center](/software/planning-center/) is relevant for a modular people and service-planning approach; confirm UK payment and Gift Aid arrangements.
 - [ChurchDesk](/software/churchdesk/) is relevant where a connected public website and administration model matters; test editor workflow, VAT and migration.
 

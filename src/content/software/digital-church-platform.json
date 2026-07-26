@@ -1,0 +1,45 @@
+{
+  "name": "The Digital Church Platform",
+  "slug": "digital-church-platform",
+  "shortDescription": "A UK church-administration platform from GIGCMO Limited offering parish websites, visitation documents, role-compliance workflows and a digital repository.",
+  "officialWebsite": "https://thedigitalchurchplatform.com/",
+  "company": "GIGCMO Limited (company number 10415269)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": ["church-management", "church-websites", "church-communications", "safeguarding"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
+  "suitableContexts": ["Churches seeking a module-based UK administration platform", "Parishes or diocesan teams managing visitation and role-compliance documentation", "Churches needing a supplier-managed parish website alongside document workflows"],
+  "pricing": {"model": "quote-based", "summary": "The supplier offers a free demo but does not publish package prices in the reviewed material. Obtain a written proposal covering selected modules, implementation, support, hosting, VAT, renewal and data-migration costs.", "tiers": [{"label": "Platform modules", "price": "Contact supplier", "detail": "Visitation Documents Management, Role Compliance, Digital Repository and Managed Parish Website"}]},
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "yes",
+  "gdprInformation": "The platform links to a privacy policy, but the current document could not be retrieved during this review. Obtain the current privacy notice, data-processing agreement, controller/processor roles, hosting location, sub-processors, retention, access controls and incident arrangements before uploading church or safeguarding-related records.",
+  "coreFeatures": ["Visitation Documents Management", "Role Compliance", "Digital Repository", "Managed Parish Website", "Church record and document workflows", "Module-based administration platform"],
+  "integrations": [],
+  "importExport": [],
+  "support": [],
+  "decisionEvidence": {
+    "uk-operator": {"value": "The platform terms identify The Digital Church Platform as a trading name of company number 10415269; Companies House identifies that company as GIGCMO Limited.", "state": "supplier-published", "source": "https://thedigitalchurchplatform.com/terms-of-use", "checked": "2026-07-25"},
+    "product-scope": {"value": "The supplier publishes modules for visitation documents, role compliance, a digital repository and a managed parish website.", "state": "supplier-published", "source": "https://thedigitalchurchplatform.com/", "checked": "2026-07-25"},
+    "safeguarding-scope": {"value": "The supplier describes Role Compliance as focused on roles and responsibilities and says it has a strong focus on safeguarding. The reviewed material does not establish that it manages safeguarding cases or replaces professional safeguarding advice.", "state": "supplier-published", "source": "https://thedigitalchurchplatform.com/role-compliance", "checked": "2026-07-25"},
+    "pricing-and-data": {"value": "Public pricing, support commitments, hosting detail and current processor documentation were not established in the reviewed material.", "state": "needs-refresh", "source": "https://thedigitalchurchplatform.com/", "checked": "2026-07-25"}
+  },
+  "editorial": {
+    "assessment": "The Digital Church Platform is a UK module-based product aimed at parish administration and digital transformation. Its published scope is more specialised than an all-purpose church database: visitation documents, role compliance, a document repository and a managed parish website. It may be relevant to churches or diocesan teams with those defined workflows, but public pricing and detailed data-processing information were not established in this review. Its role-compliance module should not be treated as a safeguarding-case management system without direct supplier evidence.",
+    "bestFor": ["Parishes seeking UK-specific document and visitation workflows", "Teams wanting a managed parish website alongside administration modules", "Organisations prepared to procure through a scoped supplier proposal"],
+    "strengths": ["Named active UK company and public company number", "Clearly defined modules rather than a vague general-purpose offer", "Public demo route", "Specific parish website, document and role-compliance use cases"],
+    "limitations": ["No public price, support or implementation information was found", "Obtain DPA, hosting, sub-processor, retention, backup and exit documentation before importing records", "The safeguarding-related claim concerns role compliance; it does not establish safeguarding-case management", "Confirm content, document and website export arrangements before contract"],
+    "procurementVerdict": {"problem": "Fragmented parish documents, compliance workflows and public-web presence", "differentiator": "A UK product combining specialised visitation and role-compliance modules with a managed parish website", "firstCheck": "Demonstrate the exact role, visitation and document workflows with realistic parish data, then agree data-processing, migration, permissions and exit terms in writing"}
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {"label": "The Digital Church Platform", "url": "https://thedigitalchurchplatform.com/", "checked": "2026-07-25", "supports": ["Module scope", "Free demo route", "Church and parish use cases"]},
+    {"label": "The Digital Church Platform terms", "url": "https://thedigitalchurchplatform.com/terms-of-use", "checked": "2026-07-25", "supports": ["Trading name", "Company number", "London registered office"]},
+    {"label": "The Digital Church Platform Role Compliance", "url": "https://thedigitalchurchplatform.com/role-compliance", "checked": "2026-07-25", "supports": ["Role-compliance scope", "Supplier safeguarding focus statement"]},
+    {"label": "Companies House: GIGCMO Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/10415269", "checked": "2026-07-25", "supports": ["Legal company name", "UK company identity"]}
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {"title": "The Digital Church Platform review", "description": "Independent Digital Church Platform profile: UK parish administration, role compliance, managed websites and due-diligence questions."}
+}

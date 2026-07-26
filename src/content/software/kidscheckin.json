@@ -117,11 +117,18 @@
       },
       {
         "question": "Does it support all label printers?",
-        "answer": "Not confirmed. The reviewed page specifically states support for Dymo LabelWriter printers; ask about your required hardware."
+        "answer": "The reviewed page specifically states support for Dymo LabelWriter printers; ask about the church’s required hardware."
       }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/kidscheckin/kidscheckin-logo.png",
+      "alt": "KidsCheckin.com logo",
+      "source": "https://kidscheckin.com/lovable-uploads/cebf9407-5551-4188-9255-e833297dabf0.png",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {

@@ -10,7 +10,9 @@ The purpose is not to maximise clicks to suppliers. It is to help a church choos
 
 The site's defensibility will come from structured, current, UK-relevant and honestly qualified information.
 
-A polished page containing guessed information is worse than an incomplete page that names what remains unknown.
+A polished page containing guessed information is worse than an incomplete page
+that omits incidental gaps and gives the reader a precise question for every
+material one.
 
 ## 3. Independence comes before monetisation
 
@@ -37,7 +39,7 @@ Readers should be able to tell:
 - what the supplier states
 - what an official document confirms
 - what the directory concludes
-- what has not been established
+- which material questions still need an answer
 
 ## 7. UK relevance must be demonstrated
 

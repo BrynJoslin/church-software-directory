@@ -39,8 +39,16 @@ export const shortlistJobs = [
 
 const knownTechnicalAdministration = (product: ShortlistProduct) => {
   const field = product.decisionEvidence["technical-administration"];
-  return field && !["not-confirmed", "possibly-outdated"].includes(field.state);
+  return field && field.state !== "needs-refresh";
 };
+
+export const decisionFieldLabel = (key: string) =>
+  decisionFieldDefinitions.find((field) => field.key === key)?.label ??
+  key.replaceAll("-", " ");
+
+export const decisionFieldQuestion = (key: string) =>
+  decisionFieldDefinitions.find((field) => field.key === key)?.question ??
+  `Ask the supplier about ${key.replaceAll("-", " ")}.`;
 
 const reasonsFor = (product: ShortlistProduct, answers: ShortlistAnswers) => {
   const reasons = [
@@ -64,7 +72,7 @@ export const unresolvedFor = (product: ShortlistProduct, answers: ShortlistAnswe
   return fields
     .filter((key) => {
       const field = product.decisionEvidence[key];
-      return !field || ["not-confirmed", "possibly-outdated"].includes(field.state);
+      return !field || field.state === "needs-refresh";
     })
     .slice(0, 3);
 };
@@ -99,3 +107,4 @@ export const answerLabels: Record<keyof Omit<ShortlistAnswers, "job">, Record<st
   approach: { any: "No preference", integrated: "Prefer an integrated system", specialist: "Prefer a specialist tool" },
   technicalAdministration: { any: "Not specified", limited: "Limited technical administration available", available: "Technical administration is available" }
 };
+import { decisionFieldDefinitions } from "./decision-evidence.ts";
