@@ -98,6 +98,23 @@
       "note": "Optional: state material scope or sample limitations."
     }
   ],
+  "publicFeedback": {
+    "status": "limited",
+    "summary": "A dated, qualified synthesis of eligible public feedback after human editorial review.",
+    "positiveThemes": [],
+    "concernThemes": [],
+    "conflictingEvidence": [],
+    "ukChurchTakeaways": ["A concrete UK church trial or supplier check."],
+    "checked": "YYYY-MM-DD",
+    "windowStart": "YYYY-MM-DD",
+    "windowEnd": "YYYY-MM-DD",
+    "itemsReviewed": 0,
+    "sourceTypes": ["Public source type"],
+    "ukEvidence": "limited",
+    "sampleMethod": "Record the eligible material and sampling approach actually used.",
+    "limitations": ["State what the scan cannot establish."],
+    "methodVersion": "1.0"
+  },
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

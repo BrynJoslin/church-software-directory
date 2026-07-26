@@ -79,6 +79,12 @@ changes or remaining questions. Do not update the date without doing the review.
 
 ## Public data export
 
+## Review public feedback scans
+
+Keep the feedback scan date separate from `lastChecked`. Recheck scans after 180 days, or earlier after a major product, app or supplier change. Confirm profile scope, source availability, date range, source-permission position, theme support and contrary evidence. Do not automatically rewrite a public summary from newly found material. Report a misleading scan through `/update-a-listing/`; retain the internal challenge and editorial-decision record outside the public repository.
+
+## Public data export
+
 `npm run prepare:data` generates `public/data/software.json` from publishable
 software fields. It excludes editorial assessment and any future private notes.
 The command runs automatically before checks, builds and local development.

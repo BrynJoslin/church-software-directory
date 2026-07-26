@@ -205,6 +205,12 @@ and that they do not form part of the directory’s independent assessment. Do
 not import review content, add platform widgets or scripts, imply partnership or
 endorsement, or emit aggregate rating or review structured data.
 
+### Public feedback scan (optional during migration)
+
+`publicFeedback` is the single public synthesis of eligible public feedback. It is separate from supplier facts and directory assessment. Use one of `themes-found`, `limited` or `no-usable-feedback`; never use a completed state for an unresearched product. Every scan records its checked date, feedback window, item count, source types, UK-evidence level, sampling method, limitations and method version. Themes require at least one matching URL in the listing's normal `sources[]`; no-usable-feedback must not include themes.
+
+Do not include copied review wording, names, handles, profile identifiers, ratings, counts or sensitive allegations. Record only original, qualified summaries after source-permission and human editorial review. `externalReviews` may provide matched profile links within this panel, but is not a theme source unless it is also recorded in `sources[]`.
+
 ## Categories
 
 Category entries are Markdown files in `src/content/categories/`.

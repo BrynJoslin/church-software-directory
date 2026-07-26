@@ -6,6 +6,14 @@ Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
+- Public feedback scan infrastructure is implemented: a validated optional
+  `publicFeedback` field, static accessible panel, profile-link integration,
+  methodology, source register and content-integrity rules. It remains in
+  staged migration: no product has yet been marked as scanned because the
+  required private evidence ledger, source-by-source permission assessment and
+  human editorial/legal approval must precede publication. Do not treat the
+  panel's absence as a finding of no public feedback.
+
 - The 26 July 2026 external-review audit checked the active catalogue against
   Trustpilot, the Apple App Store and Google Play. It retains only directly
   matched public product or company profiles, records scope explicitly and

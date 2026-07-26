@@ -355,6 +355,23 @@ Do not add a server adapter unless server functionality is explicitly approved.
 
 ## Testing
 
+## Public feedback scans
+
+`publicFeedback` is an optional, top-level software field during the staged
+migration. Its static panel replaces the standalone external-review block for
+migrated listings; matched profile links remain visible without ratings or
+counts. A completed scan must use an honest evidence state, record dates,
+sampling, source types, UK relevance and limitations, and link every published
+theme to a source already recorded in `sources[]`. The item-level research
+ledger is private and must never be exported with public software data.
+
+Before adding a scan, follow `docs/PUBLIC_FEEDBACK_SCAN_IMPLEMENTATION_PLAN.md`
+and `docs/PUBLIC_FEEDBACK_SOURCE_REGISTER.md`. Human editorial approval and the
+required legal/method review precede any public synthesis. Until then, omit the
+field rather than presenting a listing as having no feedback.
+
+## Testing
+
 Use the lightest testing method that gives meaningful confidence.
 
 Before completing substantial work, verify:
