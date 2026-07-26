@@ -194,29 +194,5 @@
       "source": "https://images.squarespace-cdn.com/content/v1/614be91d66d6d5295b9c39b1/e7a6b599-d416-4348-81f3-134c62d25491/favicon.ico?format=100w",
       "checked": "2026-07-26"
     }
-  },
-  "publicFeedback": {
-    "status": "no-usable-feedback",
-    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
-    "positiveThemes": [],
-    "concernThemes": [],
-    "conflictingEvidence": [],
-    "ukChurchTakeaways": [],
-    "checked": "2026-07-26",
-    "windowStart": "2024-07-26",
-    "windowEnd": "2026-07-26",
-    "itemsReviewed": 0,
-    "sourceTypes": [
-      "Public web-search discovery",
-      "Matched external review profiles where recorded"
-    ],
-    "ukEvidence": "none-found",
-    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
-    "limitations": [
-      "Search coverage cannot establish everything said online.",
-      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
-      "This result does not mean that no one has reviewed the product."
-    ],
-    "methodVersion": "1.0"
   }
 }

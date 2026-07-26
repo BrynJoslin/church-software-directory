@@ -195,29 +195,5 @@
   "seo": {
     "title": "ChurchBox review for UK churches",
     "description": "Independent ChurchBox profile: free church directory, rotas, events, GBP pricing, data terms and due-diligence questions."
-  },
-  "publicFeedback": {
-    "status": "no-usable-feedback",
-    "summary": "We did not retain usable public feedback for a thematic synthesis from the sources and date range checked. Matched external profiles, where available, are linked below for readers to assess directly.",
-    "positiveThemes": [],
-    "concernThemes": [],
-    "conflictingEvidence": [],
-    "ukChurchTakeaways": [],
-    "checked": "2026-07-26",
-    "windowStart": "2024-07-26",
-    "windowEnd": "2026-07-26",
-    "itemsReviewed": 0,
-    "sourceTypes": [
-      "Public web-search discovery",
-      "Matched external review profiles where recorded"
-    ],
-    "ukEvidence": "none-found",
-    "sampleMethod": "The full documented product-name query pack was run across public web search. Results were used for discovery only; no item was retained unless its scope and source-permission position permitted an original anonymised evidence note.",
-    "limitations": [
-      "Search coverage cannot establish everything said online.",
-      "Review-platform and app-store material was not used for thematic synthesis without a source-specific permitted-use route.",
-      "This result does not mean that no one has reviewed the product."
-    ],
-    "methodVersion": "1.0"
   }
 }
