@@ -36,6 +36,14 @@
     "claim-workflow-and-pricing": {"value": "Supplier documents platform, data-upload and finder claim services, including current published plan and success-fee prices.", "state": "supplier-published", "source": "https://www.swiftaid.co.uk/pricing/", "checked": "2026-07-25"},
     "charity-nominee-workflow": {"value": "Supplier says charities register it as nominee, link a donation source or upload data, and it validates information and submits Gift Aid claims to HMRC on the charity's behalf.", "state": "supplier-published", "source": "https://www.swiftaid.co.uk/guide/charity/questions-about-swiftaid/how-does-swiftaid-work/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/swiftaid/swiftaid-logo.png",
+      "alt": "Swiftaid logo",
+      "source": "https://www.swiftaid.co.uk/images/favicon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Swiftaid is a UK Gift Aid service, not a church-management system, donor CRM or general donation platform. It may suit a church charity that already takes donations through an appropriate source and wants an intermediary to validate, submit and manage Gift Aid claims. The published platform allowance and service fees make it worth modelling for smaller and larger claims alike, but a church must confirm whether its actual payment and donation routes can connect, who controls each element of donor data, and how records remain accessible for audit.",
     "bestFor": ["Church charities with a compatible existing donation source", "Treasurers wanting to outsource or simplify HMRC Gift Aid claim processing", "Churches able to test the nominee, reconciliation and audit-record workflow before launch"],

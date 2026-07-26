@@ -34,6 +34,14 @@
     "church-workflow": {"value": "Supplier has a church-specific page covering worship, welcome, media, youth and prayer rotas, reminders, swaps and leader oversight.", "state": "supplier-published", "source": "https://www.sharerota.com/use-cases/churches", "checked": "2026-07-25"},
     "gbp-pricing": {"value": "Supplier publishes monthly GBP plans at £9, £19 and £39, with a 14-day free trial.", "state": "supplier-published", "source": "https://www.sharerota.com/pricing", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/sharerota/sharerota-logo.png",
+      "alt": "ShareRota logo",
+      "source": "https://www.sharerota.com/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "ShareRota is a focused scheduling option for churches that need to organise several ministry teams without adopting a broader church-management system. Its published tiers, UK operator statement and church-specific workflow make it a useful specialist comparison. The public research index did not expose the contents of its linked legal pages, so it should be assessed with a current supplier privacy and processing pack before the church stores personal information or sends SMS reminders.",
     "bestFor": ["Churches wanting a specialist rota tool for several ministry teams", "Teams that need controlled swaps, recurring schedules and permissions", "Churches that value published GBP pricing and a no-card trial"],

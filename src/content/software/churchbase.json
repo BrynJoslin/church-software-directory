@@ -54,6 +54,7 @@
     {"label": "ChurchBase terms of use", "url": "https://churchbase.co.uk/terms/", "checked": "2026-07-25", "supports": ["Platform purpose", "Customer responsibility boundary", "Company identity", "Terms date"]},
     {"label": "Companies House: ChurchBase Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/17297107", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
   ],
+  "externalReviews": [{"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/churchbase.com", "rating": 2.4, "maximumRating": 5, "reviewCount": 11, "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile has a small number of largely historical reviews and does not establish suitability for UK churches."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "ChurchBase review for UK churches", "description": "Independent ChurchBase profile: UK church safeguarding and compliance records, published scope, indicative pricing and procurement questions."}

@@ -33,6 +33,14 @@
     "website-workflow": {"value": "Supplier describes a church website system with separate content and design management, media handling, responsive images, integrations and Azure cloud hosting.", "state": "supplier-published", "source": "https://churchee.com/", "checked": "2026-07-25"},
     "pricing-and-beta": {"value": "Supplier publishes £30, £50 and £100 monthly plans, each with a 36-month contract, and says Churchee is currently in beta.", "state": "supplier-published", "source": "https://churchee.com/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchee/churchee-logo.png",
+      "alt": "Churchee logo",
+      "source": "https://churchee.com/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Churchee is a focused UK church-website product rather than a general design agency service. Its public offer gives a useful early indication of website, media, hosting and integration scope, but it remains in beta and its published 36-month contract makes contract and exit diligence essential. A church should also establish exactly which third-party tools are supported before treating automated sermon, event or social-content publishing as part of the purchase.",
     "bestFor": ["Churches willing to evaluate a Welsh beta product with managed hosting and a clear published price direction", "Teams that want their website to draw content from existing church tools", "Churches that value a content-editor workflow separated from template and design changes"],

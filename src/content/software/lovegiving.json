@@ -32,6 +32,14 @@
     "giving-workflow": {"value": "Supplier describes branded giving pages, one-off and recurring donations, automated Gift Aid and ExpensePlus integration; its support material describes fund-specific links and multi-site options.", "state": "supplier-published", "source": "https://support.expenseplus.co.uk/article/579-setting-up-and-customising-your-lovegiving-online-donations-page", "checked": "2026-07-25"},
     "published-fee-example": {"value": "Supplier gives a fee example of 2.2% plus 20p for a £20 donation with Gift Aid, totalling 64p.", "state": "supplier-published", "source": "https://lovegiving.co.uk/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/lovegiving/lovegiving-logo.png",
+      "alt": "LoveGiving logo",
+      "source": "https://lovegiving.co.uk/img/favicon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "LoveGiving is not a standalone donation platform: it is the online-giving module for ExpensePlus customers. That constraint can be a strength for a church that already relies on ExpensePlus, because donation, fund and Gift Aid information can be handled in the same operating environment. It is less suitable for a church that wants a separate giving service, and the full payment, data-processing and exit arrangement should be understood across both ExpensePlus and Stripe.",
     "bestFor": ["Existing ExpensePlus churches and charities", "Churches needing fund-specific, branded links alongside their ExpensePlus finance workflow", "Teams wanting an online Gift Aid declaration journey connected to their donation records"],

@@ -5,15 +5,8 @@
   "officialWebsite": "https://www.aplos.com/",
   "company": "Aplos Software",
   "ukFocus": "general",
-  "categories": [
-    "church-accounting",
-    "online-giving"
-  ],
-  "suitableChurchSizes": [
-    "small",
-    "medium",
-    "large"
-  ],
+  "categories": ["church-accounting", "online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large"],
   "suitableContexts": [
     "Churches evaluating fund-accounting software",
     "Treasurers needing financial reports by fund"
@@ -65,28 +58,18 @@
   ],
   "integrations": [],
   "importExport": [],
-  "support": [
-    "Email, phone and chat support",
-    "Training webinars"
-  ],
+  "support": ["Email, phone and chat support", "Training webinars"],
   "editorial": {
     "assessment": "Aplos is primarily a fund-accounting decision. Its US-dollar pricing and US nonprofit features mean a UK church should validate VAT, Gift Aid, statutory reporting, bank connections and accountant workflow before using it as its ledger.",
-    "bestFor": [
-      "Treasurers needing fund accounting and board reporting"
-    ],
+    "bestFor": ["Treasurers needing fund accounting and board reporting"],
     "strengths": [
       "Published plan structure and 15-day trial",
       "Fund-accounting reporting is central to the product"
     ],
     "limitations": [
       "US-focused tax and reporting context",
-      "Ask the supplier to demonstrate the required UK charity, VAT and Gift Aid workflows"
-    ],
-    "procurementVerdict": {
-      "problem": "Treasurers needing fund accounting and board reporting",
-      "differentiator": "Fund accounting",
-      "firstCheck": "US-focused tax and reporting context"
-    }
+      "UK charity, VAT and Gift Aid fit require supplier evidence"
+    ]
   },
   "longForm": {
     "verdict": "Aplos can be a useful accounting shortlist option when fund reporting is the primary need, but it should be assessed by the treasurer and accountant against UK requirements before any migration.",
@@ -100,7 +83,7 @@
         "question": "Can the church recreate its actual financial controls?",
         "paragraphs": [
           "Aplos publishes fund accounting, bank reconciliation, reporting and paid tiers that add budgeting, payables and receivables.",
-          "Use the trial with a copy of a recent month: funds, bank reconciliation, reports and exports. Do not infer UK tax or Gift Aid treatment without written supplier terms and appropriate professional advice."
+          "Use the trial with a copy of a recent month: funds, bank reconciliation, reports and exports. Do not use a trial to infer UK tax or Gift Aid treatment without direct confirmation."
         ]
       }
     ],
@@ -123,7 +106,7 @@
       },
       {
         "question": "Is Aplos suitable for UK church accounting?",
-        "answer": "Ask the supplier to demonstrate VAT, Gift Aid, UK reporting, banking and accountant requirements before adoption."
+        "answer": "Ask the supplier for evidence covering VAT, Gift Aid, UK reporting, banking and accountant requirements before adoption."
       }
     ]
   },
@@ -133,22 +116,13 @@
       "label": "Aplos pricing",
       "url": "https://www.aplos.com/pricing",
       "checked": "2026-07-25",
-      "supports": [
-        "Pricing",
-        "Fund accounting",
-        "Features",
-        "Support"
-      ]
+      "supports": ["Pricing", "Fund accounting", "Features", "Support"]
     },
     {
       "label": "Aplos free trial",
       "url": "https://www.aplos.com/free-trial",
       "checked": "2026-07-25",
-      "supports": [
-        "15-day trial",
-        "No-card trial",
-        "Plan details"
-      ]
+      "supports": ["15-day trial", "No-card trial", "Plan details"]
     }
   ],
   "affiliateRelationship": "no",

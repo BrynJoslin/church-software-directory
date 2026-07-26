@@ -160,6 +160,7 @@
       ]
     }
   ],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/ticket-tailor/id6443722054", "rating": 4.67856, "maximumRating": 5, "reviewCount": 28, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as Ticket Tailor."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.tickettailor.checkinapp", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This companion listing is published as Ticket Tailor Check-in App; this directory has not recorded an aggregate rating or review count."}, {"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/tickettailor.com", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for Ticket Tailor and does not establish suitability for a particular church."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

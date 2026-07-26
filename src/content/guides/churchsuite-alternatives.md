@@ -36,7 +36,7 @@ This is a starting map, not a ranked market list. It reflects the current repres
 
 ChurchSuite’s alternative is not necessarily another platform. It is often a different operating model.
 
-ChurchSuite makes sense when a church genuinely wants shared people records, rotas, events, groups and giving. Its published GBP prices vary by active contacts and chosen modules; UK pricing is inclusive of VAT where applicable. Its Giving module documents UK Gift Aid declarations and HMRC claims. [ChurchSuite pricing](https://churchsuite.com/pricing/) and [Giving documentation](https://support.churchsuite.com/article/455-getting-started-with-the-giving-module).
+ChurchSuite makes sense when a church genuinely wants shared people records, rotas, events, groups and giving. Its published GBP prices vary by active contacts and chosen modules; UK pricing is inclusive of VAT where applicable. Its Giving module documents UK Gift Aid declarations and HMRC claims. <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a> and <a href="https://support.churchsuite.com/article/455-getting-started-with-the-giving-module" target="_blank" rel="noopener noreferrer">Giving documentation</a>.
 
 That breadth is a strength only if the church can name an owner, clean and maintain data, agree access roles and retire shadow systems. If the real need is only a better rota, a safer giving workflow or a church website, a narrower alternative may be cheaper and easier to sustain.
 
@@ -44,31 +44,31 @@ That breadth is a strength only if the church can name an owner, clean and maint
 
 ### Planning Center: choose the tools you need
 
-Planning Center’s People database is free, and each other product has its own pricing measure and free tier. Its model can suit a team that wants to start with people records or service planning rather than adopt a full suite. The supplier says the first 30 days are free and there are no setup fees or contracts. [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html).
+Planning Center’s People database is free, and each other product has its own pricing measure and free tier. Its model can suit a team that wants to start with people records or service planning rather than adopt a full suite. The supplier says the first 30 days are free and there are no setup fees or contracts. <a href="https://help.planningcenter.com/en/136790-planning-center-pricing.html" target="_blank" rel="noopener noreferrer">Planning Center pricing</a>.
 
 The risk is incomplete total-cost thinking. Confirm the complete set of products, equipment, payment arrangements, data-processing terms and UK Gift Aid workflow before deciding it is a cheaper equivalent. Ask Planning Center to demonstrate any required UK Gift Aid workflow.
 
 ### iKnow Church and ChurchLinker: UK-oriented alternatives
 
-iKnow Church publishes pricing by adult-member band, states that VAT is included, and documents Gift Aid and separate finance charges. [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) and [charges](https://www.iknowchurch.co.uk/charges/). It is a credible alternative when connected UK administration and giving are central. Test exact modules, payment charges, export and migration support.
+iKnow Church publishes pricing by adult-member band, states that VAT is included, and documents Gift Aid and separate finance charges. <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a> and <a href="https://www.iknowchurch.co.uk/charges/" target="_blank" rel="noopener noreferrer">charges</a>. It is a credible alternative when connected UK administration and giving are central. Test exact modules, payment charges, export and migration support.
 
-ChurchLinker publishes a permanent free plan to 50 contacts, GBP bands thereafter and describes Gift Aid and GASDS reporting. Its newer-product status means that practical trial evidence matters especially: validate the workflow, support, data processing and migration that your church relies on. [ChurchLinker product and pricing](https://churchlinker.com/).
+ChurchLinker publishes a permanent free plan to 50 contacts, GBP bands thereafter and describes Gift Aid and GASDS reporting. Its newer-product status means that practical trial evidence matters especially: validate the workflow, support, data processing and migration that your church relies on. <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker product and pricing</a>.
 
 ### ChurchDesk: choose a website-and-administration model
 
-ChurchDesk is not simply a ChurchSuite replacement. It is a more natural starting point for a church that wants its public website, calendar, bookings and administration to share a platform. It publishes annual-billing GBP prices excluding VAT. [ChurchDesk pricing](https://churchdesk.com/en/pricing/).
+ChurchDesk is not simply a ChurchSuite replacement. It is a more natural starting point for a church that wants its public website, calendar, bookings and administration to share a platform. It publishes annual-billing GBP prices excluding VAT. <a href="https://churchdesk.com/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchDesk pricing</a>.
 
 Do not make that choice from a homepage mock-up. Ask editors to publish a service change, create an event, update a contact and manage a room booking. Confirm the contract, VAT, Gift Aid and payment detail separately.
 
 ### ChMeetings: choose low-risk evaluation
 
-ChMeetings publishes a free-forever plan up to 50 people and paid plans starting in US dollars, with a 30-day no-card trial. [ChMeetings pricing](https://www.chmeetings.com/pricing/). That makes it useful for a small church that needs evidence before committing.
+ChMeetings publishes a free-forever plan up to 50 people and paid plans starting in US dollars, with a 30-day no-card trial. <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings pricing</a>. That makes it useful for a small church that needs evidence before committing.
 
 Free entry is not UK fit. Check the currency, payment model, support, data-processing terms and any Gift Aid requirement. Use the trial with fictional data and a fixed task script.
 
 ### ChurchCRM: choose responsibility, not just free software
 
-ChurchCRM is open source and has no licence, subscription or per-member charge. It does not provide a supplier-run hosted service. [ChurchCRM FAQ](https://churchcrm.io/faq.html). It is an alternative for a church with reliable technical stewardship, not simply a free version of a hosted suite.
+ChurchCRM is open source and has no licence, subscription or per-member charge. It does not provide a supplier-run hosted service. <a href="https://churchcrm.io/faq.html" target="_blank" rel="noopener noreferrer">ChurchCRM FAQ</a>. It is an alternative for a church with reliable technical stewardship, not simply a free version of a hosted suite.
 
 Before choosing it, name the person or provider responsible for hosting, updates, secure access, backups, restoration testing, incident response and support. If those roles are vague, the subscription saving is not a saving.
 
@@ -115,11 +115,11 @@ These listings offer different operating-model alternatives to ChurchSuite. They
 
 Researched 25 July 2026 from official supplier pages. Prices, terms and features change, so check the relevant plan and written terms before a migration. This guide does not provide hands-on testing or an overall score.
 
-- [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
-- [Planning Center pricing](https://help.planningcenter.com/en/136790-planning-center-pricing.html) (accessed 25 July 2026)
-- [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) (accessed 25 July 2026)
-- [ChurchDesk pricing](https://churchdesk.com/en/pricing/) (accessed 25 July 2026)
-- [ChMeetings pricing](https://www.chmeetings.com/pricing/) (accessed 25 July 2026)
-- [ChurchCRM FAQ](https://churchcrm.io/faq.html) (accessed 25 July 2026)
-- [ChurchLinker](https://churchlinker.com/) (accessed 25 July 2026)
-- [ICO: controller–processor contracts](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/) (accessed 25 July 2026)
+- <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a> (accessed 25 July 2026)
+- <a href="https://help.planningcenter.com/en/136790-planning-center-pricing.html" target="_blank" rel="noopener noreferrer">Planning Center pricing</a> (accessed 25 July 2026)
+- <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a> (accessed 25 July 2026)
+- <a href="https://churchdesk.com/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchDesk pricing</a> (accessed 25 July 2026)
+- <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings pricing</a> (accessed 25 July 2026)
+- <a href="https://churchcrm.io/faq.html" target="_blank" rel="noopener noreferrer">ChurchCRM FAQ</a> (accessed 25 July 2026)
+- <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/" target="_blank" rel="noopener noreferrer">ICO: controller–processor contracts</a> (accessed 25 July 2026)

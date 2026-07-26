@@ -5,15 +5,8 @@
   "officialWebsite": "https://clearstream.io/",
   "company": "Clearstream",
   "ukFocus": "general",
-  "categories": [
-    "church-communications"
-  ],
-  "suitableChurchSizes": [
-    "small",
-    "medium",
-    "large",
-    "multi-site"
-  ],
+  "categories": ["church-communications"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
   "suitableContexts": [
     "Churches evaluating dedicated SMS and email communication",
     "Teams needing a separate messaging layer alongside a people database"
@@ -53,6 +46,7 @@
   },
   "freePlan": "no",
   "freeTrial": "yes",
+  "giftAid": "unknown",
   "demoAvailable": "unknown",
   "coreFeatures": [
     "Mass SMS",
@@ -62,15 +56,11 @@
     "NFC tags",
     "Engagement metrics"
   ],
-  "integrations": [
-    "Planning Center"
-  ],
+  "integrations": ["Planning Center"],
   "importExport": [],
-  "support": [
-    "Chat, email, phone and Zoom support"
-  ],
+  "support": ["Chat, email, phone and Zoom support"],
   "editorial": {
-    "assessment": "Clearstream is a messaging layer, not a replacement for a governed church people database. UK churches should ask about UK number availability, message delivery, costs and opt-out handling, then check their own consent and PECR responsibilities before importing contacts.",
+    "assessment": "Clearstream is a messaging layer, not a replacement for a governed church people database. UK churches should obtain supplier evidence for number availability, message delivery, costs, consent, opt-out and PECR responsibilities before importing contacts.",
     "bestFor": [
       "Churches that need intentional text-message journeys",
       "Teams keeping their system of record elsewhere"
@@ -81,13 +71,8 @@
     ],
     "limitations": [
       "Published pricing is US-oriented",
-      "Ask the supplier about UK SMS compliance and availability"
-    ],
-    "procurementVerdict": {
-      "problem": "Churches that need intentional text-message journeys",
-      "differentiator": "Mass SMS",
-      "firstCheck": "Published pricing is US-oriented"
-    }
+      "UK SMS compliance and availability require supplier evidence"
+    ]
   },
   "longForm": {
     "verdict": "Clearstream is worth considering when messaging is a real operational discipline rather than an occasional broadcast. Its value depends on contact consent, integration and message-volume planning.",
@@ -128,35 +113,45 @@
       }
     ]
   },
-  "brandAssets": {
-    "logo": {
-      "src": "/images/software/clearstream/clearstream-logo.png",
-      "alt": "Clearstream logo",
-      "source": "https://clearstream.io/images/logo-square.png",
-      "checked": "2026-07-25"
-    }
-  },
   "lastChecked": "2026-07-25",
   "sources": [
     {
       "label": "Clearstream pricing",
       "url": "https://clearstream.io/pricing/",
       "checked": "2026-07-25",
-      "supports": [
-        "Pricing",
-        "Credits",
-        "30-day trial",
-        "Support"
-      ]
+      "supports": ["Pricing", "Credits", "30-day trial", "Support"]
     },
     {
       "label": "Clearstream overview",
       "url": "https://clearstream.io/",
       "checked": "2026-07-25",
-      "supports": [
-        "Messaging features",
-        "Planning Center integration"
-      ]
+      "supports": ["Messaging features", "Planning Center integration"]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/clearstream/id835273539",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Clearstream name; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/clearstream-tap/id6748449782",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Clearstream Tap; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.clearstream.android",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Clearstream name; this directory has not recorded an aggregate rating or review count."
     }
   ],
   "affiliateRelationship": "no",

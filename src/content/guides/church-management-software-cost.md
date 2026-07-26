@@ -35,7 +35,7 @@ This is a cost guide for church-management software and connected giving/operati
 | [Elvanto](/software/elvanto/) | $19/month for up to 50 active adults. | Active adults, annual billing and a stated setup cost. |
 | [ChMeetings](/software/chmeetings/) | Free to 50 people; paid plans from $12/month for 100 people. | People count, add-ons and US-dollar billing. |
 
-See [ChurchSuite pricing](https://churchsuite.com/pricing/), [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow), [ChurchDesk pricing](https://churchdesk.com/en/pricing/), [ChurchTools pricing](https://church.tools/en/pricing/) and [Elvanto pricing](https://www.elvanto.com/pricing/). Prices and tax treatment change; check the live supplier page and written proposal.
+See <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a>, <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a>, <a href="https://churchdesk.com/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchDesk pricing</a>, <a href="https://church.tools/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchTools pricing</a> and <a href="https://www.elvanto.com/pricing/" target="_blank" rel="noopener noreferrer">Elvanto pricing</a>. Prices and tax treatment change; check the live supplier page and written proposal.
 
 ## Budget these seven lines
 
@@ -102,9 +102,9 @@ Do not hide uncertainty in a contingency line. State whether a figure comes from
 
 Researched 25 July 2026 from official supplier material. This guide is not financial advice and does not estimate a total for an individual church.
 
-- [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
-- [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) (accessed 25 July 2026)
-- [ChurchDesk pricing](https://churchdesk.com/en/pricing/) (accessed 25 July 2026)
-- [ChurchTools pricing](https://church.tools/en/pricing/) (accessed 25 July 2026)
-- [Elvanto pricing](https://www.elvanto.com/pricing/) (accessed 25 July 2026)
-- [Charity Commission: internal financial controls](https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities) (accessed 25 July 2026)
+- <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a> (accessed 25 July 2026)
+- <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a> (accessed 25 July 2026)
+- <a href="https://churchdesk.com/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchDesk pricing</a> (accessed 25 July 2026)
+- <a href="https://church.tools/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchTools pricing</a> (accessed 25 July 2026)
+- <a href="https://www.elvanto.com/pricing/" target="_blank" rel="noopener noreferrer">Elvanto pricing</a> (accessed 25 July 2026)
+- <a href="https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities" target="_blank" rel="noopener noreferrer">Charity Commission: internal financial controls</a> (accessed 25 July 2026)

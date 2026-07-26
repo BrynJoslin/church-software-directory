@@ -35,5 +35,13 @@
     {"label": "Companies House: ABACUS APPS LIMITED", "url": "https://find-and-update.company-information.service.gov.uk/company/11757195", "checked": "2026-07-25", "supports": ["UK company record", "Active status"]}
   ],
   "affiliateRelationship": "no", "sponsored": false,
-  "seo": {"title": "The Donation App review for UK churches", "description": "Independent The Donation App profile: UK Gift Aid automation, donation channels, pricing and data checks."}
+  "seo": {"title": "The Donation App review for UK churches", "description": "Independent The Donation App profile: UK Gift Aid automation, donation channels, pricing and data checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/the-donation-app/the-donation-app-logo.webp",
+      "alt": "The Donation App logo",
+      "source": "https://images.squarespace-cdn.com/content/v1/614be91d66d6d5295b9c39b1/e7a6b599-d416-4348-81f3-134c62d25491/favicon.ico?format=100w",
+      "checked": "2026-07-26"
+    }
+  }
 }

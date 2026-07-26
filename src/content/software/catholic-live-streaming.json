@@ -33,6 +33,14 @@
     "service-scope": {"value": "Supplier describes livestreaming and archiving Masses and other parish services, with UK Catholic parish clients and camera-installation options.", "state": "supplier-published", "source": "https://www.catholiclivestreaming.co.uk/", "checked": "2026-07-25"},
     "gbp-pricing": {"value": "Supplier publishes £39, £65 and £115 monthly packages, with stated separate installation starting prices.", "state": "supplier-published", "source": "https://www.catholiclivestreaming.co.uk/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/catholic-live-streaming/catholic-live-streaming-logo.png",
+      "alt": "Catholic Live Streaming logo",
+      "source": "https://irp-cdn.multiscreensite.com/4fd01883/dms3rep/multi/LOGO-NINE.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Catholic Live Streaming is a UK managed digital-service option for parishes that want a supplier to combine camera installation, service broadcasting, recordings and, at the highest tier, a parish website. It is not a self-service church-management system or a substitute for a church's own safeguarding, consent and copyright processes. Its strongest fit is a Catholic parish seeking a managed broadcast arrangement rather than an AV team choosing standalone software.",
     "bestFor": ["Catholic parishes wanting supplier-managed Mass streaming and recording", "Churches that need installation as well as an ongoing streaming service", "Parishes wanting a combined website and broadcast package"],

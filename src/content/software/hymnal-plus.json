@@ -34,6 +34,14 @@
     "published-pricing": {"value": "Supplier publishes GBP prices for the HT-400 player, accessories and additional repertoire, including VAT and mainland-UK carriage information.", "state": "supplier-published", "source": "https://www.hymntechnology.co.uk/prices", "checked": "2026-07-25"},
     "product-functions": {"value": "Supplier documents an HT-400 player with core UK hymn repertoire and additional book-index and Psalm Player options; its FAQ also refers to own MIDI files and SD-card storage.", "state": "supplier-published", "source": "https://www.hymntechnology.co.uk/faqs", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/hymnal-plus/hymnal-plus-logo.jpg",
+      "alt": "Hymnal Plus logo",
+      "source": "https://irp.cdn-website.com/8c5348d8/dms3rep/multi/favicon32.jpg",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Hymnal Plus is dedicated hardware with embedded music software, not a full church-management platform or a conventional lyric-projection application. It is a relevant UK worship option for a hymn-led church that needs consistent accompaniment without relying on a live musician. The substantial up-front cost and repertoire model make a real service demonstration, audio test and copyright review essential before purchase.",
     "bestFor": ["Hymn-led churches without a dependable regular musician", "Parishes that need programmable accompaniment and hymn-book indexes", "Churches seeking a self-contained, portable worship-music device"],

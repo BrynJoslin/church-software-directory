@@ -5,17 +5,8 @@
   "officialWebsite": "https://flocknote.com/",
   "company": "Flocknote",
   "ukFocus": "general",
-  "categories": [
-    "church-communications",
-    "church-management",
-    "online-giving"
-  ],
-  "suitableChurchSizes": [
-    "small",
-    "medium",
-    "large",
-    "multi-site"
-  ],
+  "categories": ["church-communications", "church-management", "online-giving"],
+  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
   "suitableContexts": [
     "Churches prioritising email and text communication",
     "Catholic parishes and churches managing registrations and households"
@@ -59,15 +50,8 @@
     "Household database",
     "Attendance and registration"
   ],
-  "integrations": [
-    "Website sign-up forms",
-    "RSS feeds",
-    "Social posting"
-  ],
-  "importExport": [
-    "Data-transfer service on Complete",
-    "Giving-data export"
-  ],
+  "integrations": ["Website sign-up forms", "RSS feeds", "Social posting"],
+  "importExport": ["Data-transfer service on Complete", "Giving-data export"],
   "support": [
     "Supplier demo",
     "Training and migration for enterprise accounts"
@@ -84,13 +68,8 @@
     ],
     "limitations": [
       "US-dollar pricing",
-      "Ask the supplier about UK payment, Gift Aid, data-processing and messaging compliance"
-    ],
-    "procurementVerdict": {
-      "problem": "Teams that want communications and sign-ups before a full operational suite",
-      "differentiator": "Email and standard text messages",
-      "firstCheck": "US-dollar pricing"
-    }
+      "UK payment, Gift Aid, data-processing and messaging compliance require supplier evidence"
+    ]
   },
   "longForm": {
     "verdict": "Flocknote is most relevant where scattered church communication is the primary pain point. Its value should be assessed by whether it can centralise permissions, groups and sign-ups without creating a second uncontrolled people database.",
@@ -131,17 +110,9 @@
       },
       {
         "question": "Does Flocknote support UK Gift Aid?",
-        "answer": "Ask the supplier to demonstrate payment availability, Gift Aid and donor reporting directly with Flocknote."
+        "answer": "Ask Flocknote for evidence covering payment availability, Gift Aid and donor reporting."
       }
     ]
-  },
-  "brandAssets": {
-    "logo": {
-      "src": "/images/software/flocknote/flocknote-logo.webp",
-      "alt": "Flocknote logo",
-      "source": "https://flocknote.com/wp-content/uploads/2021/12/New-Flocknote-Logo.webp",
-      "checked": "2026-07-25"
-    }
   },
   "lastChecked": "2026-07-25",
   "sources": [
@@ -149,23 +120,13 @@
       "label": "Flocknote pricing",
       "url": "https://flocknote.com/pricing/",
       "checked": "2026-07-25",
-      "supports": [
-        "Pricing",
-        "Free plan",
-        "Trial",
-        "Features",
-        "Demo"
-      ]
+      "supports": ["Pricing", "Free plan", "Trial", "Features", "Demo"]
     },
     {
       "label": "Flocknote pricing help",
       "url": "https://help.flocknote.com/article/81-does-it-cost-anything-to-use-flocknote",
       "checked": "2026-07-25",
-      "supports": [
-        "Free tier",
-        "Pricing model",
-        "Giving"
-      ]
+      "supports": ["Free tier", "Pricing model", "Giving"]
     }
   ],
   "affiliateRelationship": "no",

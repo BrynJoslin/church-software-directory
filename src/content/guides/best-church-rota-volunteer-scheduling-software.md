@@ -36,7 +36,7 @@ Churches need different things: a simple monthly welcome rota, several Sunday te
 | [Elvanto](/software/elvanto/) | Combined people, volunteer scheduling and service planning. | Full cost, setup and UK operating fit. |
 | [ChurchLinker](/software/churchlinker/) | Published rotas in a UK-first broader platform. | Trial workflow and product maturity. |
 
-ChurchSuite documents availability, accept/decline responses, swaps and capacity; Planning Center documents Services as service planning and volunteer scheduling. [ChurchSuite rota guidance](https://support.churchsuite.com/article/361-managing-my-rotas-in-my-churchsuite) and [Planning Center Services](https://www.planningcenter.com/services).
+ChurchSuite documents availability, accept/decline responses, swaps and capacity; Planning Center documents Services as service planning and volunteer scheduling. <a href="https://support.churchsuite.com/article/361-managing-my-rotas-in-my-churchsuite" target="_blank" rel="noopener noreferrer">ChurchSuite rota guidance</a> and <a href="https://www.planningcenter.com/services" target="_blank" rel="noopener noreferrer">Planning Center Services</a>.
 
 ## The hidden cost is chasing
 
@@ -93,8 +93,8 @@ Keep a simple offline contingency for a service-day outage: who holds the final 
 
 Researched 25 July 2026 from official supplier material and ICO guidance. Confirm live plans, permissions and integration detail before using real volunteer data. No hands-on testing or product score is claimed.
 
-- [ChurchSuite rota guidance](https://support.churchsuite.com/article/361-managing-my-rotas-in-my-churchsuite) (accessed 25 July 2026)
-- [Planning Center Services](https://www.planningcenter.com/services) (accessed 25 July 2026)
-- [WorshipTools](https://www.worshiptools.com/) (accessed 25 July 2026)
-- [Elvanto](https://www.elvanto.com/) (accessed 25 July 2026)
-- [ICO: special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) (accessed 25 July 2026)
+- <a href="https://support.churchsuite.com/article/361-managing-my-rotas-in-my-churchsuite" target="_blank" rel="noopener noreferrer">ChurchSuite rota guidance</a> (accessed 25 July 2026)
+- <a href="https://www.planningcenter.com/services" target="_blank" rel="noopener noreferrer">Planning Center Services</a> (accessed 25 July 2026)
+- <a href="https://www.worshiptools.com/" target="_blank" rel="noopener noreferrer">WorshipTools</a> (accessed 25 July 2026)
+- <a href="https://www.elvanto.com/" target="_blank" rel="noopener noreferrer">Elvanto</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/" target="_blank" rel="noopener noreferrer">ICO: special category data</a> (accessed 25 July 2026)

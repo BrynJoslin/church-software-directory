@@ -35,6 +35,14 @@
     "pricing-and-support": {"value": "Supplier publishes full-user, reviewer and additional-company prices, included Salesforce Cloud licences, package functions and support materials.", "state": "supplier-published", "source": "https://aedon.co/pricing/", "checked": "2026-07-25"},
     "data-location-boundary": {"value": "The supplier's website privacy policy states that some personal data may be stored in the UK and India; it does not establish the product data-processing arrangement.", "state": "supplier-published", "source": "https://aedon.co/privacy/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/aedon-charities/aedon-charities-logo.png",
+      "alt": "Aedon.Charities logo",
+      "source": "https://aedon.co/wp-content/uploads/2024/01/aedon-icon-180-180.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Aedon.Charities is a UK charity-accounting product built inside Salesforce, rather than a conventional church finance package or a general church-management system. Its stated SORP, fund, project, VAT, Gift Aid and donor-tax capability could suit a larger church charity already committed to Salesforce. Its published entry price, implementation shape and Salesforce operating model are likely excessive for most small congregations, so it belongs in a narrow enterprise-style accounting shortlist rather than as a default recommendation.",
     "bestFor": ["Larger church charities with complex restricted funds, projects or multiple legal entities", "Finance teams wanting their accounting and Salesforce charity data in one platform", "Organisations with budget and capability for a structured Salesforce implementation"],

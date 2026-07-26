@@ -41,7 +41,7 @@ Choose a broad system when several ministries need the same people record. Choos
 | [ChurchLinker](/software/churchlinker/) | Permanent free plan to 50 contacts, then published GBP bands. | Validate the exact workflow and support model during a controlled trial. |
 | [ChurchCRM](/software/churchcrm/) | No licence charge; open source. | Who owns hosting, patches, backups and support? |
 
-The current listing evidence is representative, not a ranking. [ChurchSuite pricing](https://churchsuite.com/pricing/), [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow), [ChMeetings pricing](https://www.chmeetings.com/pricing/) and [ChurchLinker](https://churchlinker.com/) are the primary sources.
+The current listing evidence is representative, not a ranking. <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a>, <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a>, <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings pricing</a> and <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker</a> are the primary sources.
 
 ## The hidden cost is volunteer attention
 
@@ -61,7 +61,7 @@ Before purchase, confirm:
 - training and migration help;
 - the cancellation and data-exit position.
 
-Church records can reveal religious belief and other sensitive information; the ICO says special category data has additional safeguards. [ICO guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/).
+Church records can reveal religious belief and other sensitive information; the ICO says special category data has additional safeguards. <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/" target="_blank" rel="noopener noreferrer">ICO guidance</a>.
 
 ## Compare fit, not feature count
 
@@ -100,9 +100,9 @@ Before committing, open a sample export and record cancellation, deletion and ar
 
 Researched 25 July 2026 from official supplier material and ICO guidance. Confirm live plans and terms before purchase; no hands-on testing, supplier interview or overall score is claimed.
 
-- [ChurchSuite pricing](https://churchsuite.com/pricing/) (accessed 25 July 2026)
-- [iKnow Church pricing](https://www.iknowchurch.co.uk/iknow) (accessed 25 July 2026)
-- [ChMeetings pricing](https://www.chmeetings.com/pricing/) (accessed 25 July 2026)
-- [ChurchLinker](https://churchlinker.com/) (accessed 25 July 2026)
-- [ChurchCRM FAQ](https://churchcrm.io/faq.html) (accessed 25 July 2026)
-- [ICO: special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) (accessed 25 July 2026)
+- <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a> (accessed 25 July 2026)
+- <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a> (accessed 25 July 2026)
+- <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings pricing</a> (accessed 25 July 2026)
+- <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker</a> (accessed 25 July 2026)
+- <a href="https://churchcrm.io/faq.html" target="_blank" rel="noopener noreferrer">ChurchCRM FAQ</a> (accessed 25 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/" target="_blank" rel="noopener noreferrer">ICO: special category data</a> (accessed 25 July 2026)

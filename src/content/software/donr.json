@@ -56,6 +56,7 @@
     {"label": "Donr fee guidance", "url": "https://knowledge.donr.com/hc/en-gb/articles/19014511397917-What-are-Donr-s-fees", "checked": "2026-07-25", "supports": ["Fee examples", "Card-fallback fee", "Network-rate message context", "Payout-fee cap"]},
     {"label": "Companies House: Donr Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/10402410", "checked": "2026-07-25", "supports": ["UK company registration", "Company number", "Active status"]}
   ],
+  "externalReviews": [{"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/www.donr.com", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for Donr and does not establish suitability for a particular church."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Donr review for UK churches", "description": "Independent Donr profile for UK church fundraising: text giving, text raffle fees, Gift Aid information and procurement questions."}

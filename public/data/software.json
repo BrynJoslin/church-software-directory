@@ -1,7 +1,7 @@
 {
   "contentAsOf": "2026-07-25",
   "licence": "No reuse licence has yet been selected.",
-  "count": 156,
+  "count": 148,
   "software": [
     {
       "name": "A Church Near You",
@@ -933,139 +933,6 @@
       ]
     },
     {
-      "name": "Bible Companion",
-      "slug": "bible-companion",
-      "shortDescription": "A free Bible-study app from Carelinks, a UK charitable incorporated organisation, with Bible text, commentary, audio, reading plans and a structured study course.",
-      "officialWebsite": "https://carelinks-uk.org/resources.html",
-      "company": "Carelinks (Charity number 1157202)",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "general",
-      "ukOrganisation": "yes",
-      "categories": [
-        "bible-study"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "model": "free",
-        "summary": "Carelinks presents Bible Companion as a free, ad-free app. No paid plan is published in the reviewed material.",
-        "tiers": [
-          {
-            "label": "Bible Companion",
-            "price": "Free",
-            "detail": "Bible text, audio, commentary, reading plan and Bible Basics study course"
-          }
-        ]
-      },
-      "freePlan": "yes",
-      "freeTrial": "no",
-      "decisionEvidence": {},
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Carelinks UK Bible Companion resources",
-          "url": "https://carelinks-uk.org/resources.html",
-          "checked": "2026-07-25",
-          "supports": [
-            "App download links",
-            "Languages",
-            "Bible text, commentary and audio",
-            "Study resources"
-          ]
-        },
-        {
-          "label": "Carelinks Ministries",
-          "url": "https://carelinks.org/",
-          "checked": "2026-07-25",
-          "supports": [
-            "App feature description",
-            "Carelinks ministry context",
-            "Free and ad-free statement"
-          ]
-        },
-        {
-          "label": "Charity Commission: Carelinks",
-          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5046292/full-print",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK CIO identity",
-            "Charity number",
-            "Bath address",
-            "Charitable objects"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "The Bible with Nicky and Pippa Gumbel",
-      "slug": "bible-with-nicky-and-pippa-gumbel",
-      "shortDescription": "A free Bible-reading app, website, email and audio service from UK charity Alpha International, previously known as Bible in One Year.",
-      "officialWebsite": "https://bible.alpha.org/en/",
-      "company": "Alpha International (company number 04157379; charity numbers 1086179 and SC042906)",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "general",
-      "ukOrganisation": "yes",
-      "categories": [
-        "bible-study"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "model": "free",
-        "summary": "The supplier presents the Bible with Nicky and Pippa Gumbel as a free website and app service; no paid plan is published in the reviewed material.",
-        "tiers": [
-          {
-            "label": "Bible with Nicky and Pippa Gumbel",
-            "price": "Free",
-            "detail": "Website, daily email, app and audio devotional access."
-          }
-        ]
-      },
-      "freePlan": "yes",
-      "freeTrial": "no",
-      "decisionEvidence": {},
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "The Bible with Nicky and Pippa Gumbel",
-          "url": "https://bible.alpha.org/en/",
-          "checked": "2026-07-25",
-          "supports": [
-            "App, web, email and audio channels",
-            "Reading-plan scope",
-            "Free access"
-          ]
-        },
-        {
-          "label": "Service footer and app information",
-          "url": "https://bible.alpha.org/en/classic/11/index.html",
-          "checked": "2026-07-25",
-          "supports": [
-            "Alpha International operator",
-            "UK company and charity numbers",
-            "iOS and Android availability"
-          ]
-        },
-        {
-          "label": "Service attribution and copyright",
-          "url": "https://bible.alpha.org/en/classic/351/index.html",
-          "checked": "2026-07-25",
-          "supports": [
-            "Former Bible in One Year name",
-            "Alpha International attribution"
-          ]
-        }
-      ]
-    },
-    {
       "name": "BMc Azurri Tap To Donate",
       "slug": "bmc-azurri-tap-to-donate",
       "shortDescription": "A UK NFC and QR-code donation platform for charities and places of worship, with branded donation pages, dashboard reporting, contactless payment and optional Gift Aid workflows.",
@@ -1156,103 +1023,6 @@
           "supports": [
             "UK company record",
             "Active status"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Booking Space",
-      "slug": "booking-space",
-      "shortDescription": "UK shared-resource booking software for rooms, desks, equipment and other church-office or venue resources.",
-      "officialWebsite": "https://www.bookingspace.com/",
-      "company": "Booking Space Limited",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "general",
-      "ukOrganisation": "yes",
-      "categories": [
-        "room-bookings"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "model": "usage-based",
-        "summary": "Booking Space advertises a 15-day trial and a 50p-per-monthly-active-user charge plus a £5 account charge. Confirm whether the current tariff meets the church's mix of internal and public users.",
-        "startingPrice": {
-          "amount": 0.5,
-          "currency": "GBP",
-          "period": "month",
-          "qualifier": "per monthly active user, plus a £5 account charge"
-        },
-        "tiers": [
-          {
-            "label": "Monthly active-user pricing",
-            "price": "50p/user/month + £5 account charge",
-            "detail": "The supplier says charges apply only to monthly active users"
-          }
-        ],
-        "trialDetails": "The supplier advertises a 15-day free trial."
-      },
-      "freePlan": "no",
-      "freeTrial": "yes",
-      "decisionEvidence": {
-        "gbp-pricing": {
-          "value": "Published GBP starting price",
-          "state": "supplier-published",
-          "source": "https://www.bookingspace.com/",
-          "checked": "2026-07-25",
-          "sourceLabel": "Booking Space overview and pricing"
-        },
-        "hosting": {
-          "value": "The supplier's terms say the service is hosted in the United Kingdom and/or EU from time to time.",
-          "state": "supplier-published",
-          "source": "https://www.bookingspace.com/legal/terms-of-use",
-          "checked": "2026-07-25",
-          "sourceLabel": "Booking Space terms of use"
-        }
-      },
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Booking Space overview and pricing",
-          "url": "https://www.bookingspace.com/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Product scope",
-            "Trial",
-            "Active-user pricing",
-            "Integrations"
-          ]
-        },
-        {
-          "label": "Booking Space terms of use",
-          "url": "https://www.bookingspace.com/legal/terms-of-use",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK company identity",
-            "Data-hosting statement",
-            "Data-protection terms"
-          ]
-        },
-        {
-          "label": "UK Digital Marketplace: BookingSpace.com",
-          "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/994462849873504",
-          "checked": "2026-07-25",
-          "supports": [
-            "Charity use case",
-            "Support",
-            "CSV data extraction"
-          ]
-        },
-        {
-          "label": "Companies House: Booking Space Limited",
-          "url": "https://find-and-update.company-information.service.gov.uk/company/15695980",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK-registered organisation"
           ]
         }
       ]
@@ -1748,64 +1518,6 @@
             "Free trial",
             "Demo",
             "Flat-rate pricing"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Cadence",
-      "slug": "cadence",
-      "shortDescription": "A UK church volunteer-rota product in private beta, designed to balance availability, recent serving history, rest and workload when building team rotas.",
-      "officialWebsite": "https://churchcadence.com/",
-      "company": "Vue Solutions Ltd",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "strong",
-      "ukOrganisation": "yes",
-      "categories": [
-        "volunteer-scheduling"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "model": "free",
-        "summary": "Cadence states that its first eight UK private-beta churches receive access at no cost during beta. No post-beta pricing, contract term or renewal arrangement is published in the reviewed material; obtain these in writing before relying on the service.",
-        "tiers": [
-          {
-            "label": "Private beta",
-            "price": "No cost during beta",
-            "detail": "Supplier says its first eight UK beta churches receive founder-led onboarding and no cost during beta."
-          }
-        ]
-      },
-      "decisionEvidence": {},
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Cadence church volunteer rota software",
-          "url": "https://churchcadence.com/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Church scope",
-            "Rota features",
-            "Private-beta status",
-            "No-cost beta",
-            "Operator footer",
-            "Spreadsheet import"
-          ]
-        },
-        {
-          "label": "Companies House: Vue Solutions Ltd",
-          "url": "https://find-and-update.company-information.service.gov.uk/company/07772890",
-          "checked": "2026-07-25",
-          "supports": [
-            "Active company status",
-            "Company number",
-            "Registered office",
-            "Confirmation-statement status"
           ]
         }
       ]
@@ -5899,67 +5611,6 @@
       ]
     },
     {
-      "name": "Encounter with God",
-      "slug": "encounter-with-god",
-      "shortDescription": "A Scripture Union mobile Bible-reading app for daily, in-depth study, combining Scripture, theological exposition, articles and spiritual reflections.",
-      "officialWebsite": "https://content.scriptureunion.org.uk/bible-app",
-      "company": "Scripture Union (England and Wales)",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "strong",
-      "ukOrganisation": "yes",
-      "categories": [
-        "bible-study"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "summary": "Scripture Union's current app page establishes the product but does not publish a clear subscription price, purchase route, free access scope or cancellation terms in the reviewed material. Check the current iOS or Android store listing and subscription terms before recommending it as a paid resource.",
-        "tiers": [
-          {
-            "label": "Encounter with God",
-            "price": "Check app store",
-            "detail": "The reviewed supplier material does not state a current price or subscription term."
-          }
-        ]
-      },
-      "decisionEvidence": {},
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Scripture Union Bible apps",
-          "url": "https://content.scriptureunion.org.uk/bible-app",
-          "checked": "2026-07-25",
-          "supports": [
-            "Encounter with God product scope",
-            "Mobile access",
-            "Daily-study approach"
-          ]
-        },
-        {
-          "label": "Scripture Union privacy notice",
-          "url": "https://content.scriptureunion.org.uk/privacy-notice-and-cookies",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK charity and company identity",
-            "App and account privacy context",
-            "International-transfer statement"
-          ]
-        },
-        {
-          "label": "Charity Commission: Scripture Union England and Wales",
-          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/213422",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK charity record"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Energize",
       "slug": "energize",
       "shortDescription": "A UK web-based session-planning and resource service from Urban Saints for church children’s and youth leaders.",
@@ -7437,80 +7088,6 @@
       ]
     },
     {
-      "name": "Go-Worship",
-      "slug": "go-worship",
-      "shortDescription": "UK mobile app for finding church events, sharing event information and supporting ticket booking.",
-      "officialWebsite": "https://goworship.co.uk/",
-      "company": "Go-Worship Ltd",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "strong",
-      "ukOrganisation": "yes",
-      "categories": [
-        "events-ticketing",
-        "church-mobile-apps"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "model": "free",
-        "summary": "The public App Store listing presents Go-Worship as a free download. The public material reviewed did not set out organiser listing, ticketing or payment fees.",
-        "tiers": [
-          {
-            "label": "Go-Worship app",
-            "price": "Free download",
-            "detail": "Event discovery and app access"
-          }
-        ]
-      },
-      "freePlan": "yes",
-      "freeTrial": "no",
-      "decisionEvidence": {},
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Go-Worship website terms",
-          "url": "https://goworship.co.uk/terms-and-conditions/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Supplier terms",
-            "UK jurisdiction",
-            "Privacy-policy reference"
-          ]
-        },
-        {
-          "label": "Go-Worship App Store listing",
-          "url": "https://apps.apple.com/us/app/go-worship/id6648781023",
-          "checked": "2026-07-25",
-          "supports": [
-            "Event discovery",
-            "Ticket booking",
-            "Current app update"
-          ]
-        },
-        {
-          "label": "Google Play: Go-Worship",
-          "url": "https://play.google.com/store/apps/details?id=uk.co.goworship",
-          "checked": "2026-07-25",
-          "supports": [
-            "Developer contact",
-            "Android app availability"
-          ]
-        },
-        {
-          "label": "Companies House: Go-Worship Ltd",
-          "url": "https://find-and-update.company-information.service.gov.uk/company/12021728",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK-registered organisation"
-          ]
-        }
-      ]
-    },
-    {
       "name": "GoodBox",
       "slug": "goodbox",
       "shortDescription": "A UK charity fundraising platform for contactless donation devices, online giving and a data portal.",
@@ -7772,98 +7349,6 @@
           "checked": "2026-07-25",
           "supports": [
             "Charities Online supplier listing"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Gracely",
-      "slug": "gracely",
-      "shortDescription": "UK daily-reflection and Bible-study app with scripture memory, small-group study and accountability features.",
-      "officialWebsite": "https://www.gracely.co.uk/",
-      "company": "KQ Technology Ltd",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "general",
-      "ukOrganisation": "yes",
-      "categories": [
-        "bible-study"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "model": "freemium",
-        "summary": "Gracely is free to use with an optional Pro subscription. The supplier publishes £4.99 per month or £39.99 per year for additional study and accountability features.",
-        "startingPrice": {
-          "amount": 4.99,
-          "currency": "GBP",
-          "period": "month",
-          "qualifier": "Gracely Pro"
-        },
-        "tiers": [
-          {
-            "label": "Free",
-            "price": "Free",
-            "detail": "Daily reflection app"
-          },
-          {
-            "label": "Gracely Pro monthly",
-            "price": "£4.99/month",
-            "detail": "Additional study, scripture-memory and accountability features"
-          },
-          {
-            "label": "Gracely Pro yearly",
-            "price": "£39.99/year",
-            "detail": "Annual Pro subscription"
-          }
-        ],
-        "trialDetails": "The supplier advertises a free trial of Pro features but does not publish its duration on the reviewed page."
-      },
-      "freePlan": "yes",
-      "freeTrial": "yes",
-      "decisionEvidence": {
-        "gbp-pricing": {
-          "value": "Published GBP starting price",
-          "state": "supplier-published",
-          "source": "https://www.gracely.co.uk/",
-          "checked": "2026-07-25",
-          "sourceLabel": "Gracely product, terms and privacy information"
-        }
-      },
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Gracely product, terms and privacy information",
-          "url": "https://www.gracely.co.uk/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Product scope",
-            "GBP pricing",
-            "Free and Pro plans",
-            "UK operator",
-            "Privacy and deletion information"
-          ]
-        },
-        {
-          "label": "Google Play: Gracely",
-          "url": "https://play.google.com/store/apps/details?id=com.danielque.gracely",
-          "checked": "2026-07-25",
-          "supports": [
-            "Current app availability",
-            "UK developer attribution",
-            "App scope",
-            "Published subscription prices"
-          ]
-        },
-        {
-          "label": "Companies House: KQ Technology Ltd",
-          "url": "https://find-and-update.company-information.service.gov.uk/company/17161786",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK-registered organisation"
           ]
         }
       ]
@@ -9554,102 +9039,6 @@
             "Church-management purpose",
             "Browser and mobile access",
             "Member, group and attendance use cases"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Lectio 365",
-      "slug": "lectio-365",
-      "shortDescription": "A free UK charity-operated mobile app for daily Bible-based prayer and devotionals, with read-and-listen sessions, themed series and limited offline access.",
-      "officialWebsite": "https://lectio365.com/",
-      "company": "24-7 Prayer",
-      "countryOfOrigin": "United Kingdom",
-      "ukFocus": "strong",
-      "ukOrganisation": "yes",
-      "categories": [
-        "bible-study"
-      ],
-      "suitableChurchSizes": [
-        "small",
-        "medium",
-        "large",
-        "multi-site"
-      ],
-      "pricing": {
-        "model": "free",
-        "summary": "24-7 Prayer states that Lectio 365 is free for everyone and funded by donations.",
-        "tiers": [
-          {
-            "label": "Lectio 365 app",
-            "price": "Free",
-            "detail": "Supplier states that the app is funded by donations."
-          }
-        ]
-      },
-      "freePlan": "yes",
-      "freeTrial": "no",
-      "decisionEvidence": {},
-      "lastChecked": "2026-07-25",
-      "sources": [
-        {
-          "label": "Lectio 365 app overview",
-          "url": "https://lectio365.com/the-app/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Features",
-            "Adult audience guidance",
-            "Languages",
-            "Offline and archive limits",
-            "Support contact"
-          ]
-        },
-        {
-          "label": "Lectio 365 home",
-          "url": "https://lectio365.com/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Free daily prayer app",
-            "Bible-based devotional purpose"
-          ]
-        },
-        {
-          "label": "Lectio 365 giving",
-          "url": "https://lectio365.com/give/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Free access",
-            "Donation funding",
-            "Operator charity context"
-          ]
-        },
-        {
-          "label": "Lectio 365 privacy notice",
-          "url": "https://lectio365.com/lectio-privacy-notice/",
-          "checked": "2026-07-25",
-          "supports": [
-            "No-account statement",
-            "Data categories",
-            "International transfers",
-            "Children and young people statement"
-          ]
-        },
-        {
-          "label": "Charity Commission: 24-7 Prayer",
-          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/3988845",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK registered charity",
-            "Charity number",
-            "Address"
-          ]
-        },
-        {
-          "label": "Companies House: 24-7 PRAYER",
-          "url": "https://find-and-update.company-information.service.gov.uk/company/04176643",
-          "checked": "2026-07-25",
-          "supports": [
-            "UK company record"
           ]
         }
       ]
@@ -11518,7 +10907,7 @@
       "officialWebsite": "https://pushpay.com/",
       "company": "Pushpay",
       "countryOfOrigin": null,
-      "ukFocus": "general",
+      "ukFocus": "unknown",
       "categories": [
         "church-management",
         "online-giving",
@@ -11546,22 +10935,7 @@
         ]
       },
       "freePlan": "no",
-      "decisionEvidence": {
-        "hosting": {
-          "value": "Pushpay's published cybersecurity material names AWS as its hosting provider but does not establish a data region for a particular customer. Confirm current hosting and transfer arrangements directly before considering the service.",
-          "state": "supplier-published",
-          "source": "https://pushpay.com/wp-content/uploads/2024/02/Cybersecurity.pdf",
-          "checked": "2026-07-25",
-          "sourceLabel": "Pushpay cybersecurity overview"
-        },
-        "exports": {
-          "value": "Native file exports",
-          "state": "supplier-published",
-          "source": "https://pushpay.com/product/pricing/pricing-details/",
-          "checked": "2026-07-25",
-          "sourceLabel": "Pushpay pricing details"
-        }
-      },
+      "decisionEvidence": {},
       "lastChecked": "2026-07-25",
       "sources": [
         {
@@ -11582,33 +10956,6 @@
           "supports": [
             "Platform features",
             "Packages"
-          ]
-        },
-        {
-          "label": "Pushpay pricing details",
-          "url": "https://pushpay.com/product/pricing/pricing-details/",
-          "checked": "2026-07-25",
-          "supports": [
-            "Native file exports",
-            "Public API",
-            "API integrations"
-          ]
-        },
-        {
-          "label": "Pushpay legal FAQs",
-          "url": "https://pushpay.com/legal-center/faqs",
-          "checked": "2026-07-25",
-          "supports": [
-            "Published GDPR and privacy information",
-            "Privacy contact"
-          ]
-        },
-        {
-          "label": "Pushpay cybersecurity overview",
-          "url": "https://pushpay.com/wp-content/uploads/2024/02/Cybersecurity.pdf",
-          "checked": "2026-07-25",
-          "supports": [
-            "Published AWS hosting-provider statement"
           ]
         }
       ]
@@ -11727,7 +11074,7 @@
       ],
       "pricing": {
         "model": "quote-based",
-        "summary": "Realm’s public product pages invite churches to start a free trial and purchase plans. Obtain a written quote covering modules, implementation, payments and support.",
+        "summary": "Realm’s public product pages invite churches to start a free trial and purchase plans, but they do not publish a complete current plan-price schedule. Obtain a written quote that covers modules, implementation, payments and support.",
         "tiers": [
           {
             "label": "Inform",
@@ -12909,7 +12256,7 @@
             "detail": "Tailored package"
           }
         ],
-        "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; ask sales for its current duration and eligibility."
+        "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; ask sales for the applicable duration and eligibility."
       },
       "freePlan": "yes",
       "decisionEvidence": {},
@@ -14177,7 +13524,7 @@
       ],
       "pricing": {
         "model": "tiered",
-        "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; ask whether the service is available to UK churches.",
+        "summary": "Vanco publishes US-dollar Grow and Thrive plans: Grow is $0/month and Thrive is $54/month, with different published card and ACH transaction rates. Add-ons and compliance fees may apply; the published material does not establish a UK route.",
         "tiers": [
           {
             "label": "Grow",

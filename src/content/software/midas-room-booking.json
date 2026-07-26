@@ -34,6 +34,14 @@
     "exports-and-retention": {"value": "Supplier documents data exports and a retention policy covering active databases, six-month backups, cancellation and trial-data handling.", "state": "supplier-published", "source": "https://mid.as/kb/00109/data-retention-policy", "checked": "2026-07-25"},
     "pricing-and-trial": {"value": "Supplier publishes configuration-based pricing and a 30-day no-card trial, with cloud subscriptions and self-hosted licences described separately.", "state": "supplier-published", "source": "https://mid.as/pricing", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/midas-room-booking/midas-room-booking-logo.png",
+      "alt": "MIDAS Room Booking logo",
+      "source": "https://mid.as/favicon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "MIDAS is a general UK room and resource-booking product rather than church-specific software, but its booking, client, invoice and hire-rate workflows can suit churches with a hall or multiple spaces. The meaningful choice is deployment: self-hosting may give a church greater control, while cloud hosting creates specific EU, UK and US data-location and backup questions. The product has unusually detailed public retention and export material; a church should still configure and document its own live data location and booking-data policy before use.",
     "bestFor": ["Church halls and multi-room sites with regular internal or community bookings", "Teams needing bookings, rates, resources and invoices in one workflow", "Churches that require a self-hosted deployment option"],

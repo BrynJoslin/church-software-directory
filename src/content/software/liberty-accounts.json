@@ -34,6 +34,14 @@
     "church-workflow": {"value": "Supplier's help material specifically addresses handling regular church collections, Gift Aid envelopes, card-reader postings and charity or church setup.", "state": "supplier-published", "source": "https://help.libertyaccounts.com/topics/setting_up_a_nfp.jsp", "checked": "2026-07-25"},
     "published-pricing": {"value": "Supplier publishes welcome pricing from £14.95 plus VAT per month for businesses and charities.", "state": "supplier-published", "source": "https://www.libertyaccounts.com/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/liberty-accounts/liberty-accounts-logo.ico",
+      "alt": "Liberty Accounts logo",
+      "source": "https://www.libertyaccounts.com/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Liberty Accounts is a UK charity-accounting and payroll product with explicit church workflows, rather than a complete church-management system. It is particularly relevant where a church needs charity finance capabilities including funds, Gift Aid, GASDS and formal reporting, with Church of England Return of Parish Finance support. It should be assessed alongside the church's independent accounting advice, existing payment tools and controls for donor and payroll data.",
     "bestFor": ["Churches prioritising UK charity fund accounting and formal financial reports", "Anglican parishes needing a Return of Parish Finance workflow", "Treasurers needing Gift Aid, GASDS and a donor ledger within an accounting system"],

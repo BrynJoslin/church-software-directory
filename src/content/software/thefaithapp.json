@@ -31,6 +31,14 @@
     "payments": {"value": "Supplier says donations are processed by connected third-party providers, including Stripe, PayPal and Flutterwave, rather than storing card or bank data itself.", "state": "supplier-published", "source": "https://thefaithapp.com/terms", "checked": "2026-07-25"},
     "privacy": {"value": "Supplier privacy policy says information may be processed internationally and identifies its third-party payment providers.", "state": "supplier-published", "source": "https://thefaithapp.com/privacy", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/thefaithapp/thefaithapp-logo.ico",
+      "alt": "TheFaithApp logo",
+      "source": "https://thefaithapp.com/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "TheFaithApp is a newer UK-operated platform offering a notably broad free entry tier: church administration, member-facing content, communications, events, mobile apps and payment-provider connections. Its public material is global rather than UK-specialist, and the product is young, so it should be assessed as a controlled pilot rather than an automatic replacement for established church systems. The payment integrations do not by themselves confirm UK Gift Aid or charity-accounting capability.",
     "bestFor": ["Small churches seeking a free member-facing platform", "Churches that prioritise sermons, devotions, announcements and app access", "Teams prepared to conduct a careful privacy and payment-integration review"],
@@ -45,6 +53,7 @@
     {"label": "TheFaithApp privacy policy", "url": "https://thefaithapp.com/privacy", "checked": "2026-07-25", "supports": ["UK company contact details", "International-processing statement", "Payment-processor disclosure", "Retention summary"]},
     {"label": "Companies House: THEFAITH LTD", "url": "https://find-and-update.company-information.service.gov.uk/company/15841609", "checked": "2026-07-25", "supports": ["Active UK company", "Company number", "Software-publishing business activity"]}
   ],
+  "externalReviews": [{"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.thefaithltd.app", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under TheFaithApp name; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "TheFaithApp review for UK churches", "description": "Independent TheFaithApp profile: free small-church tier, mobile app, member tools, payment connections and UK procurement checks."}

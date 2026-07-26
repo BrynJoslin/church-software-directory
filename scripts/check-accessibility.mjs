@@ -21,6 +21,12 @@ for (const file of files) {
   if (!/<a\b[^>]*href=["']#main-content["']/i.test(html)) issues.push(`${name}: missing skip link`);
   for (const image of html.matchAll(/<img\b[^>]*>/gi)) if (!/\balt=["']/i.test(image[0])) issues.push(`${name}: image missing alt text`);
   for (const button of html.matchAll(/<button\b[^>]*>([\s\S]*?)<\/button>/gi)) if (!stripTags(button[1])) issues.push(`${name}: empty button label`);
+  for (const link of html.matchAll(/<a\b[^>]*>/gi)) {
+    const href = link[0].match(/\bhref=["']([^"']+)["']/i)?.[1];
+    if (!href || !/^https?:\/\//i.test(href)) continue;
+    if (!/\btarget=["']_blank["']/i.test(link[0])) issues.push(`${name}: external link does not open in a new tab (${href})`);
+    if (!/\brel=["'][^"']*\bnoopener\b[^"']*["']/i.test(link[0])) issues.push(`${name}: external link is missing noopener protection (${href})`);
+  }
 }
 if (issues.length) throw new Error(`Critical accessibility check failed:\n${issues.join("\n")}`);
 console.log(`Critical accessibility checks passed for ${files.length} HTML pages.`);

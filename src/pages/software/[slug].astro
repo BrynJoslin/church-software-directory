@@ -127,6 +127,7 @@ const faqJsonLd = longForm
           <a
             class="button"
             href={visitUrl}
+            target="_blank"
             rel={hasAffiliateLink ? "noopener noreferrer sponsored" : "noopener noreferrer"}
           >
             {hasAffiliateLink ? "Visit official website (affiliate link)" : "Visit official website"}
@@ -214,7 +215,7 @@ const faqJsonLd = longForm
                       <span class={`evidence-state evidence-state--${field.state}`}>{evidenceStateLabel(field.state)}</span>
                       <span>{field.value}</span>
                       {field.source && (
-                        <small>Source: <a href={field.source.url} rel="noopener noreferrer">{field.source.label}</a> · checked {formatDate(field.source.checked)}</small>
+                        <small>Source: <a href={field.source.url} target="_blank" rel="noopener noreferrer">{field.source.label}</a> · checked {formatDate(field.source.checked)}</small>
                       )}
                     </dd>
                   </div>
@@ -359,7 +360,7 @@ const faqJsonLd = longForm
             {
               software.sources.map((source) => (
                 <li>
-                  <a href={source.url} rel="noopener noreferrer">
+                  <a href={source.url} target="_blank" rel="noopener noreferrer">
                     {source.label}
                   </a>
                   <br />

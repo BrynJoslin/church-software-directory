@@ -36,6 +36,14 @@
     "pricing": {"value": "Supplier publishes four monthly GBP plans from £29 to £249 and a 14-day free trial.", "state": "supplier-published", "source": "https://www.churchos.co.uk/pricing", "checked": "2026-07-25"},
     "gift-aid": {"value": "Supplier describes Gift Aid declaration collection, eligible-giving tracking and R68 filing in its product and pricing material.", "state": "supplier-published", "source": "https://www.churchos.co.uk/pricing", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchos/churchos-logo.svg",
+      "alt": "ChurchOS logo",
+      "source": "https://www.churchos.co.uk/favicon.svg",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "ChurchOS is a very new UK all-in-one product with an unusually broad published scope, covering membership, rotas, content, events and Gift Aid workflows. Its current website gives useful price and feature detail, but churches should treat a real operational trial and careful contract review as essential before moving sensitive records.",
     "bestFor": ["Churches wanting to evaluate an all-in-one UK administration product from a newly incorporated supplier", "Teams able to run a controlled pilot before a migration"],

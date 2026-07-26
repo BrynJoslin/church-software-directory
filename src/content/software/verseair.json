@@ -33,6 +33,14 @@
     "pricing": {"value": "Supplier publishes a free plan, $14.99/month Pro and $29.99/month Enterprise, with a 14-day Pro trial.", "state": "supplier-published", "source": "https://getverseair.com/", "checked": "2026-07-25"},
     "platform-support": {"value": "Supplier publishes downloads for macOS and Windows, with a companion web app for phones.", "state": "supplier-published", "source": "https://getverseair.com/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/verseair/verseair-logo.png",
+      "alt": "VerseAir logo",
+      "source": "https://getverseair.com/assets/icon_192.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "VerseAir is a newly incorporated UK supplier with an unusually broad and technically ambitious presentation offer: speech-assisted verse projection, worship sets, service schedules, companion viewing and optional broadcast outputs. It is worth a controlled AV-team evaluation, but its newness means churches should validate performance, licensing, accessibility, security and support against their actual service before depending on it live.",
     "bestFor": ["Churches interested in speech-assisted Bible projection", "AV teams that need macOS and Windows presentation options", "Teams willing to run a low-risk evaluation before moving live services"],

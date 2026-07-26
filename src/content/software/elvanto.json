@@ -148,6 +148,7 @@
       ]
     }
   ],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/elvanto/id1060450907", "rating": 1.77778, "maximumRating": 5, "reviewCount": 9, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Elvanto name."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.elvanto.elvanto", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published under the Elvanto name; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

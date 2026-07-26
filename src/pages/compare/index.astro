@@ -111,7 +111,7 @@ const fieldsFor = (slug: string, key: DecisionFieldKey) =>
                       <>
                         <span class={`evidence-state evidence-state--${field.state}`}>{evidenceStateLabel(field.state)}</span>
                         <span>{field.value}</span>
-                        {field.source && <small>Source: <a href={field.source.url} rel="noopener noreferrer">{field.source.label}</a> · {formatCompactDate(field.source.checked)}</small>}
+                        {field.source && <small>Source: <a href={field.source.url} target="_blank" rel="noopener noreferrer">{field.source.label}</a> · {formatCompactDate(field.source.checked)}</small>}
                       </>
                     ) : (
                       <>

@@ -47,7 +47,7 @@ accountability rules in `AGENTS.md` and `docs/PRINCIPLES.md`.
 | P0: public contradictions, disabled forms, publisher disclosure, related products and comparison defaults | Phase 3 (completed; launch blockers recorded) | The existing site is internally consistent; publisher and correction-route facts remain explicit pre-launch blockers. |
 | P1: mobile font loading, layout stability and render-blocking CSS | Mobile performance follow-up before Phase 7 | The homepage reaches a good CLS result without sacrificing accessibility, maintainability or repeat-navigation performance. |
 | P1: field evidence, higher-signal decision fields and product-specific verdicts | Phase 4 | The content model can support explainable comparisons and shortlists. |
-| P1: guided shortlist and cost estimation | Phase 5 | Users receive three to five explained starting points and qualified cost information. |
+| P1: guided shortlist and cost estimation | Phase 5 | Users progressively narrow an exact candidate pool and receive up to five explained starting points with qualified cost information. |
 | P2: decision packs and category families | Phase 5 | Users can take practical outputs into trials, supplier conversations and governance meetings. |
 | P2: continuous quality checks | Phase 6 | Trust, accessibility and consistency regressions are caught before launch. |
 | P2: automated research maintenance | Phase 9 | Official-source changes create evidence-backed review work after demand is validated. |
@@ -402,7 +402,7 @@ clear due-diligence work.
 
 ### Goal
 
-Help a church move from its operational problem to three to five explainable
+Help a church move from its operational problem to a small set of explainable
 starting points and practical next steps.
 
 ### Completion record — 25 July 2026
@@ -411,8 +411,12 @@ starting points and practical next steps.
   changing their routes or product membership. Administration, finance and
   giving are prominent starting points, alongside the remaining categories.
 - The `/shortlist/` journey uses URL-encoded answers and deterministic,
-  published rules. It returns only three to five matching profiles; fewer than
-  three produces an honest no-result state rather than widened requirements.
+  published rules. It starts with category, asks one useful question at a time
+  and shows the exact remaining count after every answer. Zero-result and
+  no-change answers are not offered.
+- Detailed results show up to five profiles while retaining a complete compact
+  list when more match. One or two supported matches remain visible rather than
+  becoming an artificial empty state.
 - Each starting point explains the matching recorded facts, material questions,
   a first workflow to test and—only where a public GBP starting point exists—a
   qualified pricing reference. It never calculates a quote or total cost.
@@ -432,11 +436,15 @@ starting points and practical next steps.
 
 ### Workstream 5.2: Find suitable starting points
 
-- Build a rules-based, progressively enhanced journey covering the job to
-  improve, approximate contact band, UK location, Gift Aid need, integrated
-  versus specialist preference and available technical administration.
+- Build a rules-based, progressively enhanced journey beginning with category,
+  then considering approximate contact band, strong UK-specific evidence, Gift
+  Aid need and integrated versus specialist preference one question at a time.
+- Display an answer only when it leaves a positive count smaller than the
+  current candidate set. Skip unusable questions and show results when none
+  remain.
 - Encode answers and the resulting shortlist in the URL.
-- Return three to five starting points only when the evidence supports them.
+- Return up to five detailed starting points only when the evidence supports
+  them, while keeping the full matching set visible.
 - Explain why each product appeared, which requirements are evidenced, which
   questions remain and the first real workflow to test.
 - Publish the rules and tie handling. Do not label the output `best`, use an
@@ -470,8 +478,9 @@ been tested.
 
 ### Completion gate
 
-- Representative scenarios return three to five explainable starting points,
-  including an honest no-result case.
+- Representative scenarios return an exact positive candidate count and up to
+  five explainable starting points, including one-product and early-finish
+  cases.
 - Every reason is traceable to structured evidence and material questions are
   visible.
 - Cost output never invents or extrapolates an unsupported price.
@@ -499,7 +508,8 @@ Make corrections manageable and catch regressions before public launch.
 - Validation now checks structured evidence references, affiliate consistency,
   generated internal links and critical static accessibility conditions. The
   build fails when these checks, sitemap coverage or content validation fail.
-- Interaction-state tests cover shortlist bounds and no-result behaviour plus
+- Interaction-state tests cover shortlist bounds, strictly narrowing questions
+  and exhausted-question behaviour plus
   the directory, comparison and printable decision-pack safeguards. GitHub
   Actions runs these, freshness, verdict, source-health and production-build
   checks on every push and pull request.

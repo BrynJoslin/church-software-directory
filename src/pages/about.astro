@@ -46,7 +46,7 @@ const software = await getCollection("software");
               <p><strong>Responsible publisher:</strong> {siteConfig.publisher.name}</p>
               {siteConfig.publisher.background && <p>{siteConfig.publisher.background}</p>}
               {siteConfig.publisher.correctionRoute && (
-                <p><a href={siteConfig.publisher.correctionRoute}>Contact the publisher about a correction.</a></p>
+                <p><a href={siteConfig.publisher.correctionRoute} target="_blank" rel="noopener noreferrer">Contact the publisher about a correction.</a></p>
               )}
             </>
           ) : (

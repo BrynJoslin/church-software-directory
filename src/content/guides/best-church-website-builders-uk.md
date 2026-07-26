@@ -31,9 +31,9 @@ This guide covers public church websites, basic publishing, events, giving links
 | [ChurchDesk](/software/churchdesk/) | Website, calendar and administration in a connected platform. | Migration, editor workflow and whether connected data reduces duplicate entry. |
 | [Tithely](/software/tithely/) | Broad website, app, giving and church-management bundle. | UK payment, Gift Aid, data-processing and US-dollar pricing implications. |
 | [B1 Church](/software/b1-church/) | Supplier states a free all-in-one website and member platform. | Support, data exit and live UK fit. |
-| [Subsplash](/software/subsplash/) | Website, app, media and giving platform for teams ready for a sales-led proposal. | Quote, local payment and data terms. |
+| [Hubb.Church](/software/hubb-church/) | UK website, app, administration, communications and giving platform for teams ready for a sales-led proposal. | Current quote, product scope, payment and data terms. |
 
-Church Edit’s price page displays promotional two-year figures alongside monthly prices; confirm the normal term and renewal. [Church Edit prices](https://www.churchedit.co.uk/website-builder-prices). ChurchDesk publishes annual-billing prices excluding VAT. [ChurchDesk pricing](https://churchdesk.com/en/pricing/).
+Church Edit’s price page displays promotional two-year figures alongside monthly prices; confirm the normal term and renewal. <a href="https://www.churchedit.co.uk/website-builder-prices" target="_blank" rel="noopener noreferrer">Church Edit prices</a>. ChurchDesk publishes annual-billing prices excluding VAT. <a href="https://churchdesk.com/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchDesk pricing</a>.
 
 ## Test content, not design
 
@@ -47,7 +47,7 @@ If a website collects contact details or gives access to member content, treat f
 | --- | --- | --- |
 | Church Edit | A focused UK church website with editors who need an approachable hosted builder. | Normal renewal, VAT, domain control and whether the real content tasks are easy. |
 | ChurchDesk | A church that wants website, calendar and administration to connect. | Migration, editor permissions and whether integration removes rather than creates duplicate work. |
-| Tithely or Subsplash | A church considering website, app, media and giving as a wider bundle. | UK payments, currency, Gift Aid, contract and data-processing arrangements. |
+| Tithely or Hubb.Church | A church considering website, app, media and giving as a wider bundle. | UK payments, currency, Gift Aid, contract and data-processing arrangements. |
 | B1 Church | A church exploring a free all-in-one route. | Support, continuity, data exit and live UK fit. |
 
 Do not infer accessibility from a supplier statement or visual appearance. W3C recommends meaningful headings, meaningful links and clear instructions; run the same keyboard, phone and content-editing test for every candidate. If the site must meet a particular accessibility obligation, obtain appropriate specialist advice and testing.
@@ -70,7 +70,7 @@ These profiles are relevant starting points, not recommendations.
 
 - [Church Edit](/software/church-edit/) for a dedicated UK church website route; check the term, domain and editor workflow.
 - [ChurchDesk](/software/churchdesk/) where connected calendar and administration matter; test publishing and migration.
-- [Tithely](/software/tithely/) and [Subsplash](/software/subsplash/) for wider bundles; check UK commercial and data arrangements.
+- [Tithely](/software/tithely/) and [Hubb.Church](/software/hubb-church/) for wider bundles; check UK commercial and data arrangements.
 - [B1 Church](/software/b1-church/) for a free model; complete continuity and support due diligence.
 
 ## Your next step
@@ -98,8 +98,8 @@ Keep a short change log for major corrections. It helps the next editor understa
 
 Researched 25 July 2026 from official supplier material. Confirm live prices, accessibility, domain ownership, form and payment arrangements before buying. No hands-on testing or product score is claimed.
 
-- [Church Edit website-builder prices](https://www.churchedit.co.uk/website-builder-prices) (accessed 25 July 2026)
-- [ChurchDesk pricing](https://churchdesk.com/en/pricing/) (accessed 25 July 2026)
-- [Tithely](https://get.tithe.ly/) (accessed 25 July 2026)
-- [Subsplash](https://subsplash.com/) (accessed 25 July 2026)
-- [W3C: writing for web accessibility](https://www.w3.org/WAI/tips/writing/) (accessed 25 July 2026)
+- <a href="https://www.churchedit.co.uk/website-builder-prices" target="_blank" rel="noopener noreferrer">Church Edit website-builder prices</a> (accessed 25 July 2026)
+- <a href="https://churchdesk.com/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchDesk pricing</a> (accessed 25 July 2026)
+- <a href="https://get.tithe.ly/" target="_blank" rel="noopener noreferrer">Tithely</a> (accessed 25 July 2026)
+- <a href="https://hubb.church/" target="_blank" rel="noopener noreferrer">Hubb.Church</a> (accessed 25 July 2026)
+- <a href="https://www.w3.org/WAI/tips/writing/" target="_blank" rel="noopener noreferrer">W3C: writing for web accessibility</a> (accessed 25 July 2026)

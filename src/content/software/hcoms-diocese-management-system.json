@@ -30,5 +30,13 @@
   "sources": [{"label": "HCOMS Diocese Management System", "url": "https://www.hcoms.co.uk/products-dms", "checked": "2026-07-25", "supports": ["Diocesan and parish scope", "Operational workflows", "Dashboard and portal claims"]}, {"label": "HCOMS products", "url": "https://www.hcoms.co.uk/", "checked": "2026-07-25", "supports": ["National CMS synchronisation", "UK Azure statement", "Diocesan deployments"]}, {"label": "HCOMS terms", "url": "https://www.hcoms.co.uk/terms", "checked": "2026-07-25", "supports": ["Operating company", "English-law terms", "General data and exit clauses"]}, {"label": "Companies House: Hayes Computing Solutions Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/04254140", "checked": "2026-07-25", "supports": ["UK company identity", "Company number", "Active status"]}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "HCOMS Diocese Management System review", "description": "Independent HCOMS DMS profile: UK diocesan operations, parish portals, National CMS integration and due-diligence questions."}
+  "seo": {"title": "HCOMS Diocese Management System review", "description": "Independent HCOMS DMS profile: UK diocesan operations, parish portals, National CMS integration and due-diligence questions."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/hcoms-diocese-management-system/hcoms-diocese-management-system-logo.png",
+      "alt": "HCOMS Diocese Management System logo",
+      "source": "https://www.hcoms.co.uk/assets/hcoms-logo.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

@@ -18,6 +18,15 @@ export const ukOrganisationLabel = (value: "yes" | "no" | "unknown") => {
   return null;
 };
 
+export const verificationLabel = (
+  value: "verified" | "partially-verified" | "needs-review"
+) =>
+  ({
+    verified: "Verified",
+    "partially-verified": "Partially verified",
+    "needs-review": "Needs review"
+  })[value];
+
 export const pricingModelLabel = (value: string) =>
   ({
     free: "Free",

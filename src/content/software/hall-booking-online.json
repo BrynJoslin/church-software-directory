@@ -30,5 +30,13 @@
   "sources": [{"label": "Hall Booking Online", "url": "https://hallbookingonline.com/", "checked": "2026-07-25", "supports": ["Church-hall scope", "Booking and invoicing features", "Published price", "Free trial"]}, {"label": "Hall Booking Online privacy policy", "url": "https://hallbookingonline.com/privacy/", "checked": "2026-07-25", "supports": ["Trading name", "ICO registration statement", "UK/EU server statement", "Data-subject rights"]}, {"label": "Companies House: Fen Street Designs Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/14446544", "checked": "2026-07-25", "supports": ["UK company identity", "Active status", "Software-development SIC"]}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Hall Booking Online review for UK churches", "description": "Independent Hall Booking Online profile: UK church-hall bookings, invoices, public pricing and data-processing checks."}
+  "seo": {"title": "Hall Booking Online review for UK churches", "description": "Independent Hall Booking Online profile: UK church-hall bookings, invoices, public pricing and data-processing checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/hall-booking-online/hall-booking-online-logo.png",
+      "alt": "Hall Booking Online logo",
+      "source": "https://hallbookingonline.com/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

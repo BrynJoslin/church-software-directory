@@ -367,6 +367,10 @@ strong {
   align-items: center;
 }
 
+.cluster[hidden] {
+  display: none;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
@@ -1099,6 +1103,7 @@ textarea {
 }
 
 .shortlist-intro,
+.shortlist-journey,
 .shortlist-results,
 .shortlist-layout > .empty-state {
   grid-column: 1;
@@ -1112,10 +1117,134 @@ textarea {
   background: var(--surface);
 }
 
-.shortlist-form__grid {
+.shortlist-journey {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 var(--space-md);
+  gap: var(--space-md);
+  border: 0.0625rem solid var(--rule);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  background: var(--paper);
+}
+
+.shortlist-progress {
+  border-block-end: 0.0625rem solid var(--rule);
+  padding-block-end: var(--space-md);
+}
+
+.shortlist-count {
+  margin-block: var(--space-sm);
+  color: var(--ink);
+  font-size: var(--step-1);
+  font-weight: 700;
+}
+
+.shortlist-answer-summary {
+  margin-block-start: var(--space-md);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm);
+  background: var(--surface);
+}
+
+.shortlist-answer-summary h3 {
+  margin-block-end: var(--space-xs);
+  font-size: var(--step-0);
+}
+
+.shortlist-answer-summary ul {
+  display: grid;
+  gap: var(--space-2xs);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shortlist-answer-summary li {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shortlist-answer-summary .button-link {
+  min-block-size: var(--control-height);
+  border: 0;
+  padding: 0.4rem;
+  background: transparent;
+  color: var(--accent-ink);
+  text-decoration: underline;
+  text-underline-offset: 0.17em;
+}
+
+.shortlist-answer-summary .button-link:hover {
+  border: 0;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  text-decoration-thickness: 0.12em;
+}
+
+.shortlist-question {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.shortlist-question[hidden] {
+  display: none;
+}
+
+.shortlist-question fieldset {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.shortlist-question legend {
+  margin-block-end: var(--space-xs);
+  color: var(--ink);
+  font-size: var(--step-1);
+  font-weight: 700;
+}
+
+.shortlist-question__options {
+  display: grid;
+  gap: var(--space-sm);
+  margin-block-start: var(--space-md);
+}
+
+.shortlist-option {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  min-block-size: var(--control-height);
+  border: 0.0625rem solid var(--ink-line);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm);
+  background: var(--paper);
+  cursor: pointer;
+}
+
+.shortlist-option:hover,
+.shortlist-option:has(input:checked) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.shortlist-option input {
+  inline-size: 1.2rem;
+  block-size: 1.2rem;
+  accent-color: var(--accent);
+}
+
+.shortlist-option span {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.shortlist-option small {
+  color: var(--ink-muted);
+}
+
+.shortlist-results__actions {
+  margin-block-start: var(--space-md);
 }
 
 .shortlist-rules {
@@ -1158,6 +1287,28 @@ textarea {
 .shortlist-card__reasons {
   margin: 0;
   padding-inline-start: 1.25rem;
+}
+
+.shortlist-all-matches {
+  margin-block: var(--space-lg);
+  border-block: 0.0625rem solid var(--rule);
+  padding-block: var(--space-sm);
+}
+
+.shortlist-all-matches summary {
+  cursor: pointer;
+  color: var(--accent-ink);
+  font-weight: 700;
+}
+
+.shortlist-all-matches ul {
+  columns: 2;
+  gap: var(--space-lg);
+}
+
+.shortlist-all-matches li {
+  break-inside: avoid;
+  margin-block-end: var(--space-xs);
 }
 
 .decision-pack {
@@ -1707,9 +1858,12 @@ textarea {
 
   .card-facts,
   .detail-list,
-  .shortlist-form__grid,
   .footer-links {
     grid-template-columns: 1fr;
+  }
+
+  .shortlist-all-matches ul {
+    columns: 1;
   }
 
   .results-toolbar {
@@ -1727,7 +1881,10 @@ textarea {
   .site-footer,
   .breadcrumbs,
   .shortlist-form,
+  .shortlist-journey,
   .shortlist-rules,
+  .shortlist-results__actions,
+  .shortlist-all-matches,
   [data-print-pack] {
     display: none !important;
   }

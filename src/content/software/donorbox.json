@@ -191,6 +191,7 @@
       ]
     }
   ],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/donorbox-live/id1668808097", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Donorbox Live; this directory has not recorded an aggregate rating or review count."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=org.donorbox.cardreader", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Donorbox Live; this directory has not recorded an aggregate rating or review count."}, {"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/donorbox.org", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for Donorbox and does not establish suitability for a particular church."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {

@@ -25,6 +25,14 @@
     "privacy-guidance": {"value": "Supplier guidance discusses camera positioning, notices, password-protected streams and recording retention for churches, weddings, funerals and services involving children.", "state": "supplier-published", "source": "https://www.mcn.live/GDPR-Guidelines", "checked": "2026-07-25"},
     "support": {"value": "The service home page advertises seven-day support and publishes contact routes from Cookstown, Northern Ireland.", "state": "supplier-published", "source": "https://www.mcn.live/ContactUs", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/mcn-media/mcn-media-logo.ico",
+      "alt": "MCN Media logo",
+      "source": "https://www.mcn.live/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "MCN Media is a managed livestreaming provider rather than a general church database or sermon-management system. Its church and cathedral focus, optional password protection and published guidance make it relevant to UK parishes, especially where a managed setup is preferable to operating a self-service platform. The public material does not establish pricing, contract, hosting or data-processing detail, so those matters should determine whether it is suitable for a particular service.",
     "bestFor": ["Churches and cathedrals seeking a specialist managed streaming service", "Parishes that need optional restricted viewer access", "Teams that want a supplier-led livestream setup and ongoing support"],

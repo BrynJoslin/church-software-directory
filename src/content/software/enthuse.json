@@ -36,6 +36,14 @@
     "payments-regulation": {"value": "Enthuse states that Online Giving Ltd is registered with the Financial Conduct Authority under the Payment Services Regulations 2017, reference 797344, for payment services.", "state": "supplier-published", "source": "https://enthuse.com/website-terms/", "checked": "2026-07-25"},
     "privacy-and-terms": {"value": "Supplier publishes a privacy notice and customer terms that cover its personal-data handling and include UK GDPR-related contractual provisions.", "state": "supplier-published", "source": "https://enthuse.com/privacy/", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/enthuse/enthuse-logo.png",
+      "alt": "Enthuse logo",
+      "source": "https://enthuse.com/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Enthuse is a UK charity fundraising platform, not church-management, accounting or safeguarding software. It may fit a church or Christian charity that needs a branded donation, campaign or paid-event journey and wants Gift Aid collected within that process. Its pricing is clearer than many fundraising services, but the different product subscriptions and percentage fees mean a church should model an ordinary donation, a Gift Aid donation and an event sale through to the actual payout before choosing it.",
     "bestFor": ["Church charities running branded fundraising appeals or memorial giving", "Churches collecting online donations and Gift Aid without adopting a church database", "Event teams needing participant registration or ticketing alongside fundraising"],
@@ -51,6 +59,7 @@
     {"label": "Enthuse privacy notice", "url": "https://enthuse.com/privacy/", "checked": "2026-07-25", "supports": ["Privacy scope", "Controller statement", "Data-protection contact"]},
     {"label": "Companies House: Online Giving Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/06886190", "checked": "2026-07-25", "supports": ["UK company identity", "Active status"]}
   ],
+  "externalReviews": [{"platform": "Trustpilot", "profileUrl": "https://www.trustpilot.com/review/enthuse.com", "lastChecked": "2026-07-26", "collectionType": "company", "dataAccessMethod": "manual", "note": "This company-level profile is for Enthuse and does not establish suitability for a particular church."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Enthuse review for UK churches", "description": "Independent Enthuse profile for UK churches: donations, fundraising, ticketing, Gift Aid, fees and data checks."}

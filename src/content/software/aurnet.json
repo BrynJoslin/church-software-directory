@@ -60,6 +60,7 @@
     {"label": "Aurnet iOS App Store listing", "url": "https://apps.apple.com/us/app/aurnet/id6761223175", "checked": "2026-07-25", "supports": ["Live iOS app", "Current app capabilities", "Recent releases"]},
     {"label": "Companies House: Aurnet Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/16959994", "checked": "2026-07-25", "supports": ["UK-registered organisation", "Company incorporation date"]}
   ],
+  "externalReviews": [{"platform": "Apple App Store US", "profileUrl": "https://apps.apple.com/us/app/aurnet/id6761223175", "lastChecked": "2026-07-25", "collectionType": "product", "dataAccessMethod": "manual", "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Aurnet review for UK churches", "description": "Independent Aurnet profile: new UK church platform, app, giving, web publishing and due-diligence questions."}

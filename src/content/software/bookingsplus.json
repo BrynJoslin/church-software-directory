@@ -29,6 +29,14 @@
     "pricing": {"value": "Supplier's public pricing page states a quarterly fee of 3% of annual booking value and a one-off setup fee, with lower setup fees for charities, primary schools and community centres.", "state": "supplier-published", "source": "https://www.bookingsplus.co.uk/who-we-are/pricing/", "checked": "2026-07-25"},
     "privacy-context": {"value": "A current BookingsPlus booking privacy notice identifies Kajima Community as controller and describes contact, booking, financial and limited compliance information it may process.", "state": "supplier-published", "source": "https://childrenfirsttrust.schoolbookings.co.uk/privacy-policy", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/bookingsplus/bookingsplus-logo.png",
+      "alt": "BookingsPlus logo",
+      "source": "https://bookingsplus.co.uk/wp-content/uploads/2025/07/favicon-300x300.png",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "BookingsPlus is a broader UK venue-lettings service rather than church-specific software, but its end-to-end workflow is relevant to churches with substantial room-hire income or several facilities. It goes beyond a diary by joining public promotion, enquiry, bookings, payments, invoicing and hirer compliance. Its fee linked to booking value should be modelled carefully against a church's expected income, and its international parent-group context should be understood as part of normal supplier diligence.",
     "bestFor": ["Church halls and charity venues with regular public lettings", "Facilities teams that need online hire, invoicing and payment collection together", "Organisations managing several sites or a centralised venue-hire service"],

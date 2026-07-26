@@ -25,5 +25,13 @@
   "sources": [{"label": "Access Charity Website: UK Government Digital Marketplace", "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/240631340832625", "checked": "2026-07-25", "supports": ["Product scope", "Starting price", "Availability target", "Integrations"]}, {"label": "Companies House: Access UK Ltd", "url": "https://find-and-update.company-information.service.gov.uk/company/02343760", "checked": "2026-07-25", "supports": ["UK operator"]}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Access Charity Website review for UK churches", "description": "Independent Access Charity Website profile: UK charity website, fundraising, Gift Aid and event-platform considerations for churches."}
+  "seo": {"title": "Access Charity Website review for UK churches", "description": "Independent Access Charity Website profile: UK charity website, fundraising, Gift Aid and event-platform considerations for churches."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/access-charity-website/access-charity-website-logo.png",
+      "alt": "Access Charity Website logo",
+      "source": "https://www.theaccessgroup.com/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

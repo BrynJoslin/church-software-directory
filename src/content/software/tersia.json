@@ -25,6 +25,14 @@
     "payment-workflow": {"value": "Supplier states that communities connect Stripe for payouts and can receive one-off and monthly donations and paid-event income.", "state": "supplier-published", "source": "https://tersia.com/", "checked": "2026-07-25"},
     "privacy": {"value": "Tersia publishes a privacy policy for its website and app with UK/EEA rights, account data, event data and payment-information handling.", "state": "supplier-published", "source": "https://tersia.com/legal/privacy", "checked": "2026-07-25"}
   },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/tersia/tersia-logo.ico",
+      "alt": "Tersia logo",
+      "source": "https://tersia.com/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
   "editorial": {
     "assessment": "Tersia is a community and fundraising app for Christian groups, not a conventional church-management database, Gift Aid system, accounting package or safeguarding case-management platform. It may suit a parish, fellowship or young-adult group that wants public discovery, events, prayer and Stripe-connected giving in one member-facing experience. Its recent incorporation and sparse public contractual detail make a limited pilot and written due diligence essential before loading a church’s main records or relying on it for finance administration.",
     "bestFor": ["Christian communities coordinating events, prayer and basic fundraising", "Parishes or groups seeking a public-facing community and discovery app", "Groups that can operate a limited pilot before adopting it for core workflows"],
@@ -38,6 +46,7 @@
     {"label": "Tersia privacy policy", "url": "https://tersia.com/legal/privacy", "checked": "2026-07-25", "supports": ["Website and app privacy scope", "Account and event data", "UK/EEA rights"]},
     {"label": "Companies House: Tersia Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/16497836", "checked": "2026-07-25", "supports": ["UK company registration", "Recent incorporation", "Company status"]}
   ],
+  "externalReviews": [{"platform": "Apple App Store UK", "profileUrl": "https://apps.apple.com/gb/app/tersia-more-christian-friends/id6748222321", "rating": 4.875, "maximumRating": 5, "reviewCount": 40, "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Tersia: More Christian Friends."}, {"platform": "Google Play", "profileUrl": "https://play.google.com/store/apps/details?id=com.tersia.app", "lastChecked": "2026-07-26", "collectionType": "product", "dataAccessMethod": "manual", "note": "This product listing is published as Tersia: More Christian Friends; this directory has not recorded an aggregate rating or review count."}],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {"title": "Tersia review for UK Christian communities", "description": "Independent Tersia profile for UK Christian communities: events, tickets, prayer, fundraising and early-stage procurement checks."}

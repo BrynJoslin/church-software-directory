@@ -30,5 +30,13 @@
   "sources": [{"label": "Simply Halls", "url": "https://host.simplyhalls.co.uk/", "checked": "2026-07-25", "supports": ["Church-hall scope", "Free-to-hall pricing model", "Customer booking fee", "Booking and payout workflow", "Company details"]}, {"label": "Simply Halls privacy policy", "url": "https://host.simplyhalls.co.uk/privacy", "checked": "2026-07-25", "supports": ["Controller and processor roles", "Data categories", "Retention", "International transfers", "Data-subject rights"]}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Simply Halls review for UK church halls", "description": "Independent Simply Halls profile: UK church-hall listings, booking fees, payouts and data-processing checks."}
+  "seo": {"title": "Simply Halls review for UK church halls", "description": "Independent Simply Halls profile: UK church-hall listings, booking fees, payouts and data-processing checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/simply-halls/simply-halls-logo.png",
+      "alt": "Simply Halls logo",
+      "source": "https://host.simplyhalls.co.uk/favicon_io/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  }
 }

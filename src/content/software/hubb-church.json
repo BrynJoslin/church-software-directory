@@ -25,5 +25,13 @@
   "sources": [{"label": "Hubb.Church website", "url": "https://hubb.church/", "checked": "2026-07-25", "supports": ["Official product website", "Supplier support contact"]}, {"label": "HMRC: Charities Online commercial software suppliers", "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers", "checked": "2026-07-25", "supports": ["Hubb.Church system listing"]}, {"label": "Companies House: Hubb Digital Limited", "url": "https://find-and-update.company-information.service.gov.uk/company/04072126", "checked": "2026-07-25", "supports": ["Active UK operator", "Former Endis Limited name"]}, {"label": "Baptists Together: Hubb feature summary", "url": "https://tamworthbaptists.org.uk/wp-content/uploads/2024/06/BaptistsTogether_Summer2024.pdf", "checked": "2026-07-25", "supports": ["Church feature scope", "Baptist church offer"]}, {"label": "Public Hubb.Church service-terms notice", "url": "https://maxwellchurch.com/terms-and-conditions/", "checked": "2026-07-25", "supports": ["Trading-name relationship", "Historic public privacy-policy reference"]}],
   "affiliateRelationship": "no",
   "sponsored": false,
-  "seo": {"title": "Hubb.Church review for UK churches", "description": "Independent Hubb.Church profile for UK churches: website, app, admin, giving, communications and procurement checks."}
+  "seo": {"title": "Hubb.Church review for UK churches", "description": "Independent Hubb.Church profile for UK churches: website, app, admin, giving, communications and procurement checks."},
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/hubb-church/hubb-church-logo.png",
+      "alt": "Hubb.Church logo",
+      "source": "https://hubb.church/Images/Content/82/Templates/72478/HubbLogo_64px.png",
+      "checked": "2026-07-26"
+    }
+  }
 }
