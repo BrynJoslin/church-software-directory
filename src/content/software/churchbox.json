@@ -71,10 +71,10 @@
   ],
   "decisionEvidence": {
     "uk-purchasing": {
-      "value": "ChurchBox says it is powered by Church123; Church123's current service terms identify its provider as BlueberryTwist Ltd, registered in England and Wales under number 04254052.",
-      "state": "supplier-published",
-      "source": "https://www.church123.com/termsandconditions.htm",
-      "checked": "2026-07-25"
+      "value": "Companies House records BlueberryTwist Ltd, the company named in this profile, as registered in England and Wales under number 04254052.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/04254052",
+      "checked": "2026-07-26"
     },
     "gbp-pricing": {
       "value": "ChurchBox publishes a free tier and a Full Version at £1 per user per year plus VAT, charged in blocks of ten users.",
@@ -169,16 +169,6 @@
         "Controller and processor roles",
         "DPA availability",
         "Consent and deletion features"
-      ]
-    },
-    {
-      "label": "Church123 service terms",
-      "url": "https://www.church123.com/termsandconditions.htm",
-      "checked": "2026-07-25",
-      "supports": [
-        "BlueberryTwist Ltd operating company",
-        "UK company number",
-        "UK registered office"
       ]
     },
     {

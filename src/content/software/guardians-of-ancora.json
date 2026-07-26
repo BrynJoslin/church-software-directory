@@ -30,7 +30,7 @@
   "freePlan": "yes",
   "freeTrial": "no",
   "demoAvailable": "no",
-  "gdprInformation": "Guardians of Ancora is intended for children, so churches should use it only with appropriate adult supervision and their own safeguarding processes. Google Play's current developer declaration says the app may share device or other IDs with third parties, declares no data collected, and says data are encrypted in transit; that is not a substitute for reviewing the current app privacy policy, account or profile design, device controls, newsletter data and the church's own children’s-data policy. Do not enter child safeguarding, attendance or pastoral data into the app.",
+  "gdprInformation": "Guardians of Ancora is intended for children, so churches should use it only with appropriate adult supervision and their own safeguarding processes. The reviewed public product material does not establish the current privacy, player-profile, device-data or third-party-processing position; obtain this directly before use. Do not enter child safeguarding, attendance or pastoral data into the app.",
   "coreFeatures": [
     "Bible-story adventure game",
     "Eleven Bible quests",
@@ -68,11 +68,11 @@
       "source": "https://content.scriptureunion.org.uk/guardians-ancora-clubs",
       "checked": "2026-07-25"
     },
-    "app-availability-and-data-declaration": {
-      "value": "Google Play lists the app under Scripture Union, describes English and Welsh gameplay and states the developer's current data-safety declarations.",
-      "state": "independent-source",
-      "source": "https://play.google.com/store/apps/details?hl=en_IN&id=com.dubitlimited.guardiansofancora",
-      "checked": "2026-07-25"
+    "mobile-availability": {
+      "value": "The product site describes Guardians of Ancora as a free game for mobile devices with English and Welsh gameplay.",
+      "state": "supplier-published",
+      "source": "https://guardiansofancora.com/",
+      "checked": "2026-07-26"
     }
   },
   "brandAssets": {
@@ -98,8 +98,8 @@
     ],
     "limitations": [
       "Not a child check-in, safeguarding, attendance or family-communication system",
-      "Google Play's listed update date is March 2023, so current device compatibility needs testing",
-      "Current privacy declaration and any player-account or profile behaviour require review",
+      "Current device compatibility needs testing before group use",
+      "Current privacy information and any player-account or profile behaviour require review",
       "Designed for a narrow age band rather than a full children’s curriculum"
     ],
     "procurementVerdict": {
@@ -132,27 +132,6 @@
         "School resources",
         "Group activity"
       ]
-    },
-    {
-      "label": "Google Play: Guardians of Ancora",
-      "url": "https://play.google.com/store/apps/details?hl=en_IN&id=com.dubitlimited.guardiansofancora",
-      "checked": "2026-07-25",
-      "supports": [
-        "Current app listing",
-        "Language options",
-        "Features",
-        "Developer data-safety declaration"
-      ]
-    }
-  ],
-  "externalReviews": [
-    {
-      "platform": "Google Play",
-      "profileUrl": "https://play.google.com/store/apps/details?hl=en_IN&id=com.dubitlimited.guardiansofancora",
-      "lastChecked": "2026-07-25",
-      "collectionType": "product",
-      "dataAccessMethod": "manual",
-      "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."
     }
   ],
   "affiliateRelationship": "no",

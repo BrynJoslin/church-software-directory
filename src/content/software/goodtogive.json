@@ -63,8 +63,8 @@
     "fees": {
       "value": "Published charity terms describe no monthly subscription fee, a 3.2% GoodtoGive processing fee, and payment-processing fees.",
       "state": "supplier-published",
-      "source": "https://www.goodtogive.co.uk/terms-and-conditions/",
-      "checked": "2026-07-25"
+      "source": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
+      "checked": "2026-07-26"
     },
     "data-processing": {
       "value": "Published terms describe GoodtoGive as processor for personal information processed on a charity's behalf and link to privacy information.",
@@ -120,8 +120,8 @@
     },
     {
       "label": "GoodtoGive fees terms",
-      "url": "https://www.goodtogive.co.uk/terms-and-conditions/",
-      "checked": "2026-07-25",
+      "url": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
+      "checked": "2026-07-26",
       "supports": [
         "No monthly subscription fee",
         "Published processing fees"

@@ -409,6 +409,13 @@ Phase 6: contribution and continuous quality completed.
 
 ## Completed
 
+- Retired the Church123 profile after its official website and recorded terms
+  and pricing pages returned confirmed 404 responses. Its related ChurchBox
+  company evidence now relies on the current Companies House record rather than
+  the unavailable Church123 terms. Updated the remaining affected source records
+  to live first-party pages or removed stale app-store references where the
+  public source could no longer be checked.
+
 - Public evidence language now treats current official supplier material as
   sufficient evidence for what the supplier publishes. Overall completeness
   badges and statuses have been removed. Profiles omit incidental gaps,

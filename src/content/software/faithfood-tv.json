@@ -95,10 +95,10 @@
       "checked": "2026-07-25"
     },
     "mobile-product": {
-      "value": "Google Play listing describes regular church livestreaming and uploaded-church-video notifications.",
+      "value": "The supplier's current online-TV page describes an embeddable church video player and managed updates for church video content.",
       "state": "supplier-published",
-      "source": "https://play.google.com/store/apps/details?id=com.faithfood",
-      "checked": "2026-07-25"
+      "source": "https://faithfood.tv/online-tv",
+      "checked": "2026-07-26"
     }
   },
   "editorial": {
@@ -109,7 +109,7 @@
       "Churches with limited in-house video-distribution capacity"
     ],
     "strengths": [
-      "Active UK company and current Android app",
+      "Active UK company and current supplier-managed church-media offer",
       "Supplier describes a church-specific video, livestream and podcast proposition",
       "Published entry price for a rolling sermon-display service"
     ],
@@ -147,13 +147,13 @@
       ]
     },
     {
-      "label": "FaithFood TV Google Play listing",
-      "url": "https://play.google.com/store/apps/details?id=com.faithfood",
-      "checked": "2026-07-25",
+      "label": "FaithFood TV online TV",
+      "url": "https://faithfood.tv/online-tv",
+      "checked": "2026-07-26",
       "supports": [
-        "Church livestreaming",
-        "Video-upload notifications",
-        "Current app"
+        "Church video player",
+        "Managed updates",
+        "Church video distribution"
       ]
     },
     {
@@ -175,14 +175,6 @@
       "collectionType": "product",
       "dataAccessMethod": "manual",
       "note": "This product listing is published under the FaithFood TV name; this directory has not recorded an aggregate rating or review count."
-    },
-    {
-      "platform": "Google Play",
-      "profileUrl": "https://play.google.com/store/apps/details?id=com.faithfood",
-      "lastChecked": "2026-07-25",
-      "collectionType": "product",
-      "dataAccessMethod": "manual",
-      "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."
     }
   ],
   "affiliateRelationship": "no",
