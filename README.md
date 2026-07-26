@@ -56,7 +56,8 @@ configured review threshold. `npm run build` generates the production site in
 page in that build is present in Astro's generated XML sitemap.
 
 The software export is generated from the content collection at
-`public/data/software.json` before checks and builds. Do not edit the export by
+`public/data/software.json` and the lean client-side shortlist dataset at
+`public/data/shortlist.json` before checks and builds. Do not edit either export by
 hand.
 
 ## Internal maintenance dashboard

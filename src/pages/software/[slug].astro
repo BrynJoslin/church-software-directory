@@ -70,15 +70,6 @@ const hasAffiliateLink =
   software.affiliateRelationship === "yes" &&
   Boolean(software.affiliateUrl);
 const visitUrl = hasAffiliateLink ? software.affiliateUrl! : software.officialWebsite;
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: software.name,
-  description: software.shortDescription,
-  url: new URL(Astro.url.pathname, Astro.site).href,
-  applicationCategory: "BusinessApplication",
-  operatingSystem: "Web"
-};
 const faqJsonLd = longForm
   ? {
       "@context": "https://schema.org",
@@ -95,7 +86,7 @@ const faqJsonLd = longForm
 <BaseLayout
   title={software.seo.title}
   description={software.seo.description}
-  jsonLd={faqJsonLd ? [jsonLd, faqJsonLd] : jsonLd}
+  jsonLd={faqJsonLd}
   breadcrumbs={[
     { label: "Software", href: "/software/" },
     { label: software.name }

@@ -295,6 +295,7 @@ Generate a public JSON export of publishable software data at:
 
 ```text
 /public/data/software.json
+/public/data/shortlist.json
 ```
 
 Do not expose internal notes or private information.

@@ -94,7 +94,8 @@ publishable evidence store.
 
 ## Public data export
 
-`npm run prepare:data` generates `public/data/software.json` from publishable
+`npm run prepare:data` generates `public/data/software.json` and the lean
+client-side shortlist dataset at `public/data/shortlist.json` from publishable
 software fields. It excludes editorial assessment and any future private notes.
 The command runs automatically before checks, builds and local development.
 

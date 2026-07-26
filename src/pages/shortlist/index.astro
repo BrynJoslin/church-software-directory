@@ -10,21 +10,7 @@ const [software, categoryEntries] = await Promise.all([
 software.sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 const products = software.map((entry) => ({
-  slug: entry.data.slug,
-  name: entry.data.name,
-  categories: entry.data.categories.map((category) => category.id),
-  suitableChurchSizes: entry.data.suitableChurchSizes,
-  ukFocus: entry.data.ukFocus === "strong" ? "strong" : "general",
-  giftAid: entry.data.giftAid === "unknown" ? undefined : entry.data.giftAid,
-  pricing: {
-    summary: entry.data.pricing.summary,
-    startingPrice: entry.data.pricing.startingPrice
-  },
-  procurementVerdict: entry.data.editorial.procurementVerdict ?? {
-    problem: entry.data.editorial.bestFor[0],
-    firstCheck: entry.data.editorial.limitations[0]
-  },
-  decisionEvidence: entry.data.decisionEvidence
+  categories: entry.data.categories.map((category) => category.id)
 }));
 
 const productCountByCategory = new Map<string, number>();
@@ -57,7 +43,6 @@ const categories = categoryGroups.flatMap((family) => family.categories);
     <div
       class="container shortlist-layout"
       data-shortlist
-      data-products={JSON.stringify(products)}
       data-categories={JSON.stringify(categories)}
     >
       <div class="shortlist-intro">

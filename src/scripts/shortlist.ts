@@ -56,7 +56,7 @@ const requirements = document.querySelector<HTMLElement>("[data-pack-requirement
 const questions = document.querySelector<HTMLElement>("[data-pack-questions]");
 const trusteeSummary = document.querySelector<HTMLElement>("[data-pack-summary]");
 
-const products: ShortlistProduct[] = root?.dataset.products ? JSON.parse(root.dataset.products) : [];
+let products: ShortlistProduct[] = [];
 const categories: ShortlistCategory[] = root?.dataset.categories ? JSON.parse(root.dataset.categories) : [];
 const categoryMap = new Map(categories.map((category) => [category.value, category]));
 const questionKeys = new Set<ShortlistQuestionKey>(shortlistQuestionDefinitions.map((question) => question.key));
@@ -432,4 +432,22 @@ window.addEventListener("popstate", () => {
   renderState(readState());
 });
 
-if (root && categoryForm) renderState(readState());
+const initialise = async () => {
+  if (!root || !categoryForm) return;
+  try {
+    const response = await fetch("/data/shortlist.json");
+    if (!response.ok) throw new Error(`Shortlist data request failed: ${response.status}`);
+    const data = await response.json() as { software?: ShortlistProduct[] };
+    products = Array.isArray(data.software) ? data.software : [];
+    if (!products.length) throw new Error("Shortlist data is empty.");
+    renderState(readState());
+  } catch {
+    categoryForm.hidden = true;
+    const notice = document.createElement("p");
+    notice.className = "notice";
+    notice.textContent = "The shortlist is temporarily unavailable. Please browse categories or compare products directly.";
+    root.querySelector(".shortlist-intro")?.append(notice);
+  }
+};
+
+void initialise();

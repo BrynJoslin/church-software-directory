@@ -6,6 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDirectory = path.join(root, "src", "content", "software");
 const outputDirectory = path.join(root, "public", "data");
 const outputFile = path.join(outputDirectory, "software.json");
+const shortlistOutputFile = path.join(outputDirectory, "shortlist.json");
 
 const decisionFields = [
   ["contact-band", ["contact", "package limit"]],
@@ -81,6 +82,10 @@ const entries = await Promise.all(
       ...(entry.freeTrial !== "unknown" ? { freeTrial: entry.freeTrial } : {}),
       ...(entry.giftAid && entry.giftAid !== "unknown" ? { giftAid: entry.giftAid } : {}),
       decisionEvidence: decisionEvidenceFor(entry),
+      shortlistVerdict: entry.editorial.procurementVerdict ?? {
+        problem: entry.editorial.bestFor[0],
+        firstCheck: entry.editorial.limitations[0]
+      },
       lastChecked: entry.lastChecked,
       sources: entry.sources
     };
@@ -99,11 +104,30 @@ await writeFile(
       contentAsOf,
       licence: "No reuse licence has yet been selected.",
       count: entries.length,
-      software: entries
+      software: entries.map(({ shortlistVerdict, ...entry }) => entry)
     },
     null,
     2
   )}\n`
 );
 
+const shortlistSoftware = entries.map((entry) => ({
+  slug: entry.slug,
+  name: entry.name,
+  categories: entry.categories,
+  suitableChurchSizes: entry.suitableChurchSizes,
+  ukFocus: entry.ukFocus === "strong" ? "strong" : "general",
+  ...(entry.giftAid ? { giftAid: entry.giftAid } : {}),
+  pricing: {
+    ...(entry.pricing.startingPrice ? { startingPrice: entry.pricing.startingPrice } : {})
+  },
+  procurementVerdict: entry.shortlistVerdict,
+  decisionEvidence: Object.fromEntries(
+    Object.entries(entry.decisionEvidence).map(([key, evidence]) => [key, { state: evidence.state }])
+  )
+}));
+
+await writeFile(shortlistOutputFile, `${JSON.stringify({ software: shortlistSoftware })}\n`);
+
 console.log(`Exported ${entries.length} software entries to public/data/software.json`);
+console.log(`Exported ${shortlistSoftware.length} shortlist entries to public/data/shortlist.json`);
