@@ -1,0 +1,169 @@
+{
+  "name": "KidCheck",
+  "slug": "kidcheck",
+  "shortDescription": "A US children’s and youth check-in platform with attendance, guardian notifications, optional volunteer tools and printed labels.",
+  "officialWebsite": "https://www.kidcheck.com/",
+  "company": "KidCheck",
+  "ukFocus": "general",
+  "categories": [
+    "childrens-ministry"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches needing a dedicated children’s check-in workflow"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "KidCheck publishes US-dollar prices per check-in device: Starter $25, Plus $45 and Premier $60 monthly. Each has a published unlimited-device add-on and 90-day money-back guarantee.",
+    "startingPrice": {
+      "amount": 25,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Starter, one check-in device"
+    },
+    "tiers": [
+      {
+        "label": "Starter",
+        "price": "$25/month",
+        "detail": "One device; unlimited devices add $15/month"
+      },
+      {
+        "label": "Plus",
+        "price": "$45/month",
+        "detail": "One device; unlimited devices add $30/month"
+      },
+      {
+        "label": "Premier",
+        "price": "$60/month",
+        "detail": "One device; unlimited devices add $60/month"
+      }
+    ],
+    "trialDetails": "KidCheck publishes a 90-day money-back guarantee rather than a free trial."
+  },
+  "freePlan": "no",
+  "freeTrial": "no",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Child and youth check-in",
+    "Attendance",
+    "Parent-maintained accounts",
+    "Check-out controls",
+    "Guardian notifications",
+    "Label printing"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Setup, training and live support stated by supplier"
+  ],
+  "editorial": {
+    "assessment": "KidCheck is a purpose-built check-in product with clear device-based pricing. UK churches should validate data-processing terms, hardware availability and their physical collection procedure; software alone cannot establish safe handovers or safeguarding practice.",
+    "bestFor": [
+      "Churches wanting dedicated check-in rather than a wider ChMS module"
+    ],
+    "strengths": [
+      "Published device-based pricing",
+      "Guardian accounts, check-out and notification features are stated"
+    ],
+    "limitations": [
+      "Ask KidCheck for a UK quote and the data terms that would apply",
+      "Not a replacement for safeguarding policy or volunteer supervision"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches wanting dedicated check-in rather than a wider ChMS module",
+      "differentiator": "Child and youth check-in",
+      "firstCheck": "Ask KidCheck for a UK quote and the data terms that would apply"
+    }
+  },
+  "longForm": {
+    "verdict": "KidCheck is a focused option when the practical priority is children’s check-in and collection. Its value should be proven through a live rehearsal with parents, labels, devices and the people who actually lead children’s ministry.",
+    "decisionLens": {
+      "heading": "A check-in screen does not prove a safe handover.",
+      "text": "Confirm who verifies collection, how exceptions are handled, where emergency details are held and what happens when a printer or network fails. These are church procedures supported by software, not responsibilities the software takes away."
+    },
+    "sections": [
+      {
+        "heading": "Dedicated check-in workflow",
+        "question": "Will the team use it consistently at the door?",
+        "paragraphs": [
+          "KidCheck publishes child and youth check-in, attendance, parent-maintained accounts, guardian notifications and check-out functions. Its pricing is based on edition and licensed check-in devices rather than attendance count.",
+          "Use a demo to practice normal and exceptional collection scenarios. Before processing live child data, obtain the supplier’s relevant privacy information and confirm how data can be exported, corrected and removed."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on KidCheck’s official pricing and feature pages.",
+      "themes": [
+        "Device and label workflow need testing in the church building.",
+        "Safeguarding depends on people and procedures as well as check-in technology."
+      ],
+      "caveat": "Supplier security claims are not an independent safeguarding assessment or proof of UK GDPR suitability."
+    },
+    "faq": [
+      {
+        "question": "How much does KidCheck cost?",
+        "answer": "Published prices are $25, $45 and $60 per month for one device across Starter, Plus and Premier, with an unlimited-device add-on for each."
+      },
+      {
+        "question": "Does KidCheck offer a free trial?",
+        "answer": "The supplier publishes a 90-day money-back guarantee and a free demo."
+      },
+      {
+        "question": "Does KidCheck replace safeguarding procedures?",
+        "answer": "No. It can support check-in and collection records, but the church remains responsible for its safeguarding policies, supervision and handover process."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/kidcheck/kidcheck-logo.png",
+      "alt": "KidCheck logo",
+      "source": "https://www.kidcheck.com/wp-content/themes/kidcheck/images/favicon.ico",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "KidCheck pricing",
+      "url": "https://www.kidcheck.com/features-pricing/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Guarantee",
+        "Support",
+        "Demo"
+      ]
+    },
+    {
+      "label": "KidCheck edition comparison",
+      "url": "https://www.kidcheck.com/features-pricing/compare-editions/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Features",
+        "Device limits"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.kidcheck.mobile",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the KidCheck name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "KidCheck review for UK churches",
+    "description": "Independent KidCheck profile for UK churches: pricing, children’s check-in features, safeguarding checks and FAQs."
+  }
+}

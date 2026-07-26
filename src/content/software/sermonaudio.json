@@ -1,0 +1,178 @@
+{
+  "name": "SermonAudio",
+  "slug": "sermonaudio",
+  "shortDescription": "A global sermon publishing and media platform for churches and ministries, with audio, video, livestreaming, mobile and cross-publishing tools.",
+  "officialWebsite": "https://www.sermonaudio.com/",
+  "company": "SermonAudio",
+  "ukFocus": "general",
+  "categories": [
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches wanting a dedicated sermon archive and Christian discovery audience",
+    "Teams that want to cross-publish sermons to social channels"
+  ],
+  "pricing": {
+    "model": "unknown",
+    "summary": "SermonAudio’s current broadcaster pricing is not published clearly enough in the sources reviewed for this profile. A historic supplier brochure quoted a $29.95 monthly base fee and a 2025 supplier post refers to a monthly bill; confirm current pricing directly.",
+    "trialDetails": "A 2025 SermonAudio post says churches joining through a referral link can try the service free for the first month. Ask for the current general trial terms."
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "SermonAudio publishes a privacy policy with a stated account-deletion request process and a 90-day deletion timeframe. The reviewed policy does not state a UK GDPR or data-hosting position, so ask which terms and hosting arrangements would apply to a UK church.",
+  "coreFeatures": [
+    "Audio and video sermon publishing",
+    "Sermon archive and discovery",
+    "Livestreaming",
+    "Mobile and TV apps",
+    "Sermon management",
+    "Cross-publishing to YouTube and Facebook"
+  ],
+  "integrations": [
+    "YouTube",
+    "Facebook"
+  ],
+  "importExport": [],
+  "support": [],
+  "editorial": {
+    "assessment": "SermonAudio is a specialist publishing platform rather than a church management system. It may suit a church whose teaching archive and reach are central priorities, but its theological fit, publishing controls, current costs and UK data arrangements need checking before adoption.",
+    "bestFor": [
+      "Churches wanting dedicated sermon hosting and a discoverable archive",
+      "Teams that want a defined publishing workflow for audio and video sermons"
+    ],
+    "strengths": [
+      "Specialist sermon archive, streaming and cross-publishing features",
+      "Supplier states that cross-publishing is included for broadcasters"
+    ],
+    "limitations": [
+      "Ask SermonAudio for current broadcaster pricing",
+      "Churches should assess theological fit, rights, privacy and UK data arrangements"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches wanting dedicated sermon hosting and a discoverable archive",
+      "differentiator": "Audio and video sermon publishing",
+      "firstCheck": "Ask SermonAudio for current broadcaster pricing"
+    }
+  },
+  "longForm": {
+    "verdict": "SermonAudio should be compared as a ministry-publishing partner, not merely a video host. Its usefulness depends on the church’s teaching, discovery and audience goals, alongside a realistic process for recording, approval and removal.",
+    "decisionLens": {
+      "heading": "Agree the publishing policy before choosing the platform.",
+      "text": "A sermon archive can be a valuable public resource, but it also makes teaching, personal stories and service recordings easier to find and share. Decide what is published, who approves it, how speakers consent, and when a recording is edited or removed."
+    },
+    "sections": [
+      {
+        "heading": "Specialist sermon distribution",
+        "question": "Does the platform match the church’s intended public voice?",
+        "paragraphs": [
+          "SermonAudio describes audio and video publishing, livestreaming, mobile and TV distribution, sermon management and cross-publishing to YouTube and Facebook. Its 2025 release notes say cross-publishing is included for broadcaster accounts.",
+          "Ask the supplier for current broadcaster pricing, storage and livestream limits, rights management and data-processing terms. Use a small pilot to test upload speed, public discovery, embed options and how the church handles a correction or removal request."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on SermonAudio’s own release information and published material.",
+      "themes": [
+        "The platform is a specialised archive and discovery channel, not simply cloud storage.",
+        "Publishing policy, theological fit and current pricing require local review."
+      ],
+      "caveat": "Supplier claims about reach and functionality are not independent testing or an endorsement of the service’s suitability for every church."
+    },
+    "faq": [
+      {
+        "question": "How much does SermonAudio cost?",
+        "answer": "An older supplier brochure quoted a $29.95 monthly base fee; request current written broadcaster pricing before budgeting."
+      },
+      {
+        "question": "Does SermonAudio offer a free trial?",
+        "answer": "A 2025 supplier post describes a free first month for churches joining through a referral link. Ask for the current general trial terms."
+      },
+      {
+        "question": "Can SermonAudio cross-publish sermons?",
+        "answer": "Yes, according to the supplier’s 2025 release notes. It says broadcasters can upload to SermonAudio and request publishing to YouTube and Facebook."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/sermonaudio/sermonaudio-logo.svg",
+      "alt": "SermonAudio logo",
+      "source": "https://www.sermonaudio.com/favicons/sa/favicon.svg",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "SermonAudio release notes, March 2025",
+      "url": "https://www.sermonaudio.com/article/misc/release-notes-march-2025/print",
+      "checked": "2026-07-25",
+      "supports": [
+        "Cross-publishing",
+        "Sermon management",
+        "Apps"
+      ]
+    },
+    {
+      "label": "SermonAudio referral information",
+      "url": "https://www.sermonaudio.com/article/misc/coins",
+      "checked": "2026-07-25",
+      "supports": [
+        "Referral trial",
+        "Monthly-bill reference"
+      ]
+    },
+    {
+      "label": "SermonAudio historic brochure",
+      "url": "https://www.sermonaudio.com/images/sermonaudio-brochure3.pdf",
+      "checked": "2026-07-25",
+      "supports": [
+        "Historic price only"
+      ]
+    },
+    {
+      "label": "SermonAudio privacy policy",
+      "url": "https://www.sermonaudio.com/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published privacy policy",
+        "Account-deletion request process",
+        "Data-retention statement"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/sermons-by-sermonaudio/id1577357355",
+      "rating": 3.38462,
+      "maximumRating": 5,
+      "reviewCount": 13,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Sermons by SermonAudio."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.sermonaudio.MainApp",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Sermons by SermonAudio; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "SermonAudio review for UK churches",
+    "description": "Independent SermonAudio profile for UK churches: sermon hosting, trial information, current pricing checks and publishing FAQs."
+  }
+}

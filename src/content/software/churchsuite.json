@@ -1,85 +1,530 @@
 {
   "name": "ChurchSuite",
   "slug": "churchsuite",
-  "shortDescription": "A modular church management platform with UK-specific giving, Gift Aid and payment information published by the supplier.",
+  "shortDescription": "A UK-based modular church management platform for contacts, children, rotas, groups, events, giving, bookings, communications and multi-site administration.",
   "officialWebsite": "https://churchsuite.com/",
   "company": "ChurchSuite Ltd",
   "countryOfOrigin": "United Kingdom",
   "ukFocus": "strong",
-  "categories": ["church-management", "online-giving", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large", "multi-site"],
-  "suitableContexts": ["Churches wanting one system for people, rotas, events and giving"],
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-management",
+    "online-giving",
+    "childrens-ministry",
+    "volunteer-scheduling",
+    "pastoral-care",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches with a named administrator or systems owner for shared people, rota, event and giving workflows",
+    "Church of England parishes that want to assess the supplier's Electoral Roll workflow alongside diocesan requirements",
+    "Growing churches that need site-based access within one account"
+  ],
   "pricing": {
     "model": "tiered",
-    "summary": "Published GBP pricing varies by active contacts and the number of modules selected.",
+    "summary": "The supplier publishes monthly GBP pricing that varies with active adult contacts and selected modules; UK prices include VAT where applicable.",
     "startingPrice": {
       "amount": 9,
       "currency": "GBP",
       "period": "month",
-      "qualifier": "0–99 contacts, one module, monthly billing; VAT inclusive where applicable"
-    }
+      "qualifier": "0–99 active adult contacts, one module; VAT inclusive where applicable"
+    },
+    "tiers": [
+      {
+        "label": "Solo",
+        "price": "from £9/month",
+        "detail": "0–99 active adult contacts; Address Book plus one module"
+      },
+      {
+        "label": "Starter",
+        "price": "from £19/month",
+        "detail": "0–99 active adult contacts; Address Book plus two modules"
+      },
+      {
+        "label": "Suite",
+        "price": "from £32.50/month",
+        "detail": "0–99 active adult contacts; six or more modules"
+      },
+      {
+        "label": "500–999 contacts",
+        "price": "£21–£77.50/month",
+        "detail": "Published range from one module to six or more modules"
+      }
+    ],
+    "trialDetails": "30 days. The supplier states that UK subscriptions are paid monthly by Direct Debit; active adult contacts and selected modules determine the charge."
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
   "giftAid": "yes",
   "demoAvailable": "unknown",
+  "dataHosting": "ChurchSuite states that customer data is hosted on AWS infrastructure in the UK. Ask which current region, backups, files, sub-processors and transfers would apply to the church.",
+  "gdprInformation": "ChurchSuite publishes security and data-protection material, including encryption and configurable access controls. This is supplier information, not a finding that a church's own processing is compliant.",
   "coreFeatures": [
-    "Address book",
-    "Volunteer rotas",
-    "Events",
-    "Service planning",
-    "Giving and Gift Aid administration"
+    "Address Book for adult contact records",
+    "Children's records, attendance and check-in",
+    "Groups, events, calendar, bookings and communications",
+    "Volunteer rotas and service planning",
+    "Giving, online donations and UK Gift Aid claim administration",
+    "Member-facing My ChurchSuite and mobile access",
+    "Multi-site administration and site-based user access"
   ],
-  "integrations": ["Stripe for online card donations"],
-  "importExport": ["Self-service data import guidance"],
-  "support": ["Online support articles", "Email support"],
+  "integrations": [
+    "GoCardless for recurring and one-off bank donations",
+    "Stripe for online card donations",
+    "Embed components for websites",
+    "OAuth2-enabled API for custom integrations"
+  ],
+  "importExport": [
+    "Module reports and custom tables can be downloaded as CSV",
+    "CSV import guidance is published for data preparation and migration",
+    "A complete single-account export is not documented; confirm the records and formats needed before committing"
+  ],
+  "support": [
+    "Online support articles and email support",
+    "Supplier says email support aims to respond within one hour during UK office hours",
+    "Ask the supplier for exact office hours and any contractual service levels"
+  ],
+  "decisionEvidence": {
+    "contact-band": {
+      "value": "Pricing is based on active adult contacts and selected modules; children stored only in the Children module are not counted for billing.",
+      "state": "supplier-published",
+      "source": "https://churchsuite.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "multi-site": {
+      "value": "One account can support multiple sites and site-based user access; some permissions apply across a user's permitted sites rather than being independently configurable for every site.",
+      "state": "supplier-published",
+      "source": "https://support.churchsuite.com/article/216-multi-site-functionality",
+      "checked": "2026-07-25"
+    },
+    "implementation": {
+      "value": "The pricing information includes data-import assistance, but the supplier should confirm which historical records and validation work are included for the church's migration.",
+      "state": "supplier-published",
+      "source": "https://churchsuite.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "uk-purchasing": {
+      "value": "The supplier publishes GBP pricing for UK subscriptions, paid monthly by Direct Debit.",
+      "state": "supplier-published",
+      "source": "https://churchsuite.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Published pricing starts at £9 per month for 0–99 active adult contacts and one module.",
+      "state": "supplier-published",
+      "source": "https://churchsuite.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "vat-treatment": {
+      "value": "Published UK prices include VAT where applicable.",
+      "state": "supplier-published",
+      "source": "https://churchsuite.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "For UK customers, the Giving module documents preparing and submitting Gift Aid claims to HMRC Online Services.",
+      "state": "supplier-published",
+      "source": "https://support.churchsuite.com/article/119-reclaiming-gift-aid",
+      "checked": "2026-07-25"
+    },
+    "role-permissions": {
+      "value": "Pastoral notes can be private or restricted to user groups, but otherwise default to authorised users of the relevant module and site.",
+      "state": "supplier-published",
+      "source": "https://support.churchsuite.com/article/44-setting-the-visibility-of-notes",
+      "checked": "2026-07-25"
+    },
+    "hosting": {
+      "value": "The supplier states that customer data is hosted on AWS infrastructure in the UK.",
+      "state": "supplier-published",
+      "source": "https://churchsuite.com/security/",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Module reports and custom tables can be exported as CSV; a complete single-account export is not documented.",
+      "state": "supplier-published",
+      "source": "https://support.churchsuite.com/article/419-custom-reporting-with-the-table-generator",
+      "checked": "2026-07-25"
+    },
+    "migration": {
+      "value": "CSV import guidance and data-import assistance are published; confirm scope for relationships, giving history, notes, attendance and other records needed locally.",
+      "state": "supplier-published",
+      "source": "https://support.churchsuite.com/article/11-import-your-data-into-churchsuite",
+      "checked": "2026-07-25"
+    },
+    "uk-support": {
+      "value": "The supplier says email support aims to respond within one hour during UK office hours; ask for exact hours and any contractual service levels.",
+      "state": "supplier-published",
+      "source": "https://support.churchsuite.com/article/186-getting-help",
+      "checked": "2026-07-25"
+    },
+    "contract": {
+      "value": "The supplier publishes no long-term tie-in and asks for five clear working days' cancellation notice; the church must export retained data before permanent account deletion.",
+      "state": "supplier-published",
+      "source": "https://support.churchsuite.com/article/335-cancelling-your-subscription-to-churchsuite",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchsuite/churchsuite-logo.svg",
+      "alt": "ChurchSuite logo",
+      "source": "https://churchsuite.com/branding/",
+      "checked": "2026-07-25"
+    }
+  },
   "editorial": {
-    "assessment": "ChurchSuite is the clearest UK-specific example in this foundation set. Churches should still map the modules they need and verify data-protection, migration and total-cost details directly.",
+    "assessment": "ChurchSuite is a broad UK-focused platform for churches willing to establish shared records and workflows across people, rotas, children, events and giving. Its published UK functionality is unusually well documented, but a church should test adoption, sensitive-record access, complete data exit and the precise scope of safeguarding and denominational workflows before relying on it.",
     "bestFor": [
-      "UK churches that need people, rota, event and giving administration together",
-      "Churches that value published GBP pricing"
+      "Small and medium UK churches with an identified administrator or systems owner",
+      "Independent churches that want people, groups, rotas, events, children, communications and giving in one system",
+      "Church of England parishes that can check the supplier's Electoral Roll workflow against their diocesan requirements",
+      "Growing or multi-site churches that need site assignments and central administration within one account",
+      "Churches prioritising UK Gift Aid and bank-donation workflows"
     ],
     "strengths": [
-      "The supplier publishes UK payment and Gift Aid information",
-      "Modules can be selected around a church's needs"
+      "Published GBP pricing, VAT treatment, modular packages and a 30-day trial",
+      "UK Gift Aid claims through HMRC Online Services and GoCardless bank-donation integration",
+      "Detailed children’s check-in controls for registration, collection, attendance, medical information and team ratios",
+      "UK AWS hosting, encryption, backups and security practices described in supplier documentation",
+      "Multi-site structure and Church of England Electoral Roll guidance are documented"
     ],
     "limitations": [
-      "Total cost changes with contact count and module selection",
-      "Data hosting and accessibility details have not yet been verified for this listing"
+      "Member and volunteer adoption can require sustained training, reminders and leadership modelling",
+      "Children’s check-in is well evidenced, while complete safeguarding case management and DBS administration require a supplier answer",
+      "Pastoral notes are visible to authorised users by default unless administrators deliberately apply private or group restrictions",
+      "Mobile complaints in public reviews are mostly from 2021–2023, so current usability needs fresh testing",
+      "Ask the supplier about full-account export coverage, migration scope, exact support arrangements and Catholic sacramental workflows",
+      "Payment-processing fees apply in addition to the ChurchSuite subscription"
+    ],
+    "procurementVerdict": {
+      "problem": "A church needs one shared system for people data and connected operational workflows, rather than separate lists, rotas, registrations and giving records.",
+      "differentiator": "The documented UK combination of modular pricing, Gift Aid, GoCardless donations, UK hosting, children’s check-in and multi-site administration.",
+      "firstCheck": "Run one real workflow with ordinary volunteers and test who can access sensitive records, what exports are available and what the complete cost will be at the church's contact band."
+    }
+  },
+  "longForm": {
+    "verdict": "ChurchSuite is most compelling when the church’s underlying problem is fragmented operational knowledge: people data in one place, rotas in another, event registrations elsewhere and giving records somewhere else again. Its modularity can support a focused start, but the value depends on named ownership, deliberate permissions and a commitment to make the shared record the normal route for everyday work.",
+    "decisionLens": {
+      "heading": "Do not buy a suite to avoid an adoption decision.",
+      "text": "The central question is not whether ChurchSuite has enough modules. It is whether the church will make its shared record the normal place for contacts, availability, registrations and communication. The difficult cost is often the change in habits, permissions and accountability—not the first monthly invoice."
+    },
+    "sections": [
+      {
+        "heading": "A modular record for connected church work",
+        "question": "What becomes simpler when several teams work from the same record?",
+        "paragraphs": [
+          "ChurchSuite is a web-based modular platform built around its Address Book. Supplier material describes modules for children, groups, rotas, service planning, events, calendar, bookings, communications, giving and member-facing access, with multi-site administration available within one account.",
+          "That breadth matters where the same person appears in several workflows: someone joins a group, serves on a rota, registers for an event, updates their details and gives regularly. A shared record can reduce repeated re-keying, but only when the church decides which system is authoritative for each process."
+        ]
+      },
+      {
+        "heading": "UK purchasing, giving and finance boundaries",
+        "question": "Does the published monthly price describe the church's real cost and finance workflow?",
+        "paragraphs": [
+          "ChurchSuite publishes monthly GBP pricing based on active adult contacts and selected modules, with VAT included where applicable. Its published entry point is £9 per month for 0–99 active adult contacts and one module, while six or more modules start at £32.50 per month in that contact band. Children stored only in the Children module are not counted for billing.",
+          "For UK customers, the Giving documentation covers preparing and submitting Gift Aid claims to HMRC Online Services. ChurchSuite also documents GoCardless for recurring and one-off bank donations; its support material says a 1% application fee, including VAT and capped at £2, is added alongside GoCardless charges. A treasurer should trial donation-to-reconciliation, declaration handling, claim corrections, accounting exports and all transaction fees rather than assuming that a giving module completes the church's finance controls."
+        ]
+      },
+      {
+        "heading": "Children’s check-in and sensitive pastoral information",
+        "question": "Where do useful operational controls end and the church's own safeguarding responsibilities begin?",
+        "paragraphs": [
+          "ChurchSuite’s Check-In documentation covers child and visitor registration, badges, matching collection codes, attendance, medical and allergy information, team attendance and adult-to-child ratio monitoring. These are substantial controls for a children’s ministry workflow and should be tested in the church’s real building, including its procedures for a busy collection or an unavailable device.",
+          "They do not establish a complete safeguarding management system. The reviewed material did not confirm DBS administration, concern logs, allegations, referrals or end-to-end case management. Pastoral notes can be private or restricted to user groups, but otherwise default to authorised users of the relevant module and site. The church should decide what belongs in routine pastoral records, who can access it and how safeguarding matters are handled separately."
+        ]
+      },
+      {
+        "heading": "Multi-site and denominational fit",
+        "question": "Does the account structure match the way the church or parish is actually governed?",
+        "paragraphs": [
+          "ChurchSuite documents multiple sites and site-based user permissions within one account. It also notes that some permissions operate consistently across a user's permitted sites rather than being independently configurable for each site and module combination. A multi-site church should therefore test its central-versus-local roles, reporting and sensitive-record boundaries before rollout.",
+          "For Church of England parishes, the supplier publishes an Electoral Roll workflow using forms, tags and key dates, while advising churches to check the final form with their diocese. For Catholic sacramental registers, canonical record-keeping and diocesan integrations, obtain a direct supplier answer before ChurchSuite is shortlisted."
+        ]
+      },
+      {
+        "heading": "Implementation, adoption and leaving well",
+        "question": "Can the church run one real workflow without parallel spreadsheets—and leave with usable data if needed?",
+        "paragraphs": [
+          "ChurchSuite publishes CSV import guidance, data-import assistance and CSV exports from module reports and custom tables. These are useful starting points, but the review did not establish one complete account export or the migration scope for every kind of historical record. Before signing, ask the supplier to demonstrate the export and migration of the church's actual contacts, relationships, giving, Gift Aid declarations, notes, attendance, rotas, communications and files.",
+          "The supplier says there is no long-term tie-in, but requires five clear working days' notice for cancellation and expects customers to export retained data before permanent account deletion. Use the 30-day trial to import a safe sample, invite ordinary volunteers, build a rota, create an event, test a member update and rehearse a data export. The practical success measure is whether those tasks can replace a parallel list, not whether a small project team can find the features."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "Independent evidence is thinner than ChurchSuite's supplier documentation. Recent Church-tech discussions include direct users who describe it as well built, volunteer-friendly and supported by a responsive team, but another recent discussion involving two ChurchSuite churches identifies persistent work in getting members and volunteers to use it consistently. UK App Store reviews also describe login, PIN and interrupted-workflow frustrations, although the detailed complaints are mainly from 2021 to 2023 and may no longer reflect the current app.",
+      "themes": [
+        "A small number of recent direct users praise build quality, volunteer use and responsive support.",
+        "Churches can still need repeated reminders, training and leadership modelling before volunteers and members use the system consistently.",
+        "Historical mobile complaints are a reason to test current staff and volunteer journeys, not a conclusion about the current app.",
+        "The independent sample is too limited and mixed in date to predict fit or satisfaction for another church."
+      ],
+      "caveat": "This page does not use an aggregate rating as an endorsement. The public feedback sample is small, includes dated reviews and cannot establish universal usability, support quality or current mobile performance."
+    },
+    "faq": [
+      {
+        "question": "Is ChurchSuite suitable for a small UK church?",
+        "answer": "It can be where a small church needs a shared people record, rotas, events, children’s check-in and Gift Aid administration. Price the actual adult-contact band and required modules, then weigh that against the time needed to configure, maintain and encourage consistent use."
+      },
+      {
+        "question": "Does ChurchSuite support Gift Aid and bank donations?",
+        "answer": "For UK customers, ChurchSuite documents preparing and submitting Gift Aid claims to HMRC Online Services. It also documents GoCardless integration for recurring and one-off bank donations. Confirm the church’s declaration, reconciliation and transaction-fee workflow before relying on it."
+      },
+      {
+        "question": "Does ChurchSuite provide safeguarding software?",
+        "answer": "Its children’s Check-In workflow includes useful safeguarding-relevant controls such as collection codes, attendance and medical information. The reviewed evidence does not confirm a complete system for DBS checks, concerns, allegations, referrals or safeguarding case management."
+      },
+      {
+        "question": "Can a church import and export ChurchSuite data?",
+        "answer": "ChurchSuite publishes CSV import guidance and documents CSV exports from module reports and custom tables. Ask the supplier to show the scope and format of exports for every record type the church needs, including whether one complete account export is available, before committing."
+      },
+      {
+        "question": "Does ChurchSuite make a church GDPR compliant?",
+        "answer": "No. ChurchSuite publishes security and data-protection information, but software cannot make a church compliant by itself. The church remains responsible for its lawful basis, access design, retention, training, notices and policies."
+      }
     ]
   },
-  "verificationStatus": "partially-verified",
   "lastChecked": "2026-07-25",
   "sources": [
     {
       "label": "ChurchSuite pricing",
       "url": "https://churchsuite.com/pricing/",
       "checked": "2026-07-25",
-      "supports": ["Pricing model", "Starting price", "Free trial", "UK payment method", "Support"]
+      "supports": [
+        "Pricing model",
+        "Published GBP tiers",
+        "VAT treatment",
+        "Free trial",
+        "Module structure",
+        "UK subscription payment",
+        "Data-import assistance"
+      ]
+    },
+    {
+      "label": "ChurchSuite security information",
+      "url": "https://churchsuite.com/security/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK AWS hosting statement",
+        "Encryption statement",
+        "Backups",
+        "Security practices"
+      ]
+    },
+    {
+      "label": "ChurchSuite Gift Aid guidance",
+      "url": "https://support.churchsuite.com/article/119-reclaiming-gift-aid",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK Gift Aid claims",
+        "HMRC Online Services submission",
+        "Gift Aid workflow"
+      ]
+    },
+    {
+      "label": "ChurchSuite GoCardless donation guidance",
+      "url": "https://support.churchsuite.com/article/576-integrating-gocardless-for-online-donations",
+      "checked": "2026-07-25",
+      "supports": [
+        "GoCardless integration",
+        "Bank donations",
+        "Published ChurchSuite application fee"
+      ]
+    },
+    {
+      "label": "ChurchSuite Check-In guidance",
+      "url": "https://support.churchsuite.com/article/682-getting-started-with-the-check-in-system",
+      "checked": "2026-07-25",
+      "supports": [
+        "Children's check-in",
+        "Collection codes",
+        "Medical information",
+        "Attendance",
+        "Team ratios"
+      ]
+    },
+    {
+      "label": "ChurchSuite note-visibility guidance",
+      "url": "https://support.churchsuite.com/article/44-setting-the-visibility-of-notes",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pastoral notes",
+        "Role permissions",
+        "Private notes",
+        "Restricted user groups"
+      ]
+    },
+    {
+      "label": "ChurchSuite cancellation guidance",
+      "url": "https://support.churchsuite.com/article/335-cancelling-your-subscription-to-churchsuite",
+      "checked": "2026-07-25",
+      "supports": [
+        "Cancellation",
+        "No long-term tie-in",
+        "Data export responsibility",
+        "Account deletion"
+      ]
+    },
+    {
+      "label": "ChurchSuite custom reporting and export guidance",
+      "url": "https://support.churchsuite.com/article/419-custom-reporting-with-the-table-generator",
+      "checked": "2026-07-25",
+      "supports": [
+        "CSV exports",
+        "Custom reporting",
+        "Migration support"
+      ]
+    },
+    {
+      "label": "ChurchSuite multi-site guidance",
+      "url": "https://support.churchsuite.com/article/216-multi-site-functionality",
+      "checked": "2026-07-25",
+      "supports": [
+        "Multi-site",
+        "Site permissions",
+        "Account structure"
+      ]
+    },
+    {
+      "label": "ChurchSuite Church of England Electoral Roll guidance",
+      "url": "https://support.churchsuite.com/article/483-case-study-managing-your-electoral-roll",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church of England Electoral Roll workflow",
+        "Forms",
+        "Tags",
+        "Key dates"
+      ]
+    },
+    {
+      "label": "ChurchSuite support guidance",
+      "url": "https://support.churchsuite.com/article/186-getting-help",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK support",
+        "Email response aim",
+        "Support channels"
+      ]
     },
     {
       "label": "ChurchSuite product overview",
       "url": "https://churchsuite.com/",
       "checked": "2026-07-25",
-      "supports": ["Core features", "Gift Aid management"]
+      "supports": [
+        "Core features",
+        "Member-facing access",
+        "Mobile access"
+      ]
     },
     {
-      "label": "ChurchSuite Giving documentation",
-      "url": "https://support.churchsuite.com/article/455-getting-started-with-the-giving-module",
+      "label": "ChurchSuite branding resources",
+      "url": "https://churchsuite.com/branding/",
       "checked": "2026-07-25",
-      "supports": ["Gift Aid claims", "Giving features", "Stripe integration"]
+      "supports": [
+        "Official logo asset",
+        "Supplier logo-use guidance"
+      ]
+    },
+    {
+      "label": "ChurchSuite import guidance",
+      "url": "https://support.churchsuite.com/article/11-import-your-data-into-churchsuite",
+      "checked": "2026-07-25",
+      "supports": [
+        "CSV import",
+        "Migration preparation",
+        "Data mapping"
+      ]
     },
     {
       "label": "ChurchSuite terms of service",
       "url": "https://churchsuite.com/terms-of-service/",
       "checked": "2026-07-25",
-      "supports": ["Supplier legal name", "Country of origin"]
+      "supports": [
+        "Supplier legal name",
+        "UK-registered organisation"
+      ]
+    },
+    {
+      "label": "Church-tech discussion: Church Online System",
+      "url": "https://www.reddit.com/r/churchtech/comments/1pgtmfq/church_online_system/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Limited independent user-feedback context",
+        "Volunteer usability discussion",
+        "Support discussion",
+        "Safeguarding scope question"
+      ]
+    },
+    {
+      "label": "Church-tech discussion: increasing congregational usage",
+      "url": "https://www.reddit.com/r/churchtech/comments/1t5fw4j/church_management_system_increasing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Independent adoption discussion",
+        "Member and volunteer adoption"
+      ]
+    },
+    {
+      "label": "ChurchSuite UK App Store reviews",
+      "url": "https://apps.apple.com/gb/app/1241362773?platform=iphone&see-all=reviews",
+      "checked": "2026-07-25",
+      "supports": [
+        "Historical mobile-feedback context",
+        "Login and PIN feedback",
+        "Interrupted-workflow feedback"
+      ]
+    },
+    {
+      "label": "Capterra UK ChurchSuite reviews",
+      "url": "https://www.capterra.co.uk/software/122430/churchapp",
+      "checked": "2026-07-25",
+      "supports": [
+        "Historical independent user-feedback context",
+        "Review-volume caveat"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/1241362773?platform=iphone&see-all=reviews",
+      "rating": 3.8,
+      "maximumRating": 5,
+      "reviewCount": 75,
+      "lastChecked": "2026-07-25",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "The detailed reviews considered were mainly from 2021 to 2023, so the aggregate and comments should not be treated as a current usability verdict."
+    },
+    {
+      "platform": "Capterra UK",
+      "profileUrl": "https://www.capterra.co.uk/software/122430/churchapp",
+      "lastChecked": "2026-07-25",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "The reviewed feedback was historical and partly non-UK; no aggregate is displayed here."
+    },
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/churchsuite.com",
+      "rating": 3.1,
+      "maximumRating": 5,
+      "reviewCount": 2,
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "A small number of reviews should not be treated as a representative usability verdict."
     }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {
-    "title": "ChurchSuite: UK church software profile",
-    "description": "Independent ChurchSuite profile covering verified UK pricing, Gift Aid, free-trial and church management information, with clear unknowns."
+    "title": "ChurchSuite: UK pricing, Gift Aid and fit",
+    "description": "Independent ChurchSuite profile for UK churches: pricing, Gift Aid, check-in, support, data questions and practical fit."
   }
 }

@@ -1,10 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const software = await getCollection("software");
 ---
 
 <BaseLayout
   title="Research methodology"
-  description="How church software entries are selected, sourced, verified, dated, corrected and separated from editorial assessment and commercial interests."
+  description="How church software entries are selected, sourced, dated, corrected and separated from editorial assessment and commercial interests."
   breadcrumbs={[{ label: "Methodology" }]}
 >
   <section class="section">
@@ -13,16 +16,37 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <p class="eyebrow">Trust and evidence</p>
         <h1>Research methodology</h1>
         <p>
-          The directory aims to make the status of every important claim visible.
-          A supplier source can establish what the supplier publishes; it does not
-          amount to hands-on testing or independent certification.
+          The directory publishes facts that can be traced to a dated source.
+          A current official supplier page is sufficient evidence for what the
+          supplier publishes; it does not amount to hands-on testing or
+          independent certification.
         </p>
 
         <h2>Which products are included</h2>
         <p>
-          A product must have an active official site and plausible relevance to
-          UK church administration, ministry or operations. The first engineering
-          phase contains only five representative entries.
+          A product must be available for a UK church to buy, subscribe to,
+          download or deploy now. It must help a responsible church role prepare,
+          deliver or manage administration, ministry or operations; being useful
+          to an individual Christian is not enough on its own.
+        </p>
+        <p>
+          The product's main workflow must work in the UK and fit a defined
+          directory category. General-purpose products need demonstrated church
+          or charity relevance, or a distinctive reason to be included, rather
+          than merely being something a church could theoretically use.
+        </p>
+        <p>
+          Private-beta products, products that are not available to UK customers,
+          individual devotional or discovery apps without a church-managed
+          workflow, and products without enough current evidence for a useful
+          assessment are excluded from the main catalogue. Newness, a narrow
+          denominational audience, a free or open-source model, and unresolved
+          procurement questions do not by themselves prevent inclusion.
+        </p>
+        <p>
+          The directory currently contains {software.length} entries and is not a
+          market-wide shortlist. Inclusion is reviewed as products and evidence
+          change, and does not amount to endorsement.
         </p>
 
         <h2>How facts are researched</h2>
@@ -30,35 +54,43 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           <li>Prefer official product, pricing, support and policy pages.</li>
           <li>Record the source URL, checked date and fields it supports.</li>
           <li>Keep structured facts separate from directory assessment.</li>
-          <li>Use “Not confirmed” when the evidence does not establish an answer.</li>
+          <li>Omit incidental details that do not have useful supporting evidence.</li>
+          <li>Turn material gaps into a precise question for the supplier.</li>
           <li>Do not infer compliance from general marketing language.</li>
         </ol>
 
-        <h2>Verification statuses</h2>
+        <h2>How sources are described</h2>
         <dl class="stack">
           <div>
-            <dt>Verified</dt>
+            <dt>Supplier source</dt>
             <dd>
-              The important fields in scope have strong, current evidence and
-              have received editorial review. None of the foundation listings
-              currently uses this status.
+              A current official product, pricing, support, policy or terms page
+              supports what the supplier publishes.
             </dd>
           </div>
           <div>
-            <dt>Partially verified</dt>
+            <dt>Independent source</dt>
             <dd>
-              Several useful fields have current first-party sources, but
-              material unknowns or unreviewed areas remain.
+              A relevant public record, regulator, authoritative body or other
+              non-supplier source supports the fact.
             </dd>
           </div>
           <div>
-            <dt>Needs review</dt>
+            <dt>Directory tested</dt>
             <dd>
-              Evidence is old, incomplete or awaiting editorial review. Treat the
-              entry as a lead for further research.
+              Church Software UK performed and documented the stated test. This
+              label is not used unless that work actually occurred.
             </dd>
           </div>
         </dl>
+
+        <h2>When a detail is missing</h2>
+        <p>
+          Optional details are omitted. Matters that could change a purchasing
+          decision—such as hosting, Gift Aid, contracts or data export—become
+          specific questions to settle. “No” is used only when a suitable source
+          explicitly establishes absence.
+        </p>
 
         <h2>Review cycle</h2>
         <p>
@@ -67,23 +99,37 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           detail is complete.
         </p>
 
+        <h2 id="public-feedback">Public feedback scans</h2>
+        <p>A public feedback scan is a dated, limited synthesis of eligible public feedback. It is separate from supplier facts and this directory’s assessment. It does not claim to find everything said online, measure satisfaction, establish that a view is typical, or establish every account as fact.</p>
+        <p>We identify the product, app, module and supplier before searching; use balanced positive and negative queries; and record the date range, scope, sampling approach, source types and UK relevance. We exclude private material, supplier testimonials, copied or syndicated material, personal data, high-risk allegations and sources whose terms do not permit the intended use. We do not scrape platforms, use their widgets, or publish star ratings or review structured data.</p>
+        <p>Repeated themes need support from distinct eligible source contexts or several apparently independent reports on one suitable source. Thin evidence is labelled as limited; a completed search with no eligible material says only that no usable public feedback was found in the sources and date range checked. Scans are normally reviewed after 180 days, sooner where a product changes materially.</p>
+        <p>We look for suspicious, incentivised, duplicated or out-of-date material and do not use it as a theme without proportionate checking. Anyone can report a misleading summary or source via the correction route below. We will investigate the supporting evidence, correct or remove misleading material where appropriate, and retain an internal record of the editorial decision. Commercial status never changes source selection or prominence.</p>
+
         <h2>Corrections</h2>
         <p>
-          Users and suppliers may submit official evidence. Corrections are
-          assessed on evidence, regardless of commercial status. The submission
-          endpoint is not connected in this foundation build.
+          Corrections will be assessed on evidence, regardless of commercial status.
+          Use the public correction route to report an inaccurate listing or a
+          misleading public-feedback summary, with the relevant public evidence.
         </p>
 
         <h2>Commercial independence</h2>
         <p>
-          Affiliate and sponsored features are disabled. A future relationship
-          must be labelled and must not guarantee positive coverage or ranking.
+          Affiliate links are used only where a relationship is confirmed and
+          disclosed beside the relevant link. They must not guarantee positive
+          coverage or ranking. Any sponsored listing must be clearly labelled
+          and is held to the same research and editorial standards.
+        </p>
+        <h2>How AI is used</h2>
+        <p>
+          AI may help organise research, identify missing fields and draft copy.
+          It is not treated as a source of product facts. A human remains
+          responsible for checking evidence and approving published material.
         </p>
       </article>
       <aside class="aside-card">
         <h2>Important boundary</h2>
         <p>
-          Churches should verify legal, security, safeguarding, tax, data-hosting
+          Churches should check legal, security, safeguarding, tax, data-hosting
           and contractual matters directly with suppliers and appropriate
           advisers.
         </p>

@@ -1,14 +1,21 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import SoftwareCard from "../../components/SoftwareCard.astro";
-import VerificationBadge from "../../components/VerificationBadge.astro";
+import PublicFeedbackScan from "../../components/PublicFeedbackScan.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { siteConfig } from "../../config/site";
+import { findRelatedProducts } from "../../utils/related-products";
+import {
+  evidenceStateLabel,
+  evidenceSummaryFor
+} from "../../utils/decision-evidence";
 import {
   formatDate,
   formatStartingPrice,
   pricingModelLabel,
   triStateLabel,
-  ukFocusLabel
+  ukFocusLabel,
+  ukOrganisationLabel
 } from "../../utils/content";
 
 export async function getStaticPaths() {
@@ -19,9 +26,10 @@ export async function getStaticPaths() {
   }));
 }
 
-interface Props {
+type RelatedProduct = {
   entry: CollectionEntry<"software">;
-}
+  reason: string;
+};
 
 const { entry } = Astro.props;
 const software = entry.data;
@@ -35,33 +43,50 @@ const relatedCategories = categories.filter((category) =>
 const categoryNames = new Map(
   categories.map((category) => [category.id, category.data.name])
 );
-const relatedProducts = allSoftware
-  .filter(
-    (candidate) =>
-      candidate.id !== entry.id &&
-      candidate.data.categories.some((candidateCategory) =>
-        software.categories.some(
-          (currentCategory) => currentCategory.id === candidateCategory.id
-        )
-      )
-  )
-  .sort((a, b) => a.data.name.localeCompare(b.data.name))
-  .slice(0, 2);
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: software.name,
-  description: software.shortDescription,
-  url: new URL(Astro.url.pathname, Astro.site).href,
-  applicationCategory: "BusinessApplication",
-  operatingSystem: "Web"
+const relatedProducts = findRelatedProducts(entry, allSoftware);
+const evidenceSummary = evidenceSummaryFor(entry);
+const procurementVerdict = software.editorial.procurementVerdict ?? {
+  problem: software.editorial.bestFor[0],
+  differentiator: software.coreFeatures[0] ?? "Compare the published capabilities with the church's intended workflow.",
+  firstCheck: software.editorial.limitations[0]
 };
+const ukFocus = ukFocusLabel(software.ukFocus);
+const ukOrganisation = ukOrganisationLabel(software.ukOrganisation);
+const pricingModel = pricingModelLabel(software.pricing.model);
+const startingPrice = formatStartingPrice(software.pricing.startingPrice);
+const freePlan = triStateLabel(software.freePlan);
+const freeTrial = triStateLabel(software.freeTrial);
+const giftAid = software.giftAid ? triStateLabel(software.giftAid) : null;
+const hasOperations =
+  Boolean(software.dataHosting) ||
+  Boolean(software.gdprInformation) ||
+  software.integrations.length > 0 ||
+  software.importExport.length > 0 ||
+  software.support.length > 0;
+const longForm = software.longForm;
+const publicFeedback = software.publicFeedback;
+const hasAffiliateLink =
+  siteConfig.features.affiliateLinks &&
+  software.affiliateRelationship === "yes" &&
+  Boolean(software.affiliateUrl);
+const visitUrl = hasAffiliateLink ? software.affiliateUrl! : software.officialWebsite;
+const faqJsonLd = longForm
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: longForm.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer }
+      }))
+    }
+  : undefined;
 ---
 
 <BaseLayout
   title={software.seo.title}
   description={software.seo.description}
-  jsonLd={jsonLd}
+  jsonLd={faqJsonLd}
   breadcrumbs={[
     { label: "Software", href: "/software/" },
     { label: software.name }
@@ -71,23 +96,33 @@ const jsonLd = {
     <div class="container page-grid">
       <article class="stack">
         <div class="card-heading">
-          <div class="logo-fallback" aria-hidden="true">
-            {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
-          </div>
+          {
+            software.brandAssets?.logo ? (
+              <img
+                class="software-logo"
+                src={software.brandAssets.logo.src}
+                alt={software.brandAssets.logo.alt}
+              />
+            ) : (
+              <div class="logo-fallback" aria-hidden="true">
+                {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
+              </div>
+            )
+          }
           <div>
             <p class="eyebrow">Software profile</p>
             <h1>{software.name}</h1>
-            <VerificationBadge status={software.verificationStatus} />
           </div>
         </div>
         <p class="measure">{software.shortDescription}</p>
         <div class="cluster">
           <a
             class="button"
-            href={software.officialWebsite}
-            rel="noopener noreferrer"
+            href={visitUrl}
+            target="_blank"
+            rel={hasAffiliateLink ? "noopener noreferrer sponsored" : "noopener noreferrer"}
           >
-            Visit official website
+            {hasAffiliateLink ? "Visit official website (affiliate link)" : "Visit official website"}
           </a>
           <a
             class="button button--secondary"
@@ -96,11 +131,91 @@ const jsonLd = {
             Add to comparison
           </a>
         </div>
+        {
+          (hasAffiliateLink || software.sponsored) && (
+            <aside class="notice" aria-label="Commercial disclosure">
+              {hasAffiliateLink && (
+                <p>
+                  <strong>Affiliate disclosure:</strong> this link may earn Church Software UK a commission if you make a qualifying purchase. It does not affect this profile’s assessment or ranking.
+                </p>
+              )}
+              {software.sponsored && (
+                <p>
+                  <strong>Sponsored listing:</strong> the supplier has paid for this placement. Sponsorship does not affect this profile’s assessment or ranking.
+                </p>
+              )}
+              <p><a href="/affiliate-disclosure/">Read our commercial disclosure.</a></p>
+            </aside>
+          )
+        }
+
+        {
+          longForm && (
+            <section class="profile-verdict" aria-labelledby="verdict-heading">
+              <p class="eyebrow">The short version</p>
+              <h2 id="verdict-heading">A fit worth testing against your real workflow.</h2>
+              <p>{longForm.verdict}</p>
+            </section>
+          )
+        }
 
         <section aria-labelledby="assessment-heading">
           <h2 id="assessment-heading">Directory assessment</h2>
           <p>{software.editorial.assessment}</p>
         </section>
+
+        {publicFeedback && <PublicFeedbackScan feedback={publicFeedback} reviews={software.externalReviews} />}
+
+        <section class="profile-verdict" aria-labelledby="procurement-verdict-heading">
+          <p class="eyebrow">Procurement verdict</p>
+          <h2 id="procurement-verdict-heading">What to investigate first</h2>
+          <dl class="detail-list">
+            <div>
+              <dt>Problem this profile addresses</dt>
+              <dd>{procurementVerdict.problem}</dd>
+            </div>
+            <div>
+              <dt>Material differentiator to test</dt>
+              <dd>{procurementVerdict.differentiator}</dd>
+            </div>
+            <div>
+              <dt>First question to settle</dt>
+              <dd>{procurementVerdict.firstCheck}</dd>
+            </div>
+          </dl>
+          {
+            !software.editorial.procurementVerdict && (
+              <p class="muted">This structured verdict is awaiting an editorial rewrite; it currently draws on the existing assessment, recorded features and limitations.</p>
+            )
+          }
+        </section>
+
+        {
+          evidenceSummary.fields.length > 0 && (
+            <section aria-labelledby="decision-evidence-heading">
+              <p class="eyebrow">Decision evidence</p>
+              <h2 id="decision-evidence-heading">Published details for a shortlist</h2>
+              <p class="measure">
+                These details are traced to the source shown. Supplier material
+                establishes what the supplier publishes; it is not hands-on testing.
+              </p>
+              <dl class="detail-list decision-evidence-list">
+                {evidenceSummary.fields.map((field) => (
+                  <div>
+                    <dt>{field.label}</dt>
+                    <dd>
+                      <span class={`evidence-state evidence-state--${field.state}`}>{evidenceStateLabel(field.state)}</span>
+                      <span>{field.value}</span>
+                      {field.source && (
+                        <small>Source: <a href={field.source.url} target="_blank" rel="noopener noreferrer">{field.source.label}</a> · checked {formatDate(field.source.checked)}</small>
+                      )}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          )
+        }
 
         <section aria-labelledby="fit-heading">
           <h2 id="fit-heading">Best suited to</h2>
@@ -120,66 +235,124 @@ const jsonLd = {
           </section>
         </div>
 
-        <section aria-labelledby="features-heading">
-          <h2 id="features-heading">Confirmed core features</h2>
-          {
-            software.coreFeatures.length > 0 ? (
+        {
+          software.coreFeatures.length > 0 && (
+            <section aria-labelledby="features-heading">
+              <h2 id="features-heading">What the supplier publishes</h2>
               <ul>{software.coreFeatures.map((item) => <li>{item}</li>)}</ul>
-            ) : (
-              <p>Not confirmed</p>
+            </section>
+          )
+        }
+
+        <section class="pricing-section" aria-labelledby="pricing-heading">
+          <p class="section-question">What does the supplier currently publish?</p>
+          <h2 id="pricing-heading">Pricing and trial</h2>
+          <p>{software.pricing.summary}</p>
+          {
+            software.pricing.tiers.length > 0 ? (
+              <div class="table-scroll">
+                <table class="pricing-table">
+                  <caption>Published pricing structure. Check the supplier for current terms and total cost.</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Tier or starting point</th>
+                      <th scope="col">Published price</th>
+                      <th scope="col">What it covers</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {software.pricing.tiers.map((tier) => (
+                      <tr>
+                        <th scope="row">{tier.label}</th>
+                        <td>{tier.price}</td>
+                        <td>{tier.detail}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : null
+          }
+          {
+            (freeTrial || software.pricing.trialDetails) && (
+              <p>
+                <strong>Free trial:</strong> {freeTrial ?? "Ask the supplier about an evaluation"}
+                {software.pricing.trialDetails && ` — ${software.pricing.trialDetails}`}
+              </p>
             )
           }
         </section>
 
-        <section aria-labelledby="operations-heading">
-          <h2 id="operations-heading">Operations and support</h2>
-          <dl class="detail-list">
-            <div>
-              <dt>Data hosting</dt>
-              <dd>{software.dataHosting ?? "Not confirmed"}</dd>
-            </div>
-            <div>
-              <dt>GDPR information</dt>
-              <dd>{software.gdprInformation ?? "Not confirmed"}</dd>
-            </div>
-            <div>
-              <dt>Integrations</dt>
-              <dd>
-                {software.integrations.length > 0
-                  ? software.integrations.join(", ")
-                  : "Not confirmed"}
-              </dd>
-            </div>
-            <div>
-              <dt>Import and export</dt>
-              <dd>
-                {software.importExport.length > 0
-                  ? software.importExport.join(", ")
-                  : "Not confirmed"}
-              </dd>
-            </div>
-            <div>
-              <dt>Support</dt>
-              <dd>
-                {software.support.length > 0
-                  ? software.support.join(", ")
-                  : "Not confirmed"}
-              </dd>
-            </div>
-          </dl>
-        </section>
+        {
+          longForm && (
+            <>
+              <aside class="decision-lens" aria-labelledby="lens-heading">
+                <p class="eyebrow">The decision lens</p>
+                <h2 id="lens-heading">{longForm.decisionLens.heading}</h2>
+                <p>{longForm.decisionLens.text}</p>
+              </aside>
+
+              {longForm.sections.map((section) => (
+                <section class="profile-section" aria-labelledby={`${section.heading.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-")}-heading`}>
+                  <p class="section-question">{section.question}</p>
+                  <h2 id={`${section.heading.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-")}-heading`}>
+                    {section.heading}
+                  </h2>
+                  {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+                </section>
+              ))}
+
+              {!publicFeedback && <section class="profile-section" aria-labelledby="feedback-heading">
+                <p class="section-question">What does external feedback add?</p>
+                <h2 id="feedback-heading">What public reviews and peer discussion do — and do not — show</h2>
+                <p>{longForm.userFeedback.summary}</p>
+                <ul>{longForm.userFeedback.themes.map((theme) => <li>{theme}</li>)}</ul>
+                <p class="muted">{longForm.userFeedback.caveat}</p>
+              </section>}
+
+              <section class="profile-section" aria-labelledby="faq-heading">
+                <p class="section-question">The questions a shortlist needs to answer</p>
+                <h2 id="faq-heading">{software.name} FAQs</h2>
+                <div class="faq-list">
+                  {longForm.faq.map((item) => (
+                    <details>
+                      <summary>{item.question}</summary>
+                      <p>{item.answer}</p>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            </>
+          )
+        }
+
+        {
+          hasOperations && (
+            <section aria-labelledby="operations-heading">
+              <h2 id="operations-heading">Published operations and support details</h2>
+              <dl class="detail-list">
+                {software.dataHosting && <div><dt>Data hosting</dt><dd>{software.dataHosting}</dd></div>}
+                {software.gdprInformation && <div><dt>Data protection information</dt><dd>{software.gdprInformation}</dd></div>}
+                {software.integrations.length > 0 && <div><dt>Integrations</dt><dd>{software.integrations.join(", ")}</dd></div>}
+                {software.importExport.length > 0 && <div><dt>Import and export</dt><dd>{software.importExport.join(", ")}</dd></div>}
+                {software.support.length > 0 && <div><dt>Support</dt><dd>{software.support.join(", ")}</dd></div>}
+              </dl>
+            </section>
+          )
+        }
 
         <section aria-labelledby="sources-heading">
-          <h2 id="sources-heading">Official sources</h2>
+          <h2 id="sources-heading">Sources reviewed</h2>
           <p>
-            These supplier sources support only the fields named beneath each
-            link. They do not constitute independent testing.
+            Sources support only the fields named beneath each link. Supplier
+            material is not independent testing; external review material is
+            included as a limited signal rather than a verdict.
           </p>
           <ol class="source-list">
             {
               software.sources.map((source) => (
                 <li>
-                  <a href={source.url} rel="noopener noreferrer">
+                  <a href={source.url} target="_blank" rel="noopener noreferrer">
                     {source.label}
                   </a>
                   <br />
@@ -197,36 +370,16 @@ const jsonLd = {
       <aside class="aside-card">
         <h2>At a glance</h2>
         <dl class="detail-list">
+          {ukFocus && <div><dt>UK focus</dt><dd>{ukFocus}</dd></div>}
+          {ukOrganisation && <div><dt>Organisation</dt><dd>{ukOrganisation}</dd></div>}
+          {software.suitableContexts.length > 0 && <div><dt>Editorial fit contexts</dt><dd>{software.suitableContexts.join(", ")}</dd></div>}
+          {pricingModel && <div><dt>Pricing model</dt><dd>{pricingModel}</dd></div>}
+          {startingPrice && <div><dt>Published from</dt><dd>{startingPrice}</dd></div>}
+          {freePlan && <div><dt>Free plan</dt><dd>{freePlan}</dd></div>}
+          {freeTrial && <div><dt>Free trial</dt><dd>{freeTrial}</dd></div>}
+          {giftAid && <div><dt>Gift Aid</dt><dd>{giftAid}</dd></div>}
           <div>
-            <dt>UK focus</dt>
-            <dd>{ukFocusLabel(software.ukFocus)}</dd>
-          </div>
-          <div>
-            <dt>Church sizes</dt>
-            <dd>{software.suitableChurchSizes.join(", ")}</dd>
-          </div>
-          <div>
-            <dt>Pricing model</dt>
-            <dd>{pricingModelLabel(software.pricing.model)}</dd>
-          </div>
-          <div>
-            <dt>Published from</dt>
-            <dd>{formatStartingPrice(software.pricing.startingPrice)}</dd>
-          </div>
-          <div>
-            <dt>Free plan</dt>
-            <dd>{triStateLabel(software.freePlan)}</dd>
-          </div>
-          <div>
-            <dt>Free trial</dt>
-            <dd>{triStateLabel(software.freeTrial)}</dd>
-          </div>
-          <div>
-            <dt>Gift Aid</dt>
-            <dd>{triStateLabel(software.giftAid)}</dd>
-          </div>
-          <div>
-            <dt>Last checked</dt>
+            <dt>Sources checked</dt>
             <dd>{formatDate(software.lastChecked)}</dd>
           </div>
         </dl>
@@ -249,7 +402,11 @@ const jsonLd = {
           }
         </ul>
         <p class="muted">
-          No affiliate relationship. This listing is not sponsored.
+          {software.sponsored
+            ? "Sponsored listing."
+            : software.affiliateRelationship === "yes"
+              ? "Affiliate relationship disclosed. This listing is not sponsored."
+              : "No affiliate relationship. This listing is not sponsored."}
         </p>
       </aside>
     </div>
@@ -261,9 +418,14 @@ const jsonLd = {
         <div class="container">
           <h2 id="related-heading">Related products</h2>
           <div class="software-grid">
-            {relatedProducts.map((product) => (
-              <SoftwareCard entry={product} categoryNames={categoryNames} />
-            ))}
+            {relatedProducts.map(
+              (related: RelatedProduct) => (
+                <div>
+                  <SoftwareCard entry={related.entry} categoryNames={categoryNames} />
+                  <p class="related-reason">Why shown: {related.reason}</p>
+                </div>
+              )
+            )}
           </div>
         </div>
       </section>

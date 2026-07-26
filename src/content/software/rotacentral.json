@@ -1,0 +1,190 @@
+{
+  "name": "RotaCentral",
+  "slug": "rotacentral",
+  "shortDescription": "UK volunteer rota software for places of worship and other voluntary organisations, with allocation or self-sign-up, availability, swaps and email or SMS reminders.",
+  "officialWebsite": "https://www.rotacentral.com/",
+  "company": "RotaCentral Limited",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": [
+    "volunteer-scheduling",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches coordinating recurring volunteer rotas",
+    "Churches that need either leader allocation or volunteer self-sign-up",
+    "Teams that need availability, confirmation and reminder workflows"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "RotaCentral publishes annual GBP plans from £135 for up to 35 rota members and one rota, with a free trial. Larger published tiers go to £360 a year for up to 1,500 members and 10 rotas; Enterprise pricing is by enquiry.",
+    "startingPrice": {
+      "amount": 135,
+      "currency": "GBP",
+      "period": "year",
+      "qualifier": "Starter plan, up to 35 rota members and one rota"
+    },
+    "tiers": [
+      {
+        "label": "Starter",
+        "price": "£135/year",
+        "detail": "Up to 35 rota members and one rota."
+      },
+      {
+        "label": "Basic",
+        "price": "£195/year",
+        "detail": "Up to 100 rota members and two rotas."
+      },
+      {
+        "label": "Standard",
+        "price": "£250/year",
+        "detail": "Up to 250 rota members and five rotas."
+      },
+      {
+        "label": "Pro",
+        "price": "£360/year",
+        "detail": "Up to 1,500 rota members and 10 rotas."
+      },
+      {
+        "label": "Enterprise",
+        "price": "Contact supplier",
+        "detail": "Unlimited members and rotas, according to the published pricing page."
+      }
+    ],
+    "trialDetails": "Supplier offers a free trial and demo request route; trial length is not stated on the reviewed public pricing page."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "RotaCentral Limited publishes a privacy notice identifying itself as processor for customer organisations. It states that its application uses a UK Amazon data centre, that rota attendance and contact records are retained for seven years after the relevant shift or most recent shift, and that it does not transfer data outside the UK. Request the current agreement, full sub-processor list, security evidence, deletion process and export format before adoption.",
+  "coreFeatures": [
+    "Leader allocation or volunteer self-sign-up",
+    "Multiple rotas",
+    "Availability and absence preferences",
+    "Shift confirmation",
+    "Shift swaps and cancellations",
+    "Automated email and SMS reminders",
+    "Automatic allocation and fairness algorithm",
+    "Role matching",
+    "Multiple rota administrators",
+    "Dashboard for gaps and attention items"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Supplier offers a demo request route",
+    "Supplier offers a free trial route",
+    "Website describes premium support but does not publish a support-hours commitment on the reviewed pages"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "The supplier's privacy notice identifies RotaCentral Limited as a company registered in England and Wales. Companies House records RotaCentral Limited (10417157) as active.",
+      "state": "supplier-published",
+      "source": "https://www.rotacentral.com/privacy-policy/",
+      "checked": "2026-07-25"
+    },
+    "worship-relevance": {
+      "value": "The supplier lists places of worship among the organisations using its volunteer rota software.",
+      "state": "supplier-published",
+      "source": "https://www.rotacentral.com/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes annual GBP tiers from £135 to £360, plus an Enterprise enquiry option and a free trial route.",
+      "state": "supplier-published",
+      "source": "https://www.rotacentral.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "Supplier's privacy notice describes processor status, UK application hosting, no stated overseas transfers and seven-year retention of rota attendance and contact records.",
+      "state": "supplier-published",
+      "source": "https://www.rotacentral.com/privacy-policy/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "RotaCentral is a general UK volunteer-scheduling service rather than a church-management system, but its published place-of-worship relevance and roster workflows make it a credible specialist option for churches. Its public privacy notice is unusually useful for an initial comparison: it identifies the processor role, a stated UK hosting location and named retention periods. A church should still test ministry-specific rota needs and obtain the current contractual and security material before importing personal data.",
+    "bestFor": [
+      "Churches that need a focused rota system rather than a wider member database",
+      "Teams needing a mix of self-sign-up and administrator allocation",
+      "Churches that value published annual GBP prices and explicit public retention information"
+    ],
+    "strengths": [
+      "UK company and published UK-facing privacy notice",
+      "Places of worship are an explicit supplier use case",
+      "Allocation, self-sign-up, availability, swaps and confirmation are published workflows",
+      "Published annual GBP tiers cover small through large volunteer groups",
+      "Privacy notice states UK application hosting and retention periods"
+    ],
+    "limitations": [
+      "It is a general volunteer platform rather than church-specific software",
+      "Published pages do not establish church member-management, giving, safeguarding or service-planning features",
+      "No published import, export, accessibility or full sub-processor detail was found in the reviewed material",
+      "SMS delivery arrangements and associated data handling should be confirmed in writing"
+    ],
+    "procurementVerdict": {
+      "problem": "Creating and confirming recurring church volunteer rotas without spreadsheet and messaging overhead",
+      "differentiator": "A UK-operated, focused rota service that supports both allocated and self-selected shifts and publishes useful initial data-handling detail",
+      "firstCheck": "Run one real ministry rota through availability, role matching, self-sign-up, allocation, reminders, swaps, absence and export requirements before moving the full team"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "RotaCentral volunteer management software",
+      "url": "https://www.rotacentral.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Places of worship use case",
+        "Rota features",
+        "Trial and demo routes",
+        "Supplier UK positioning"
+      ]
+    },
+    {
+      "label": "RotaCentral pricing",
+      "url": "https://www.rotacentral.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Annual GBP prices",
+        "Member and rota limits",
+        "Enterprise option",
+        "Free trial route"
+      ]
+    },
+    {
+      "label": "RotaCentral privacy notice",
+      "url": "https://www.rotacentral.com/privacy-policy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal operator",
+        "Processor statement",
+        "UK hosting statement",
+        "Retention periods",
+        "No stated overseas transfers"
+      ]
+    },
+    {
+      "label": "Companies House: RotaCentral Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10417157",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Active company status"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "RotaCentral review for UK churches",
+    "description": "Independent RotaCentral profile: volunteer rota pricing, scheduling workflows, published UK hosting and church procurement checks."
+  }
+}

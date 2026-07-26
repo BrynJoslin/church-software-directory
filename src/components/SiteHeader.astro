@@ -5,6 +5,7 @@ const currentPath = Astro.url.pathname;
 const navItems = [
   { href: "/software/", label: "Software" },
   { href: "/categories/", label: "Categories" },
+  { href: "/shortlist/", label: "Build a shortlist" },
   { href: "/compare/", label: "Compare" },
   { href: "/guides/", label: "Guides" },
   { href: "/methodology/", label: "Methodology" }
@@ -14,10 +15,26 @@ const navItems = [
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="/" aria-label={`${siteConfig.name} home`}>
-      <span class="brand-mark" aria-hidden="true">UK</span>
+      <span class="brand-mark" aria-hidden="true"></span>
       <span>{siteConfig.shortName}</span>
     </a>
-    <nav aria-label="Primary navigation">
+    <div class="header-actions">
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        aria-label="Open menu"
+      >
+        <span class="menu-toggle__icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>Menu</span>
+      </button>
+    </div>
+    <nav id="primary-navigation" class="site-nav" aria-label="Primary navigation">
       <ul class="nav-list">
         {
           navItems.map((item) => (
@@ -35,3 +52,45 @@ const navItems = [
     </nav>
   </div>
 </header>
+
+<script is:inline>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const primaryNavigation = document.querySelector("#primary-navigation");
+  const mobileMenu = window.matchMedia("(max-width: 52rem)");
+
+  if (menuToggle && primaryNavigation) {
+    const setMenuState = (isOpen) => {
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+      primaryNavigation.hidden = !isOpen;
+    };
+
+    const syncMenuForViewport = () => {
+      if (mobileMenu.matches) {
+        setMenuState(false);
+      } else {
+        primaryNavigation.hidden = false;
+      }
+    };
+
+    syncMenuForViewport();
+    mobileMenu.addEventListener("change", syncMenuForViewport);
+
+    menuToggle.addEventListener("click", () => {
+      setMenuState(menuToggle.getAttribute("aria-expanded") !== "true");
+    });
+
+    primaryNavigation.addEventListener("click", (event) => {
+      if (mobileMenu.matches && event.target instanceof HTMLAnchorElement) {
+        setMenuState(false);
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && mobileMenu.matches && !primaryNavigation.hidden) {
+        setMenuState(false);
+        menuToggle.focus();
+      }
+    });
+  }
+</script>

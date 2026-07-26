@@ -1,10 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { siteConfig } from "../config/site";
+
+const software = await getCollection("software");
 ---
 
 <BaseLayout
   title="About the directory"
-  description="Why the UK Church Software Directory exists, who it serves and how it aims to support careful, independent church software decisions."
+  description="Why Church Software UK exists, who it serves and how it aims to support careful, independent church software decisions."
   breadcrumbs={[{ label: "About" }]}
 >
   <section class="section">
@@ -13,7 +17,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <p class="eyebrow">About the project</p>
         <h1>Better information for consequential decisions</h1>
         <p>
-          The UK Church Software Directory helps church administrators, leaders,
+          Church Software UK helps church administrators, leaders,
           treasurers, safeguarding teams and volunteers discover and assess
           software used in ministry and operations.
         </p>
@@ -30,11 +34,44 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           financial, safeguarding or tax advice, and it does not replace a
           church's own due diligence.
         </p>
-        <h2>Current stage</h2>
+        <h2>Current catalogue</h2>
         <p>
-          This is an architectural foundation with five representative listings.
-          It demonstrates the research and comparison model; it is not yet a
-          comprehensive catalogue.
+          The directory currently contains {software.length} researched listings.
+          It is not a market-wide shortlist, and inclusion is not endorsement.
+        </p>
+        <h2>Publisher and correction route</h2>
+        {
+          siteConfig.publisher.name ? (
+            <>
+              <p><strong>Responsible publisher:</strong> {siteConfig.publisher.name}</p>
+              {siteConfig.publisher.background && <p>{siteConfig.publisher.background}</p>}
+              {siteConfig.publisher.correctionRoute && (
+                <p><a href={siteConfig.publisher.correctionRoute} target="_blank" rel="noopener noreferrer">Contact the publisher about a correction.</a></p>
+              )}
+            </>
+          ) : (
+            <p>
+              No responsible publisher, public contact route or relevant background
+              is configured. The directory is therefore not ready to launch publicly.
+            </p>
+          )
+        }
+        <p>
+          AI may assist with research organisation and drafting, but a human remains
+          accountable for published claims and corrections.
+        </p>
+        <h2>How to use the directory</h2>
+        <p>
+          Start with the workflow that needs attention rather than a supplier name.
+          Compare the published facts, note the questions that remain, and ask a
+          small group of people who will use the system to test one ordinary task.
+          A shortlist is a starting point for due diligence, not a purchase decision.
+        </p>
+        <p>
+          For a shared starting point, use the shortlist tool; it only narrows
+          recorded profiles and explains the evidence behind each result. Then
+          record costs, ownership, data, exit and implementation questions before
+          a church makes a commitment.
         </p>
       </article>
       <aside class="aside-card">

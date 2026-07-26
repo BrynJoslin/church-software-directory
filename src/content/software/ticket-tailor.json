@@ -1,0 +1,198 @@
+{
+  "name": "Ticket Tailor",
+  "slug": "ticket-tailor",
+  "shortDescription": "A UK-founded event ticketing platform for paid and free events, with website embedding, attendee management and published per-ticket fees.",
+  "officialWebsite": "https://www.tickettailor.com/pricing?currency=gbp",
+  "company": "Ticket Tailor",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches running paid or free events",
+    "Teams that want control of ticketing on their own website"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Ticket Tailor publishes UK pricing from £0.22 plus VAT per paid ticket when credits are bought in advance, or £0.60 plus VAT pay-as-you-go. Payment-provider fees are separate; it also publishes a 50% discount on its fees for eligible charities.",
+    "startingPrice": {
+      "amount": 0.22,
+      "currency": "GBP",
+      "period": "transaction",
+      "qualifier": "prepaid paid-ticket fee, plus VAT"
+    },
+    "tiers": [
+      {
+        "label": "Prepaid credits",
+        "price": "From £0.22 per paid ticket + VAT",
+        "detail": "Ticket Tailor fee; payment-provider charges are separate"
+      },
+      {
+        "label": "Pay as you go",
+        "price": "£0.60 per paid ticket + VAT",
+        "detail": "Ticket Tailor fee; payment-provider charges are separate"
+      },
+      {
+        "label": "Eligible charity discount",
+        "price": "50% off Ticket Tailor fees",
+        "detail": "Supplier says payment-processor fees are not included in the discount"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Event ticketing",
+    "Free-event registration",
+    "Website embedding",
+    "Discount codes",
+    "Waitlists",
+    "Attendee check-in",
+    "Event communications"
+  ],
+  "integrations": [
+    "Stripe",
+    "PayPal",
+    "Square"
+  ],
+  "importExport": [
+    "Attendee data export"
+  ],
+  "support": [
+    "Supplier help centre",
+    "Support contact"
+  ],
+  "editorial": {
+    "assessment": "Ticket Tailor is a strong UK comparison candidate for churches running events because it publishes GBP per-ticket pricing, offers a stated charity discount and lets a church choose a payment provider. The real comparison must include VAT, processor fees, refund policy and the public booking experience.",
+    "bestFor": [
+      "Churches selling tickets or taking registrations for events and courses",
+      "Teams wanting booking pages embedded on a church website"
+    ],
+    "strengths": [
+      "Clear UK fee model",
+      "Published charity discount on Ticket Tailor fees",
+      "Payment provider is separated from the ticketing platform"
+    ],
+    "limitations": [
+      "Payment-provider fees are additional",
+      "Ask how Gift Aid would be handled and whether the church qualifies for the charity discount"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches selling tickets or taking registrations for events and courses",
+      "differentiator": "Event ticketing",
+      "firstCheck": "Payment-provider fees are additional"
+    }
+  },
+  "longForm": {
+    "verdict": "Ticket Tailor is a particularly useful UK option when event registration is becoming an administrative burden but the church still wants the event journey to feel like its own. Its fee model is intelligible, but the cost that matters is the complete checkout: platform fee, VAT, processor fee and refund handling.",
+    "decisionLens": {
+      "heading": "The ticket price is only one part of the promise to an attendee.",
+      "text": "A paid event creates an expectation of a clear confirmation, accessible booking experience and straightforward support if plans change. Trial the attendee journey, not simply the staff dashboard, and decide in advance who owns cancellations and refunds."
+    },
+    "sections": [
+      {
+        "heading": "Fees, payments and charity discount",
+        "question": "How should a church calculate the likely cost?",
+        "paragraphs": [
+          "Ticket Tailor lists prepaid credits from £0.22 plus VAT per paid ticket and pay-as-you-go at £0.60 plus VAT, with payment-provider charges separate. It says eligible charities can receive 50% off its own fees.",
+          "Model a typical event and a difficult one: a free event, a paid event, a refund and a cancellation. Confirm eligibility and current fees before setting ticket prices, and do not assume the platform itself handles Gift Aid."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Ticket Tailor’s public GBP pricing and charity-discount information.",
+      "themes": [
+        "Published per-ticket fees make event-level cost modelling possible.",
+        "The payment provider remains a separate decision and cost."
+      ],
+      "caveat": "Published fees and charity discounts can change, and a church’s VAT, processor and refund obligations depend on its own circumstances."
+    },
+    "faq": [
+      {
+        "question": "How much does Ticket Tailor cost in the UK?",
+        "answer": "Ticket Tailor lists prepaid paid-ticket fees from £0.22 plus VAT, or £0.60 plus VAT pay-as-you-go. Payment processing costs are separate."
+      },
+      {
+        "question": "Does Ticket Tailor offer charity pricing?",
+        "answer": "Ticket Tailor says eligible charities receive 50% off its own fees. Its help information says this does not discount the separate payment-processor fees."
+      },
+      {
+        "question": "Does Ticket Tailor handle Gift Aid?",
+        "answer": "Ask the supplier to describe any Gift Aid support and obtain appropriate charity-finance advice before designing a Gift Aid process around ticket sales."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/ticket-tailor/ticket-tailor-logo.png",
+      "alt": "Ticket Tailor logo",
+      "source": "https://www.tickettailor.com/favicon.ico",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Ticket Tailor pricing",
+      "url": "https://www.tickettailor.com/pricing?currency=gbp",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Payment providers",
+        "Features"
+      ]
+    },
+    {
+      "label": "Ticket Tailor charity discount",
+      "url": "https://help.tickettailor.com/en/articles/8687492-what-discounts-do-we-offer",
+      "checked": "2026-07-25",
+      "supports": [
+        "Charity discount"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/ticket-tailor/id6443722054",
+      "rating": 4.67856,
+      "maximumRating": 5,
+      "reviewCount": 28,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Ticket Tailor."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.tickettailor.checkinapp",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Ticket Tailor Check-in App; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/tickettailor.com",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Ticket Tailor and does not establish suitability for a particular church."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Ticket Tailor review for UK churches",
+    "description": "Independent Ticket Tailor profile for UK churches: ticket fees, charity discount, payment providers and event-registration questions."
+  }
+}

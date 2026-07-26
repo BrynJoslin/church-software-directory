@@ -1,59 +1,63 @@
 ---
 import { getCollection } from "astro:content";
+import { siteConfig } from "../../config/site";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
-  formatCompactDate,
-  formatStartingPrice,
-  pricingModelLabel,
-  triStateLabel,
-  ukFocusLabel
-} from "../../utils/content";
+  decisionFieldDefinitions,
+  decisionFieldsFor,
+  evidenceStateLabel,
+  type DecisionField,
+  type DecisionFieldKey
+} from "../../utils/decision-evidence";
+import { formatCompactDate } from "../../utils/content";
 
 const software = (await getCollection("software")).sort((a, b) =>
   a.data.name.localeCompare(b.data.name)
 );
+const fieldsBySlug = new Map(
+  software.map((entry) => [
+    entry.data.slug,
+    new Map(decisionFieldsFor(entry).map((field) => [field.key, field]))
+  ])
+);
+const fieldsFor = (slug: string, key: DecisionFieldKey) =>
+  fieldsBySlug.get(slug)?.get(key) as DecisionField | undefined;
 ---
 
 <BaseLayout
   title="Compare church software"
-  description="Compare two to four church software products using sourced facts about UK focus, pricing, free options, Gift Aid and operational details."
+  description="Compare two to four church software products using field-level evidence, current source dates and unresolved supplier questions."
   breadcrumbs={[{ label: "Compare" }]}
 >
   <section class="section">
     <div class="container">
-      <p class="eyebrow">Structured comparison</p>
+      <p class="eyebrow">Due diligence comparison</p>
       <h1>Compare church software</h1>
       <p class="measure">
-        Choose two to four products. Unknown information stays “Not confirmed”
-        and is not interpreted as a missing feature.
+        Choose two to four products. The comparison separates material differences,
+        shared evidence and practical questions to settle before choosing.
       </p>
 
       <noscript>
         <div class="notice">
           <p>
-            All five products appear in the table below. Enable JavaScript to
-            create a smaller shareable comparison.
+            Comparisons are enhanced in the browser. To review the available
+            products, visit the <a href="/software/">software directory</a>.
           </p>
         </div>
       </noscript>
 
-      <form class="comparison-picker enhancement" data-comparison-picker>
+      <form class="comparison-picker enhancement" data-comparison-picker data-site-url={siteConfig.url}>
         <fieldset>
           <legend><strong>Products to compare</strong></legend>
           <p>Select at least two and no more than four.</p>
           <div class="check-grid">
-            {
-              software.map((entry) => (
-                <label class="check-option">
-                  <input
-                    type="checkbox"
-                    name="products"
-                    value={entry.data.slug}
-                  />
-                  <span>{entry.data.name}</span>
-                </label>
-              ))
-            }
+            {software.map((entry) => (
+              <label class="check-option">
+                <input type="checkbox" name="products" value={entry.data.slug} />
+                <span>{entry.data.name}</span>
+              </label>
+            ))}
           </div>
         </fieldset>
         <div class="cluster">
@@ -66,160 +70,74 @@ const software = (await getCollection("software")).sort((a, b) =>
         Choose at least two products to begin.
       </div>
 
-      <div class="table-scroll" data-comparison-table>
+      <section class="comparison-questions enhancement" data-comparison-questions hidden aria-labelledby="supplier-questions-heading">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow">Questions to settle</p>
+            <h2 id="supplier-questions-heading">Questions worth taking to a supplier</h2>
+          </div>
+          <button type="button" class="button button--secondary" data-copy-questions>Copy questions</button>
+        </div>
+        <ul data-supplier-questions></ul>
+      </section>
+
+      <div class="table-scroll" data-comparison-table hidden>
         <table class="comparison-table">
-          <caption>
-            Factual comparison of selected church software. Scroll horizontally
-            on a small screen.
-          </caption>
+          <caption>Field-level evidence for the selected products. Scroll horizontally on a small screen.</caption>
           <thead>
             <tr>
-              <th scope="col">Field</th>
-              {
-                software.map((entry) => (
-                  <th scope="col" data-product-column={entry.data.slug}>
-                    {entry.data.name}
-                  </th>
-                ))
-              }
+              <th scope="col">Decision field</th>
+              {software.map((entry) => <th scope="col" data-product-column={entry.data.slug}>{entry.data.name}</th>)}
             </tr>
           </thead>
+          <tbody data-comparison-group-heading="differences">
+            <tr class="comparison-group-heading"><th colspan="5" scope="rowgroup">Key differences</th></tr>
+          </tbody>
+          <tbody data-comparison-group="differences">
+            {decisionFieldDefinitions.map((definition) => (
+              <tr data-comparison-row data-question={definition.question}>
+                <th scope="row">{definition.label}</th>
+                {software.map((entry) => {
+                  const field = fieldsFor(entry.data.slug, definition.key);
+                  const hasEvidence = Boolean(field);
+                  return <td
+                    data-product-column={entry.data.slug}
+                    data-comparison-value={field?.value ?? ""}
+                    data-evidence-state={field?.state ?? "question"}
+                    data-has-evidence={hasEvidence ? "true" : "false"}
+                    data-product-name={entry.data.name}
+                  >
+                    {field ? (
+                      <>
+                        <span class={`evidence-state evidence-state--${field.state}`}>{evidenceStateLabel(field.state)}</span>
+                        <span>{field.value}</span>
+                        {field.source && <small>Source: <a href={field.source.url} target="_blank" rel="noopener noreferrer">{field.source.label}</a> · {formatCompactDate(field.source.checked)}</small>}
+                      </>
+                    ) : (
+                      <>
+                        <span class="evidence-state evidence-state--question">Question to settle</span>
+                        <small>{definition.question}</small>
+                      </>
+                    )}
+                  </td>;
+                })}
+              </tr>
+            ))}
+          </tbody>
+          <tbody data-comparison-group-heading="shared" hidden>
+            <tr class="comparison-group-heading"><th colspan="5" scope="rowgroup"><button type="button" data-comparison-toggle="shared" aria-expanded="false">Shared characteristics <span data-comparison-group-count="shared"></span></button></th></tr>
+          </tbody>
+          <tbody data-comparison-group="shared" hidden>
+          </tbody>
+          <tbody data-comparison-group-heading="unresolved" hidden>
+            <tr class="comparison-group-heading"><th colspan="5" scope="rowgroup"><button type="button" data-comparison-toggle="unresolved" aria-expanded="false">Questions to settle <span data-comparison-group-count="unresolved"></span></button></th></tr>
+          </tbody>
+          <tbody data-comparison-group="unresolved" hidden>
+          </tbody>
           <tbody>
             <tr>
-              <th scope="row">UK focus</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {ukFocusLabel(entry.data.ukFocus)}
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Church sizes</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {entry.data.suitableChurchSizes.join(", ")}
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Pricing model</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    <strong>{pricingModelLabel(entry.data.pricing.model)}</strong>
-                    <br />
-                    {entry.data.pricing.summary}
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Published from</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {formatStartingPrice(entry.data.pricing.startingPrice)}
-                    {
-                      entry.data.pricing.startingPrice?.qualifier && (
-                        <>
-                          <br />
-                          <span class="muted">
-                            {entry.data.pricing.startingPrice.qualifier}
-                          </span>
-                        </>
-                      )
-                    }
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Free plan</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {triStateLabel(entry.data.freePlan)}
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Free trial</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {triStateLabel(entry.data.freeTrial)}
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Gift Aid</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {triStateLabel(entry.data.giftAid)}
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Data hosting</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {entry.data.dataHosting ?? "Not confirmed"}
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Confirmed features</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    {
-                      entry.data.coreFeatures.length > 0 ? (
-                        <ul>
-                          {entry.data.coreFeatures.map((feature) => (
-                            <li>{feature}</li>
-                          ))}
-                        </ul>
-                      ) : (
-                        "Not confirmed"
-                      )
-                    }
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
-              <th scope="row">Last checked</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    <time datetime={entry.data.lastChecked.toISOString().slice(0, 10)}>
-                      {formatCompactDate(entry.data.lastChecked)}
-                    </time>
-                  </td>
-                ))
-              }
-            </tr>
-            <tr>
               <th scope="row">Full profile</th>
-              {
-                software.map((entry) => (
-                  <td data-product-column={entry.data.slug}>
-                    <a href={`/software/${entry.data.slug}/`}>
-                      Read {entry.data.name} profile
-                    </a>
-                  </td>
-                ))
-              }
+              {software.map((entry) => <td data-product-column={entry.data.slug}><a href={`/software/${entry.data.slug}/`}>Read {entry.data.name} profile</a></td>)}
             </tr>
           </tbody>
         </table>

@@ -1,0 +1,195 @@
+{
+  "name": "WorshipTools",
+  "slug": "worshiptools",
+  "shortDescription": "A set of free church and worship-team applications for presentation, service planning, charts, rehearsal and people communications.",
+  "officialWebsite": "https://www.worshiptools.com/",
+  "company": "WorshipTools",
+  "ukFocus": "general",
+  "categories": [
+    "church-management",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches that need low-cost worship-team tools",
+    "Teams wanting a free people database alongside service planning"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "WorshipTools publishes free access across its apps and optional Pro and Pro Plus plans for selected capacity, presentation and permissions features; current paid prices should be checked in the supplier’s signup flow.",
+    "startingPrice": {
+      "amount": 0,
+      "currency": "USD",
+      "period": "month",
+      "qualifier": "Free plan across the published WorshipTools app set"
+    },
+    "tiers": [
+      {
+        "label": "Free",
+        "price": "$0",
+        "detail": "Published free access with selected storage, user and feature limits depending on the app"
+      },
+      {
+        "label": "Pro",
+        "price": "See supplier",
+        "detail": "Adds capacity and presentation features for eligible apps; ask the supplier for the current price"
+      },
+      {
+        "label": "Pro Plus",
+        "price": "See supplier",
+        "detail": "Adds higher capacity, advanced permissions and selected presentation resources for eligible apps"
+      }
+    ],
+    "trialDetails": "The supplier publishes a free plan rather than a time-limited evaluation for the core app set; ask whether a separate trial is offered."
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Service planning and scheduling",
+    "Presentation software",
+    "Digital chord charts",
+    "Rehearsal tools",
+    "People database",
+    "Email communications"
+  ],
+  "integrations": [
+    "CCLI import and auto-reporting",
+    "SongSelect import"
+  ],
+  "importExport": [],
+  "support": [],
+  "editorial": {
+    "assessment": "WorshipTools is a useful counterweight to all-in-one paid systems when worship planning and basic people communications are the immediate needs. It should not be assumed to replace a full UK finance, Gift Aid or safeguarding administration workflow.",
+    "bestFor": [
+      "Volunteer worship teams seeking free planning and presentation tools",
+      "Small churches testing a free people database and communications tool"
+    ],
+    "strengths": [
+      "Free access is clearly published",
+      "Purpose-built tools cover planning, presentation, charts and rehearsal"
+    ],
+    "limitations": [
+      "Ask the supplier about Paid Pro and Pro Plus prices",
+      "Ask the supplier about Gift Aid and wider UK administration requirements"
+    ],
+    "procurementVerdict": {
+      "problem": "Volunteer worship teams seeking free planning and presentation tools",
+      "differentiator": "Service planning and scheduling",
+      "firstCheck": "Ask the supplier about Paid Pro and Pro Plus prices"
+    }
+  },
+  "longForm": {
+    "verdict": "WorshipTools is best evaluated as a focused toolkit rather than a single system that owns every church process. Its free entry point is strong for worship teams, but a church should be explicit about which records and responsibilities stay in another system.",
+    "decisionLens": {
+      "heading": "Free tools still need a clear system of record.",
+      "text": "Service plans, song data and people communications are valuable only when the church knows where authoritative member, consent, finance and safeguarding information lives. A free app can reduce friction without becoming the answer to every administrative job."
+    },
+    "sections": [
+      {
+        "heading": "A worship-team starting point",
+        "question": "Can the team improve Sunday preparation without creating a fragmented data stack?",
+        "paragraphs": [
+          "WorshipTools publishes free apps for presentation, service planning, chord charts, rehearsal and a people database. Its Community product describes people and household management plus email communications.",
+          "Start with one team and define the boundary: who maintains people records, how volunteer details are updated, what data may be stored, and how any existing directory or finance system remains authoritative."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. Its assessment is based on WorshipTools’ published product and pricing information.",
+      "themes": [
+        "Free access makes a team-level pilot practical.",
+        "The main operational question is whether the tools connect cleanly to the church’s existing system of record."
+      ],
+      "caveat": "The absence of an independent review sample is a research gap, not a conclusion about user experience or product quality."
+    },
+    "faq": [
+      {
+        "question": "Is WorshipTools free?",
+        "answer": "WorshipTools publishes free access across its core app set, with optional Pro and Pro Plus plans for certain capacity and advanced features. Check current app-specific plan details before relying on them."
+      },
+      {
+        "question": "Can WorshipTools manage church people records?",
+        "answer": "Yes. The supplier’s Community product describes a free people database with households, custom fields, filters and email communications. Confirm whether it meets the church’s permissions and data-governance needs."
+      },
+      {
+        "question": "Does WorshipTools support UK Gift Aid?",
+        "answer": "Do not assume WorshipTools replaces a UK giving, Gift Aid or charity-finance workflow. Ask the supplier to demonstrate any relevant capability."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/worshiptools/worshiptools-logo.svg",
+      "alt": "WorshipTools logo",
+      "source": "https://www.worshiptools.com/",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "WorshipTools product overview",
+      "url": "https://www.worshiptools.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free apps",
+        "Planning",
+        "Presentation",
+        "Charts",
+        "Rehearsal",
+        "People database"
+      ]
+    },
+    {
+      "label": "WorshipTools Community",
+      "url": "https://www.worshiptools.com/en-us/community",
+      "checked": "2026-07-25",
+      "supports": [
+        "People records",
+        "Households",
+        "Email communications"
+      ]
+    },
+    {
+      "label": "WorshipTools pricing",
+      "url": "https://www.worshiptools.com/en-za/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free, Pro and Pro Plus plan structure",
+        "Published feature limits"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/planning-by-worshiptools/id1586693784",
+      "rating": 4.45455,
+      "maximumRating": 5,
+      "reviewCount": 11,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Planning by WorshipTools."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.worshipextreme.planning",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Planning by WorshipTools; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "WorshipTools review for UK churches",
+    "description": "Independent WorshipTools profile for UK churches: free worship and people tools, paid-plan limits to check, key fit questions and FAQs."
+  }
+}

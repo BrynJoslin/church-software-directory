@@ -1,0 +1,185 @@
+{
+  "name": "ChurchPay",
+  "slug": "churchpay",
+  "shortDescription": "A UK church platform combining public websites, member records, giving and Gift Aid, services, pastoral care, communications and treasurer reporting.",
+  "officialWebsite": "https://www.churchpayment.com/",
+  "company": "Neural Network Group Limited",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-management",
+    "online-giving",
+    "church-websites",
+    "church-communications",
+    "pastoral-care",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches seeking a payment, Gift Aid and people-administration platform",
+    "Church groups and networks needing separate church identities and cross-church reporting"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "ChurchPay publishes Essentials from £149/month annually or £169 monthly for one church, Complete from £229/month annually or £259 monthly, and Group from £349/month for two churches plus £119 per additional church. The supplier states no giving transaction markup is charged by its subscription.",
+    "startingPrice": {
+      "amount": 149,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Essentials, billed annually, for a single church"
+    },
+    "tiers": [
+      {
+        "label": "Essentials",
+        "price": "from £149/month annually or £169 monthly",
+        "detail": "Single church; website, member portal, giving and Gift Aid scope"
+      },
+      {
+        "label": "Complete",
+        "price": "from £229/month annually or £259 monthly",
+        "detail": "Adds pastoral care, newcomer pipeline and reporting"
+      },
+      {
+        "label": "Group",
+        "price": "from £349/month",
+        "detail": "Two churches; £119 per additional church is stated"
+      }
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "ChurchPay publishes a privacy policy identifying the church as usual controller and Neural Network Group Limited as processor for hosted records. It describes roles, data categories and possible international transfers. Ask the supplier for its current data-processing agreement and detailed sub-processor list.",
+  "coreFeatures": [
+    "Public church website",
+    "Member portal and PWA",
+    "Giving, Gift Aid and GASDS",
+    "Member and newcomer records",
+    "Service notices and RSVPs",
+    "Pastoral-care records",
+    "Treasurer reporting",
+    "Network reporting"
+  ],
+  "integrations": [],
+  "importExport": [
+    "Supplier describes HMRC-ready exports for Gift Aid and GASDS"
+  ],
+  "support": [
+    "Supplier offers a 30-minute tailored walkthrough"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Supplier pricing is published in GBP and its privacy policy identifies an England-registered operating company.",
+      "state": "supplier-published",
+      "source": "https://www.churchpayment.com/privacy",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Published subscriptions begin at £149/month on annual billing for one church.",
+      "state": "supplier-published",
+      "source": "https://www.churchpayment.com/pricing",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "Supplier describes Gift Aid and GASDS records and HMRC-ready exports.",
+      "state": "supplier-published",
+      "source": "https://www.churchpayment.com/pricing",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Published privacy material describes controller and processor roles and possible international-transfer safeguards.",
+      "state": "supplier-published",
+      "source": "https://www.churchpayment.com/privacy",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "ChurchPay is a higher-priced UK all-in-one option that puts giving, reconciliation and Gift Aid alongside public website and people administration. Its value depends on whether the church genuinely needs that joined-up payment-first model; the finance lead, pastoral lead and website owner should each test their workflow rather than assuming a single platform will reduce all administration.",
+    "bestFor": [
+      "UK churches wanting giving, Gift Aid and treasurer reporting with a shared people record",
+      "Groups or networks needing separate church identities and cross-church reporting",
+      "Teams that value a supplier walkthrough before evaluating a full platform"
+    ],
+    "strengths": [
+      "Public GBP plans identify single-church and group scope",
+      "Giving, Gift Aid, public website, pastoral care and reporting are explicitly part of the product",
+      "The supplier publishes UK privacy and controller/processor information"
+    ],
+    "limitations": [
+      "Ask for the current trial route, data-processing agreement, sub-processor list, hosting location, export formats and accessibility information",
+      "Base subscription pricing is materially higher than several directory alternatives",
+      "Gift Aid, money handling and pastoral notes still require church-led controls and review"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches wanting a joined-up payment, people and website platform",
+      "differentiator": "Giving and treasurer reporting are presented as central alongside church administration",
+      "firstCheck": "Run a walkthrough with finance, pastoral and website owners and confirm data, payment, export and contract details"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchpay/churchpay-logo.png",
+      "alt": "ChurchPay logo",
+      "source": "https://www.churchpayment.com/brand/churchpay-sidebar-logo.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "ChurchPay product overview",
+      "url": "https://www.churchpayment.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "Giving",
+        "Gift Aid",
+        "Member records",
+        "Pastoral care",
+        "Network scope"
+      ]
+    },
+    {
+      "label": "ChurchPay pricing",
+      "url": "https://www.churchpayment.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published GBP pricing",
+        "Plan scope",
+        "Gift Aid exports"
+      ]
+    },
+    {
+      "label": "ChurchPay privacy policy",
+      "url": "https://www.churchpayment.com/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier legal identity",
+        "UK registration",
+        "Controller and processor roles",
+        "Privacy information"
+      ]
+    },
+    {
+      "label": "Companies House: Neural Network Group Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16606065",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "ChurchPay review for UK churches",
+    "description": "Independent ChurchPay profile: UK pricing, giving, Gift Aid, member records, websites, pastoral care and finance checks."
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Donorfy",
+  "slug": "donorfy",
+  "shortDescription": "A UK charity CRM for supporter records, donations, Gift Aid, online forms, payments, fundraising reporting and integrations.",
+  "officialWebsite": "https://donorfy.com/",
+  "company": "Donorfy Limited (part of Access UK Ltd)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-management",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church charities with substantial donor, campaign or fundraising data",
+    "Teams needing Gift Aid alongside supporter relationship management",
+    "Churches using several fundraising and payment platforms that need CRM integration"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Donorfy charges by peak constituent count and edition rather than per user or module. The public pricing page includes monthly, annual and multi-year payment options, but the reviewed results do not expose all live band prices; use the supplier's live calculator and obtain implementation, VAT, migration, integration and commitment costs in writing.",
+    "tiers": [
+      {
+        "label": "Starter, Professional and Enterprise",
+        "price": "Volume-based",
+        "detail": "Supplier states that pricing depends on edition and peak number of active or archived constituents."
+      }
+    ],
+    "trialDetails": "Supplier states that no payment information is required for its free trial."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Donorfy publishes terms, a data-processing agreement, data-protection material, security information and a sub-processor list. Its public materials state it acts as processor for customer data in the relevant arrangement. A church should still review its edition, hosting, enabled forms, integrations, payment providers, sub-processors, retention, access roles, exports and international transfers before importing supporter or pastoral information.",
+  "coreFeatures": [
+    "Supporter and constituent CRM",
+    "Donation and fund management",
+    "Gift Aid eligibility and HMRC integration",
+    "Online donation forms",
+    "Campaign and fundraising reporting",
+    "Batch entry",
+    "Pledge management",
+    "Accounts-system exports",
+    "Forms and donation widgets",
+    "Dashboards"
+  ],
+  "integrations": [
+    "GoCardless",
+    "JustGiving",
+    "Stripe",
+    "PayPal",
+    "Mailchimp",
+    "Enthuse",
+    "Eventbrite",
+    "Xero",
+    "Sage",
+    "Confirm current integration scope, data mapping and charges"
+  ],
+  "importExport": [
+    "Accounts-system exports described, including QuickBooks, Sage and Xero options by edition",
+    "Request complete constituent, donation, Gift Aid declaration, form, consent, attachment, audit-trail and configuration export documentation"
+  ],
+  "support": [
+    "Supplier lists Donorfy Academy, knowledge base and customer support",
+    "Professional implementation packages are stated to take four to ten weeks",
+    "Confirm support hours, response commitments and migration scope"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Companies House records DONORFY LIMITED (08922148), and the company's filing history records Access UK Ltd as its person with significant control from November 2024.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/08922148",
+      "checked": "2026-07-25"
+    },
+    "hmrc-recognition": {
+      "value": "HMRC's current commercial Charities Online supplier list names Donorfy Ltd and Donorfy.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "product-and-pricing": {
+      "value": "Supplier documents constituent-volume pricing, Gift Aid HMRC integration, payment options, implementation packages and standard integrations.",
+      "state": "supplier-published",
+      "source": "https://donorfy.com/pricing",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier publishes terms that incorporate a data-processing agreement and privacy notice, plus separate data-protection and security material.",
+      "state": "supplier-published",
+      "source": "https://donorfy.com/termsandconditions?hsLang=en",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Donorfy is a substantial UK charity CRM and fundraising system, not a church-specific ministry platform. It becomes relevant where a church charity needs sophisticated supporter, campaign, donor and Gift Aid processes beyond a simple giving form. Its volume-based commercial model and wider CRM capability may be disproportionate for a small congregation, and it should not be used as a substitute for safeguarding-case controls or a general congregation and ministry database without a role-led evaluation.",
+    "bestFor": [
+      "Church charities with significant fundraising, supporter and Gift Aid workflows",
+      "Multi-channel donors and campaigns needing CRM, payment and reporting connections",
+      "Larger teams able to manage a structured CRM implementation"
+    ],
+    "strengths": [
+      "Active UK supplier with current HMRC Charities Online listing",
+      "Gift Aid integration included on stated core editions",
+      "Published data-processing and security materials",
+      "Broad fundraising and payment integrations"
+    ],
+    "limitations": [
+      "General charity CRM rather than purpose-built church-management software",
+      "All current price bands and implementation costs are not visible in reviewed search material",
+      "Constituent volume includes archived records, which affects cost",
+      "Churches must separately assess ministry, safeguarding, pastoral and consent workflows"
+    ],
+    "procurementVerdict": {
+      "problem": "Managing fundraising, donors and Gift Aid across several tools without losing relationship and financial history",
+      "differentiator": "A UK charity CRM with established Gift Aid, fundraising and payment integrations",
+      "firstCheck": "Use a demonstration and sandbox to test a real campaign-to-Gift-Aid-to-accounts workflow; model peak constituent pricing, request migration and export evidence, and review DPA, sub-processors and access roles before moving supporter records"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Donorfy pricing and integrations",
+      "url": "https://donorfy.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing model",
+        "Gift Aid",
+        "Integrations",
+        "Support",
+        "Implementation",
+        "Trial"
+      ]
+    },
+    {
+      "label": "Donorfy terms",
+      "url": "https://donorfy.com/termsandconditions?hsLang=en",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal operator",
+        "Terms",
+        "DPA incorporation"
+      ]
+    },
+    {
+      "label": "Donorfy data protection",
+      "url": "https://donorfy.com/data-protection",
+      "checked": "2026-07-25",
+      "supports": [
+        "Processor statement",
+        "Data-protection documentation"
+      ]
+    },
+    {
+      "label": "HMRC Charities Online suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier listing"
+      ]
+    },
+    {
+      "label": "Companies House: DONORFY LIMITED",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/08922148",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company record",
+        "Access UK control"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Donorfy review for UK churches",
+    "description": "Independent Donorfy profile: UK charity CRM, Gift Aid, pricing model and procurement checks."
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/donorfy/donorfy-logo.ico",
+      "alt": "Donorfy logo",
+      "source": "https://6986386.fs1.hubspotusercontent-na1.net/hubfs/6986386/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  }
+}

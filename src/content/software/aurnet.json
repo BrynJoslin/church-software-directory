@@ -1,0 +1,220 @@
+{
+  "name": "Aurnet",
+  "slug": "aurnet",
+  "shortDescription": "A newer UK church platform combining a member app, communications, people records, giving, rotas, events, pastoral care, training and a connected website.",
+  "officialWebsite": "https://aurnet.co.uk/",
+  "company": "Aurnet Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-management",
+    "church-mobile-apps",
+    "church-communications",
+    "online-giving",
+    "worship-planning",
+    "volunteer-scheduling",
+    "pastoral-care",
+    "childrens-ministry",
+    "church-websites",
+    "sermon-hosting",
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches seeking a member app and public website connected to one administration platform",
+    "Teams considering a consolidated approach to communications, people records, giving and rotas",
+    "Churches prepared to pilot a recently incorporated supplier with real workflow data"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "Aurnet advertises a free plan and a 30-day paid-plan trial, but the current public material reviewed here does not state the paid subscription prices. It states an all-in giving fee of 3.5% plus 20p per gift, including card processing; confirm the current commercial and Gift Aid terms in writing.",
+    "startingPrice": {
+      "amount": 3.5,
+      "currency": "GBP",
+      "period": "transaction",
+      "qualifier": "Percentage giving fee stated by the supplier, plus 20p per gift; not a total platform cost"
+    },
+    "tiers": [
+      {
+        "label": "Free plan",
+        "price": "Free",
+        "detail": "Supplier advertises a free plan; ask for its current feature limits"
+      },
+      {
+        "label": "Paid plans",
+        "price": "Contact supplier",
+        "detail": "Supplier advertises a 30-day trial but current subscription prices are not recorded here"
+      },
+      {
+        "label": "Giving",
+        "price": "3.5% + 20p per gift",
+        "detail": "Supplier states this includes card processing; ask for the full commercial terms"
+      }
+    ],
+    "trialDetails": "Supplier advertises a free plan and a 30-day trial on paid plans with no card required."
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "giftAid": "yes",
+  "demoAvailable": "yes",
+  "dataHosting": "Supplier says UK data residency is a design priority and describes encrypted, tenant-isolated data. Ask for the hosting provider, exact region, data-processing agreement, sub-processors, retention and international-transfer terms.",
+  "gdprInformation": "Aurnet describes itself as UK GDPR compliant and publishes a cookie policy naming Aurnet Ltd. This is a supplier claim. Before use, a church should obtain current service terms, privacy notice, DPA, sub-processor list, retention details and a workflow demonstration for pastoral and safeguarding information.",
+  "coreFeatures": [
+    "Member iOS and Android app",
+    "Scoped messaging, push, SMS and email",
+    "People, households, pastoral notes and structured permissions",
+    "Events, RSVPs, tickets, waitlists, attendance and children’s check-in",
+    "Rotas and volunteer availability",
+    "Giving, Gift Aid, receipts, statements and accounting exports",
+    "Training, Bible plans and prayer requests",
+    "Connected church website with templates, events, sermons and news"
+  ],
+  "integrations": [
+    "Stripe stated as the giving payment provider",
+    "Supplier describes CSV, Xero and QuickBooks-ready finance exports",
+    "Apple and Google sign-in in the iOS app"
+  ],
+  "importExport": [
+    "Supplier states that all data can be exported at any time",
+    "Supplier describes CSV, Xero and QuickBooks-ready exports"
+  ],
+  "support": [
+    "Book-a-demo route",
+    "Email contact",
+    "Supplier states that support is provided by people who know churches"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Aurnet Ltd is an active England and Wales company, number 16959994, incorporated in January 2026; its public platform is framed for UK churches.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/16959994",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier publishes a 3.5% plus 20p per-gift fee and advertises a free plan, but paid subscription prices are not published in the material reviewed.",
+      "state": "supplier-published",
+      "source": "https://aurnet.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "Supplier describes automatic Gift Aid, receipts and annual donor statements for UK churches.",
+      "state": "supplier-published",
+      "source": "https://aurnet.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Supplier states that data can be exported at any time and describes CSV, Xero and QuickBooks-ready finance exports.",
+      "state": "supplier-published",
+      "source": "https://aurnet.co.uk/about",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Aurnet is a broad, newly incorporated UK platform that could appeal to churches seeking one connected app, website and administration surface. Its public product scope and live iOS release make it appropriate for a cautious pilot rather than a presumption of maturity. The central decision is whether the church can validate the sensitive workflows—giving, Gift Aid, pastoral notes, safeguarding, access roles, exports and migration—before moving operational records to a new supplier.",
+    "bestFor": [
+      "Churches wanting a connected member app, website and administration platform",
+      "Teams willing to run a tightly scoped pilot with a newer UK supplier",
+      "Churches that want to test an all-in giving fee against their current payment and administration costs"
+    ],
+    "strengths": [
+      "Live iOS app and wide public product scope across people, communications, events, giving and web publishing",
+      "UK company identity and UK-specific Gift Aid and GDPR positioning",
+      "Supplier advertises a free plan, paid-plan trial and data-export commitment"
+    ],
+    "limitations": [
+      "Aurnet Ltd was incorporated in January 2026; ask for relevant customer references and written support commitments",
+      "Ask the supplier for paid subscription prices, service terms, DPA, sub-processors, hosting details and its exit process",
+      "Sensitive pastoral, safeguarding and finance workflows need a real permission, audit and export test—not a feature demonstration"
+    ],
+    "procurementVerdict": {
+      "problem": "Fragmented church communication, people, giving, rota and website systems",
+      "differentiator": "A new UK platform designed to make member app, website and operational records work from a common system",
+      "firstCheck": "Run a bounded pilot with non-sensitive sample data and obtain written data, security, pricing, Gift Aid and migration answers before any live rollout"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/aurnet/aurnet-logo.png",
+      "alt": "Aurnet logo",
+      "source": "https://aurnet.co.uk/icon-512.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Aurnet product overview",
+      "url": "https://aurnet.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "Free and trial claims",
+        "Giving fee",
+        "Gift Aid",
+        "Member app",
+        "Website and administration features"
+      ]
+    },
+    {
+      "label": "Aurnet about page",
+      "url": "https://aurnet.co.uk/about",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK team",
+        "Data-export claim",
+        "New supplier context"
+      ]
+    },
+    {
+      "label": "Aurnet cookie policy",
+      "url": "https://aurnet.co.uk/cookies",
+      "checked": "2026-07-25",
+      "supports": [
+        "Aurnet Ltd identity",
+        "Cookie-policy date",
+        "Privacy contact"
+      ]
+    },
+    {
+      "label": "Aurnet iOS App Store listing",
+      "url": "https://apps.apple.com/us/app/aurnet/id6761223175",
+      "checked": "2026-07-25",
+      "supports": [
+        "Live iOS app",
+        "Current app capabilities",
+        "Recent releases"
+      ]
+    },
+    {
+      "label": "Companies House: Aurnet Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16959994",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation",
+        "Company incorporation date"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store US",
+      "profileUrl": "https://apps.apple.com/us/app/aurnet/id6761223175",
+      "lastChecked": "2026-07-25",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Aurnet review for UK churches",
+    "description": "Independent Aurnet profile: new UK church platform, app, giving, web publishing and due-diligence questions."
+  }
+}

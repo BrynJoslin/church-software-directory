@@ -1,0 +1,163 @@
+{
+  "name": "Visual Liturgy Live",
+  "slug": "visual-liturgy-live",
+  "shortDescription": "A Church of England worship-planning application for Common Worship services, lectionary readings, liturgy and service-sheet preparation.",
+  "officialWebsite": "https://www.visualliturgylive.net/",
+  "company": "Church House Publishing, run for the Archbishops’ Council of the Church of England",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church of England parishes preparing Common Worship services",
+    "Clergy and parish teams using lectionary readings and seasonal material",
+    "Churches producing service sheets and planning liturgy from a structured Common Worship library"
+  ],
+  "pricing": {
+    "model": "flat-rate",
+    "summary": "The Church of England’s current national-support page lists Visual Liturgy Live at £52 per year and as PC-only. The product site says that a current subscription is needed for ongoing content updates. Obtain the current licence, team-use, support, cancellation and update terms before purchase.",
+    "startingPrice": {
+      "amount": 52,
+      "currency": "GBP",
+      "period": "year",
+      "qualifier": "annual subscription listed by the Church of England"
+    },
+    "tiers": [
+      {
+        "label": "Annual subscription",
+        "price": "£52/year",
+        "detail": "Church of England national-support material lists the annual subscription price and PC-only availability."
+      }
+    ],
+    "trialDetails": "Supplier provides a free online demonstration, which it describes as an introduction rather than the full product."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "The reviewed product material is primarily about liturgical resources and desktop planning. It does not establish modern cloud data-processing, hosting, sub-processor or DPA terms. Churches should not assume that a desktop service-planning tool needs no local data-protection assessment: establish what user, licence, support and backup data are held and where before use.",
+  "coreFeatures": [
+    "Common Worship services and prayers",
+    "Lectionary readings and seasonal material",
+    "Prayer, hymn and liturgy selection",
+    "Service planning",
+    "Service-sheet and handout preparation",
+    "Current lectionary and content updates for subscribers",
+    "Team subscriptions for shared use"
+  ],
+  "integrations": [],
+  "importExport": [
+    "Supplier describes producing service sheets and other documents",
+    "Confirm current file formats, backup, migration and export options before introducing it into an established worship-planning workflow"
+  ],
+  "support": [
+    "Supplier provides a free online demonstration",
+    "Church of England national support page identifies the product as a legacy PC-based programme",
+    "Obtain current technical-support and operating-system compatibility information from the supplier before purchase"
+  ],
+  "decisionEvidence": {
+    "church-of-england-scope": {
+      "value": "Supplier describes Visual Liturgy Live as service-planning software for Church of England worship using the Common Worship library and related material.",
+      "state": "supplier-published",
+      "source": "https://www.visualliturgylive.net/",
+      "checked": "2026-07-25"
+    },
+    "operator": {
+      "value": "The Visual Liturgy project states that Church House Publishing runs it on behalf of the Archbishops’ Council of the Church of England.",
+      "state": "supplier-published",
+      "source": "https://vislit.com/blog/?page_id=6",
+      "checked": "2026-07-25"
+    },
+    "pricing-and-platform": {
+      "value": "The Church of England’s national-support page lists an annual subscription of £52 and describes the product as PC-only and legacy.",
+      "state": "independent-source",
+      "source": "https://www.churchofengland.org/resources/support-running-your-church-whats-available-nationally",
+      "checked": "2026-07-25"
+    },
+    "subscription-updates": {
+      "value": "Supplier states that current subscribers receive content updates, including new lectionary information, and that team use requires a team subscription.",
+      "state": "supplier-published",
+      "source": "https://www.visualliturgylive.net/about-visual-liturgy-live/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Visual Liturgy Live is a specialist Church of England liturgy and service-planning application, not a generic worship-band planner, presentation tool, people database or church-management suite. It is most relevant where Common Worship text, seasonal material and lectionary planning are central to the weekly workflow. The Church of England itself describes it as a legacy PC-only product, so a parish should test current device compatibility, team licensing, output formats and support before relying on it for live service preparation.",
+    "bestFor": [
+      "Church of England parishes planning Common Worship services",
+      "Teams preparing liturgy and service sheets from structured authorised resources",
+      "Churches needing lectionary-led service planning rather than music-team scheduling"
+    ],
+    "strengths": [
+      "Operated within the Church of England publishing context",
+      "Specific Common Worship and lectionary workflow",
+      "Current annual price identified by the Church of England",
+      "Free online demonstration is available"
+    ],
+    "limitations": [
+      "PC-only and described by the Church of England as a legacy product",
+      "Not a volunteer rota, worship-presentation, church database or safeguarding system",
+      "Modern data-processing, hosting, export and contractual detail is not established in the reviewed material",
+      "Confirm operating-system support, team licensing and local backup arrangements before adoption"
+    ],
+    "procurementVerdict": {
+      "problem": "Preparing Common Worship services and service sheets without manually assembling lectionary and liturgical material",
+      "differentiator": "A Church of England-specific desktop planning tool built around the Common Worship library",
+      "firstCheck": "Use the demonstration to build a real forthcoming service, then confirm current PC compatibility, team licence rules, update process, document output and local backup workflow"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Visual Liturgy Live overview",
+      "url": "https://www.visualliturgylive.net/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church of England scope",
+        "Common Worship library",
+        "Free demonstration"
+      ]
+    },
+    {
+      "label": "Visual Liturgy Live product details",
+      "url": "https://www.visualliturgylive.net/about-visual-liturgy-live/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Service-planning features",
+        "Subscription updates",
+        "Team subscription"
+      ]
+    },
+    {
+      "label": "Church of England national support services",
+      "url": "https://www.churchofengland.org/resources/support-running-your-church-whats-available-nationally",
+      "checked": "2026-07-25",
+      "supports": [
+        "Annual price",
+        "PC-only availability",
+        "Legacy-product caveat"
+      ]
+    },
+    {
+      "label": "Visual Liturgy project information",
+      "url": "https://vislit.com/blog/?page_id=6",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church House Publishing and Archbishops’ Council context"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Visual Liturgy Live review for UK churches",
+    "description": "Independent Visual Liturgy Live profile: Common Worship planning, lectionary tools, £52 annual price and legacy-PC checks."
+  }
+}

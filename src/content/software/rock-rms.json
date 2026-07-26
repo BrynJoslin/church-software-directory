@@ -1,0 +1,180 @@
+{
+  "name": "Rock RMS",
+  "slug": "rock-rms",
+  "shortDescription": "An open-source church-management system supported by Spark Development Network, with self-hosted and partner cloud-hosting routes.",
+  "officialWebsite": "https://www.rockrms.com/",
+  "company": "Spark Development Network",
+  "ukFocus": "general",
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches with technical capacity or an implementation partner",
+    "Multi-site organisations needing a configurable platform"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Rock RMS itself is open source and describes a suggested annual Spark donation based on average weekend attendance. Self-hosting and partner cloud hosting have separate costs.",
+    "startingPrice": {
+      "amount": 4.45,
+      "currency": "USD",
+      "period": "year",
+      "qualifier": "Suggested Spark donation per average weekend attendee; hosting is separate"
+    },
+    "tiers": [
+      {
+        "label": "Spark donation",
+        "price": "$4.45 per attendee/year",
+        "detail": "Suggested commitment stated by the supplier; not presented as an invoice"
+      },
+      {
+        "label": "Self-hosting",
+        "price": "Infrastructure cost varies",
+        "detail": "Requires a church or partner to operate the hosting environment"
+      },
+      {
+        "label": "Partner cloud hosting",
+        "price": "See provider",
+        "detail": "Partner hosting prices and setup arrangements vary"
+      }
+    ],
+    "trialDetails": "The reviewed supplier material does not describe a standard trial; evaluation arrangements depend on the hosting approach."
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "giftAid": "unknown",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "People and groups",
+    "Giving",
+    "Check-in",
+    "Workflows",
+    "Communications",
+    "Service planning"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Support varies by hosting and partner arrangement"
+  ],
+  "editorial": {
+    "assessment": "Rock RMS is not a low-effort free option: its open-source licence shifts significant responsibilities to the church or implementation partner. It can suit technically capable or larger organisations, but should be evaluated with a realistic hosting, support, security and migration budget.",
+    "bestFor": [
+      "Technically resourced churches and multi-site organisations",
+      "Teams that need substantial configurability and can support an implementation"
+    ],
+    "strengths": [
+      "Open-source platform and flexible hosting paths",
+      "Pricing approach distinguishes supplier support from hosting cost"
+    ],
+    "limitations": [
+      "The reviewed supplier material does not describe a standard trial",
+      "UK data protection, support, payments and Gift Aid require project-specific assessment"
+    ],
+    "procurementVerdict": {
+      "problem": "Technically resourced churches and multi-site organisations",
+      "differentiator": "People and groups",
+      "firstCheck": "Ask how the chosen hosting route can be evaluated safely"
+    }
+  },
+  "longForm": {
+    "verdict": "Rock RMS is a platform choice, not simply a software subscription. Its appeal is configurability and control; its trade-off is that hosting, implementation, security and ongoing technical stewardship become core parts of the decision.",
+    "decisionLens": {
+      "heading": "Open source changes who owns the operational risk.",
+      "text": "No licence fee does not mean no cost. A church needs named ownership for infrastructure, upgrades, security, backups, incident response, integrations and user support before beginning a migration."
+    },
+    "sections": [
+      {
+        "heading": "Cost beyond the code",
+        "question": "Who will run and support the live platform?",
+        "paragraphs": [
+          "Rock RMS describes a suggested Spark donation based on average weekend attendance, alongside self-hosting and partner cloud-hosting routes.",
+          "Build a multi-year budget including hosting, implementation, data migration, security work, support and staff time. Confirm the terms and data location of any chosen cloud provider before loading church data."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is grounded in Rock RMS’s published licensing and pricing approach.",
+      "themes": [
+        "Hosting and implementation capability are decisive.",
+        "A project plan is needed before product configuration begins."
+      ],
+      "caveat": "This profile does not establish suitability for a particular church or any supplier’s UK compliance position."
+    },
+    "faq": [
+      {
+        "question": "Is Rock RMS free?",
+        "answer": "Rock RMS is open source. The supplier also describes a suggested Spark donation, while infrastructure, implementation and support can carry separate costs."
+      },
+      {
+        "question": "How is Rock RMS priced?",
+        "answer": "The supplier states a suggested $4.45 annual donation per average weekend attendee. Self-hosting and cloud-hosting costs vary separately."
+      },
+      {
+        "question": "Does Rock RMS have a free trial?",
+        "answer": "Ask the chosen cloud partner about its trial arrangement. The right evaluation path depends on whether the church self-hosts or uses a partner."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/rock-rms/rock-rms-logo.png",
+      "alt": "Rock RMS logo",
+      "source": "https://www.rockrms.com/GetImage.ashx?id=72534&optimizer=image",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Rock RMS pricing",
+      "url": "https://www.rockrms.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Open-source model",
+        "Suggested donation",
+        "Hosting paths"
+      ]
+    },
+    {
+      "label": "Rock Cloud pricing",
+      "url": "https://www.rockcloud.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Partner cloud-hosting cost context",
+        "Setup and support context"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/rock-core/id1498547817",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Rock Core; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=org.sparkdevnetwork.rockmobile",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Rock Mobile Core; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Rock RMS review for UK churches",
+    "description": "Independent Rock RMS profile for UK churches: open-source model, hosting and donation costs, key project checks and FAQs."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "name": "GiftAider",
+  "slug": "giftaider",
+  "shortDescription": "A UK Gift Aid claim-management and basic charity CRM product, offered as a cloud service or self-hosted system for donor, donation, import, validation and HMRC-submission workflows.",
+  "officialWebsite": "https://giftaider.com/",
+  "company": "Systematic Marketing Limited (SMXi Software)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church charities that need a dedicated Gift Aid claim workflow",
+    "Treasurers importing donations from an existing giving or finance system",
+    "Churches that need to choose between cloud-hosted and self-hosted Gift Aid processing"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "GiftAider Cloud is advertised from £49.99 per month for the first user, with additional users at £14.99 per month. The self-hosted version is priced on request. The public pricing material does not state full feature boundaries, VAT, onboarding, data migration, HMRC-service, integration, contract or cancellation charges; obtain these in writing.",
+    "startingPrice": {
+      "amount": 49.99,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "published Cloud price for first user, before VAT if applicable"
+    },
+    "tiers": [
+      {
+        "label": "GiftAider Cloud",
+        "price": "From £49.99/month",
+        "detail": "Cloud service for first user; additional users advertised at £14.99 per month."
+      },
+      {
+        "label": "GiftAider Self-Hosted",
+        "price": "Contact supplier",
+        "detail": "Supplier describes a non-branded version on the church's own server."
+      }
+    ]
+  },
+  "freePlan": "no",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "yes",
+  "gdprInformation": "GiftAider publishes a privacy notice identifying Systematic Marketing Ltd as controller for the notice and describing third-party service providers, HMRC reporting, six-year retention for basic customer information and possible international transfers. This does not establish the cloud product's controller-processor allocation or self-hosted responsibilities. Before importing donors, a church should obtain the applicable DPA, hosting and sub-processor list, transfer safeguards, retention, access roles, audit records, incident process and full donor, declaration, claim and attachment export arrangements.",
+  "coreFeatures": [
+    "Gift Aid claim submission",
+    "Donor and donation records",
+    "Basic CRM",
+    "Donation import",
+    "Pre-submission validation",
+    "HMRC claim workflow",
+    "User permissions for claim submission",
+    "Cloud and self-hosted editions",
+    "Donation and claim reporting"
+  ],
+  "integrations": [
+    "Supplier describes importing from an existing CRM",
+    "Self-hosted edition is described as able to integrate with existing databases and systems",
+    "Confirm current connectors, field mapping, API availability and integration costs"
+  ],
+  "importExport": [
+    "Supplier documents donation-data import and correcting data at source before re-upload",
+    "Request full donor, donation, declaration, claim, consent, audit-trail and configuration export specifications"
+  ],
+  "support": [
+    "Supplier advertises UK office hours Monday to Friday, 9am to 5pm",
+    "Supplier publishes a support centre and migration material from desktop to online",
+    "Confirm support response commitments, implementation and migration scope"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "GiftAider's privacy notice identifies Systematic Marketing Ltd as controller, while its site identifies Systematic Marketing Limited as the registered-English operator. Companies House records company 02472380.",
+      "state": "supplier-published",
+      "source": "https://giftaider.com/privacy-data-policy/",
+      "checked": "2026-07-25"
+    },
+    "hmrc-recognition": {
+      "value": "HMRC's current commercial Charities Online supplier list names Systematic Marketing Ltd and GiftAider or GiftAider Agent.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier advertises GiftAider Cloud from £49.99 per month for the first user and £14.99 per additional user, with self-hosted pricing on request.",
+      "state": "supplier-published",
+      "source": "https://giftaider.com/pricing/",
+      "checked": "2026-07-25"
+    },
+    "workflow": {
+      "value": "Supplier describes donor and donation records, imports, pre-validation and HMRC Gift Aid claim submission.",
+      "state": "supplier-published",
+      "source": "https://giftaider.com/about/how-giftaider-works/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "GiftAider is a UK Gift Aid and basic charity CRM system, rather than a full church-management, pastoral-care or safeguarding platform. Its cloud and self-hosted options may be useful where a church has a separate giving system but needs controlled donor, declaration and claim handling. The self-hosted option changes operational responsibility, so it needs a clear technical owner; the cloud option still needs a current data-processing and export review before historical donor data is moved.",
+    "bestFor": [
+      "Church charities seeking a dedicated HMRC Gift Aid workflow",
+      "Treasurers needing donation import, validation and claim submission in one product",
+      "Churches that can evaluate cloud hosting against their own self-hosted technical capacity"
+    ],
+    "strengths": [
+      "Active UK operator with current HMRC Charities Online listing",
+      "Published cloud entry price and user price",
+      "Supplier documents cloud and self-hosted deployment paths",
+      "Donation import and pre-validation workflow"
+    ],
+    "limitations": [
+      "Not a full church-management, safeguarding or pastoral-record system",
+      "Cloud feature boundaries, VAT, contract, migration and integration costs require a written quote",
+      "Website privacy notice does not by itself define the product DPA or hosting arrangement",
+      "Self-hosting requires church capability for server security, backups, patching and access control"
+    ],
+    "procurementVerdict": {
+      "problem": "Preparing reliable Gift Aid claims from donor and donation records without relying on general spreadsheets",
+      "differentiator": "A UK dedicated Gift Aid product offering both cloud and self-hosted deployment",
+      "firstCheck": "Import a small non-sensitive representative dataset, correct and reconcile one test claim, compare cloud and self-hosted responsibilities and costs, then obtain current DPA, sub-processor, retention, audit and full-export terms before transferring production donor data."
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "GiftAider pricing",
+      "url": "https://giftaider.com/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "GBP cloud price",
+        "Additional-user price",
+        "Self-hosted option",
+        "Demo"
+      ]
+    },
+    {
+      "label": "How GiftAider works",
+      "url": "https://giftaider.com/about/how-giftaider-works/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Claim workflow",
+        "Basic CRM",
+        "Import",
+        "Validation"
+      ]
+    },
+    {
+      "label": "GiftAider privacy and data policy",
+      "url": "https://giftaider.com/privacy-data-policy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operator",
+        "Privacy notice",
+        "Retention",
+        "Transfers"
+      ]
+    },
+    {
+      "label": "GiftAider support centre",
+      "url": "https://giftaider.com/support-centre/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Support",
+        "Desktop-to-online migration material"
+      ]
+    },
+    {
+      "label": "HMRC commercial Charities Online suppliers",
+      "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier and product listing",
+        "Charities Online evidence context"
+      ]
+    },
+    {
+      "label": "Companies House: SYSTEMATIC MARKETING LIMITED",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02472380",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company record"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "GiftAider review for UK churches",
+    "description": "Independent GiftAider profile: UK Gift Aid claims, CRM, cloud and self-hosted pricing and procurement checks."
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/giftaider/giftaider-logo.png",
+      "alt": "GiftAider logo",
+      "source": "https://giftaider.com/apple-icon-57x57.png",
+      "checked": "2026-07-26"
+    }
+  }
+}

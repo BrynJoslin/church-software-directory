@@ -1,0 +1,173 @@
+{
+  "name": "Levites",
+  "slug": "levites",
+  "shortDescription": "A UK-developed mobile-first church communication and volunteer-rotas platform for coordinating ministry teams, reminders, service schedules and team collaboration.",
+  "officialWebsite": "https://www.levites.app/",
+  "company": "Levites Tech Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-communications",
+    "church-mobile-apps",
+    "volunteer-scheduling",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches replacing ad-hoc WhatsApp groups and spreadsheets for serving teams",
+    "Ministry teams that need a native iPhone app for rota responses and communications",
+    "Churches that want a focused team-coordination layer rather than a full people database"
+  ],
+  "pricing": {
+    "model": "unknown",
+    "summary": "Levites describes free and paid workspace access. Its current App Store listing shows in-app purchases in US dollars, but this profile has not established a UK web price list, what each plan includes, billing route, VAT treatment or renewal terms. Ask the supplier for the full current UK commercial schedule in writing.",
+    "tiers": [
+      {
+        "label": "Workspace access",
+        "price": "Free and paid options stated",
+        "detail": "Supplier says team limits and workspace tools may require an active plan or subscription; establish plan scope before purchase"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "dataHosting": "The available supplier and App Store material does not establish Levites' hosting provider, storage location, sub-processors, backups, security controls or recovery commitments. Confirm these before placing member contact data, pastoral messages or rota information in the service.",
+  "gdprInformation": "The App Store developer disclosure says that contact information, user content and usage data may be linked to a user, while identifiers and diagnostics may be collected without linkage. That disclosure is not a church-facing data-processing agreement. Obtain current UK GDPR terms covering controller and processor roles, sub-processors, access, retention, deletion, breach notification and export.",
+  "coreFeatures": [
+    "Church team communication",
+    "Service rotas and schedules",
+    "Role assignments and reminders",
+    "Team collaboration",
+    "Mobile iPhone app",
+    "Free and paid workspace access"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Supplier publishes a support route through the website",
+    "App Store listing provides developer support and website links"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Levites Tech Ltd is active on the UK register under company number 17059524 and is classified for software development.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/17059524",
+      "checked": "2026-07-25"
+    },
+    "live-mobile-app": {
+      "value": "The App Store lists Levites as a church communication and rota app developed by Levites Tech Ltd, with version 1.0.10 released in July 2026.",
+      "state": "independent-source",
+      "source": "https://apps.apple.com/us/app/levites/id6758666266",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "The supplier says there are free and paid workspace options, while App Store purchases are currently displayed in USD; current UK plan scope and terms are not established in this profile.",
+      "state": "needs-refresh",
+      "source": "https://apps.apple.com/us/app/levites/id6758666266",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "A church-facing data-processing agreement, hosting detail, sub-processor list and retention terms are not available in the reviewed public material.",
+      "state": "needs-refresh",
+      "source": "https://www.levites.app/",
+      "checked": "2026-07-25"
+    },
+    "migration": {
+      "value": "Import, export and exit-data arrangements are not available in the reviewed public material.",
+      "state": "needs-refresh",
+      "source": "https://www.levites.app/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Levites is a focused, newly launched UK option for churches whose main problem is coordinating serving teams and their communications, rather than operating a full church-management database. Its recent native iPhone releases make it worth evaluating, but its public commercial, privacy and exit documentation is presently too limited for a church to assume operational suitability. A small pilot with non-sensitive rota data is the sensible first step.",
+    "bestFor": [
+      "Church media, worship, welcome and service teams that need a simpler rota-and-communications workflow",
+      "Churches prioritising a native iPhone experience for serving-team coordination",
+      "Teams willing to pilot an early-stage product before broader operational use"
+    ],
+    "strengths": [
+      "Specific church communication and rota focus",
+      "Active UK software company and recent live App Store releases",
+      "Native mobile delivery with stated free and paid workspace routes",
+      "Potentially useful alternative to fragmented messaging and rota tools"
+    ],
+    "limitations": [
+      "Newly incorporated supplier and early product history require careful pilot evaluation",
+      "Establish current UK price schedule, VAT treatment, support arrangements and plan limits before purchase",
+      "Hosting, DPA, sub-processors, retention, data export and accessibility evidence are not available in this profile",
+      "It should not be treated as a complete people-records, finance, safeguarding or Gift Aid system"
+    ],
+    "procurementVerdict": {
+      "problem": "Coordinating volunteer communications, availability and service rotas without scattered messages and spreadsheets",
+      "differentiator": "A UK-built, mobile-first church team platform with a live native iPhone app",
+      "firstCheck": "Run a short non-sensitive team pilot, testing invitation, rota acceptance, reminder reliability, administrator controls and a requested export before moving church-wide communication"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/levites/levites-logo.svg",
+      "alt": "Levites logo",
+      "source": "https://www.levites.app/favicon.svg",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Levites website",
+      "url": "https://www.levites.app/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church team purpose",
+        "Communication and rota positioning",
+        "UK pilot-support claim"
+      ]
+    },
+    {
+      "label": "Levites App Store listing",
+      "url": "https://apps.apple.com/us/app/levites/id6758666266",
+      "checked": "2026-07-25",
+      "supports": [
+        "Live app",
+        "Developer identity",
+        "Release history",
+        "App privacy disclosure",
+        "Free and paid workspace statement"
+      ]
+    },
+    {
+      "label": "Companies House: Levites Tech Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/17059524",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company",
+        "Active status",
+        "Software-development SIC"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store US",
+      "profileUrl": "https://apps.apple.com/us/app/levites/id6758666266",
+      "lastChecked": "2026-07-25",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This listing is presented as an external app-store review profile; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Levites review for UK churches",
+    "description": "Independent Levites profile: UK church rota and communications app, live iPhone releases and key procurement questions."
+  }
+}

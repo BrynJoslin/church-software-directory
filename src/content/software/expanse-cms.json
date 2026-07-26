@@ -1,0 +1,162 @@
+{
+  "name": "Expanse CMS",
+  "slug": "expanse-cms",
+  "shortDescription": "A UK-managed website platform for Catholic parishes, religious orders and other Christian communities, with hosting, maintenance and ChurchSuite connection options.",
+  "officialWebsite": "https://expanse.io/",
+  "company": "Little Polar Apps Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-websites",
+    "church-communications",
+    "worship-planning",
+    "volunteer-scheduling"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Catholic parishes or Christian communities wanting a managed website rather than a self-hosted CMS",
+    "Churches using ChurchSuite that want public events, rotas or sign-up forms reflected on their website"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "The supplier advertises managed plans from £29 per month, with its main website describing the service as starting from £59 per month. Ask for the exact plan, onboarding scope, VAT and renewal terms in writing before purchase.",
+    "startingPrice": {
+      "amount": 29,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Starter plan shown on the supplier pricing section"
+    },
+    "tiers": [
+      {
+        "label": "Starter",
+        "price": "£29/month",
+        "detail": "Supplier-published entry plan; confirm the included scope and availability"
+      },
+      {
+        "label": "Managed website service",
+        "price": "from £59/month",
+        "detail": "Headline price on the supplier home page; described as managed with unlimited pages and users"
+      }
+    ]
+  },
+  "freePlan": "no",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "dataHosting": "The supplier describes managed hosting, daily backups, SSL, uptime monitoring and security updates. Ask for the hosting provider and region, data-processing agreement and sub-processor list.",
+  "gdprInformation": "The supplier publishes general UK GDPR guidance for churches. This profile has not located supplier terms, a privacy notice for the service or a data-processing agreement, so a church should obtain and review those before using forms or integrations that process personal data.",
+  "coreFeatures": [
+    "Managed website CMS",
+    "Unlimited pages and users according to the supplier",
+    "Managed hosting, SSL, backups and security updates",
+    "Mass times, events and newsletter publishing",
+    "Google Workspace email administration",
+    "ChurchSuite event, rota and form connections"
+  ],
+  "integrations": [
+    "ChurchSuite: supplier describes live event and Mass-time synchronisation, embedded sign-up forms and rota display",
+    "Google Workspace email"
+  ],
+  "importExport": [
+    "Supplier states that full content export is available on request"
+  ],
+  "support": [
+    "Personal supplier support",
+    "Onsite training stated by the supplier for ChurchSuite integration"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "The product identifies Little Polar Apps Ltd as its operating company; Companies House records company number 07634927 in England and Wales.",
+      "state": "supplier-published",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/07634927",
+      "checked": "2026-07-25"
+    },
+    "managed-service": {
+      "value": "Supplier describes managed hosting, daily backups, SSL, uptime monitoring and security updates as part of the website service.",
+      "state": "supplier-published",
+      "source": "https://expanse.io/",
+      "checked": "2026-07-25"
+    },
+    "churchsuite-connection": {
+      "value": "Supplier describes ChurchSuite event and Mass-time synchronisation, embedded sign-up forms and rota display.",
+      "state": "supplier-published",
+      "source": "https://expanse.io/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Expanse CMS is a newer, UK-managed website offer with a particularly clear parish and Catholic focus. It may suit a church that wants a named person to handle the technical platform rather than assembling WordPress hosting and volunteer maintenance, but it should be evaluated as a managed service: contract, ownership, data terms, accessibility and exit arrangements matter as much as the visual result.",
+    "bestFor": [
+      "Catholic parishes and Christian communities seeking a managed website service",
+      "Churches that value ChurchSuite-connected public event and form workflows",
+      "Small teams without a technical volunteer to maintain hosting and updates"
+    ],
+    "strengths": [
+      "Public material is specifically framed around UK parish needs, including Mass times, safeguarding information and newsletters",
+      "Supplier publishes entry pricing and describes an all-in managed service",
+      "The operating company and UK company registration are identifiable"
+    ],
+    "limitations": [
+      "Ask the supplier about Service terms, data-processing agreement, sub-processors, hosting region and retention terms",
+      "The published £29 entry plan and £59 managed-service headline need a written scope and renewal quote",
+      "A managed website still needs local ownership of content accuracy, accessibility and safeguarding information"
+    ],
+    "procurementVerdict": {
+      "problem": "Maintaining a credible parish or church website without a technical owner",
+      "differentiator": "A parish-focused managed CMS with ChurchSuite connection options and direct supplier support",
+      "firstCheck": "Request a written proposal that defines plan scope, content ownership, accessibility responsibilities, data terms and export arrangements"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/expanse-cms/expanse-cms-logo.png",
+      "alt": "Expanse CMS logo",
+      "source": "https://expanse.io/expanse/uploads/expanse/resize-101,101,aspectRatio/1776263085_expanse-icon.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Expanse CMS website and pricing",
+      "url": "https://expanse.io/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Managed website service",
+        "Supplier-published pricing",
+        "Core features",
+        "ChurchSuite connections",
+        "Parish and UK focus",
+        "Operating company name"
+      ]
+    },
+    {
+      "label": "Expanse CMS about page",
+      "url": "https://expanse.io/about",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier background",
+        "Personal support model",
+        "Content export statement"
+      ]
+    },
+    {
+      "label": "Companies House: Little Polar Apps Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07634927",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Expanse CMS review for UK churches",
+    "description": "Independent Expanse CMS profile: managed parish websites, ChurchSuite connections, published prices and UK due-diligence questions."
+  }
+}

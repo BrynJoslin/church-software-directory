@@ -1,0 +1,191 @@
+{
+  "name": "Navaro",
+  "slug": "navaro",
+  "shortDescription": "UK venue-management software for community spaces, including church halls, with bookings, invoices and client records.",
+  "officialWebsite": "https://navaro.uk/",
+  "company": "D&M Nexus Inc. Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "room-bookings"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches hiring out a hall or several bookable spaces",
+    "Volunteer-led venues that need bookings, invoices and clear staff access"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "Navaro publishes monthly and annual plan structures based on venue, space and booking limits, but the public page reviewed did not display all current monthly prices consistently. A 25% charity discount and a 30-day trial are advertised.",
+    "tiers": [
+      {
+        "label": "Starter",
+        "price": "See current pricing",
+        "detail": "One venue, two spaces and up to 75 bookings per month"
+      },
+      {
+        "label": "Pro",
+        "price": "See current pricing",
+        "detail": "Up to three venues, ten spaces and 500 bookings per month"
+      },
+      {
+        "label": "Premium",
+        "price": "See current pricing",
+        "detail": "Up to ten venues, 25 spaces and 1,500 bookings per month"
+      }
+    ],
+    "trialDetails": "A 30-day trial without a card is advertised."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Navaro publishes UK GDPR-focused terms and a privacy policy. Its terms say account data is retained for 90 days after inactivity following cancellation; churches should review the current data-processing arrangements for their own use.",
+  "coreFeatures": [
+    "Booking calendar",
+    "Venue and space controls",
+    "Client records",
+    "Quotes and invoices",
+    "Recurring bookings",
+    "Staff and key-holder access",
+    "Maintenance and safety tracking",
+    "CSV exports"
+  ],
+  "integrations": [
+    "Stripe subscription payments",
+    "Calendar and accounting integrations are described by the supplier"
+  ],
+  "importExport": [
+    "Spreadsheet import with column mapping",
+    "CSV exports for bookings, clients and reports"
+  ],
+  "support": [
+    "Published support response targets vary by plan",
+    "Supplier contact email"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Navaro's terms name D&M Nexus Inc. Ltd, a UK-registered company, and its pricing and terms are presented in GBP.",
+      "state": "supplier-published",
+      "source": "https://navaro.uk/terms-of-service",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier publishes a privacy policy and terms referring to UK GDPR, retention after cancellation, export and deletion tools.",
+      "state": "supplier-published",
+      "source": "https://navaro.uk/privacy-policy",
+      "checked": "2026-07-25"
+    },
+    "charity-pricing": {
+      "value": "Supplier advertises a 25% charity discount.",
+      "state": "supplier-published",
+      "source": "https://navaro.uk/pricing",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Navaro is a general venue-management product, not a church-management database, but its village-hall workflow may be relevant where hall hire is an important part of church operations. It combines booking, client and invoice administration in one platform. Churches should trial a real hire journey, including permissions, safeguarding-sensitive notes and cancellation handling.",
+    "bestFor": [
+      "Churches or parishes managing community-hall hire",
+      "Venues with several rooms, recurring hirers and volunteer administrators",
+      "Teams wanting invoices and booking administration alongside a public availability workflow"
+    ],
+    "strengths": [
+      "Published UK company identity and public service terms",
+      "Supplier describes village-hall use and a charity discount",
+      "Booking, invoicing, client records and staff access are part of one product"
+    ],
+    "limitations": [
+      "It is not presented as church-specific software",
+      "Confirm the current displayed plan price and any payment fees before buying",
+      "Review access, sensitive-note handling, data-processing documentation and cancellation workflow against the church's own policies"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches with substantial hall or room-hire administration",
+      "differentiator": "Venue, booking, client and invoice workflows are combined in a newer UK platform",
+      "firstCheck": "Run a realistic recurring hire, cancellation, invoice and staff-permission test during the trial"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/navaro/navaro-logo.png",
+      "alt": "Navaro app mark",
+      "source": "https://navaro.uk/assets/imgs/apple-touch-icon.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Navaro venue-management overview",
+      "url": "https://navaro.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Core features",
+        "Trial",
+        "Plan limits",
+        "Venue-management scope"
+      ]
+    },
+    {
+      "label": "Navaro pricing",
+      "url": "https://navaro.uk/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Plan limits",
+        "Charity discount",
+        "Free trial"
+      ]
+    },
+    {
+      "label": "Navaro village-hall workflow",
+      "url": "https://navaro.uk/for/village-halls",
+      "checked": "2026-07-25",
+      "supports": [
+        "Village-hall relevance",
+        "Bookings",
+        "Invoices",
+        "Volunteer use case"
+      ]
+    },
+    {
+      "label": "Navaro terms of service",
+      "url": "https://navaro.uk/terms-of-service",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "Subscriptions",
+        "Cancellation retention",
+        "Data terms"
+      ]
+    },
+    {
+      "label": "Navaro privacy policy",
+      "url": "https://navaro.uk/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Privacy policy",
+        "Published UK GDPR information"
+      ]
+    },
+    {
+      "label": "Companies House: D&M Nexus Inc. Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16485461",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Navaro review for UK churches",
+    "description": "Independent Navaro profile for UK churches: hall and room bookings, invoices, charity pricing and data-processing checks."
+  }
+}

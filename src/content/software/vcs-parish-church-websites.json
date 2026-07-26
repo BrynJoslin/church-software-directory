@@ -1,0 +1,171 @@
+{
+  "name": "VCS Parish Church Websites",
+  "slug": "vcs-parish-church-websites",
+  "shortDescription": "A UK parish-church and benefice website platform offering responsive church websites, content updating, support, domain help and bespoke development through VCS Websites Ltd.",
+  "officialWebsite": "https://www.parish-church.uk/",
+  "company": "VCS Websites Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-websites",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Individual parish churches wanting a straightforward public web presence",
+    "Benefices and deaneries that need shared service and event publishing",
+    "Churches seeking a UK supplier with assisted setup and ongoing support"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "VCS publishes a parish-church website service and a pricing route, but the current package-price page was unavailable for review. Obtain a current written proposal covering setup, hosting, ongoing support, domain, email, data migration, VAT and renewal costs before purchase.",
+    "tiers": [
+      {
+        "label": "Parish church, benefice and deanery packages",
+        "price": "Contact supplier",
+        "detail": "Supplier says it offers packages for individual churches, benefices and deaneries, with bespoke work available for larger needs"
+      }
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "dataHosting": "VCS describes a common platform for its parish-church and parish-council websites, but the reviewed church-facing material does not establish hosting location, infrastructure provider, backups, recovery commitments, sub-processors or service levels. Confirm these, especially where a church uses forms or restricted documents.",
+  "gdprInformation": "The supplier's church site includes a safeguarding page and describes secure database work elsewhere, but the reviewed sources do not establish a current church-website privacy notice, data-processing agreement, controller/processor roles, cookies, retention, incident process or data-subject procedures. Obtain the current documentation before collecting personal data online.",
+  "coreFeatures": [
+    "Responsive public church websites",
+    "Packages for individual churches, benefices and deaneries",
+    "Content updating aimed at non-technical teams",
+    "Portfolio of live parish and benefice sites",
+    "Domain and email guidance",
+    "Seven-day email support stated by supplier",
+    "Custom website and database development option"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Supplier states seven-day email support",
+    "Support tickets are available through a customer website's admin system",
+    "UK contact telephone and email published"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "VCS Parish Church Websites identifies itself as a trading name of VCS Websites Ltd, registered in England and Wales under number 09699309.",
+      "state": "supplier-published",
+      "source": "https://www.parish-church.uk/contact-church-websites-from-vcs",
+      "checked": "2026-07-25"
+    },
+    "service-scope": {
+      "value": "The supplier publishes packages for individual churches, benefices and deaneries, and says its platform is designed for small church communities that need a straightforward web presence.",
+      "state": "supplier-published",
+      "source": "https://www.parish-church.uk/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "A pricing route exists, but the current package-price page could not be retrieved for this review; current pricing requires a written supplier proposal.",
+      "state": "needs-refresh",
+      "source": "https://www.parish-church.uk/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Current hosting, DPA, privacy, sub-processor, retention and incident documentation for parish-church sites is not available in the reviewed public material.",
+      "state": "needs-refresh",
+      "source": "https://www.parish-church.uk/contact-church-websites-from-vcs",
+      "checked": "2026-07-25"
+    },
+    "exit": {
+      "value": "Website-content export, domain transfer, redirect and exit arrangements are not available in the reviewed public material.",
+      "state": "needs-refresh",
+      "source": "https://www.parish-church.uk/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "VCS Parish Church Websites is a clearly UK-based, parish-oriented option for a church or benefice that wants an assisted and deliberately simple public site. It is especially relevant where several churches need a shared online presence rather than separate disconnected sites. The practical decision hinges on the current quotation and the provider's data, hosting and exit terms, which should be obtained before moving content or introducing online forms.",
+    "bestFor": [
+      "Small parish churches with limited technical capacity",
+      "Benefices and deaneries needing a shared structure for multiple churches",
+      "Teams looking for UK-based assisted web setup and support"
+    ],
+    "strengths": [
+      "Named active UK company and church-specific trading identity",
+      "Explicit parish, benefice and deanery use cases",
+      "Long-running published portfolio and operational support route",
+      "Responsive design and non-technical content-update focus"
+    ],
+    "limitations": [
+      "Current pricing and detailed package scope require a written proposal",
+      "Hosting, DPA, privacy, sub-processors, backups and service levels are not established in this profile",
+      "Confirm content export, domain ownership and redirects before signing",
+      "It is a website service, not a complete church-management, giving or safeguarding-case system"
+    ],
+    "procurementVerdict": {
+      "problem": "Maintaining a useful public church or benefice website without an in-house web team",
+      "differentiator": "A UK supplier focused specifically on small parish churches, benefices and deaneries",
+      "firstCheck": "Ask for a current all-inclusive proposal, inspect a similar parish site in use, and agree ownership, data, form, hosting and exit arrangements before migrating content"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/vcs-parish-church-websites/vcs-parish-church-websites-logo.jpg",
+      "alt": "VCS Parish Church Websites logo",
+      "source": "https://www.parish-church.uk/church/main/theming/mainsite-logo.jpg",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "VCS Parish Church Websites",
+      "url": "https://www.parish-church.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church and benefice scope",
+        "Responsive sites",
+        "Support statement",
+        "Current service activity"
+      ]
+    },
+    {
+      "label": "VCS Parish Church Websites contact and company details",
+      "url": "https://www.parish-church.uk/contact-church-websites-from-vcs",
+      "checked": "2026-07-25",
+      "supports": [
+        "Trading name",
+        "UK company number",
+        "UK contacts",
+        "Support ticket route"
+      ]
+    },
+    {
+      "label": "VCS Websites company profile",
+      "url": "https://www.vcsnet.co.uk/vcs_websites_ltd",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "UK registered office"
+      ]
+    },
+    {
+      "label": "Companies House: VCS Websites Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09699309",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation",
+        "Active status"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "VCS Parish Church Websites review",
+    "description": "Independent VCS Parish Church Websites profile: UK parish and benefice websites, support and due-diligence questions."
+  }
+}

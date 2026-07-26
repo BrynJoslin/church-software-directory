@@ -1,0 +1,219 @@
+{
+  "name": "TryBooking",
+  "slug": "trybooking",
+  "shortDescription": "A UK event-ticketing and registration platform with a church-specific workflow, free-event registration, mobile ticket scanning and published data-processing documentation.",
+  "officialWebsite": "https://www.trybooking.com/uk/info/ticketing-for-churches",
+  "company": "TryBooking UK Ltd (company number 08559255)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches running free registration events, carol services or suppers",
+    "Paid church events needing online tickets and mobile scanning",
+    "Organisations that require a published UK data-processing addendum"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "TryBooking publishes no charge for free events. For paid events, it publishes a 5% processing fee plus 15p per ticket when payments are processed by TryBooking, or a 75p ticket fee plus Stripe fees for payments to an organiser’s Stripe account. The supplier says organisers can choose whether to absorb or pass on its fees.",
+    "tiers": [
+      {
+        "label": "Free events",
+        "price": "Free",
+        "detail": "Supplier says all features are available for free events without hidden charges."
+      },
+      {
+        "label": "TryBooking payments",
+        "price": "5% processing fee plus 15p per ticket",
+        "detail": "Published fee route when payments are processed by TryBooking."
+      },
+      {
+        "label": "Stripe-connected payments",
+        "price": "75p per ticket plus Stripe fees",
+        "detail": "Published TryBooking ticket fee for payments paid directly to the organiser’s Stripe account."
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "unknown",
+  "gdprInformation": "TryBooking UK publishes a privacy policy, current event-organiser terms, sub-processor list and data-processing addendum. Its sub-processor page states that it uses AWS infrastructure located in London. The DPA describes processing on behalf of event organisers and includes material on restricted transfers. A church should still select only necessary attendee fields, review the live terms and configure its own event notices, retention and access controls.",
+  "coreFeatures": [
+    "Church event ticketing and registration",
+    "Free-event registration",
+    "Paid tickets",
+    "Mobile ticket-scanning app",
+    "Stripe-connected payments",
+    "TryBooking payment route",
+    "Custom booking questions",
+    "Data-request tool",
+    "UK-based support by phone, email and live chat"
+  ],
+  "integrations": [
+    "Stripe",
+    "TryBooking Mobile Scanning Application",
+    "TryBooking Box Office Application"
+  ],
+  "importExport": [
+    "Privacy policy refers to a Request Data tool for data provided during bookings",
+    "Confirm organiser attendee export formats, deletion workflow and data-retention configuration before use"
+  ],
+  "support": [
+    "Supplier describes UK-based support via phone, email and live chat",
+    "Confirm coverage and incident escalation for a critical event before purchase"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "TryBooking’s current website terms and event-organiser terms identify TryBooking UK Ltd, number 08559255, as the operator of the UK service.",
+      "state": "supplier-published",
+      "source": "https://www.trybooking.com/uk/info/event-organiser-terms-and-conditions",
+      "checked": "2026-07-25"
+    },
+    "church-workflow": {
+      "value": "Supplier publishes a church event-ticketing page covering free community events, carol services, church suppers and mobile ticket scanning.",
+      "state": "supplier-published",
+      "source": "https://www.trybooking.com/uk/info/ticketing-for-churches",
+      "checked": "2026-07-25"
+    },
+    "published-pricing": {
+      "value": "Supplier publishes free-event access and its paid-event fees for TryBooking and Stripe-connected payment routes.",
+      "state": "supplier-published",
+      "source": "https://www.trybooking.com/uk/info/event-ticketing-platform",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "TryBooking publishes a UK GDPR data-processing addendum and a sub-processor page that names AWS infrastructure in London.",
+      "state": "supplier-published",
+      "source": "https://www.trybooking.com/uk/info/data-processing-addendum",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/trybooking/trybooking-logo.ico",
+      "alt": "TryBooking logo",
+      "source": "https://www.trybooking.com/uk/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "TryBooking is an event-registration and ticketing service, not a church-management, Gift Aid or safeguarding system. It is particularly relevant for UK churches because its official material addresses church events directly and its public legal and data-processing material is more detailed than many generic alternatives. Churches should still minimise the data they collect and keep event registration separate from sensitive pastoral or safeguarding records.",
+    "bestFor": [
+      "Free church events requiring online registration",
+      "Paid events needing ticket scanning and either supplier or Stripe payment processing",
+      "Churches that want public DPA and sub-processor documentation before use"
+    ],
+    "strengths": [
+      "Identified UK company and current organiser terms",
+      "Supplier has a church-specific ticketing page",
+      "Free events are explicitly free",
+      "Published DPA, sub-processor details and London AWS infrastructure statement",
+      "Mobile scanning and UK-based support are documented"
+    ],
+    "limitations": [
+      "It is not a church database, Gift Aid platform or safeguarding system",
+      "Paid-event fees and Stripe charges must be modelled for the actual event",
+      "Churches remain responsible for data minimisation, lawful notices and access control",
+      "Confirm current attendee-data export, deletion, refunds and event-day support terms before use"
+    ],
+    "procurementVerdict": {
+      "problem": "Running a church event registration or paid-ticket journey with reliable check-in",
+      "differentiator": "A UK service with an explicit church-event workflow and unusually accessible public DPA and infrastructure information",
+      "firstCheck": "Create a representative test event and inspect the attendee fields, fee allocation, refunds, organiser export, deletion controls and mobile-scanning workflow before opening registration"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "TryBooking church ticketing",
+      "url": "https://www.trybooking.com/uk/info/ticketing-for-churches",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church-event relevance",
+        "Free-event workflow",
+        "Mobile scanning"
+      ]
+    },
+    {
+      "label": "TryBooking event platform and pricing",
+      "url": "https://www.trybooking.com/uk/info/event-ticketing-platform",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published fees",
+        "Stripe route",
+        "Support and security statements"
+      ]
+    },
+    {
+      "label": "TryBooking event organiser terms",
+      "url": "https://www.trybooking.com/uk/info/event-organiser-terms-and-conditions",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK operator",
+        "Company number",
+        "Terms date"
+      ]
+    },
+    {
+      "label": "TryBooking privacy policy",
+      "url": "https://www.trybooking.com/uk/info/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Personal-data categories",
+        "Data-request tool",
+        "UK privacy policy"
+      ]
+    },
+    {
+      "label": "TryBooking data-processing addendum",
+      "url": "https://www.trybooking.com/uk/info/data-processing-addendum",
+      "checked": "2026-07-25",
+      "supports": [
+        "DPA",
+        "Event-organiser processing",
+        "Restricted-transfer information"
+      ]
+    },
+    {
+      "label": "TryBooking sub-processors",
+      "url": "https://www.trybooking.com/uk/info/subprocessor-list",
+      "checked": "2026-07-25",
+      "supports": [
+        "AWS London infrastructure statement"
+      ]
+    },
+    {
+      "label": "Companies House: TryBooking UK Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/08559255",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company status"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.trybooking.scanapp",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as TryBooking Scanning App; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "TryBooking review for UK church events",
+    "description": "Independent TryBooking profile for UK churches: event registration, ticketing, fees, data processing and mobile check-in."
+  }
+}

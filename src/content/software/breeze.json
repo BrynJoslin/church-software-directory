@@ -5,9 +5,19 @@
   "officialWebsite": "https://www.breezechms.com/",
   "company": "Tithely",
   "ukFocus": "general",
-  "categories": ["church-management", "online-giving", "worship-planning"],
-  "suitableChurchSizes": ["small", "medium", "large"],
-  "suitableContexts": ["Churches that prefer a flat subscription rather than contact-based tiers"],
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches that prefer a flat subscription rather than contact-based tiers"
+  ],
   "pricing": {
     "model": "flat-rate",
     "summary": "The supplier publishes one US-dollar monthly rate for Breeze ChMS, with separate transaction and excess messaging charges.",
@@ -16,7 +26,15 @@
       "currency": "USD",
       "period": "month",
       "qualifier": "Flat ChMS subscription; payment processing and some messaging charges are separate"
-    }
+    },
+    "tiers": [
+      {
+        "label": "Breeze ChMS",
+        "price": "$72/month",
+        "detail": "One published flat ChMS subscription; payment processing and some messaging charges are separate"
+      }
+    ],
+    "trialDetails": "30 days, plus an instant demo with sample data according to the supplier."
   },
   "freePlan": "unknown",
   "freeTrial": "yes",
@@ -31,8 +49,13 @@
     "Online giving"
   ],
   "integrations": [],
-  "importExport": ["Data import and export"],
-  "support": ["Phone support", "Email support"],
+  "importExport": [
+    "Data import and export"
+  ],
+  "support": [
+    "Phone support",
+    "Email support"
+  ],
   "editorial": {
     "assessment": "Breeze provides a simple published subscription structure and a broad feature set. UK churches should confirm payment availability, Gift Aid workflows, currency exposure and data-protection arrangements before proceeding.",
     "bestFor": [
@@ -45,29 +68,124 @@
     ],
     "limitations": [
       "Pricing is published in US dollars",
-      "Gift Aid and UK-specific payment support have not been confirmed"
+      "The reviewed supplier material does not describe Gift Aid or UK-specific payment support"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that want predictable contact-independent ChMS pricing",
+      "differentiator": "People and member management",
+      "firstCheck": "Pricing is published in US dollars"
+    }
+  },
+  "longForm": {
+    "verdict": "Breeze is easiest to understand as a flat-rate church-management subscription rather than a UK-first finance system. Its predictable base price is attractive, but a UK shortlist still depends on written answers about payments, Gift Aid, currency and data protection.",
+    "decisionLens": {
+      "heading": "A flat subscription is not the same as a predictable total cost.",
+      "text": "Breeze avoids contact-based subscription tiers, but its published pricing separates the ChMS subscription from payment processing and some messaging charges. The right comparison is the full operating cost for the church’s actual giving and communication habits."
+    },
+    "sections": [
+      {
+        "heading": "What the flat-rate model changes",
+        "question": "Will contact growth make the core subscription harder to budget?",
+        "paragraphs": [
+          "Breeze publishes one US-dollar monthly ChMS subscription, rather than increasing the base price as the church adds people records. The supplier also advertises a 30-day trial and an instant demo with sample data.",
+          "That may suit a church expecting contact growth, but the entry price is not a complete UK budget. Price the monthly subscription, payment processing, any excess messaging and currency exposure against the workflow the church actually expects to run."
+        ]
+      },
+      {
+        "heading": "The UK finance questions to resolve first",
+        "question": "Can the giving workflow fit the church’s existing finance and Gift Aid process?",
+        "paragraphs": [
+          "Breeze lists online giving among its product capabilities. Ask the supplier to demonstrate Gift Aid support, UK payment availability and a UK-specific reconciliation workflow before relying on it for giving administration.",
+          "Before treating Breeze as an all-in-one finance option, ask the supplier to demonstrate donation intake, exports, reconciliation and the exact treatment of Gift Aid declarations and claims for a UK charity."
+        ]
+      },
+      {
+        "heading": "A trial should test shared work, not just screens",
+        "question": "Can ordinary volunteers use the workflows without returning to side lists?",
+        "paragraphs": [
+          "The published feature set includes people management, groups, events, volunteer scheduling and service planning. Those functions become useful only when administrators and volunteer teams use the same record and the same rota process.",
+          "Use the trial with a realistic sample: import non-sensitive test contacts, build a service rota, invite a small group and test the exports a treasurer or administrator genuinely needs. Record the unanswered UK questions before a contract decision."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score or a collected user-review sample. Its assessment is based on the recorded supplier pricing and trial information.",
+      "themes": [
+        "Independent user-feedback coverage has not yet been researched for this profile.",
+        "A trial with the church’s own workflow is more useful than treating supplier feature lists as evidence of fit."
+      ],
+      "caveat": "No inference should be drawn from the absence of public-review material here. It is a research gap, not a negative finding."
+    },
+    "faq": [
+      {
+        "question": "Does Breeze ChMS have a free trial?",
+        "answer": "Yes. Breeze currently advertises a 30-day free trial and an instant demo. Use them to test a real church process, including the exports and permissions that matter locally."
+      },
+      {
+        "question": "Does Breeze support UK Gift Aid?",
+        "answer": "Ask the supplier to demonstrate the current UK Gift Aid, payment and finance workflow before relying on Breeze for church giving administration."
+      },
+      {
+        "question": "Is Breeze pricing based on contacts?",
+        "answer": "The supplier publishes a flat ChMS subscription rather than contact-based pricing. Payment processing and some messaging charges are separate, so the full cost needs a church-specific calculation."
+      }
     ]
   },
-  "verificationStatus": "partially-verified",
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/breeze/breeze-logo.jpg",
+      "alt": "Breeze Church Management logo",
+      "source": "https://support.breezechms.com/hc/en-us/articles/360005380633-Breeze-Branding-Logo",
+      "checked": "2026-07-25"
+    }
+  },
   "lastChecked": "2026-07-25",
   "sources": [
     {
       "label": "Breeze pricing",
       "url": "https://www.breezechms.com/pricing",
       "checked": "2026-07-25",
-      "supports": ["Pricing", "Free trial", "Core features", "Support", "Import and export"]
+      "supports": [
+        "Pricing",
+        "Free trial",
+        "Core features",
+        "Support",
+        "Import and export"
+      ]
     },
     {
       "label": "Breeze free-trial page",
       "url": "https://www.breezechms.com/lp/try-free",
       "checked": "2026-07-25",
-      "supports": ["Free trial", "Demo", "Flat-rate pricing"]
+      "supports": [
+        "Free trial",
+        "Demo",
+        "Flat-rate pricing"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/breeze-chms/id1159372401",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Breeze name; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.breezechms.app",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Breeze name; this directory has not recorded an aggregate rating or review count."
     }
   ],
   "affiliateRelationship": "no",
   "sponsored": false,
   "seo": {
     "title": "Breeze ChMS: UK church software profile",
-    "description": "Independent Breeze ChMS profile covering flat-rate pricing, its trial and core features, with UK Gift Aid and payment unknowns highlighted."
+    "description": "Independent Breeze ChMS profile covering flat-rate pricing, its trial and core features, with UK Gift Aid and payment questions highlighted."
   }
 }

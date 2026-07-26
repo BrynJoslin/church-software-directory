@@ -4,7 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout
   title="Privacy"
-  description="Privacy information for the UK Church Software Directory, including current analytics, form and structured-data practices."
+  description="Privacy information for Church Software UK, including current analytics, form and structured-data practices."
   breadcrumbs={[{ label: "Privacy" }]}
 >
   <section class="section">
@@ -13,26 +13,33 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <h1>Privacy</h1>
       <p>Last updated: 25 July 2026.</p>
 
-      <h2>Current foundation build</h2>
+      <h2>Current site state</h2>
       <p>
-        Privacy analytics are disabled and no form endpoint is connected. The
-        static forms cannot currently submit information. The site does not
-        intentionally set analytics or advertising cookies.
+        Analytics are disabled. Suggestions, listing corrections and supplier
+        updates use public GitHub issue forms; the site itself does not receive
+        or store those submissions.
+        The site does not intentionally set analytics or advertising cookies.
       </p>
 
       <h2>Hosting logs</h2>
       <p>
-        A future hosting provider may process routine request information such as
+        The configured production domain is served through Cloudflare, checked on
+        25 July 2026. No responsible publisher or final privacy contact is
+        configured, so the site is not ready for public launch. Routine hosting
+        may process information such as
         IP addresses, browser details and timestamps for security and service
-        operation. Production hosting has not yet been configured.
+        operation.
       </p>
 
-      <h2>Future form submissions</h2>
+      <h2>Public contribution routes</h2>
       <p>
-        Before forms are enabled, this notice must be updated with the responsible
-        organisation, contact details, purposes, lawful basis, processors,
-        retention and rights information. Do not send sensitive church-member
-        information through a correction or suggestion form.
+        Contributions are submitted to the project’s GitHub repository and are
+        public under GitHub’s service and privacy terms. Do not include
+        church-member, pastoral, safeguarding, financial or other sensitive
+        information. Submit only public supplier evidence and, if needed,
+        business contact details. Maintainers use submissions to assess factual
+        corrections or research leads independently; a submission does not
+        guarantee publication or a particular editorial outcome.
       </p>
 
       <h2>Public software data</h2>
@@ -40,6 +47,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         The structured export contains publishable product information and public
         supplier-source URLs. It does not contain private editorial notes or user
         submissions.
+      </p>
+
+      <h2>Your choices and questions</h2>
+      <p>
+        Do not use the public contribution routes to request access, deletion or
+        other privacy action concerning data held by GitHub or a hosting provider;
+        use that provider’s published privacy route. If a future responsible
+        publisher or contact route is configured, this notice will be updated
+        before public launch. Until then, please avoid sending personal or
+        sensitive information through the project’s public routes.
       </p>
     </div>
   </section>

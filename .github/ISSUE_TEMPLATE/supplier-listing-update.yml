@@ -1,0 +1,29 @@
+name: Supplier listing update
+description: Supply current public first-party evidence for an existing listing.
+title: "[Supplier update]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Supplier information is considered as evidence, not as a request for favourable coverage or ranking. Submit public information and business contact details only; do not include any sensitive church or customer data.
+  - type: input
+    id: listing
+    attributes:
+      label: Directory listing URL
+      placeholder: https://churchsoftware.co.uk/software/example/
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What has changed?
+      description: State the product fact, the relevant plan or region, and the effective date where known.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official source URLs
+      description: One URL per line, with a short note about what each supports.
+    validations:
+      required: true

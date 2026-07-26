@@ -3,23 +3,31 @@ const results = document.querySelector<HTMLElement>("[data-software-results]");
 const cards = Array.from(
   document.querySelectorAll<HTMLElement>("[data-software-card]")
 );
+
+export {};
 const resultCount = document.querySelector<HTMLElement>("#result-count");
 const emptyState = document.querySelector<HTMLElement>("[data-empty-state]");
+const categoryValues = new Set(
+  Array.from(
+    document.querySelectorAll<HTMLOptionElement>("#category option[value]")
+  )
+    .map((option) => option.value)
+    .filter(Boolean)
+);
 const allowedValues: Record<string, Set<string>> = {
-  category: new Set(["church-management", "online-giving", "worship-planning"]),
-  "uk-focus": new Set(["strong", "general", "unknown"]),
-  size: new Set(["small", "medium", "large", "multi-site"]),
-  "free-plan": new Set(["yes", "no", "unknown"]),
-  "free-trial": new Set(["yes", "no", "unknown"]),
-  "gift-aid": new Set(["yes", "no", "unknown"]),
+  category: categoryValues,
+  "uk-focus": new Set(["strong", "general"]),
+  "uk-organisation": new Set(["yes"]),
+  "free-plan": new Set(["yes", "no"]),
+  "free-trial": new Set(["yes", "no"]),
+  "gift-aid": new Set(["yes", "no"]),
   pricing: new Set([
     "free",
     "freemium",
     "flat-rate",
     "tiered",
     "usage-based",
-    "quote-based",
-    "unknown"
+    "quote-based"
   ]),
   sort: new Set(["name", "last-checked"])
 };
@@ -43,7 +51,7 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
   const query = (getControl("q")?.value ?? "").trim().toLowerCase();
   const category = getControl("category")?.value ?? "";
   const ukFocus = getControl("uk-focus")?.value ?? "";
-  const size = getControl("size")?.value ?? "";
+  const ukOrganisation = getControl("uk-organisation")?.value ?? "";
   const freePlan = getControl("free-plan")?.value ?? "";
   const freeTrial = getControl("free-trial")?.value ?? "";
   const giftAid = getControl("gift-aid")?.value ?? "";
@@ -56,7 +64,7 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
       (!query || (card.dataset.search ?? "").includes(query)) &&
       matchesList(card.dataset.categories, category) &&
       (!ukFocus || card.dataset.ukFocus === ukFocus) &&
-      matchesList(card.dataset.sizes, size) &&
+      (!ukOrganisation || card.dataset.ukOrganisation === ukOrganisation) &&
       (!freePlan || card.dataset.freePlan === freePlan) &&
       (!freeTrial || card.dataset.freeTrial === freeTrial) &&
       (!giftAid || card.dataset.giftAid === giftAid) &&
@@ -86,7 +94,7 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
     q: query,
     category,
     "uk-focus": ukFocus,
-    size,
+    "uk-organisation": ukOrganisation,
     "free-plan": freePlan,
     "free-trial": freeTrial,
     "gift-aid": giftAid,

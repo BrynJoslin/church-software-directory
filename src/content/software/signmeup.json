@@ -1,0 +1,188 @@
+{
+  "name": "SignMeUp",
+  "slug": "signmeup",
+  "shortDescription": "A UK charity-operated registration platform for children's events, covering attendee and volunteer applications, tickets, check-in, communications and event-specific DBS administration.",
+  "officialWebsite": "https://www.signmeup.org.uk/",
+  "company": "The Software Charity (charity number 1199034)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "events-ticketing",
+    "volunteer-scheduling",
+    "safeguarding"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches or Christian charities running children's holiday clubs, camps or other in-person events",
+    "Teams needing one workflow for attendee places, volunteer applications, badges and on-site registers",
+    "Event organisers that need event-specific DBS and reference administration"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "The supplier publishes a £3 charge per volunteer and attendee for each event, with DBS checks charged at a further £5 each. It says bulk discounts and subsidies may be available for eligible organisations.",
+    "startingPrice": {
+      "amount": 3,
+      "currency": "GBP",
+      "period": "transaction",
+      "qualifier": "Per attendee and volunteer for each event; DBS checks are an additional £5 each"
+    },
+    "tiers": [
+      {
+        "label": "Event subscription",
+        "price": "£3 per attendee and volunteer",
+        "detail": "Published for eligible UK charities, voluntary bodies and non-profits"
+      },
+      {
+        "label": "DBS checks",
+        "price": "£5 per check",
+        "detail": "Additional supplier-published charge"
+      }
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "dataHosting": "The supplier says its application and database backups are hosted in UK data centres. Confirm the current processor list, data-retention settings, export process and any cross-border transfers for the church's proposed event.",
+  "gdprInformation": "The supplier's privacy policy identifies The Software Charity as a UK registered charity and says it acts as processor for event-organiser customer data in relevant cases, while the customer remains responsible for its controller decisions. This is supplier documentation rather than an assessment of a church's compliance.",
+  "coreFeatures": [
+    "Custom attendee and volunteer application forms",
+    "Capacity limits, waitlists and automated place allocation",
+    "Volunteer roles, availability and sessions",
+    "Tickets, badges and QR check-in/out",
+    "Email and in-platform volunteer communications",
+    "Event pages and reporting",
+    "Event-specific DBS checks, references and risk-management records",
+    "Role-based administrator access"
+  ],
+  "integrations": [
+    "UK DBS Update Service checks according to the supplier",
+    "Mobile-web QR check-in"
+  ],
+  "importExport": [
+    "Supplier describes summary and detailed attendee and volunteer reports",
+    "Supplier records report downloads according to its product information",
+    "Ask for a practical export sample and exit process before placing sensitive event data in the platform"
+  ],
+  "support": [
+    "Dedicated support portal and knowledgebase",
+    "Support tickets as part of the subscription according to the supplier"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "The Software Charity is an England-registered CIO, charity number 1199034, and makes SignMeUp available to eligible UK charities, voluntary bodies and non-profits.",
+      "state": "independent-source",
+      "source": "https://register-of-charities.charitycommission.gov.uk/en/about-the-register-of-charities/-/charity-details/5197065",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier publishes £3 per attendee and volunteer per event, with £5 DBS checks stated separately.",
+      "state": "supplier-published",
+      "source": "https://www.signmeup.org.uk/",
+      "checked": "2026-07-25"
+    },
+    "event-workflow": {
+      "value": "Supplier documents attendee applications, capacity and waitlists, volunteer roles and availability, badges and QR site check-in.",
+      "state": "supplier-published",
+      "source": "https://www.thesoftwarecharity.org/signmeup",
+      "checked": "2026-07-25"
+    },
+    "data-roles": {
+      "value": "Supplier privacy policy describes customer-controller and supplier-processor roles for relevant service data, and identifies a UK DPO contact.",
+      "state": "supplier-published",
+      "source": "https://www.thesoftwarecharity.org/privacy-policy",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "SignMeUp is a focused option for churches and Christian charities running children's events rather than a general Sunday-service ticketing platform. Its combined attendee, volunteer, capacity and on-site register workflow is unusually relevant to holiday clubs and camps. Because it can hold medical, SEND, DBS and reference information, the church should agree access roles, retention, lawful basis and the full subscription terms before use.",
+    "bestFor": [
+      "Children's holiday clubs, camps and other in-person church events",
+      "Events where volunteer applications, availability and attendee places need to be managed together",
+      "Teams wanting QR badges and a live on-site register"
+    ],
+    "strengths": [
+      "UK charity identity, UK eligibility and published sterling event pricing",
+      "Purpose-built attendee and volunteer workflow with capacity, waitlist and check-in features",
+      "Published UK-hosting, DPO and customer-controller information"
+    ],
+    "limitations": [
+      "Eligibility is limited to UK charities, voluntary bodies and non-profits, with the product positioned around children's events",
+      "Cost rises with every attendee and volunteer, so price a real event rather than comparing only a headline rate",
+      "Event-specific DBS administration is not a substitute for the church's safer-recruitment policy, decisions or safeguarding accountability"
+    ],
+    "procurementVerdict": {
+      "problem": "Coordinating children’s-event places, volunteers, badges and on-site attendance across disconnected spreadsheets and forms",
+      "differentiator": "A UK charity-operated event workflow that combines attendee registration, volunteer roles, QR site registers and event-specific DBS administration",
+      "firstCheck": "Run a full test event with a parent application, volunteer application, waitlist, DBS workflow, badge scan, report export and retention decision"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/signmeup/signmeup-logo.png",
+      "alt": "SignMeUp logo",
+      "source": "https://images.squarespace-cdn.com/content/v1/67af16added70c31622f5d1f/8e6ac413-af06-41e2-b78f-87da384bd6f1/SignMeUp+V1+(Dark)-2.png?format=1500w",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "SignMeUp product, eligibility and pricing",
+      "url": "https://www.signmeup.org.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Event and volunteer features",
+        "Eligibility",
+        "GBP pricing",
+        "UK data-centre statement",
+        "Operating charity"
+      ]
+    },
+    {
+      "label": "The Software Charity: SignMeUp",
+      "url": "https://www.thesoftwarecharity.org/signmeup",
+      "checked": "2026-07-25",
+      "supports": [
+        "Children's-event focus",
+        "Attendee workflow",
+        "Volunteer workflow",
+        "DBS features",
+        "Support",
+        "Security statements"
+      ]
+    },
+    {
+      "label": "The Software Charity privacy policy",
+      "url": "https://www.thesoftwarecharity.org/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal identity",
+        "Data controller and processor roles",
+        "DPO contact",
+        "Privacy-policy date"
+      ]
+    },
+    {
+      "label": "Charity Commission: The Software Charity",
+      "url": "https://register-of-charities.charitycommission.gov.uk/en/about-the-register-of-charities/-/charity-details/5197065",
+      "checked": "2026-07-25",
+      "supports": [
+        "England charity registration",
+        "Charity number",
+        "Operating purpose"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "SignMeUp review for UK church events",
+    "description": "Independent SignMeUp profile for UK church children’s events: pricing, volunteer applications, registration, QR check-in, DBS workflow and data questions."
+  }
+}

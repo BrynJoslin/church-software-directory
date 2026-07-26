@@ -1,0 +1,163 @@
+{
+  "name": "VerseAir",
+  "slug": "verseair",
+  "shortDescription": "New UK-developed presentation software for Bible projection, speech-detected references, worship lyrics, service schedules and optional streaming.",
+  "officialWebsite": "https://getverseair.com/",
+  "company": "HANDBY LTD (company number 17092920)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": [
+    "presentation-software",
+    "worship-planning",
+    "church-mobile-apps",
+    "livestreaming"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches evaluating speech-assisted Bible projection",
+    "Worship and AV teams that need presentation and service scheduling",
+    "Teams that want a free desktop evaluation route for macOS and Windows"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "VerseAir publishes a free plan, Pro at $14.99/month and Enterprise at $29.99/month. Every plan starts with a 14-day Pro trial; confirm UK tax, payment currency and annual purchase terms at checkout.",
+    "tiers": [
+      {
+        "label": "Free",
+        "price": "Free",
+        "detail": "Manual verse search, one projector screen, limited speech-to-verse use and a limited song library."
+      },
+      {
+        "label": "Pro",
+        "price": "$14.99/month",
+        "detail": "Adds unlimited speech-to-verse, up to three screens, service schedules, companion app, remote control and media library."
+      },
+      {
+        "label": "Enterprise",
+        "price": "$29.99/month",
+        "detail": "Adds RTMP streaming, NDI and SDI output, unlimited screens, camera input and priority support."
+      }
+    ],
+    "trialDetails": "The supplier says the downloaded app starts with a 14-day Pro trial without sign-up, card or email; it then continues on the Free plan unless upgraded."
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The supplier links privacy and terms pages. Before using speech recognition, AI tools, companion-app notes or cloud-connected services with real people, request the current data-processing terms, hosting region, sub-processors, retention, deletion and international-transfer details.",
+  "coreFeatures": [
+    "Bible verse projection",
+    "Speech-to-verse detection",
+    "Worship-song library and set builder",
+    "Service schedules and imports",
+    "Multi-screen and confidence-monitor output",
+    "Companion web app and remote control",
+    "AI sermon tools on paid plans",
+    "RTMP streaming and NDI/SDI output on Enterprise"
+  ],
+  "integrations": [
+    "Planning Center import",
+    "PDF and DOCX service-schedule import",
+    "RTMP to YouTube, Facebook and Twitch",
+    "NDI, OBS, ATEM, vMix and TriCaster support described by supplier"
+  ],
+  "importExport": [
+    "Planning Center import",
+    "PDF and DOCX schedule import",
+    "Companion-app note export as text"
+  ],
+  "support": [
+    "Priority support on Enterprise",
+    "Supplier publishes video tutorials and setup guides"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Companies House records HANDBY LTD, company number 17092920, as an active UK software-development company. VerseAir identifies Handby LTD as its operator.",
+      "state": "supplier-published",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/17092920",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes a free plan, $14.99/month Pro and $29.99/month Enterprise, with a 14-day Pro trial.",
+      "state": "supplier-published",
+      "source": "https://getverseair.com/",
+      "checked": "2026-07-25"
+    },
+    "platform-support": {
+      "value": "Supplier publishes downloads for macOS and Windows, with a companion web app for phones.",
+      "state": "supplier-published",
+      "source": "https://getverseair.com/",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/verseair/verseair-logo.png",
+      "alt": "VerseAir logo",
+      "source": "https://getverseair.com/assets/icon_192.png",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "VerseAir is a newly incorporated UK supplier with an unusually broad and technically ambitious presentation offer: speech-assisted verse projection, worship sets, service schedules, companion viewing and optional broadcast outputs. It is worth a controlled AV-team evaluation, but its newness means churches should validate performance, licensing, accessibility, security and support against their actual service before depending on it live.",
+    "bestFor": [
+      "Churches interested in speech-assisted Bible projection",
+      "AV teams that need macOS and Windows presentation options",
+      "Teams willing to run a low-risk evaluation before moving live services"
+    ],
+    "strengths": [
+      "Named active UK software company",
+      "Free desktop plan and no-card 14-day Pro evaluation",
+      "Presentation, worship planning, companion and streaming capabilities are clearly separated by plan",
+      "Supports macOS and Windows according to the supplier"
+    ],
+    "limitations": [
+      "The supplier is newly incorporated and has no long public operating record",
+      "Published paid prices are in USD rather than GBP",
+      "Churches must independently confirm copyright and public-performance permissions for each Bible translation, lyric and media item",
+      "AI, speech, companion and streaming features require current privacy, security, hosting and reliability review before live use"
+    ],
+    "procurementVerdict": {
+      "problem": "Reducing manual work in Bible projection while retaining a full worship-presentation workflow",
+      "differentiator": "Speech-to-verse projection combined with a free desktop plan and optional companion and broadcast features",
+      "firstCheck": "Run a rehearsal using the church's projector, microphones, worship content, accessibility needs and internet connection, then obtain the applicable licences and support-contact details"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "VerseAir product, feature and pricing overview",
+      "url": "https://getverseair.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "macOS and Windows availability",
+        "Published plans",
+        "Trial",
+        "Integrations",
+        "Supplier legal links"
+      ]
+    },
+    {
+      "label": "Companies House: HANDBY LTD",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/17092920",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK company",
+        "Company number",
+        "Software-development activity"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "VerseAir review for UK churches",
+    "description": "Independent VerseAir profile: speech-assisted Bible projection, worship presentation, free plan, paid features and UK checks."
+  }
+}

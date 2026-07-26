@@ -1,0 +1,193 @@
+{
+  "name": "Plinth",
+  "slug": "plinth",
+  "shortDescription": "A UK charity-sector platform for volunteer profiles, matching, rotas, DBS tracking, communications and impact reporting, with wider case-management and community-service modules.",
+  "officialWebsite": "https://www.plinth.org.uk/",
+  "company": "Time To Spare Ltd (trading as Plinth)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": [
+    "volunteer-scheduling",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church charities, food banks and community projects coordinating volunteers across several activities",
+    "Church-linked organisations needing volunteer recruitment, matching, DBS-status tracking and impact reporting",
+    "Networks coordinating volunteers across multiple partner organisations"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "Plinth publishes tailored pricing based on organisation size and needs rather than a standard price card. Request a written quote covering enabled modules, active volunteer or organisation limits, implementation, training, AI features, data migration, support, renewal and exit terms.",
+    "tiers": [
+      {
+        "label": "Tailored subscription",
+        "price": "Contact supplier",
+        "detail": "Supplier states that pricing is tailored to an organisation's size and needs."
+      }
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Plinth's public privacy policy says data is processed in the UK and EU, encrypted in transit and at rest, and deleted from servers within 30 days after cancellation; it also identifies a sub-processor listing. Supplier material says a DPA is available and AI features process within European infrastructure, but that material is not a substitute for reviewing the live contract, sub-processor list, retention configuration, access roles, audit trail, export and AI-data terms for the church's intended use.",
+  "coreFeatures": [
+    "Volunteer profiles with skills, interests, availability and compliance status",
+    "DBS status tracking and expiry alerts",
+    "Volunteer role matching and shortlisting",
+    "Rota and shift scheduling",
+    "Volunteer-hour logging",
+    "Volunteer communications",
+    "Geographic mapping",
+    "Multi-organisation coordination",
+    "Reports and impact reporting",
+    "Wider case-management, surveys and room-booking modules according to supplier"
+  ],
+  "integrations": [
+    "Supplier describes wider modules in one platform; confirm any external accounting, payment, identity, DBS or communication integrations needed for the church"
+  ],
+  "importExport": [
+    "Supplier public material describes data portability rights; confirm current export formats, full-record scope, attachments, audit history, timing and assistance in writing"
+  ],
+  "support": [
+    "Supplier invites organisations to contact its team or book a demo in relevant current product guidance",
+    "Support contact is published at support@plinth.org.uk"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Plinth's current material identifies Time To Spare Ltd trading as Plinth at a London address. Companies House identifies Time To Spare Ltd, company 11530023.",
+      "state": "supplier-published",
+      "source": "https://www.plinth.org.uk/chrome-extension/privacy",
+      "checked": "2026-07-25"
+    },
+    "volunteer-workflow": {
+      "value": "Supplier describes volunteer profiles, DBS tracking, geographic matching, shortlisting, multi-organisation coordination, rota scheduling, communications and impact reporting.",
+      "state": "supplier-published",
+      "source": "https://www.plinth.org.uk/complete-guide/what-is-volunteer-management",
+      "checked": "2026-07-25"
+    },
+    "faith-charity-relevance": {
+      "value": "Supplier's faith-based-charity guidance describes Plinth as combining case management, room bookings, volunteering and impact reporting for UK charities.",
+      "state": "supplier-published",
+      "source": "https://www.plinth.org.uk/complete-guide/software-faith-charities",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "Supplier's privacy policy describes UK and EU processing, encryption in transit and at rest, deletion times after cancellation, recovery-log retention and a sub-processor listing.",
+      "state": "supplier-published",
+      "source": "https://www.plinth.org.uk/privacy",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/plinth/plinth-logo.png",
+      "alt": "Plinth logo",
+      "source": "https://www.plinth.org.uk/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "Plinth is a broad UK charity-sector platform rather than church-management software. Its volunteer module is potentially relevant to church charities and sizeable community projects because it joins recruitment, matching, rota coordination, DBS-status tracking, communications and reporting. Its breadth and data sensitivity mean a church should treat it as a formal procurement exercise, especially where case-management, sensitive volunteer information or supplier AI features are in scope.",
+    "bestFor": [
+      "Church-run charities and community services with a substantial volunteer programme",
+      "Networks or umbrella bodies coordinating volunteers across multiple organisations",
+      "Teams needing structured volunteer records, matching, reporting and compliance-status reminders rather than a simple Sunday rota"
+    ],
+    "strengths": [
+      "Identified UK operator and current UK charity-sector focus",
+      "Volunteer recruitment, profiles, matching, rotas and reporting in one platform",
+      "Published DBS-status and expiry-alert workflow",
+      "Multi-organisation coordination and geographic matching",
+      "Public privacy information includes processing region, encryption and cancellation-deletion statement"
+    ],
+    "limitations": [
+      "Not a church-specific member-management product",
+      "No public standard pricing or module-by-module cost",
+      "Do not interpret DBS-status tracking as proof that a church's safeguarding process is sufficient",
+      "Broader case-management and AI features require careful lawful-basis, access, retention and data-processing review",
+      "Confirm integrations, exports, service levels and user roles against the specific module set purchased"
+    ],
+    "procurementVerdict": {
+      "problem": "Running a large, evidence-rich volunteer programme across charity, community and partner-organisation activities",
+      "differentiator": "A UK charity-sector platform that combines volunteer management with matching, reporting and wider community-service workflows",
+      "firstCheck": "Map one real volunteer journey from application through matching, DBS-status administration, rota, communication and exit; request a current module-level quote, DPA, sub-processor list, AI terms and representative export before importing people or case data"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Plinth volunteer-management guide",
+      "url": "https://www.plinth.org.uk/complete-guide/what-is-volunteer-management",
+      "checked": "2026-07-25",
+      "supports": [
+        "Volunteer profiles",
+        "DBS tracking",
+        "Matching",
+        "Multi-organisation coordination",
+        "Reporting"
+      ]
+    },
+    {
+      "label": "Plinth faith-based charity software guide",
+      "url": "https://www.plinth.org.uk/complete-guide/software-faith-charities",
+      "checked": "2026-07-25",
+      "supports": [
+        "Faith-charity relevance",
+        "Volunteering",
+        "Room bookings",
+        "Impact reporting"
+      ]
+    },
+    {
+      "label": "Plinth volunteer software comparison",
+      "url": "https://www.plinth.org.uk/complete-guide/volunteer-management-software",
+      "checked": "2026-07-25",
+      "supports": [
+        "Tailored pricing statement",
+        "Volunteer platform scope"
+      ]
+    },
+    {
+      "label": "Plinth privacy policy",
+      "url": "https://www.plinth.org.uk/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Processing region",
+        "Encryption",
+        "Deletion and recovery retention",
+        "Sub-processor listing"
+      ]
+    },
+    {
+      "label": "Plinth trading identity",
+      "url": "https://www.plinth.org.uk/chrome-extension/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Time To Spare Ltd trading identity",
+        "London address"
+      ]
+    },
+    {
+      "label": "Companies House: Time To Spare Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11530023",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Company number",
+        "Registered office"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Plinth review for UK churches",
+    "description": "Independent Plinth profile: UK charity volunteer management, DBS-status tracking, privacy and procurement checks for church projects."
+  }
+}

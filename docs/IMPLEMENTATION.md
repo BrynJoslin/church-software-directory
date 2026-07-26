@@ -75,7 +75,20 @@ Separate:
 - editorial assessment
 - source references
 
+External review-platform references are optional structured metadata, not
+directory reviews. Store only a confirmed profile URL, collection scope,
+checked date and, where manually or otherwise permissibly recorded, aggregate
+figures. Do not scrape platforms, copy individual review content, load widgets
+or scripts, or emit rating or review structured data.
+
 Provide templates and field documentation for each collection.
+
+Guides additionally use the mandatory editorial and research rules in
+`docs/GUIDE_STANDARD.md`. The schema records each guide's type and standard
+version. `scripts/check-guides.mjs` prevents new legacy guides and enforces the
+machine-checkable version 1.0 floor during both `npm run check` and the
+production build; human editorial review remains required for accuracy, balance
+and usefulness.
 
 ## Components
 
@@ -93,7 +106,7 @@ Likely components include:
 - category card
 - guide card
 - badge
-- verification badge
+- evidence provenance label
 - product logo fallback
 - search box
 - filter panel
@@ -109,6 +122,11 @@ Avoid a component for every wrapper element.
 ## CSS
 
 Use plain CSS.
+
+Use `DESIGN_SYSTEM.md` as the authoritative visual specification. Shared
+Doorway tokens and component rules belong in `src/styles/global.css`; page-level
+styles should reuse those tokens rather than creating a parallel palette,
+type scale or shape language.
 
 Prefer:
 
@@ -169,11 +187,28 @@ Support two to four products. Keep product slugs in the URL.
 The comparison table should:
 
 - use structured fields only
-- distinguish `No` from `Not confirmed`
+- distinguish an evidenced `No` from a missing answer
+- turn missing material fields into specific supplier questions
 - remain readable on mobile
 - provide links to complete listings
 - allow a comparison link to be copied
 - handle missing or invalid products gracefully
+
+## Guided shortlist
+
+Keep exact candidate matching separate from the maximum-five detailed result.
+Use the exact set for every count shown during the journey.
+
+The first question is the category. Later question definitions belong in one
+typed rules module and use a deterministic order. Before displaying an answer,
+apply it to the current candidate set; include it only when the result is
+greater than zero and smaller than the current count. Skip questions with no
+eligible answers and show results when no useful question remains.
+
+Selected requirements, skipped questions and the results view must use validated
+query parameters. Invalid, zero-result and no-change URL answers should be
+ignored safely. Keep the controls native, announce count changes politely and
+move focus only after an explicit navigation action.
 
 ## Accessibility
 
@@ -260,6 +295,7 @@ Generate a public JSON export of publishable software data at:
 
 ```text
 /public/data/software.json
+/public/data/shortlist.json
 ```
 
 Do not expose internal notes or private information.
@@ -281,12 +317,29 @@ The completed foundation should provide:
 ```text
 npm run dev
 npm run check
+npm run check:guides
 npm run check:stale
 npm run build
 npm run preview
 ```
 
 Additional scripts are acceptable when clearly documented.
+
+## Internal maintenance dashboard
+
+`scripts/dashboard.mjs` creates a self-contained local report in
+`.internal/dashboard/`, outside Astro's `dist/` output. It reads existing
+software JSON and category/guide frontmatter; it is not a second content model,
+public route or deployment artifact. The report has a schema version, timestamp,
+counts, issues, completeness, freshness, taxonomy and source-health records;
+the queue CSV has stable maintenance fields.
+
+Priority rules are explicit: invalid category references, duplicate identifiers
+and invalid official URLs are Critical; absent sources, stale or invalid dates
+and missing required fields are High; facts needing a source refresh, useful
+missing data and metadata are Medium; logos, short summaries and comparison
+opportunities are Low. The optional `check:links` command uses limited-concurrency HEAD
+requests and reports blocked automated requests separately from failures.
 
 ## Deployment
 
@@ -300,6 +353,23 @@ Output directory: dist
 ```
 
 Do not add a server adapter unless server functionality is explicitly approved.
+
+## Testing
+
+## Public feedback scans
+
+`publicFeedback` is an optional, top-level software field during the staged
+migration. Its static panel replaces the standalone external-review block for
+migrated listings; matched profile links remain visible without ratings or
+counts. A completed scan must use an honest evidence state, record dates,
+sampling, source types, UK relevance and limitations, and link every published
+theme to a source already recorded in `sources[]`. The item-level research
+ledger is private and must never be exported with public software data.
+
+Before adding a scan, follow `docs/PUBLIC_FEEDBACK_SCAN_IMPLEMENTATION_PLAN.md`
+and `docs/PUBLIC_FEEDBACK_SOURCE_REGISTER.md`. Human editorial approval and the
+required legal/method review precede any public synthesis. Until then, omit the
+field rather than presenting a listing as having no feedback.
 
 ## Testing
 
@@ -332,6 +402,12 @@ npm run check
 npm run build
 git diff --check
 ```
+
+Before pushing or merging a change that adds, removes or makes a public page
+indexable, run `npm run check:sitemap`. Astro generates the sitemap from the
+static build; this check verifies every canonical, indexable HTML page in
+`dist/` appears in it. The GitHub validation workflow runs the same check, so
+a pull request with an omitted public page cannot pass validation.
 
 Never push to `main` or merge without explicit instruction.
 

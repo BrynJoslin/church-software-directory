@@ -7,7 +7,7 @@ Read these files in full before making changes:
 - `docs/ROADMAP.md`
 - `docs/IMPLEMENTATION_STATUS.md`
 
-You are implementing Phase 1 only: the architectural foundation of the UK Church Software Directory.
+You are implementing Phase 1 only: the architectural foundation of Church Software UK.
 
 Do not merely produce a plan. Build the working vertical slice in this repository.
 

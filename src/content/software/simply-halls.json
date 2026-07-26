@@ -1,0 +1,156 @@
+{
+  "name": "Simply Halls",
+  "slug": "simply-halls",
+  "shortDescription": "A UK public-hall listing and booking platform for church halls, village halls and community venues, operated by GKR Solutions Limited.",
+  "officialWebsite": "https://host.simplyhalls.co.uk/",
+  "company": "GKR Solutions Limited (company number 09934200)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "room-bookings",
+    "church-websites"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches listing a hall for community hire",
+    "Volunteer-run halls wanting a shared booking calendar and public discovery",
+    "Venues that want online booking and payout handling without a subscription fee"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "Simply Halls says halls pay no subscription or commission and retain their hire fees. It says customers usually pay a £2.25 booking fee. Confirm the current customer fee, payment-provider terms, refunds and payout timing before relying on it for hall income.",
+    "tiers": [
+      {
+        "label": "Hall listing and booking management",
+        "price": "No subscription or commission stated",
+        "detail": "Shared calendar, online bookings, public listing, approval controls and automatic hall-owner payouts"
+      },
+      {
+        "label": "Customer booking fee",
+        "price": "Usually £2.25",
+        "detail": "Supplier-stated fee paid by the customer when booking online"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "unknown",
+  "gdprInformation": "Simply Halls says it acts as controller for booking, payment and account data and processor for hall owners. Its published policy covers data categories, retention, international-transfer safeguards and user rights. Obtain the current contract, payment-provider/sub-processor list, hosting location, incident terms, data export and deletion arrangements before uploading hirer data.",
+  "coreFeatures": [
+    "Public hall listing",
+    "Shared availability calendar",
+    "Online booking requests",
+    "Hall-owner approval or auto-approval",
+    "Hire-charge rules",
+    "Online payments and payouts",
+    "Hall hire terms and cancellation-policy display",
+    "Booking and hall management account",
+    "Existing-booking upload during setup"
+  ],
+  "integrations": [],
+  "importExport": [
+    "Supplier states it will upload existing bookings during setup"
+  ],
+  "support": [
+    "Supplier-led setup and training stated on its public site",
+    "Email and WhatsApp support contact published"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Simply Halls identifies GKR Solutions Limited, company number 09934200, as its registered-address company.",
+      "state": "supplier-published",
+      "source": "https://host.simplyhalls.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "church-hall-scope": {
+      "value": "Supplier publishes a free booking-management and promotion platform specifically for UK church halls, village halls and community venues.",
+      "state": "supplier-published",
+      "source": "https://host.simplyhalls.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "fees": {
+      "value": "Supplier says hall owners pay no subscription or commission and customers usually pay a £2.25 booking fee.",
+      "state": "supplier-published",
+      "source": "https://host.simplyhalls.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Supplier privacy policy states it acts as controller for bookings, payments and accounts, and processor for hall owners; it publishes six-year retention for booking and payment records.",
+      "state": "supplier-published",
+      "source": "https://host.simplyhalls.co.uk/privacy",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Simply Halls combines public discovery with booking management for community and church halls. The supplier's no-subscription, no-commission model may suit a volunteer-run hall, but its customer booking fee, payment and payout model should be tested against the church's hire policy and financial controls. It is a public hire and promotion platform, not an internal church room scheduler or a replacement for a church database.",
+    "bestFor": [
+      "Church halls wanting public discoverability as well as booking management",
+      "Volunteer teams seeking no subscription fee for the hall",
+      "Venues comfortable with customer-paid booking fees and online payout workflows"
+    ],
+    "strengths": [
+      "Named UK company and public registered address",
+      "Church-hall-specific UK product scope",
+      "No subscription or commission stated for hall owners",
+      "Published controller/processor distinction and retention statement"
+    ],
+    "limitations": [
+      "Customers usually pay a booking fee, which may not suit every church's hire policy",
+      "Confirm payment-provider, payout, refund and cancellation arrangements",
+      "Obtain current contract, sub-processor, hosting, incident, export and deletion documents",
+      "Not an internal ministry-room or church-management platform"
+    ],
+    "procurementVerdict": {
+      "problem": "Reducing volunteer administration while making a church hall easier to find and book",
+      "differentiator": "A UK hall-discovery and booking platform with no stated hall subscription or commission",
+      "firstCheck": "Create a test listing and model a real booking, cancellation, refund and payout before publishing the church hall to the platform"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Simply Halls",
+      "url": "https://host.simplyhalls.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church-hall scope",
+        "Free-to-hall pricing model",
+        "Customer booking fee",
+        "Booking and payout workflow",
+        "Company details"
+      ]
+    },
+    {
+      "label": "Simply Halls privacy policy",
+      "url": "https://host.simplyhalls.co.uk/privacy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Controller and processor roles",
+        "Data categories",
+        "Retention",
+        "International transfers",
+        "Data-subject rights"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Simply Halls review for UK church halls",
+    "description": "Independent Simply Halls profile: UK church-hall listings, booking fees, payouts and data-processing checks."
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/simply-halls/simply-halls-logo.png",
+      "alt": "Simply Halls logo",
+      "source": "https://host.simplyhalls.co.uk/favicon_io/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  }
+}

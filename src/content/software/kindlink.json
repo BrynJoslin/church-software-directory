@@ -1,0 +1,215 @@
+{
+  "name": "KindLink",
+  "slug": "kindlink",
+  "shortDescription": "A charity CRM and fundraising platform with free supporter records, UK Gift Aid tools, online donations, contactless payments and paid advanced plans.",
+  "officialWebsite": "https://www.kindlink.org/",
+  "company": "KindLink Foundation",
+  "ukFocus": "strong",
+  "categories": [
+    "online-giving",
+    "church-management",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "UK charities and churches wanting a free donor CRM and Gift Aid records",
+    "Teams that need online, contactless or Direct Debit giving alongside supporter management"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "KindLink publishes a free registered-nonprofit plan, Premium at £25/month excluding VAT and Expert at £45/month excluding VAT. Premium and Expert have 7-day trials; bank and Stripe fees apply and KindLink says it takes no part of donations.",
+    "tiers": [
+      {
+        "label": "Free",
+        "price": "Free",
+        "detail": "Unlimited supporter records, UK Gift Aid records and online donation links; bank and Stripe fees apply"
+      },
+      {
+        "label": "Premium",
+        "price": "£25/month excluding VAT",
+        "detail": "Automated Gift Aid submission, website donation flow and multi-user access"
+      },
+      {
+        "label": "Expert",
+        "price": "£45/month excluding VAT",
+        "detail": "Adds UK Direct Debit, contactless/POS and more payment options"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "giftAid": "yes",
+  "demoAvailable": "yes",
+  "dataHosting": "KindLink's privacy policy says personal information is transferred to, stored in and processed in the EEA; it also says staff or partners outside the EEA may process data. Confirm the current hosting, sub-processor and transfer position for a church's requirements.",
+  "gdprInformation": "KindLink's published privacy policy identifies the supplier as a UK data controller under the GDPR and Data Protection Act 2018. Its charity terms say the supplier and charity are independent controllers for donor data. This is supplier information, not a compliance determination for a church.",
+  "coreFeatures": [
+    "Supporter and donor CRM",
+    "Consent preferences",
+    "Donation records",
+    "UK Gift Aid records and reports",
+    "Online donation links",
+    "Membership and event payments",
+    "Contactless and POS giving on Expert"
+  ],
+  "integrations": [
+    "Stripe",
+    "PayPal",
+    "Xero and QuickBooks listed as coming in 2026"
+  ],
+  "importExport": [
+    "Supporter and donor database export",
+    "Account download of donation, payment, permitted donor and Gift Aid refund details"
+  ],
+  "support": [
+    "Live chat",
+    "Webinars",
+    "Onboarding and training on paid plans"
+  ],
+  "editorial": {
+    "assessment": "KindLink provides an unusually strong UK Gift Aid feature set at a free entry point, but it is charity software rather than a complete church operating system. A church should test its live HMRC submission workflow, ask for the payment-provider terms and decide the boundary between donor CRM and ministry records.",
+    "bestFor": [
+      "UK charities needing a free supporter CRM with Gift Aid records",
+      "Churches combining online, Direct Debit and contactless giving with donor management"
+    ],
+    "strengths": [
+      "Published UK Gift Aid tools and GBP pricing",
+      "Free plan includes unlimited supporter records and exports"
+    ],
+    "limitations": [
+      "Some advertised integrations and fields are marked as coming in 2026",
+      "Not a substitute for service planning, safeguarding or complete charity accounting",
+      "The published privacy policy was last revised in 2021, so current transfer and sub-processor details should be checked directly before a sensitive-data rollout"
+    ],
+    "procurementVerdict": {
+      "problem": "UK charities needing a free supporter CRM with Gift Aid records",
+      "differentiator": "Supporter and donor CRM",
+      "firstCheck": "Some advertised integrations and fields are marked as coming in 2026"
+    }
+  },
+  "longForm": {
+    "verdict": "KindLink is worth considering for a church whose immediate need is UK donor data and Gift Aid administration rather than a full church-management suite. Its free plan makes a carefully bounded pilot practical.",
+    "decisionLens": {
+      "heading": "Confirm which records belong in the fundraising CRM.",
+      "text": "A donor CRM can hold valuable financial and consent information, but churches also hold pastoral and safeguarding-sensitive records that may need different controls. Define what enters KindLink, who can see it and how it reconciles with finance before importing contacts."
+    },
+    "sections": [
+      {
+        "heading": "UK Gift Aid alongside donor CRM",
+        "question": "Can the finance team own the end-to-end giving workflow?",
+        "paragraphs": [
+          "KindLink publishes a free plan with supporter management, UK Gift Aid recording, online donation links and exports. Its paid plans add automated Gift Aid submission, Direct Debit and contactless options.",
+          "Use a test account to record a sample gift, declaration and report, then check how it reaches the accountant or treasurer. Confirm processor fees and the status of any features described as coming in 2026 before including them in a requirements list."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on KindLink’s official pricing, feature and FAQ pages.",
+      "themes": [
+        "The free plan enables a focused donor-CRM pilot.",
+        "Ask the finance team to test Gift Aid automation and payment options."
+      ],
+      "caveat": "Supplier information does not establish a church’s own Gift Aid eligibility, HMRC process or data-governance design."
+    },
+    "faq": [
+      {
+        "question": "Is KindLink free?",
+        "answer": "Yes. KindLink states that its Free plan is available to registered nonprofits and includes supporter records, UK Gift Aid records and online donation links."
+      },
+      {
+        "question": "Does KindLink have a free trial?",
+        "answer": "Yes. KindLink advertises a seven-day trial for Premium and Expert plans."
+      },
+      {
+        "question": "Does KindLink support UK Gift Aid?",
+        "answer": "Yes, according to the supplier. Its plans list UK Gift Aid recording, reports and automated submission on paid plans. Test the exact HMRC workflow before use."
+      },
+      {
+        "question": "How much does KindLink cost?",
+        "answer": "Published paid plans are £25 per month excluding VAT for Premium and £45 per month excluding VAT for Expert. Bank and Stripe fees can still apply."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/kindlink/kindlink-logo.svg",
+      "alt": "KindLink logo",
+      "source": "https://www.kindlink.org/img/kindlink-logo.svg",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "KindLink pricing",
+      "url": "https://www.kindlink.org/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Free plan",
+        "Trial",
+        "Gift Aid",
+        "Features",
+        "Support"
+      ]
+    },
+    {
+      "label": "KindLink fundraising platform",
+      "url": "https://www.kindlink.org/charity-fundraising-software",
+      "checked": "2026-07-25",
+      "supports": [
+        "Gift Aid claims",
+        "Fundraising"
+      ]
+    },
+    {
+      "label": "KindLink FAQ",
+      "url": "https://www.kindlink.com/faq",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free charitable model"
+      ]
+    },
+    {
+      "label": "KindLink privacy policy",
+      "url": "https://www.kindlink.org/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier legal identity",
+        "Published GDPR and Data Protection Act 2018 position",
+        "Published EEA data-storage statement",
+        "Gift Aid and payment-data processing"
+      ]
+    },
+    {
+      "label": "KindLink charity terms",
+      "url": "https://www.kindlink.org/terms",
+      "checked": "2026-07-25",
+      "supports": [
+        "Account reporting and downloads",
+        "Gift Aid claim process",
+        "Independent-controller statement for donor data",
+        "Data-backup caveat"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.kindlink.paymentapp",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as KindLink Contactless; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "KindLink review for UK churches",
+    "description": "Independent KindLink profile for UK churches: free donor CRM, Gift Aid, pricing, payments and FAQs."
+  }
+}

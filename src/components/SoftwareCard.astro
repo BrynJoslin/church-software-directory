@@ -1,11 +1,11 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import VerificationBadge from "./VerificationBadge.astro";
 import {
   formatCompactDate,
   pricingModelLabel,
   triStateLabel,
-  ukFocusLabel
+  ukFocusLabel,
+  ukOrganisationLabel
 } from "../utils/content";
 
 interface Props {
@@ -16,6 +16,11 @@ interface Props {
 
 const { entry, categoryNames, filterable = false } = Astro.props;
 const software = entry.data;
+const ukFocus = ukFocusLabel(software.ukFocus);
+const ukOrganisation = ukOrganisationLabel(software.ukOrganisation);
+const pricingModel = pricingModelLabel(software.pricing.model);
+const freeTrial = triStateLabel(software.freeTrial);
+const giftAid = software.giftAid ? triStateLabel(software.giftAid) : null;
 const searchText = [
   software.name,
   software.shortDescription,
@@ -32,21 +37,30 @@ const searchText = [
   data-name={software.name.toLowerCase()}
   data-search={searchText}
   data-categories={software.categories.map((category) => category.id).join(",")}
-  data-uk-focus={software.ukFocus}
-  data-sizes={software.suitableChurchSizes.join(",")}
-  data-free-plan={software.freePlan}
-  data-free-trial={software.freeTrial}
-  data-gift-aid={software.giftAid}
-  data-pricing={software.pricing.model}
+  data-uk-focus={software.ukFocus === "unknown" ? undefined : software.ukFocus}
+  data-uk-organisation={software.ukOrganisation === "unknown" ? undefined : software.ukOrganisation}
+  data-free-plan={software.freePlan === "unknown" ? undefined : software.freePlan}
+  data-free-trial={software.freeTrial === "unknown" ? undefined : software.freeTrial}
+  data-gift-aid={!software.giftAid || software.giftAid === "unknown" ? undefined : software.giftAid}
+  data-pricing={software.pricing.model === "unknown" ? undefined : software.pricing.model}
   data-last-checked={software.lastChecked.toISOString().slice(0, 10)}
 >
   <div class="card-heading">
-    <div class="logo-fallback" aria-hidden="true">
-      {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
-    </div>
+    {
+      software.brandAssets?.logo ? (
+        <img
+          class="software-logo software-logo--card"
+          src={software.brandAssets.logo.src}
+          alt={software.brandAssets.logo.alt}
+        />
+      ) : (
+        <div class="logo-fallback" aria-hidden="true">
+          {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
+        </div>
+      )
+    }
     <div>
       <h2><a href={`/software/${software.slug}/`}>{software.name}</a></h2>
-      <VerificationBadge status={software.verificationStatus} />
     </div>
   </div>
   <p>{software.shortDescription}</p>
@@ -58,22 +72,46 @@ const searchText = [
     }
   </ul>
   <dl class="card-facts">
-    <div>
-      <dt>UK focus</dt>
-      <dd>{ukFocusLabel(software.ukFocus)}</dd>
-    </div>
-    <div>
-      <dt>Pricing</dt>
-      <dd>{pricingModelLabel(software.pricing.model)}</dd>
-    </div>
-    <div>
-      <dt>Free trial</dt>
-      <dd>{triStateLabel(software.freeTrial)}</dd>
-    </div>
-    <div>
-      <dt>Gift Aid</dt>
-      <dd>{triStateLabel(software.giftAid)}</dd>
-    </div>
+    {
+      ukFocus && (
+        <div>
+          <dt>UK focus</dt>
+          <dd>{ukFocus}</dd>
+        </div>
+      )
+    }
+    {
+      ukOrganisation && (
+        <div>
+          <dt>Organisation</dt>
+          <dd>{ukOrganisation}</dd>
+        </div>
+      )
+    }
+    {
+      pricingModel && (
+        <div>
+          <dt>Pricing</dt>
+          <dd>{pricingModel}</dd>
+        </div>
+      )
+    }
+    {
+      freeTrial && (
+        <div>
+          <dt>Free trial</dt>
+          <dd>{freeTrial}</dd>
+        </div>
+      )
+    }
+    {
+      giftAid && (
+        <div>
+          <dt>Gift Aid</dt>
+          <dd>{giftAid}</dd>
+        </div>
+      )
+    }
   </dl>
   <p class="card-meta">
     Last checked: <time datetime={software.lastChecked.toISOString().slice(0, 10)}>

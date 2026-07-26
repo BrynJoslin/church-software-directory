@@ -1,0 +1,164 @@
+{
+  "name": "Parish Giving Scheme",
+  "slug": "parish-giving-scheme",
+  "shortDescription": "A UK giving service for participating Church of England parishes, supporting regular Direct Debit gifts, Gift Aid and online one-off payments.",
+  "officialWebsite": "https://www.parishgiving.org.uk/",
+  "company": "Parish Giving Scheme",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Church of England parishes in a participating diocese",
+    "Parishes wanting regular Direct Debit giving with Gift Aid processing"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "The Parish Giving Scheme describes regular Direct Debit gifts as having no processing fees for givers, while parish pages state that the parish pays a 1.5% transaction fee for one-off card and wallet gifts. Access is linked to participation arrangements rather than a self-serve software subscription.",
+    "tiers": [
+      {
+        "label": "Regular Direct Debit gifts",
+        "price": "No processing fee stated",
+        "detail": "Supplier’s parish pages say givers can set up monthly, quarterly or annual Direct Debits"
+      },
+      {
+        "label": "One-off card or wallet gifts",
+        "price": "1.5% transaction fee",
+        "detail": "Supplier’s parish pages say this fee is paid by the parish"
+      }
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "no",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Regular Direct Debit giving",
+    "Online one-off gifts",
+    "Debit and credit card payments",
+    "Apple Pay and Google Pay",
+    "Gift Aid declarations",
+    "Parish giving pages"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Telephone and online support routes",
+    "Diocesan participation and parish setup"
+  ],
+  "editorial": {
+    "assessment": "The Parish Giving Scheme is a focused Church of England giving route, not a general-purpose donation system or church management platform. It can be a strong fit for a participating parish that wants regular Direct Debit giving and Gift Aid administration, provided diocesan eligibility and local finance processes are clear.",
+    "bestFor": [
+      "Church of England parishes in a participating diocese",
+      "Parishes prioritising regular planned giving and Gift Aid"
+    ],
+    "strengths": [
+      "Clear UK Direct Debit and Gift Aid focus",
+      "Published one-off transaction-fee statement on parish pages"
+    ],
+    "limitations": [
+      "Availability depends on diocesan participation",
+      "Not a full church database, communications or accounting system"
+    ],
+    "procurementVerdict": {
+      "problem": "Church of England parishes in a participating diocese",
+      "differentiator": "Regular Direct Debit giving",
+      "firstCheck": "Availability depends on diocesan participation"
+    }
+  },
+  "longForm": {
+    "verdict": "The Parish Giving Scheme is an appropriate shortlist candidate for eligible Church of England parishes that want a dedicated regular-giving route. The first decision is not feature comparison; it is confirming diocesan availability and how the scheme will sit alongside the parish’s existing banking and accounting practice.",
+    "decisionLens": {
+      "heading": "Check eligibility and cash-flow process before promoting it.",
+      "text": "The scheme’s value is in a specific regular Direct Debit and Gift Aid model. Ask the diocese or PGS how the parish joins, when funds and Gift Aid are paid, what reports are supplied and how one-off gifts will be reconciled with the parish’s accounts."
+    },
+    "sections": [
+      {
+        "heading": "Regular giving for participating parishes",
+        "question": "Is the scheme available and administratively suitable for this parish?",
+        "paragraphs": [
+          "PGS parish pages describe monthly, quarterly or annual Direct Debit gifts, online one-off card and wallet payments, and Gift Aid declarations. Diocese pages describe their use as a regular-giving route for parishes.",
+          "Confirm membership eligibility with the local diocese, then walk through a donor setup, a Gift Aid declaration, a correction and a month-end reconciliation. Do not assume it replaces the need for independent treasurer review or formal financial controls."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on the Parish Giving Scheme’s parish payment pages and diocesan explanatory material.",
+      "themes": [
+        "Eligibility through a participating diocese is the first constraint.",
+        "Regular and one-off gifts have different payment and fee arrangements."
+      ],
+      "caveat": "Ask PGS and the local diocese for the parish-level access, fees and settlement arrangements that would apply."
+    },
+    "faq": [
+      {
+        "question": "Who can use the Parish Giving Scheme?",
+        "answer": "It is designed for Church of England parishes through participating dioceses. Confirm your parish’s eligibility with the local diocese or PGS."
+      },
+      {
+        "question": "Does the Parish Giving Scheme support Gift Aid?",
+        "answer": "Yes. PGS provides Gift Aid declarations and diocesan information describes Gift Aid being collected for participating parishes. Check the parish’s own records and process."
+      },
+      {
+        "question": "What fees does the Parish Giving Scheme publish?",
+        "answer": "PGS parish pages say regular Direct Debit giving has no processing fee, while the parish pays a 1.5% transaction fee for one-off card or Apple and Google Pay gifts. Confirm current local arrangements."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/parish-giving-scheme/parish-giving-scheme-logo.png",
+      "alt": "Parish Giving Scheme logo",
+      "source": "https://www.parishgiving.org.uk/pgs-logo.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Parish Giving Scheme parish payment page",
+      "url": "https://www.parishgiving.org.uk/donors/find-your-parish/pudleston-cum-whyle-st-peter-leominster/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Payment methods",
+        "Regular Direct Debit",
+        "One-off fee",
+        "Gift Aid option",
+        "UK-registered organisation"
+      ]
+    },
+    {
+      "label": "Bath and Wells Diocese on Parish Giving Scheme",
+      "url": "https://www.bathandwells.org.uk/parish-support/Giving-and-Funding/ways-to-give/regular-giving/parish-giving-scheme/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Diocesan participation",
+        "Regular giving",
+        "Gift Aid"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.parishgiving",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as ParishGiving; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Parish Giving Scheme review for UK churches",
+    "description": "Independent Parish Giving Scheme profile: eligibility, regular giving, Gift Aid, one-off fees, parish finance checks and FAQs."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "name": "The Church Organiser",
+  "slug": "the-church-organiser",
+  "shortDescription": "A free Church of England administration service for life events, room booking, ticketing, event finance and governance tasks.",
+  "officialWebsite": "https://churchorganiser.org/",
+  "company": "iKnow Church (service funded by the Church of England)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "unknown",
+  "categories": [
+    "church-management",
+    "room-bookings",
+    "events-ticketing"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church of England churches administering weddings, baptisms, funerals and banns",
+    "Churches needing free room-booking, ticketing or governance tools within the Church of England offer"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "The Church of England says the service is fully funded and free for Church of England churches. It is not presented as a general free product for churches outside that scope.",
+    "tiers": []
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The published terms describe the church as controller and the supplier as processor, and state that a copy of data can be requested on termination. This is supplier information, not a compliance determination for a parish.",
+  "coreFeatures": [
+    "Life-events diary for weddings, baptisms, funerals and banns",
+    "Online enquiry and booking forms",
+    "Room booking",
+    "Event ticketing",
+    "Event finance",
+    "APCM and governance tools"
+  ],
+  "integrations": [
+    "AChurchNearYou life-events and room-booking integration"
+  ],
+  "importExport": [
+    "Terms state that a copy of customer data can be requested on termination, subject to no outstanding sums"
+  ],
+  "support": [
+    "Free unlimited technical support is advertised"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "The product is funded by the Church of England for Church of England churches.",
+      "state": "independent-source",
+      "source": "https://www.churchofengland.org/node/50361",
+      "checked": "2026-07-25"
+    },
+    "data-processing": {
+      "value": "Published terms describe customer controller and supplier processor roles.",
+      "state": "supplier-published",
+      "source": "https://churchorganiser.org/about/terms-and-conditions/",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Published terms state that a copy of data can be requested on termination.",
+      "state": "supplier-published",
+      "source": "https://churchorganiser.org/about/terms-and-conditions/",
+      "checked": "2026-07-25"
+    },
+    "uk-support": {
+      "value": "Free unlimited technical support is advertised.",
+      "state": "supplier-published",
+      "source": "https://churchorganiser.org/support/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "The Church Organiser is best understood as a Church of England-specific operational offer, rather than a direct alternative for every UK church. Its free scope makes it especially relevant for parishes managing life events and church spaces, but a parish should still test the data, payment, handover and AChurchNearYou workflows against its actual office practice.",
+    "bestFor": [
+      "Church of England churches that need life-event administration",
+      "Parishes seeking a free room-booking and ticketing service",
+      "Teams using AChurchNearYou that want to reduce duplicate entry"
+    ],
+    "strengths": [
+      "Church of England funding makes the stated scope free to eligible churches",
+      "Life events, room bookings, ticketing and governance are distinct, relevant parish workflows",
+      "AChurchNearYou integration is documented by the Church of England"
+    ],
+    "limitations": [
+      "The free offer is limited to Church of England churches",
+      "This research does not establish hosting location, accessibility information or the detailed payment-provider and payout process",
+      "The tool supports administration but does not decide fees, legal requirements, safeguarding or pastoral judgement for a particular life event"
+    ],
+    "procurementVerdict": {
+      "problem": "Church of England parishes needing life-event and room-booking administration",
+      "differentiator": "A funded Church of England service combines life events, ticketing, room booking and governance",
+      "firstCheck": "Confirm eligibility and test real life-event, payment, room-booking and AChurchNearYou workflows"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Church of England: The Church Organiser overview",
+      "url": "https://www.churchofengland.org/node/50361",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church of England funding",
+        "Free eligibility",
+        "Life events",
+        "Room booking",
+        "Ticketing",
+        "AChurchNearYou integration"
+      ]
+    },
+    {
+      "label": "The Church Organiser pricing",
+      "url": "https://churchorganiser.org/iknow-church/iknow-church-pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free product scope",
+        "Upgrade context"
+      ]
+    },
+    {
+      "label": "The Church Organiser terms",
+      "url": "https://churchorganiser.org/about/terms-and-conditions/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Data-processing roles",
+        "Data copy on termination",
+        "Support terms"
+      ]
+    },
+    {
+      "label": "The Church Organiser support",
+      "url": "https://churchorganiser.org/support/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Unlimited technical support"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "The Church Organiser for Church of England parishes",
+    "description": "Independent Church Organiser profile: free Church of England life-event, ticketing, room-booking and governance software."
+  }
+}

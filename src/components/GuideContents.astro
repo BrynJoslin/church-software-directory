@@ -1,0 +1,77 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const contentsHeadings = headings.filter((heading) => heading.depth === 2);
+const firstHeading = contentsHeadings[0];
+const sectionLabel = `${contentsHeadings.length} ${
+  contentsHeadings.length === 1 ? "section" : "sections"
+}`;
+---
+
+{
+  firstHeading && (
+    <nav
+      class="guide-contents"
+      aria-labelledby="guide-contents-heading"
+      data-guide-contents
+    >
+      <div class="guide-contents__header">
+        <p class="guide-contents__label" id="guide-contents-heading">In this guide</p>
+        <p class="guide-contents__count">{sectionLabel}</p>
+      </div>
+      <button
+        class="guide-contents__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="guide-contents-body"
+        data-guide-contents-toggle
+      >
+        <span>In this guide</span>
+        <span class="guide-contents__toggle-count">{sectionLabel}</span>
+      </button>
+      <div
+        class="guide-contents__body"
+        id="guide-contents-body"
+        data-guide-contents-body
+        data-collapsed="true"
+      >
+        <a class="guide-contents__skip" href={`#${firstHeading.slug}`}>
+          Skip guide contents
+        </a>
+        <ol class="guide-contents__list">
+          {contentsHeadings.map((heading) => (
+            <li>
+              <a href={`#${heading.slug}`}>{heading.text}</a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </nav>
+  )
+}
+
+<script>
+  const contents = document.querySelector<HTMLElement>("[data-guide-contents]");
+
+  if (contents) {
+    const toggle = contents.querySelector<HTMLButtonElement>("[data-guide-contents-toggle]");
+    const body = contents.querySelector<HTMLElement>("[data-guide-contents-body]");
+
+    if (toggle && body) {
+      toggle.addEventListener("click", () => {
+        const expanded = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!expanded));
+        body.dataset.collapsed = String(expanded);
+      });
+    }
+  }
+</script>

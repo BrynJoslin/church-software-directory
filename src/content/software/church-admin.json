@@ -1,0 +1,235 @@
+{
+  "name": "Church Admin",
+  "slug": "church-admin",
+  "shortDescription": "A WordPress-based church administration plugin with people records, calendars, rotas, sermon podcasting and premium communication, giving and mobile-app features.",
+  "officialWebsite": "https://www.churchadminplugin.com/",
+  "company": "Andy Moyle",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-management",
+    "church-mobile-apps",
+    "church-communications",
+    "worship-planning",
+    "volunteer-scheduling",
+    "pastoral-care",
+    "safeguarding",
+    "sermon-hosting",
+    "events-ticketing",
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium"
+  ],
+  "suitableContexts": [
+    "Churches already running and maintaining a WordPress site",
+    "Teams that want their church data in their own WordPress database",
+    "Smaller churches wanting a flat annual plugin licence rather than a hosted per-contact service"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "The supplier publishes a free version with people, calendar and sermon-podcasting tools. Its current site lists $50 per year for churches of up to 50 people and $99 per year for larger churches; confirm currency, VAT, full premium scope and payment terms before purchase.",
+    "startingPrice": {
+      "amount": 50,
+      "currency": "USD",
+      "period": "year",
+      "qualifier": "Small Churches plan, up to 50 people, as published by the supplier"
+    },
+    "tiers": [
+      {
+        "label": "Free",
+        "price": "Free",
+        "detail": "People and family records, calendar and sermon podcasting"
+      },
+      {
+        "label": "Small Churches",
+        "price": "$50/year",
+        "detail": "Up to 50 people; supplier describes communications, rotas, giving and Our Church app"
+      },
+      {
+        "label": "Bigger Churches",
+        "price": "$99/year",
+        "detail": "Supplier describes the same premium feature family for larger churches"
+      }
+    ],
+    "trialDetails": "Supplier advertises a 14-day premium refund; its older pricing post also describes a 28-day Standard trial. Confirm the live evaluation terms before buying."
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "dataHosting": "Church Admin runs inside the church's own WordPress installation and database. The church therefore chooses hosting, data region, backups, WordPress security, plugin updates, access roles and any connected third-party services. This is not a hosted-service data guarantee.",
+  "gdprInformation": "Supplier says the plugin includes consent and data-removal tools and that the church's data stays in its own database. The supplier's policy makes the church responsible for its own member-data policy. A church remains responsible for its WordPress configuration, retention, roles, backups, security updates and third-party integrations.",
+  "coreFeatures": [
+    "People and family records",
+    "Calendar and recurring events",
+    "Sermon podcasting",
+    "Rotas and service scheduling",
+    "Communication tools",
+    "Pastoral visitation",
+    "Child protection features",
+    "Ticketed events",
+    "PayPal and Stripe giving forms",
+    "Our Church iOS, Android and Amazon app"
+  ],
+  "integrations": [
+    "WordPress",
+    "Elementor widgets",
+    "PayPal giving",
+    "Stripe giving",
+    "Mailersend API",
+    "Twilio described in plugin release history"
+  ],
+  "importExport": [
+    "Supplier states that the data remains in standard MySQL tables in the church's own WordPress database",
+    "WordPress plugin release history refers to CSV address-list download"
+  ],
+  "support": [
+    "Supplier contact form and chat",
+    "Supplier states it normally replies within 24 hours",
+    "WordPress.org support forum"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Supplier identifies the developer as Andy Moyle, based in King's Lynn, UK, and describes the product as built for UK and EU churches.",
+      "state": "supplier-published",
+      "source": "https://www.churchadminplugin.com/privacy-and-cookie-policy/",
+      "checked": "2026-07-25"
+    },
+    "contact-band": {
+      "value": "Supplier prices a small-church plan for up to 50 people and a larger-church plan, while describing typical fit as around 30–300 people.",
+      "state": "supplier-published",
+      "source": "https://www.churchadminplugin.com/",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "The product is UK-focused, but its current public plans are priced in USD rather than GBP; confirm payment currency, exchange rate and VAT.",
+      "state": "needs-refresh",
+      "source": "https://www.churchadminplugin.com/",
+      "checked": "2026-07-25"
+    },
+    "hosting": {
+      "value": "The plugin stores data in the church's own WordPress database; hosting and backup responsibility remains with the church or its host.",
+      "state": "supplier-published",
+      "source": "https://www.churchadminplugin.com/",
+      "checked": "2026-07-25"
+    },
+    "gift-aid": {
+      "value": "Supplier describes premium PayPal and Stripe giving forms with Gift Aid reporting for UK churches.",
+      "state": "supplier-published",
+      "source": "https://www.churchadminplugin.com/premium-version/",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Supplier states that data stays in the church's database and refers to CSV address-list exports in its release history.",
+      "state": "supplier-published",
+      "source": "https://en-gb.wordpress.org/plugins/church-admin/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "Church Admin is a viable UK-built alternative for a church that already operates WordPress well and wants to keep people data under its own hosting control. Its broad feature set and low annual licence cost are attractive, but the church inherits the operational work normally absorbed by a hosted product: WordPress and plugin patching, backup recovery, permissions, host security and integration management. It should be judged on that full ownership model, not the licence price alone.",
+    "bestFor": [
+      "Small or medium churches with an actively maintained WordPress website",
+      "Teams that want church records, calendar and sermons to live in their own database",
+      "Churches able to assign clear responsibility for WordPress security and updates"
+    ],
+    "strengths": [
+      "Free core version and published annual premium pricing",
+      "Active WordPress.org release history and a wide church-specific module set",
+      "Self-hosted model can give the church direct control of hosting, database and exit"
+    ],
+    "limitations": [
+      "Public licence prices are in USD; ask for the UK billing route, VAT treatment and renewal cost",
+      "The church owns WordPress, hosting, backup, security patching and incident-recovery responsibilities",
+      "A WordPress plugin does not by itself establish safe permissions, safeguarding practices or UK GDPR compliance"
+    ],
+    "procurementVerdict": {
+      "problem": "Replacing spreadsheets while retaining ownership of a church's web-hosted data",
+      "differentiator": "Church administration implemented inside the church's own WordPress site rather than a hosted ChMS",
+      "firstCheck": "Audit the WordPress host, update process, backup restoration, permissions and integrations before testing a real rota and member-data workflow"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/church-admin/church-admin-logo.png",
+      "alt": "Church Admin logo",
+      "source": "https://www.churchadminplugin.com/wp-content/uploads/2021/06/216.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Church Admin Plugin overview and pricing",
+      "url": "https://www.churchadminplugin.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Core features",
+        "WordPress hosting model",
+        "Church size context",
+        "UK focus"
+      ]
+    },
+    {
+      "label": "Church Admin modules",
+      "url": "https://www.churchadminplugin.com/modules/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free and premium module scope",
+        "Giving",
+        "Child protection",
+        "Ticketed events",
+        "Mobile app"
+      ]
+    },
+    {
+      "label": "Church Admin app",
+      "url": "https://www.churchadminplugin.com/app/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Our Church app",
+        "Mobile platforms",
+        "App feature scope"
+      ]
+    },
+    {
+      "label": "Church Admin privacy and cookie policy",
+      "url": "https://www.churchadminplugin.com/privacy-and-cookie-policy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Developer location",
+        "Self-hosted data model",
+        "Church data-policy responsibility"
+      ]
+    },
+    {
+      "label": "Church Admin WordPress.org listing",
+      "url": "https://en-gb.wordpress.org/plugins/church-admin/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active release history",
+        "Free and premium feature overview",
+        "WordPress integration"
+      ]
+    },
+    {
+      "label": "Church Admin premium version",
+      "url": "https://www.churchadminplugin.com/premium-version/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Gift Aid reporting",
+        "Premium feature scope"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Church Admin review for UK churches",
+    "description": "Independent Church Admin profile: WordPress church management, annual pricing, self-hosting responsibilities and UK due diligence."
+  }
+}

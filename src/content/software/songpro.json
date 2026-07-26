@@ -1,0 +1,196 @@
+{
+  "name": "SongPro 5",
+  "slug": "songpro",
+  "shortDescription": "A UK-developed Windows worship-presentation application for song lyrics, Bible passages, media, PowerPoint, service planning and stage displays.",
+  "officialWebsite": "https://www.creationsoftware.com/",
+  "company": "Creation Software Limited (company number 03029045)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "presentation-software",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Windows-based churches preparing Sunday-service media and worship slides",
+    "Teams that need multiple production and preparation PC installs",
+    "Churches needing song, Bible, PowerPoint, video and stage-display workflow in one desktop application"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "SongPro publishes annual per-install bundles from £120 for one PC to £270 for six PCs, with a 30-day trial. Some Bible modules cost £15 per computer as one-off purchases. Confirm VAT, licence renewal and required Bible rights before buying.",
+    "startingPrice": {
+      "amount": 120,
+      "currency": "GBP",
+      "period": "year",
+      "qualifier": "Budget licence for one PC install"
+    },
+    "tiers": [
+      {
+        "label": "Budget",
+        "price": "£120/year",
+        "detail": "One PC install"
+      },
+      {
+        "label": "Regular",
+        "price": "£150/year",
+        "detail": "Two PC installs"
+      },
+      {
+        "label": "Bronze to Platinum",
+        "price": "£180–£270/year",
+        "detail": "Three to six PC installs"
+      }
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "dataHosting": "SongPro is a desktop application. Its privacy policy says purchaser and licence information is held in an encrypted database, but it does not establish a full current hosting or retention schedule. Keep church member data out of presentation assets unless the church has a clear purpose and retention decision.",
+  "gdprInformation": "The supplier publishes a privacy policy describing purchaser, licence and device information it collects. This is supplier documentation, not an assessment of a church's processing or copyright permissions.",
+  "coreFeatures": [
+    "Song lyrics and usage reporting",
+    "Bible-passage slides",
+    "PowerPoint integration",
+    "Video and image playback",
+    "Service plans and set lists",
+    "Stage/confidence display",
+    "Remote control from web browsers",
+    "Media, song and Bible import options",
+    "Windows desktop deployment"
+  ],
+  "integrations": [
+    "Microsoft PowerPoint",
+    "CCLI SongSelect where an appropriate licence is held",
+    "Zoom guidance for service broadcasting",
+    "Video and media formats supported by the local application"
+  ],
+  "importExport": [
+    "Supplier describes song usage reporting",
+    "Test service-plan, song and media migration using the church's own library before changing systems"
+  ],
+  "support": [
+    "Supplier publishes contact and support routes",
+    "30-day full trial is available, with stated Bible-translation limitations during the trial"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Creation Software Limited is an active UK company, number 03029045, and its product materials identify it as SongPro's operator.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/03029045",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes £120–£270 annual licence bundles for one to six PCs and £15 one-off prices for selected Bible modules.",
+      "state": "supplier-published",
+      "source": "https://www.creationsoftware.com/prices.php",
+      "checked": "2026-07-25"
+    },
+    "current-product": {
+      "value": "Supplier publishes a 30-day SongPro 5 trial installer last modified in September 2025.",
+      "state": "supplier-published",
+      "source": "https://www.creationsoftware.com/downloads.php",
+      "checked": "2026-07-25"
+    },
+    "licensing": {
+      "value": "Supplier terms state that SongPro is annually licensed and that projecting compositions requires the church to hold an appropriate copyright licence where needed.",
+      "state": "supplier-published",
+      "source": "https://www.creationsoftware.com/TermsandConditions.php",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "SongPro is a mature UK desktop choice for churches that want a Windows-based worship-presentation workflow rather than a cloud-first platform. Its per-install annual price is clear, and its trial makes local testing practical. A church must separately secure music and Bible permissions: software ownership does not grant copyright permissions.",
+    "bestFor": [
+      "Windows-based worship-production teams",
+      "Churches needing two or more licensed preparation/display PCs",
+      "Teams wanting a full local-service workflow with song, Bible, PowerPoint and stage-screen support"
+    ],
+    "strengths": [
+      "Longstanding active UK software company with current downloadable trial",
+      "Published annual per-PC pricing",
+      "Clear copyright and licence boundary in supplier terms"
+    ],
+    "limitations": [
+      "Windows-only desktop requirements",
+      "Annual licence model and selected paid Bible modules",
+      "Not a church member database, online-giving platform or substitute for rights clearance"
+    ],
+    "procurementVerdict": {
+      "problem": "Preparing and running a weekly church service across songs, Bible readings, PowerPoint, media and stage displays",
+      "differentiator": "A mature UK Windows application with a published per-install licence model and broad local-service functions",
+      "firstCheck": "Run a complete service on the actual display hardware and confirm all Bible, song and video rights before renewal"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "SongPro pricing",
+      "url": "https://www.creationsoftware.com/prices.php",
+      "checked": "2026-07-25",
+      "supports": [
+        "Annual licence prices",
+        "Install counts",
+        "Bible-module prices"
+      ]
+    },
+    {
+      "label": "SongPro download",
+      "url": "https://www.creationsoftware.com/downloads.php",
+      "checked": "2026-07-25",
+      "supports": [
+        "Current trial",
+        "System requirements"
+      ]
+    },
+    {
+      "label": "SongPro terms",
+      "url": "https://www.creationsoftware.com/TermsandConditions.php",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operating company",
+        "Annual licence",
+        "Trial",
+        "Copyright boundary"
+      ]
+    },
+    {
+      "label": "Creation Software privacy policy",
+      "url": "https://www.creationsoftware.com/PrivacyPolicy.php",
+      "checked": "2026-07-25",
+      "supports": [
+        "Purchaser and licence data",
+        "Encryption statement"
+      ]
+    },
+    {
+      "label": "Companies House: Creation Software Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/03029045",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company registration",
+        "Active status",
+        "Company number"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "SongPro 5 review for UK churches",
+    "description": "Independent SongPro 5 profile: UK worship presentation, annual licence prices, service workflow, trial and copyright checks."
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/songpro/songpro-logo.ico",
+      "alt": "SongPro 5 logo",
+      "source": "https://www.creationsoftware.com/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  }
+}

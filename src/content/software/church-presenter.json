@@ -1,0 +1,182 @@
+{
+  "name": "Church Presenter",
+  "slug": "church-presenter",
+  "shortDescription": "A free, GPL-licensed worship presentation application with Bible and song tools, media, service plans, multi-screen output and mobile control.",
+  "officialWebsite": "https://churchpresenter.org/",
+  "company": "Church Presenter open-source project",
+  "ukFocus": "general",
+  "categories": [
+    "presentation-software"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Volunteer AV teams seeking an offline-capable free tool",
+    "Churches that need cross-platform presentation and mobile remote control"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "Church Presenter states that it is free forever, GNU GPL v3, with no subscription, seat limits or hidden costs.",
+    "tiers": [
+      {
+        "label": "Church Presenter",
+        "price": "Free",
+        "detail": "Supplier states no subscription or seat limit"
+      }
+    ]
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Bible integration",
+    "Song library",
+    "PowerPoint, Keynote and image presentation",
+    "Video playback",
+    "Announcements and countdowns",
+    "Service order",
+    "Multi-screen output",
+    "Mobile remote control"
+  ],
+  "integrations": [],
+  "importExport": [
+    "PowerPoint, Keynote and image slideshow imports",
+    "Open song-format export stated by supplier"
+  ],
+  "support": [
+    "Documentation",
+    "GitHub discussions and issue tracker"
+  ],
+  "editorial": {
+    "assessment": "Church Presenter is a recently published free open-source option with an unusually broad stated feature set. Its appeal is clear for budget-limited teams, but churches should check platform support and training, assess project maturity and test real-service reliability before moving away from an established presenter.",
+    "bestFor": [
+      "Churches that want free offline-capable worship presentation",
+      "Teams able to evaluate a newer open-source project in rehearsals"
+    ],
+    "strengths": [
+      "Free GPL licence with no seat limits",
+      "Supplier describes cross-platform desktop use, mobile control and multi-screen outputs"
+    ],
+    "limitations": [
+      "Newer project needing local reliability validation",
+      "Ask the supplier about Commercial support, UK licensing workflow and long-term maintenance commitments"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches that want free offline-capable worship presentation",
+      "differentiator": "Bible integration",
+      "firstCheck": "Newer project needing local reliability validation"
+    }
+  },
+  "longForm": {
+    "verdict": "Church Presenter looks promising for teams that want a no-subscription, offline-capable worship tool across common desktop platforms. Its relative newness means a staged rehearsal and fallback plan are important before a live migration.",
+    "decisionLens": {
+      "heading": "Treat the first live services as a controlled rollout.",
+      "text": "Free and cross-platform does not automatically mean every church’s files, displays and volunteers will behave consistently. Test the ordinary service order, presentations, lyrics, Bible lookups and remote control, then keep the previous system ready until confidence is established."
+    },
+    "sections": [
+      {
+        "heading": "A free cross-platform worship tool",
+        "question": "Can it meet the church’s full service workflow?",
+        "paragraphs": [
+          "Church Presenter describes Bible and song presentation, video, imported slideshows, announcements, service-order planning, multi-screen output and mobile remote control. It says it runs on Windows, macOS and Linux and is free under GNU GPL v3.",
+          "Run a rehearsal with the actual output hardware and a licensed service plan. Keep responsibility for CCLI reporting, Bible rights and streaming permissions separate from the software choice, because no free tool supplies those permissions automatically."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Church Presenter’s official product, licensing and release material.",
+      "themes": [
+        "Free licensing lowers the cost of a realistic team trial.",
+        "A newly released project needs a cautious live-service rollout and fallback."
+      ],
+      "caveat": "Supplier claims are not independent testing, and open-source availability does not establish production readiness for a particular church."
+    },
+    "faq": [
+      {
+        "question": "Is Church Presenter free?",
+        "answer": "Yes. Church Presenter says it is GNU GPL v3, free forever, with no subscription or seat limits."
+      },
+      {
+        "question": "Does Church Presenter offer a trial?",
+        "answer": "No trial is needed because the software is free to download and use."
+      },
+      {
+        "question": "Which systems does Church Presenter run on?",
+        "answer": "The supplier says it runs on Windows, macOS and Linux, with mobile apps for remote control."
+      },
+      {
+        "question": "Does Church Presenter include music licences?",
+        "answer": "Churches remain responsible for CCLI and other content or streaming licences."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/church-presenter/church-presenter-logo.png",
+      "alt": "Church Presenter logo",
+      "source": "https://www.churchpresenter.org/app.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Church Presenter homepage",
+      "url": "https://churchpresenter.org/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free pricing",
+        "Platforms",
+        "Features"
+      ]
+    },
+    {
+      "label": "Church Presenter open-source announcement",
+      "url": "https://www.churchpresenter.org/blog/church-presenter-is-free-and-open-source/",
+      "checked": "2026-07-25",
+      "supports": [
+        "GPL model",
+        "Features",
+        "Mobile control"
+      ]
+    },
+    {
+      "label": "Why Church Presenter",
+      "url": "https://churchpresenter.org/why/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Licence",
+        "Offline use",
+        "Exports"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/church-presenter/id6761505183",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Church Presenter name; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.church.presenter.churchpresentermobile",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published under the Church Presenter name; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Church Presenter review for UK churches",
+    "description": "Independent Church Presenter profile for UK churches: free open-source worship software, rollout checks and FAQs."
+  }
+}

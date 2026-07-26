@@ -1,0 +1,106 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "../utils/content";
+
+type Software = CollectionEntry<"software">["data"];
+type Feedback = NonNullable<Software["publicFeedback"]>;
+type ExternalReview = Software["externalReviews"][number];
+
+interface Props {
+  feedback: Feedback;
+  reviews: ExternalReview[];
+}
+
+const { feedback, reviews } = Astro.props;
+const labelForScope = (scope: ExternalReview["collectionType"]) =>
+  scope === "product" ? "Product profile" : "Company profile";
+const labelForUkEvidence: Record<Feedback["ukEvidence"], string> = {
+  substantial: "Substantial",
+  some: "Some",
+  limited: "Limited",
+  "none-found": "None found"
+};
+const allThemes = [...feedback.positiveThemes, ...feedback.concernThemes, ...feedback.conflictingEvidence];
+---
+
+<section class="public-feedback-scan" aria-labelledby="public-feedback-heading">
+  <p class="eyebrow">Public feedback scan</p>
+  <h2 id="public-feedback-heading">What public reviewers and church-tech discussions suggest</h2>
+  <p>{feedback.summary}</p>
+
+  {
+    feedback.status === "themes-found" && (
+      <div class="public-feedback-scan__themes">
+        <section aria-labelledby="positive-feedback-heading">
+          <h3 id="positive-feedback-heading">Repeated positive themes</h3>
+          <ul>{feedback.positiveThemes.map((theme) => <li><strong>{theme.label}:</strong> {theme.summary}</li>)}</ul>
+        </section>
+        <section aria-labelledby="concern-feedback-heading">
+          <h3 id="concern-feedback-heading">Repeated concerns and trade-offs</h3>
+          <ul>{feedback.concernThemes.map((theme) => <li><strong>{theme.label}:</strong> {theme.summary}</li>)}</ul>
+        </section>
+      </div>
+    )
+  }
+
+  {
+    feedback.status === "limited" && allThemes.length > 0 && (
+      <section aria-labelledby="limited-feedback-heading">
+        <h3 id="limited-feedback-heading">Useful observations, but not a broad pattern</h3>
+        <ul>{allThemes.map((theme) => <li><strong>{theme.label}:</strong> {theme.summary}</li>)}</ul>
+      </section>
+    )
+  }
+
+  {
+    feedback.conflictingEvidence.length > 0 && (
+      <section aria-labelledby="differing-feedback-heading">
+        <h3 id="differing-feedback-heading">Where experiences differ</h3>
+        <ul>{feedback.conflictingEvidence.map((theme) => <li>{theme.summary}</li>)}</ul>
+      </section>
+    )
+  }
+
+  {
+    feedback.ukChurchTakeaways.length > 0 && (
+      <section aria-labelledby="uk-feedback-heading">
+        <h3 id="uk-feedback-heading">What this means for a UK church</h3>
+        <ul>{feedback.ukChurchTakeaways.map((takeaway) => <li>{takeaway}</li>)}</ul>
+      </section>
+    )
+  }
+
+  <dl class="detail-list public-feedback-scan__metadata">
+    <div><dt>Items examined</dt><dd>{feedback.itemsReviewed}</dd></div>
+    <div><dt>Source types</dt><dd>{feedback.sourceTypes.join(", ")}</dd></div>
+    <div><dt>Feedback period</dt><dd>{feedback.windowStart ? `${formatDate(feedback.windowStart)} to ` : "Up to "}{formatDate(feedback.windowEnd)}</dd></div>
+    <div><dt>Scan completed</dt><dd>{formatDate(feedback.checked)}</dd></div>
+    <div><dt>UK-specific evidence</dt><dd>{labelForUkEvidence[feedback.ukEvidence]}</dd></div>
+  </dl>
+
+  <details class="public-feedback-scan__details">
+    <summary>Sources searched, scope and limitations</summary>
+    <p>We use public, permitted sources as a limited decision signal. This scan does not claim to cover everything said online, establish how typical an experience is, or treat each contributor’s account as established fact.</p>
+    <p><strong>Sampling:</strong> {feedback.sampleMethod}</p>
+    <h3>Limitations</h3>
+    <ul>{feedback.limitations.map((limitation) => <li>{limitation}</li>)}</ul>
+    {
+      reviews.length > 0 && (
+        <>
+          <h3>Matched external review profiles</h3>
+          <ul class="external-reviews__list">
+            {reviews.map((review) => (
+              <li>
+                <a href={review.profileUrl} target="_blank" rel="noopener noreferrer">
+                  {review.platform}: {labelForScope(review.collectionType)} (opens in a new tab)
+                </a>
+                <span class="muted"> · checked {formatDate(review.lastChecked)}{review.note ? ` · ${review.note}` : ""}</span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+    <p><a href="/methodology/#public-feedback">Read the public feedback method and correction process.</a></p>
+  </details>
+</section>

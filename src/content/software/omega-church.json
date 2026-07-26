@@ -1,0 +1,189 @@
+{
+  "name": "Omega Church",
+  "slug": "omega-church",
+  "shortDescription": "Northern Ireland-developed church administration software for member records, groups, communication, reports and finance workflows.",
+  "officialWebsite": "https://omegachurch.co.uk/",
+  "company": "GCD Technologies Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "unknown",
+  "categories": [
+    "church-management",
+    "church-accounting"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK and Northern Ireland churches that prefer a locally installed administration system",
+    "Church offices needing member, group, reporting and finance tools"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "Omega Church publishes one-off, VAT-inclusive prices for Single Site, Multi-Site and Network editions, with an optional annual support-and-updates service. A Lite discount is stated for organisations with up to 250 active records.",
+    "tiers": [
+      {
+        "label": "Single Site",
+        "price": "£629 including VAT",
+        "detail": "One-computer edition"
+      },
+      {
+        "label": "Multi-Site",
+        "price": "£929 including VAT",
+        "detail": "Install on multiple computers within a church"
+      },
+      {
+        "label": "Network",
+        "price": "£1,299 including VAT",
+        "detail": "Central server and multiple simultaneous users"
+      },
+      {
+        "label": "Lite discount",
+        "price": "£190 discount",
+        "detail": "Stated for Single and Multi-Site editions with up to 250 active records"
+      }
+    ],
+    "trialDetails": "A fully functional 60-day trial is advertised, with no credit card required."
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Membership records",
+    "Families and groups",
+    "Email and postal communication",
+    "Permission settings",
+    "Operational reports",
+    "Finance and offering records",
+    "Data export to Excel, Word or PDF"
+  ],
+  "integrations": [],
+  "importExport": [
+    "Supplier states data can be exported to Excel, Word or PDF"
+  ],
+  "support": [
+    "One month of support and updates is included",
+    "Optional annual support and updates are published",
+    "Supplier states its team is in Lurgan, Northern Ireland"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "Omega is described by its supplier as designed for UK churches, with support from Lurgan, Northern Ireland.",
+      "state": "supplier-published",
+      "source": "https://omegachurch.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Published licence and support prices are in pounds sterling and include VAT where stated.",
+      "state": "supplier-published",
+      "source": "https://omegachurch.co.uk/pricing/",
+      "checked": "2026-07-25"
+    },
+    "exports": {
+      "value": "Supplier states records can be exported to Excel, Word or PDF.",
+      "state": "supplier-published",
+      "source": "https://omegachurch.co.uk/features/church-administrators/",
+      "checked": "2026-07-25"
+    },
+    "technical-administration": {
+      "value": "Network edition requires a church central server; other editions are installed on church computers.",
+      "state": "supplier-published",
+      "source": "https://omegachurch.co.uk/pricing/",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/omega-church/omega-church-logo.png",
+      "alt": "Omega Church logo",
+      "source": "https://omegachurch.co.uk/wp-content/themes/omega-web/apple-touch-icon.png",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "Omega Church is structurally different from the cloud-first systems in this directory: its published options are installed Single Site, Multi-Site or Network editions with an optional annual support service. It may appeal where a church wants that locally managed model, but that choice places greater weight on backup, device access, updates, network administration and a clear handover plan.",
+    "bestFor": [
+      "Church offices that prefer a locally installed administration product",
+      "Churches needing member records, reporting and basic finance workflows",
+      "Teams with a named person able to own device, network and backup decisions"
+    ],
+    "strengths": [
+      "Published one-off VAT-inclusive licence prices and a 60-day trial",
+      "The supplier provides editions for single-machine, multi-machine and network use",
+      "The supplier documents operational reporting and export options"
+    ],
+    "limitations": [
+      "A locally installed product needs explicit responsibility for backups, access, updates and equipment",
+      "This research does not establish a current data-processing agreement, accessibility information, imports, migration assistance or integrations",
+      "The reported data-export formats should be tested against the church's actual exit and reporting needs"
+    ],
+    "procurementVerdict": {
+      "problem": "Church offices that prefer a locally installed administration product",
+      "differentiator": "Single Site, Multi-Site and Network editions offer a non-cloud-first operating model",
+      "firstCheck": "Confirm who will own backups, updates, network administration and usable exports"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Omega Church product overview",
+      "url": "https://omegachurch.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK church focus",
+        "Northern Ireland development",
+        "Church-management scope"
+      ]
+    },
+    {
+      "label": "Omega Church pricing",
+      "url": "https://omegachurch.co.uk/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Published licence prices",
+        "VAT treatment",
+        "Support prices",
+        "Deployment editions",
+        "Lite discount"
+      ]
+    },
+    {
+      "label": "Omega Church administration features",
+      "url": "https://omegachurch.co.uk/features/church-administrators/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Member records",
+        "Groups",
+        "Communication",
+        "Permissions",
+        "Reports",
+        "Export formats"
+      ]
+    },
+    {
+      "label": "Omega Church trial download",
+      "url": "https://omegachurch.co.uk/download/",
+      "checked": "2026-07-25",
+      "supports": [
+        "60-day fully functional trial"
+      ]
+    },
+    {
+      "label": "GCD company information",
+      "url": "https://gcdtech.com/about-us",
+      "checked": "2026-07-25",
+      "supports": [
+        "Northern Ireland company location"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Omega Church review for UK churches",
+    "description": "Independent Omega Church profile: UK pricing, local installation options, church administration, finance workflows and due diligence."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "name": "BookingsPlus",
+  "slug": "bookingsplus",
+  "shortDescription": "A UK-operated venue-lettings platform for room hire, enquiries, invoices, payments, hirer compliance and branded booking websites across single or multiple sites.",
+  "officialWebsite": "https://bookingsplus.co.uk/",
+  "company": "Kajima Partnerships Limited (via Kajima Community)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "yes",
+  "categories": [
+    "room-bookings",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches and charities hiring rooms, halls or facilities to the public",
+    "Multi-site churches or diocesan projects with several hireable spaces",
+    "Facilities teams needing booking, invoicing, payments and hirer compliance in one workflow"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "BookingsPlus says it charges a flexible quarterly fee equal to 3% of annual booking value, with a one-off setup fee; it does not publish the current cap or a full worked example. It says lower setup fees are available for charities, primary schools and community centres. Request the current rate card, cap, minimum charge, setup fee, card-processing fees, VAT, support scope and termination terms in writing.",
+    "tiers": [
+      {
+        "label": "Flexible venue fee",
+        "price": "3% of annual booking value, charged quarterly",
+        "detail": "Supplier's published approach. A one-off setup fee covers configuration, transfer of existing client and pricing data, website population and training; exact current amounts are by quote."
+      }
+    ]
+  },
+  "freePlan": "no",
+  "freeTrial": "unknown",
+  "demoAvailable": "yes",
+  "gdprInformation": "BookingsPlus is supplied through Kajima Community/Kajima Partnerships Limited. A recent public booking privacy notice identifies Kajima Community as controller for bookings administered through the system and lists contact, booking, financial and limited compliance information that may be processed. The reviewed product material does not establish a church's specific controller-processor allocation, hosting region, sub-processors, retention schedule, payment-provider flow, access roles or export arrangements; obtain current contract documentation before launch.",
+  "coreFeatures": [
+    "Branded venue-hire website",
+    "Online enquiries, bookings and payments",
+    "Availability calendar",
+    "Single and repeat bookings",
+    "Invoices, deposits and payment tracking",
+    "Dynamic pricing and user-group discounts",
+    "Hirer compliance-document workflow",
+    "Booking notifications",
+    "Reports and analytics",
+    "Multi-site venue administration",
+    "VAT calculations",
+    "Onboarding, training and support"
+  ],
+  "integrations": [
+    "Supplier describes payment-provider and accounting-system integrations; obtain the current supported-provider list, data flow and fees"
+  ],
+  "importExport": [
+    "Supplier says setup includes transfer of existing client data and room-hire prices",
+    "No public export specification was found; request client, booking, invoice, payment, compliance-document and report export examples before migration"
+  ],
+  "support": [
+    "Supplier offers a demo route",
+    "Published setup includes a full day of training",
+    "Supplier describes phone and email helpdesk support and ongoing development"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Supplier identifies BookingsPlus as part of Kajima Community and Kajima Partnerships Limited, with London, Northampton and Gateshead locations. The G-Cloud listing names Kajima Partnerships Limited as supplier.",
+      "state": "supplier-published",
+      "source": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/767652977967591",
+      "checked": "2026-07-25"
+    },
+    "venue-workflow": {
+      "value": "Supplier describes a cloud venue-lettings platform for online bookings, payments, invoices, dynamic pricing, booking workflows, reports, compliance documents and centralised multi-venue administration.",
+      "state": "supplier-published",
+      "source": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/767652977967591",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier's public pricing page states a quarterly fee of 3% of annual booking value and a one-off setup fee, with lower setup fees for charities, primary schools and community centres.",
+      "state": "supplier-published",
+      "source": "https://www.bookingsplus.co.uk/who-we-are/pricing/",
+      "checked": "2026-07-25"
+    },
+    "privacy-context": {
+      "value": "A current BookingsPlus booking privacy notice identifies Kajima Community as controller and describes contact, booking, financial and limited compliance information it may process.",
+      "state": "supplier-published",
+      "source": "https://childrenfirsttrust.schoolbookings.co.uk/privacy-policy",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/bookingsplus/bookingsplus-logo.png",
+      "alt": "BookingsPlus logo",
+      "source": "https://bookingsplus.co.uk/wp-content/uploads/2025/07/favicon-300x300.png",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "BookingsPlus is a broader UK venue-lettings service rather than church-specific software, but its end-to-end workflow is relevant to churches with substantial room-hire income or several facilities. It goes beyond a diary by joining public promotion, enquiry, bookings, payments, invoicing and hirer compliance. Its fee linked to booking value should be modelled carefully against a church's expected income, and its international parent-group context should be understood as part of normal supplier diligence.",
+    "bestFor": [
+      "Church halls and charity venues with regular public lettings",
+      "Facilities teams that need online hire, invoicing and payment collection together",
+      "Organisations managing several sites or a centralised venue-hire service"
+    ],
+    "strengths": [
+      "UK operating context and identified supplier",
+      "Full venue-hire workflow including branded public site, payments and reporting",
+      "Published percentage-based fee approach",
+      "Supplier provides setup, data transfer and training",
+      "Hirer compliance-document workflow and configurable pricing described"
+    ],
+    "limitations": [
+      "General venue software rather than a church-management system",
+      "The 3%-of-bookings commercial model can become material at higher hire income; quote and cap require review",
+      "No public church-specific DPA, export specification or detailed sub-processor information found",
+      "Parent group is global even though the operating and supplier context is UK",
+      "Not a substitute for a church's own safeguarding, venue-safety, insurance or financial controls"
+    ],
+    "procurementVerdict": {
+      "problem": "Managing public church-hall hire, payments and administration without fragmented booking records",
+      "differentiator": "A UK-operated full lettings platform that combines a branded hire website, booking administration, finance workflow and hirer compliance",
+      "firstCheck": "Model the 3% fee, setup charge and payment costs against a year of actual hall income; then request the current contract, DPA, support scope, accounting integrations and exports before transferring booking and customer data"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "BookingsPlus venue-lettings software",
+      "url": "https://bookingsplus.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Product scope",
+        "Booking workflow",
+        "Support",
+        "Venue context"
+      ]
+    },
+    {
+      "label": "BookingsPlus pricing approach",
+      "url": "https://www.bookingsplus.co.uk/who-we-are/pricing/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Percentage fee",
+        "Setup scope",
+        "Charity setup-fee statement"
+      ]
+    },
+    {
+      "label": "G-Cloud: BookingsPlus for local government",
+      "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/767652977967591",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier identity",
+        "Venue features",
+        "Integrations",
+        "Compliance workflow"
+      ]
+    },
+    {
+      "label": "BookingsPlus privacy notice example",
+      "url": "https://childrenfirsttrust.schoolbookings.co.uk/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Controller identity",
+        "Booking-data categories"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "BookingsPlus review for UK churches",
+    "description": "Independent BookingsPlus profile: UK church-hall hire, bookings, fees and procurement checks."
+  }
+}

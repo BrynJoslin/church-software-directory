@@ -1,0 +1,144 @@
+{
+  "name": "Parish Safeguarding Dashboard",
+  "slug": "parish-safeguarding-dashboard",
+  "shortDescription": "Church of England safeguarding-administration dashboard for parishes in participating dioceses, developed by Clearly Simpler.",
+  "officialWebsite": "https://www.safeguardingdashboards.org.uk/",
+  "company": "Clearly Simpler Limited",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "safeguarding"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church of England parishes in a participating diocese",
+    "Parish safeguarding officers and PCCs needing a structured administrative dashboard"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "The Dashboard is supplied through participating dioceses rather than as a published self-serve parish subscription. Several dioceses describe it as free to their parishes; ask the diocesan safeguarding team about local access and any funding arrangement.",
+    "tiers": [],
+    "trialDetails": "Access is arranged through a participating diocese; no individual parish trial is advertised."
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "demoAvailable": "yes",
+  "gdprInformation": "Clearly Simpler publishes a data-processing agreement for its Safeguarding Hubs. Parish Safeguarding Dashboard users should obtain the current diocesan agreement, privacy information and local controller/processor arrangements before entering personal data.",
+  "coreFeatures": [
+    "Safeguarding status dashboard",
+    "Guidance and information pages for dashboard tasks",
+    "Action-plan and report support",
+    "Access for authorised parish and diocesan users",
+    "Three-level safeguarding framework"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Access and first-line support through participating diocesan safeguarding teams",
+    "Supplier contact"
+  ],
+  "decisionEvidence": {
+    "church-of-england-scope": {
+      "value": "Supplier states that the Dashboard was developed by Clearly Simpler for use within the Church of England.",
+      "state": "supplier-published",
+      "source": "https://www.safeguardingdashboards.org.uk/about/safeguarding-dashboards.php",
+      "checked": "2026-07-25"
+    },
+    "diocesan-access": {
+      "value": "Diocesan sources say access is organised through the diocesan safeguarding team and describe the Dashboard as free to parishes in participating dioceses.",
+      "state": "independent-source",
+      "source": "https://www.portsmouth.anglican.org/safeguarding/toolkit/ParishSafeguardingDashboard/",
+      "checked": "2026-07-25"
+    },
+    "supplier-identity": {
+      "value": "Clearly Simpler identifies itself as a UK company and a diocesan source attributes the Dashboard to the supplier.",
+      "state": "independent-source",
+      "source": "https://www.oxford.anglican.org/safeguarding-dashboard-and-safeguarding-hub.php",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "The Parish Safeguarding Dashboard is a specialist Church of England administration tool, not a substitute for safeguarding judgement, diocesan advice or incident-management procedures. It is particularly relevant where a participating diocese has adopted it and can provide its local access, training and data-governance arrangements.",
+    "bestFor": [
+      "Church of England parishes in a diocese that provides the Dashboard",
+      "Parish safeguarding officers coordinating policy, training and governance checks"
+    ],
+    "strengths": [
+      "Purpose-built for Church of England parish safeguarding administration",
+      "Diocesan access and guidance model",
+      "Structured dashboard and action-plan approach"
+    ],
+    "limitations": [
+      "Availability depends on diocesan participation",
+      "Not a replacement for professional safeguarding advice or statutory reporting",
+      "Data, access and local policy arrangements must be agreed with the diocese"
+    ],
+    "procurementVerdict": {
+      "problem": "Keeping parish safeguarding tasks, policy reviews and governance oversight organised",
+      "differentiator": "Church of England-specific framework supplied through a diocesan safeguarding model",
+      "firstCheck": "Ask the diocesan safeguarding team whether the Dashboard is available and what records should or should not be held in it"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Safeguarding Dashboards overview",
+      "url": "https://www.safeguardingdashboards.org.uk/about/safeguarding-dashboards.php",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church of England scope",
+        "Supplier attribution",
+        "Dashboard workflow"
+      ]
+    },
+    {
+      "label": "Diocese of Oxford: Dashboard and Hub",
+      "url": "https://www.oxford.anglican.org/safeguarding-dashboard-and-safeguarding-hub.php",
+      "checked": "2026-07-25",
+      "supports": [
+        "Supplier attribution",
+        "Parish workflow",
+        "Diocesan access model"
+      ]
+    },
+    {
+      "label": "Diocese of Portsmouth: Parish Safeguarding Dashboard",
+      "url": "https://www.portsmouth.anglican.org/safeguarding/toolkit/ParishSafeguardingDashboard/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Participating-diocese access",
+        "Free parish access in that diocese",
+        "Authorised users"
+      ]
+    },
+    {
+      "label": "Clearly Simpler: company overview",
+      "url": "https://www.clearlysimpler.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "Software-development activity"
+      ]
+    },
+    {
+      "label": "Companies House: Clearly Simpler Limited",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10682994",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Parish Safeguarding Dashboard review",
+    "description": "Independent Parish Safeguarding Dashboard profile: Church of England scope, diocesan access, workflow and data-governance checks."
+  }
+}

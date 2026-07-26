@@ -30,41 +30,103 @@ const websiteJsonLd = {
 ---
 
 <BaseLayout
-  title="Find church software that works in the UK"
-  description="Compare church management, giving and worship tools with UK-specific information, independent notes and clearly marked unknowns."
+  title="Make a better church software decision"
+  description="Start with the job your church needs to do, then compare software using UK-specific evidence and practical supplier questions."
   jsonLd={websiteJsonLd}
 >
-  <section class="hero">
+  <section class="hero hero--home">
     <div class="container hero-grid">
       <div>
-        <p class="eyebrow">Independent decision support</p>
-        <h1>Find church software that works in the UK</h1>
+        <p class="eyebrow">Independent help for UK churches</p>
+        <h1>Make the next software decision with less guesswork.</h1>
         <p>
-          Compare church management, giving and worship tools with practical
-          information about UK fit, Gift Aid, pricing and the questions still to
-          ask.
+          Church admin is already a lot. Start with the job that needs making
+          easier, then assess the software behind the sales language — including
+          the UK details that are easy to miss.
         </p>
         <div class="cluster">
-          <a class="button" href="/software/">Browse software</a>
+          <a class="button" href="/shortlist/">Build a shortlist</a>
           <a class="button button--secondary" href="/compare/">Compare products</a>
         </div>
       </div>
-      <aside class="trust-panel" aria-label="How to use this directory">
-        <h2>Evidence before polish</h2>
-        <p>
-          Supplier facts have source links and checked dates. Missing evidence is
-          shown as <strong>Not confirmed</strong>, never quietly treated as “No”.
-        </p>
-        <p><a href="/methodology/">Read the research method</a></p>
+      <aside class="trust-panel trust-panel--questions" aria-label="Questions the directory helps churches ask">
+        <p class="eyebrow">The awkward questions</p>
+        <h2>Not just “does it have the feature?”</h2>
+        <ul>
+          <li>Will this work with our actual people and processes?</li>
+          <li>What needs checking for Gift Aid, GDPR and UK payments?</li>
+          <li>What do the sources say — and what should we ask the supplier?</li>
+        </ul>
+        <p><a href="/methodology/">How we research listings</a></p>
       </aside>
     </div>
   </section>
 
-  <section class="section section--soft" aria-labelledby="tasks-heading">
+  <section class="section home-problem" aria-labelledby="problem-heading">
+    <div class="container home-problem__grid">
+      <div>
+        <p class="eyebrow">A familiar situation</p>
+        <h2 id="problem-heading">You do not need more software. You need fewer loose ends.</h2>
+      </div>
+      <div class="home-problem__copy">
+        <p>
+          Perhaps information lives in too many places. Maybe giving is hard to
+          reconcile, rotas keep changing, or a database has become difficult to
+          trust. The right next step may be a new tool — but it may also be a
+          clearer process or a simpler setup.
+        </p>
+        <p>
+          This directory is here to help you tell the difference before your
+          church commits time, money and sensitive data.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="path-heading">
     <div class="container">
-      <p class="eyebrow">Start with the task</p>
-      <h2 id="tasks-heading">What does your church need to improve?</h2>
-      <div class="grid">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">A calmer way to choose</p>
+          <h2 id="path-heading">Find a way forward in three useful steps.</h2>
+        </div>
+        <p>
+          No league tables or invented certainty. Just a clearer route from a
+          real problem to an informed conversation.
+        </p>
+      </div>
+      <ol class="decision-path">
+        <li>
+          <span class="decision-path__number" aria-hidden="true">01</span>
+          <h3>Name the job</h3>
+          <p>Begin with what is getting harder to manage, not a product name.</p>
+        </li>
+        <li>
+          <span class="decision-path__number" aria-hidden="true">02</span>
+          <h3>Check the fit</h3>
+          <p>Use practical criteria and UK-specific questions to narrow the field.</p>
+        </li>
+        <li>
+          <span class="decision-path__number" aria-hidden="true">03</span>
+          <h3>Compare the evidence</h3>
+          <p>Put sourced facts and unanswered questions side by side.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="tasks-heading">
+    <div class="container">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">Start where the work is</p>
+          <h2 id="tasks-heading">What would you like your church to handle better?</h2>
+        </div>
+        <p>Choose a task to see what is worth considering before you choose a tool.</p>
+      </div>
+      <p class="measure">If your first need is administration, finance or giving, build a guided shortlist. It explains the evidence behind each product and does not produce a league table.</p>
+      <p class="section-link"><a class="button" href="/shortlist/">Build a shortlist</a></p>
+      <div class="grid home-task-grid">
         {
           sortedCategories.map((category) => (
             <CategoryCard
@@ -78,18 +140,23 @@ const websiteJsonLd = {
           ))
         }
       </div>
-      <p><a href="/categories/">View all categories</a></p>
+      <p class="section-link"><a href="/categories/">Explore every software category</a></p>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="software-heading">
+  <section class="section section--warm" aria-labelledby="software-heading">
     <div class="container">
-      <p class="eyebrow">Representative research</p>
-      <h2 id="software-heading">Explore the foundation listings</h2>
-      <p class="measure">
-        This first set proves the directory method. It is deliberately small and
-        should not be read as a complete market shortlist.
-      </p>
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">A small, researched starting point</p>
+          <h2 id="software-heading">Products need context, not a podium.</h2>
+        </div>
+        <p>
+          These foundation listings are deliberately not a “best of” list. Each
+          shows the evidence we have, the gaps we have found and who may want to
+          investigate further.
+        </p>
+      </div>
       <div class="software-grid">
         {
           sortedSoftware.map((entry) => (
@@ -97,39 +164,42 @@ const websiteJsonLd = {
           ))
         }
       </div>
-      <p><a href="/software/">See all {software.length} software entries</a></p>
+      <p class="section-link"><a href="/software/">See all {software.length} software entries</a></p>
     </div>
   </section>
 
-  <section class="section section--warm" aria-labelledby="guides-heading">
-    <div class="container">
-      <p class="eyebrow">Choose with care</p>
-      <h2 id="guides-heading">Practical guides for the decision</h2>
-      <div class="grid">
+  <section class="section" aria-labelledby="guides-heading">
+    <div class="container page-grid home-guides">
+      <div>
+        <p class="eyebrow">Before you commit</p>
+        <h2 id="guides-heading">A good decision is more than a feature checklist.</h2>
+        <p class="measure">
+          Our guides help teams ask better questions about data, cost, migration
+          and day-to-day ownership — so the decision still makes sense after the
+          launch meeting.
+        </p>
+      </div>
+      <div class="home-guide-list">
         {guides.map((guide) => <GuideCard entry={guide} />)}
       </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container page-grid">
+  <section class="section home-closing" aria-labelledby="closing-heading">
+    <div class="container home-closing__grid">
       <div>
-        <p class="eyebrow">Why UK context matters</p>
-        <h2>Availability is not the same as UK suitability</h2>
-        <p class="measure">
-          Churches may need to check Gift Aid, pounds sterling, UK payment
-          methods, support hours, data processing and charity workflows. The
-          directory separates confirmed UK evidence from general availability.
+        <p class="eyebrow">Keep the directory useful</p>
+        <h2 id="closing-heading">The useful answer is sometimes “not yet”.</h2>
+        <p>
+          A new system is only worthwhile when it solves a real problem your
+          church can support well. If a listing is incomplete or out of date,
+          help us improve it with first-party evidence.
         </p>
       </div>
-      <aside class="aside-card">
-        <h2>Found something wrong?</h2>
-        <p>
-          Product details change. Suppliers and church users can point us to
-          first-party evidence for a correction.
-        </p>
-        <p><a href="/update-a-listing/">Suggest a correction</a></p>
-      </aside>
+      <div class="cluster">
+        <a class="button" href="/update-a-listing/">Suggest a correction</a>
+        <a class="button button--secondary" href="/about/">Why this exists</a>
+      </div>
     </div>
   </section>
 </BaseLayout>

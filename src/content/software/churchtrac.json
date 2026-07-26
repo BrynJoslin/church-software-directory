@@ -1,0 +1,188 @@
+{
+  "name": "ChurchTrac",
+  "slug": "churchtrac",
+  "shortDescription": "A church management platform with people, giving, check-in, groups, service planning and optional accounting and messaging features.",
+  "officialWebsite": "https://www.churchtrac.com/",
+  "company": "ChurchTrac Software",
+  "ukFocus": "general",
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches wanting a single platform for people, giving and volunteer planning"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "ChurchTrac prices by tracked names, with optional accounting and enhanced-messaging add-ons. The supplier’s live price selector should be checked for the church’s band.",
+    "tiers": [
+      {
+        "label": "Name-based subscription",
+        "price": "See supplier selector",
+        "detail": "Price varies by number of tracked names; archived names do not count according to the supplier"
+      },
+      {
+        "label": "Accounting",
+        "price": "+$15/month",
+        "detail": "Optional accounting and budgeting features"
+      },
+      {
+        "label": "Enhanced Messaging",
+        "price": "+$7/month",
+        "detail": "Optional text and voice messaging add-on; further credits can cost extra"
+      }
+    ],
+    "trialDetails": "30 days free, according to the supplier."
+  },
+  "freePlan": "unknown",
+  "freeTrial": "yes",
+  "giftAid": "unknown",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "People management",
+    "Giving",
+    "Website and church app",
+    "Check-in and attendance",
+    "Groups and registrations",
+    "Volunteer and worship planning"
+  ],
+  "integrations": [
+    "Stripe nonprofit payment processing"
+  ],
+  "importExport": [
+    "First people import included free according to the supplier"
+  ],
+  "support": [
+    "Human support",
+    "Weekly training workshops"
+  ],
+  "editorial": {
+    "assessment": "ChurchTrac publishes a broad all-in-one feature set and a 30-day trial, but a UK church needs current answers on pounds sterling, payment availability, Gift Aid and data-processing arrangements before adopting its giving or finance features.",
+    "bestFor": [
+      "Churches wanting to trial an all-in-one operational platform",
+      "Teams that can audit how many people records they need to keep active"
+    ],
+    "strengths": [
+      "30-day trial and core feature set are clearly published",
+      "Supplier explains its tracked-name billing model"
+    ],
+    "limitations": [
+      "The public selector requires church-specific inputs before showing subscription amounts",
+      "Ask the supplier about UK Gift Aid and payment workflows"
+    ],
+    "procurementVerdict": {
+      "problem": "Churches wanting to trial an all-in-one operational platform",
+      "differentiator": "People management",
+      "firstCheck": "Use the supplier selector with the church's actual database size and required modules"
+    }
+  },
+  "longForm": {
+    "verdict": "ChurchTrac is a broad operational suite whose price logic starts with the number of names a church tracks. The practical decision is whether its people, giving, planning and add-on model matches the church’s data and finance boundaries.",
+    "decisionLens": {
+      "heading": "Count the records the church needs before comparing a headline price.",
+      "text": "ChurchTrac says every tracked person counts while archived names do not. That makes a short data audit and retention decision essential before comparing plan bands or beginning a migration."
+    },
+    "sections": [
+      {
+        "heading": "An all-in-one trial",
+        "question": "Can one realistic workflow replace several separate tools?",
+        "paragraphs": [
+          "ChurchTrac publishes people management, giving, website and app, check-in, groups, registrations, volunteer scheduling and worship planning. It also lists optional accounting and enhanced messaging.",
+          "Use the 30-day trial to build an event, rota, giving record and needed report. Confirm UK payment, Gift Aid and accounting hand-off before using live financial data."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not treat the supplier’s review claims as an independent rating. It is based on ChurchTrac’s published pricing and feature material.",
+      "themes": [
+        "The tracked-name definition affects the subscription band.",
+        "Optional messaging and accounting need to be costed separately."
+      ],
+      "caveat": "Supplier claims and testimonials are not independent testing or a prediction of fit."
+    },
+    "faq": [
+      {
+        "question": "Does ChurchTrac have a free trial?",
+        "answer": "Yes. ChurchTrac advertises a 30-day free trial. Use a non-sensitive test dataset until data-processing and migration terms are understood."
+      },
+      {
+        "question": "How is ChurchTrac priced?",
+        "answer": "The supplier prices by tracked names, with optional accounting and enhanced-messaging add-ons. Use its current selector for the church’s actual count."
+      },
+      {
+        "question": "Does ChurchTrac support UK Gift Aid?",
+        "answer": "Ask the supplier to demonstrate UK payment, declaration, Gift Aid and finance-export workflows."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchtrac/churchtrac-logo.png",
+      "alt": "ChurchTrac logo",
+      "source": "https://www.churchtrac.com/favicon.ico",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "ChurchTrac pricing",
+      "url": "https://www.churchtrac.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing model",
+        "Add-ons",
+        "30-day trial",
+        "Core features"
+      ]
+    },
+    {
+      "label": "ChurchTrac getting started",
+      "url": "https://www.churchtrac.com/support/getting_started/churchtrac-overview",
+      "checked": "2026-07-25",
+      "supports": [
+        "Name counting",
+        "Support",
+        "Data import"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/churchtrac-connect-app/id6737914083",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as ChurchTrac Connect App; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/churchtrac-worship/id6760427898",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as ChurchTrac Worship; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=com.churchtrac.churchconnect",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as ChurchTrac Connect; this directory has not recorded an aggregate rating or review count."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "ChurchTrac review for UK churches",
+    "description": "Independent ChurchTrac profile for UK churches: pricing model, 30-day trial, features, key UK checks and FAQs."
+  }
+}

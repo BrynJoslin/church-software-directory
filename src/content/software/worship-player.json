@@ -1,0 +1,180 @@
+{
+  "name": "Worship Player",
+  "slug": "worship-player",
+  "shortDescription": "A church worship media app from Movation Productions, offering lyric-video and backing-track playback, worship playlists, offline downloads and service-media tools.",
+  "officialWebsite": "https://www.worshipplayer.com/",
+  "company": "Movation Productions Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "general",
+  "ukOrganisation": "unknown",
+  "categories": [
+    "worship-planning",
+    "presentation-software",
+    "livestreaming"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches without regular live musicians",
+    "Services using lyric videos and backing tracks",
+    "Teams needing offline-ready worship playlists and basic presentation media"
+  ],
+  "pricing": {
+    "model": "unknown",
+    "summary": "The app is free to download with five free songs. The supplier describes paid monthly and annual subscriptions for the complete library, but the reviewed public pages did not expose current prices. Ask for the applicable plan, device allowance, renewal, VAT, refund and licensing terms before subscribing."
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "no",
+  "gdprInformation": "The supplier's terms say that service data is processed under applicable UK data-protection law and that Wayopay is a separate controller for billing. The reviewed public material does not establish the current legal registration, data-hosting location, full sub-processor list, retention, deletion or export process. Obtain current contractual and data-processing documentation before storing church-account information or using cloud playlists.",
+  "coreFeatures": [
+    "Lyric-video and backing-track playback",
+    "Congregation-friendly song keys",
+    "On-screen lyrics",
+    "Service playlist creation and sequencing",
+    "Crossfades and atmospheric pads",
+    "Adjustable vocal levels",
+    "Custom text overlays",
+    "Own media for announcements and sermon notes",
+    "Cloud playlist support",
+    "Offline downloads for active subscribers"
+  ],
+  "integrations": [
+    "Wayopay for subscription billing",
+    "CCLI licences may be required for church lyric projection and streaming"
+  ],
+  "importExport": [
+    "Supplier does not publish a detailed content or playlist-export process on the reviewed pages",
+    "Test account cancellation, offline-content removal and any playlist or media exit needs before adoption"
+  ],
+  "support": [
+    "Supplier publishes a support and user-guide route",
+    "Ask for current support hours, onboarding and service-continuity arrangements"
+  ],
+  "decisionEvidence": {
+    "church-workflow": {
+      "value": "Supplier describes lyric videos, backing tracks, playlists, offline downloads, cloud support and service media for churches and related organisations.",
+      "state": "supplier-published",
+      "source": "https://www.worshipplayer.com/",
+      "checked": "2026-07-25"
+    },
+    "free-access": {
+      "value": "Supplier says the app is free to download and includes five free songs; paid subscriptions unlock the full library.",
+      "state": "supplier-published",
+      "source": "https://www.worshipplayer.com/support",
+      "checked": "2026-07-25"
+    },
+    "licensing": {
+      "value": "Supplier states that worship use involving lyric projection or online streaming may require the appropriate CCLI licences, which it does not provide.",
+      "state": "supplier-published",
+      "source": "https://www.worshipplayer.com/terms-and-conditions",
+      "checked": "2026-07-25"
+    },
+    "operator": {
+      "value": "Supplier terms identify Worship Player as coming under the registered business of Movation Productions Ltd, but the reviewed material does not publish a company number or complete current legal identity information.",
+      "state": "needs-refresh",
+      "source": "https://www.worshipplayer.com/terms-and-conditions",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/worship-player/worship-player-logo.jpg",
+      "alt": "Worship Player logo",
+      "source": "https://static.wixstatic.com/media/5b813e_3643a8505586424e8519b4cbd1748d57%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/5b813e_3643a8505586424e8519b4cbd1748d57%7Emv2.jpg",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "Worship Player is a focused worship-media service rather than a complete church-management or content-licensing system. It may suit a church that needs a prepared library of worship videos and backing tracks, particularly where live musicians are unavailable. Its free download offers a practical starting point, but a church should confirm the supplier's legal identity, subscription price, device and offline rules, licence requirements and data terms before using it for regular public worship or streaming.",
+    "bestFor": [
+      "Small churches that need congregation-friendly backing tracks and lyrics",
+      "Volunteer teams preparing simple worship playlists",
+      "Churches that need downloaded content for intermittent internet connections"
+    ],
+    "strengths": [
+      "Church-specific worship workflow",
+      "Five free songs provide a practical evaluation route",
+      "Supplier documents playlists, offline downloads, lyrics, backing tracks and basic media presentation",
+      "Public terms distinguish content permission from separate CCLI licensing"
+    ],
+    "limitations": [
+      "The reviewed material does not provide a company number, current public price or complete legal identity",
+      "It is not a church management, accounting, safeguarding or people-records system",
+      "The church remains responsible for applicable copyright and streaming licences",
+      "Cloud use, periodic subscription checks, device limits, content removal and exit arrangements should be tested"
+    ],
+    "procurementVerdict": {
+      "problem": "Supporting congregational worship where a consistent live music team is unavailable",
+      "differentiator": "A church-focused media player with lyric videos, backing tracks, service playlists and offline downloads",
+      "firstCheck": "Run a full service rehearsal using the church's real display and sound equipment, then confirm content licences, device limits, offline behaviour, renewal price and support before relying on it weekly"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Worship Player overview",
+      "url": "https://www.worshipplayer.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Worship media features",
+        "Offline downloads",
+        "Playlists",
+        "Presentation media"
+      ]
+    },
+    {
+      "label": "Worship Player frequently asked questions",
+      "url": "https://www.worshipplayer.com/support",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free songs",
+        "Full library",
+        "Device compatibility",
+        "Licensing guidance",
+        "Support route"
+      ]
+    },
+    {
+      "label": "Worship Player terms and conditions",
+      "url": "https://www.worshipplayer.com/terms-and-conditions",
+      "checked": "2026-07-25",
+      "supports": [
+        "Named operator",
+        "Subscription model",
+        "Content permissions",
+        "Offline subscription checks",
+        "Data and billing roles"
+      ]
+    },
+    {
+      "label": "Worship Player getting started",
+      "url": "https://www.worshipplayer.com/getting-started",
+      "checked": "2026-07-25",
+      "supports": [
+        "Church deployment workflow",
+        "Wayopay account step",
+        "Display and audio requirements"
+      ]
+    },
+    {
+      "label": "Movation projects",
+      "url": "https://www.movation.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Movation Productions relationship",
+        "Worship-resource context"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Worship Player review for UK churches",
+    "description": "Independent Worship Player profile: lyric videos, backing tracks, playlists, offline use, licensing and supplier checks."
+  }
+}

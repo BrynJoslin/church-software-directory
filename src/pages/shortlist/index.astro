@@ -1,0 +1,145 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { categoryFamilies } from "../../utils/category-families";
+
+const [software, categoryEntries] = await Promise.all([
+  getCollection("software"),
+  getCollection("categories")
+]);
+software.sort((a, b) => a.data.name.localeCompare(b.data.name));
+
+const products = software.map((entry) => ({
+  categories: entry.data.categories.map((category) => category.id)
+}));
+
+const productCountByCategory = new Map<string, number>();
+products.forEach((product) =>
+  product.categories.forEach((category) =>
+    productCountByCategory.set(category, (productCountByCategory.get(category) ?? 0) + 1)
+  )
+);
+
+const categoryById = new Map(categoryEntries.map((category) => [category.id, category]));
+const categoryGroups = categoryFamilies.map((family) => ({
+  ...family,
+  categories: family.categories.flatMap((categoryId) => {
+    const category = categoryById.get(categoryId);
+    const count = productCountByCategory.get(categoryId) ?? 0;
+    return category && count
+      ? [{ value: categoryId, label: category.data.name, count }]
+      : [];
+  })
+}));
+const categories = categoryGroups.flatMap((family) => family.categories);
+---
+
+<BaseLayout
+  title="Build a church software shortlist"
+  description="Use recorded church software evidence to create a small, explainable shortlist and a printable decision pack for your next conversation."
+  breadcrumbs={[{ label: "Build a shortlist" }]}
+>
+  <section class="section">
+    <div
+      class="container shortlist-layout"
+      data-shortlist
+      data-categories={JSON.stringify(categories)}
+    >
+      <div class="shortlist-intro">
+        <p class="eyebrow">Guided shortlist</p>
+        <h1>Build a church software shortlist</h1>
+        <p class="measure">Start with a category, then choose whether another useful question would help. Every answer shown will reduce the current matches without taking them to zero.</p>
+        <noscript><div class="notice"><p>This guided shortlist needs JavaScript. You can still <a href="/categories/">browse categories</a> and compare products manually.</p></div></noscript>
+
+        <form class="shortlist-form enhancement" data-category-form action="/shortlist/" method="get">
+          <div class="form-field">
+            <label for="shortlist-category">Which software category do you need?</label>
+            <select id="shortlist-category" name="category" required>
+              <option value="">Choose a category</option>
+              {categoryGroups.map((family) => (
+                <optgroup label={family.name}>
+                  {family.categories.map((category) => (
+                    <option value={category.value}>{category.label} ({category.count})</option>
+                  ))}
+                </optgroup>
+              ))}
+            </select>
+            <p class="field-hint">The number in brackets is the current number of recorded products in that category.</p>
+          </div>
+          <button type="submit">Continue</button>
+        </form>
+      </div>
+
+      <section class="shortlist-journey enhancement" data-shortlist-journey hidden aria-labelledby="shortlist-checkpoint-heading">
+        <div class="shortlist-progress">
+          <p class="eyebrow">Your current matches</p>
+          <h2 id="shortlist-checkpoint-heading" tabindex="-1" data-checkpoint-heading>Choose how far to narrow the list</h2>
+          <p class="shortlist-count" role="status" aria-live="polite" aria-atomic="true" data-shortlist-count></p>
+          <div class="shortlist-answer-summary" data-answer-summary hidden>
+            <h3>Requirements applied</h3>
+            <ul data-answer-list></ul>
+          </div>
+        </div>
+
+        <div class="cluster" data-checkpoint-actions>
+          <button type="button" data-next-question>Answer another question</button>
+          <button class="button button--secondary" type="button" data-show-shortlist>See shortlist</button>
+          <a class="button button--secondary" href="/shortlist/">Start again</a>
+        </div>
+
+        <form class="shortlist-question" data-question-form hidden>
+          <fieldset>
+            <legend data-question-legend></legend>
+            <p class="field-hint" data-question-hint></p>
+            <div class="shortlist-question__options" data-question-options></div>
+          </fieldset>
+          <div class="cluster">
+            <button type="submit">Use this answer</button>
+            <button class="button button--secondary" type="button" data-skip-question>Ask a different question</button>
+            <button class="button button--secondary" type="button" data-question-shortlist>See shortlist</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="shortlist-results enhancement" data-shortlist-results aria-labelledby="shortlist-results-heading" hidden>
+        <div class="section-intro">
+          <div><p class="eyebrow">Your shortlist</p><h2 id="shortlist-results-heading" tabindex="-1">Products to investigate</h2></div>
+          <button class="button button--secondary" type="button" data-print-pack>Print decision pack</button>
+        </div>
+        <p data-shortlist-summary></p>
+        <div class="cluster shortlist-results__actions">
+          <button class="button button--secondary" type="button" data-refine-shortlist>Refine with another question</button>
+          <a class="button button--secondary" href="/shortlist/">Start again</a>
+        </div>
+        <div class="shortlist-cards" data-shortlist-cards></div>
+        <details class="shortlist-all-matches" data-all-matches hidden>
+          <summary data-all-matches-summary></summary>
+          <ul data-all-matches-list></ul>
+        </details>
+        <section class="decision-pack" data-decision-pack aria-labelledby="decision-pack-heading">
+          <p class="eyebrow">Practical decision pack</p>
+          <h2 id="decision-pack-heading">Take this into your next meeting</h2>
+          <details open><summary>Requirements worksheet</summary><div data-pack-requirements></div></details>
+          <details><summary>Supplier question pack</summary><div data-pack-questions></div></details>
+          <details><summary>Four-week trial plan</summary><ol><li><strong>Week 1:</strong> Agree one real workflow, its owner and what success looks like.</li><li><strong>Week 2:</strong> Use safe sample data with the people who will do the ordinary work.</li><li><strong>Week 3:</strong> Test permissions, reporting, exports and the relevant finance or Gift Aid path.</li><li><strong>Week 4:</strong> Review what worked, what took extra effort and which questions still need answers from the supplier.</li></ol></details>
+          <details><summary>Trustee or elder decision summary</summary><div data-pack-summary></div></details>
+        </section>
+      </section>
+
+      <section class="empty-state enhancement" data-shortlist-empty hidden aria-labelledby="shortlist-empty-heading">
+        <h2 id="shortlist-empty-heading">The saved shortlist could not be restored</h2>
+        <p>The category or requirements in this link no longer match the recorded catalogue.</p>
+        <p><a href="/shortlist/">Start the shortlist again</a> or <a href="/categories/">browse all categories</a>.</p>
+      </section>
+
+      <aside class="aside-card shortlist-rules">
+        <h2>How this works</h2>
+        <p>The first question is always the software category. Later questions are considered in a fixed order and appear only when at least one answer would leave a smaller, non-empty set.</p>
+        <p>Detailed results are shown with the selected category as a primary category first, then strong UK-specific evidence, then name. This is a tie-break, not a score or endorsement. Commercial relationships are never inputs.</p>
+        <p>Technical administration stays in the decision pack rather than acting as a filter because too few profiles have reliable evidence for it. Pricing is presented only as an individual starting point where a public GBP price is recorded.</p>
+        <p>Browse by family: {categoryFamilies.map((family) => <span class="shortlist-family">{family.name}</span>)}</p>
+      </aside>
+    </div>
+  </section>
+  <script src="../../scripts/shortlist.ts"></script>
+</BaseLayout>

@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import GuideContents from "../../components/GuideContents.astro";
 import { formatDate } from "../../utils/content";
 
 export async function getStaticPaths() {
@@ -16,7 +17,7 @@ interface Props {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 const categories = await getCollection("categories");
 const relatedCategories = categories.filter((category) =>
   entry.data.relatedCategories.some((reference) => reference.id === category.id)
@@ -43,7 +44,7 @@ const articleJsonLd = {
   ]}
 >
   <section class="section">
-    <div class="container page-grid">
+    <div class="container page-grid guide-layout">
       <article class="prose">
         <p class="eyebrow">Practical guide</p>
         <h1>{entry.data.title}</h1>
@@ -56,9 +57,10 @@ const articleJsonLd = {
             {formatDate(entry.data.updated)}
           </time>
         </p>
+        <GuideContents headings={headings} />
         <Content />
       </article>
-      <aside class="aside-card">
+      <aside class="aside-card guide-related">
         <h2>Related categories</h2>
         <ul>
           {
@@ -72,7 +74,7 @@ const articleJsonLd = {
           }
         </ul>
         <p>
-          Product and regulatory details can change. Verify material decisions
+          Product and regulatory details can change. Check material decisions
           with suppliers and qualified advisers.
         </p>
       </aside>

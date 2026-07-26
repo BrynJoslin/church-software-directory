@@ -1,0 +1,159 @@
+{
+  "name": "TruthVine",
+  "slug": "truthvine",
+  "shortDescription": "A UK CIC providing audio sermon recording, hosting and website integration for evangelical churches, with an optional managed church website service.",
+  "officialWebsite": "https://www.truthvine.com/",
+  "company": "TruthVine C.I.C.",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "sermon-hosting",
+    "church-websites"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Churches wanting a focused workflow for recording and publishing audio sermons",
+    "Evangelical churches seeking sermon hosting that can plug into an existing website",
+    "Churches wanting a basic managed website with integrated sermon publishing"
+  ],
+  "pricing": {
+    "model": "flat-rate",
+    "summary": "TruthVine publishes sermon hosting at £9.99 per month with a 30-day free trial and no stated long-term commitment. It publishes a template website at a £249 setup fee plus £24 per month; bespoke website design is quoted separately.",
+    "startingPrice": {
+      "amount": 9.99,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Sermon hosting"
+    },
+    "tiers": [
+      {
+        "label": "TruthVine Sermons",
+        "price": "£9.99/month",
+        "detail": "Audio sermon publishing with 30-day free trial"
+      },
+      {
+        "label": "Template church website",
+        "price": "£249 setup + £24/month",
+        "detail": "Managed website with integrated sermon manager"
+      },
+      {
+        "label": "Bespoke church website",
+        "price": "Contact supplier + £24/month",
+        "detail": "Supplier publishes a custom-design quote route and monthly fee"
+      }
+    ],
+    "trialDetails": "30-day free trial for TruthVine Sermons; supplier states that there is no long-term commitment and cancellation is available at any time."
+  },
+  "freePlan": "no",
+  "freeTrial": "yes",
+  "demoAvailable": "unknown",
+  "dataHosting": "The supplier describes a sermon system and a managed website service. Ask for the storage location, hosting provider, data-processing agreement, sub-processors, retention and service-level terms before uploading personal data or recordings that need controlled access.",
+  "gdprInformation": "Ask the supplier for current service-specific data-processing documentation covering controller and processor roles, hosting, access controls, retention, consent and takedown processes—especially where recordings identify individuals or include prayer requests.",
+  "coreFeatures": [
+    "Audio sermon recording, editing and upload workflow",
+    "Website-embedded sermon player",
+    "Searchable sermon archive",
+    "Downloadable sermon recordings",
+    "CD-copy workflow described by the supplier",
+    "Managed church website templates",
+    "Calendar and blog editor",
+    "50GB storage and 50GB monthly bandwidth stated for websites"
+  ],
+  "integrations": [
+    "Supplier states that the sermon system plugs into an existing website with a single modification"
+  ],
+  "importExport": [],
+  "support": [
+    "Email and telephone contact",
+    "Supplier describes email support for website service"
+  ],
+  "decisionEvidence": {
+    "uk-purchasing": {
+      "value": "TruthVine C.I.C. identifies itself as a Community Interest Company registered in England and Wales under number 09796696.",
+      "state": "independent-source",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/09796696",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier publishes £9.99/month sermon hosting and GBP prices for template website setup and subscription.",
+      "state": "supplier-published",
+      "source": "https://www.truthvine.com/",
+      "checked": "2026-07-25"
+    }
+  },
+  "editorial": {
+    "assessment": "TruthVine is a focused UK option for a church whose immediate publishing problem is getting audio sermons onto its website reliably, rather than buying an all-in-one streaming or church-management suite. Its published price and practical recording workflow make it easy to evaluate. The church should still test sound capture, archive ownership, access control, takedown process and compatibility with its current website before moving a sermon archive.",
+    "bestFor": [
+      "Churches with regular audio preaching that need a simpler website-publishing workflow",
+      "Evangelical churches wanting focused sermon hosting at a published GBP price",
+      "Small teams that may also need a modest managed church website"
+    ],
+    "strengths": [
+      "Published GBP pricing, trial and cancellation position",
+      "Focused record-edit-upload-publish workflow",
+      "UK CIC identity and specific website-service pricing"
+    ],
+    "limitations": [
+      "Ask the supplier about video streaming, analytics, accessibility transcripts and podcast distribution",
+      "Ask for hosting, DPA, sub-processor, archive-migration and exit arrangements",
+      "Churches remain responsible for consent, copyright, safeguarding and any personal information contained in recordings"
+    ],
+    "procurementVerdict": {
+      "problem": "Publishing sermon audio consistently without a complicated web workflow",
+      "differentiator": "A specialist recording and website-embedded sermon system with a low published monthly price",
+      "firstCheck": "Use the trial to publish a real recording, test the archive on mobile and confirm the hosting, data and content-exit terms before migrating existing media"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/truthvine/truthvine-logo.ico",
+      "alt": "TruthVine logo",
+      "source": "https://www.truthvine.com/favicon.ico",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "TruthVine website, sermons and pricing",
+      "url": "https://www.truthvine.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Sermon features",
+        "Published pricing",
+        "Trial",
+        "Website service",
+        "Company identity"
+      ]
+    },
+    {
+      "label": "TruthVine sermon FAQs",
+      "url": "https://www.truthvine.com/sermon-faqs",
+      "checked": "2026-07-25",
+      "supports": [
+        "Recording and upload workflow",
+        "Existing-site connection",
+        "Support contact"
+      ]
+    },
+    {
+      "label": "Companies House: TruthVine C.I.C.",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09796696",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK-registered organisation"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "TruthVine review for UK churches",
+    "description": "Independent TruthVine profile: UK sermon hosting, church websites, £9.99 pricing, trial and due-diligence questions."
+  }
+}

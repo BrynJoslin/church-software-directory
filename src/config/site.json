@@ -1,25 +1,26 @@
 {
-  "name": "UK Church Software Directory",
-  "shortName": "UK Church Software",
-  "url": "https://ukchurchsoftware.example",
+  "name": "Church Software UK",
+  "shortName": "Church Software UK",
+  "url": "https://churchsoftware.co.uk",
   "description": "Independent, UK-focused information to help churches discover and compare administration, giving and ministry software.",
-  "contactEmail": "contact@example.invalid",
+  "publisher": {},
   "social": {
     "mastodon": "",
     "linkedin": ""
   },
   "forms": {
-    "enabled": false,
-    "suggestSoftware": "https://example.invalid/forms/suggest-software",
-    "updateListing": "https://example.invalid/forms/update-listing"
+    "enabled": true,
+    "suggestSoftware": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=software-suggestion.yml",
+    "updateListing": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=listing-correction.yml",
+    "supplierUpdate": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=supplier-listing-update.yml"
   },
   "analytics": {
     "enabled": false,
     "provider": ""
   },
   "features": {
-    "affiliateLinks": false,
-    "sponsoredListings": false
+    "affiliateLinks": true,
+    "sponsoredListings": true
   },
   "defaultSeoImage": "/images/og-default.svg",
   "staleListingDays": 180

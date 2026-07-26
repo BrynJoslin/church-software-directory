@@ -1,0 +1,201 @@
+{
+  "name": "Give A Little",
+  "slug": "give-a-little",
+  "shortDescription": "A UK digital and contactless giving platform for charities, with donation pages, Tap to Pay, Android donation stations and Gift Aid connections.",
+  "officialWebsite": "https://givealittle.co/",
+  "company": "Caution Your Blast Ltd",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "online-giving"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "UK churches seeking contactless and online donations",
+    "Church of England parishes using Parish Buying arrangements"
+  ],
+  "pricing": {
+    "model": "usage-based",
+    "summary": "Give A Little states that its UK web and app donation transaction fee is 1.58% when using a new Give A Little Stripe account. Hardware and account options vary; some Church of England parish arrangements include a free Premium account.",
+    "tiers": [
+      {
+        "label": "Web and app donations",
+        "price": "1.58% transaction fee",
+        "detail": "Supplier says this applies to a new Give A Little Stripe account and is currently UK only"
+      },
+      {
+        "label": "Premium account through Parish Buying",
+        "price": "May be included",
+        "detail": "A diocesan page says eligible parishes can access a free Premium account, normally £7.50/month"
+      }
+    ]
+  },
+  "freePlan": "unknown",
+  "freeTrial": "unknown",
+  "giftAid": "yes",
+  "demoAvailable": "unknown",
+  "coreFeatures": [
+    "Online donation pages",
+    "Contactless donation stations",
+    "Tap to Pay on Android",
+    "One-off and regular giving",
+    "Gift Aid connection",
+    "Donation reporting"
+  ],
+  "integrations": [
+    "Stripe",
+    "SumUp",
+    "Payaz",
+    "CollecTin"
+  ],
+  "importExport": [],
+  "support": [
+    "Supplier help centre"
+  ],
+  "editorial": {
+    "assessment": "Give A Little is a strong UK-specific option where in-building contactless giving matters as much as online donations. The hardware, connectivity, transaction-fee and Gift Aid workflow should be tested together with the church’s finance process rather than bought as a standalone gadget.",
+    "bestFor": [
+      "UK churches and charities wanting contactless donation stations",
+      "Church of England parishes able to use Parish Buying offers"
+    ],
+    "strengths": [
+      "Published UK transaction fee and UK-only Stripe arrangement",
+      "Designed for contactless, online and mobile giving"
+    ],
+    "limitations": [
+      "Hardware and account costs depend on the chosen arrangement",
+      "Not a church database or complete finance system"
+    ],
+    "procurementVerdict": {
+      "problem": "UK churches and charities wanting contactless donation stations",
+      "differentiator": "Online donation pages",
+      "firstCheck": "Hardware and account costs depend on the chosen arrangement"
+    }
+  },
+  "longForm": {
+    "verdict": "Give A Little is particularly relevant for a church that needs to make in-person contactless giving simple. Its value depends on location, connectivity, staff ownership and whether the resulting donation records reconcile smoothly with the treasurer’s process.",
+    "decisionLens": {
+      "heading": "Test the whole giving moment, from tap to reconciliation.",
+      "text": "A device is only useful if people can find it, the connection is reliable, funds arrive as expected and Gift Aid or donor records reach the right place. Test it in the church building with realistic signage and a month-end report."
+    },
+    "sections": [
+      {
+        "heading": "Contactless and online giving together",
+        "question": "Will a donation station fit the church’s real building and finance workflow?",
+        "paragraphs": [
+          "Give A Little describes fixed, portable, DIY and phone-based contactless options as well as online donation journeys. Its FAQ publishes a 1.58% UK web and app fee for new Give A Little Stripe accounts.",
+          "Choose a device only after checking power, signal, security, accessibility and volunteer hand-over. For Church of England parishes, compare the applicable Parish Buying arrangement and make Gift Aid treatment explicit."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Give A Little’s current website, FAQ and Church of England-related guidance.",
+      "themes": [
+        "Physical placement and connectivity affect donations as much as software features.",
+        "A parish offer can change the account cost but not the need for finance controls."
+      ],
+      "caveat": "Supplier and diocesan information does not establish a particular parish’s eligibility or full device cost."
+    },
+    "faq": [
+      {
+        "question": "What does Give A Little charge?",
+        "answer": "Its FAQ states a 1.58% UK web and app transaction fee for a new Give A Little Stripe account. Ask for the hardware and other costs that would apply to the church."
+      },
+      {
+        "question": "Can Give A Little take contactless gifts?",
+        "answer": "Yes. The supplier describes contactless stations and Tap to Pay on compatible Android devices."
+      },
+      {
+        "question": "Does Give A Little support Gift Aid?",
+        "answer": "The supplier describes Gift Aid connections, but a church should test its specific declaration and reporting workflow before launch."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/give-a-little/give-a-little-logo.png",
+      "alt": "Give A Little logo",
+      "source": "https://givealittle.co/_app/immutable/assets/logo.CRcuSnc8.png",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Give A Little homepage",
+      "url": "https://givealittle.co/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Contactless features",
+        "Company registration",
+        "Devices"
+      ]
+    },
+    {
+      "label": "Give A Little FAQ",
+      "url": "https://givealittle.co/faq",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK fee",
+        "Tap to Pay",
+        "Gift Aid context"
+      ]
+    },
+    {
+      "label": "Bath and Wells Diocese on Give A Little",
+      "url": "https://www.bathandwells.org.uk/parish-support/giving-and-grants/ways-to-give/online-giving/give-a-little/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Parish Buying Premium account"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Apple App Store UK",
+      "profileUrl": "https://apps.apple.com/gb/app/give-a-little-champion/id6737087999",
+      "rating": 5,
+      "maximumRating": 5,
+      "reviewCount": 2,
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Give A Little Champion."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.kiosk",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This product listing is published as Give A Little; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Google Play",
+      "profileUrl": "https://play.google.com/store/apps/details?id=co.givealittle.supporter",
+      "lastChecked": "2026-07-26",
+      "collectionType": "product",
+      "dataAccessMethod": "manual",
+      "note": "This companion listing is published as Give A Little Champion; this directory has not recorded an aggregate rating or review count."
+    },
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/givealittle.co",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Give A Little and does not establish suitability for a particular church."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Give A Little review for UK churches",
+    "description": "Independent Give A Little profile for UK churches: contactless giving, fees, Parish Buying context and FAQs."
+  }
+}

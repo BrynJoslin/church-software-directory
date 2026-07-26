@@ -2,12 +2,13 @@
 import { getCollection } from "astro:content";
 import CategoryCard from "../../components/CategoryCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { categoryFamilies } from "../../utils/category-families";
 
 const [categories, software] = await Promise.all([
   getCollection("categories"),
   getCollection("software")
 ]);
-categories.sort((a, b) => a.data.name.localeCompare(b.data.name));
+const categoriesById = new Map(categories.map((category) => [category.id, category]));
 ---
 
 <BaseLayout
@@ -23,19 +24,19 @@ categories.sort((a, b) => a.data.name.localeCompare(b.data.name));
         Start with the work your church needs to improve, then assess whether a
         specialist system is proportionate.
       </p>
-      <div class="grid">
-        {
-          categories.map((category) => (
-            <CategoryCard
-              entry={category}
-              productCount={
-                software.filter((entry) =>
-                  entry.data.categories.some((item) => item.id === category.id)
-                ).length
-              }
-            />
-          ))
-        }
+      <p class="section-link"><a class="button" href="/shortlist/">Build a shortlist</a></p>
+      <div class="category-families">
+        {categoryFamilies.map((family) => (
+          <section class="category-family" aria-labelledby={`family-${family.name}`}>
+            <div class="category-family__intro"><p class="eyebrow">Category family</p><h2 id={`family-${family.name}`}>{family.name}</h2><p>{family.description}</p></div>
+            <div class="grid">
+              {family.categories.map((categoryId) => {
+                const category = categoriesById.get(categoryId);
+                return category ? <CategoryCard entry={category} productCount={software.filter((entry) => entry.data.categories.some((item) => item.id === category.id)).length} /> : null;
+              })}
+            </div>
+          </section>
+        ))}
       </div>
     </div>
   </section>

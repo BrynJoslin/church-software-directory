@@ -7,8 +7,14 @@ how maintainers should use them without turning uncertainty into a claim.
 
 - Use official supplier pages as the primary source.
 - Record a `checked` date and a short `supports` list for every source.
-- A source supports only the named fields; it does not verify the whole product.
-- Use `unknown` when evidence does not establish `yes` or `no`.
+- A source supports only the named fields; it does not establish the quality or
+  suitability of the whole product.
+- Current official supplier material is sufficient evidence for what the
+  supplier publishes.
+- Use `unknown` only as an internal sentinel when evidence does not establish
+  `yes` or `no`; never render it as public copy.
+- Omit incidental gaps and turn material procurement gaps into precise
+  supplier questions.
 - Do not infer UK suitability from worldwide availability.
 - Do not infer legal compliance from a general marketing statement.
 - Structured facts and editorial assessment must remain distinct.
@@ -27,6 +33,7 @@ Software entries are JSON files in `src/content/software/`.
 | `slug` | Yes | Lowercase URL segment. Must match the intended filename and route. |
 | `shortDescription` | Yes | Independent factual summary, 40–220 characters. |
 | `officialWebsite` | Yes | Supplier-owned product website. |
+| `affiliateUrl` | No | A confirmed, publicly usable affiliate URL. Include only when `affiliateRelationship` is `yes`; the site labels it at the point of use. |
 | `company` | Yes | Supplier name as established by an official source. |
 | `countryOfOrigin` | No | Include only when established. |
 
@@ -35,41 +42,91 @@ Software entries are JSON files in `src/content/software/`.
 `ukFocus` is one of:
 
 - `strong`: current supplier evidence is specifically UK-facing.
-- `general`: the product is presented for broader use without verified
+- `general`: the product is presented for broader use without current
   UK-specific evidence in this review.
 - `unknown`: relevance could not be classified safely.
 
-`categories` contains references to category entry IDs. `suitableChurchSizes`
-uses `small`, `medium`, `large` or `multi-site`. These are editorial fit labels,
-not supplier customer-count claims.
+`ukOrganisation` is a separate three-state fact about the supplier or operating
+organisation, not a proxy for product fit. Use `yes` only where a recorded
+source confirms registration in the United Kingdom. This can include a company
+or charity. Use `unknown` when that evidence has not been recorded; do not use
+`no` merely because the product has international customers or is not
+UK-focused.
+
+`categories` contains references to category entry IDs. The first reference is
+the primary decision context; further references are secondary. Keep this order
+intentional: related-product links use the shared primary context and another
+structured similarity, rather than making a link from a broad secondary tag.
+`suitableChurchSizes` uses `small`, `medium`, `large` or `multi-site`. These are
+editorial fit labels, not supplier customer-count claims.
 
 ### Pricing
 
 `pricing.model` is `free`, `freemium`, `flat-rate`, `tiered`, `usage-based`,
 `quote-based` or `unknown`.
 
-`pricing.summary` explains the verified structure. `startingPrice` is optional
+`pricing.summary` explains the source-backed structure. `startingPrice` is optional
 and must have a current official pricing source. Use `qualifier` to name contact,
 module, tax or transaction conditions. A displayed starting price is not a
 complete cost estimate.
 
+Use `pricing.tiers` for a visible, concise summary of the supplier’s current
+published tiers. Each tier needs a label, displayed price and scope detail. Do
+not try to reconstruct a complex price calculator; name the relevant contact,
+module, usage, tax or currency condition. `pricing.trialDetails` records the
+published duration or evaluation arrangement beside the three-state trial fact.
+
 ### Three-state facts
 
-`freePlan`, `freeTrial`, `giftAid`, `demoAvailable` and
-`affiliateRelationship` use:
+`freePlan`, `freeTrial`, `demoAvailable` and `affiliateRelationship` use:
 
-- `yes`: current evidence confirms it.
-- `no`: current evidence explicitly confirms absence.
-- `unknown`: not established.
+- `yes`: current supplier or independent evidence supports it.
+- `no`: current evidence explicitly establishes absence.
+- `unknown`: internal sentinel; omit it from public output.
 
 An empty search result must never turn `unknown` into `no`.
+
+`giftAid` uses the same three-state values, but only belongs on products that
+handle donations or charity-finance workflows. Omit it for unrelated software;
+the directory treats omission as not applicable, not as unknown.
 
 ### Operations
 
 `dataHosting`, `gdprInformation`, `coreFeatures`, `integrations`,
 `importExport` and `support` contain only evidence-backed information. Omit an
-optional string or use an empty array when not confirmed; the interface displays
-`Not confirmed`.
+optional string or use an empty array where no supported detail is recorded.
+The interface omits the corresponding row.
+
+### Decision evidence
+
+`decisionEvidence` is a map keyed by the procurement fields used on profiles
+and comparisons: `contact-band`, `multi-site`, `administrator-limits`,
+`volunteer-usability`, `implementation`, `technical-administration`,
+`uk-purchasing`, `gbp-pricing`, `vat-treatment`, `gift-aid`, `mfa`,
+`role-permissions`, `audit-logs`, `data-processing`, `hosting`, `transfers`,
+`exports`, `migration`, `uk-support` and `contract`.
+
+Each populated field has a reader-facing `value`, an evidence `state`, and—when
+known—a direct `source` URL and `checked` date. The permitted states are:
+
+- `supplier-published`: a current official supplier source supports the value.
+- `independent-source`: a reliable non-supplier source supports the value.
+- `directory-tested`: the directory performed and documented the stated test.
+- `needs-refresh`: previously recorded evidence must be rechecked before use.
+
+Omit a field that has no suitable evidence. Profiles do not render a placeholder.
+Comparisons turn a missing material field into the field's specific supplier
+question. Missing data must never become `no`. The public export includes only
+field-specific or safely derived evidence with a supporting source.
+
+### Brand assets (optional)
+
+`brandAssets.logo` may be used only for a supplier-provided logo asset. Store it
+locally under `public/images/software/[slug]/`; never hotlink it. Record the
+official `source` and `checked` date, preserve the supplier’s artwork without
+recolouring, cropping or distortion, and use an accurate `alt` label. Do not
+reuse product screenshots unless the supplier has given clear permission for
+that reuse; a public product page alone is not a licence.
 
 ### Editorial assessment
 
@@ -79,22 +136,80 @@ The `editorial` object contains the directory's assessment:
 - `bestFor`: contexts where the known shape may be relevant.
 - `strengths`: evidence-backed advantages, not marketing superlatives.
 - `limitations`: trade-offs, caveats and unresolved questions.
+- `procurementVerdict`: the relevant problem, material differentiator and first
+  risk or uncertainty to investigate. It must be specific to the product’s
+  recorded evidence; do not use a generic software recommendation.
 
 Do not claim hands-on experience unless it actually occurred and is documented.
 
-### Verification and sources
+### Long-form profile (optional)
 
-`verificationStatus` is:
+`longForm` turns a structured profile into a substantial decision page. Use it
+only where there is enough evidence and editorial value to support the depth.
+It contains:
 
-- `verified`: important fields in scope are strongly evidenced and reviewed.
-- `partially-verified`: useful facts are evidenced, but material unknowns remain.
-- `needs-review`: evidence is old, incomplete or awaiting editorial review.
+- `verdict`: a concise, independent fit statement.
+- `decisionLens`: one non-obvious practical frame for the decision, rather than
+  a product slogan.
+- `sections`: evidence-led sections, each with a reader question, heading and
+  one or more paragraphs. Cover the real buying and implementation trade-offs,
+  not a feature-by-feature rewrite of supplier copy.
+- `userFeedback`: a clearly limited account of external review or peer-discussion
+  themes. Name thin samples, dated feedback and commercial review coverage as
+  limitations. Do not use it for a score, endorsement or review schema.
+- `faq`: visible questions and answers grounded in the page’s research. FAQ
+  structured data is emitted only for this visible content.
+
+Long-form copy is editorial assessment. Keep supplier statements attributable
+through the listing’s sources, express material gaps as questions and never
+imply hands-on testing.
+
+### Sources and review dates
 
 `lastChecked` is the most recent meaningful review date. Every source needs a
-label, URL, checked date and list of fields it supports.
+label, URL, checked date and list of fields it supports. There is no overall
+public completeness badge: provenance and dates are more useful than labelling
+an entire listing.
 
 `sponsored` must remain `false` unless a real relationship is approved and
 disclosed. `seo` holds the unique title and description.
+
+### External reviews (optional)
+
+`externalReviews` is a list of references to independently hosted review-platform
+profiles. It is not an internal review system and must never contain copied
+review text, reviewer names or other personal data.
+
+Each record requires:
+
+- `platform`: the review platform name. It is deliberately free text, so the
+  schema supports G2, Capterra, Trustpilot and other suitable platforms without
+  treating any as preferred or endorsed.
+- `profileUrl`: the confirmed direct URL of the relevant public profile.
+- `lastChecked`: the date the profile and any recorded figures were checked.
+- `collectionType`: `product` for a product-specific profile or `company` for a
+  supplier-level profile. Do not present company feedback as product feedback.
+- `dataAccessMethod`: `manual`, `api` or `syndication`. The directory does not
+  scrape review platforms; only use a permitted API or syndication arrangement
+  when one is explicitly available.
+
+`rating`, `maximumRating` and integer `reviewCount` are optional. Record a
+rating only with its maximum (for example, `4.7` out of `5`), and never record a
+rating higher than that maximum. A listing with no recorded rating still links
+to the profile. Use `note` to explain a product-versus-suite mismatch, a small
+sample or another material limitation.
+
+Only add a reference after confirming the public profile URL. The listing page
+states that external reviews are hosted and moderated by the relevant platform,
+and that they do not form part of the directory’s independent assessment. Do
+not import review content, add platform widgets or scripts, imply partnership or
+endorsement, or emit aggregate rating or review structured data.
+
+### Public feedback scan (optional during migration)
+
+`publicFeedback` is the single public synthesis of eligible public feedback. It is separate from supplier facts and directory assessment. Use one of `themes-found`, `limited` or `no-usable-feedback`; never use a completed state for an unresearched product. Every scan records its checked date, feedback window, item count, source types, UK-evidence level, sampling method, limitations and method version. Themes require at least one matching URL in the listing's normal `sources[]`; no-usable-feedback must not include themes.
+
+Do not include copied review wording, names, handles, profile identifiers, ratings, counts or sensitive allegations. Record only original, qualified summaries after source-permission and human editorial review. `externalReviews` may provide matched profile links within this panel, but is not a theme source unless it is also recorded in `sources[]`.
 
 ## Categories
 
@@ -113,10 +228,27 @@ Category entries are Markdown files in `src/content/categories/`.
 Guide entries are Markdown files in `src/content/guides/`.
 
 - `title`, `slug` and `summary` identify the guide.
+- `guideType` is `buyers-guide`, `comparison`, `alternatives`, `cost-guide`,
+  `explainer` or `how-to`. It selects the additional coverage required by
+  `docs/GUIDE_STANDARD.md`.
+- `standardVersion` is `1.0` only after the guide passes the complete mandatory
+  standard and human editorial review. `legacy` is restricted to the temporary,
+  explicit migration allowlist in `scripts/check-guides.mjs`; a new guide cannot
+  use it.
 - `published` and `updated` support transparent maintenance.
 - `relatedCategories` contains category entry IDs.
 - `seo` supplies the unique metadata.
-- The Markdown body is independent editorial guidance.
+- The Markdown body is independent editorial guidance and must include a
+  clearly labelled section linking to relevant software listings already
+  published on this site. The links must explain their relevance to the guide's
+  decision and must not imply a ranking or endorsement.
 
 Guides must be useful without requiring a supplier click and should name when a
-simpler process may be enough.
+simpler process may be enough. Link only to relevant listings, draw claims from
+their structured or evidence-backed content, and identify material questions
+instead of filling gaps with inference.
+
+Every new guide and every substantially revised guide must meet
+`docs/GUIDE_STANDARD.md`. `npm run check:guides` enforces the objective floor;
+the standard's editorial acceptance checklist covers accuracy, balance and
+decision usefulness that cannot be established automatically.

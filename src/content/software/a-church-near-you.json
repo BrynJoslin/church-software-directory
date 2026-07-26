@@ -1,0 +1,160 @@
+{
+  "name": "A Church Near You",
+  "slug": "a-church-near-you",
+  "shortDescription": "The Church of England’s free church-finding and website platform, with editable church and benefice pages, events, news, contact forms and national-resource links.",
+  "officialWebsite": "https://www.achurchnearyou.com/",
+  "company": "Archbishops’ Council of the Church of England",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "church-websites",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Church of England churches needing a public listing or a low-maintenance main website",
+    "Benefices publishing shared and individual church content",
+    "Parishes promoting services, events, life-event contact routes and local information"
+  ],
+  "pricing": {
+    "model": "free",
+    "summary": "The Church of England says that A Church Near You is completely free, with no hosting, setup or development charge for its Church of England church and benefice use case. A parish remains responsible for any separately purchased domain name or external services it links to.",
+    "tiers": []
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "demoAvailable": "no",
+  "gdprInformation": "The published site privacy notice identifies the Archbishops’ Council as operator and gives a UK ICO registration number. It describes account, contact, technical and usage data, including potential special-category data received through direct interaction. This is service-level information, not a substitute for a PCC deciding what personal data it should publish or collect through a particular page or form.",
+  "coreFeatures": [
+    "Church-finding listings",
+    "Customisable church and benefice webpages",
+    "Services and events calendar",
+    "News and custom pages",
+    "Contact forms",
+    "Video embeds",
+    "Editor access and training",
+    "Resource Hub",
+    "Optional online services register",
+    "Optional Church Organiser links for room bookings and life events"
+  ],
+  "integrations": [
+    "The Church Organiser room-booking page",
+    "The Church Organiser life-event contact forms",
+    "Optional redirects from a separately owned domain"
+  ],
+  "importExport": [
+    "Confirm available export, backup and migration options for page content, images, contacts, events and form submissions before making it the sole public-web record"
+  ],
+  "support": [
+    "Church of England training guides, videos, webinars and a support team are advertised",
+    "Editor access is requested through the church or benefice page and approved through the service workflow"
+  ],
+  "decisionEvidence": {
+    "operator": {
+      "value": "Published terms identify the Archbishops’ Council as the operator of A Church Near You and give its Church House, London address, charity number and ICO registration.",
+      "state": "supplier-published",
+      "source": "https://www.achurchnearyou.com/terms/",
+      "checked": "2026-07-25"
+    },
+    "scope-and-pricing": {
+      "value": "The Church of England describes the service as a free main-website option for Church of England churches, with no hosting, setup or development costs.",
+      "state": "supplier-published",
+      "source": "https://www.churchofengland.org/resources/achurchnearyoucom",
+      "checked": "2026-07-25"
+    },
+    "website-features": {
+      "value": "The Church of England lists editable pages, events, news, contact forms, video embeds, benefice support, resources and optional integrations with The Church Organiser.",
+      "state": "supplier-published",
+      "source": "https://www.churchofengland.org/resources/achurchnearyoucom",
+      "checked": "2026-07-25"
+    },
+    "privacy": {
+      "value": "Published privacy information identifies the Archbishops’ Council, explains categories of data processed and provides data-subject rights information.",
+      "state": "supplier-published",
+      "source": "https://www.achurchnearyou.com/privacy/",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/a-church-near-you/a-church-near-you-logo.ico",
+      "alt": "A Church Near You logo",
+      "source": "https://www.achurchnearyou.com/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "A Church Near You is a Church of England-specific public-web and discovery service rather than a general church-management database. It is a serious no-cost option for a parish that needs a maintained, editable public presence without commissioning a separate site, and can sit alongside The Church Organiser for particular parish workflows. Its denomination-specific eligibility and shared-platform model mean it will not suit every UK church or every brand, design, content-export or integration requirement.",
+    "bestFor": [
+      "Church of England parishes that need a free public website or an improved church listing",
+      "Benefices maintaining shared and individual church information",
+      "Small churches that need events, service information and contact routes without managing web hosting"
+    ],
+    "strengths": [
+      "Clearly identified UK Church of England operator",
+      "No stated hosting, setup or development cost within the intended scope",
+      "Public church discovery combined with editable website content",
+      "Documented benefice, events and Church Organiser workflows",
+      "Published editor support and training"
+    ],
+    "limitations": [
+      "Intended for Church of England churches rather than all UK denominations",
+      "Not a people database, giving system, safeguarding record, accounting package or full church-management suite",
+      "Published privacy information should be read alongside the parish’s own decisions about page content, forms and sensitive information",
+      "Confirm content export, domain, branding, accessibility and integration requirements before retiring an existing website"
+    ],
+    "procurementVerdict": {
+      "problem": "Creating and maintaining a clear public church presence without a separate hosting or development budget",
+      "differentiator": "A national Church of England discovery service that can also become an editable church or benefice website",
+      "firstCheck": "Create a test content plan for a real church page, then assess editor permissions, event and contact-form workflow, public accessibility, domain forwarding and the ability to retrieve content if the parish later changes platform"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Church of England: AChurchNearYou.com overview",
+      "url": "https://www.churchofengland.org/resources/achurchnearyoucom",
+      "checked": "2026-07-25",
+      "supports": [
+        "Free scope",
+        "Website features",
+        "Benefice workflow",
+        "Training and support",
+        "Church Organiser integration"
+      ]
+    },
+    {
+      "label": "A Church Near You terms",
+      "url": "https://www.achurchnearyou.com/terms/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Operator",
+        "Charity identity",
+        "ICO registration",
+        "Service terms"
+      ]
+    },
+    {
+      "label": "A Church Near You privacy and cookies",
+      "url": "https://www.achurchnearyou.com/privacy/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Privacy information",
+        "Data categories",
+        "Data-subject rights"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "A Church Near You for Church of England parishes",
+    "description": "Independent A Church Near You profile: a free Church of England website, church-finding and events platform for parishes and benefices."
+  }
+}

@@ -1,7 +1,7 @@
 export const triStateLabel = (value: "yes" | "no" | "unknown") => {
   if (value === "yes") return "Yes";
   if (value === "no") return "No";
-  return "Not confirmed";
+  return null;
 };
 
 export const ukFocusLabel = (
@@ -9,8 +9,23 @@ export const ukFocusLabel = (
 ) => {
   if (value === "strong") return "UK-specific evidence";
   if (value === "general") return "Available more broadly";
-  return "Not confirmed";
+  return null;
 };
+
+export const ukOrganisationLabel = (value: "yes" | "no" | "unknown") => {
+  if (value === "yes") return "UK registered";
+  if (value === "no") return "Not UK registered";
+  return null;
+};
+
+export const verificationLabel = (
+  value: "verified" | "partially-verified" | "needs-review"
+) =>
+  ({
+    verified: "Verified",
+    "partially-verified": "Partially verified",
+    "needs-review": "Needs review"
+  })[value];
 
 export const pricingModelLabel = (value: string) =>
   ({
@@ -20,15 +35,8 @@ export const pricingModelLabel = (value: string) =>
     tiered: "Tiered",
     "usage-based": "Usage based",
     "quote-based": "Quote based",
-    unknown: "Not confirmed"
-  })[value] ?? value;
-
-export const verificationLabel = (value: string) =>
-  ({
-    verified: "Verified",
-    "partially-verified": "Partially verified",
-    "needs-review": "Needs review"
-  })[value] ?? value;
+    unknown: null
+  })[value] ?? null;
 
 export const formatDate = (value: Date | string) =>
   new Intl.DateTimeFormat("en-GB", {
@@ -53,7 +61,7 @@ export const formatStartingPrice = (
       }
     | undefined
 ) => {
-  if (!value) return "Contact supplier";
+  if (!value) return null;
 
   const amount = new Intl.NumberFormat("en-GB", {
     style: "currency",

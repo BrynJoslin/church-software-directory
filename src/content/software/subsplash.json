@@ -1,0 +1,162 @@
+{
+  "name": "Subsplash",
+  "slug": "subsplash",
+  "shortDescription": "A US church engagement suite combining apps, websites, media hosting, live streaming, giving, people tools, events and communications.",
+  "officialWebsite": "https://www.subsplash.com/",
+  "company": "Subsplash",
+  "ukFocus": "general",
+  "categories": [
+    "church-management",
+    "online-giving",
+    "church-websites",
+    "church-communications",
+    "sermon-hosting"
+  ],
+  "suitableChurchSizes": [
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches seeking one commercial platform for app, media and engagement",
+    "Multi-site teams needing quote-based implementation and support"
+  ],
+  "pricing": {
+    "model": "quote-based",
+    "summary": "Subsplash publishes $0 per month for its Giving product, plus transaction rates, while Subsplash One and Enterprise pricing are quoted according to organisation size, features and usage.",
+    "tiers": [
+      {
+        "label": "Subsplash Giving",
+        "price": "$0/month",
+        "detail": "Supplier publishes separate card and ACH processing rates"
+      },
+      {
+        "label": "Subsplash One",
+        "price": "Request a quote",
+        "detail": "Pricing varies by church size and usage"
+      },
+      {
+        "label": "Enterprise",
+        "price": "Request a quote",
+        "detail": "Tailored package"
+      }
+    ],
+    "trialDetails": "The supplier’s terms refer to a free trial for applicable product subscriptions; ask sales for the applicable duration and eligibility."
+  },
+  "freePlan": "yes",
+  "freeTrial": "unknown",
+  "giftAid": "unknown",
+  "demoAvailable": "yes",
+  "coreFeatures": [
+    "Custom mobile and TV apps",
+    "Church websites",
+    "Media hosting and live streaming",
+    "Giving and donor management",
+    "People and groups",
+    "Events, check-in and volunteer management",
+    "Email and text messaging"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Seven-day technical support stated by the supplier",
+    "Onboarding specialist and success support described by supplier"
+  ],
+  "editorial": {
+    "assessment": "Subsplash has broad app, media and engagement coverage, but its quote-based platform pricing and US payment figures make it essential for UK churches to obtain a written proposal and confirm local payment, data, tax and support arrangements.",
+    "bestFor": [
+      "Churches wanting app, media and website delivery in one commercial platform",
+      "Larger teams prepared for a sales-led requirements and implementation process"
+    ],
+    "strengths": [
+      "Wide connected product range",
+      "Giving product has a published $0 monthly platform fee"
+    ],
+    "limitations": [
+      "Core-suite pricing is quote based",
+      "UK availability, Gift Aid, payment terms and data-processing fit require supplier evidence"
+    ]
+  },
+  "longForm": {
+    "verdict": "Subsplash is a platform evaluation rather than a quick subscription comparison. It could consolidate apps, media and engagement work, but a UK church needs a detailed written scope before deciding whether the bundle replaces enough existing services.",
+    "decisionLens": {
+      "heading": "Ask for a proposal that separates subscription, implementation and payment cost.",
+      "text": "The supplier publishes quote-based pricing for its wider platform and US giving rates. List the app, media, livestreaming, website, messaging and data requirements separately, then ask which costs, limits, migration tasks and support levels apply in the UK."
+    },
+    "sections": [
+      {
+        "heading": "One platform for a public digital presence",
+        "question": "Will the bundle reduce systems, or just bundle more modules?",
+        "paragraphs": [
+          "Subsplash describes a connected suite for apps, websites, media, live streaming, giving, people records, groups, events, volunteers and messaging. It also states that its giving product has no monthly platform fee.",
+          "Use a supplier demo to map the church’s existing video archive, livestream, website, donation forms and app ambitions. Do not infer that US processing rates, donor tax statements or product terms apply unchanged to the UK."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not use an independent review score. It is based on Subsplash’s current pricing page and published terms.",
+      "themes": [
+        "The potential benefit is consolidation of outward-facing app, media and web tools.",
+        "Quote-based pricing requires a scope that can be compared with existing contracts."
+      ],
+      "caveat": "Supplier claims and testimonials are not independent testing, and no conclusion is drawn here about UK fit."
+    },
+    "faq": [
+      {
+        "question": "Does Subsplash have a free plan?",
+        "answer": "Subsplash advertises Subsplash Giving at $0 per month, with transaction fees. Its broader platform pricing is quote based."
+      },
+      {
+        "question": "Does Subsplash offer a trial?",
+        "answer": "The supplier’s terms mention free trials for applicable subscriptions. Ask sales for the applicable duration and eligibility."
+      },
+      {
+        "question": "How much does Subsplash cost?",
+        "answer": "Subsplash One and Enterprise require a quote based on size, features and usage. Request a UK-specific proposal covering implementation, payment processing and any add-ons."
+      },
+      {
+        "question": "Does Subsplash support UK Gift Aid?",
+        "answer": "Ask the supplier for evidence covering UK donor records, Gift Aid declarations, reporting and reconciliation before use."
+      }
+    ]
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Subsplash pricing",
+      "url": "https://www.subsplash.com/pricing",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing model",
+        "Giving price",
+        "Features",
+        "Support",
+        "Demo"
+      ]
+    },
+    {
+      "label": "Subsplash terms and conditions",
+      "url": "https://www.subsplash.com/legal/terms-and-conditions",
+      "checked": "2026-07-25",
+      "supports": [
+        "Trial terms reference"
+      ]
+    }
+  ],
+  "externalReviews": [
+    {
+      "platform": "Trustpilot",
+      "profileUrl": "https://www.trustpilot.com/review/subsplash.com",
+      "lastChecked": "2026-07-26",
+      "collectionType": "company",
+      "dataAccessMethod": "manual",
+      "note": "This company-level profile is for Subsplash and does not establish suitability for a particular church."
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Subsplash review for UK churches",
+    "description": "Independent Subsplash profile for UK churches: quote-based pricing, giving, apps and media tools, key UK checks and FAQs."
+  }
+}

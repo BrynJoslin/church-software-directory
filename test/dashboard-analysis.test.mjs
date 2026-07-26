@@ -1,0 +1,7 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import { completeness, csvEscape, duplicateValues, freshness, isValidUrl, priorityFor } from "../scripts/dashboard-analysis.mjs";
+test("calculates stale and future dates", () => { assert.equal(freshness("2026-01-01", new Date("2026-07-25T12:00:00Z"), 180).state, "stale"); assert.equal(freshness("2026-07-26", new Date("2026-07-25T12:00:00Z"), 180).state, "future"); assert.equal(freshness("not-a-date").state, "missing-or-invalid"); });
+test("reports completeness without treating optional fields as required", () => { const result = completeness({ name:"A", slug:"a", shortDescription:"x", officialWebsite:"https://x.test", company:"X", categories:["a"], suitableChurchSizes:["small"], pricing:{summary:"x"}, editorial:{assessment:"x"}, sources:[{}], lastChecked:"2026-01-01", seo:{title:"x",description:"x"} }); assert.equal(result.percentage < 100, true); assert.equal(result.missing.some((field) => field.group === "Required"), false); });
+test("finds duplicate identifiers and validates URLs", () => { assert.equal(duplicateValues([{slug:"a"},{slug:"a"}], "slug").length, 1); assert.equal(isValidUrl("https://example.com"), true); assert.equal(isValidUrl("broken"), false); });
+test("uses explicit priorities and CSV escaping", () => { assert.equal(priorityFor("invalid-category"), "Critical"); assert.equal(priorityFor("no-sources"), "High"); assert.equal(csvEscape('a,"b"'), '"a,""b"""'); });

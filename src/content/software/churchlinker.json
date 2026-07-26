@@ -1,0 +1,186 @@
+{
+  "name": "ChurchLinker",
+  "slug": "churchlinker",
+  "shortDescription": "A UK-built church management platform with people records, rotas, giving, Gift Aid reports, communications, sermons and a member app.",
+  "officialWebsite": "https://churchlinker.com/",
+  "company": "Limelai Limited",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "categories": [
+    "church-management",
+    "online-giving",
+    "worship-planning",
+    "volunteer-scheduling",
+    "church-communications",
+    "sermon-hosting",
+    "church-mobile-apps"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "UK churches that want a single members-and-ministry platform",
+    "Church plants and small churches seeking a no-card free plan"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "ChurchLinker publishes GBP contact-band prices, a permanent free plan up to 50 contacts and a 14-day trial for paid plans. Check the live scope of new-product features and add-ons before relying on them.",
+    "startingPrice": {
+      "amount": 19,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Sprout plan, up to 150 contacts"
+    },
+    "tiers": [
+      {
+        "label": "Seed",
+        "price": "Free",
+        "detail": "Up to 50 contacts; supplier says it does not expire"
+      },
+      {
+        "label": "Sprout",
+        "price": "£19/month",
+        "detail": "Up to 150 contacts"
+      },
+      {
+        "label": "Grow",
+        "price": "£39/month",
+        "detail": "Up to 500 contacts"
+      },
+      {
+        "label": "Thrive",
+        "price": "£79/month",
+        "detail": "Up to 1,500 contacts"
+      },
+      {
+        "label": "Kingdom",
+        "price": "£129/month",
+        "detail": "Up to 5,000 contacts"
+      }
+    ],
+    "trialDetails": "The supplier advertises a 14-day paid-plan trial without a card, alongside its permanent free Seed plan."
+  },
+  "freePlan": "yes",
+  "freeTrial": "yes",
+  "giftAid": "yes",
+  "demoAvailable": "yes",
+  "dataHosting": "The supplier states that data is held in UK/EU data centres.",
+  "gdprInformation": "The supplier publishes GDPR, sub-processor and data-processing agreement links.",
+  "coreFeatures": [
+    "Members and groups",
+    "Rotas and volunteer scheduling",
+    "Events and check-in",
+    "Giving via a church Stripe account",
+    "Gift Aid and GASDS reports",
+    "DBS tracking",
+    "Communications and member app",
+    "Sermons"
+  ],
+  "integrations": [
+    "Stripe",
+    "WhatsApp"
+  ],
+  "importExport": [
+    "Supplier describes CSV imports from ChurchSuite, Breeze, Planning Center and Elvanto"
+  ],
+  "support": [
+    "Supplier says support is direct from its UK team"
+  ],
+  "editorial": {
+    "assessment": "ChurchLinker is a compelling UK-first option on published price and feature coverage, especially for smaller churches. It appears to be an early product, so a buyer should validate the maturity of the exact workflows, service levels, data processing and migration support it needs before switching live records.",
+    "bestFor": [
+      "Small and growing UK churches that want GBP pricing and native Gift Aid tools",
+      "Teams happy to run a controlled trial of a newer supplier"
+    ],
+    "strengths": [
+      "Permanent free plan and published GBP tiers",
+      "Supplier describes built-in Gift Aid, GASDS and UK/EU data hosting"
+    ],
+    "limitations": [
+      "Newer product with feature maturity requiring practical validation",
+      "Churches must separately check Stripe fees, contractual terms and data-processing suitability"
+    ],
+    "procurementVerdict": {
+      "problem": "Small and growing UK churches that want GBP pricing and native Gift Aid tools",
+      "differentiator": "Members and groups",
+      "firstCheck": "Newer product with feature maturity requiring practical validation"
+    }
+  },
+  "longForm": {
+    "verdict": "ChurchLinker is an interesting UK-first alternative for churches that want people, rotas, giving and member communications to share one system. Its free plan makes a controlled workflow test feasible, but its newer-market position makes due diligence more important, not less.",
+    "decisionLens": {
+      "heading": "Test the weekly hand-off, not the feature list.",
+      "text": "The supplier presents a wide connected workflow, including volunteer rotas, visitor follow-up, Gift Aid reports and communications. Ask the actual admin, treasurer and rota lead to complete their ordinary week in a test space, then assess support, reporting accuracy and migration before importing live data."
+    },
+    "sections": [
+      {
+        "heading": "Test the UK-first claims in a real church workflow",
+        "question": "Can the product support the church’s real financial and safeguarding controls?",
+        "paragraphs": [
+          "ChurchLinker says its paid plans include Gift Aid and GASDS reports, that donations route through the church’s own Stripe account, and that it uses UK/EU data centres. It also describes DBS tracking and reminders.",
+          "These are useful starting points, not a substitute for checking the church’s Gift Aid records, privacy documentation, access roles and safeguarding procedures. Arrange a supplier walkthrough using the church’s actual use cases before any live migration."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "This profile does not give an independent review score. It is based on ChurchLinker’s published pricing, privacy statements and feature descriptions.",
+      "themes": [
+        "The free tier lowers the barrier to a realistic team trial.",
+        "The key risk is validating maturity and support for the workflows the church cannot afford to disrupt."
+      ],
+      "caveat": "Supplier claims about UK fit, data hosting and functionality have not been independently tested by this directory."
+    },
+    "faq": [
+      {
+        "question": "Does ChurchLinker have a free plan?",
+        "answer": "Yes. The supplier advertises its Seed plan as free for up to 50 contacts, with no card and no expiry."
+      },
+      {
+        "question": "Does ChurchLinker offer a free trial?",
+        "answer": "Yes. ChurchLinker advertises a 14-day trial for paid plans."
+      },
+      {
+        "question": "How much does ChurchLinker cost?",
+        "answer": "Published paid tiers run from £19 to £129 per month by contact band. The supplier also lists a £79-per-month own-app add-on. Check current add-ons and VAT directly."
+      },
+      {
+        "question": "Does ChurchLinker support Gift Aid?",
+        "answer": "Yes, according to the supplier. It describes built-in Gift Aid and GASDS reports. The church should still test its own HMRC, declaration and reconciliation workflow."
+      }
+    ]
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchlinker/churchlinker-logo.svg",
+      "alt": "ChurchLinker logo",
+      "source": "https://churchlinker.com/brand/churchlinker-logo.svg",
+      "checked": "2026-07-25"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "ChurchLinker product and pricing",
+      "url": "https://churchlinker.com/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Pricing",
+        "Free plan",
+        "Trial",
+        "Features",
+        "Gift Aid claims",
+        "Data-hosting statement",
+        "Company details"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "ChurchLinker review for UK churches",
+    "description": "Independent ChurchLinker profile for UK churches: pricing, free plan, trial, Gift Aid claims, practical checks and FAQs."
+  }
+}

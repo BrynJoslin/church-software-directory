@@ -6,6 +6,53 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDirectory = path.join(root, "src", "content", "software");
 const outputDirectory = path.join(root, "public", "data");
 const outputFile = path.join(outputDirectory, "software.json");
+const shortlistOutputFile = path.join(outputDirectory, "shortlist.json");
+
+const decisionFields = [
+  ["contact-band", ["contact", "package limit"]],
+  ["multi-site", ["multi-site", "campus", "location"]],
+  ["administrator-limits", ["administrator", "user limit", "plan detail"]],
+  ["volunteer-usability", ["volunteer usability"]],
+  ["implementation", ["implementation", "migration", "training"]],
+  ["technical-administration", ["technical administration"]],
+  ["uk-purchasing", ["uk purchasing", "uk availability"]],
+  ["gbp-pricing", ["pricing", "price", "tier"]],
+  ["vat-treatment", ["vat"]],
+  ["gift-aid", ["gift aid"]],
+  ["mfa", ["multi-factor", "mfa", "two-factor", "2fa"]],
+  ["role-permissions", ["permission", "access control", "administrator"]],
+  ["audit-logs", ["audit", "log"]],
+  ["data-processing", ["data-processing", "dpa"]],
+  ["hosting", ["hosting", "storage", "aws", "azure"]],
+  ["transfers", ["transfer", "eea", "international"]],
+  ["exports", ["export", "download", "backup"]],
+  ["migration", ["migration", "import"]],
+  ["uk-support", ["uk support"]],
+  ["contract", ["cancellation", "termination", "contract"]]
+];
+
+const decisionEvidenceFor = (entry) => Object.fromEntries(decisionFields.flatMap(([key, hints]) => {
+  const override = entry.decisionEvidence?.[key];
+  if (override) return [[key, override]];
+  const source = entry.sources.find((item) => {
+    const supports = item.supports.join(" ").toLowerCase();
+    return hints.some((hint) => supports.includes(hint));
+  });
+  let value = null;
+  if (key === "gbp-pricing") value = entry.pricing.startingPrice?.currency === "GBP" ? "Published GBP starting price" : entry.pricing.startingPrice ? `Published ${entry.pricing.startingPrice.currency} starting price` : null;
+  if (key === "gift-aid" && entry.giftAid !== "unknown") value = entry.giftAid ? ({ yes: "Yes", no: "No" })[entry.giftAid] : null;
+  if (key === "hosting") value = entry.dataHosting ?? null;
+  if (key === "exports") value = entry.importExport?.length ? entry.importExport.join("; ") : null;
+  if (key === "uk-support") value = entry.support?.length ? entry.support.join("; ") : null;
+  if (!source || !value) return [];
+  return [[key, {
+    value,
+    state: Date.now() - new Date(source.checked).getTime() > 180 * 24 * 60 * 60 * 1000 ? "needs-refresh" : "supplier-published",
+    source: source.url,
+    checked: source.checked,
+    sourceLabel: source.label
+  }]];
+}));
 
 const files = (await readdir(sourceDirectory))
   .filter((file) => file.endsWith(".json"))
@@ -25,13 +72,20 @@ const entries = await Promise.all(
       company: entry.company,
       countryOfOrigin: entry.countryOfOrigin ?? null,
       ukFocus: entry.ukFocus,
+      ...(entry.ukOrganisation && entry.ukOrganisation !== "unknown" ? { ukOrganisation: entry.ukOrganisation } : {}),
       categories: entry.categories,
       suitableChurchSizes: entry.suitableChurchSizes,
-      pricing: entry.pricing,
-      freePlan: entry.freePlan,
-      freeTrial: entry.freeTrial,
-      giftAid: entry.giftAid,
-      verificationStatus: entry.verificationStatus,
+      pricing: entry.pricing.model === "unknown"
+        ? { ...entry.pricing, model: undefined }
+        : entry.pricing,
+      ...(entry.freePlan !== "unknown" ? { freePlan: entry.freePlan } : {}),
+      ...(entry.freeTrial !== "unknown" ? { freeTrial: entry.freeTrial } : {}),
+      ...(entry.giftAid && entry.giftAid !== "unknown" ? { giftAid: entry.giftAid } : {}),
+      decisionEvidence: decisionEvidenceFor(entry),
+      shortlistVerdict: entry.editorial.procurementVerdict ?? {
+        problem: entry.editorial.bestFor[0],
+        firstCheck: entry.editorial.limitations[0]
+      },
       lastChecked: entry.lastChecked,
       sources: entry.sources
     };
@@ -50,11 +104,30 @@ await writeFile(
       contentAsOf,
       licence: "No reuse licence has yet been selected.",
       count: entries.length,
-      software: entries
+      software: entries.map(({ shortlistVerdict, ...entry }) => entry)
     },
     null,
     2
   )}\n`
 );
 
+const shortlistSoftware = entries.map((entry) => ({
+  slug: entry.slug,
+  name: entry.name,
+  categories: entry.categories,
+  suitableChurchSizes: entry.suitableChurchSizes,
+  ukFocus: entry.ukFocus === "strong" ? "strong" : "general",
+  ...(entry.giftAid ? { giftAid: entry.giftAid } : {}),
+  pricing: {
+    ...(entry.pricing.startingPrice ? { startingPrice: entry.pricing.startingPrice } : {})
+  },
+  procurementVerdict: entry.shortlistVerdict,
+  decisionEvidence: Object.fromEntries(
+    Object.entries(entry.decisionEvidence).map(([key, evidence]) => [key, { state: evidence.state }])
+  )
+}));
+
+await writeFile(shortlistOutputFile, `${JSON.stringify({ software: shortlistSoftware })}\n`);
+
 console.log(`Exported ${entries.length} software entries to public/data/software.json`);
+console.log(`Exported ${shortlistSoftware.length} shortlist entries to public/data/shortlist.json`);

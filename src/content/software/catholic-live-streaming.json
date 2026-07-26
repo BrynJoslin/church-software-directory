@@ -1,0 +1,164 @@
+{
+  "name": "Catholic Live Streaming",
+  "slug": "catholic-live-streaming",
+  "shortDescription": "UK managed livestreaming, Mass recording and parish-website service for Catholic churches, with camera installation options.",
+  "officialWebsite": "https://www.catholiclivestreaming.co.uk/",
+  "company": "Every Day Christian Marketing Ltd (company number 11372931)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "livestreaming",
+    "sermon-hosting",
+    "church-websites"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "suitableContexts": [
+    "Catholic parishes seeking a managed Mass livestream and recording service",
+    "Churches needing camera installation alongside a recurring streaming service",
+    "Parishes preferring a supplier-managed website and broadcast package"
+  ],
+  "pricing": {
+    "model": "tiered",
+    "summary": "The supplier publishes livestream plans from £39/month to £115/month, plus separate camera-equipment installation from £1,455 or £1,854 depending on the package. Confirm the detailed proposal, contract length, VAT, hosting and support scope before committing.",
+    "startingPrice": {
+      "amount": 39,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Basic livestream setup; separate camera-installation cost applies"
+    },
+    "tiers": [
+      {
+        "label": "Basic Livestream Setup",
+        "price": "£39/month",
+        "detail": "Supplier-published basic livestream plan; camera installation starts from £1,455."
+      },
+      {
+        "label": "Livestream with Automatic Mass Recordings",
+        "price": "£65/month",
+        "detail": "Adds daily livestreams, recorded-Mass playback, programme schedule and weekly analytics; installation starts from £1,455."
+      },
+      {
+        "label": "Website, Livestream and Mass Recordings",
+        "price": "£115/month",
+        "detail": "Adds a professional church website; installation and website setup start from £1,854."
+      }
+    ]
+  },
+  "freePlan": "no",
+  "freeTrial": "unknown",
+  "demoAvailable": "unknown",
+  "gdprInformation": "The service links to a privacy page and its parent company publishes UK company and ICO-registration details. Before recording or publishing services, obtain the current privacy notice, processor/sub-processor terms, hosting region, consent and safeguarding process for children and vulnerable people, retention, takedown and archive-export arrangements.",
+  "coreFeatures": [
+    "Livestreamed Mass and parish services",
+    "Automatic Mass recordings and playback",
+    "Programme schedule",
+    "Weekly analytics on selected plan",
+    "Camera equipment installation",
+    "Managed parish website on selected plan",
+    "Audio sermon recordings and webinar setup described by supplier"
+  ],
+  "integrations": [],
+  "importExport": [],
+  "support": [
+    "Supplier offers installation, setup and managed-service enquiries by telephone"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Companies House records Every Day Christian Marketing Ltd as an active UK company providing IT, hosting and web-portal activities. Catholic Live Streaming identifies it as the provider.",
+      "state": "supplier-published",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/11372931",
+      "checked": "2026-07-25"
+    },
+    "service-scope": {
+      "value": "Supplier describes livestreaming and archiving Masses and other parish services, with UK Catholic parish clients and camera-installation options.",
+      "state": "supplier-published",
+      "source": "https://www.catholiclivestreaming.co.uk/",
+      "checked": "2026-07-25"
+    },
+    "gbp-pricing": {
+      "value": "Supplier publishes £39, £65 and £115 monthly packages, with stated separate installation starting prices.",
+      "state": "supplier-published",
+      "source": "https://www.catholiclivestreaming.co.uk/",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/catholic-live-streaming/catholic-live-streaming-logo.png",
+      "alt": "Catholic Live Streaming logo",
+      "source": "https://irp-cdn.multiscreensite.com/4fd01883/dms3rep/multi/LOGO-NINE.png",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "Catholic Live Streaming is a UK managed digital-service option for parishes that want a supplier to combine camera installation, service broadcasting, recordings and, at the highest tier, a parish website. It is not a self-service church-management system or a substitute for a church's own safeguarding, consent and copyright processes. Its strongest fit is a Catholic parish seeking a managed broadcast arrangement rather than an AV team choosing standalone software.",
+    "bestFor": [
+      "Catholic parishes wanting supplier-managed Mass streaming and recording",
+      "Churches that need installation as well as an ongoing streaming service",
+      "Parishes wanting a combined website and broadcast package"
+    ],
+    "strengths": [
+      "Named active UK IT and hosting company",
+      "Published GBP monthly plans and installation starting points",
+      "Service scope explicitly addresses Masses and parish services",
+      "Website package is available alongside livestreaming"
+    ],
+    "limitations": [
+      "Managed service rather than standalone software",
+      "Public material does not set out a complete contract, hosting, service-level or exit-data specification",
+      "Churches must establish consent, safeguarding, copyright and recording practices for their own services",
+      "Older public project posts do not evidence the current service terms or support response"
+    ],
+    "procurementVerdict": {
+      "problem": "A parish needing a managed way to broadcast and archive services",
+      "differentiator": "Catholic-parish focus with installation, livestreaming, recordings and website options in one supplier offer",
+      "firstCheck": "Ask for a written scope covering camera ownership, platform hosting, recording retention, accessibility, support, cancellations, content takedown and safeguarding responsibilities"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Catholic Live Streaming service overview",
+      "url": "https://www.catholiclivestreaming.co.uk/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Catholic parish focus",
+        "Livestream and recording scope",
+        "Published GBP plans",
+        "Installation prices",
+        "Parent-company identity"
+      ]
+    },
+    {
+      "label": "Every Day Christian Marketing about page",
+      "url": "https://www.everydaychristianmarketing.co.uk/about-us",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "ICO registration statement",
+        "Catholic church digital-service focus"
+      ]
+    },
+    {
+      "label": "Companies House: Every Day Christian Marketing Ltd",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11372931",
+      "checked": "2026-07-25",
+      "supports": [
+        "Active UK company",
+        "Company number",
+        "IT and hosting activities"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Catholic Live Streaming review for UK parishes",
+    "description": "Independent Catholic Live Streaming profile: UK Mass broadcasts, recordings, website packages, prices and parish checks."
+  }
+}

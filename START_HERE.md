@@ -1,4 +1,4 @@
-# UK Church Software Directory: Starter Pack
+# Church Software UK: Starter Pack
 
 This pack contains the persistent instructions and project documents to place in the repository before asking Codex to build the site.
 

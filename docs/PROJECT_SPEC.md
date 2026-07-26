@@ -1,4 +1,4 @@
-# UK Church Software Directory
+# Church Software UK
 
 ## Vision
 
@@ -99,6 +99,11 @@ Pages that explain a class of software, the problem it solves, who normally mana
 
 Long-form decision support, comparisons, migration guidance, requirements templates and practical explainers.
 
+Every new guide and every substantially revised guide must meet
+`docs/GUIDE_STANDARD.md`. Do not publish a guide merely because it validates
+against the content schema: it must also pass the automated guide baseline and
+the standard's human editorial review.
+
 ### Static trust pages
 
 Pages explaining the project, methodology, disclosures, privacy and how suppliers or users can submit corrections.
@@ -127,6 +132,7 @@ The initial model should support at least:
 18. Small-group management
 19. Church apps
 20. Data protection and administration
+21. Bible study and research
 
 A product may belong to multiple categories.
 
@@ -140,6 +146,7 @@ The architecture should support:
  /software/[slug]/
  /categories/
  /categories/[slug]/
+ /shortlist/
  /compare/
  /guides/
  /guides/[slug]/
@@ -210,7 +217,22 @@ A comparison must be shareable through the URL:
 /compare/?products=churchsuite,planning-center,breeze
 ```
 
-The comparison should use structured factual fields, not arbitrary marketing claims. Unknown information should be shown as `Not confirmed`.
+The comparison should use structured factual fields, not arbitrary marketing
+claims. It should omit incidental gaps and turn missing material fields into
+specific questions to settle.
+
+## Guided shortlist
+
+The shortlist journey should begin with the software category and ask no more
+than one follow-up question at a time. After each answer it should show the
+exact number of recorded products still matching and let the user either answer
+another useful question or view the shortlist.
+
+A follow-up answer must be offered only when it leaves a smaller, non-empty
+candidate set. Questions with no such answer must be skipped automatically; if
+none remain, the results should be shown. The complete selected state must
+remain shareable through the URL, and one or two supported matches must not be
+turned into an artificial empty state.
 
 ## Software listing pages
 
@@ -233,7 +255,6 @@ Each listing should be able to show:
 - integrations
 - import and export options
 - support information
-- verification status
 - last checked date
 - official sources
 - official website link
@@ -272,7 +293,14 @@ Starter guide topics may include:
 - What safeguarding software can and cannot solve
 - Creating a church software requirements list
 
-Guides should be practical, independent and willing to say when simpler tools are sufficient.
+Guides should be practical, independent and willing to say when simpler tools
+are sufficient. Every guide must include a clearly labelled section linking to
+relevant software listings already published on the site. These links must
+explain their relevance without creating an implied ranking, endorsement or
+requirement to click a supplier.
+
+The complete depth, structure, evidence and publication requirements are
+mandatory in `docs/GUIDE_STANDARD.md`.
 
 ## Content model
 
@@ -290,7 +318,7 @@ The software schema should be capable of representing fields such as:
 - suitable contexts or traditions
 - pricing model
 - pricing summary
-- starting price and currency where verified
+- starting price and currency where published
 - free plan
 - free trial
 - demo availability
@@ -313,12 +341,14 @@ The software schema should be capable of representing fields such as:
 - onboarding information
 - affiliate relationship
 - sponsorship status
-- verification status
 - last checked
 - official sources
+- optional external review-platform references, clearly marked as product- or
+  company-level and separate from the directory assessment
 - SEO title and description
 
-Not every field should be mandatory. Unknown fields must remain unknown rather than being guessed.
+Not every field should be mandatory. Missing fields must not be guessed or
+turned into negative claims. Internal three-state sentinels are not public copy.
 
 ## Trust and methodology
 
@@ -326,7 +356,7 @@ The site must explain:
 
 - which products are included
 - how facts are researched
-- what verification statuses mean
+- how supplier, independent and directory-tested evidence is distinguished
 - how often entries are reviewed
 - how corrections are handled
 - how commercial relationships are disclosed
@@ -334,13 +364,9 @@ The site must explain:
 - that product details can change
 - that churches should verify legal, security, safeguarding, tax and contractual matters directly
 
-Suggested verification states:
-
-- Verified
-- Partially verified
-- Needs review
-
-A product must not be labelled `Verified` merely because its website exists.
+The site should not apply an overall completeness badge to a product. A current
+official supplier source is sufficient to publish what the supplier states;
+source provenance, checked dates and material questions remain visible.
 
 ## Design direction
 

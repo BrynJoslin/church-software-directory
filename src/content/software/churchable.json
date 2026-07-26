@@ -1,0 +1,180 @@
+{
+  "name": "Churchable",
+  "slug": "churchable",
+  "shortDescription": "A UK browser-based tool that turns uploaded sermons or sermon notes into clips, devotionals, study guides, downloadable resources and shareable AI-assisted pages.",
+  "officialWebsite": "https://www.churchable.ai/",
+  "company": "Prompt Miner Ltd (trading as Churchable)",
+  "countryOfOrigin": "United Kingdom",
+  "ukFocus": "strong",
+  "ukOrganisation": "yes",
+  "categories": [
+    "sermon-hosting",
+    "church-communications"
+  ],
+  "suitableChurchSizes": [
+    "small",
+    "medium",
+    "large",
+    "multi-site"
+  ],
+  "suitableContexts": [
+    "Churches repurposing sermons into short-form video and written material",
+    "Teams creating sermon-based study guides and devotionals",
+    "Churches wanting a controlled way to publish sermon-derived shareable pages"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "summary": "Churchable publishes a free plan with two sermon uploads and a Co-Creator plan at £30 per month with unlimited video clips and content. The supplier advertises no card for the free route and cancellation at any time; confirm VAT, upload or usage limits and current commercial terms before purchase.",
+    "startingPrice": {
+      "amount": 30,
+      "currency": "GBP",
+      "period": "month",
+      "qualifier": "Co-Creator plan"
+    },
+    "tiers": [
+      {
+        "label": "Free",
+        "price": "£0/month",
+        "detail": "Two sermon uploads, sermon-transcript or notes-based content, video-clip tools, shareable page and PDF export, according to the supplier."
+      },
+      {
+        "label": "Co-Creator",
+        "price": "£30/month",
+        "detail": "Unlimited video clips and content, team invitations and direct founder support, according to the supplier."
+      }
+    ],
+    "trialDetails": "The supplier offers a free plan without a card; it is not described as a time-limited trial."
+  },
+  "freePlan": "yes",
+  "freeTrial": "no",
+  "demoAvailable": "yes",
+  "dataHosting": "The supplier's privacy notice states that its servers are in Ireland. It also states that it may process information in the United States and other countries through third-party providers.",
+  "gdprInformation": "Prompt Miner Ltd's privacy notice identifies it as controller for Churchable account and product data. It says user content submitted to AI features may be processed by third-party AI providers to deliver the requested functionality, is not used to train general-purpose AI models, and may include sensitive data if users choose to submit it. Its stated international-transfer safeguards and current processor list should be obtained and assessed before a church submits confidential pastoral, safeguarding or other special-category material.",
+  "coreFeatures": [
+    "Sermon video, audio and notes upload",
+    "Automatic sermon transcription",
+    "AI clip suggestions and transcript editing",
+    "Short-form video clips with captions",
+    "Study-guide, devotional and sermon-recap templates",
+    "PDF export",
+    "Shareable sermon-derived webpage with AI chat",
+    "YouTube description and timestamp generation",
+    "WhatsApp communication workflows"
+  ],
+  "integrations": [
+    "WhatsApp",
+    "Google Sheets"
+  ],
+  "importExport": [
+    "PDF export",
+    "Copy-and-paste output",
+    "Shareable webpages"
+  ],
+  "support": [
+    "Supplier offers a chat-booking route",
+    "Co-Creator plan includes direct founder support"
+  ],
+  "decisionEvidence": {
+    "uk-operator": {
+      "value": "Churchable's licence terms identify Prompt Miner Ltd, trading as Churchable, as a company registered in England and Wales (15577817).",
+      "state": "supplier-published",
+      "source": "https://www.churchable.ai/terms-and-conditions",
+      "checked": "2026-07-25"
+    },
+    "sermon-workflow": {
+      "value": "Supplier describes uploading sermon video, audio or notes; automatic transcription; clips; written templates; PDF export; and shareable pages.",
+      "state": "supplier-published",
+      "source": "https://www.churchable.ai/",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "Supplier publishes a free plan with two sermon uploads and a £30-per-month Co-Creator plan.",
+      "state": "supplier-published",
+      "source": "https://www.churchable.ai/",
+      "checked": "2026-07-25"
+    },
+    "data-handling": {
+      "value": "Supplier's privacy notice states Irish server location, describes potential international processing through providers, and says user content submitted to AI features is not used to train general-purpose AI models.",
+      "state": "supplier-published",
+      "source": "https://www.churchable.ai/privacy-policy",
+      "checked": "2026-07-25"
+    }
+  },
+  "brandAssets": {
+    "logo": {
+      "src": "/images/software/churchable/churchable-logo.ico",
+      "alt": "Churchable logo",
+      "source": "https://www.churchable.ai/favicon.ico",
+      "checked": "2026-07-26"
+    }
+  },
+  "editorial": {
+    "assessment": "Churchable is a specialised sermon-repurposing and communications product, not a replacement for a church database, live-streaming platform, safeguarding record or pastoral-care system. Its concrete UK legal identity, free entry route and published £30 monthly plan make it straightforward to evaluate. Because it accepts free-text and recorded sermon material for AI-assisted processing, churches should keep confidential pastoral and safeguarding information out of uploads and review the supplier's current processor and international-transfer information before wider use.",
+    "bestFor": [
+      "Church communications teams turning a weekly sermon into several reviewed formats",
+      "Churches producing study guides, devotionals and sermon clips from existing material",
+      "Teams that want a free, limited practical test before subscribing"
+    ],
+    "strengths": [
+      "English company identity and current public licence terms",
+      "Published free plan and GBP paid plan",
+      "Sermon upload, transcription, clip, written-content and export workflow is clearly described",
+      "Privacy notice explicitly says submitted AI content is not used to train general-purpose models"
+    ],
+    "limitations": [
+      "Not a general sermon archive, church-management or pastoral-care system",
+      "AI-generated material requires theological, editorial and safeguarding review before publication",
+      "Supplier describes overseas processing through third-party providers, so current processor and transfer documentation matters",
+      "No public service-level or full retention schedule was identified in the reviewed material"
+    ],
+    "procurementVerdict": {
+      "problem": "Turning each sermon into reviewed resources and communications without manually recreating every format",
+      "differentiator": "A UK-operated workflow that combines sermon transcription, clips, written templates, exports and shareable AI-assisted pages",
+      "firstCheck": "Test one non-confidential sermon through upload, transcript correction, clip selection, theological review, PDF export and deletion request; obtain the current processor, retention and transfer documentation before expanding use"
+    }
+  },
+  "lastChecked": "2026-07-25",
+  "sources": [
+    {
+      "label": "Churchable product and pricing",
+      "url": "https://www.churchable.ai/",
+      "checked": "2026-07-25",
+      "supports": [
+        "Sermon workflow",
+        "Communications features",
+        "Free plan",
+        "GBP price",
+        "Support route"
+      ]
+    },
+    {
+      "label": "Churchable privacy notice",
+      "url": "https://www.churchable.ai/privacy-policy",
+      "checked": "2026-07-25",
+      "supports": [
+        "Legal operator",
+        "AI-content processing",
+        "Model-training statement",
+        "Irish servers",
+        "International transfers",
+        "Data-rights route"
+      ]
+    },
+    {
+      "label": "Churchable licence terms",
+      "url": "https://www.churchable.ai/terms-and-conditions",
+      "checked": "2026-07-25",
+      "supports": [
+        "UK company identity",
+        "Software licence",
+        "Data-security terms"
+      ]
+    }
+  ],
+  "affiliateRelationship": "no",
+  "sponsored": false,
+  "seo": {
+    "title": "Churchable review for UK churches",
+    "description": "Independent Churchable profile: sermon clips, study-guide tools, pricing, AI-content safeguards and UK procurement checks."
+  }
+}
