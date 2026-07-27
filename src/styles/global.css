@@ -1440,6 +1440,7 @@ textarea {
 }
 
 .prose {
+  min-inline-size: 0;
   max-inline-size: var(--measure);
 }
 
@@ -1456,6 +1457,82 @@ textarea {
 .prose > p:first-of-type:not(.eyebrow) {
   color: var(--ink-muted);
   font-size: 1.0625rem;
+}
+
+.prose > table,
+.prose-table-scroll {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: 100%;
+  margin-block: var(--space-md) var(--space-lg);
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  border: 0.0625rem solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper);
+  scrollbar-color: var(--ink-line) var(--surface);
+  scrollbar-width: thin;
+}
+
+.prose > table {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.prose-table-scroll:focus-visible {
+  outline-offset: 0.1875rem;
+}
+
+.prose-table-scroll table {
+  inline-size: 100%;
+  min-inline-size: 38rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.prose table th,
+.prose table td {
+  border-inline-end: 0.0625rem solid var(--rule);
+  border-block-end: 0.0625rem solid var(--rule);
+  padding: 0.9rem 1rem;
+  text-align: start;
+  vertical-align: top;
+}
+
+.prose table th:last-child,
+.prose table td:last-child {
+  border-inline-end: 0;
+}
+
+.prose table thead th {
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.prose table tbody th {
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.prose table tbody tr:nth-child(even) th,
+.prose table tbody tr:nth-child(even) td {
+  background: var(--surface);
+}
+
+.prose table tbody tr:last-child th,
+.prose table tbody tr:last-child td {
+  border-block-end: 0;
+}
+
+.prose table a {
+  font-weight: 600;
 }
 
 .page-grid {
@@ -1937,6 +2014,22 @@ textarea {
 @media (max-width: 34rem) {
   .container {
     inline-size: min(calc(100% - 1.25rem), var(--content));
+  }
+
+  .prose > table,
+  .prose-table-scroll {
+    margin-inline: -0.15rem;
+    inline-size: calc(100% + 0.3rem);
+    max-inline-size: calc(100% + 0.3rem);
+  }
+
+  .prose-table-scroll table {
+    min-inline-size: 34rem;
+  }
+
+  .prose table th,
+  .prose table td {
+    padding: 0.75rem 0.8rem;
   }
 
   .hero {

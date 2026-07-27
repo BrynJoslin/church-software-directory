@@ -109,9 +109,11 @@ are outlined pills. Labels must make the state understandable without colour.
 
 ### Tables
 
-Comparison tables use clear column and row headers, hairline rules, surface
-striping and the accent-soft fill for the header row. Preserve horizontal
-scrolling on narrow screens instead of collapsing facts into ambiguous cards.
+Editorial and comparison tables use clear column and row headers, generous cell
+padding, hairline rules, surface striping and the accent-soft fill for the
+header row. Tables sit within a bordered, rounded scrolling region. Preserve
+horizontal scrolling on narrow screens instead of squeezing columns or
+collapsing facts into ambiguous cards.
 
 ### Notices and asides
 

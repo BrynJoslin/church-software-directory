@@ -199,8 +199,11 @@ const googleAnalyticsId =
             const target = event.target;
             if (!(target instanceof Element)) return;
 
-            const link = target.closest<HTMLAnchorElement>("a[data-referral-vendor]");
-            const referralVendor = link?.dataset.referralVendor;
+            const link = target.closest("a[data-referral-vendor]");
+            const referralVendor =
+              link instanceof HTMLAnchorElement
+                ? link.dataset.referralVendor
+                : undefined;
             if (
               localStorage.getItem(consentKey) !== "accepted" ||
               !referralVendor ||

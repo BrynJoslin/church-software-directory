@@ -128,6 +128,12 @@ Doorway tokens and component rules belong in `src/styles/global.css`; page-level
 styles should reuse those tokens rather than creating a parallel palette,
 type scale or shape language.
 
+Markdown data tables receive their shared treatment from the global prose
+styles. A small progressive enhancement places them in a labelled,
+keyboard-focusable scrolling region while keeping their table semantics,
+headers and source order intact. Use this shared treatment rather than
+formatting individual guide tables with embedded HTML.
+
 Prefer:
 
 - central design tokens with CSS custom properties
