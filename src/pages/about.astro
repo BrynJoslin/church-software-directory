@@ -4,6 +4,9 @@ import { getCollection } from "astro:content";
 import { siteConfig } from "../config/site";
 
 const software = await getCollection("software");
+const correctionRoute = siteConfig.publisher.correctionRoute?.startsWith(siteConfig.url)
+  ? siteConfig.publisher.correctionRoute.slice(siteConfig.url.length) || "/"
+  : siteConfig.publisher.correctionRoute;
 ---
 
 <BaseLayout
@@ -43,7 +46,7 @@ const software = await getCollection("software");
         <p><strong>Responsible publisher:</strong> {siteConfig.publisher.name}</p>
         <p>{siteConfig.publisher.background}</p>
         <p>
-          <a href={siteConfig.publisher.correctionRoute}>Contact the publisher about a correction or update.</a>
+          <a href={correctionRoute}>Contact the publisher about a correction or update.</a>
         </p>
         <p>
           AI may assist with research organisation and drafting, but a human remains
