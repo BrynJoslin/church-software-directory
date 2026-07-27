@@ -146,10 +146,10 @@ const googleAnalyticsId =
         <script is:inline define:vars={{ googleAnalyticsId }}>
           const analyticsWindow = /** @type {any} */ (window);
           const consentKey = "church-software-analytics-consent";
-          const consentBanner = document.querySelector<HTMLElement>("[data-cookie-consent]");
-          const acceptButton = document.querySelector<HTMLButtonElement>("[data-consent-accept]");
-          const rejectButton = document.querySelector<HTMLButtonElement>("[data-consent-reject]");
-          const settingsButton = document.querySelector<HTMLButtonElement>("[data-cookie-settings]");
+          const consentBanner = document.querySelector("[data-cookie-consent]");
+          const acceptButton = document.querySelector("[data-consent-accept]");
+          const rejectButton = document.querySelector("[data-consent-reject]");
+          const settingsButton = document.querySelector("[data-cookie-settings]");
           let analyticsStarted = false;
 
           const startAnalytics = () => {
