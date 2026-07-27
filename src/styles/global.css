@@ -486,10 +486,7 @@ strong {
 }
 
 .category-family__intro {
-  display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(20rem, 1fr);
-  gap: var(--space-md);
-  align-items: end;
+  max-inline-size: var(--measure);
 }
 
 .category-family__intro p:not(.eyebrow) {
@@ -858,12 +855,18 @@ strong {
 }
 
 .home-guides {
-  align-items: center;
+  display: block;
+}
+
+.home-guides > div:first-child {
+  max-inline-size: 52rem;
 }
 
 .home-guide-list {
   display: grid;
-  gap: var(--space-sm);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: var(--space-md);
+  margin-block-start: var(--space-lg);
 }
 
 .home-guide-list .plain-card {

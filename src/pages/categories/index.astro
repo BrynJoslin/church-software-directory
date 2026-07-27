@@ -28,7 +28,11 @@ const categoriesById = new Map(categories.map((category) => [category.id, catego
       <div class="category-families">
         {categoryFamilies.map((family) => (
           <section class="category-family" aria-labelledby={`family-${family.name}`}>
-            <div class="category-family__intro"><p class="eyebrow">Category family</p><h2 id={`family-${family.name}`}>{family.name}</h2><p>{family.description}</p></div>
+            <div class="category-family__intro">
+              <p class="eyebrow">Category family</p>
+              <h2 id={`family-${family.name}`}>{family.name}</h2>
+              <p>{family.description}</p>
+            </div>
             <div class="grid">
               {family.categories.map((categoryId) => {
                 const category = categoriesById.get(categoryId);
