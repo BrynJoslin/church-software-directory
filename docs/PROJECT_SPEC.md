@@ -153,7 +153,6 @@ The architecture should support:
  /about/
  /methodology/
  /suggest-software/
- /update-a-listing/
  /privacy/
  /affiliate-disclosure/
  /404.html
@@ -403,10 +402,9 @@ Do not create thin keyword pages or unsupported review schema.
 The proof of concept should include accessible static forms for:
 
 - suggesting software
-- reporting an error
-- requesting an update
+- submitting a supplier update or correction
 
-Form endpoints should be centrally configurable and may initially be placeholders. Do not pretend that a backend exists.
+Contribution routes may initially open a pre-addressed email. Do not pretend that a backend exists. If a first-party form is enabled later, protect it with server-side spam verification, minimise personal data, record a clear retention period and keep submissions private.
 
 ## Analytics
 

@@ -9,14 +9,12 @@
     "linkedin": ""
   },
   "forms": {
-    "enabled": true,
-    "suggestSoftware": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=software-suggestion.yml",
-    "updateListing": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=listing-correction.yml",
-    "supplierUpdate": "https://github.com/BrynJoslin/church-software-directory/issues/new?template=supplier-listing-update.yml"
+    "contributionEmail": "directory@churchsoftware.co.uk"
   },
   "analytics": {
-    "enabled": false,
-    "provider": ""
+    "enabled": true,
+    "provider": "google-analytics",
+    "measurementId": "G-PGQQGQWDXG"
   },
   "features": {
     "affiliateLinks": true,

@@ -1,5 +1,12 @@
 # Implementation Status
 
+- Google Analytics 4 is configured centrally with measurement ID `G-PGQQGQWDXG`.
+  A built-in consent banner stores an accepted or rejected analytics choice in
+  local storage. The tag loads only after acceptance, and the product-profile
+  supplier CTA sends a `referral` event with an event-scoped `referral_vendor` parameter.
+  Create the corresponding GA4 custom dimension before using the parameter in
+  reports. The privacy notice now describes the analytics processing.
+
 ## Current phase
 
 Phase 6: contribution and continuous quality completed.
@@ -583,6 +590,14 @@ remaining operational choices are configured. The next work should not add
 entries until those launch prerequisites are resolved.
 
 ## Next recommended phase
+
+### 2026-07-27 form-submission implementation
+
+- Software suggestions and supplier listing updates now open pre-addressed
+  emails to `directory@churchsoftware.co.uk`. The site does not receive or
+  store messages; supplier update serves evidence-backed corrections and updates.
+- A first-party submission service remains deferred until its cost, privacy,
+  spam protection and accessible success/error handling are agreed.
 
 The remaining Phase 3 launch blockers are user-supplied operational facts: the
 responsible publisher or organisation, relevant public background and a working

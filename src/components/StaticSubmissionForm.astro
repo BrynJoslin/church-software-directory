@@ -2,43 +2,27 @@
 import { siteConfig } from "../config/site";
 
 interface Props {
-  kind: "suggest" | "update" | "supplier";
+  kind: "suggest" | "supplier";
 }
 
 const { kind } = Astro.props;
 const isSuggest = kind === "suggest";
-const isSupplier = kind === "supplier";
-const action = isSuggest
-  ? siteConfig.forms.suggestSoftware
-  : isSupplier
-    ? siteConfig.forms.supplierUpdate
-    : siteConfig.forms.updateListing;
+const subject = isSuggest
+  ? "Church Software UK: software suggestion"
+  : "Church Software UK: supplier update";
+const body = isSuggest
+  ? "Software name:\nOfficial website:\nWhy it may be relevant to UK churches:\nOfficial source URLs:\n\nPlease include public supplier information only. Do not include sensitive church or customer data."
+  : "Directory listing URL:\nWhat has changed:\nOfficial source URLs:\n\nPlease include public supplier information only. Do not include sensitive church or customer data.";
+const href = `mailto:${siteConfig.forms.contributionEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 ---
 
-{
-  !siteConfig.forms.enabled ? (
-    <div class="notice" role="status">
-      <p>
-        <strong>No submission route is configured.</strong> This page explains
-        the evidence needed for a future contribution, but does not collect or
-        send information until a real route is published.
-      </p>
-    </div>
-  ) : (
 <div class="static-form stack">
   <p>
-    Contributions are handled through a public GitHub issue form so the evidence,
-    editorial response and resolution can be tracked. A GitHub account may be
-    required to submit.
+    Email public supplier information and business contact details to the
+    directory. Do not include church-member, pastoral, safeguarding, financial
+    or other sensitive information. See the <a href="/privacy/">privacy notice</a>.
   </p>
-  <p>
-    Use only public supplier information and business contact details. Do not
-    include church-member, pastoral, safeguarding, financial or other sensitive
-    information. See the <a href="/privacy/">privacy notice</a>.
-  </p>
-  <a class="button" href={action} target="_blank" rel="noopener noreferrer">
-    {isSuggest ? "Open software suggestion form" : isSupplier ? "Open supplier update form" : "Open correction form"}
+  <a class="button" href={href}>
+    {isSuggest ? "Email a software suggestion" : "Email a supplier update"}
   </a>
 </div>
-  )
-}

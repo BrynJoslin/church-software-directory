@@ -79,7 +79,7 @@ changes or remaining questions. Do not update the date without doing the review.
 
 ## Review public feedback scans
 
-Keep the feedback scan date separate from `lastChecked`. Recheck scans after 180 days, or earlier after a major product, app or supplier change. Confirm profile scope, source availability, date range, source-permission position, theme support and contrary evidence. Do not automatically rewrite a public summary from newly found material. Report a misleading scan through `/update-a-listing/`; retain the internal challenge and editorial-decision record outside the public repository.
+Keep the feedback scan date separate from `lastChecked`. Recheck scans after 180 days, or earlier after a major product, app or supplier change. Confirm profile scope, source availability, date range, source-permission position, theme support and contrary evidence. Do not automatically rewrite a public summary from newly found material. Report a misleading scan through `/supplier-update/`; retain the internal challenge and editorial-decision record outside the public repository.
 
 Create or refresh the private scan queue and anonymised evidence ledger with:
 
@@ -101,10 +101,10 @@ The command runs automatically before checks, builds and local development.
 
 ## Contribution triage
 
-Public suggestions, corrections and supplier updates open a GitHub issue form.
-Each asks for public first-party sources and instructs contributors not to share
-church-member, pastoral, safeguarding, financial or other sensitive information.
-GitHub account and anti-abuse controls apply to the submission route.
+Public suggestions and supplier updates open an email addressed to
+`directory@churchsoftware.co.uk`. Each asks for public first-party sources and
+instructs contributors not to share church-member, pastoral, safeguarding,
+financial or other sensitive information.
 
 1. Read the stated change and its official sources; do not treat a supplier
    submission as confirmation by itself.
@@ -141,9 +141,7 @@ Before launch:
    supplies Astro's sitemap integration and the generated `robots.txt` route.
 2. Confirm the responsible publisher and public correction route.
 3. Select and document the structured-data reuse licence.
-4. Confirm GitHub issue forms remain enabled and review their public-data
-   warning before changing contribution routes.
-5. Configure a private form service only after updating the privacy notice,
+4. Configure a private form service only after updating the privacy notice,
    testing spam protection and documenting accessible success and error handling.
 6. Enable analytics only after choosing a privacy-conscious provider and
    documenting it.

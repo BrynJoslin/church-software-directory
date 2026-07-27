@@ -501,10 +501,9 @@ Make corrections manageable and catch regressions before public launch.
 
 ### Completion record — 25 July 2026
 
-- Public software suggestions, listing corrections and supplier updates now open
-  separate GitHub issue forms. They make the public nature of the workflow,
-  evidence requirements and sensitive-data boundary explicit; maintenance
-  documentation records the triage process.
+- Supplier update now serves the correction and update path. Public contribution
+  actions open a pre-addressed email until a reviewed first-party submission
+  service is justified.
 - Validation now checks structured evidence references, affiliate consistency,
   generated internal links and critical static accessibility conditions. The
   build fails when these checks, sitemap coverage or content validation fail.
