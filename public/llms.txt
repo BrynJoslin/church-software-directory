@@ -13,17 +13,17 @@ Church Software UK helps churches compare recorded supplier information, underst
 
 ## Core pages
 
-- Home: https://churchsoftware.co.uk/
-- Directory: https://churchsoftware.co.uk/software/
-- Categories: https://churchsoftware.co.uk/categories/
-- Guides: https://churchsoftware.co.uk/guides/
-- Shortlist tool: https://churchsoftware.co.uk/shortlist/
-- Comparison tool: https://churchsoftware.co.uk/compare/
-- Research methodology: https://churchsoftware.co.uk/methodology/
-- About Church Software UK: https://churchsoftware.co.uk/about/
-- Commercial disclosure: https://churchsoftware.co.uk/affiliate-disclosure/
-- Privacy notice: https://churchsoftware.co.uk/privacy/
-- Sitemap: https://churchsoftware.co.uk/sitemap-index.xml
+- [Home](https://churchsoftware.co.uk/): An overview of the directory and its UK church focus.
+- [Software directory](https://churchsoftware.co.uk/software/): Browse and filter recorded software products.
+- [Categories](https://churchsoftware.co.uk/categories/): Understand software types and their buying considerations.
+- [Guides](https://churchsoftware.co.uk/guides/): Read decision support for common church software needs.
+- [Shortlist tool](https://churchsoftware.co.uk/shortlist/): Narrow the catalogue using a shareable set of answers.
+- [Comparison tool](https://churchsoftware.co.uk/compare/): Compare two to four products using recorded factual fields.
+- [Research methodology](https://churchsoftware.co.uk/methodology/): Learn how listings are researched, corrected and assessed.
+- [About Church Software UK](https://churchsoftware.co.uk/about/): Read the directory's purpose and scope.
+- [Commercial disclosure](https://churchsoftware.co.uk/affiliate-disclosure/): Understand commercial relationships and editorial independence.
+- [Privacy notice](https://churchsoftware.co.uk/privacy/): Read how the site handles personal information.
+- [Sitemap](https://churchsoftware.co.uk/sitemap-index.xml): See the site's indexable pages.
 
 ## Evidence, limits and currency
 

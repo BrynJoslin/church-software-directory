@@ -123,8 +123,9 @@ as well as canonical, Open Graph and structured-data URLs. The configured
 domain is live; do not treat the directory as launch-ready until the responsible
 publisher and public correction route have been confirmed.
 
-Suggestions, corrections and supplier updates use public GitHub issue forms.
-They accept public supplier evidence only; contributors must not submit
+Suggestions and supplier updates open a pre-addressed email to
+`directory@churchsoftware.co.uk`. They accept public
+supplier evidence only; contributors must not submit
 church-member, pastoral, safeguarding, financial or other sensitive information.
 See `docs/MAINTENANCE.md` for the maintainer triage process. Analytics is
 disabled. Affiliate links and sponsored listings must be enabled deliberately
@@ -169,6 +170,7 @@ Build command: npm run build
 Output directory: dist
 Node version: 22.12 or newer
 ```
+
 
 GitHub Actions validates pull requests and pushes to `main`. Deployment remains
 unconfigured until the hosting and responsible publisher are confirmed.

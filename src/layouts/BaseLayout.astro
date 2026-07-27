@@ -56,6 +56,11 @@ const structuredData = [
   ...(Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : []),
   ...(breadcrumbJsonLd ? [breadcrumbJsonLd] : [])
 ];
+const googleAnalyticsId =
+  siteConfig.analytics.enabled &&
+  siteConfig.analytics.provider === "google-analytics"
+    ? siteConfig.analytics.measurementId
+    : undefined;
 ---
 
 <!doctype html>
@@ -106,5 +111,108 @@ const structuredData = [
       <slot />
     </main>
     <SiteFooter />
+    {
+      googleAnalyticsId && (
+        <>
+          <aside
+            class="cookie-consent"
+            data-cookie-consent
+            role="dialog"
+            aria-labelledby="cookie-consent-heading"
+            aria-describedby="cookie-consent-description"
+            hidden
+          >
+            <div class="cookie-consent__content">
+              <h2 id="cookie-consent-heading">Analytics cookies</h2>
+              <p id="cookie-consent-description">
+                We use Google Analytics to understand site use and supplier-link
+                referrals. You can accept or reject analytics cookies.
+                <a href="/privacy/">Read the privacy notice</a>.
+              </p>
+            </div>
+            <div class="cookie-consent__actions">
+              <button class="button button--secondary" type="button" data-consent-reject>Reject</button>
+              <button class="button" type="button" data-consent-accept>Accept analytics</button>
+            </div>
+          </aside>
+          <button class="cookie-settings" type="button" data-cookie-settings>
+            Cookie settings
+          </button>
+        </>
+      )
+    }
+    {
+      googleAnalyticsId && (
+        <script is:inline define:vars={{ googleAnalyticsId }}>
+          const analyticsWindow = /** @type {any} */ (window);
+          const consentKey = "church-software-analytics-consent";
+          const consentBanner = document.querySelector<HTMLElement>("[data-cookie-consent]");
+          const acceptButton = document.querySelector<HTMLButtonElement>("[data-consent-accept]");
+          const rejectButton = document.querySelector<HTMLButtonElement>("[data-consent-reject]");
+          const settingsButton = document.querySelector<HTMLButtonElement>("[data-cookie-settings]");
+          let analyticsStarted = false;
+
+          const startAnalytics = () => {
+            if (analyticsStarted) return;
+
+            analyticsStarted = true;
+            analyticsWindow[`ga-disable-${googleAnalyticsId}`] = false;
+            analyticsWindow.dataLayer = analyticsWindow.dataLayer || [];
+            analyticsWindow.gtag = (...arguments_) => {
+              analyticsWindow.dataLayer?.push(arguments_);
+            };
+            analyticsWindow.gtag("js", new Date());
+            analyticsWindow.gtag("config", googleAnalyticsId);
+
+            const script = document.createElement("script");
+            script.async = true;
+            script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(googleAnalyticsId)}`;
+            document.head.append(script);
+          };
+
+          const stopAnalytics = () => {
+            analyticsWindow[`ga-disable-${googleAnalyticsId}`] = true;
+            analyticsStarted = false;
+          };
+
+          const hideBanner = () => consentBanner?.setAttribute("hidden", "");
+          const showBanner = () => {
+            consentBanner?.removeAttribute("hidden");
+            acceptButton?.focus();
+          };
+
+          const setConsent = (consent) => {
+            localStorage.setItem(consentKey, consent);
+            hideBanner();
+            if (consent === "accepted") startAnalytics();
+            if (consent === "rejected") stopAnalytics();
+          };
+
+          if (localStorage.getItem(consentKey) === "accepted") startAnalytics();
+          if (!localStorage.getItem(consentKey)) showBanner();
+
+          acceptButton?.addEventListener("click", () => setConsent("accepted"));
+          rejectButton?.addEventListener("click", () => setConsent("rejected"));
+          settingsButton?.addEventListener("click", showBanner);
+
+          document.addEventListener("click", (event) => {
+            const target = event.target;
+            if (!(target instanceof Element)) return;
+
+            const link = target.closest<HTMLAnchorElement>("a[data-referral-vendor]");
+            const referralVendor = link?.dataset.referralVendor;
+            if (
+              localStorage.getItem(consentKey) !== "accepted" ||
+              !referralVendor ||
+              typeof analyticsWindow.gtag !== "function"
+            ) return;
+
+            analyticsWindow.gtag("event", "referral", {
+              referral_vendor: referralVendor
+            });
+          });
+        </script>
+      )
+    }
   </body>
 </html>

@@ -268,7 +268,9 @@ Target strong Lighthouse results, but do not manipulate tests or sacrifice usabi
 
 ## Forms
 
-Keep the first build static.
+Keep the public site static. Until a real, reviewed submission service is in
+place, contribution actions should open a pre-addressed email rather than imply
+that the site receives a form submission.
 
 Form action URLs should be configurable. Include:
 
@@ -279,7 +281,8 @@ Form action URLs should be configurable. Include:
 - accessible success and error placeholders
 - minimal personal data collection
 
-Document options for connecting a service later. Do not hard-code a provider unnecessarily.
+Use minimal personal data and a clear privacy warning. Do not hard-code a form
+provider until it has been configured, tested and documented.
 
 ## Images and product logos
 
