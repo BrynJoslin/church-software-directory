@@ -110,7 +110,7 @@ authorise automatic outreach, publishing or supplier claims.
 Edit `src/config/site.json` before production deployment. It controls:
 
 - site name, production URL and description
-- optional publisher, contact and social information
+- publisher, contact and social information
 - public contribution routes and enabled state
 - analytics state
 - affiliate and sponsored feature flags
@@ -119,9 +119,8 @@ Edit `src/config/site.json` before production deployment. It controls:
 
 `src/config/site.json` is the single source of truth for the production URL.
 It supplies Astro's sitemap integration and the generated `robots.txt` route,
-as well as canonical, Open Graph and structured-data URLs. The configured
-domain is live; do not treat the directory as launch-ready until the responsible
-publisher and public correction route have been confirmed.
+as well as canonical, Open Graph and structured-data URLs. The publisher and
+public correction route are configured in the same file.
 
 Suggestions and supplier updates open a pre-addressed email to
 `directory@churchsoftware.co.uk`. They accept public
@@ -172,8 +171,7 @@ Node version: 22.12 or newer
 ```
 
 
-GitHub Actions validates pull requests and pushes to `main`. Deployment remains
-unconfigured until the hosting and responsible publisher are confirmed.
+GitHub Actions validates pull requests and pushes to `main`.
 
 ## Editorial boundary
 

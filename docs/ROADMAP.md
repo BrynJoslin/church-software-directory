@@ -44,7 +44,7 @@ accountability rules in `AGENTS.md` and `docs/PRINCIPLES.md`.
 
 | Review priority | Roadmap destination | Outcome |
 | --- | --- | --- |
-| P0: public contradictions, disabled forms, publisher disclosure, related products and comparison defaults | Phase 3 (completed; launch blockers recorded) | The existing site is internally consistent; publisher and correction-route facts remain explicit pre-launch blockers. |
+| P0: public contradictions, disabled forms, publisher disclosure, related products and comparison defaults | Phase 3 (completed) | The existing site is internally consistent; publisher and correction-route facts are publicly configured. |
 | P1: mobile font loading, layout stability and render-blocking CSS | Mobile performance follow-up before Phase 7 | The homepage reaches a good CLS result without sacrificing accessibility, maintainability or repeat-navigation performance. |
 | P1: field evidence, higher-signal decision fields and product-specific verdicts | Phase 4 | The content model can support explainable comparisons and shortlists. |
 | P1: guided shortlist and cost estimation | Phase 5 | Users progressively narrow an exact candidate pool and receive up to five explained starting points with qualified cost information. |
@@ -224,7 +224,7 @@ Make the foundation robust enough for real catalogue growth.
 
 A reliable content platform that can accept researched entries safely.
 
-## Phase 3: Catalogue credibility and public trust (completed; launch blockers recorded)
+## Phase 3: Catalogue credibility and public trust (completed)
 
 ### Goal
 
@@ -242,9 +242,8 @@ further numerical target.
 - Related-product selection is deterministic, requires meaningful similarity
   and explains the relationship. Comparison opens with an honest empty state
   and preserves valid, invalid and limited URL selections.
-- The catalogue received a batch source-date review. The completion gate is met
-  for the implemented site, but publication remains blocked until a responsible
-  publisher, public correction route and related operational facts are supplied.
+- The catalogue received a batch source-date review. Church Software UK is
+  configured as the responsible publisher and the public correction route is live.
 
 ### Workstream 3.1: Public status and working interactions
 
@@ -303,8 +302,7 @@ further numerical target.
   unsupported hosting language.
 - Every visible submission action either works or has been removed.
 - Source-backed publisher, contact, commercial-policy and AI-use information is
-  visible, or the missing user-supplied facts are explicitly recorded as a
-  launch blocker.
+  visible.
 - Every related product shares a meaningful primary decision context and shows
   the reason.
 - The comparison default, valid URL, invalid URL, two-product, four-product,

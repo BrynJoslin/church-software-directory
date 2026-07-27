@@ -3,7 +3,11 @@
   "shortName": "Church Software UK",
   "url": "https://churchsoftware.co.uk",
   "description": "Independent, UK-focused information to help churches discover and compare administration, giving and ministry software.",
-  "publisher": {},
+  "publisher": {
+    "name": "Church Software UK",
+    "background": "Church Software UK is an independent software directory for UK churches.",
+    "correctionRoute": "https://churchsoftware.co.uk/supplier-update/"
+  },
   "social": {
     "mastodon": "",
     "linkedin": ""

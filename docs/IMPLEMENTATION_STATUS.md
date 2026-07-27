@@ -470,8 +470,8 @@ Phase 6: contribution and continuous quality completed.
   Static anchor links remain available without JavaScript.
 - Phase 3 public-trust work: public catalogue counts now derive from the
   collection; inactive submission controls have been removed; known obsolete
-  public-copy phrases are checked; publisher and correction-route gaps are
-  explicit launch blockers; related-product links are deterministic and
+  public-copy phrases are checked; publisher and correction-route details are
+  configured; related-product links are deterministic and
   explained; and comparison starts honestly empty until two products are chosen.
 - A batch review records a 25 July 2026 source-check date for all 51 listings.
   The configured domain returned HTTP 200 through Cloudflare on the same date.
@@ -556,9 +556,9 @@ Phase 6: contribution and continuous quality completed.
 - Accessibility information, data processing agreements, complete integrations,
   migration scope and contractual details remain incomplete across the sample.
 - The configured production domain returned HTTP 200 through Cloudflare on 25
-  July 2026. The responsible organisation, public contact route, reuse licence,
-  form service and analytics provider are not selected. The missing publisher
-  and contact facts are launch blockers, not placeholder facts to publish.
+  July 2026. Church Software UK is configured as the responsible publisher,
+  with public correction and email contact routes. Reuse-licence and form-service
+  decisions remain outside this implementation record.
 - Forms expose no submission controls until an endpoint, privacy information,
   spam protection and accessible success/error behaviour are configured.
 - The sample content was checked for unsupported claims against its recorded
@@ -599,12 +599,11 @@ entries until those launch prerequisites are resolved.
 - A first-party submission service remains deferred until its cost, privacy,
   spam protection and accessible success/error handling are agreed.
 
-The remaining Phase 3 launch blockers are user-supplied operational facts: the
-responsible publisher or organisation, relevant public background and a working
-correction contact route. The site must remain non-public until these are
-confirmed. Once supplied, configure them in `src/config/site.json`, update the
-privacy notice and enable a form only after its endpoint, spam protection and
-accessible success/error handling are in place.
+Church Software UK is configured as the responsible publisher, with a public
+description and working correction route in `src/config/site.json`. The About,
+Methodology and Privacy pages reflect those details. A first-party form remains
+deferred until its endpoint, spam protection and accessible success/error
+handling are in place.
 
 ## Maintenance note
 
