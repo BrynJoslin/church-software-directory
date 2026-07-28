@@ -13,6 +13,16 @@ Phase 6: contribution and continuous quality completed.
 
 ## In progress
 
+- Added a standard-version 1.0 buyers' guide for accounting software for
+  churches. It centres the decision on fund structures, controls,
+  reconciliation, reports, a finance-led trial and migration rather than an
+  unsupported product ranking. The representative directory shortlist retains
+  product-specific data, contract and exit gaps as supplier questions.
+
+- Retitled the online-giving buyers' guide to use the natural target phrase
+  “best church online giving platforms” in its visible and search title. Its
+  scope, criteria and evidence limits are unchanged.
+
 - The 26 July 2026 base discovery pack ran 1,628 product-name queries across
   all 148 active listings and the private ledger records every identity card
   and query. The catalogue currently omits public panels while source-by-source

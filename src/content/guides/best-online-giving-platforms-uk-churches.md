@@ -1,5 +1,5 @@
 ---
-title: Best online giving platforms for UK churches
+title: Best church online giving platforms for UK churches
 slug: best-online-giving-platforms-uk-churches
 guideType: buyers-guide
 standardVersion: "1.0"
@@ -9,8 +9,8 @@ updated: 2026-07-25
 relatedCategories:
   - online-giving
 seo:
-  title: Best online giving platforms for UK churches
-  description: Compare online giving platforms for UK churches by channels, Gift Aid, transaction and hardware costs, reconciliation, donor records and data evidence.
+  title: Best church online giving platforms for UK churches
+  description: Find the best church online giving platform for your UK church by comparing donation channels, Gift Aid, costs, reconciliation, donor records and data evidence.
 ---
 
 ## Quick answer
