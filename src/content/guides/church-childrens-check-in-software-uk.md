@@ -9,6 +9,15 @@ updated: 2026-07-28
 relatedCategories:
   - childrens-ministry
   - safeguarding
+navigationTask: choose
+featuredOnCategories:
+  - childrens-ministry
+featuredOnSoftware:
+  - kidcheck
+nextGuides:
+  - how-to-choose-church-safeguarding-software
+  - church-worship-planning-software-uk
+  - uk-church-gdpr-questions
 seo:
   title: "Church children's check-in software | Church Software UK"
   description: "A cautious UK guide to children's check-in software: registration, authorised collection, visitor handling, permissions and continuity."

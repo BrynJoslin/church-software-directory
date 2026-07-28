@@ -2,6 +2,7 @@
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import GuideContents from "../../components/GuideContents.astro";
+import GuideCard from "../../components/GuideCard.astro";
 import { formatDate } from "../../utils/content";
 
 export async function getStaticPaths() {
@@ -18,10 +19,18 @@ interface Props {
 
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
-const categories = await getCollection("categories");
+const [categories, guides] = await Promise.all([
+  getCollection("categories"),
+  getCollection("guides")
+]);
 const relatedCategories = categories.filter((category) =>
   entry.data.relatedCategories.some((reference) => reference.id === category.id)
 );
+const nextGuides = entry.data.nextGuides.flatMap((reference) => {
+  const guide = guides.find((candidate) => candidate.id === reference.id);
+  return guide ? [guide] : [];
+});
+const categoryNames = Object.fromEntries(categories.map((category) => [category.id, category.data.name]));
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -59,6 +68,14 @@ const articleJsonLd = {
         </p>
         <GuideContents headings={headings} />
         <Content />
+        <section class="guide-continuation" aria-labelledby="continue-heading">
+          <p class="eyebrow">Keep moving</p>
+          <h2 id="continue-heading">Continue your decision</h2>
+          <p>These next guides follow the same decision journey. They are not a ranking or a complete set of related products.</p>
+          <div class="grid">
+            {nextGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_continue_open" />)}
+          </div>
+        </section>
       </article>
       <aside class="aside-card guide-related">
         <h2>Related categories</h2>

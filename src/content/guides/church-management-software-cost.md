@@ -9,6 +9,13 @@ updated: 2026-07-25
 relatedCategories:
   - church-management
   - online-giving
+navigationTask: check
+featuredOnSoftware:
+  - chmeetings
+nextGuides:
+  - how-to-choose-church-management-software
+  - churchsuite-vs-planning-center
+  - migrate-church-management-software
 seo:
   title: How much does church management software cost?
   description: "Understand the cost of church management software in the UK: published starting prices, VAT, modules, migration, training, payments and exit."

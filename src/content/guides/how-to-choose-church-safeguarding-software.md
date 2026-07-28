@@ -9,6 +9,17 @@ updated: 2026-07-28
 relatedCategories:
   - safeguarding
   - childrens-ministry
+navigationTask: choose
+featuredOnCategories:
+  - safeguarding
+  - childrens-ministry
+featuredOnSoftware:
+  - iknow-safeguarding
+  - tes-myconcern
+nextGuides:
+  - church-pastoral-care-software-uk
+  - church-records-retention-software
+  - uk-church-gdpr-questions
 seo:
   title: "How to choose church safeguarding software | Church Software UK"
   description: "A cautious UK guide to choosing safeguarding administration software: records, access, reporting routes, retention and supplier questions."

@@ -9,6 +9,18 @@ updated: 2026-07-28
 relatedCategories:
   - church-management
   - church-communications
+navigationTask: change
+startHereOrder: 3
+featuredOnCategories:
+  - church-management
+  - church-communications
+featuredOnSoftware:
+  - churchsuite
+  - iknow-church
+nextGuides:
+  - church-records-retention-software
+  - uk-church-gdpr-questions
+  - church-software-stack-audit
 seo:
   title: "How to migrate church management software | Church Software UK"
   description: "Plan a church-management software migration with data mapping, controlled testing, reconciliation, training, cut-over and a clear old-system exit."

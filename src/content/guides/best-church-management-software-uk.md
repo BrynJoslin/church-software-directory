@@ -10,6 +10,17 @@ relatedCategories:
   - church-management
   - online-giving
   - worship-planning
+navigationTask: choose
+startHereOrder: 1
+featuredOnCategories:
+  - church-management
+featuredOnSoftware:
+  - iknow-church
+  - churchdesk
+nextGuides:
+  - how-to-choose-church-management-software
+  - churchsuite-vs-planning-center
+  - uk-church-gdpr-questions
 seo:
   title: Best church management software for UK churches
   description: "Compare church management software for UK churches by operational fit, Gift Aid, data evidence, total cost and the capacity to run it well."

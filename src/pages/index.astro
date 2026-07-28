@@ -22,8 +22,9 @@ const commonCategories = commonCategorySlugs.flatMap((slug) => {
 });
 const sourceCount = software.reduce((total, entry) => total + entry.data.sources.length, 0);
 const featuredGuides = [...guides]
-  .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime())
-  .slice(0, 3);
+  .filter((guide) => guide.data.startHereOrder)
+  .sort((a, b) => a.data.startHereOrder! - b.data.startHereOrder!);
+const categoryNames = Object.fromEntries(categories.map((category) => [category.id, category.data.name]));
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -153,7 +154,7 @@ const websiteJsonLd = {
         </p>
       </div>
       <div class="home-guide-list">
-        {featuredGuides.map((guide) => <GuideCard entry={guide} />)}
+        {featuredGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} />)}
       </div>
       <p class="section-link"><a href="/guides/">Explore all guides</a></p>
     </div>

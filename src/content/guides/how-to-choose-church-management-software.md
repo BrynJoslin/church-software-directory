@@ -8,6 +8,13 @@ published: 2026-07-25
 updated: 2026-07-25
 relatedCategories:
   - church-management
+navigationTask: choose
+featuredOnCategories:
+  - church-management
+nextGuides:
+  - church-management-software-cost
+  - uk-church-gdpr-questions
+  - migrate-church-management-software
 seo:
   title: How to choose church management software
   description: "A practical UK guide to church management software: requirements, data protection, trials, total cost, migration and responsible selection."

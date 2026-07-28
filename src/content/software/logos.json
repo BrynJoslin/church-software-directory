@@ -1,8 +1,8 @@
 {
-  "name": "Logos Bible Study",
+  "name": "Logos for Church",
   "slug": "logos",
-  "shortDescription": "A Bible study and research platform with searchable libraries, original-language tools, guided workflows and sermon-preparation features.",
-  "officialWebsite": "https://www.logos.com/",
+  "shortDescription": "A church-wide Logos subscription that gives named leaders Pro-level Bible-study tools and attendees Plus access, with licences assigned against the church’s average weekly attendance.",
+  "officialWebsite": "https://www.logos.com/church",
   "company": "Logos",
   "ukFocus": "general",
   "categories": [
@@ -15,248 +15,357 @@
     "multi-site"
   ],
   "suitableContexts": [
-    "Pastors, preachers and Bible-study leaders who regularly research and teach from a substantial digital library",
-    "Theological students and ministry teams needing searchable reference resources"
+    "Churches with several pastors, preachers, small-group leaders or counsellors who will use serious Bible-study tools",
+    "Leadership teams able to provide local onboarding and ongoing encouragement",
+    "Churches considering a shared licence programme rather than separate individual subscriptions"
   ],
   "pricing": {
-    "model": "freemium",
-    "summary": "A free Logos account unlocks the app and selected study features. The supplier publishes three paid subscription tiers in US dollars, billed annually at the displayed monthly equivalents.",
+    "model": "tiered",
+    "summary": "Logos for Church is priced by average weekly attendance. The smallest published starting point is US$50 per month for up to 100 attendees, but the supplier describes the purchase as an annual contract; ask Logos for the current UK billing currency, VAT treatment and full price table.",
     "startingPrice": {
-      "amount": 8.33,
+      "amount": 50,
       "currency": "USD",
       "period": "month",
-      "qualifier": "Premium, billed annually, after the 30-day trial"
+      "qualifier": "Up to 100 average weekly attendees; annual contract"
     },
     "tiers": [
       {
-        "label": "Free",
-        "price": "$0",
-        "detail": "Free account, app and selected study features"
+        "label": "Logos for Church",
+        "price": "from US$50/month",
+        "detail": "Up to 100 average weekly attendees; the church may mix named leader and attendee licences within its attendance limit. The supplier describes this as an annual contract."
       },
       {
-        "label": "Premium",
-        "price": "from $8.33/month",
-        "detail": "Billed annually; 200+ books and study tools"
+        "label": "Leader access",
+        "price": "Included within the church plan",
+        "detail": "Equivalent to Logos Pro, with sermon preparation, Bible Study Builder, original-language tools and a 500-plus-resource library, according to Logos."
       },
       {
-        "label": "Pro",
-        "price": "from $12.50/month",
-        "detail": "Billed annually; adds teaching, sermon-preparation and language tools"
+        "label": "Attendee access",
+        "price": "Included within the church plan",
+        "detail": "Equivalent to Logos Plus, with Bible reading, Smart Search, Study Assistant, Factbook and a 70-plus-resource library, according to Logos."
       },
       {
-        "label": "Max",
-        "price": "from $16.67/month",
-        "detail": "Billed annually; advanced original-language study tools"
+        "label": "Individual Logos plans",
+        "price": "See current consumer pricing",
+        "detail": "Free, Plus, Pro and Max options may suit a leader who wants personal access without a church-wide attendance subscription. Confirm the current library, billing and terms directly with Logos."
       }
     ],
-    "trialDetails": "30 days for the paid subscription tiers; cancel, change plan or switch to the free version according to the supplier."
+    "trialDetails": "Logos advertises a 30-day trial for eligible first-time subscribers, subject to its terms. Confirm when a church contract begins, whether the trial converts automatically and any cancellation liability before subscribing."
   },
   "freePlan": "yes",
   "freeTrial": "yes",
-  "demoAvailable": "unknown",
+  "demoAvailable": "yes",
+  "dataHosting": "This profile does not make a UK data-protection claim. Ask Logos for hosting, backup, subprocessor and UK international-transfer information before providing member data.",
+  "gdprInformation": "Logos publishes a privacy policy. Ask for a UK church data-processing agreement, controller/processor allocation and the transfer safeguard that would apply to your church.",
   "coreFeatures": [
-    "Searchable Bible and theological library",
-    "Factbook for people, places, concepts and themes",
-    "Guided Bible-study workflows",
-    "Original-language tools",
-    "Sermon Builder",
-    "Desktop, web and mobile access"
+    "Named individual licences for leaders and attendees",
+    "Pro-level leader access with Sermon Builder, Bible Study Builder and original-language tools",
+    "Plus-level attendee access with Bible reading, Smart Search, Study Assistant and Factbook",
+    "Searchable biblical and theological resource libraries",
+    "Administration portal, onboarding and training resources",
+    "BibleProject material and group-study resources",
+    "Desktop, web, iOS and Android access",
+    "Planning Center integration published by Logos"
   ],
-  "integrations": [],
-  "importExport": [],
+  "integrations": [
+    "Planning Center integration published by Logos",
+    "This research did not identify a published ChurchSuite integration; ask Logos whether one is available or planned"
+  ],
+  "importExport": [
+    "Logos publishes Planning Center support; confirm whether it is a continuing synchronisation or a one-time import",
+    "Ask Logos what member, licence-assignment and church-created data can be exported"
+  ],
   "support": [
-    "Free support and training stated by the supplier",
-    "Live and on-demand training resources"
+    "Onboarding and training resources are included according to Logos",
+    "Logos publishes email, live chat and a UK telephone number; ask for support hours in UK time",
+    "Custom demonstrations are publicly offered to churches with 200 or more attendees"
   ],
-  "editorial": {
-    "assessment": "Logos is a research and teaching environment rather than church administration software. It is most valuable for someone who will repeatedly search, read and connect a meaningful digital library; it is excessive for a church that only needs a few translations and basic reference material.",
-    "bestFor": [
-      "Regular sermon, Bible-study or theological research",
-      "Users who want original-language and reference-library tools without needing to assemble separate websites",
-      "Individuals or teams willing to learn a feature-rich study environment"
-    ],
-    "strengths": [
-      "Free account and app access are documented",
-      "Supplier documentation covers searchable libraries, guided workflows, original-language tools and sermon preparation",
-      "Desktop, web and mobile access support study in different settings"
-    ],
-    "limitations": [
-      "The paid subscription and library costs require a current, UK-specific check",
-      "A large feature set brings a learning curve and may exceed a casual user's needs",
-      "Check resource licences and any shared church use before purchase"
-    ],
-    "procurementVerdict": {
-      "problem": "Regular sermon, Bible-study or theological research",
-      "differentiator": "Searchable Bible and theological library",
-      "firstCheck": "The paid subscription and library costs require a current, UK-specific check"
+  "decisionEvidence": {
+    "contact-band": {
+      "value": "Attendance-based licences, with a public starting band of up to 100 attendees",
+      "state": "supplier-published",
+      "source": "https://www.logos.com/church",
+      "checked": "2026-07-28"
+    },
+    "gbp-pricing": {
+      "value": "US-dollar price published; ask whether GBP billing is available",
+      "state": "needs-refresh",
+      "source": "https://www.logos.com/terms",
+      "checked": "2026-07-28"
+    },
+    "vat-treatment": {
+      "value": "Applicable VAT and similar taxes are excluded in the general terms; ask how UK VAT is handled",
+      "state": "needs-refresh",
+      "source": "https://www.logos.com/terms",
+      "checked": "2026-07-28"
+    },
+    "uk-purchasing": {
+      "value": "A UK contact number is published; ask for the UK commercial terms that would apply",
+      "state": "supplier-published",
+      "source": "https://www.logos.com/contact",
+      "checked": "2026-07-28"
+    },
+    "technical-administration": {
+      "value": "Church administrators assign named licences; ask how bulk removal, usage reporting and offboarding work",
+      "state": "supplier-published",
+      "source": "https://support.logos.com/hc/en-us/articles/18365606568973-Add-People-to-Your-Group-or-Subgroup",
+      "checked": "2026-07-28"
     }
-  },
-  "longForm": {
-    "verdict": "Logos earns its place when study preparation involves recurring research across a sizeable library, not when it merely replaces opening a Bible. It concentrates searching, reference works, original-language tools and teaching preparation in one system, but the strongest fit depends on whether the user will learn and repeatedly use that depth.",
-    "decisionLens": {
-      "heading": "The real question is library workflow, not software features.",
-      "text": "Logos is valuable because it connects resources the user already owns or chooses to acquire. The financial and learning commitment only makes sense when that connected library will be used repeatedly for preaching, teaching, study or academic work."
-    },
-    "sections": [
-      {
-        "heading": "What Logos brings together",
-        "question": "What becomes easier when biblical resources are searchable as one library?",
-        "paragraphs": [
-          "Logos presents a platform for Bible study, preaching and teaching. Its published feature material includes a searchable theological library, Factbook, guided workflows, original-language tools and Sermon Builder.",
-          "This can reduce the time spent switching between books and websites, especially when a teacher needs to trace a theme, compare passages or prepare a cited study. It does not replace the judgement needed to weigh sources, context and theological perspective."
-        ]
-      },
-      {
-        "heading": "Free access, subscriptions and library decisions",
-        "question": "Is the first free experience the same as the long-term study setup?",
-        "paragraphs": [
-          "Logos documents a free account that unlocks the app and selected study features across desktop, web and mobile. The supplier also advertises a 30-day free trial for its current paid offering.",
-          "The practical cost depends on the library and subscription a person eventually chooses, not simply the free account. Before paying, identify the exact translations, commentaries and tools needed, check current UK pricing and tax, and avoid buying a broad library before the user has a proven study habit."
-        ]
-      },
-      {
-        "heading": "Depth versus learning curve",
-        "question": "Will the user benefit from the depth often enough to learn it?",
-        "paragraphs": [
-          "Public review coverage commonly highlights the breadth of resources and research capability, while also signalling that the platform is feature-rich. A Capterra review summary shows strong ratings for customer service but a lower ease-of-use score than its overall rating; G2’s review summary similarly notes both extensive resources and potential complexity.",
-          "Use the trial for a real preparation task: create a passage study, consult the resources that matter, test the mobile app and prepare a short talk or study outline. If a study Bible and a few trusted references meet the need more simply, that is a sound outcome."
-        ]
-      }
-    ],
-    "userFeedback": {
-      "summary": "Capterra currently lists 238 reviews with a 4.8/5 aggregate, while G2 lists 22 reviews with a 4.5/5 aggregate. Both are useful signals of recurring user themes, not a prediction that Logos will suit a particular church or person.",
-      "themes": [
-        "Users frequently value the depth and breadth of searchable resources.",
-        "Public review summaries identify a learning curve and potential complexity for less experienced users.",
-        "The amount of value depends on whether a user needs sustained research depth rather than occasional reference lookup."
-      ],
-      "caveat": "Review samples reflect different users, product versions, libraries and incentives. This profile does not use review scores in structured data or treat them as an endorsement."
-    },
-    "faq": [
-      {
-        "question": "Is Logos Bible Study free?",
-        "answer": "Logos documents a free account that unlocks the app and selected study features. Paid subscriptions and resources are separate, so check the current offer and the exact library included before paying."
-      },
-      {
-        "question": "Is Logos suitable for sermon preparation?",
-        "answer": "The supplier presents Sermon Builder, guided workflows, searchable libraries and original-language tools for preaching and teaching. Suitability depends on the user's preparation process and willingness to learn the platform."
-      },
-      {
-        "question": "Can Logos be used on mobile devices?",
-        "answer": "Yes. Logos documents desktop, web and mobile access. Its platform comparison notes that a laptop is better for the most powerful study tools or extended offline use."
-      },
-      {
-        "question": "Should a small church buy Logos for every leader?",
-        "answer": "Not automatically. Start with the people who repeatedly prepare teaching or research, test the resources they need and check the relevant licence terms before considering any wider purchase."
-      }
-    ]
   },
   "brandAssets": {
     "logo": {
       "src": "/images/software/logos/logos-logo.png",
-      "alt": "Logos Bible Study logo",
+      "alt": "Logos logo",
       "source": "https://www.logos.com/",
-      "checked": "2026-07-25"
+      "checked": "2026-07-28"
     }
   },
-  "lastChecked": "2026-07-25",
+  "editorial": {
+    "assessment": "Logos for Church is best understood as a church-funded way to equip people with individual Bible-study accounts, not as one shared church library or a replacement for a church-management system, learning platform or video library. Its strongest value is likely to sit with leaders who will use the Pro-level research and sermon tools repeatedly. Wider member access can be valuable, but a church should plan for onboarding and not assume that every attendee will adopt a feature-rich study environment.",
+    "bestFor": [
+      "Churches with several active preachers, teachers, pastoral leaders or serious Bible students",
+      "Teams that want individual accounts across desktop, web and mobile rather than a shared login",
+      "A church able to appoint an owner for invitations, licence changes and practical training",
+      "Leader-heavy use cases where several people would otherwise consider individual Pro access"
+    ],
+    "strengths": [
+      "Leaders receive a substantial Pro-level research and sermon-preparation package, including more than 150 commentaries according to Logos",
+      "The church can mix leader and attendee licences within its purchased attendance limit",
+      "Personal purchases remain with an individual when church-provided access ends, according to Logos community guidance",
+      "Included training, group resources and BibleProject material give churches more than a book library alone",
+      "Individual accounts work across desktop, web, iOS and Android"
+    ],
+    "limitations": [
+      "A monthly payment option should not be treated as a cancel-anytime monthly contract; Logos describes the service as an annual commitment",
+      "Included subscription books and tools are not permanently owned by the member when their church licence ends",
+      "Independent, long-term evidence of congregation-wide adoption is still limited",
+      "The learning curve, especially for less confident or mobile-first members, needs testing in a real church setting",
+      "The default library is Protestant and evangelical-weighted; churches should inspect the actual resources and required translations",
+      "GBP billing, UK VAT, UK GDPR terms, data transfers, ChurchSuite integration and UK support hours remain questions for Logos"
+    ],
+    "procurementVerdict": {
+      "problem": "Equipping several leaders and interested members with linked Bible-study and teaching tools",
+      "differentiator": "Named individual licences that combine Pro-level leader tools with lighter Plus access for attendees",
+      "firstCheck": "Obtain written confirmation of the attendance band, annual commitment, GBP and VAT treatment, and the data-processing and offboarding terms before providing member information"
+    }
+  },
+  "longForm": {
+    "verdict": "Logos for Church can be a strong way to equip a teaching-heavy church, particularly when several leaders would use Pro-level study and sermon tools every week. The key question is not whether Logos has many features; it is whether the church has enough committed users, a realistic onboarding plan and a reason to pay for an attendance-wide capacity rather than a few personal subscriptions. UK churches should settle the commercial and data-protection questions in writing before committing.",
+    "decisionLens": {
+      "heading": "Buy the church plan for a shared ministry programme, not merely because one leader needs Logos.",
+      "text": "The church offer makes the most sense when multiple named leaders and a meaningful group of members will receive, learn and use their own licences. If the real need is one pastor’s sermon preparation or a couple of leaders’ research, individual Logos plans or a small custom bulk purchase may be the more proportionate route. Test the actual translations, resources and workflows your people need before deciding."
+    },
+    "sections": [
+      {
+        "heading": "How Logos for Church works",
+        "question": "Is this a shared church library or access for named people?",
+        "paragraphs": [
+          "Logos for Church is an attendance-based church subscription. The church assigns named people either leader or attendee access, in any mixture up to its average-weekly-attendance limit. Each person uses their own Logos account rather than sharing a church login.",
+          "According to Logos, leader access is equivalent to Logos Pro and attendee access to Logos Plus. The distinction matters: leaders receive the deeper research, sermon-preparation and original-language package, while attendees receive a lighter set of Bible-reading and study tools. A church should map who genuinely needs each level before it buys.",
+          "The service also includes an administration portal, onboarding and training, group-study material and BibleProject content. It is not a church-management system, a volunteer training LMS or a streaming-video replacement, even though it overlaps with each of those activities in small ways."
+        ]
+      },
+      {
+        "heading": "What leaders and attendees receive",
+        "question": "Will the access level match the way different people actually serve?",
+        "paragraphs": [
+          "Logos says that leader access includes more than 500 resources, more than 150 commentaries, Sermon Builder and Manager, Bible Study Builder, Smart Synopsis, Study Assistant and original-language resources. That is serious preparation capacity for pastors, preachers, counsellors, youth leaders and small-group leaders who will learn to use it.",
+          "Attendee access is lighter: Logos lists more than 70 resources, several Bibles, commentaries, study Bibles, Factbook, Smart Search and Study Assistant. This could support structured personal or group Bible engagement, but it should not be presented as an equivalent research library for every member.",
+          "Included subscription resources are temporary. When a church removes someone’s licence or the subscription ends, that person keeps their individual account and personal purchases, but does not keep the church-provided Plus or Pro access. Ask Logos about notes, shared material and any resource-dependent documents before relying on them for a ministry workflow."
+        ]
+      },
+      {
+        "heading": "Pricing, contract and a sensible starting point",
+        "question": "Is the attendance-wide plan proportionate to the likely use?",
+        "paragraphs": [
+          "The smallest public starting point is US$50 per month for a church with up to 100 average weekly attendees, equivalent to US$600 across a year. Logos describes sign-up as an annual contract. Its general terms say annual subscriptions paid monthly may still leave remaining payments due if the subscription is stopped early, so monthly billing is not the same as a month-to-month commitment.",
+          "The published attendance bands create a practical risk for churches just above a threshold. Ask whether pricing is prorated within a band, how Logos counts multi-site, online, children’s and irregular attendance, and request the current full price table, currency, VAT and renewal terms in writing.",
+          "For churches with only one or two likely power users, the overall plan may not be the simplest purchase. Logos says that churches wanting a small number of one licence tier or selected permanent resources can contact sales about a custom bulk purchase."
+        ]
+      },
+      {
+        "heading": "Individual Logos plans for church leaders",
+        "question": "What if a leader wants Logos personally, not as a church-wide programme?",
+        "paragraphs": [
+          "Individual Logos access is a sensible alternative when a pastor, preacher, student or ministry leader wants to build a personal study workflow but the church does not need attendance-based administration. Logos publishes a free option alongside individual Plus, Pro and Max subscription choices; the current consumer pricing and included libraries should be checked directly before purchase.",
+          "Personal access avoids the church’s licence-assignment and offboarding work, and individually purchased resources remain with the user. It does not provide the church programme, shared onboarding or church-wide allocation model. A leader should therefore decide whether their need is personal research, a small leadership cohort or a wider discipleship initiative.",
+          "If a church does proceed, existing personal purchases are intended to remain personal and work alongside church access. Confirm any upgrade, overlap or departure scenarios with Logos before asking staff or volunteers to change their own subscriptions."
+        ]
+      },
+      {
+        "heading": "Adoption, training and theological fit",
+        "question": "Can the church help people get real value from a powerful but demanding tool?",
+        "paragraphs": [
+          "The evidence reviewed suggests that Logos’s depth is a real strength for experienced users, but the learning curve is equally real. General Logos users frequently describe desktop as the strongest environment and mobile as less complete or more awkward. A short, live preparation task is a better test than an abstract product tour.",
+          "Start with a small group of people who already prepare sermons, lead Bible studies or enjoy sustained study. Give them a defined first use, such as preparing a passage study, then run a simple introduction for attendees rather than sending a blanket invitation without support. Measure ongoing use before treating broad adoption as an outcome.",
+          "The resource collection is broadly Protestant and evangelical in centre of gravity. It contains some lectionary, patristic and Catholic material, but churches with Anglican, Catholic, Orthodox, charismatic or other specific requirements should check the actual translations, authors and resources rather than assume a denominational fit."
+        ]
+      },
+      {
+        "heading": "UK questions to settle before subscribing",
+        "question": "What needs a written answer before a UK church shares member information?",
+        "paragraphs": [
+          "Logos is usable from the UK and publishes a UK contact number, but this directory did not confirm GBP billing, UK VAT treatment, UK-effective support hours, a ChurchSuite integration or a UK charity discount. These are procurement questions, not reasons to assume a negative answer; ask for written confirmation that applies to your church and contract.",
+          "A church membership list can reveal religious belief, which is special-category personal data under UK GDPR. Before importing or inviting members, ask Logos for its data-processing agreement, controller and processor roles, subprocessors, hosting and backup locations, deletion and retention commitments, international-transfer mechanism, breach terms and what administrators can see about member activity.",
+          "Also test the ordinary administration: adding and removing people, reassignment, the Planning Center connection, what data can be exported, and what happens to shared studies, notes and church records when a licence or the contract ends. These questions are more important than a feature checklist for a long-running church programme."
+        ]
+      }
+    ],
+    "userFeedback": {
+      "summary": "The church-wide service is too new for a substantial body of independent, long-term implementation evidence. General Logos discussions repeatedly value its research depth and sermon-preparation tools, but also identify a learning curve, a stronger desktop experience and uncertainty about ordinary-member adoption. Early church-specific comments add useful questions, not a reliable success rate.",
+      "themes": [
+        "Experienced users repeatedly value the connected library, sermon preparation and original-language work.",
+        "Learning and local training appear material to whether people gain value from the platform.",
+        "Member adoption, licence administration and translation coverage should be tested locally rather than assumed.",
+        "Supplier-selected testimonials and community discussions are not independent evidence that a particular church will succeed."
+      ],
+      "caveat": "The available discussions include supplier-hosted community threads, general individual-product reviews and a small number of early adopters. They are useful for identifying implementation questions, not for measuring church-wide satisfaction, mobile performance or UK suitability."
+    },
+    "faq": [
+      {
+        "question": "What is Logos for Church?",
+        "answer": "It is an attendance-based church subscription that lets a church assign individual Logos licences to named leaders and attendees. It is not a single shared church account or a church-management system."
+      },
+      {
+        "question": "What is the difference between leader and attendee access?",
+        "answer": "Logos says leaders receive access equivalent to Logos Pro, including sermon-preparation, study-building and original-language tools with a deeper library. Attendees receive access equivalent to Logos Plus, with a lighter Bible-reading and study package."
+      },
+      {
+        "question": "How much does Logos for Church cost?",
+        "answer": "The smallest public starting point is US$50 per month for up to 100 average weekly attendees, representing US$600 over an annual contract. Ask Logos for the current complete price table, currency, VAT and attendance-counting terms."
+      },
+      {
+        "question": "Is Logos for Church a monthly contract?",
+        "answer": "Do not assume so. Logos describes the church subscription as an annual contract, even where payment is monthly. Its general terms say remaining annual instalments may be charged after early cancellation. Confirm the exact terms in writing."
+      },
+      {
+        "question": "What happens when someone leaves the church?",
+        "answer": "They retain their individual Logos account and personally purchased resources, but church-provided subscription access ends when the church removes their licence. Confirm the treatment of notes, shared content and resource-dependent documents for your situation."
+      },
+      {
+        "question": "Should an individual church leader buy Logos instead?",
+        "answer": "Possibly. Individual Logos plans may be more proportionate when only one or two people need a serious personal study environment. The church plan is strongest where several leaders and a defined group of attendees will use individual licences with training and support."
+      },
+      {
+        "question": "Is Logos for Church suitable for a UK church?",
+        "answer": "It is available to UK churches, but this profile does not state GBP billing, UK VAT treatment, UK GDPR contractual terms, data-transfer arrangements, ChurchSuite integration or UK support hours. Obtain those answers in writing before sharing member information."
+      }
+    ]
+  },
+  "lastChecked": "2026-07-28",
   "sources": [
     {
-      "label": "Logos subscription pricing",
-      "url": "https://www.logos.com/logos-explore-pricing",
-      "checked": "2026-07-25",
+      "label": "Logos for Church",
+      "url": "https://www.logos.com/church",
+      "checked": "2026-07-28",
       "supports": [
-        "Subscription tiers",
-        "Published prices",
-        "30-day trial",
-        "Included books and tools"
+        "Church subscription purpose",
+        "Leader and attendee access",
+        "Resource categories",
+        "Attendance-based licensing",
+        "Starting price",
+        "Training and group resources"
       ]
     },
     {
-      "label": "Logos product overview",
-      "url": "https://www.logos.com/",
-      "checked": "2026-07-25",
+      "label": "Logos terms of service",
+      "url": "https://www.logos.com/terms",
+      "checked": "2026-07-28",
       "supports": [
-        "Platform purpose",
-        "30-day trial",
-        "Mobile apps",
-        "Supplier training statement"
+        "US-dollar payment terms",
+        "Taxes excluded from prices",
+        "Annual subscription and renewal terms",
+        "Early cancellation and access terms"
       ]
     },
     {
-      "label": "Logos study tools overview",
-      "url": "https://www.logos.com/time-well-spent",
-      "checked": "2026-07-25",
+      "label": "Logos church sales enquiry",
+      "url": "https://www.logos.com/church/talk-to-an-expert",
+      "checked": "2026-07-28",
       "supports": [
-        "Factbook",
-        "Searchable library",
-        "Sermon Builder",
-        "Guided workflows",
-        "Original-language tools"
+        "Published attendance bands",
+        "Custom demonstration availability"
       ]
     },
     {
-      "label": "Logos free account guidance",
-      "url": "https://support.logos.com/hc/en-us/articles/360023029051-Get-started-with-Logos-for-free",
-      "checked": "2026-07-25",
+      "label": "Logos church resource list",
+      "url": "https://files.logoscdn.com/v1/files/89642568/assets/17748172/content.pdf?signature=TL_HSl0pSWmhNpZGup63-GNHrWE",
+      "checked": "2026-07-28",
       "supports": [
-        "Free account",
-        "Free app access",
-        "Web app"
+        "Leader and attendee resource categories",
+        "Included Bible, commentary and study resources"
       ]
     },
     {
-      "label": "Logos mobile guidance",
-      "url": "https://support.logos.com/hc/en-us/articles/360035659011-Get-Started-with-Logos-Mobile",
-      "checked": "2026-07-25",
+      "label": "Logos group licence access guidance",
+      "url": "https://support.logos.com/hc/en-us/articles/18348329198861-Accessing-Logos-Group-Licenses",
+      "checked": "2026-07-28",
       "supports": [
-        "Mobile app",
-        "Mobile search"
+        "Individual group-licence access",
+        "Personal account relationship"
       ]
     },
     {
-      "label": "Logos platform comparison",
-      "url": "https://support.logos.com/hc/en-us/articles/9785956686349",
-      "checked": "2026-07-25",
+      "label": "Logos group administration guidance",
+      "url": "https://support.logos.com/hc/en-us/articles/18365606568973-Add-People-to-Your-Group-or-Subgroup",
+      "checked": "2026-07-28",
       "supports": [
-        "Desktop, web and mobile comparison",
-        "Offline-use consideration"
+        "Adding people to a Logos group",
+        "Named licence administration"
       ]
     },
     {
-      "label": "Capterra Logos Bible Software reviews",
-      "url": "https://www.capterra.com/p/275095/Logos/reviews/",
-      "checked": "2026-07-25",
+      "label": "Logos contact information",
+      "url": "https://www.logos.com/contact",
+      "checked": "2026-07-28",
       "supports": [
-        "Limited external user-feedback context",
-        "Review-volume caveat"
+        "Published UK contact number",
+        "Contact channels"
       ]
     },
     {
-      "label": "G2 Logos reviews",
-      "url": "https://www.g2.com/products/logos/reviews",
-      "checked": "2026-07-25",
+      "label": "Logos privacy policy",
+      "url": "https://www.logos.com/privacy",
+      "checked": "2026-07-28",
       "supports": [
-        "Limited external user-feedback context",
-        "Learning-curve theme"
+        "Published privacy information",
+        "Need for contractual data-protection clarification"
+      ]
+    },
+    {
+      "label": "ICO guidance on special category data",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/",
+      "checked": "2026-07-28",
+      "supports": [
+        "UK GDPR special-category-data context"
+      ]
+    },
+    {
+      "label": "Logos community discussion about Logos for Church",
+      "url": "https://community.logos.com/forums/topic/234986-your-feedback-on-the-new-logos-for-church/",
+      "checked": "2026-07-28",
+      "supports": [
+        "Early user questions and feedback",
+        "Personal and church licence distinction",
+        "Pricing and adoption caveats"
       ]
     }
   ],
   "externalReviews": [
     {
-      "platform": "Google Play",
-      "profileUrl": "https://play.google.com/store/apps/details?id=com.logos.androidlogos",
-      "lastChecked": "2026-07-26",
+      "platform": "Apple App Store",
+      "profileUrl": "https://apps.apple.com/us/app/id336400266?see-all=reviews",
+      "lastChecked": "2026-07-28",
       "collectionType": "product",
       "dataAccessMethod": "manual",
-      "note": "This product listing is published as Logos: Deep Bible Study; this directory has not recorded an aggregate rating or review count."
+      "note": "General Logos app feedback, not a rating or a church-wide implementation study. It is used only to identify usability questions."
     }
   ],
   "affiliateRelationship": "yes",
-  "affiliateUrl": "https://logos.sjv.io/c/4986919/2524153/26054",
+  "affiliateUrl": "https://logos.sjv.io/3kOarX",
   "sponsored": false,
   "seo": {
-    "title": "Logos Bible Study review for UK churches and teachers",
-    "description": "Independent Logos Bible Study profile for UK churches: free access, research tools, sermon preparation, costs to check, user feedback and FAQs."
+    "title": "Logos for Church review for UK churches",
+    "description": "Evidence-led Logos for Church profile for UK churches: licences, leader and attendee access, annual pricing, individual plans and key questions to settle."
   }
 }

@@ -8,6 +8,14 @@ published: 2026-07-25
 updated: 2026-07-25
 relatedCategories:
   - church-management
+navigationTask: choose
+featuredOnSoftware:
+  - chmeetings
+  - churchcrm
+nextGuides:
+  - free-church-management-software-uk
+  - how-to-choose-church-management-software
+  - uk-church-gdpr-questions
 seo:
   title: Best church management software for small UK churches
   description: "Choose church management software for a small UK church by maintenance capacity, real workflows, UK requirements and total cost—not feature count."

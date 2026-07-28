@@ -8,6 +8,16 @@ published: 2026-07-25
 updated: 2026-07-25
 relatedCategories:
   - church-websites
+navigationTask: choose
+featuredOnCategories:
+  - church-websites
+featuredOnSoftware:
+  - church-edit
+  - hubb-church
+nextGuides:
+  - church-communications-software-uk
+  - uk-church-gdpr-questions
+  - church-software-stack-audit
 seo:
   title: Best church website builders in the UK
   description: "Choose a church website builder in the UK by everyday publishing, accessibility, events, giving, data ownership and the capacity of your editors."

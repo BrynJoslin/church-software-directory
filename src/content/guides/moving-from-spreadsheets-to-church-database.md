@@ -9,6 +9,11 @@ updated: 2026-07-28
 relatedCategories:
   - church-management
   - church-communications
+navigationTask: change
+nextGuides:
+  - how-to-choose-church-management-software
+  - migrate-church-management-software
+  - uk-church-gdpr-questions
 seo:
   title: "Moving from spreadsheets to a church database"
   description: "Decide whether to move church records from spreadsheets to a database, then clean, map, test, migrate and hand over the data responsibly."

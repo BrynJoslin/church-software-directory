@@ -9,6 +9,16 @@ updated: 2026-07-25
 relatedCategories:
   - church-management
   - online-giving
+navigationTask: check
+featuredOnCategories:
+  - online-giving
+featuredOnSoftware:
+  - give-a-little
+  - kindlink
+nextGuides:
+  - best-online-giving-platforms-uk-churches
+  - accounting-software-for-churches-uk
+  - uk-church-gdpr-questions
 seo:
   title: Church software with Gift Aid support
   description: "Assess UK church software for Gift Aid support: declarations, eligible donations, claims, fees, records, reconciliation and supplier evidence."

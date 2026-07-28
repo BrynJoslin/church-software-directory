@@ -9,6 +9,16 @@ updated: 2026-07-28
 relatedCategories:
   - sermon-hosting
   - livestreaming
+navigationTask: choose
+featuredOnCategories:
+  - sermon-hosting
+featuredOnSoftware:
+  - sermonaudio
+  - mcn-media
+nextGuides:
+  - church-livestreaming-software-uk
+  - church-communications-software-uk
+  - uk-church-gdpr-questions
 seo:
   title: "Sermon hosting and church podcast software | Church Software UK"
   description: "A practical guide to sermon hosting and church podcast software: archive, RSS, video, accessibility, ownership and migration."

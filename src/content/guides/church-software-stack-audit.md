@@ -9,6 +9,15 @@ updated: 2026-07-28
 relatedCategories:
   - church-management
   - church-communications
+navigationTask: change
+featuredOnCategories:
+  - church-communications
+featuredOnSoftware:
+  - churchtools
+nextGuides:
+  - all-in-one-church-software-vs-specialist-tools
+  - moving-from-spreadsheets-to-church-database
+  - migrate-church-management-software
 seo:
   title: "How to audit your church software stack | Church Software UK"
   description: "Audit your church software stack with a simple inventory of systems, owners, data, integrations, costs, renewals and exit routes."

@@ -9,6 +9,16 @@ updated: 2026-07-28
 relatedCategories:
   - pastoral-care
   - safeguarding
+navigationTask: check
+featuredOnCategories:
+  - pastoral-care
+featuredOnSoftware:
+  - shepherdcare
+  - iknow-safeguarding
+nextGuides:
+  - how-to-choose-church-safeguarding-software
+  - church-records-retention-software
+  - uk-church-gdpr-questions
 seo:
   title: "Pastoral care records and church software | Church Software UK"
   description: "A cautious UK guide to pastoral care records and software, covering purpose, access, confidentiality, retention and safeguarding boundaries."

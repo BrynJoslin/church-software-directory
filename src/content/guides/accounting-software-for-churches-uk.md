@@ -9,6 +9,17 @@ updated: 2026-07-28
 relatedCategories:
   - church-accounting
   - online-giving
+navigationTask: check
+featuredOnCategories:
+  - church-accounting
+  - online-giving
+featuredOnSoftware:
+  - expenseplus
+  - liberty-accounts
+nextGuides:
+  - church-management-software-cost
+  - church-software-gift-aid-support
+  - uk-church-gdpr-questions
 seo:
   title: "Accounting software for churches: UK buying guide"
   description: Choose accounting software for your UK church by comparing fund accounting, Gift Aid, financial controls, reporting, costs, migration and finance-led trials.

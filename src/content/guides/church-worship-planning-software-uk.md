@@ -9,6 +9,17 @@ updated: 2026-07-28
 relatedCategories:
   - worship-planning
   - volunteer-scheduling
+navigationTask: choose
+featuredOnCategories:
+  - worship-planning
+  - volunteer-scheduling
+featuredOnSoftware:
+  - planning-center
+  - churchtools
+nextGuides:
+  - best-church-rota-volunteer-scheduling-software
+  - church-childrens-check-in-software-uk
+  - all-in-one-church-software-vs-specialist-tools
 seo:
   title: "Church worship-planning software in the UK | Church Software UK"
   description: "A practical UK guide to worship-planning software: order of service, rotas, files, changes, volunteer handover and copyright boundaries."

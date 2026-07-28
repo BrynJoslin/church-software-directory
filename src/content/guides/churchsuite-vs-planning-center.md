@@ -10,6 +10,14 @@ relatedCategories:
   - church-management
   - online-giving
   - worship-planning
+navigationTask: compare
+featuredOnSoftware:
+  - churchsuite
+  - planning-center
+nextGuides:
+  - churchsuite-alternatives
+  - church-management-software-cost
+  - migrate-church-management-software
 seo:
   title: ChurchSuite vs Planning Center for UK churches
   description: "Compare ChurchSuite and Planning Center for a UK church: their suite models, pricing, Gift Aid evidence, volunteer workflows and questions to test."

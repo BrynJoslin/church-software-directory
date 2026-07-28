@@ -9,6 +9,16 @@ updated: 2026-07-28
 relatedCategories:
   - room-bookings
   - church-management
+navigationTask: choose
+featuredOnCategories:
+  - room-bookings
+featuredOnSoftware:
+  - hallmaster
+  - midas-room-booking
+nextGuides:
+  - church-event-ticketing-software-uk
+  - accounting-software-for-churches-uk
+  - uk-church-gdpr-questions
 seo:
   title: "Church hall booking software for UK churches | Church Software UK"
   description: "A practical UK guide to church hall booking software, covering public hire, internal rooms, payments, access, cancellations and reconciliation."

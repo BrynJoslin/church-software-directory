@@ -9,6 +9,13 @@ updated: 2026-07-28
 relatedCategories:
   - church-management
   - church-communications
+navigationTask: choose
+featuredOnSoftware:
+  - planning-center
+nextGuides:
+  - how-to-choose-church-management-software
+  - church-software-stack-audit
+  - migrate-church-management-software
 seo:
   title: "All-in-one vs specialist church software | Church Software UK"
   description: "Decide between an all-in-one church platform and specialist tools by mapping ownership, data, integration, cost and exit risk."

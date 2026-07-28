@@ -2,28 +2,173 @@
 import { getCollection } from "astro:content";
 import GuideCard from "../../components/GuideCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { categoryFamilies } from "../../utils/category-families";
+import { guideTasks } from "../../utils/guides";
 
-const guides = (await getCollection("guides")).sort(
-  (a, b) => b.data.updated.getTime() - a.data.updated.getTime()
+const [guides, categories] = await Promise.all([
+  getCollection("guides"),
+  getCollection("categories")
+]);
+const taskOrder = new Map(guideTasks.map((task, index) => [task.value, index]));
+const orderedGuides = [...guides].sort(
+  (a, b) =>
+    (taskOrder.get(a.data.navigationTask) ?? 99) -
+      (taskOrder.get(b.data.navigationTask) ?? 99) ||
+    a.data.title.localeCompare(b.data.title)
 );
+const startHereGuides = [...guides]
+  .filter((guide) => guide.data.startHereOrder)
+  .sort((a, b) => a.data.startHereOrder! - b.data.startHereOrder!);
+const categoryNames = Object.fromEntries(categories.map((category) => [category.id, category.data.name]));
+const categoriesById = new Map(categories.map((category) => [category.id, category]));
+const guideSearchText = (guide: (typeof guides)[number]) =>
+  [
+    guide.data.title,
+    guide.data.summary,
+    guideTasks.find((task) => task.value === guide.data.navigationTask)?.label,
+    ...guide.data.relatedCategories.map((category) => categoryNames[category.id])
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLocaleLowerCase("en-GB");
 ---
 
 <BaseLayout
   title="Church software guides"
-  description="Independent practical guides to church software requirements, data protection, total cost, migration and responsible selection."
+  description="Independent practical guides to choosing, comparing and changing church software, with UK questions about data, cost, migration and responsibility."
   breadcrumbs={[{ label: "Guides" }]}
 >
-  <section class="section">
+  <section class="section guide-hub-intro">
     <div class="container">
       <p class="eyebrow">Decision support</p>
       <h1>Church software guides</h1>
-      <p class="measure">
-        Work through the organisational questions before narrowing the product
-        shortlist.
+      <p class="measure lead-copy">
+        Find a practical next step for choosing software, checking a risk or
+        making a change. These guides are independent decision support, not a
+        product ranking.
       </p>
+      <form class="guide-search" action="/guides/" method="get" data-guide-form data-analytics-event="guide_search">
+        <label for="guide-search">Search guides</label>
+        <div class="guide-search__controls">
+          <input id="guide-search" name="q" type="search" autocomplete="off" placeholder="Try migration, Gift Aid or rotas" />
+          <button type="submit">Search guides</button>
+        </div>
+        <p class="guide-search__hint">Search narrows this page in your browser. All guides remain available below.</p>
+        <noscript><p class="guide-search__hint">Search terms are kept in the address, but this static page shows the complete guide library without browser enhancement.</p></noscript>
+      </form>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="start-here-heading">
+    <div class="container">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">A deliberate starting point</p>
+          <h2 id="start-here-heading">Start here</h2>
+        </div>
+        <p>Three evergreen guides for deciding what to choose, what to check and how to change responsibly.</p>
+      </div>
       <div class="grid">
-        {guides.map((guide) => <GuideCard entry={guide} />)}
+        {startHereGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_hub" />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="guide-tasks-heading">
+    <div class="container">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">Browse by need</p>
+          <h2 id="guide-tasks-heading">What do you need to do?</h2>
+        </div>
+        <p>Use the language of the decision in front of your church team.</p>
+      </div>
+      <nav class="guide-task-routes" aria-label="Guide tasks">
+        {guideTasks.map((task) => {
+          const count = guides.filter((guide) => guide.data.navigationTask === task.value).length;
+          return (
+            <a href={`/guides/?task=${task.value}`} data-guide-task-link data-task-value={task.value} data-analytics-event="guide_filter">
+              <strong>{task.label}</strong>
+              <span>{task.description}</span>
+              <small>{count} {count === 1 ? "guide" : "guides"}</small>
+            </a>
+          );
+        })}
+      </nav>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="guide-topics-heading">
+    <div class="container">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">Browse by church task</p>
+          <h2 id="guide-topics-heading">Find the right topic</h2>
+        </div>
+        <p>Topics use the same category structure as the software directory.</p>
+      </div>
+      <nav class="guide-topic-families" aria-label="Guide topics">
+        {categoryFamilies.map((family) => {
+          const familyCategories = family.categories.flatMap((id) => {
+            const category = categoriesById.get(id);
+            return category ? [category] : [];
+          });
+          return (
+            <section class="guide-topic-family" aria-labelledby={`guide-family-${family.name.replaceAll(/[^a-z0-9]+/gi, "-").toLowerCase()}`}>
+              <h3 id={`guide-family-${family.name.replaceAll(/[^a-z0-9]+/gi, "-").toLowerCase()}`}>{family.name}</h3>
+              <ul>
+                {familyCategories.map((category) => {
+                  const count = guides.filter((guide) => guide.data.relatedCategories.some((reference) => reference.id === category.id)).length;
+                  return (
+                    <li>
+                      <a href={`/guides/?category=${category.data.slug}`} data-guide-category-link data-category-value={category.data.slug} data-analytics-event="guide_filter">
+                        {category.data.name} <span>({count})</span>
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          );
+        })}
+      </nav>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="all-guides-heading">
+    <div class="container">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">Complete library</p>
+          <h2 id="all-guides-heading">All guides</h2>
+        </div>
+        <p id="guide-result-count" role="status" aria-live="polite">{orderedGuides.length} guides</p>
+      </div>
+      <div class="guide-applied-filters" data-guide-applied-filters hidden>
+        <span data-guide-filter-summary></span>
+        <button class="button button--secondary" type="button" data-clear-guide-filters>Clear all</button>
+      </div>
+      <div class="grid" data-guide-results>
+        {
+          orderedGuides.map((guide) => (
+            <div
+              data-guide-card
+              data-task={guide.data.navigationTask}
+              data-categories={guide.data.relatedCategories.map((category) => category.id).join(",")}
+              data-search={guideSearchText(guide)}
+            >
+              <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_hub" />
+            </div>
+          ))
+        }
+      </div>
+      <div class="empty-state" data-guide-empty-state hidden>
+        <h3>No guides match those terms.</h3>
+        <p>Try a broader search, clear the filters, browse a topic above or explore the <a href="/software/">software directory</a>.</p>
+        <button class="button button--secondary" type="button" data-clear-guide-filters>Clear search and filters</button>
       </div>
     </div>
   </section>
 </BaseLayout>
+
+<script src="../../scripts/guides.ts"></script>

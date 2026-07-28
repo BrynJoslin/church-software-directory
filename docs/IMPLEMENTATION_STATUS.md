@@ -16,6 +16,23 @@ profiles, 17 categories, 27 guides and 549 recorded source references. Older
 counts in the historical notes below describe earlier repository states; they
 are not the current public total.
 
+## Guide navigation — 28 July 2026
+
+- The guide hub is now a static, searchable library with reader-task routes,
+  category-family browsing, a curated three-guide `Start here` group and
+  complete server-rendered guide cards. Search and the two URL filters enhance
+  the page without hiding the full library when JavaScript is unavailable.
+- Every current guide records its reader task, two or three ordered next guides
+  and any deliberately selected category or software profile features.
+  Category and software pages reverse those relationships at build time; they
+  do not infer relevance from a broad shared category or a product mention.
+- `check-guides.mjs` now validates guide navigation references, Start here
+  positions, featured category limits, featured software body links and ordered
+  guide journeys. The internal maintenance dashboard includes the same
+  navigation coverage in its local report.
+- Category, product and guide pages now give readers a contextual next step;
+  guide and product inclusion remain explicitly non-endorsing.
+
 ## Phase 8 acquisition baseline — 28 July 2026
 
 - The homepage now leads with “Find church software that works in the UK”, a

@@ -1,20 +1,45 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "../utils/content";
+import { guideTaskLabel } from "../utils/guides";
 
 interface Props {
   entry: CollectionEntry<"guides">;
+  categoryNames?: Record<string, string>;
+  analyticsEvent?: string;
 }
 
-const { entry } = Astro.props;
+const { entry, categoryNames = {}, analyticsEvent } = Astro.props;
+const categories = entry.data.relatedCategories
+  .map((category) => ({ id: category.id, name: categoryNames[category.id] ?? category.id }))
+  .slice(0, 2);
+const hiddenCategoryCount = entry.data.relatedCategories.length - categories.length;
 ---
 
-<article class="plain-card">
-  <p class="eyebrow">
-    Updated <time datetime={entry.data.updated.toISOString().slice(0, 10)}>
-      {formatDate(entry.data.updated)}
-    </time>
+<article class="plain-card guide-card">
+  <p class="guide-card__meta">
+    <span class="guide-task-badge">{guideTaskLabel(entry.data.navigationTask)}</span>
+    <span>
+      Updated <time datetime={entry.data.updated.toISOString().slice(0, 10)}>
+        {formatDate(entry.data.updated)}
+      </time>
+    </span>
   </p>
-  <h2><a href={`/guides/${entry.data.slug}/`}>{entry.data.title}</a></h2>
+  <h2><a href={`/guides/${entry.data.slug}/`} data-analytics-event={analyticsEvent}>{entry.data.title}</a></h2>
   <p>{entry.data.summary}</p>
+  {
+    categories.length > 0 && (
+      <p class="guide-card__categories">
+        {categories.map((category, index) => (
+          <Fragment>
+            {index > 0 && ", "}
+            <a href={`/guides/?category=${category.id}`}>{category.name}</a>
+          </Fragment>
+        ))}
+        {hiddenCategoryCount > 0 && (
+          <span class="guide-card__more"> and {hiddenCategoryCount} more</span>
+        )}
+      </p>
+    )
+  }
 </article>

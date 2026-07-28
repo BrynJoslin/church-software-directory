@@ -4,6 +4,8 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const guideDirectory = path.join(root, "src", "content", "guides");
+const categoryDirectory = path.join(root, "src", "content", "categories");
+const softwareDirectory = path.join(root, "src", "content", "software");
 const allowedTypes = new Set([
   "buyers-guide",
   "comparison",
@@ -22,6 +24,15 @@ function scalar(frontmatter, key) {
     .match(new RegExp(`^${key}:\\s*(.+)$`, "m"))?.[1]
     ?.trim()
     .replace(/^['"]|['"]$/g, "");
+}
+
+function list(frontmatter, key) {
+  const match = frontmatter.match(
+    new RegExp(`^${key}:\\s*\\n((?:\\s+- .+\\n?)+)`, "m")
+  );
+  return match
+    ? [...match[1].matchAll(/^\s+-\s+(.+)$/gm)].map((item) => item[1].trim())
+    : [];
 }
 
 function plainWordCount(markdown) {
@@ -68,6 +79,15 @@ const files = (await readdir(guideDirectory))
 const failures = [];
 let conforming = 0;
 let legacy = 0;
+const categorySlugs = new Set(
+  (await readdir(categoryDirectory)).map((file) => file.replace(/\.md$/, ""))
+);
+const softwareSlugs = new Set(
+  (await readdir(softwareDirectory))
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => file.replace(/\.json$/, ""))
+);
+const guideNavigation = [];
 
 for (const file of files) {
   const raw = await readFile(path.join(guideDirectory, file), "utf8");
@@ -81,6 +101,12 @@ for (const file of files) {
   const slug = scalar(frontmatter, "slug");
   const guideType = scalar(frontmatter, "guideType");
   const standardVersion = scalar(frontmatter, "standardVersion");
+  const navigationTask = scalar(frontmatter, "navigationTask");
+  const startHereOrder = scalar(frontmatter, "startHereOrder");
+  const relatedCategories = list(frontmatter, "relatedCategories");
+  const featuredOnCategories = list(frontmatter, "featuredOnCategories");
+  const featuredOnSoftware = list(frontmatter, "featuredOnSoftware");
+  const nextGuides = list(frontmatter, "nextGuides");
 
   if (!slug) failures.push(`${file}: slug is required`);
   if (!allowedTypes.has(guideType)) {
@@ -98,6 +124,18 @@ for (const file of files) {
     }
     continue;
   }
+
+  guideNavigation.push({
+    file,
+    slug,
+    navigationTask,
+    startHereOrder,
+    relatedCategories,
+    featuredOnCategories,
+    featuredOnSoftware,
+    nextGuides,
+    body
+  });
 
   conforming += 1;
   if (legacySlugs.has(slug)) {
@@ -152,6 +190,70 @@ for (const file of files) {
     failures.push(`${file}: replace non-descriptive "click here" link text`);
   }
   for (const issue of issues) failures.push(`${file}: ${issue}`);
+}
+
+const navigationTasks = new Set(["choose", "compare", "change", "check"]);
+const guideSlugs = new Set(guideNavigation.map((guide) => guide.slug));
+const startHere = new Map();
+const categoryFeatures = new Map();
+const softwareFeatures = new Map();
+
+for (const guide of guideNavigation) {
+  if (!navigationTasks.has(guide.navigationTask)) {
+    failures.push(`${guide.file}: navigationTask must be choose, compare, change or check`);
+  }
+  if (guide.nextGuides.length < 2 || guide.nextGuides.length > 3) {
+    failures.push(`${guide.file}: nextGuides must contain two or three guide references`);
+  }
+  if (new Set(guide.nextGuides).size !== guide.nextGuides.length) {
+    failures.push(`${guide.file}: nextGuides cannot contain duplicates`);
+  }
+  if (guide.nextGuides.includes(guide.slug)) {
+    failures.push(`${guide.file}: nextGuides cannot reference the same guide`);
+  }
+  for (const nextGuide of guide.nextGuides) {
+    if (!guideSlugs.has(nextGuide)) {
+      failures.push(`${guide.file}: nextGuides references unknown guide ${nextGuide}`);
+    }
+  }
+  if (guide.startHereOrder) {
+    const order = Number(guide.startHereOrder);
+    if (!Number.isInteger(order) || order < 1 || order > 3) {
+      failures.push(`${guide.file}: startHereOrder must be an integer from 1 to 3`);
+    } else if (startHere.has(order)) {
+      failures.push(`${guide.file}: startHereOrder ${order} is already used by ${startHere.get(order)}`);
+    } else {
+      startHere.set(order, guide.file);
+    }
+  }
+  for (const category of guide.featuredOnCategories) {
+    if (!categorySlugs.has(category)) {
+      failures.push(`${guide.file}: featuredOnCategories references unknown category ${category}`);
+    }
+    if (!guide.relatedCategories.includes(category)) {
+      failures.push(`${guide.file}: featured category ${category} must also be in relatedCategories`);
+    }
+    categoryFeatures.set(category, [...(categoryFeatures.get(category) ?? []), guide.file]);
+  }
+  for (const software of guide.featuredOnSoftware) {
+    if (!softwareSlugs.has(software)) {
+      failures.push(`${guide.file}: featuredOnSoftware references unknown software ${software}`);
+    }
+    if (!guide.body.includes(`/software/${software}/`)) {
+      failures.push(`${guide.file}: featured software ${software} needs a software-profile link in the guide body`);
+    }
+    softwareFeatures.set(software, [...(softwareFeatures.get(software) ?? []), guide.file]);
+  }
+}
+
+if (startHere.size !== 3 || ![1, 2, 3].every((order) => startHere.has(order))) {
+  failures.push("Guide navigation requires exactly three unique startHereOrder values: 1, 2 and 3");
+}
+for (const [category, guides] of categoryFeatures) {
+  if (guides.length > 3) failures.push(`Category ${category} has more than three featured guides`);
+}
+for (const [software, guides] of softwareFeatures) {
+  if (guides.length > 3) failures.push(`Software ${software} has more than three featured guides`);
 }
 
 if (failures.length) {

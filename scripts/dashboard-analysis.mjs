@@ -64,7 +64,8 @@ export const priorityFor = (type) => ({
   "invalid-category": "Critical", "duplicate-identifier": "Critical", "invalid-url": "Critical",
   "no-sources": "High", "stale": "High", "invalid-date": "High", "missing-required": "High",
   "missing-optional": "Medium", "missing-seo": "Medium",
-  "missing-logo": "Low", "short-summary": "Low", "comparison-opportunity": "Low", "taxonomy": "Medium"
+  "missing-logo": "Low", "short-summary": "Low", "comparison-opportunity": "Low", "taxonomy": "Medium",
+  "guide-navigation": "Medium"
 }[type] ?? "Low");
 
 export function duplicateValues(items, property) {

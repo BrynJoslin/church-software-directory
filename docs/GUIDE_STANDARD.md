@@ -292,9 +292,13 @@ and every section changes what the reader understands or does.
 6. Check every factual claim against its source and keep supplier claims
    attributable.
 7. Complete the editorial acceptance checklist below.
-8. Set `standardVersion: "1.0"` only when all applicable requirements pass.
-9. Run `npm run check:guides`, `npm run check` and `npm run build`.
-10. Review the rendered page on mobile and desktop, including heading
+8. Set the required guide-navigation metadata: one `navigationTask`, two or
+   three ordered `nextGuides`, and any genuinely relevant featured category or
+   software relationships. Feature a product only when the guide contains a
+   direct listing link; do not infer relationships from shared categories.
+9. Set `standardVersion: "1.0"` only when all applicable requirements pass.
+10. Run `npm run check:guides`, `npm run check` and `npm run build`.
+11. Review the rendered page on mobile and desktop, including heading
     navigation, tables, links and keyboard behaviour.
 
 Changing only spelling, a broken link or one dated fact is maintenance, not a
@@ -345,6 +349,8 @@ The author or reviewer must answer every item before publication.
 - [ ] The source list includes access dates and research limits.
 - [ ] `standardVersion` is honest and the automated checks pass.
 - [ ] The rendered guide has been reviewed on mobile and desktop.
+- [ ] Reader task, continuation and any featured relationships are curated and
+      accurately reflect the guide's decision journey.
 
 ## Automated enforcement and legacy migration
 

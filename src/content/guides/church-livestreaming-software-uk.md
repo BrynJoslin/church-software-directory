@@ -9,6 +9,16 @@ updated: 2026-07-28
 relatedCategories:
   - livestreaming
   - sermon-hosting
+navigationTask: choose
+featuredOnCategories:
+  - livestreaming
+featuredOnSoftware:
+  - resi
+  - streamingchurch
+nextGuides:
+  - church-sermon-hosting-software-uk
+  - church-worship-planning-software-uk
+  - church-communications-software-uk
 seo:
   title: "Church livestreaming software in the UK | Church Software UK"
   description: "A practical UK guide to church livestreaming platforms and services, covering consent, copyright, accessibility, reliability and archives."

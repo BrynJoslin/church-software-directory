@@ -9,6 +9,16 @@ updated: 2026-07-28
 relatedCategories:
   - church-management
   - safeguarding
+navigationTask: check
+featuredOnCategories:
+  - safeguarding
+featuredOnSoftware:
+  - parish-safeguarding-dashboard
+  - churchbase
+nextGuides:
+  - uk-church-gdpr-questions
+  - migrate-church-management-software
+  - how-to-choose-church-safeguarding-software
 seo:
   title: "Church records retention and software | Church Software UK"
   description: "A cautious guide to church records retention and software: policy, record types, review dates, access, archiving, deletion and supplier exit."

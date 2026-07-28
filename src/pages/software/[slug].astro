@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import SoftwareCard from "../../components/SoftwareCard.astro";
+import GuideCard from "../../components/GuideCard.astro";
 import PublicFeedbackScan from "../../components/PublicFeedbackScan.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { siteConfig } from "../../config/site";
@@ -33,14 +34,19 @@ type RelatedProduct = {
 
 const { entry } = Astro.props;
 const software = entry.data;
-const [allSoftware, categories] = await Promise.all([
+const [allSoftware, categories, guides] = await Promise.all([
   getCollection("software"),
-  getCollection("categories")
+  getCollection("categories"),
+  getCollection("guides")
 ]);
 const relatedCategories = categories.filter((category) =>
   software.categories.some((reference) => reference.id === category.id)
 );
 const relatedProducts = findRelatedProducts(entry, allSoftware);
+const featuredGuides = guides.filter((guide) =>
+  guide.data.featuredOnSoftware.some((profile) => profile.id === entry.id)
+);
+const categoryNames = Object.fromEntries(categories.map((category) => [category.id, category.data.name]));
 const evidenceSummary = evidenceSummaryFor(entry);
 const procurementVerdict = software.editorial.procurementVerdict;
 const shortlistWhen = software.editorial.bestFor[0];
@@ -487,6 +493,25 @@ const faqJsonLd = longForm
       </aside>
     </div>
   </section>
+
+  {
+    featuredGuides.length > 0 && (
+      <section class="section" aria-labelledby="product-guides-heading">
+        <div class="container">
+          <div class="section-intro">
+            <div>
+              <p class="eyebrow">Decision support</p>
+              <h2 id="product-guides-heading">Guides that discuss {software.name}</h2>
+            </div>
+            <p>These guides use this profile as a relevant example or comparison point. Inclusion is not a ranking, testing result or endorsement.</p>
+          </div>
+          <div class="grid">
+            {featuredGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_software" />)}
+          </div>
+        </div>
+      </section>
+    )
+  }
 
   {
     relatedProducts.length > 0 && (

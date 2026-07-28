@@ -38,9 +38,21 @@ Suggested cadence:
 5. Once search data is available, replace supplied volume with dated
    Search Console evidence and review the order monthly.
 
-## Research basis for expansion
+## Current state and research basis
 
-The backlog was expanded on 27 July 2026 after:
+As at 28 July 2026, the live guide collection contains 27 published version
+1.0 guides across 17 categories. The original strategic-expansion queue below
+has been completed; it remains as a decision record and its rows now point to
+evidence and performance refreshes rather than unpublished work.
+
+The published directory baseline has three Bible-study listings. That is enough to begin a
+bounded research queue, but not enough to treat every Bible-reading, video,
+training and research product as directly comparable. The five Logos-derived
+opportunities below are therefore explicitly evidence-gated.
+
+### Original expansion research
+
+The strategic backlog was originally expanded on 27 July 2026 after:
 
 - auditing the 12 published guides, 17 category pages and 147 software-entry
   files in the repository;
@@ -66,22 +78,22 @@ and inclusion boundary before it selects listings.
 | Category | Listings in repository | Existing or proposed guide coverage |
 | --- | ---: | --- |
 | Online giving | 56 | Published buying guide and Gift Aid explainer |
-| Church communications | 47 | Strategic candidate S10 |
-| Church management | 44 | Published guide cluster; strategic candidates S1, S3 and S4 |
-| Worship planning | 39 | Strategic candidate S9 |
+| Church communications | 47 | Published explainer on email, messaging and apps |
+| Church management | 44 | Published guide cluster, including database, consolidation and migration decisions |
+| Worship planning | 39 | Published buyers' guide |
 | Volunteer scheduling | 24 | Published buying guide |
 | Church websites | 24 | Published buying guide |
-| Sermon hosting | 21 | Strategic candidate S12 |
-| Events and ticketing | 19 | Strategic candidate S11 |
-| Church accounting | 16 | Current writing queue rank 1 |
+| Sermon hosting | 21 | Published buyers' guide |
+| Events and ticketing | 19 | Published buyers' guide |
+| Church accounting | 16 | Published buyers' guide |
 | Presentation software | 14 | Current writing queue rank 2 |
 | Church mobile apps | 13 | Treat within S10 first; separate guide parked |
-| Room and venue bookings | 11 | Strategic candidate S5 |
-| Safeguarding administration | 10 | Strategic candidate S2 |
-| Pastoral care | 10 | Strategic candidate S6 |
-| Livestreaming | 9 | Strategic candidate S8 |
-| Children's ministry | 8 | Strategic candidate S7; broader resource guide parked |
-| Bible study | 3 | Watchlist only until evidence and demand improve |
+| Room and venue bookings | 11 | Published buyers' guide |
+| Safeguarding administration | 10 | Published buyers' guide with bounded scope |
+| Pastoral care | 10 | Published explainer with bounded scope |
+| Livestreaming | 9 | Published buyers' guide |
+| Children's ministry | 8 | Published check-in buyers' guide; broader resource guide parked |
+| Bible study | 3 | Logos research-derived queue L1–L5; do not treat adjacent product types as direct substitutes |
 
 ### External decision signals
 
@@ -129,9 +141,9 @@ rather than confirmed UK search demand.
 
 | Rank | Canonical guide opportunity | Keyword variants and supplied volume | Intended decision | Score | Status | Next action |
 | --- | --- | --- | --- | ---: | --- | --- |
-| 1 | **Church accounting software for UK churches** (`church-accounting-software-uk`) | `church accounting software uk` — 70; `best accounting software for churches uk` — 30 | Whether a church needs dedicated accounting software, and how to compare suitable options, controls, costs and implementation needs. | 9 | Ready to brief | Create a buyers-guide brief; use the existing church-accounting category and define comparable finance, Gift Aid and charity-control criteria before selecting listings. |
+| 1 | **Church accounting software for UK churches** (`church-accounting-software-uk`) | `church accounting software uk` — 70; `best accounting software for churches uk` — 30 | Whether a church needs dedicated accounting software, and how to compare suitable options, controls, costs and implementation needs. | 9 | Published | [Accounting software for churches: a UK buying guide](/guides/accounting-software-for-churches-uk/) is the canonical guide. Recheck product, tax and finance-control evidence when performance or source changes warrant it. |
 | 2 | **Church presentation software for UK churches** (`church-presentation-software-uk`) | `church presentation software uk` — 30 | How to choose projection/presentation software while separating software, content licences, service reliability and volunteer workflow. | 8 | Ready to brief | Create a buyers-guide brief; use the presentation-software category and make licensing, offline resilience, accessibility and live-service testing explicit criteria. |
-| 3 | **Free church accounting software in the UK** (candidate section or follow-on guide) | `free church accounting software uk` — 20 | Whether a free option is suitable, what it does not cover and when a paid or existing finance process is safer. | 7 | Parked behind rank 1 | First cover this decision as a substantive section and comparison criterion in the accounting guide. Create a separate guide only if search evidence shows a distinct need that cannot be answered there without weakening either page. |
+| 3 | **Free church accounting software in the UK** (candidate section or follow-on guide) | `free church accounting software uk` — 20 | Whether a free option is suitable, what it does not cover and when a paid or existing finance process is safer. | 7 | Parked behind the published accounting guide | First check whether the published accounting guide gives this decision adequate prominence. Create a separate guide only if search evidence shows a distinct need that cannot be answered there without weakening either page. |
 
 ## Strategic expansion queue
 
@@ -160,6 +172,21 @@ the main scoring model.
 | S13 | **How to audit your church software stack** (`church-software-stack-audit`) | `how-to` | How to inventory systems, owners, users, data, integrations, costs, renewals and exit routes; then decide what to keep, consolidate, replace or stop. | Cross-catalogue evidence is strong; the growth strategy already identifies a software-stack audit as a reusable asset. Demand is unmeasured. | 5 | Published 28 July 2026; test demand and use of the inventory framework with administrator audiences. |
 | S14 | **Church records retention and software: what to keep, archive or delete** (`church-records-retention-software`) | `explainer` | How a church turns its applicable retention rules into system fields, access, review dates, archives and deletion workflows without assuming the software decides the policy. | Strong May 2026 Church of England evidence and ICO context; applicability differs by denomination, nation and record type. | 5 | Published 28 July 2026 with a deliberately limited multi-denominational scope; retain expert review at the next evidence refresh. |
 
+## Logos research-derived queue — 28 July 2026
+
+These opportunities arise from the Logos for Church research brief. They are
+not a commitment to publish, an endorsement of Logos, or evidence that the
+named products are direct substitutes. No search-volume data has been recorded
+for this cluster.
+
+| Ref | Canonical guide opportunity | Type | Intended decision and distinct value | Evidence position | Status / next action |
+| --- | --- | --- | --- | --- | --- |
+| L1 | **How UK churches can choose Bible study software for leaders and groups** (`choose-bible-study-software-uk-churches`) | `buyers-guide` | Whether the church needs personal research software, a church-wide licence programme, group-study resources, a video library or a simpler free Bible-reading route. | Three Bible-study listings and the Logos research brief create a starting point, but the market map and first-party evidence for other product types are incomplete. | Researching | Define inclusion and exclusion criteria before selecting products. The guide must distinguish research, reading, video discipleship and training rather than rank unlike products. |
+| L2 | **Should your church buy Bible software for everyone?** (`church-wide-bible-software-licences`) | `how-to` | Whether an attendance-wide licence programme is proportionate; how to assess likely adoption, leader and attendee access, onboarding, licence administration, data, renewal and offboarding. | The Logos brief provides a strong case study, but no cross-supplier evidence base has yet been assembled. | Briefing | Build a neutral decision framework first. Use Logos only as one sourced example and do not imply that church-wide licensing is the normal model. |
+| L3 | **Logos for Church vs individual Logos plans** (`logos-for-church-vs-individual-logos`) | `comparison` | Whether a leader’s personal study need, a small leadership cohort or a managed church programme is the better purchasing route. | Church-plan research is current; current consumer plan pricing, libraries, overlap rules and UK terms require first-party refresh. | Parked | Resume only after recording like-for-like current consumer and church-plan evidence. Keep affiliate status separate from the editorial conclusion and disclosure. |
+| L4 | **What UK churches should ask before buying member-based software** (`member-data-software-due-diligence-uk`) | `explainer` | How a church should assess contracts, special-category data, administration visibility, processors, transfers, retention, export and offboarding before sharing a membership list. | Strong ICO context and a published GDPR supplier-question guide already cover the core decision. | Merged | Strengthen [GDPR questions for church software suppliers](/guides/uk-church-gdpr-questions/) if this research exposes a material missing member-data or offboarding question; do not create a near-duplicate guide. |
+| L5 | **BibleProject, YouVersion, RightNow Media and Logos: what each is for** (`bible-resources-and-church-software-explained`) | `explainer` | How to distinguish free Bible reading, video discipleship, leader training and Bible research before treating products as alternatives. | The Logos brief identifies the decision boundary; fresh first-party evidence and a clear scope are required for every named service. | Researching | Build a purpose-and-workflow taxonomy, not a ranked comparison. Confirm every current feature, price and UK route before drafting. |
+
 ### Lower-priority and merge candidates
 
 | Candidate | Current routing decision |
@@ -169,7 +196,7 @@ the main scoring model.
 | **Total cost of church software** | Strengthen and route to the published church-management cost guide unless evidence supports a genuinely cross-category cost model. Do not create separate price pages for minor keyword variants. |
 | **How to create a church software requirements list** | Route to the published selection guide and the `/shortlist/` decision pack. A separate guide is unnecessary unless user evidence shows that the requirements output needs a fuller tutorial. |
 | **Children's ministry curriculum and resource software** | Keep separate from check-in, attendance and safeguarding. Reassess after the category contains a stronger set of comparable resource platforms. |
-| **Bible study software for churches** | Watchlist only. Three current listings are not enough for a broad independent market guide, and personal study apps do not automatically form an organisational church-software decision. |
+| **Bible study software for churches** | Routed to L1. Keep its evidence gate: personal study apps, video libraries and training platforms are not automatically comparable church-software options. |
 | **Denomination-specific software guides** | Create only where governance, workflows or approved systems materially differ and an informed denominational reviewer is available. Avoid thin localisation. |
 | **Church AI tools** | Deferred in the roadmap. Do not create a guide until the category, evidence method, privacy questions and maintenance burden are explicitly approved. |
 

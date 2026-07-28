@@ -9,6 +9,17 @@ updated: 2026-07-28
 relatedCategories:
   - church-communications
   - church-mobile-apps
+navigationTask: choose
+featuredOnCategories:
+  - church-communications
+  - church-mobile-apps
+featuredOnSoftware:
+  - flocknote
+  - pushpay
+nextGuides:
+  - all-in-one-church-software-vs-specialist-tools
+  - church-software-stack-audit
+  - uk-church-gdpr-questions
 seo:
   title: "Church communications software: email, messaging or an app?"
   description: "A practical UK framework for choosing church email, messaging and app tools without fragmenting lists, preferences or ownership."

@@ -9,6 +9,16 @@ updated: 2026-07-25
 relatedCategories:
   - church-management
   - worship-planning
+navigationTask: choose
+featuredOnCategories:
+  - worship-planning
+featuredOnSoftware:
+  - worshiptools
+  - elvanto
+nextGuides:
+  - church-worship-planning-software-uk
+  - church-childrens-check-in-software-uk
+  - all-in-one-church-software-vs-specialist-tools
 seo:
   title: Best church rota and volunteer scheduling software
   description: "Choose church rota and volunteer scheduling software by availability, permissions, service planning, volunteer experience and the work leaders can maintain."

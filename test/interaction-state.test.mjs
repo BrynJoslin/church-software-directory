@@ -169,3 +169,36 @@ test("profiles present a three-level answer before the full evidence record", as
   assert.match(source, /Check first/);
   assert.match(source, /Settle before buying/);
 });
+
+test("guide hub keeps static content while restoring valid URL search and filters", async () => {
+  const [page, source] = await Promise.all([
+    readFile(new URL("../src/pages/guides/index.astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/scripts/guides.ts", import.meta.url), "utf8")
+  ]);
+  assert.match(page, /data-guide-card/);
+  assert.match(page, /data-guide-task-link/);
+  assert.match(page, /data-guide-category-link/);
+  assert.match(page, /data-guide-empty-state/);
+  assert.match(page, /<noscript>/);
+  assert.match(source, /const validTasks/);
+  assert.match(source, /const validCategories/);
+  assert.match(source, /window\.addEventListener\("popstate"/);
+  assert.match(source, /terms\.every/);
+});
+
+test("guide navigation remains curated and contextually rendered", async () => {
+  const [checker, categoryPage, softwarePage, guidePage, home] = await Promise.all([
+    readFile(new URL("../scripts/check-guides.mjs", import.meta.url), "utf8"),
+    readFile(new URL("../src/pages/categories/[slug].astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/pages/software/[slug].astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/pages/guides/[slug].astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/pages/index.astro", import.meta.url), "utf8")
+  ]);
+  assert.match(checker, /featured category .*relatedCategories/);
+  assert.match(checker, /featured software .*software-profile link/);
+  assert.match(checker, /exactly three unique startHereOrder/);
+  assert.match(categoryPage, /Guides for this decision/);
+  assert.match(softwarePage, /Guides that discuss/);
+  assert.match(guidePage, /Continue your decision/);
+  assert.match(home, /startHereOrder/);
+});

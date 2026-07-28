@@ -10,6 +10,14 @@ relatedCategories:
   - church-management
   - online-giving
   - worship-planning
+navigationTask: compare
+featuredOnSoftware:
+  - churchtools
+  - chmeetings
+nextGuides:
+  - churchsuite-vs-planning-center
+  - migrate-church-management-software
+  - all-in-one-church-software-vs-specialist-tools
 seo:
   title: ChurchSuite alternatives for UK churches
   description: "Compare meaningful ChurchSuite alternatives for UK churches: service planning, UK Gift Aid, lower-cost evaluation, hosting and migration trade-offs."

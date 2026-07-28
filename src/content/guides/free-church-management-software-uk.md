@@ -8,6 +8,14 @@ published: 2026-07-25
 updated: 2026-07-25
 relatedCategories:
   - church-management
+navigationTask: choose
+featuredOnSoftware:
+  - churchcrm
+  - b1-church
+nextGuides:
+  - best-church-management-software-small-churches
+  - how-to-choose-church-management-software
+  - church-management-software-cost
 seo:
   title: Free church management software in the UK
   description: "Assess free church management software for a UK church: capacity limits, US-dollar add-ons, technical responsibility, Gift Aid and data exit."

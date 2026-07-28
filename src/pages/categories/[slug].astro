@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import SoftwareCard from "../../components/SoftwareCard.astro";
+import GuideCard from "../../components/GuideCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
@@ -17,12 +18,20 @@ interface Props {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const allSoftware = await getCollection("software");
+const [allSoftware, allGuides, allCategories] = await Promise.all([
+  getCollection("software"),
+  getCollection("guides"),
+  getCollection("categories")
+]);
 const relevantSoftware = allSoftware
   .filter((software) =>
     software.data.categories.some((category) => category.id === entry.id)
   )
   .sort((a, b) => a.data.name.localeCompare(b.data.name));
+const featuredGuides = allGuides.filter((guide) =>
+  guide.data.featuredOnCategories.some((category) => category.id === entry.id)
+);
+const categoryNames = Object.fromEntries(allCategories.map((category) => [category.id, category.data.name]));
 ---
 
 <BaseLayout
@@ -60,6 +69,26 @@ const relevantSoftware = allSoftware
       </ul>
     </div>
   </section>
+
+  {
+    featuredGuides.length > 0 && (
+      <section class="section" aria-labelledby="category-guides-heading">
+        <div class="container">
+          <div class="section-intro">
+            <div>
+              <p class="eyebrow">Decision support</p>
+              <h2 id="category-guides-heading">Guides for this decision</h2>
+            </div>
+            <p>These guides help you frame the work and questions around {entry.data.name.toLocaleLowerCase("en-GB")}.</p>
+          </div>
+          <div class="grid">
+            {featuredGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_category" />)}
+          </div>
+          <p class="section-link"><a href={`/guides/?category=${entry.data.slug}`}>See all guides about {entry.data.name}</a></p>
+        </div>
+      </section>
+    )
+  }
 
   <section class="section" aria-labelledby="products-heading">
     <div class="container">

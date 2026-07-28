@@ -255,6 +255,11 @@ const guides = defineCollection({
     published: z.coerce.date(),
     updated: z.coerce.date(),
     relatedCategories: z.array(reference("categories")).default([]),
+    navigationTask: z.enum(["choose", "compare", "change", "check"]),
+    startHereOrder: z.number().int().min(1).max(3).optional(),
+    featuredOnCategories: z.array(reference("categories")).max(3).default([]),
+    featuredOnSoftware: z.array(reference("software")).max(3).default([]),
+    nextGuides: z.array(reference("guides")).min(2).max(3),
     seo: z.object({
       title: z.string().max(65),
       description: z.string().min(50).max(170)

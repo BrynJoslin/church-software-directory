@@ -9,6 +9,14 @@ updated: 2026-07-25
 relatedCategories:
   - church-management
   - online-giving
+navigationTask: check
+startHereOrder: 2
+featuredOnSoftware:
+  - churchdesk
+nextGuides:
+  - how-to-choose-church-management-software
+  - church-records-retention-software
+  - migrate-church-management-software
 seo:
   title: GDPR questions for church software suppliers
   description: Practical questions UK churches can ask software suppliers about data roles, contracts, security, sub-processors, retention and exports.

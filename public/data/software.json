@@ -1,7 +1,7 @@
 {
   "contentAsOf": "2026-07-28",
   "licence": "No reuse licence has yet been selected.",
-  "count": 147,
+  "count": 148,
   "software": [
     {
       "name": "A Church Near You",
@@ -9242,6 +9242,190 @@
           "supports": [
             "Limited external user-feedback context",
             "Learning-curve theme"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Logos for Church",
+      "slug": "logos",
+      "shortDescription": "A church-wide Logos subscription that gives named leaders Pro-level Bible-study tools and attendees Plus access, with licences assigned against the church’s average weekly attendance.",
+      "officialWebsite": "https://www.logos.com/church",
+      "company": "Logos",
+      "countryOfOrigin": null,
+      "ukFocus": "general",
+      "categories": [
+        "bible-study"
+      ],
+      "suitableChurchSizes": [
+        "small",
+        "medium",
+        "large",
+        "multi-site"
+      ],
+      "pricing": {
+        "model": "tiered",
+        "summary": "Logos for Church is priced by average weekly attendance. The smallest published starting point is US$50 per month for up to 100 attendees, but the supplier describes the purchase as an annual contract; ask Logos for the current UK billing currency, VAT treatment and full price table.",
+        "startingPrice": {
+          "amount": 50,
+          "currency": "USD",
+          "period": "month",
+          "qualifier": "Up to 100 average weekly attendees; annual contract"
+        },
+        "tiers": [
+          {
+            "label": "Logos for Church",
+            "price": "from US$50/month",
+            "detail": "Up to 100 average weekly attendees; the church may mix named leader and attendee licences within its attendance limit. The supplier describes this as an annual contract."
+          },
+          {
+            "label": "Leader access",
+            "price": "Included within the church plan",
+            "detail": "Equivalent to Logos Pro, with sermon preparation, Bible Study Builder, original-language tools and a 500-plus-resource library, according to Logos."
+          },
+          {
+            "label": "Attendee access",
+            "price": "Included within the church plan",
+            "detail": "Equivalent to Logos Plus, with Bible reading, Smart Search, Study Assistant, Factbook and a 70-plus-resource library, according to Logos."
+          },
+          {
+            "label": "Individual Logos plans",
+            "price": "See current consumer pricing",
+            "detail": "Free, Plus, Pro and Max options may suit a leader who wants personal access without a church-wide attendance subscription. Confirm the current library, billing and terms directly with Logos."
+          }
+        ],
+        "trialDetails": "Logos advertises a 30-day trial for eligible first-time subscribers, subject to its terms. Confirm when a church contract begins, whether the trial converts automatically and any cancellation liability before subscribing."
+      },
+      "freePlan": "yes",
+      "freeTrial": "yes",
+      "decisionEvidence": {
+        "contact-band": {
+          "value": "Attendance-based licences, with a public starting band of up to 100 attendees",
+          "state": "supplier-published",
+          "source": "https://www.logos.com/church",
+          "checked": "2026-07-28"
+        },
+        "technical-administration": {
+          "value": "Church administrators assign named licences; ask how bulk removal, usage reporting and offboarding work",
+          "state": "supplier-published",
+          "source": "https://support.logos.com/hc/en-us/articles/18365606568973-Add-People-to-Your-Group-or-Subgroup",
+          "checked": "2026-07-28"
+        },
+        "uk-purchasing": {
+          "value": "A UK contact number is published; ask for the UK commercial terms that would apply",
+          "state": "supplier-published",
+          "source": "https://www.logos.com/contact",
+          "checked": "2026-07-28"
+        },
+        "gbp-pricing": {
+          "value": "US-dollar price published; ask whether GBP billing is available",
+          "state": "needs-refresh",
+          "source": "https://www.logos.com/terms",
+          "checked": "2026-07-28"
+        },
+        "vat-treatment": {
+          "value": "Applicable VAT and similar taxes are excluded in the general terms; ask how UK VAT is handled",
+          "state": "needs-refresh",
+          "source": "https://www.logos.com/terms",
+          "checked": "2026-07-28"
+        }
+      },
+      "lastChecked": "2026-07-28",
+      "sources": [
+        {
+          "label": "Logos for Church",
+          "url": "https://www.logos.com/church",
+          "checked": "2026-07-28",
+          "supports": [
+            "Church subscription purpose",
+            "Leader and attendee access",
+            "Resource categories",
+            "Attendance-based licensing",
+            "Starting price",
+            "Training and group resources"
+          ]
+        },
+        {
+          "label": "Logos terms of service",
+          "url": "https://www.logos.com/terms",
+          "checked": "2026-07-28",
+          "supports": [
+            "US-dollar payment terms",
+            "Taxes excluded from prices",
+            "Annual subscription and renewal terms",
+            "Early cancellation and access terms"
+          ]
+        },
+        {
+          "label": "Logos church sales enquiry",
+          "url": "https://www.logos.com/church/talk-to-an-expert",
+          "checked": "2026-07-28",
+          "supports": [
+            "Published attendance bands",
+            "Custom demonstration availability"
+          ]
+        },
+        {
+          "label": "Logos church resource list",
+          "url": "https://files.logoscdn.com/v1/files/89642568/assets/17748172/content.pdf?signature=TL_HSl0pSWmhNpZGup63-GNHrWE",
+          "checked": "2026-07-28",
+          "supports": [
+            "Leader and attendee resource categories",
+            "Included Bible, commentary and study resources"
+          ]
+        },
+        {
+          "label": "Logos group licence access guidance",
+          "url": "https://support.logos.com/hc/en-us/articles/18348329198861-Accessing-Logos-Group-Licenses",
+          "checked": "2026-07-28",
+          "supports": [
+            "Individual group-licence access",
+            "Personal account relationship"
+          ]
+        },
+        {
+          "label": "Logos group administration guidance",
+          "url": "https://support.logos.com/hc/en-us/articles/18365606568973-Add-People-to-Your-Group-or-Subgroup",
+          "checked": "2026-07-28",
+          "supports": [
+            "Adding people to a Logos group",
+            "Named licence administration"
+          ]
+        },
+        {
+          "label": "Logos contact information",
+          "url": "https://www.logos.com/contact",
+          "checked": "2026-07-28",
+          "supports": [
+            "Published UK contact number",
+            "Contact channels"
+          ]
+        },
+        {
+          "label": "Logos privacy policy",
+          "url": "https://www.logos.com/privacy",
+          "checked": "2026-07-28",
+          "supports": [
+            "Published privacy information",
+            "Need for contractual data-protection clarification"
+          ]
+        },
+        {
+          "label": "ICO guidance on special category data",
+          "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/",
+          "checked": "2026-07-28",
+          "supports": [
+            "UK GDPR special-category-data context"
+          ]
+        },
+        {
+          "label": "Logos community discussion about Logos for Church",
+          "url": "https://community.logos.com/forums/topic/234986-your-feedback-on-the-new-logos-for-church/",
+          "checked": "2026-07-28",
+          "supports": [
+            "Early user questions and feedback",
+            "Personal and church licence distinction",
+            "Pricing and adoption caveats"
           ]
         }
       ]

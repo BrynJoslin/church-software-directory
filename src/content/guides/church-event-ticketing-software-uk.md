@@ -9,6 +9,16 @@ updated: 2026-07-28
 relatedCategories:
   - events-ticketing
   - church-management
+navigationTask: choose
+featuredOnCategories:
+  - events-ticketing
+featuredOnSoftware:
+  - ticket-tailor
+  - eventcube
+nextGuides:
+  - church-hall-booking-software-uk
+  - uk-church-gdpr-questions
+  - all-in-one-church-software-vs-specialist-tools
 seo:
   title: "Church event ticketing software | Church Software UK"
   description: "A practical UK guide to church event ticketing and registration: fees, capacity, refunds, attendee data, check-in and reconciliation."
