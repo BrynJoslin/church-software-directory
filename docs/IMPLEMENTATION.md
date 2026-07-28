@@ -63,6 +63,7 @@ Do not scatter environment-specific values across components.
 Create validated collections for:
 
 - software
+- charityOffers
 - categories
 - guides
 

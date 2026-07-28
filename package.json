@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "npm run prepare:data && astro dev",
-    "check": "npm run prepare:data && astro check && node scripts/check-public-copy.mjs && node scripts/check-content-integrity.mjs && npm run check:guides",
+    "check": "npm run prepare:data && astro check && node scripts/check-public-copy.mjs && node scripts/check-content-integrity.mjs && npm run check:charity-offers && npm run check:guides",
+    "check:charity-offers": "node scripts/check-charity-offers.mjs",
     "check:guides": "node scripts/check-guides.mjs",
     "check:content": "node scripts/dashboard.mjs",
     "check:links": "node scripts/check-links.mjs",
@@ -24,7 +25,7 @@
     "check:internal-links": "node scripts/check-internal-links.mjs",
     "check:accessibility": "node scripts/check-accessibility.mjs",
     "build": "npm run prepare:data && npm run check:guides && astro build && node scripts/check-public-copy.mjs --built && node scripts/check-dashboard-output.mjs && npm run check:sitemap && npm run check:internal-links && npm run check:accessibility",
-    "test:interactions": "node --experimental-strip-types --test test/interaction-state.test.mjs",
+    "test:interactions": "node --experimental-strip-types --test test/interaction-state.test.mjs test/charity-offer-state.test.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

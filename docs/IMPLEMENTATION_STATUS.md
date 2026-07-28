@@ -617,6 +617,20 @@ handling are in place.
 
 ## Maintenance note
 
+### Charity software discounts — delivered 28 July 2026
+
+- Added the indexable `/charity-software-discounts/` decision hub, a 19-record
+  `charityOffers` collection and a public `/data/charity-offers.json` export.
+- The first register contains 15 current programmes, three separately rendered
+  warnings (Slack, Airtable and HubSpot), and one non-public hold record.
+  Programme cards show source-backed benefit types, UK and church eligibility,
+  caveats, checked dates and official routes; Ticket Tailor links to its
+  existing profile.
+- Added `check:charity-offers`, including source-reference, publication-status,
+  related-profile and 75/120-day freshness safeguards. The hub filters by
+  search, task, benefit and eligibility using URL state with static HTML as the
+  no-JavaScript baseline.
+
 Do not add more listings until the revised Phase 3 completion gate passes.
 Resume catalogue expansion only in small, reviewed evidence-backed batches.
 
