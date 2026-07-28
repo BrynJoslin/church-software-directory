@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import SoftwareCard from "../../components/SoftwareCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getDirectoryStats } from "../../utils/directory-stats";
 
 const [software, categories] = await Promise.all([
   getCollection("software"),
@@ -9,11 +10,12 @@ const [software, categories] = await Promise.all([
 ]);
 software.sort((a, b) => a.data.name.localeCompare(b.data.name));
 categories.sort((a, b) => a.data.name.localeCompare(b.data.name));
+const directoryStats = getDirectoryStats(software);
 const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   name: "Church software directory",
-  numberOfItems: software.length,
+  numberOfItems: directoryStats.listingCount,
   itemListElement: software.map((entry, index) => ({
     "@type": "ListItem",
     position: index + 1,
@@ -31,7 +33,7 @@ const itemListJsonLd = {
 >
   <section class="section">
     <div class="container">
-      <p class="eyebrow">{software.length} researched profiles</p>
+      <p class="eyebrow">{directoryStats.listingCount} researched profiles</p>
       <h1>Church software directory</h1>
       <p class="measure">
         Search supplier-sourced facts and independent directory assessments.
@@ -145,7 +147,7 @@ const itemListJsonLd = {
         <div>
           <div class="results-toolbar">
             <p id="result-count" role="status" aria-live="polite">
-              {software.length} results
+              {directoryStats.listingCount} results
             </p>
             <a href="/compare/">Compare two to four products</a>
           </div>

@@ -122,6 +122,10 @@ It supplies Astro's sitemap integration and the generated `robots.txt` route,
 as well as canonical, Open Graph and structured-data URLs. The publisher and
 public correction route are configured in the same file.
 
+Public catalogue totals are build-derived by `src/utils/directory-stats.ts`.
+Use `getDirectoryStats()` for any new public profile or source-link count rather
+than adding a manually maintained number to a page.
+
 Suggestions and supplier updates open a pre-addressed email to
 `directory@churchsoftware.co.uk`. They accept public
 supplier evidence only; contributors must not submit

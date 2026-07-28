@@ -2,8 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { siteConfig } from "../config/site";
+import { getDirectoryStats } from "../utils/directory-stats";
 
 const software = await getCollection("software");
+const directoryStats = getDirectoryStats(software);
 const correctionRoute = siteConfig.publisher.correctionRoute?.startsWith(siteConfig.url)
   ? siteConfig.publisher.correctionRoute.slice(siteConfig.url.length) || "/"
   : siteConfig.publisher.correctionRoute;
@@ -39,11 +41,12 @@ const correctionRoute = siteConfig.publisher.correctionRoute?.startsWith(siteCon
         </p>
         <h2>Current catalogue</h2>
         <p>
-          The directory currently contains {software.length} researched listings.
+          Church Software UK is live and currently includes {directoryStats.listingCount}{" "}
+          researched profiles and {directoryStats.sourceLinkCount}{" "}dated source links.
           It is not a market-wide shortlist, and inclusion is not endorsement.
         </p>
-        <h2>Publisher and correction route</h2>
-        <p><strong>Responsible publisher:</strong> {siteConfig.publisher.name}</p>
+        <h2>Publisher, accountability and corrections</h2>
+        <p><strong>Publisher:</strong> {siteConfig.publisher.name}</p>
         <p>{siteConfig.publisher.background}</p>
         <p>
           <a href={correctionRoute}>Contact the publisher about a correction or update.</a>
