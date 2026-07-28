@@ -211,6 +211,29 @@ endorsement, or emit aggregate rating or review structured data.
 
 Do not include copied review wording, names, handles, profile identifiers, ratings, counts or sensitive allegations. Record only original, qualified summaries after source-permission and human editorial review. `externalReviews` may provide matched profile links within this panel, but is not a theme source unless it is also recorded in `sources[]`.
 
+## Charity offers
+
+Charity-offer entries are JSON files in `src/content/charity-offers/`. One
+entry represents a supplier programme or suite, rather than duplicating each
+benefit as a separate offer. `benefits[]` must identify its type and cite one
+or more `sources[].id` values. Church eligibility uses one of
+`explicitly-eligible`, `registered-charity-route`, `confirm-first`,
+`not-for-churches` or `not-in-uk`; it is an evidence classification, not an
+approval guarantee.
+
+`publicationStatus: published` is for current available programmes;
+`warning` is reserved for exclusions or material cautions; `hold` and
+`retired` never render publicly. Every benefit, eligibility and UK-availability
+claim needs a source reference and checked date. Published and warning records
+are reviewed at least every 90 days; `npm run check:charity-offers` warns at 75
+days and fails after 120 days. `relatedSoftware` is optional and one-way: it
+links an offer to an existing fuller directory profile without changing that
+profile's independent assessment.
+
+Do not add ordinary free plans, unsupported headline percentages or theoretical
+savings totals. Keep currency, VAT, renewal, seat and product limitations in
+the benefit qualifiers or caveats, and use the official application route.
+
 ## Categories
 
 Category entries are Markdown files in `src/content/categories/`.

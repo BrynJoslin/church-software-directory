@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatCompactDate } from "../utils/content";
+
+interface Props { entry: CollectionEntry<"charityOffers">; filterable?: boolean; }
+const { entry, filterable = false } = Astro.props;
+const offer = entry.data;
+const eligibilityLabels = { "explicitly-eligible": "Churches are explicitly included", "registered-charity-route": "A UK registered charity may qualify", "confirm-first": "Confirm church eligibility before applying", "not-for-churches": "The charity programme excludes churches", "not-in-uk": "The programme is not currently available in the UK" };
+const categoryLabels = { "office-collaboration": "Office & collaboration", "communications-design": "Communications & design", "work-management": "Work management", "finance-payroll": "Finance & payroll", "crm-fundraising": "CRM & fundraising", "meetings-events": "Meetings & events", payments: "Payments", security: "Security", "ai-cloud-developer": "AI, cloud & developer" };
+const benefitLabels = { "donated-plan": "Donated plan", "donated-licences": "Donated licences", "subscription-discount": "Subscription discount", "transaction-rate": "Transaction rate", "usage-credit": "Usage credit", "advertising-credit": "Advertising credit", "competitive-grant": "Competitive grant" };
+const search = [offer.name, offer.provider, offer.summary, ...offer.categories, ...offer.benefits.map((benefit) => `${benefit.label} ${benefit.value}`)].join(" ").toLowerCase();
+---
+<article class="charity-offer-card" data-charity-offer={filterable ? "" : undefined} data-search={search} data-categories={offer.categories.join(",")} data-benefits={offer.benefits.map((benefit) => benefit.type).join(",")} data-eligibility={offer.churchEligibility.status}>
+  <div class="card-heading"><div><h3>{offer.name}</h3><p class="card-meta">{offer.provider}</p></div></div>
+  <p>{offer.summary}</p>
+  <ul class="tag-list" aria-label="Tasks">{offer.categories.map((category) => <li>{categoryLabels[category]}</li>)}</ul>
+  <dl class="card-facts charity-offer-facts">
+    <div><dt>Church eligibility</dt><dd>{eligibilityLabels[offer.churchEligibility.status]}</dd></div>
+    <div><dt>UK route</dt><dd>{offer.ukAvailability.summary}</dd></div>
+  </dl>
+  <ul class="offer-benefits" aria-label="Published benefits">{offer.benefits.map((benefit) => <li><strong>{benefitLabels[benefit.type]}:</strong> {benefit.label} — {benefit.value}{benefit.qualifier && ` (${benefit.qualifier})`}</li>)}</ul>
+  {offer.caveats.length > 0 && <p class="offer-caveat"><strong>Important:</strong> {offer.caveats.join(" ")}</p>}
+  <p><strong>First check:</strong> {offer.firstCheck}</p>
+  <p class="card-meta">Last checked: <time datetime={offer.lastChecked.toISOString().slice(0, 10)}>{formatCompactDate(offer.lastChecked)}</time></p>
+  <p class="offer-links"><a class="button button--secondary" href={offer.application.url} target="_blank" rel="noopener noreferrer">Check eligibility with {offer.provider} <span class="visually-hidden">(opens in a new tab)</span></a>{offer.relatedSoftware && <a href={`/software/${offer.relatedSoftware.id}/`}>Read the directory profile</a>}</p>
+</article>

@@ -262,4 +262,82 @@ const guides = defineCollection({
   })
 });
 
-export const collections = { software, categories, guides };
+const charityOfferBenefit = z.object({
+  type: z.enum([
+    "donated-plan",
+    "donated-licences",
+    "subscription-discount",
+    "transaction-rate",
+    "usage-credit",
+    "advertising-credit",
+    "competitive-grant"
+  ]),
+  label: z.string().min(1),
+  value: z.string().min(1),
+  qualifier: z.string().min(1).optional(),
+  sourceRefs: z.array(z.string().min(1)).min(1)
+});
+
+const charityOffers = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./src/content/charity-offers" }),
+  schema: z.object({
+    name: z.string().min(1),
+    slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+    provider: z.string().min(1),
+    officialWebsite: z.url(),
+    summary: z.string().min(40).max(220),
+    categories: z.array(z.enum([
+      "office-collaboration", "communications-design", "work-management",
+      "finance-payroll", "crm-fundraising", "meetings-events", "payments",
+      "security", "ai-cloud-developer"
+    ])).min(1),
+    benefits: z.array(charityOfferBenefit).min(1),
+    churchEligibility: z.object({
+      status: z.enum(["explicitly-eligible", "registered-charity-route", "confirm-first", "not-for-churches", "not-in-uk"]),
+      summary: z.string().min(1),
+      sourceRefs: z.array(z.string().min(1)).min(1)
+    }),
+    ukAvailability: z.object({
+      status: z.enum(["confirmed", "conditional", "not-available"]),
+      summary: z.string().min(1),
+      sourceRefs: z.array(z.string().min(1)).min(1)
+    }),
+    requirements: z.array(z.string().min(1)).default([]),
+    application: z.object({
+      route: z.enum(["direct", "goodstack", "techsoup-uk", "charity-digital", "sales", "support"]),
+      url: z.url(),
+      steps: z.array(z.string().min(1)).default([])
+    }),
+    caveats: z.array(z.string().min(1)).default([]),
+    firstCheck: z.string().min(1),
+    relatedSoftware: reference("software").optional(),
+    sources: z.array(z.object({
+      id: z.string().regex(/^[a-z0-9-]+$/),
+      label: z.string().min(1),
+      url: z.url(),
+      checked: z.coerce.date(),
+      supports: z.array(z.string().min(1)).min(1)
+    })).min(1),
+    lastChecked: z.coerce.date(),
+    reviewDue: z.coerce.date(),
+    publicationStatus: z.enum(["published", "warning", "hold", "retired"]),
+    affiliateRelationship: triState.default("no"),
+    sponsored: z.boolean().default(false)
+  }).superRefine((offer, context) => {
+    const sourceIds = new Set(offer.sources.map((source) => source.id));
+    const requiredRefs = [
+      ...offer.benefits.flatMap((benefit) => benefit.sourceRefs),
+      ...offer.churchEligibility.sourceRefs,
+      ...offer.ukAvailability.sourceRefs
+    ];
+    requiredRefs.forEach((sourceRef) => {
+      if (!sourceIds.has(sourceRef)) context.addIssue({ code: "custom", message: `Unknown source reference: ${sourceRef}` });
+    });
+    if (offer.reviewDue < offer.lastChecked) context.addIssue({ code: "custom", message: "reviewDue cannot be before lastChecked.", path: ["reviewDue"] });
+    if (offer.publicationStatus === "published" && ["not-for-churches", "not-in-uk"].includes(offer.churchEligibility.status)) {
+      context.addIssue({ code: "custom", message: "Excluded offers must use warning, hold or retired publication status.", path: ["publicationStatus"] });
+    }
+  })
+});
+
+export const collections = { software, categories, guides, charityOffers };

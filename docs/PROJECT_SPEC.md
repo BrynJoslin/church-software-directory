@@ -144,6 +144,7 @@ The architecture should support:
 /
  /software/
  /software/[slug]/
+ /charity-software-discounts/
  /categories/
  /categories/[slug]/
  /shortlist/
