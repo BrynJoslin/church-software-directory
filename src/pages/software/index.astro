@@ -9,9 +9,6 @@ const [software, categories] = await Promise.all([
 ]);
 software.sort((a, b) => a.data.name.localeCompare(b.data.name));
 categories.sort((a, b) => a.data.name.localeCompare(b.data.name));
-const categoryNames = new Map(
-  categories.map((category) => [category.id, category.data.name])
-);
 const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
@@ -53,7 +50,7 @@ const itemListJsonLd = {
       <div class="directory-layout">
         <aside class="filter-panel enhancement" aria-labelledby="filter-heading">
           <h2 id="filter-heading">Filter software</h2>
-          <form action="/software/" method="get" data-directory-form>
+          <form action="/software/" method="get" data-directory-form data-analytics-event="directory_search_or_filter">
             <div class="form-field">
               <label for="directory-search">Keyword</label>
               <input
@@ -138,7 +135,7 @@ const itemListJsonLd = {
             </div>
             <div class="filter-actions">
               <button type="submit">Apply filters</button>
-              <button class="button--secondary" type="button" data-clear-filters>
+              <button class="button--secondary" type="button" data-clear-filters data-analytics-event="directory_clear_filters">
                 Clear all
               </button>
             </div>
@@ -157,19 +154,22 @@ const itemListJsonLd = {
               software.map((entry) => (
                 <SoftwareCard
                   entry={entry}
-                  categoryNames={categoryNames}
                   filterable
                 />
               ))
             }
           </div>
+          <p class="result-reveal-status enhancement" data-result-reveal-status role="status" aria-live="polite"></p>
+          <p class="result-reveal-actions enhancement">
+            <button class="button button--secondary" type="button" data-show-more-results data-analytics-event="directory_show_more">Show more products</button>
+          </p>
           <div class="empty-state" data-empty-state hidden>
             <h2>No software matches those filters</h2>
             <p>
               Try removing one or more filters. A profile only matches a factual
               filter when the directory has supporting evidence for that value.
             </p>
-            <button class="button--secondary" type="button" data-empty-clear>
+            <button class="button--secondary" type="button" data-empty-clear data-analytics-event="directory_clear_filters">
               Clear all filters
             </button>
           </div>

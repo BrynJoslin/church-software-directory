@@ -17,18 +17,12 @@ interface Props {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const [allSoftware, allCategories] = await Promise.all([
-  getCollection("software"),
-  getCollection("categories")
-]);
+const allSoftware = await getCollection("software");
 const relevantSoftware = allSoftware
   .filter((software) =>
     software.data.categories.some((category) => category.id === entry.id)
   )
   .sort((a, b) => a.data.name.localeCompare(b.data.name));
-const categoryNames = new Map(
-  allCategories.map((category) => [category.id, category.data.name])
-);
 ---
 
 <BaseLayout
@@ -72,11 +66,15 @@ const categoryNames = new Map(
       <h2 id="products-heading">Products in this category</h2>
       {
         relevantSoftware.length > 0 ? (
-          <div class="software-grid">
+          <div class="software-grid" data-result-reveal>
             {relevantSoftware.map((software) => (
-              <SoftwareCard entry={software} categoryNames={categoryNames} />
+              <SoftwareCard entry={software} filterable />
             ))}
           </div>
+          <p class="result-reveal-status enhancement" data-result-reveal-status role="status" aria-live="polite"></p>
+          <p class="result-reveal-actions enhancement">
+            <button class="button button--secondary" type="button" data-show-more-results data-analytics-event="category_show_more">Show more products</button>
+          </p>
         ) : (
           <div class="empty-state">
             <p>No researched products have been added to this category yet.</p>
@@ -88,3 +86,4 @@ const categoryNames = new Map(
 </BaseLayout>
 
 <script src="../../scripts/prose-tables.ts"></script>
+<script src="../../scripts/result-reveal.ts"></script>

@@ -1,8 +1,11 @@
+import { setupResultReveal } from "./result-reveal";
+
 const form = document.querySelector<HTMLFormElement>("[data-directory-form]");
 const results = document.querySelector<HTMLElement>("[data-software-results]");
 const cards = Array.from(
   document.querySelectorAll<HTMLElement>("[data-software-card]")
 );
+const resultReveal = results ? setupResultReveal(results, cards) : undefined;
 
 export {};
 const resultCount = document.querySelector<HTMLElement>("#result-count");
@@ -57,7 +60,7 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
   const giftAid = getControl("gift-aid")?.value ?? "";
   const pricing = getControl("pricing")?.value ?? "";
   const sort = getControl("sort")?.value ?? "name";
-  let visibleCount = 0;
+  const visibleCards: HTMLElement[] = [];
 
   cards.forEach((card) => {
     const visible =
@@ -69,8 +72,8 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
       (!freeTrial || card.dataset.freeTrial === freeTrial) &&
       (!giftAid || card.dataset.giftAid === giftAid) &&
       (!pricing || card.dataset.pricing === pricing);
-    card.hidden = !visible;
-    if (visible) visibleCount += 1;
+    card.dataset.filterMatch = String(visible);
+    if (visible) visibleCards.push(card);
   });
 
   const sortedCards = [...cards].sort((a, b) => {
@@ -84,10 +87,14 @@ const applyFilters = (historyMode: "push" | "replace" = "replace") => {
   });
   sortedCards.forEach((card) => results.append(card));
 
-  resultCount.textContent = `${visibleCount} ${
-    visibleCount === 1 ? "result" : "results"
+  resultReveal?.update(
+    sortedCards.filter((card) => card.dataset.filterMatch === "true"),
+    true
+  );
+  resultCount.textContent = `${visibleCards.length} ${
+    visibleCards.length === 1 ? "result" : "results"
   }`;
-  emptyState.hidden = visibleCount !== 0;
+  emptyState.hidden = visibleCards.length !== 0;
 
   const parameters = new URLSearchParams();
   const values: Record<string, string> = {

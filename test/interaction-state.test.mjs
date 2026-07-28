@@ -96,11 +96,18 @@ test("directory URL state has explicit allowed values and safe URL loading", asy
   assert.match(source, /window\.addEventListener\("popstate"/);
 });
 
-test("comparison state enforces its selection bounds and handles unknown slugs", async () => {
-  const source = await readFile(new URL("../src/scripts/comparison.ts", import.meta.url), "utf8");
-  assert.match(source, /selectedCount > 4/);
+test("comparison selectors prevent duplicates and preserve valid URL state", async () => {
+  const [source, page] = await Promise.all([
+    readFile(new URL("../src/scripts/comparison.ts", import.meta.url), "utf8"),
+    readFile(new URL("../src/pages/compare/index.astro", import.meta.url), "utf8")
+  ]);
+  assert.match(source, /selectedElsewhere/);
+  assert.match(source, /option\.disabled = selectedElsewhere\.has/);
   assert.match(source, /filter\(\(slug\) => !validSlugs\.has\(slug\)\)/);
-  assert.match(source, /Choose at least two products/);
+  assert.match(source, /slice\(0, 4\)/);
+  assert.match(source, /window\.addEventListener\("popstate"/);
+  assert.match(page, /data-comparison-search/);
+  assert.match(page, /comparison-fallback-list/);
 });
 
 test("decision pack remains a printable, static output", async () => {
@@ -117,4 +124,48 @@ test("shortlist URL loading validates every answer against the current count", a
   assert.match(source, /afterCount > 0 && afterCount < beforeCount/);
   assert.match(source, /params\.get\("category"\) \?\? params\.get\("job"\)/);
   assert.match(source, /window\.addEventListener\("popstate"/);
+});
+
+test("homepage search uses the directory query state and its entry routes are consent-measurable", async () => {
+  const [home, layout] = await Promise.all([
+    readFile(new URL("../src/pages/index.astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url), "utf8")
+  ]);
+  assert.match(home, /action="\/software\/" method="get"/);
+  assert.match(home, /name="q"/);
+  assert.match(home, /homepage_search/);
+  assert.match(home, /homepage_directory_entry/);
+  assert.match(home, /homepage_comparison_entry/);
+  assert.match(home, /homepage_shortlist_start/);
+  assert.match(home, /const sourceCount = software\.reduce/);
+  assert.match(layout, /data-analytics-event/);
+  assert.match(layout, /localStorage\.getItem\(consentKey\) === "accepted"/);
+});
+
+test("directory reveal keeps filtering and sorting on the complete card set", async () => {
+  const [directory, reveal, cards] = await Promise.all([
+    readFile(new URL("../src/scripts/directory.ts", import.meta.url), "utf8"),
+    readFile(new URL("../src/scripts/result-reveal.ts", import.meta.url), "utf8"),
+    readFile(new URL("../src/components/SoftwareCard.astro", import.meta.url), "utf8")
+  ]);
+  assert.match(directory, /setupResultReveal\(results, cards\)/);
+  assert.match(directory, /sortedCards\.filter\(\(card\) => card\.dataset\.filterMatch === "true"\)/);
+  assert.match(reveal, /const visibleLimit = Math\.min\(shown, visibleCards\.length\)/);
+  assert.match(reveal, /Show \$\{Math\.min\(limit, remaining\)\} more products/);
+  assert.match(cards, /Published from/);
+  assert.match(cards, /Relevant check/);
+  assert.match(cards, /Best fit/);
+  assert.match(cards, /Add to comparison/);
+});
+
+test("profiles present a three-level answer before the full evidence record", async () => {
+  const source = await readFile(new URL("../src/pages/software/[slug].astro", import.meta.url), "utf8");
+  const summary = source.indexOf("30-second answer");
+  const assessment = source.indexOf("Five-minute assessment");
+  const dueDiligence = source.indexOf("Full due diligence");
+  const sources = source.indexOf("Sources reviewed");
+  assert.ok(summary > -1 && assessment > summary && dueDiligence > assessment && sources > dueDiligence);
+  assert.match(source, /Shortlist when/);
+  assert.match(source, /Check first/);
+  assert.match(source, /Settle before buying/);
 });

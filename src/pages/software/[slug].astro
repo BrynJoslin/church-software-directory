@@ -40,16 +40,11 @@ const [allSoftware, categories] = await Promise.all([
 const relatedCategories = categories.filter((category) =>
   software.categories.some((reference) => reference.id === category.id)
 );
-const categoryNames = new Map(
-  categories.map((category) => [category.id, category.data.name])
-);
 const relatedProducts = findRelatedProducts(entry, allSoftware);
 const evidenceSummary = evidenceSummaryFor(entry);
-const procurementVerdict = software.editorial.procurementVerdict ?? {
-  problem: software.editorial.bestFor[0],
-  differentiator: software.coreFeatures[0] ?? "Compare the published capabilities with the church's intended workflow.",
-  firstCheck: software.editorial.limitations[0]
-};
+const procurementVerdict = software.editorial.procurementVerdict;
+const shortlistWhen = software.editorial.bestFor[0];
+const firstUnresolvedQuestion = procurementVerdict?.firstCheck ?? software.editorial.limitations[0];
 const ukFocus = ukFocusLabel(software.ukFocus);
 const ukOrganisation = ukOrganisationLabel(software.ukOrganisation);
 const pricingModel = pricingModelLabel(software.pricing.model);
@@ -69,7 +64,12 @@ const hasAffiliateLink =
   siteConfig.features.affiliateLinks &&
   software.affiliateRelationship === "yes" &&
   Boolean(software.affiliateUrl);
-const visitUrl = hasAffiliateLink ? software.affiliateUrl! : software.officialWebsite;
+const hasTicketTailorReferralOffer = software.slug === "ticket-tailor" && hasAffiliateLink;
+const visitUrl = hasTicketTailorReferralOffer
+  ? software.officialWebsite
+  : hasAffiliateLink
+    ? software.affiliateUrl!
+    : software.officialWebsite;
 const faqJsonLd = longForm
   ? {
       "@context": "https://schema.org",
@@ -120,10 +120,10 @@ const faqJsonLd = longForm
             class="button"
             href={visitUrl}
             target="_blank"
-            rel={hasAffiliateLink ? "noopener noreferrer sponsored" : "noopener noreferrer"}
-            data-referral-vendor={software.name}
+            rel={hasAffiliateLink && !hasTicketTailorReferralOffer ? "noopener noreferrer sponsored" : "noopener noreferrer"}
+            data-referral-vendor={hasAffiliateLink && !hasTicketTailorReferralOffer ? software.name : undefined}
           >
-            {hasAffiliateLink ? "Visit official website (affiliate link)" : "Visit official website"}
+            {hasAffiliateLink && !hasTicketTailorReferralOffer ? "Visit official website (affiliate link)" : "Visit official website"}
           </a>
           <a
             class="button button--secondary"
@@ -134,7 +134,32 @@ const faqJsonLd = longForm
           </a>
         </div>
         {
-          (hasAffiliateLink || software.sponsored) && (
+          hasTicketTailorReferralOffer && (
+            <aside class="notice referral-offer" aria-label="Ticket Tailor referral offer">
+              <p class="eyebrow">Ticket Tailor referral credit</p>
+              <p>
+                New to Ticket Tailor? Sign up through our referral link to receive 50 free ticket credits.
+              </p>
+              <p>
+                <a
+                  class="button button--secondary"
+                  href={software.affiliateUrl}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  data-referral-vendor={software.name}
+                >
+                  Get 50 free ticket credits
+                </a>
+              </p>
+              <p class="muted">
+                This referral link may earn Church Software UK a commission. It does not affect this profile’s assessment or ranking.
+                <a href="/affiliate-disclosure/"> Read our commercial disclosure.</a>
+              </p>
+            </aside>
+          )
+        }
+        {
+          (hasAffiliateLink || software.sponsored) && !hasTicketTailorReferralOffer && (
             <aside class="notice" aria-label="Commercial disclosure">
               {hasAffiliateLink && (
                 <p>
@@ -150,6 +175,50 @@ const faqJsonLd = longForm
             </aside>
           )
         }
+
+        <section class="profile-summary" aria-labelledby="summary-heading">
+          <p class="eyebrow">30-second answer</p>
+          <h2 id="summary-heading">What to know before you open the full record</h2>
+          <dl class="detail-list">
+            <div>
+              <dt>What it is</dt>
+              <dd>{software.shortDescription}</dd>
+            </div>
+            {
+              (software.suitableContexts.length > 0 || shortlistWhen) && (
+                <div>
+                  <dt>Contexts worth testing</dt>
+                  <dd>{software.suitableContexts.length > 0 ? software.suitableContexts.join(", ") : shortlistWhen}</dd>
+                </div>
+              )
+            }
+            {startingPrice && <div><dt>Published starting price</dt><dd>{startingPrice}</dd></div>}
+            {
+              (ukFocus || ukOrganisation || giftAid) && (
+                <div>
+                  <dt>Relevant UK checks</dt>
+                  <dd>{[ukFocus, ukOrganisation, giftAid ? `Gift Aid: ${giftAid}` : null].filter(Boolean).join(" · ")}</dd>
+                </div>
+              )
+            }
+            {shortlistWhen && <div><dt>Shortlist when</dt><dd>{shortlistWhen}</dd></div>}
+            {firstUnresolvedQuestion && <div><dt>Check first</dt><dd>{firstUnresolvedQuestion}</dd></div>}
+            <div>
+              <dt>Evidence date</dt>
+              <dd>Sources checked {formatDate(software.lastChecked)}</dd>
+            </div>
+          </dl>
+          <p class="profile-summary__boundary">
+            This is an evidence-led starting point, not a ranking or hands-on
+            verdict. Supplier sources establish what they publish; your church
+            should test material workflows and resolve the questions below.
+          </p>
+        </section>
+
+        <section class="profile-section" aria-labelledby="five-minute-heading">
+          <p class="eyebrow">Five-minute assessment</p>
+          <h2 id="five-minute-heading">Assess the likely fit and trade-offs</h2>
+        </section>
 
         {
           longForm && (
@@ -168,29 +237,28 @@ const faqJsonLd = longForm
 
         {publicFeedback && <PublicFeedbackScan feedback={publicFeedback} reviews={software.externalReviews} />}
 
-        <section class="profile-verdict" aria-labelledby="procurement-verdict-heading">
-          <p class="eyebrow">Procurement verdict</p>
-          <h2 id="procurement-verdict-heading">What to investigate first</h2>
-          <dl class="detail-list">
-            <div>
-              <dt>Problem this profile addresses</dt>
-              <dd>{procurementVerdict.problem}</dd>
-            </div>
-            <div>
-              <dt>Material differentiator to test</dt>
-              <dd>{procurementVerdict.differentiator}</dd>
-            </div>
-            <div>
-              <dt>First question to settle</dt>
-              <dd>{procurementVerdict.firstCheck}</dd>
-            </div>
-          </dl>
-          {
-            !software.editorial.procurementVerdict && (
-              <p class="muted">This structured verdict is awaiting an editorial rewrite; it currently draws on the existing assessment, recorded features and limitations.</p>
-            )
-          }
-        </section>
+        {
+          procurementVerdict && (
+            <section class="profile-verdict" aria-labelledby="procurement-verdict-heading">
+              <p class="eyebrow">Decision framing</p>
+              <h2 id="procurement-verdict-heading">Shortlist when, then check first</h2>
+              <dl class="detail-list">
+                <div>
+                  <dt>Shortlist when</dt>
+                  <dd>{procurementVerdict.problem}</dd>
+                </div>
+                <div>
+                  <dt>Test in a real workflow</dt>
+                  <dd>{procurementVerdict.differentiator}</dd>
+                </div>
+                <div>
+                  <dt>Settle before buying</dt>
+                  <dd>{procurementVerdict.firstCheck}</dd>
+                </div>
+              </dl>
+            </section>
+          )
+        }
 
         {
           evidenceSummary.fields.length > 0 && (
@@ -328,6 +396,12 @@ const faqJsonLd = longForm
           )
         }
 
+        <section class="profile-section" aria-labelledby="due-diligence-heading">
+          <p class="eyebrow">Full due diligence</p>
+          <h2 id="due-diligence-heading">Evidence, operations and source record</h2>
+          <p>Use this full record to test practical details, retain source links and take specific gaps to the supplier.</p>
+        </section>
+
         {
           hasOperations && (
             <section aria-labelledby="operations-heading">
@@ -423,8 +497,9 @@ const faqJsonLd = longForm
             {relatedProducts.map(
               (related: RelatedProduct) => (
                 <div>
-                  <SoftwareCard entry={related.entry} categoryNames={categoryNames} />
+                  <SoftwareCard entry={related.entry} />
                   <p class="related-reason">Why shown: {related.reason}</p>
+                  <p class="related-reason"><a href="/compare/" data-comparison-products={`${software.slug},${related.entry.data.slug}`}>Compare similar products</a></p>
                 </div>
               )
             )}
@@ -434,14 +509,3 @@ const faqJsonLd = longForm
     )
   }
 </BaseLayout>
-
-<script>
-  document.querySelectorAll("a[data-comparison-product]").forEach((link) => {
-    if (!(link instanceof HTMLAnchorElement)) return;
-
-    const product = link.dataset.comparisonProduct;
-    if (product) {
-      link.href = `/compare/?products=${encodeURIComponent(product)}`;
-    }
-  });
-</script>

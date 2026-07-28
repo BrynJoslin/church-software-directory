@@ -2,25 +2,27 @@
 import type { CollectionEntry } from "astro:content";
 import {
   formatCompactDate,
-  pricingModelLabel,
   triStateLabel,
-  ukFocusLabel,
-  ukOrganisationLabel
+  formatStartingPrice,
+  ukFocusLabel
 } from "../utils/content";
 
 interface Props {
   entry: CollectionEntry<"software">;
-  categoryNames: Map<string, string>;
   filterable?: boolean;
 }
 
-const { entry, categoryNames, filterable = false } = Astro.props;
+const { entry, filterable = false } = Astro.props;
 const software = entry.data;
-const ukFocus = ukFocusLabel(software.ukFocus);
-const ukOrganisation = ukOrganisationLabel(software.ukOrganisation);
-const pricingModel = pricingModelLabel(software.pricing.model);
-const freeTrial = triStateLabel(software.freeTrial);
+const startingPrice = formatStartingPrice(software.pricing.startingPrice);
 const giftAid = software.giftAid ? triStateLabel(software.giftAid) : null;
+const ukFocus = ukFocusLabel(software.ukFocus);
+const bestFit = software.editorial.bestFor[0];
+const relevantSignal = giftAid
+  ? `Gift Aid: ${giftAid}`
+  : ukFocus
+    ? ukFocus
+    : null;
 const searchText = [
   software.name,
   software.shortDescription,
@@ -62,62 +64,21 @@ const searchText = [
       )
     }
     <div>
-      <h2><a href={`/software/${software.slug}/`}>{software.name}</a></h2>
+      <h2><a href={`/software/${software.slug}/`} data-analytics-event="directory_profile_open">{software.name}</a></h2>
     </div>
   </div>
   <p>{software.shortDescription}</p>
-  <ul class="tag-list" aria-label="Categories">
-    {
-      software.categories.map((category) => (
-        <li>{categoryNames.get(category.id) ?? category.id}</li>
-      ))
-    }
-  </ul>
-  <dl class="card-facts">
-    {
-      ukFocus && (
-        <div>
-          <dt>UK focus</dt>
-          <dd>{ukFocus}</dd>
-        </div>
-      )
-    }
-    {
-      ukOrganisation && (
-        <div>
-          <dt>Organisation</dt>
-          <dd>{ukOrganisation}</dd>
-        </div>
-      )
-    }
-    {
-      pricingModel && (
-        <div>
-          <dt>Pricing</dt>
-          <dd>{pricingModel}</dd>
-        </div>
-      )
-    }
-    {
-      freeTrial && (
-        <div>
-          <dt>Free trial</dt>
-          <dd>{freeTrial}</dd>
-        </div>
-      )
-    }
-    {
-      giftAid && (
-        <div>
-          <dt>Gift Aid</dt>
-          <dd>{giftAid}</dd>
-        </div>
-      )
-    }
+  <dl class="compact-card-facts">
+    {startingPrice && <div><dt>Published from</dt><dd>{startingPrice}</dd></div>}
+    {relevantSignal && <div><dt>Relevant check</dt><dd>{relevantSignal}</dd></div>}
+    {bestFit && <div><dt>Best fit</dt><dd>{bestFit}</dd></div>}
   </dl>
-  <p class="card-meta">
-    Last checked: <time datetime={software.lastChecked.toISOString().slice(0, 10)}>
-      {formatCompactDate(software.lastChecked)}
-    </time>
-  </p>
+  <div class="compact-card-footer">
+    <p class="card-meta">
+      Last checked: <time datetime={software.lastChecked.toISOString().slice(0, 10)}>
+        {formatCompactDate(software.lastChecked)}
+      </time>
+    </p>
+    <a class="button button--secondary" href="/compare/" data-comparison-product={software.slug} data-analytics-event="comparison_add_from_card">Add to comparison</a>
+  </div>
 </article>

@@ -8,8 +8,7 @@ const navItems = [
   { href: "/categories/", label: "Categories" },
   { href: "/shortlist/", label: "Build a shortlist" },
   { href: "/compare/", label: "Compare" },
-  { href: "/guides/", label: "Guides" },
-  { href: "/methodology/", label: "Methodology" }
+  { href: "/guides/", label: "Guides" }
 ];
 ---
 
@@ -36,6 +35,10 @@ const navItems = [
       </button>
     </div>
     <nav id="primary-navigation" class="site-nav" aria-label="Primary navigation">
+      <button class="menu-close" type="button">
+        <span class="menu-close__icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Close menu</span>
+      </button>
       <ul class="nav-list">
         {
           navItems.map((item) => (
@@ -57,13 +60,22 @@ const navItems = [
 <script is:inline>
   const menuToggle = document.querySelector(".menu-toggle");
   const primaryNavigation = document.querySelector("#primary-navigation");
+  const menuClose = primaryNavigation?.querySelector(".menu-close");
   const mobileMenu = window.matchMedia("(max-width: 52rem)");
 
-  if (menuToggle && primaryNavigation) {
+  if (menuToggle && primaryNavigation && menuClose) {
     const setMenuState = (isOpen) => {
       menuToggle.setAttribute("aria-expanded", String(isOpen));
       menuToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
       primaryNavigation.hidden = !isOpen;
+      document.body.classList.toggle("menu-open", isOpen && mobileMenu.matches);
+
+      if (isOpen && mobileMenu.matches) {
+        primaryNavigation.setAttribute("role", "dialog");
+        primaryNavigation.setAttribute("aria-label", "Site menu");
+        primaryNavigation.setAttribute("aria-modal", "true");
+        menuClose.focus();
+      }
     };
 
     const syncMenuForViewport = () => {
@@ -71,6 +83,10 @@ const navItems = [
         setMenuState(false);
       } else {
         primaryNavigation.hidden = false;
+        primaryNavigation.removeAttribute("role");
+        primaryNavigation.setAttribute("aria-label", "Primary navigation");
+        primaryNavigation.removeAttribute("aria-modal");
+        document.body.classList.remove("menu-open");
       }
     };
 
@@ -79,6 +95,11 @@ const navItems = [
 
     menuToggle.addEventListener("click", () => {
       setMenuState(menuToggle.getAttribute("aria-expanded") !== "true");
+    });
+
+    menuClose.addEventListener("click", () => {
+      setMenuState(false);
+      menuToggle.focus();
     });
 
     primaryNavigation.addEventListener("click", (event) => {
@@ -91,6 +112,24 @@ const navItems = [
       if (event.key === "Escape" && mobileMenu.matches && !primaryNavigation.hidden) {
         setMenuState(false);
         menuToggle.focus();
+      }
+
+      if (event.key === "Tab" && mobileMenu.matches && !primaryNavigation.hidden) {
+        const focusableElements = [...primaryNavigation.querySelectorAll(
+          'a[href], button:not([disabled])'
+        )];
+        const firstElement = focusableElements[0];
+        const lastElement = focusableElements.at(-1);
+
+        if (!firstElement || !lastElement) return;
+
+        if (event.shiftKey && document.activeElement === firstElement) {
+          event.preventDefault();
+          lastElement.focus();
+        } else if (!event.shiftKey && document.activeElement === lastElement) {
+          event.preventDefault();
+          firstElement.focus();
+        }
       }
     });
   }

@@ -139,7 +139,7 @@
       "checked": "2026-07-25"
     }
   },
-  "lastChecked": "2026-07-25",
+  "lastChecked": "2026-07-28",
   "sources": [
     {
       "label": "Ticket Tailor pricing",
@@ -157,6 +157,15 @@
       "checked": "2026-07-25",
       "supports": [
         "Charity discount"
+      ]
+    },
+    {
+      "label": "Ticket Tailor referral programme",
+      "url": "https://help.tickettailor.com/en/articles/6977069-how-does-the-referral-program-work",
+      "checked": "2026-07-28",
+      "supports": [
+        "Referral credit",
+        "Affiliate relationship"
       ]
     }
   ],
@@ -189,7 +198,8 @@
       "note": "This company-level profile is for Ticket Tailor and does not establish suitability for a particular church."
     }
   ],
-  "affiliateRelationship": "no",
+  "affiliateRelationship": "yes",
+  "affiliateUrl": "https://get.tickettailor.com/5xl4eq5dnhmi",
   "sponsored": false,
   "seo": {
     "title": "Ticket Tailor review for UK churches",
