@@ -481,46 +481,49 @@ Vanity metrics include unqualified page views, followers, impressions without
 relevant clicks, likes without discussion or referral traffic unrelated to a
 software decision. They may provide context but should not select the roadmap.
 
-## 30-day launch plan
+## 30-day post-launch improvement plan
 
-This sequence assumes no public promotional action until launch prerequisites,
-publisher/contact information and the individual action are approved.
+The site is live. The first month should improve how quickly a visitor
+understands and enters the decision product before expanding content or
+promotion. Public outreach, supplier contact and publishing still require the
+normal evidence review and the responsible person's approval.
 
-| Period | Agent work | Bryn work | Output |
+| Period | Product and research work | Bryn work | Output |
 | --- | --- | --- | --- |
-| Days 1–5 | Audit analytics/search-tool readiness, sitemap/indexing and baseline technical search discovery | Select/approve tools and access; confirm launch constraints | Measurement and indexing checklist |
-| Days 6–10 | Prepare audits and evidence packs for a small initial supplier group | Approve outreach scope and send selected correction emails | Source-backed facts queue and contact log |
-| Days 11–16 | Produce briefs/drafts for one or two high-intent pages; propose contextual links | Review evidence, conclusions and publication quality | Small, excellent content set ready for a separate publish task |
-| Days 17–21 | Prototype the first requirements-builder/checklist specification; audit internal links | Decide whether to implement and review criteria | Approved tool brief and link queue |
-| Days 22–25 | Research a small number of suitable partners; draft tailored approaches | Choose and send one or two relationship-led approaches | Partner tracker |
-| Days 26–30 | Prepare LinkedIn distribution drafts from the approved asset; inspect early data | Post only approved material; review findings | Distribution pack and first learning review |
+| Days 1–5 | Record Search Console, Bing and consented-analytics baselines where access exists; specify the homepage search and privacy-conscious decision events | Confirm tool access and which events are useful | Dated acquisition and measurement baseline |
+| Days 6–12 | Implement the concrete homepage proposition, generated trust strip, directory search and four common starting routes | Review public positioning and category choices | Post-launch acquisition surface |
+| Days 13–20 | Prototype compact catalogue cards, progressive result reveal and the product-page 30-second answer using existing structured fields | Test scanability and decision wording with real church tasks | Usability-tested browse prototype |
+| Days 21–26 | Specify and prototype searchable two-to-four-product comparison selection with an accessible fallback | Test product-finding and comparison assembly | Approved comparison interaction |
+| Days 27–30 | Review early behaviour, prepare the free-and-affordable hub evidence brief and choose whether Phase 9 should proceed unchanged | Decide continue, revise or pause | First post-launch learning record and next-stage brief |
 
-## 90-day growth plan
+Do not wait for statistically strong traffic before fixing the obvious
+comprehension and control-density problems. Do require actual behaviour and
+search data before labelling categories or comparisons “popular”, multiplying
+content pages or making traffic claims to suppliers.
 
-### Phase A — establish trustworthy assets (days 1–30)
+## 90-day post-launch growth plan
 
-Complete the 30-day plan, prioritising source-backed listings, two high-intent pages,
-one requirements tool specification and an internal-link baseline. Stop or
-delay publication if the evidence is not adequate.
+### Phase A — clarify and instrument (days 1–30)
 
-### Phase B — distribute and learn (days 31–60)
+Complete the 30-day plan. The primary output is a simpler homepage and a
+measurable route into the existing directory, shortlist and comparison tools.
+Do not use the month to add a large listing batch.
 
-Implement/publish only the approved first tool and strongest pages; verify a
-small further supplier batch; make a limited number of high-fit partner pitches;
-and run the first proper search-data review. Expand an asset only when it gains
-relevant impressions, referrals, meaningful tool use, useful corrections or
-credible partner interest. If none appear, improve the decision problem,
-distribution fit or title/metadata rather than multiplying pages.
+### Phase B — compress and connect (days 31–60)
 
-### Phase C — compound evidence (days 61–90)
+Ship the validated compact browse and product-summary layer, then replace the
+comparison checkbox wall with searchable selection. Preserve static HTML, URL
+state, field-level evidence and keyboard operation. Use comparison combinations,
+directory searches and Search Console queries to select at most one new
+high-intent comparison or alternatives brief.
 
-Turn the best-performing evidence into one comparison, alternative or capability
-cluster; conduct the next supplier-correction cycle; close internal-link gaps; and
-publish a short learning record. Consider a small dataset insight or joint
-briefing only if coverage and a partner justify it. Stop a channel after a fair
-test if it repeatedly produces no relevant response, consumes disproportionate
-human time or creates trust risk. Narrow toward assets that demonstrate real
-decision use.
+### Phase C — acquire and learn (days 61–90)
+
+Publish only the approved free-and-affordable anchor and no more than two
+supporting pages. Prepare a small supplier-correction batch and distribution
+pack around the strongest completed asset. Review acquisition, decision-tool
+use, evidence freshness and maintenance effort before expanding the cluster or
+starting supplier-commercial work.
 
 ## Reusable campaign workflow
 
@@ -546,16 +549,22 @@ For every substantial page, tool, dataset or report:
 ## Growth backlog
 
 | Initiative | Expected impact | Effort | Agent autonomy | Human involvement | Time to likely result | Maintenance | Risk | Prerequisites | Current status | Next action |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Search/indexing baseline | High | S | High | Tool/access approval | Days | Low | Low | Launch readiness | Not started | Create measurement checklist |
-| Initial supplier corrections batch | High | M | High preparation | High send/decision | Weeks | Medium | Medium | Approved listings/contact route | Not started | Select 5–8 candidates and audit |
-| Church Software Requirements Builder | High | M | High | High criteria review | Weeks | Medium | Medium | Approved tool brief | Not started | Define MVP questions/output |
-| ChurchSuite vs Planning Center evidence brief | High | M | High | High editorial review | Weeks | Medium | Medium | Adequate current sources | Not started | Prepare scope and evidence matrix |
-| UK church-management buying guide refresh | High | M | High | High | Weeks | Medium | Medium | Guide-standard evidence | Not started | Identify gaps and original tool |
-| Internal-link audit and queue | Medium-high | S | High | Low review | Days | Low | Low | Current built routes | Not started | Run/propose audit specification |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Homepage acquisition surface | High | M | High | High positioning review | Days | Low | Low | Live collection and routes | Next | Implement Phase 8 proposition, search, generated proof and route hierarchy |
+| Compact directory and profile summary | High | M | High | High editorial review | Weeks | Low-medium | Low | Phase 8 baseline | Planned | Prototype compact cards, result reveal and the 30-second answer |
+| Searchable comparison selection | High | M | High | Medium usability review | Weeks | Low | Low | Stable compact browse patterns | Planned | Replace the checkbox wall while preserving URL and evidence behaviour |
+| UK free-and-affordable software hub | High | M | High | High evidence/editorial review | Weeks | Medium-high | Medium | Canonical intent and current UK sources | Brief next | Define the anchor and no more than two first-tranche supporting pages |
+| Freshness and count integrity | High | M | High | Medium wording/rule review | Weeks | Medium | Low-medium | Agreed volatility thresholds | Planned | Specify reproducible totals, field dates and change records |
+| Search/indexing baseline | High | S | High | Tool/access approval | Days | Low | Low | Live site | In progress | Record a dated baseline and recurring report format |
+| Initial supplier corrections batch | High | M | High preparation | High send/decision | Weeks | Medium | Medium | Approved listings/contact route | Planned after Phase 8 | Select 5–8 high-use or material-gap candidates |
+| Church Software Requirements Builder | High | M | High | High criteria review | Weeks | Medium | Medium | Evidence that a separate tool is needed | Partly served by `/shortlist/` | Measure the existing guided shortlist and decision pack before building another tool |
+| ChurchSuite vs Planning Center evidence brief | High | M | High | High editorial review | Weeks | Medium | Medium | Current comparable evidence | Published | Measure the current guide and refresh from evidence when due |
+| UK church-management buying guide refresh | High | M | High | High | Weeks | Medium | Medium | Guide-standard evidence | Published | Use search and decision-tool data to choose the next improvement |
+| Internal-link audit and queue | Medium-high | S | High | Low review | Days | Low | Low | Current built routes | Automated check exists | Add reader-journey proposals to the next content review |
 | Partner research: administrator/finance networks | Medium-high | M | Medium | High relationship action | Weeks | Medium | Medium | Strong shareable asset | Not started | Populate 10 high-fit rows |
 | First LinkedIn distribution pack | Medium | S | High drafting | High publishing | Days after asset | Low | Medium | Approved substantive asset | Not started | Derive post concepts |
-| Search-data monthly review | High | S | High | Medium decision | Monthly | Low | Low | Analytics tools enabled | Not started | Define report format |
+| Search-data monthly review | High | S | High | Medium decision | Monthly | Low | Low | Analytics and search-tool access | Planned | Define report format during Phase 8 |
+| For software suppliers page | Medium-high | M | High | High commercial/policy decision | Months | Medium | Medium | Demonstrated demand and tested correction workflow | Deferred to Phase 13 | Specify correction, evidence and commercial boundaries |
 | State of UK Church Software report | Medium-high | L | High analysis | High methodology review | Months | High | High | Mature dataset | Deferred | Define coverage threshold |
 
 ## Operating rules for future agents

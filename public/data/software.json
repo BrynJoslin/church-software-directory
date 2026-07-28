@@ -1,5 +1,5 @@
 {
-  "contentAsOf": "2026-07-25",
+  "contentAsOf": "2026-07-28",
   "licence": "No reuse licence has yet been selected.",
   "count": 147,
   "software": [
@@ -12921,7 +12921,7 @@
           "sourceLabel": "Ticket Tailor pricing"
         }
       },
-      "lastChecked": "2026-07-25",
+      "lastChecked": "2026-07-28",
       "sources": [
         {
           "label": "Ticket Tailor pricing",
@@ -12939,6 +12939,15 @@
           "checked": "2026-07-25",
           "supports": [
             "Charity discount"
+          ]
+        },
+        {
+          "label": "Ticket Tailor referral programme",
+          "url": "https://help.tickettailor.com/en/articles/6977069-how-does-the-referral-program-work",
+          "checked": "2026-07-28",
+          "supports": [
+            "Referral credit",
+            "Affiliate relationship"
           ]
         }
       ]

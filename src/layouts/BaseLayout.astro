@@ -199,6 +199,25 @@ const googleAnalyticsId =
             const target = event.target;
             if (!(target instanceof Element)) return;
 
+            const analyticsTarget = target.closest("[data-analytics-event]");
+            const analyticsEvent = analyticsTarget?.getAttribute("data-analytics-event");
+            if (
+              analyticsEvent &&
+              localStorage.getItem(consentKey) === "accepted" &&
+              typeof analyticsWindow.gtag === "function"
+            ) {
+              analyticsWindow.gtag("event", analyticsEvent);
+            }
+
+            const comparisonLink = target.closest("a[data-comparison-product]");
+            if (comparisonLink instanceof HTMLAnchorElement && comparisonLink.dataset.comparisonProduct) {
+              comparisonLink.href = `/compare/?products=${encodeURIComponent(comparisonLink.dataset.comparisonProduct)}`;
+            }
+            const comparisonPairLink = target.closest("a[data-comparison-products]");
+            if (comparisonPairLink instanceof HTMLAnchorElement && comparisonPairLink.dataset.comparisonProducts) {
+              comparisonPairLink.href = `/compare/?products=${encodeURIComponent(comparisonPairLink.dataset.comparisonProducts)}`;
+            }
+
             const link = target.closest("a[data-referral-vendor]");
             const referralVendor =
               link instanceof HTMLAnchorElement
@@ -213,6 +232,20 @@ const googleAnalyticsId =
             analyticsWindow.gtag("event", "referral", {
               referral_vendor: referralVendor
             });
+          });
+
+          document.addEventListener("submit", (event) => {
+            const form = event.target;
+            if (!(form instanceof HTMLFormElement)) return;
+
+            const analyticsEvent = form.dataset.analyticsEvent;
+            if (
+              analyticsEvent &&
+              localStorage.getItem(consentKey) === "accepted" &&
+              typeof analyticsWindow.gtag === "function"
+            ) {
+              analyticsWindow.gtag("event", analyticsEvent);
+            }
           });
         </script>
       )

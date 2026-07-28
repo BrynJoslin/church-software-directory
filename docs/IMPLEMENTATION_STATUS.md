@@ -9,9 +9,68 @@
 
 ## Current phase
 
-Phase 6: contribution and continuous quality completed.
+Phase 10: comparison discovery and high-intent paths implemented; Search Console and analytics-led selection of future direct-comparison pages remains dependent on third-party account access.
+
+The site is live. The dated 28 July 2026 repository baseline is 147 software
+profiles, 17 categories, 27 guides and 549 recorded source references. Older
+counts in the historical notes below describe earlier repository states; they
+are not the current public total.
+
+## Phase 8 acquisition baseline — 28 July 2026
+
+- The homepage now leads with “Find church software that works in the UK”, a
+  generated profile count, an evidence-scope explanation, a GET search route
+  to the directory, four editorially selected common starting categories and
+  explicit directory, comparison and shortlist routes.
+- The homepage trust strip derives its profile and dated-source totals from the
+  content collection at build time. It states the independent, no-paid-ranking
+  policy without presenting an unverified quality claim.
+- Consent-gated GA4 events record homepage search, directory entry, comparison
+  entry and shortlist start without sending search terms or church information.
+  GA4 measurement is configured centrally; the `referral_vendor` custom
+  dimension and the Phase 8 event report should be configured in GA4 before
+  interpreting the data.
+- Search Console and Bing Webmaster Tools baseline figures are not available in
+  this repository. Record dated impressions, clicks, click-through rate,
+  homepage queries and index coverage there when account access is available;
+  do not substitute estimates.
+
+## Phase 10 comparison discovery — 28 July 2026
+
+- The comparison page now uses four labelled product selectors with category
+  narrowing, search, duplicate prevention and URL-safe restoration. The static
+  fallback retains a complete linked profile list.
+- Related-profile links provide deterministic two-product comparison starting
+  points with the existing reason for the relationship. Editorial starting
+  points remain evidence-gated and are not described as popular.
+- The 14 strategic-expansion guides in `docs/GUIDE_BACKLOG.md` are now
+  published as version 1.0 guides. Their sensitive safeguarding, pastoral and
+  retention topics retain explicit scope and specialist-review limits.
+- Future named comparison or alternatives pages remain demand-gated: use
+  Search Console and consent-gated comparison events before creating an
+  indexable editorial page.
 
 ## In progress
+
+- Phase 9 implements a compact browse layer across the directory and category
+  pages. Cards now use one-sentence descriptions, published starting prices
+  where recorded, one relevant UK or Gift Aid signal, an approved best-fit
+  phrase, a checked date and a comparison action. JavaScript reveals twenty
+  matching cards at a time while the full static card list remains available
+  without JavaScript. Product profiles now use a 30-second answer, five-minute
+  assessment and full due-diligence sequence without hiding source links,
+  disclosures or supplier questions. Consent-gated events identify profile
+  opens, card comparison actions, filter submissions and result reveal depth.
+
+- The 28 July 2026 competitor report has been converted into the post-launch
+  programme in `docs/ROADMAP.md` and the 30/90-day sequence in
+  `docs/GROWTH_STRATEGY.md`. The immediate order is homepage acquisition
+  clarity, compact directory and product summaries, searchable comparison
+  selection, then a small UK free-and-affordable software content cluster.
+  Visible freshness, supplier-commercial infrastructure and original market
+  reporting have explicit evidence and demand gates. This planning change does
+  not implement those phases or authorise new public claims, outreach or
+  commercial relationships.
 
 - Added a standard-version 1.0 buyers' guide for accounting software for
   churches. It centres the decision on fund structures, controls,
@@ -601,19 +660,16 @@ entries until those launch prerequisites are resolved.
 
 ## Next recommended phase
 
-### 2026-07-27 form-submission implementation
+### Phase 8: acquisition clarity and measurement
 
-- Software suggestions and supplier listing updates now open pre-addressed
-  emails to `directory@churchsoftware.co.uk`. The site does not receive or
-  store messages; supplier update serves evidence-backed corrections and updates.
-- A first-party submission service remains deferred until its cost, privacy,
-  spam protection and accessible success/error handling are agreed.
-
-Church Software UK is configured as the responsible publisher, with a public
-description and working correction route in `src/config/site.json`. The About,
-Methodology and Privacy pages reflect those details. A first-party form remains
-deferred until its endpoint, spam protection and accessible success/error
-handling are in place.
+- Rewrite the homepage around the concrete UK church-software proposition.
+- Add a no-JavaScript-compatible homepage search into the existing directory
+  query state.
+- Generate the profile count and trust strip from canonical content.
+- Present four common starting categories and the browse, compare and shortlist
+  routes without claiming unmeasured popularity.
+- Record the search and consented interaction baseline before deciding whether
+  to broaden acquisition content.
 
 ## Maintenance note
 
@@ -631,8 +687,10 @@ handling are in place.
   search, task, benefit and eligibility using URL state with static HTML as the
   no-JavaScript baseline.
 
-Do not add more listings until the revised Phase 3 completion gate passes.
-Resume catalogue expansion only in small, reviewed evidence-backed batches.
+Catalogue expansion is no longer the next product priority. Add or remove
+listings only in small, reviewed, evidence-backed batches required for
+credibility or a separately approved research task. The next general
+implementation work should follow Phases 8–10 before another broad expansion.
 
 ### 2026-07-25 catalogue research note
 

@@ -3,6 +3,51 @@
 Each phase should leave the project in a working, deployable state. Later phases
 must not begin merely because they appear in this document.
 
+## Post-launch direction: 28 July 2026
+
+Church Software UK is live. A competitor review of
+ChurchSoftwareDirectory.com found that this project has the stronger UK,
+evidence and decision-support proposition, but the competitor communicates its
+entry-level promise more quickly. The post-launch goal is therefore:
+
+> Make the surface simpler without making the research shallower.
+
+The dated repository baseline for this plan is 147 software profiles, 17
+categories, 13 guides and 549 recorded source references. These figures are
+planning context, not public constants. Any public total must be generated from
+the live content collection at build time.
+
+The next stages prioritise the complete visitor journey:
+
+| Order | Stage | Primary outcome | Start gate |
+| --- | --- | --- | --- |
+| Now | Phase 8: acquisition clarity and measurement | A new visitor immediately understands what the site contains, who it serves and where to start. | Site is live; no further gate. |
+| Next | Phase 9: directory and profile compression | Visitors can scan the catalogue and reach a useful first answer without absorbing the full evidence record. | Phase 8 interaction baseline is recorded. |
+| Next | Phase 10: comparison discovery | People can find and compare two to four relevant products without searching a 147-item checkbox wall. | Compact browsing patterns are stable. |
+| Then | Phase 11: free and affordable software cluster | The site earns earlier-stage demand with genuinely UK-relevant, maintainable resources. | Canonical intent and evidence brief approved. |
+| Then | Phase 12: visible freshness and dataset integrity | Counts, dates and activity claims are generated from evidence the site can actually support. | Field volatility and review rules agreed. |
+| Later | Phase 13: supplier participation and commercial readiness | Suppliers have a clear correction route and any commercial offer remains visibly separate from assessment. | Useful demand and operating capacity demonstrated. |
+| Later | Phase 14: original market reporting | The structured dataset produces a defensible, citable view of the UK church-software market. | Coverage and methodology thresholds met. |
+
+### Post-launch delivery rules
+
+- Acquisition clarity comes before more catalogue volume.
+- Use “common starting points” rather than “popular” until behaviour data
+  supports a popularity claim.
+- Preserve complete crawlable static product links while reducing what is shown
+  by default to a human visitor.
+- Do not create indexable query-parameter pages. Named comparisons and
+  alternatives become indexable only when they contain a distinct,
+  guide-standard editorial decision.
+- Do not build a general grants database until UK eligibility, expiry and
+  maintenance can be kept current.
+- Do not publish “recently checked”, “changes recorded” or similar activity
+  counts until the underlying events can be derived reproducibly.
+- Do not call a product “verified” when only supplier identity or
+  supplier-provided evidence has been checked.
+- Keep every product selection, filter and comparison shareable in the URL.
+- Test one small content tranche before expanding a cluster.
+
 ## Website review integration: 25 July 2026
 
 The website review identified that the research layer has grown faster than the
@@ -19,7 +64,11 @@ incidental gaps are omitted and material gaps become supplier questions.
 AI-assisted research and drafting remain subject to the evidence and human
 accountability rules in `AGENTS.md` and `docs/PRINCIPLES.md`.
 
-### Delivery rules arising from the review
+### Delivery rules arising from the review (completed foundation)
+
+These rules governed Phases 3–6 and are retained as the decision record. Their
+completion does not reintroduce the earlier pause on catalogue work; the current
+post-launch sequencing rules are above.
 
 - Pause net-new catalogue growth until the Phase 3 completion gate is met.
 - Resolve contradictory public wording and dead interactions before adding new
@@ -45,12 +94,12 @@ accountability rules in `AGENTS.md` and `docs/PRINCIPLES.md`.
 | Review priority | Roadmap destination | Outcome |
 | --- | --- | --- |
 | P0: public contradictions, disabled forms, publisher disclosure, related products and comparison defaults | Phase 3 (completed) | The existing site is internally consistent; publisher and correction-route facts are publicly configured. |
-| P1: mobile font loading, layout stability and render-blocking CSS | Mobile performance follow-up before Phase 7 | The homepage reaches a good CLS result without sacrificing accessibility, maintainability or repeat-navigation performance. |
+| P1: mobile font loading, layout stability and render-blocking CSS | Mobile performance follow-up alongside Phase 8 | The homepage reaches a good CLS result without sacrificing accessibility, maintainability or repeat-navigation performance. |
 | P1: field evidence, higher-signal decision fields and product-specific verdicts | Phase 4 | The content model can support explainable comparisons and shortlists. |
 | P1: guided shortlist and cost estimation | Phase 5 | Users progressively narrow an exact candidate pool and receive up to five explained starting points with qualified cost information. |
 | P2: decision packs and category families | Phase 5 | Users can take practical outputs into trials, supplier conversations and governance meetings. |
-| P2: continuous quality checks | Phase 6 | Trust, accessibility and consistency regressions are caught before launch. |
-| P2: automated research maintenance | Phase 9 | Official-source changes create evidence-backed review work after demand is validated. |
+| P2: continuous quality checks | Phase 6 | Trust, accessibility and consistency regressions are caught before and after release. |
+| P2: automated research maintenance | Phase 12 | Official-source changes create evidence-backed review work after demand is validated. |
 
 ## Guide quality programme: 25 July 2026
 
@@ -60,13 +109,13 @@ reader's decision. `docs/GUIDE_STANDARD.md` version 1.0 now defines the mandator
 depth, structure, evidence, UK context, practical tools and publication workflow.
 `docs/GUIDE_AUDIT.md` records the baseline and remediation order.
 
-The standard applies immediately to every new guide and substantial revision.
-The existing `How to choose church management software` guide is the first
-version 1.0 exemplar. Eleven pre-standard guides remain in an explicit legacy
-allowlist so the normal build stays deployable while they are researched and
-rewritten carefully; no new slug can enter that allowlist.
+The standard applies to every new guide and substantial revision. The existing
+`How to choose church management software` guide was the first version 1.0
+exemplar. The migration is now complete: the automated guide check reports 13
+version 1.0 guides and no legacy allowlist entries. `docs/GUIDE_AUDIT.md`
+preserves the original 12-guide baseline and remediation record.
 
-### Workstream: evidence-sensitive guides
+### Completed workstream: evidence-sensitive guides
 
 - Expand the GDPR supplier-question guide with current ICO and NCSC evidence,
   an answer-assessment method and clear advice limits.
@@ -76,7 +125,7 @@ rewritten carefully; no new slug can enter that allowlist.
 - Treat every legal, tax, payment, security and safeguarding statement as a
   high-risk claim requiring authoritative sourcing and careful qualification.
 
-### Workstream: buying and cost guides
+### Completed workstream: buying and cost guides
 
 - Add explicit scope, inclusion criteria, decision criteria and comparable
   option analysis.
@@ -87,7 +136,7 @@ rewritten carefully; no new slug can enter that allowlist.
 - Add a clearly labelled software-listing section and dated source-and-limits
   section without turning the guide into an endorsement or click-through page.
 
-### Completion gate before launch
+### Ongoing publication gate
 
 - Every guide uses `standardVersion: "1.0"` and no legacy slugs remain.
 - Every evidence-sensitive claim has received human source review.
@@ -165,7 +214,9 @@ visual instability before optimising for a headline Lighthouse number.
 ### Deliverable
 
 A visually stable mobile first load with an evidence-based decision on font
-loading and CSS delivery, completed before the Phase 7 launch audit.
+loading and CSS delivery. Re-measure the live homepage before applying the
+2026 audit's specific remedies, then complete any remaining work alongside
+Phase 8.
 
 ## Phase 1: Architectural foundation (completed)
 
@@ -543,11 +594,21 @@ build-time and browser checks cannot provide.
 A sustainable accuracy workflow and a release candidate protected by proportionate
 quality checks.
 
-## Phase 7: Launch
+## Phase 7: Launch (completed)
 
 ### Goal
 
 Publish a credible first public decision resource.
+
+### Completion record — 28 July 2026
+
+- The production site is live at the configured Cloudflare-hosted domain.
+- Google Analytics 4 is configured behind an explicit accept-or-reject consent
+  choice, with supplier referral measurement implemented.
+- Static catalogue, category, guide, shortlist, comparison, trust and
+  contribution routes are published.
+- The post-launch roadmap now starts with proposition clarity and measurable
+  decision use rather than treating deployment as the remaining milestone.
 
 ### Scope
 
@@ -570,15 +631,382 @@ pastoral or other sensitive information.
 
 Version 1.0.
 
-## Phase 8: Validation period
+## Phase 8: Acquisition clarity and measurement
 
 ### Goal
 
-Determine whether the decision-assistant direction deserves further investment.
+Make the homepage an immediately understandable acquisition surface for UK
+church-software decisions, then measure whether visitors take a useful next
+step.
+
+### Scope
+
+- Lead with the concrete phrase “Find church software that works in the UK”.
+- State the current generated product count and explain that profiles cover
+  pricing, Gift Aid, UK availability, data handling, exports and practical fit
+  where evidence is available.
+- Add a homepage search form that submits to the directory's existing `q`
+  parameter and remains useful without JavaScript.
+- Show four common starting categories selected editorially from the core
+  decision set. Do not label them “popular” until measured use supports that
+  claim.
+- Add a compact, build-derived trust strip: researched profiles, dated source
+  links, UK-specific checks and no paid rankings.
+- Present three clear routes: browse by task, compare known products and build
+  a guided shortlist.
+- Reduce the homepage category display to a manageable starting set, retaining
+  a crawlable route to every category.
+- Rewrite the homepage title, meta description and first substantial paragraph
+  around the concrete proposition so the intended search snippet is not
+  dominated by category copy.
+- Add consent-respecting events for homepage search, directory entry,
+  comparison entry and shortlist start. Keep event payloads free of sensitive
+  church information.
+- Record the Search Console, Bing Webmaster Tools and analytics baseline where
+  access is available. Lack of third-party access does not prevent the
+  usability work.
+
+### Completion gate
+
+- The first viewport answers what the site is, who it is for, the current scale
+  and the primary next action.
+- Homepage search reaches a URL-loaded directory result with and without
+  JavaScript.
+- Every displayed catalogue count comes from the content collection; no public
+  template repeats a manual total.
+- The page has one `h1`, visible focus, at least 44px touch targets and a useful
+  layout at 320px, 360px, approximately 412px and desktop widths.
+- Metadata, canonical, Open Graph and visible copy remain aligned.
+- Relevant interaction, accessibility, internal-link, sitemap, build and
+  diff checks pass.
+
+### Measure
+
+- homepage-to-directory, homepage-to-shortlist and homepage-to-comparison rate
+- homepage search use and zero-result terms
+- organic homepage impressions, click-through rate and query relevance
+- consent rate as measurement context, not a conversion target
+
+### Deliverable
+
+A clear, search-led homepage and a dated post-launch acquisition baseline.
+
+## Phase 9: Directory and profile compression
+
+### Goal
+
+Let a visitor scan a large catalogue quickly while preserving the full
+evidence-led record and complete static HTML.
+
+### Directory and category scope
+
+- Replace the current long default card with a compact scan layer: name,
+  one-sentence description, published starting-price summary where available,
+  one relevant UK or Gift Aid signal, one best-fit phrase, last-checked date and
+  a comparison action.
+- Initially reveal a small, tested number of results, expected to be 20, with an
+  accessible “show more” control. Keep every product link in server-rendered
+  HTML and show all listings when enhancement is unavailable.
+- Make filtering and sorting operate on the complete result set, not only the
+  currently revealed cards.
+- Preserve every existing filter in the URL, restore URL-loaded and
+  back/forward states and retain the evidence-sensitive empty state.
+- Apply the same compact hierarchy to category results where long card lists
+  currently dominate the page.
+- Defer a list/grid preference until testing shows that two presentations solve
+  a real need.
+
+### Product-profile scope
+
+- Put a “30-second answer” immediately after the product identity and primary
+  actions.
+- Answer from existing structured evidence: what it is, contexts worth testing,
+  published starting price, relevant UK checks, why it may enter a shortlist,
+  the first unresolved question and evidence date.
+- Follow with a five-minute assessment and then the full due-diligence record.
+- State the methodology boundary once near the summary, then use decisive
+  labels such as “Shortlist when”, “Check first” and “Settle before buying”
+  within the evidence boundary.
+- Do not turn absent evidence into a negative answer or auto-generate editorial
+  conclusions from incidental fields.
+
+### Completion gate
+
+- Default, URL-loaded, empty, invalid-parameter and no-JavaScript states remain
+  useful.
+- A keyboard user can reveal results, filter, sort and add a product to a
+  comparison without losing context.
+- Compact cards use only structured facts and approved editorial fields.
+- The full profile remains available in document order and all source links,
+  disclosures and material supplier questions remain visible.
+- Mobile, enlarged-text and 200% zoom checks pass without clipped controls or
+  hidden information.
+
+### Measure
+
+- directory searches and filters per session
+- zero-result and clear-filter use
+- product-profile opens from result cards
+- comparison additions from cards and profiles
+- result-reveal depth
+
+### Deliverable
+
+A compact browse layer and a three-level product profile: 30-second answer,
+five-minute assessment and full due diligence.
+
+## Phase 10: Comparison discovery and high-intent paths
+
+### Goal
+
+Make it easy to assemble a relevant comparison and use comparison demand to
+select future editorial pages.
+
+### Scope
+
+- Replace the complete checkbox grid with four clearly labelled, searchable
+  product selectors implemented with small framework-free TypeScript.
+- Retain an accessible static fallback that exposes the full product list.
+- Allow the available options to be narrowed by category and prevent duplicate
+  products, invalid slugs and selections above four.
+- Preserve the existing canonical URL state, browser history, copy-link
+  behaviour, field-level evidence grouping and supplier-question output.
+- Add deterministic “compare similar products” routes from profiles using the
+  existing related-product logic and a clear reason for the relationship.
+- Add a small set of editorially selected “comparison starting points” only
+  where both profiles have adequate comparable evidence. Do not call them
+  popular until analytics supports that description.
+- Use repeated on-site combinations and Search Console demand to choose the
+  first new direct-comparison or alternatives guide. A query URL alone is not
+  an indexable versus page.
+
+### Initial comparison candidates to validate
+
+- ChurchSuite and iKnow Church
+- ExpensePlus and Liberty Accounts
+- ProPresenter and EasyWorship
+- ChurchSuite and ChurchTools
+- Parish Giving Scheme and Stewardship
+
+These are research candidates from the competitor report, not claims that the
+products are equivalent or the combinations are popular.
+
+### Completion gate
+
+- Search and selection work with keyboard, pointer, screen reader and mobile
+  layouts.
+- Valid two-to-four-product URL states restore exactly; invalid, duplicate and
+  overflow values receive clear feedback.
+- The complete comparison remains based on structured fields and distinguishes
+  an evidenced `No` from no answer.
+- Any new indexable comparison guide passes `docs/GUIDE_STANDARD.md`, has
+  distinct decision intent and is included in the sitemap and internal-link
+  system.
+
+### Measure
+
+- comparison starts, valid two-product states and completed comparisons
+- most frequent valid combinations
+- comparison-link and supplier-question copies
+- profile visits and supplier referrals from a comparison
+
+### Deliverable
+
+A searchable comparison journey and an evidence-based queue of named
+comparison opportunities.
+
+## Phase 11: UK free and affordable software acquisition cluster
+
+### Goal
+
+Reach churches earlier in their search with a clear savings-oriented entry
+point that remains specific to UK eligibility and real operating trade-offs.
+
+### First tranche
+
+- Turn the existing free church-management guide into the canonical anchor for
+  a broader free-and-affordable cluster.
+- Create one substantial UK free-software hub only when its evidence brief,
+  canonical intent and relationship to the existing guide are explicit.
+- Prepare no more than two supporting pages in the first tranche. The strongest
+  candidates are free church presentation software and software discounts for
+  registered UK charities.
+- Link source-backed free-plan and charity-discount facts to directory filters
+  and full product profiles without implying that “free” means suitable or
+  costless to operate.
+- Give every page a simpler-tool section, UK eligibility checks, implementation
+  and exit costs, last-checked dates and a practical selection output.
+- Add the cluster to the homepage only after the first anchor is complete.
+
+### Deferred within this stage
+
+- A grants and funding directory is deferred until eligibility, closing dates,
+  geography and review ownership can be maintained reliably.
+- Free Church of England tools may become a focused resource only when the
+  scope adds more than a thin denomination filter.
+- Do not create many narrowly varied “free” pages or import US 501(c)(3),
+  dollar-denominated or ACH assumptions into UK guidance.
+
+### Completion gate
+
+- Search Console or another dated source supports the intended query, or the
+  page has a separately documented direct-distribution use.
+- Every material product, price, eligibility and funding claim has a current
+  suitable source and checked date.
+- The new page does not duplicate an existing guide, category or filter state.
+- Each guide passes the guide standard and supplies a useful decision tool or
+  next step without requiring a supplier click.
+- The first tranche is measured for at least one review cycle before further
+  pages are approved.
+
+### Measure
+
+- relevant impressions, clicks and ranking queries for free/affordable intent
+- directory filter use and profile opens from the cluster
+- assisted shortlist and comparison starts
+- maintenance time and stale-claim count
+
+### Deliverable
+
+A small, maintainable UK free-and-affordable software cluster that earns
+top-of-funnel demand without becoming a generic grants catalogue.
+
+## Phase 12: Visible freshness and dataset integrity
+
+### Goal
+
+Make freshness and scale demonstrable product features rather than marketing
+claims.
+
+### Scope
+
+- Add build-time consistency checks for public totals, category membership,
+  empty live categories, duplicate product identities and incompatible
+  publication statuses.
+- Define central volatility rules for fields such as pricing, availability,
+  privacy/data terms and affiliate-linked profiles.
+- Surface the most relevant field-level checked dates near the product summary
+  where the evidence model supports them.
+- Show a clear stale warning for a material volatile field only after the
+  threshold and wording have been approved.
+- Prioritise affiliate-linked and high-use profiles in the maintenance queue;
+  commercial value must never weaken or hide the stale warning.
+- Add a “recently checked” homepage or directory section only when several real
+  review dates exist and the displayed set can be derived reproducibly.
+- Introduce a structured change record before claiming numbers such as pricing
+  changes recorded or products added in a period. Git commits or a batch-wide
+  `lastChecked` date alone do not establish those events.
+
+### Completion gate
+
+- A deliberate count mismatch, empty category, duplicate identity and stale
+  volatile field each fail or warn at the documented level.
+- Public activity and freshness statements can be reproduced from the canonical
+  dataset or structured change record.
+- The public wording distinguishes “profile rechecked”, “supplier evidence
+  updated” and “product changed”.
+- Internal history or maintenance data is not leaked into the public export.
+
+### Measure
+
+- stale profiles and material stale fields
+- median review age by field family
+- confirmed changes per review cycle
+- maintenance time per profile
+- supplier corrections generated by visible evidence dates
+
+### Deliverable
+
+A trustworthy freshness layer with reproducible totals, dates and change
+language.
+
+## Phase 13: Supplier participation and commercial readiness
+
+### Goal
+
+Make it easy for suppliers to improve factual accuracy and understand the
+commercial boundary without buying editorial influence.
+
+### Scope
+
+- Expand the existing supplier-update route into a clear “For software
+  suppliers” journey, or add one focused landing page if the correction route
+  would otherwise become overloaded.
+- Explain how to correct a listing, what evidence to provide, how
+  supplier-provided evidence is labelled and what the directory may decide not
+  to change.
+- Define any future supplier status precisely. Prefer “supplier evidence
+  reviewed on [date]” over an ambiguous “verified product” badge.
+- Explain what sponsorship and affiliate relationships can and cannot buy,
+  while keeping commercial formats disabled until separately approved.
+- Describe the audience with measured, date-bounded figures only after useful
+  traffic exists.
+- Keep the first version static and contact-led; do not add a portal, account
+  system or database without a demonstrated workflow need.
+
+### Commercial pilot gate
+
+- Relevant traffic and supplier referrals are measured over a meaningful
+  period.
+- Listing correction, dispute, disclosure and stale-affiliate procedures have
+  been tested.
+- Inventory, price, contract, tax treatment and fulfilment capacity have been
+  decided by the responsible human.
+- Sponsored and affiliate presentation passes accessibility, public-copy and
+  disclosure checks and does not influence selection or ranking.
+
+### Deliverable
+
+A credible supplier participation page and a documented, still-disabled
+commercial model ready for a separate human decision.
+
+## Phase 14: Original market reporting and validated scale
+
+### Goal
+
+Turn the structured evidence base into original, citable UK market insight.
+
+### Scope
+
+- Define coverage, inclusion, field-completeness, freshness and methodology
+  thresholds before calling any output a market report.
+- Preserve the controlled taxonomy and aggregate only comparable, current
+  fields.
+- Publish bounded findings on topics such as pricing transparency, Gift Aid
+  workflow evidence, export information, UK purchasing routes and data-term
+  availability.
+- Explain the difference between supplier-published evidence, independent
+  sources and directory testing.
+- Seek expert or sector review for higher-risk interpretations.
+- Prepare distribution to denominations, dioceses, church networks, sector
+  publishers and suppliers only through separately approved outreach.
+
+### Candidate deliverable
+
+*The State of UK Church Software 2027*, or a smaller pilot briefing if the
+dataset does not yet justify market-wide language.
+
+### Completion gate
+
+- The report can be reproduced from a versioned dataset and documented method.
+- Every denominator, exclusion and checked period is visible.
+- The title and conclusions do not imply exhaustive market coverage unless that
+  has been demonstrated.
+- The report is valuable without lead capture, affiliate clicks or supplier
+  sponsorship.
+
+## Post-launch validation period
+
+### Goal
+
+Determine whether each new stage improves relevant decision use enough to
+justify the next one.
 
 ### Suggested period
 
-Three to six months.
+Review after each release and make a formal continue, revise, pause or stop
+decision every four to six weeks. Use a three-to-six-month view for slower
+organic-search and maintenance signals.
 
 ### Measure
 
@@ -596,41 +1024,8 @@ Three to six months.
 
 ### Decision
 
-Continue, narrow, reposition or stop based on evidence. Do not begin automated
-publishing or commercial ranking because engagement alone appears promising.
-
-## Phase 9: Evidence maintenance and responsible growth
-
-Only consider after demand has been demonstrated.
-
-### Evidence maintenance
-
-- Monitor recorded official product, pricing, security, privacy and support
-  sources for material changes.
-- Preserve source URL, retrieval date and supporting evidence internally.
-- Compare proposed facts with the current record and surface contradictions.
-- Create small, reviewable change proposals for broken links, stale sources and
-  low-risk factual updates.
-- Reject or queue ambiguous claims for human review.
-- Generate editorial copy only from accepted structured evidence.
-- Run the full consistency, accessibility, link and build checks on every
-  proposal.
-
-### Possible growth
-
-- resume carefully reviewed catalogue expansion
-- add the deferred decision-pack resources
-- migration checklists and implementation guidance
-- newsletter
-- supplier interviews
-- implementation partner directory
-- denomination-specific guidance
-- community venue software section
-- church AI tools section
-- public data API
-- affiliate links or sponsored placements with strict disclosure
-
-Avoid user reviews until moderation, reviewer-authenticity and legal
-implications are understood. Do not automate legal or regulatory compliance claims, safeguarding
-judgements, fabricated user experience, affiliate-influenced ranking or
-unsupported `best software` verdicts.
+Continue, narrow, reposition or stop based on evidence. A later stage is not a
+reward for finishing the previous build: it starts only when the preceding
+outcome and maintenance burden justify it. Do not begin automated factual
+publishing, user reviews, commercial ranking or large-scale content generation
+because engagement alone appears promising.
