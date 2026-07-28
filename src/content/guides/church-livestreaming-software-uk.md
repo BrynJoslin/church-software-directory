@@ -77,9 +77,9 @@ Make the service easy to find without making the church's whole online life depe
 
 These profiles are starting points for a trial, not endorsements or licensing assurances.
 
-- [ChurchStreaming](/software/churchstreaming/) and [Church Online Platform](/software/church-online-platform/) are church-focused profiles to examine for streaming and online participation.
+- [StreamingChurch](/software/streamingchurch/) and [MCN Media](/software/mcn-media/) are church-focused profiles to examine for streaming and online participation.
 - [SermonAudio](/software/sermonaudio/) is relevant where streaming connects to a longer-term sermon archive.
-- [YouTube](/software/youtube/) and [Vimeo](/software/vimeo/) are general publishing-platform profiles with different public-discovery and privacy questions.
+- [Resi](/software/resi/) and [SermonAudio](/software/sermonaudio/) are publishing-platform profiles with different public-discovery and privacy questions.
 - [ChurchSuite](/software/churchsuite/) may be relevant for embedding events or communicating the stream, rather than for live production itself.
 
 Browse [livestreaming](/categories/livestreaming/) and [sermon hosting](/categories/sermon-hosting/) separately when comparing the live and archive parts of the service.
@@ -88,7 +88,7 @@ Browse [livestreaming](/categories/livestreaming/) and [sermon hosting](/categor
 
 This guide was researched and checked on 28 July 2026. Product features, platform rules and music licences change. It does not establish a church's permissions, legal basis, safeguarding process or accessibility compliance; obtain current advice for the specific service.
 
-[^methodist-platform]: [Methodist Church: Platform comparison guide for streamed worship](https://www.methodist.org.uk/for-churches/digital-church/online-worship-toolkit/platform-comparison-guide-for-streamed-worship/) (accessed 28 July 2026).
-[^methodist-consent]: [Methodist Church: Recording consent and accessibility guide](https://www.methodist.org.uk/for-churches/digital-church/online-worship-toolkit/recording-consent-and-accessibility-guide/) (accessed 28 July 2026).
-[^methodist-copyright]: [Methodist Church: Copyright guidance](https://www.methodist.org.uk/for-churches/guidance-for-churches/copyright-guidance/) (accessed 28 July 2026).
-[^prs]: [PRS for Music: Digital Music Licence FAQs](https://www2.prsformusic.com/licences/using-music-online/digital-music-licence/digital-music-licence-faqs) (accessed 28 July 2026).
+[^methodist-platform]: <a href="https://www.methodist.org.uk/for-churches/digital-church/online-worship-toolkit/platform-comparison-guide-for-streamed-worship/" target="_blank" rel="noopener noreferrer">Methodist Church: Platform comparison guide for streamed worship</a> (accessed 28 July 2026).
+[^methodist-consent]: <a href="https://www.methodist.org.uk/for-churches/digital-church/online-worship-toolkit/recording-consent-and-accessibility-guide/" target="_blank" rel="noopener noreferrer">Methodist Church: Recording consent and accessibility guide</a> (accessed 28 July 2026).
+[^methodist-copyright]: <a href="https://www.methodist.org.uk/for-churches/guidance-for-churches/copyright-guidance/" target="_blank" rel="noopener noreferrer">Methodist Church: Copyright guidance</a> (accessed 28 July 2026).
+[^prs]: <a href="https://www2.prsformusic.com/licences/using-music-online/digital-music-licence/digital-music-licence-faqs" target="_blank" rel="noopener noreferrer">PRS for Music: Digital Music Licence FAQs</a> (accessed 28 July 2026).

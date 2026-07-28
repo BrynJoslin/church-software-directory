@@ -79,7 +79,7 @@ At contract end, ask the supplier for the current return/deletion process and re
 These profiles are places to investigate destination systems and supplier evidence. A listing is not a migration guarantee.
 
 - [ChurchSuite](/software/churchsuite/) publishes product and support information relevant to imports, exports and administrator roles.
-- [iKnow Church](/software/iknow/) and [ChurchTools](/software/churchtools/) are church-management profiles to compare against the church's mapped workflows.
+- [iKnow Church](/software/iknow-church/) and [ChurchTools](/software/churchtools/) are church-management profiles to compare against the church's mapped workflows.
 - [Planning Center](/software/planning-center/) may be relevant where the new operating model centres on planning, people and service workflows.
 - [ChurchBase](/software/churchbase/) is another directory starting point for a specific migration brief.
 
@@ -89,8 +89,8 @@ Use the [church-management category](/categories/church-management/) to find alt
 
 This guide was researched and checked on 28 July 2026. It provides an operational framework, not legal, data-protection, accounting, safeguarding or supplier implementation advice. Export formats, imports and contract terms change, so check current documentation for both systems before a live migration.
 
-[^cofe]: [Church of England: Records and Information Management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 28 July 2026).
-[^minimisation]: [Information Commissioner's Office: Data minimisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/) (accessed 28 July 2026).
-[^churchsuite-import]: [ChurchSuite: Import your data into ChurchSuite](https://support.churchsuite.com/article/11-import-your-data-into-churchsuite) (accessed 28 July 2026).
-[^churchsuite-export]: [ChurchSuite: Custom reporting and exporting data](https://support.churchsuite.com/article/419-custom-reporting-with-the-table-generator) (accessed 28 July 2026).
-[^ico-contract]: [Information Commissioner's Office: Contracts between controllers and processors](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/) (accessed 28 July 2026).
+[^cofe]: <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: Records and Information Management</a> (accessed 28 July 2026).
+[^minimisation]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Data minimisation</a> (accessed 28 July 2026).
+[^churchsuite-import]: <a href="https://support.churchsuite.com/article/11-import-your-data-into-churchsuite" target="_blank" rel="noopener noreferrer">ChurchSuite: Import your data into ChurchSuite</a> (accessed 28 July 2026).
+[^churchsuite-export]: <a href="https://support.churchsuite.com/article/419-custom-reporting-with-the-table-generator" target="_blank" rel="noopener noreferrer">ChurchSuite: Custom reporting and exporting data</a> (accessed 28 July 2026).
+[^ico-contract]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Contracts between controllers and processors</a> (accessed 28 July 2026).

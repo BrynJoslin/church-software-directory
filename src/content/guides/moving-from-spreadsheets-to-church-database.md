@@ -26,7 +26,7 @@ The issue is rarely that a spreadsheet is old. The issue is that it no longer gi
 
 Write down one failure that matters. For example: “Three people maintain contact details in separate files, and a welcome-team follow-up is missed when one file is not updated.” That statement gives the project a testable aim. “We need a modern database” does not.
 
-The Information Commissioner's Office (ICO) explains that personal data should be adequate, relevant and limited to what is necessary for the stated purpose in its [data-minimisation guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/). That is a reason to reduce uncontrolled copies; it is not a reason to import every historic column into a new system.
+The Information Commissioner's Office (ICO) explains that personal data should be adequate, relevant and limited to what is necessary for the stated purpose in its <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">data-minimisation guidance</a>. That is a reason to reduce uncontrolled copies; it is not a reason to import every historic column into a new system.
 
 Stay with a spreadsheet, at least for now, where all of these are true:
 
@@ -45,7 +45,7 @@ Treat the examples below as representative directory listings, not a market rank
 
 Give the project four named roles. A decision sponsor agrees the scope and budget. A day-to-day owner maintains data standards after launch. Operational testers represent the people who enter and use information. A data-and-governance reviewer checks that sensitive fields, access and retention questions are not being silently carried forward. In a small church, one volunteer may hold several roles, but each responsibility should still be visible.
 
-For Church of England bodies, the [Church of England records and information management guidance](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) points to its May 2026 Record Retention Schedule and a record-keeping review process. Other churches should use the relevant national, denominational and legal context rather than assuming that a parish schedule applies unchanged.
+For Church of England bodies, the <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England records and information management guidance</a> points to its May 2026 Record Retention Schedule and a record-keeping review process. Other churches should use the relevant national, denominational and legal context rather than assuming that a parish schedule applies unchanged.
 
 ## Inventory, minimise and map the records
 
@@ -87,7 +87,7 @@ Plan a controlled cut-over rather than a single import day. Freeze only the reco
 
 Before a live import, test the things that usually fail quietly: names with punctuation, household relationships, duplicate email addresses, people without email, withdrawn communication permissions, former members, and restricted notes that should not move into a routine database. Do not put safeguarding case information into a general people record merely because a custom field exists.
 
-At handover, record the database owner, backup and supplier-contact route, access-request process, training materials, review date, export location and the decision about the old spreadsheet. The [ICO's guidance on controller–processor contracts](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/) is relevant when a supplier processes personal data for the church, including arrangements at the end of the contract. Read the supplier's current documentation and obtain advice where the church handles sensitive or complex records.
+At handover, record the database owner, backup and supplier-contact route, access-request process, training materials, review date, export location and the decision about the old spreadsheet. The <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/" target="_blank" rel="noopener noreferrer">ICO's guidance on controller–processor contracts</a> is relevant when a supplier processes personal data for the church, including arrangements at the end of the contract. Read the supplier's current documentation and obtain advice where the church handles sensitive or complex records.
 
 ## Software listings to explore
 
@@ -103,8 +103,8 @@ Your next step is to run the seven-step migration rehearsal on one low-risk work
 
 Researched 28 July 2026. This guide is a document-led, representative process guide, not a complete market review, legal advice, data-protection advice or a claim of product testing. Church records can include sensitive information and national or denominational retention rules differ. Check the church's own applicable guidance and obtain specialist advice where the data or decision is high risk.
 
-- [ICO: data minimisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/) (accessed 28 July 2026)
-- [ICO: controller–processor contract requirements](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/) (accessed 28 July 2026)
-- [Church of England: records and information management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 28 July 2026)
-- [Charity Commission: charity accounts, financial reporting and tax](https://www.gov.uk/government/collections/charity-accounts-financial-reporting-and-tax) (accessed 28 July 2026)
-- [Charity Digital: CRM or donor-management system](https://charitydigital.org.uk/topics/crm-or-donor-management-system-which-one-is-right-for-you-5050) (accessed 28 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">ICO: data minimisation</a> (accessed 28 July 2026)
+- <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/" target="_blank" rel="noopener noreferrer">ICO: controller–processor contract requirements</a> (accessed 28 July 2026)
+- <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: records and information management</a> (accessed 28 July 2026)
+- <a href="https://www.gov.uk/government/collections/charity-accounts-financial-reporting-and-tax" target="_blank" rel="noopener noreferrer">Charity Commission: charity accounts, financial reporting and tax</a> (accessed 28 July 2026)
+- <a href="https://charitydigital.org.uk/topics/crm-or-donor-management-system-which-one-is-right-for-you-5050" target="_blank" rel="noopener noreferrer">Charity Digital: CRM or donor-management system</a> (accessed 28 July 2026)

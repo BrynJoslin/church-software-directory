@@ -84,7 +84,7 @@ These profiles are starting points, not a representative ranking of all worship-
 - [Planning Center](/software/planning-center/) is a service-planning and volunteer-coordination profile.
 - [ChurchSuite](/software/churchsuite/) has published planning and rota links within a wider church-management system.
 - [Elvanto](/software/elvanto/) and [ChurchTools](/software/churchtools/) are broader profiles to compare where planning connects to people and rota workflows.
-- [WorshipPlanning](/software/worshipplanning/) is a specialist directory starting point.
+- [WorshipTools](/software/worshiptools/) is a specialist directory starting point.
 
 Browse [worship planning](/categories/worship-planning/) separately from [presentation software](/categories/presentation-software/) when narrowing the list.
 
@@ -92,7 +92,7 @@ Browse [worship planning](/categories/worship-planning/) separately from [presen
 
 This guide was researched and checked on 28 July 2026. It does not assess theological suitability, copyright permissions, music licences, supplier security or actual volunteer adoption. Confirm current supplier documentation, content rights and contract terms before implementation.
 
-[^churchsuite]: [ChurchSuite: Getting started with the Planning module](https://support.churchsuite.com/article/492-getting-started-with-the-planning-module) (accessed 28 July 2026).
-[^planning-center]: [Planning Center: Services](https://www.planningcenter.com/services) (accessed 28 July 2026).
-[^ico]: [Information Commissioner's Office: Data minimisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/) (accessed 28 July 2026).
-[^methodist]: [Methodist Church: A guide to planning](https://www.methodist.org.uk/documents/4587/organising-events-guidance-pack-large.pdf) (accessed 28 July 2026).
+[^churchsuite]: <a href="https://support.churchsuite.com/article/492-getting-started-with-the-planning-module" target="_blank" rel="noopener noreferrer">ChurchSuite: Getting started with the Planning module</a> (accessed 28 July 2026).
+[^planning-center]: <a href="https://www.planningcenter.com/services" target="_blank" rel="noopener noreferrer">Planning Center: Services</a> (accessed 28 July 2026).
+[^ico]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Data minimisation</a> (accessed 28 July 2026).
+[^methodist]: <a href="https://www.methodist.org.uk/documents/4587/organising-events-guidance-pack-large.pdf" target="_blank" rel="noopener noreferrer">Methodist Church: A guide to planning</a> (accessed 28 July 2026).

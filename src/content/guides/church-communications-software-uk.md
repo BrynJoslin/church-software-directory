@@ -78,10 +78,10 @@ Record the decision in a place that future leaders can find. It should survive a
 
 These profiles represent different channel models and should be tested against the church's operating model.
 
-- [ChurchSuite](/software/churchsuite/), [iKnow Church](/software/iknow/) and [ChurchTools](/software/churchtools/) are broad church-management starting points with communications relevance.
+- [ChurchSuite](/software/churchsuite/), [iKnow Church](/software/iknow-church/) and [ChurchTools](/software/churchtools/) are broad church-management starting points with communications relevance.
 - [Flocknote](/software/flocknote/) is a communications-led profile to evaluate for email and text workflows.
 - [Pushpay](/software/pushpay/) and [Tithely](/software/tithely/) are profiles where app and member engagement features may be part of a wider system.
-- [WhatsApp](/software/whatsapp/) is a general messaging profile that requires a deliberate boundary rather than informal adoption.
+- [Flocknote](/software/flocknote/) is a communications profile that requires a deliberate boundary rather than informal adoption.
 
 Browse [church communications](/categories/church-communications/) and [church mobile apps](/categories/church-mobile-apps/) as related but distinct decision areas.
 
@@ -89,7 +89,7 @@ Browse [church communications](/categories/church-communications/) and [church m
 
 This guide was researched and checked on 28 July 2026. It is not legal or data-protection advice and does not establish a church's PECR or UK GDPR position. Product messaging channels, permissions and terms change; check current supplier documentation and obtain advice for the church's actual communications.
 
-[^churchsuite]: [ChurchSuite: Communication](https://support.churchsuite.com/article/577-communication) (accessed 28 July 2026).
-[^churchsuite-preferences]: [ChurchSuite: Managing communication options](https://support.churchsuite.com/article/475-managing-communication-preferences) (accessed 28 July 2026).
-[^ico-pecr]: [Information Commissioner's Office: Guidance on direct marketing using electronic mail](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/) (accessed 28 July 2026).
-[^ico]: [Information Commissioner's Office: Electronic and telephone marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/) (accessed 28 July 2026).
+[^churchsuite]: <a href="https://support.churchsuite.com/article/577-communication" target="_blank" rel="noopener noreferrer">ChurchSuite: Communication</a> (accessed 28 July 2026).
+[^churchsuite-preferences]: <a href="https://support.churchsuite.com/article/475-managing-communication-preferences" target="_blank" rel="noopener noreferrer">ChurchSuite: Managing communication options</a> (accessed 28 July 2026).
+[^ico-pecr]: <a href="https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Guidance on direct marketing using electronic mail</a> (accessed 28 July 2026).
+[^ico]: <a href="https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Electronic and telephone marketing</a> (accessed 28 July 2026).

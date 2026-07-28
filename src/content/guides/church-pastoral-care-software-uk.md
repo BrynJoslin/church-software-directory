@@ -77,8 +77,8 @@ Do not launch by importing years of unreviewed notes. Begin with the agreed live
 
 These directory profiles are research starting points, not endorsements or confirmation that a product is appropriate for sensitive pastoral records.
 
-- [ChurchSuite](/software/churchsuite/) and [iKnow Church](/software/iknow/) are broad church-management profiles that may support limited follow-up workflows.
-- [CareNote](/software/carenote/) and [ChurchBase](/software/churchbase/) are profiles to examine where care administration is a stated need.
+- [ChurchSuite](/software/churchsuite/) and [iKnow Church](/software/iknow-church/) are broad church-management profiles that may support limited follow-up workflows.
+- [ShepherdCare](/software/shepherdcare/) and [ChurchBase](/software/churchbase/) are profiles to examine where care administration is a stated need.
 - [iKnow Safeguarding](/software/iknow-safeguarding/) belongs in a separate safeguarding evaluation, not as a default pastoral-notes system.
 
 Use the [pastoral-care category](/categories/pastoral-care/) together with the [safeguarding category](/categories/safeguarding/) to keep that distinction visible.
@@ -87,7 +87,7 @@ Use the [pastoral-care category](/categories/pastoral-care/) together with the [
 
 This guide was researched and checked on 28 July 2026. It uses public authoritative material and does not determine a church's lawful basis, special-category condition, retention period, safeguarding process or professional pastoral practice. Obtain appropriate denominational, safeguarding and data-protection advice before changing real records.
 
-[^cofe-conduct]: [Church of England: Guidelines for the professional conduct of clergy](https://www.churchofengland.org/resources/clergy-resources/guidelines-professional-conduct-clergy/guidelines) (accessed 28 July 2026).
-[^ico-category]: [Information Commissioner's Office: What is special category data?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) (accessed 28 July 2026).
-[^ico-minimisation]: [Information Commissioner's Office: Data minimisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/) (accessed 28 July 2026).
-[^cofe-records]: [Church of England: Records and Information Management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 28 July 2026).
+[^cofe-conduct]: <a href="https://www.churchofengland.org/resources/clergy-resources/guidelines-professional-conduct-clergy/guidelines" target="_blank" rel="noopener noreferrer">Church of England: Guidelines for the professional conduct of clergy</a> (accessed 28 July 2026).
+[^ico-category]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: What is special category data?</a> (accessed 28 July 2026).
+[^ico-minimisation]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Data minimisation</a> (accessed 28 July 2026).
+[^cofe-records]: <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: Records and Information Management</a> (accessed 28 July 2026).

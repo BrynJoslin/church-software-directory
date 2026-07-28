@@ -76,8 +76,8 @@ Avoid promising a response time that the church cannot staff. State one contact 
 
 These profiles are starting points for a like-for-like trial.
 
-- [ChurchSuite](/software/churchsuite/) and [iKnow Church](/software/iknow/) are church-management profiles with event relevance.
-- [Eventbrite](/software/eventbrite/) and [Ticket Tailor](/software/ticket-tailor/) are public-ticketing starting points.
+- [ChurchSuite](/software/churchsuite/) and [iKnow Church](/software/iknow-church/) are church-management profiles with event relevance.
+- [Eventcube](/software/eventcube/) and [Ticket Tailor](/software/ticket-tailor/) are public-ticketing starting points.
 - [TryBooking](/software/trybooking/) and [Eventcube](/software/eventcube/) are further ticketing profiles to evaluate against the same fee and refund journey.
 
 Browse the [events and ticketing category](/categories/events-ticketing/) and retain only products whose current fees and workflow have been checked in writing.
@@ -86,7 +86,7 @@ Browse the [events and ticketing category](/categories/events-ticketing/) and re
 
 This guide was researched and checked on 28 July 2026. It is not legal, tax, financial or data-protection advice. Supplier fees, payment options, refund rules and UK consumer obligations can change; obtain current supplier and professional advice for the event.
 
-[^churchsuite-tickets]: [ChurchSuite: Adding tickets to an event](https://support.churchsuite.com/article/337-adding-tickets-to-your-events) (accessed 28 July 2026).
-[^churchsuite-checkin]: [ChurchSuite: Event check-in](https://support.churchsuite.com/article/379-event-check-in) (accessed 28 July 2026).
-[^eventbrite-refund]: [Eventbrite: Issue a full or partial refund](https://www.eventbrite.co.uk/help/en-gb/articles/158301/) (accessed 28 July 2026).
-[^ico]: [Information Commissioner's Office: Data minimisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/) (accessed 28 July 2026).
+[^churchsuite-tickets]: <a href="https://support.churchsuite.com/article/337-adding-tickets-to-your-events" target="_blank" rel="noopener noreferrer">ChurchSuite: Adding tickets to an event</a> (accessed 28 July 2026).
+[^churchsuite-checkin]: <a href="https://support.churchsuite.com/article/379-event-check-in" target="_blank" rel="noopener noreferrer">ChurchSuite: Event check-in</a> (accessed 28 July 2026).
+[^eventbrite-refund]: <a href="https://www.eventbrite.co.uk/help/en-gb/articles/158301/" target="_blank" rel="noopener noreferrer">Eventbrite: Issue a full or partial refund</a> (accessed 28 July 2026).
+[^ico]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Data minimisation</a> (accessed 28 July 2026).

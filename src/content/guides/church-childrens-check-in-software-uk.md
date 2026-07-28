@@ -79,7 +79,7 @@ These profiles are starting points for a structured trial, not rankings or safeg
 
 - [ChurchSuite](/software/churchsuite/) publishes a children's check-in workflow; confirm current permissions, device and printer requirements.
 - [Planning Center](/software/planning-center/) and [Elvanto](/software/elvanto/) are broader church-management profiles with children's-ministry relevance.
-- [KidCheck](/software/kidcheck/) and [Check-Ins by Ministry Brands](/software/check-ins-by-ministry-brands/) are specialist starting points where the workflow merits separate evaluation.
+- [KidCheck](/software/kidcheck/) and [Elvanto](/software/elvanto/) are further starting points where the workflow merits separate evaluation.
 
 Use the [children's ministry category](/categories/childrens-ministry/) to examine scope carefully: not every listing in the category is a check-in system.
 
@@ -87,7 +87,7 @@ Use the [children's ministry category](/categories/childrens-ministry/) to exami
 
 This guide was researched and checked on 28 July 2026. It is not safeguarding, legal or data-protection advice and does not certify product security or the suitability of a church's procedures. Confirm current supplier terms, safeguarding policy and applicable records requirements before loading real data.
 
-[^ico-children]: [Information Commissioner's Office: Data minimisation for children's information](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/8-data-minimisation/) (accessed 28 July 2026).
-[^churchsuite]: [ChurchSuite: Getting started with Check-In](https://support.churchsuite.com/article/682-getting-started-with-the-check-in-system) (accessed 28 July 2026).
-[^charity]: [Charity Commission: Safeguarding for charities and trustees](https://www.gov.uk/guidance/safeguarding-for-charities-and-trustees) (accessed 28 July 2026).
-[^cofe-records]: [Church of England: Records and Information Management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 28 July 2026).
+[^ico-children]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/8-data-minimisation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Data minimisation for children's information</a> (accessed 28 July 2026).
+[^churchsuite]: <a href="https://support.churchsuite.com/article/682-getting-started-with-the-check-in-system" target="_blank" rel="noopener noreferrer">ChurchSuite: Getting started with Check-In</a> (accessed 28 July 2026).
+[^charity]: <a href="https://www.gov.uk/guidance/safeguarding-for-charities-and-trustees" target="_blank" rel="noopener noreferrer">Charity Commission: Safeguarding for charities and trustees</a> (accessed 28 July 2026).
+[^cofe-records]: <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: Records and Information Management</a> (accessed 28 July 2026).

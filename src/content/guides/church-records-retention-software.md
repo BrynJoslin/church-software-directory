@@ -76,10 +76,10 @@ When replacing a supplier, agree what is returned, archived, transferred or secu
 
 No software listing can determine your retention policy. These profiles are relevant only after the church has mapped its own records decisions.
 
-- [ChurchSuite](/software/churchsuite/), [iKnow Church](/software/iknow/) and [ChurchTools](/software/churchtools/) are broad database profiles to examine for access, export and record-management controls.
+- [ChurchSuite](/software/churchsuite/), [iKnow Church](/software/iknow-church/) and [ChurchTools](/software/churchtools/) are broad database profiles to examine for access, export and record-management controls.
 - [iKnow Safeguarding](/software/iknow-safeguarding/) and [Parish Safeguarding Dashboard](/software/parish-safeguarding-dashboard/) require a separate safeguarding evaluation and approved records approach.
 - [ExpensePlus](/software/expenseplus/) is a finance-focused profile where financial-record requirements must be considered separately.
-- [Google Workspace](/software/google-workspace/) and [Microsoft 365](/software/microsoft-365/) are general document environments requiring ownership, access and lifecycle decisions.
+- [ChurchBase](/software/churchbase/) and [ShepherdCare](/software/shepherdcare/) are general record environments requiring ownership, access and lifecycle decisions.
 
 Start with the [church-management category](/categories/church-management/) only if a records review identifies a genuine system gap rather than a missing policy decision.
 
@@ -87,7 +87,7 @@ Start with the [church-management category](/categories/church-management/) only
 
 This guide was researched and checked on 28 July 2026. It provides a system-implementation framework, not retention periods or legal advice. Confirm current denomination-specific, charity, tax, safeguarding, employment and data-protection requirements before changing live records.
 
-[^ico-storage]: [Information Commissioner's Office: Storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) (accessed 28 July 2026).
-[^cofe]: [Church of England: Records and Information Management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 28 July 2026).
-[^ico-contract]: [Information Commissioner's Office: What needs to be included in the contract?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/) (accessed 28 July 2026).
-[^national-archives]: [The National Archives: Retention and transfer management framework](https://www.nationalarchives.gov.uk/archives-sector/advice-and-guidance/resources-by-archive-type/charity-archives-development-plan/outputs/retention-and-transfer-management-framework/) (accessed 28 July 2026).
+[^ico-storage]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Storage limitation</a> (accessed 28 July 2026).
+[^cofe]: <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: Records and Information Management</a> (accessed 28 July 2026).
+[^ico-contract]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: What needs to be included in the contract?</a> (accessed 28 July 2026).
+[^national-archives]: <a href="https://www.nationalarchives.gov.uk/archives-sector/advice-and-guidance/resources-by-archive-type/charity-archives-development-plan/outputs/retention-and-transfer-management-framework/" target="_blank" rel="noopener noreferrer">The National Archives: Retention and transfer management framework</a> (accessed 28 July 2026).

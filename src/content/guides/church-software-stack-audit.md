@@ -86,10 +86,10 @@ Schedule the next audit date while the first is still fresh. A lightweight quart
 
 The audit is not a purchase guide, but these profiles can help when a resulting action needs a focused review.
 
-- [ChurchSuite](/software/churchsuite/), [ChurchTools](/software/churchtools/) and [iKnow Church](/software/iknow/) are broad church-management profiles to evaluate where several journeys need a shared source of truth.
+- [ChurchSuite](/software/churchsuite/), [ChurchTools](/software/churchtools/) and [iKnow Church](/software/iknow-church/) are broad church-management profiles to evaluate where several journeys need a shared source of truth.
 - [ExpensePlus](/software/expenseplus/) is a finance-focused starting point where financial administration is the audit finding.
-- [MIDAS Room Booking](/software/midas-room-booking/) and [Eventbrite](/software/eventbrite/) illustrate specialist workflow systems that need clear ownership and handovers.
-- [Google Workspace](/software/google-workspace/) and [Microsoft 365](/software/microsoft-365/) are general productivity profiles where shared files and account ownership are in scope.
+- [MIDAS Room Booking](/software/midas-room-booking/) and [Eventcube](/software/eventcube/) illustrate specialist workflow systems that need clear ownership and handovers.
+- [ChurchBase](/software/churchbase/) and [ChurchTools](/software/churchtools/) are general productivity profiles where shared files and account ownership are in scope.
 
 Use the [software directory](/software/) and relevant category pages only after the audit identifies a real decision boundary.
 
@@ -97,7 +97,7 @@ Use the [software directory](/software/) and relevant category pages only after 
 
 This guide was researched and checked on 28 July 2026. It is not legal, data-protection, cyber-security, financial or procurement advice. It does not establish compliance or the security of any individual system. Obtain appropriate professional advice where the audit exposes sensitive-data, safeguarding, contractual or financial-control issues.
 
-[^charity-digital]: [Charity Digital: What trustees need to know about cyber security](https://charitydigital.org.uk/topics/what-trustees-need-to-know-about-cyber-security-11259) (accessed 28 July 2026).
-[^ico-ropa]: [Information Commissioner's Office: Records of processing and lawful basis](https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/records-of-processing-and-lawful-basis/) (accessed 28 July 2026).
-[^ico-documentation]: [Information Commissioner's Office: How do we document our processing activities?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/documentation/how-do-we-document-our-processing-activities/) (accessed 28 July 2026).
-[^cofe]: [Church of England: Records and Information Management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 28 July 2026).
+[^charity-digital]: <a href="https://charitydigital.org.uk/topics/what-trustees-need-to-know-about-cyber-security-11259" target="_blank" rel="noopener noreferrer">Charity Digital: What trustees need to know about cyber security</a> (accessed 28 July 2026).
+[^ico-ropa]: <a href="https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/records-of-processing-and-lawful-basis/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Records of processing and lawful basis</a> (accessed 28 July 2026).
+[^ico-documentation]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/documentation/how-do-we-document-our-processing-activities/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: How do we document our processing activities?</a> (accessed 28 July 2026).
+[^cofe]: <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: Records and Information Management</a> (accessed 28 July 2026).

@@ -88,7 +88,7 @@ Browse the [room and venue bookings category](/categories/room-bookings/) and ke
 
 This guide was researched and checked on 28 July 2026. It does not provide legal, tax, insurance, safeguarding or contract advice. Charges, payment providers, supplier features, terms and integration support can change; obtain current supplier and professional advice before publishing terms or handling a dispute.
 
-[^cofe]: [Church of England: Managing church hall bookings](https://www.churchofengland.org/resources/resourcing-church-administration/buildings-administration/managing-church-hall-bookings) (accessed 28 July 2026).
-[^kirklees]: [Kirklees Council: General conditions of letting](https://www.kirklees.gov.uk/beta/town-halls/town-hall-letting-conditions.aspx) (accessed 28 July 2026).
-[^midas]: [MIDAS: Integrated invoicing](https://mid.as/features/integrated-invoicing) (accessed 28 July 2026).
-[^ico]: [Information Commissioner's Office: Data minimisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/) (accessed 28 July 2026).
+[^cofe]: <a href="https://www.churchofengland.org/resources/resourcing-church-administration/buildings-administration/managing-church-hall-bookings" target="_blank" rel="noopener noreferrer">Church of England: Managing church hall bookings</a> (accessed 28 July 2026).
+[^kirklees]: <a href="https://www.kirklees.gov.uk/beta/town-halls/town-hall-letting-conditions.aspx" target="_blank" rel="noopener noreferrer">Kirklees Council: General conditions of letting</a> (accessed 28 July 2026).
+[^midas]: <a href="https://mid.as/features/integrated-invoicing" target="_blank" rel="noopener noreferrer">MIDAS: Integrated invoicing</a> (accessed 28 July 2026).
+[^ico]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Data minimisation</a> (accessed 28 July 2026).

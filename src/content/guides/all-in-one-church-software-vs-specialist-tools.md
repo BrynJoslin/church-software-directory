@@ -94,8 +94,8 @@ Use the [church-management category](/categories/church-management/) and the rel
 
 This guide was researched and checked on 28 July 2026. It is a decision framework, not legal, data-protection, accounting or safeguarding advice. Product capabilities, integrations, plans and export formats can change; confirm current supplier documentation and contract terms.
 
-[^users]: [Charity Digital: How to tell if you need new fundraising software](https://charitydigital.org.uk/topics/how-to-tell-if-you-need-new-fundraising-software-12540) (accessed 28 July 2026).
-[^churchsuite-export]: [ChurchSuite: Custom reporting and exporting data](https://support.churchsuite.com/article/419-custom-reporting-with-the-table-generator) (accessed 28 July 2026).
-[^churchsuite-api]: [ChurchSuite: Developer API](https://support.churchsuite.com/article/454-developer-api) (accessed 28 July 2026).
-[^ico-portability]: [Information Commissioner's Office: Right to data portability](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-data-portability/) (accessed 28 July 2026).
-[^ico-minimisation]: [Information Commissioner's Office: Data minimisation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/) (accessed 28 July 2026).
+[^users]: <a href="https://charitydigital.org.uk/topics/how-to-tell-if-you-need-new-fundraising-software-12540" target="_blank" rel="noopener noreferrer">Charity Digital: How to tell if you need new fundraising software</a> (accessed 28 July 2026).
+[^churchsuite-export]: <a href="https://support.churchsuite.com/article/419-custom-reporting-with-the-table-generator" target="_blank" rel="noopener noreferrer">ChurchSuite: Custom reporting and exporting data</a> (accessed 28 July 2026).
+[^churchsuite-api]: <a href="https://support.churchsuite.com/article/454-developer-api" target="_blank" rel="noopener noreferrer">ChurchSuite: Developer API</a> (accessed 28 July 2026).
+[^ico-portability]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-data-portability/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Right to data portability</a> (accessed 28 July 2026).
+[^ico-minimisation]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Data minimisation</a> (accessed 28 July 2026).

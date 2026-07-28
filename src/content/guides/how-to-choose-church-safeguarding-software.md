@@ -94,9 +94,9 @@ Compare each profile against the same written checklist. Where public informatio
 
 This guide was researched and checked on 28 July 2026. It relies on public sources and does not assess implementation quality, contracts, local safeguarding policy, or a supplier's real-world security controls.
 
-[^charity]: [Charity Commission: Safeguarding for charities and trustees](https://www.gov.uk/guidance/safeguarding-for-charities-and-trustees) (accessed 28 July 2026).
-[^charity-detail]: [Charity Commission: Safeguarding and protecting people for charities and trustees](https://www.gov.uk/guidance/safeguarding-and-protecting-people-for-charities-and-trustees) (accessed 28 July 2026).
-[^ico-special]: [Information Commissioner's Office: Special category data](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/) (accessed 28 July 2026).
-[^cofe-records]: [Church of England: Records and Information Management](https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management) (accessed 28 July 2026).
+[^charity]: <a href="https://www.gov.uk/guidance/safeguarding-for-charities-and-trustees" target="_blank" rel="noopener noreferrer">Charity Commission: Safeguarding for charities and trustees</a> (accessed 28 July 2026).
+[^charity-detail]: <a href="https://www.gov.uk/guidance/safeguarding-and-protecting-people-for-charities-and-trustees" target="_blank" rel="noopener noreferrer">Charity Commission: Safeguarding and protecting people for charities and trustees</a> (accessed 28 July 2026).
+[^ico-special]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Special category data</a> (accessed 28 July 2026).
+[^cofe-records]: <a href="https://www.churchofengland.org/about/libraries-and-archives/records-and-information-management" target="_blank" rel="noopener noreferrer">Church of England: Records and Information Management</a> (accessed 28 July 2026).
 
 Read the current [safeguarding software category](/categories/safeguarding/) alongside this guide. If a concern is live, use the church's reporting procedures and appropriate professional or statutory routes; do not use this guide as an incident-response manual.

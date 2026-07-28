@@ -80,8 +80,8 @@ Keep an editorial record alongside the media: who approved publication, any spea
 These profiles are starting points for a bounded evaluation.
 
 - [SermonAudio](/software/sermonaudio/) is a dedicated sermon-publishing and media profile.
-- [Vimeo](/software/vimeo/) and [YouTube](/software/youtube/) are general video-publishing profiles with different discovery and privacy questions.
-- [Buzzsprout](/software/buzzsprout/) and [Spotify for Creators](/software/spotify-for-creators/) are podcast-hosting starting points.
+- [Resi](/software/resi/) and [MCN Media](/software/mcn-media/) are video-publishing profiles with different discovery and privacy questions.
+- [SermonAudio](/software/sermonaudio/) and [StreamingChurch](/software/streamingchurch/) are podcast- and media-hosting starting points.
 - [ChurchSuite](/software/churchsuite/) may be relevant for linking or communicating published material, rather than for hosting the media itself.
 
 Use the [sermon-hosting category](/categories/sermon-hosting/) and [livestreaming category](/categories/livestreaming/) separately when comparing archive and live requirements.
@@ -90,8 +90,8 @@ Use the [sermon-hosting category](/categories/sermon-hosting/) and [livestreamin
 
 This guide was researched and checked on 28 July 2026. It does not grant copyright permission, determine privacy obligations or certify a provider's storage, accessibility or migration process. Confirm current terms, licences, permissions and supplier support before publication.
 
-[^methodist]: [Methodist Church: Recording consent and accessibility guide](https://www.methodist.org.uk/for-churches/digital-church/online-worship-toolkit/recording-consent-and-accessibility-guide/) (accessed 28 July 2026).
-[^spotify-rss]: [Spotify for Creators: Finding and enabling your RSS feed](https://support.spotify.com/us/creators/article/finding-and-enabling-your-rss-feed/) (accessed 28 July 2026).
-[^spotify-terms]: [Spotify for Creators Terms](https://www.spotify.com/us/legal/spotify-for-creators-terms/) (accessed 28 July 2026).
-[^sermonaudio]: [SermonAudio broadcaster overview](https://www.sermonaudio.com/broadcaster/overview/) (accessed 28 July 2026).
-[^ico]: [Information Commissioner's Office: Right to erasure](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-erasure/) (accessed 28 July 2026).
+[^methodist]: <a href="https://www.methodist.org.uk/for-churches/digital-church/online-worship-toolkit/recording-consent-and-accessibility-guide/" target="_blank" rel="noopener noreferrer">Methodist Church: Recording consent and accessibility guide</a> (accessed 28 July 2026).
+[^spotify-rss]: <a href="https://support.spotify.com/us/creators/article/finding-and-enabling-your-rss-feed/" target="_blank" rel="noopener noreferrer">Spotify for Creators: Finding and enabling your RSS feed</a> (accessed 28 July 2026).
+[^spotify-terms]: <a href="https://www.spotify.com/us/legal/spotify-for-creators-terms/" target="_blank" rel="noopener noreferrer">Spotify for Creators Terms</a> (accessed 28 July 2026).
+[^sermonaudio]: <a href="https://www.sermonaudio.com/broadcaster/overview/" target="_blank" rel="noopener noreferrer">SermonAudio broadcaster overview</a> (accessed 28 July 2026).
+[^ico]: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-erasure/" target="_blank" rel="noopener noreferrer">Information Commissioner's Office: Right to erasure</a> (accessed 28 July 2026).
