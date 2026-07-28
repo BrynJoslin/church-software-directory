@@ -1,8 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { getDirectoryStats } from "../utils/directory-stats";
 
 const software = await getCollection("software");
+const directoryStats = getDirectoryStats(software);
 ---
 
 <BaseLayout
@@ -44,7 +46,7 @@ const software = await getCollection("software");
           procurement questions do not by themselves prevent inclusion.
         </p>
         <p>
-          The directory currently contains {software.length} entries and is not a
+          The directory currently contains {directoryStats.listingCount} entries and is not a
           market-wide shortlist. Inclusion is reviewed as products and evidence
           change, and does not amount to endorsement.
         </p>

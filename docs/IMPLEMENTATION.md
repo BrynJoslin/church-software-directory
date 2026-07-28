@@ -58,6 +58,10 @@ Create one central configuration module for:
 
 Do not scatter environment-specific values across components.
 
+Public catalogue totals are not configuration values. Derive them at build time
+with `getDirectoryStats()` from `src/utils/directory-stats.ts`, so every page
+uses the current software-collection and dated-source-link counts.
+
 ## Content collections
 
 Create validated collections for:

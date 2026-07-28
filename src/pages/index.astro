@@ -4,6 +4,7 @@ import CategoryCard from "../components/CategoryCard.astro";
 import GuideCard from "../components/GuideCard.astro";
 import { siteConfig } from "../config/site";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getDirectoryStats } from "../utils/directory-stats";
 
 const [software, categories, guides] = await Promise.all([
   getCollection("software"),
@@ -20,7 +21,7 @@ const commonCategories = commonCategorySlugs.flatMap((slug) => {
   const category = categories.find((entry) => entry.data.slug === slug);
   return category ? [category] : [];
 });
-const sourceCount = software.reduce((total, entry) => total + entry.data.sources.length, 0);
+const directoryStats = getDirectoryStats(software);
 const featuredGuides = [...guides]
   .filter((guide) => guide.data.startHereOrder)
   .sort((a, b) => a.data.startHereOrder! - b.data.startHereOrder!);
@@ -45,7 +46,7 @@ const websiteJsonLd = {
         <p class="eyebrow">Independent help for UK churches</p>
         <h1>Find church software that works in the UK.</h1>
         <p>
-          Search {software.length} researched profiles for the job your church
+          Search {directoryStats.listingCount} researched profiles for the job your church
           needs to do. Where evidence is available, profiles cover pricing,
           Gift Aid, UK availability, data handling, exports and practical fit.
         </p>
@@ -78,8 +79,8 @@ const websiteJsonLd = {
   <section class="home-trust-strip" aria-label="Directory standards">
     <div class="container">
       <ul>
-        <li><strong>{software.length}</strong> researched profiles</li>
-        <li><strong>{sourceCount}</strong> dated source links</li>
+        <li><strong>{directoryStats.listingCount}</strong> researched profiles</li>
+        <li><strong>{directoryStats.sourceLinkCount}</strong> dated source links</li>
         <li>UK-specific checks where relevant</li>
         <li>No paid rankings</li>
       </ul>

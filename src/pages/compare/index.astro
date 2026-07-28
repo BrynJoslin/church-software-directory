@@ -10,10 +10,12 @@ import {
   type DecisionFieldKey
 } from "../../utils/decision-evidence";
 import { formatCompactDate } from "../../utils/content";
+import { getDirectoryStats } from "../../utils/directory-stats";
 
 const software = (await getCollection("software")).sort((a, b) =>
   a.data.name.localeCompare(b.data.name)
 );
+const directoryStats = getDirectoryStats(software);
 const fieldsBySlug = new Map(
   software.map((entry) => [
     entry.data.slug,
@@ -58,7 +60,7 @@ const comparisonStartingPoints = [
             product is listed below so you can open the records you need.
           </p>
           <details>
-            <summary>Browse all {software.length} product profiles</summary>
+            <summary>Browse all {directoryStats.listingCount} product profiles</summary>
             <ul class="comparison-fallback-list">
               {software.map((entry) => <li><a href={`/software/${entry.data.slug}/`}>{entry.data.name}</a></li>)}
             </ul>
