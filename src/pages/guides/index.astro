@@ -21,6 +21,12 @@ const startHereGuides = [...guides]
   .sort((a, b) => a.data.startHereOrder! - b.data.startHereOrder!);
 const categoryNames = Object.fromEntries(categories.map((category) => [category.id, category.data.name]));
 const categoriesById = new Map(categories.map((category) => [category.id, category]));
+const guideCountByCategory = new Map(
+  categories.map((category) => [
+    category.id,
+    guides.filter((guide) => guide.data.relatedCategories.some((reference) => reference.id === category.id)).length
+  ])
+);
 const guideSearchText = (guide: (typeof guides)[number]) =>
   [
     guide.data.title,
@@ -47,7 +53,7 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
         making a change. These guides are independent decision support, not a
         product ranking.
       </p>
-      <form class="guide-search" action="/guides/" method="get" data-guide-form data-analytics-event="guide_search">
+      <form class="guide-search" action="/guides/#all-guides" method="get" data-guide-form data-analytics-event="guide_search">
         <label for="guide-search">Search guides</label>
         <div class="guide-search__controls">
           <input id="guide-search" name="q" type="search" autocomplete="off" placeholder="Try migration, Gift Aid or rotas" />
@@ -112,16 +118,16 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
           const familyCategories = family.categories.flatMap((id) => {
             const category = categoriesById.get(id);
             return category ? [category] : [];
-          });
+          }).filter((category) => (guideCountByCategory.get(category.id) ?? 0) > 0);
           return (
             <section class="guide-topic-family" aria-labelledby={`guide-family-${family.name.replaceAll(/[^a-z0-9]+/gi, "-").toLowerCase()}`}>
               <h3 id={`guide-family-${family.name.replaceAll(/[^a-z0-9]+/gi, "-").toLowerCase()}`}>{family.name}</h3>
               <ul>
                 {familyCategories.map((category) => {
-                  const count = guides.filter((guide) => guide.data.relatedCategories.some((reference) => reference.id === category.id)).length;
+                  const count = guideCountByCategory.get(category.id) ?? 0;
                   return (
                     <li>
-                      <a href={`/guides/?category=${category.data.slug}`} data-guide-category-link data-category-value={category.data.slug} data-analytics-event="guide_filter">
+                      <a href={`/guides/topics/${category.data.slug}/`} data-analytics-event="guide_topic_open">
                         {category.data.name} <span>({count})</span>
                       </a>
                     </li>
@@ -135,7 +141,7 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="all-guides-heading">
+  <section id="all-guides" class="section" aria-labelledby="all-guides-heading">
     <div class="container">
       <div class="section-intro">
         <div>
@@ -154,7 +160,6 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
             <div
               data-guide-card
               data-task={guide.data.navigationTask}
-              data-categories={guide.data.relatedCategories.map((category) => category.id).join(",")}
               data-search={guideSearchText(guide)}
             >
               <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_hub" />

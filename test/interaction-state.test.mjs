@@ -177,21 +177,26 @@ test("guide hub keeps static content while restoring valid URL search and filter
   ]);
   assert.match(page, /data-guide-card/);
   assert.match(page, /data-guide-task-link/);
-  assert.match(page, /data-guide-category-link/);
+  assert.match(page, /\/guides\/topics\/\$\{category\.data\.slug\}/);
+  assert.doesNotMatch(page, /data-guide-category-link/);
   assert.match(page, /data-guide-empty-state/);
   assert.match(page, /<noscript>/);
+  assert.match(page, /action="\/guides\/#all-guides"/);
+  assert.match(page, /id="all-guides"/);
   assert.match(source, /const validTasks/);
-  assert.match(source, /const validCategories/);
+  assert.doesNotMatch(source, /validCategories/);
   assert.match(source, /window\.addEventListener\("popstate"/);
   assert.match(source, /terms\.every/);
+  assert.match(source, /allGuidesSection\?\.scrollIntoView\(\{ block: "start" \}\)/);
 });
 
 test("guide navigation remains curated and contextually rendered", async () => {
-  const [checker, categoryPage, softwarePage, guidePage, home] = await Promise.all([
+  const [checker, categoryPage, softwarePage, guidePage, topicPage, home] = await Promise.all([
     readFile(new URL("../scripts/check-guides.mjs", import.meta.url), "utf8"),
     readFile(new URL("../src/pages/categories/[slug].astro", import.meta.url), "utf8"),
     readFile(new URL("../src/pages/software/[slug].astro", import.meta.url), "utf8"),
     readFile(new URL("../src/pages/guides/[slug].astro", import.meta.url), "utf8"),
+    readFile(new URL("../src/pages/guides/topics/[slug].astro", import.meta.url), "utf8"),
     readFile(new URL("../src/pages/index.astro", import.meta.url), "utf8")
   ]);
   assert.match(checker, /featured category .*relatedCategories/);
@@ -200,5 +205,9 @@ test("guide navigation remains curated and contextually rendered", async () => {
   assert.match(categoryPage, /Guides for this decision/);
   assert.match(softwarePage, /Guides that discuss/);
   assert.match(guidePage, /Continue your decision/);
+  assert.match(topicPage, /getStaticPaths/);
+  assert.match(topicPage, /Complete guide list/);
+  assert.match(topicPage, /What to settle before choosing/);
+  assert.match(topicPage, /UK considerations/);
   assert.match(home, /startHereOrder/);
 });

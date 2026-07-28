@@ -151,6 +151,7 @@ The architecture should support:
  /compare/
  /guides/
  /guides/[slug]/
+ /guides/topics/[slug]/
  /about/
  /methodology/
  /suggest-software/

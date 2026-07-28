@@ -6,13 +6,11 @@ const resultCount = document.querySelector<HTMLElement>("#guide-result-count");
 const appliedFilters = document.querySelector<HTMLElement>("[data-guide-applied-filters]");
 const filterSummary = document.querySelector<HTMLElement>("[data-guide-filter-summary]");
 const emptyState = document.querySelector<HTMLElement>("[data-guide-empty-state]");
+const allGuidesSection = document.querySelector<HTMLElement>("#all-guides");
 const taskLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>("[data-guide-task-link]"));
-const categoryLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>("[data-guide-category-link]"));
 
 const taskLabels = new Map(taskLinks.map((link) => [link.dataset.taskValue ?? "", link.querySelector("strong")?.textContent ?? ""]));
-const categoryLabels = new Map(categoryLinks.map((link) => [link.dataset.categoryValue ?? "", link.textContent?.replace(/\s*\(\d+\)\s*$/, "") ?? ""]));
 const validTasks = new Set(taskLabels.keys());
-const validCategories = new Set(categoryLabels.keys());
 
 const normalise = (value: string) =>
   value
@@ -24,11 +22,9 @@ const normalise = (value: string) =>
 const stateFromUrl = () => {
   const parameters = new URLSearchParams(window.location.search);
   const task = parameters.get("task") ?? "";
-  const category = parameters.get("category") ?? "";
   return {
     query: (parameters.get("q") ?? "").slice(0, 120),
-    task: validTasks.has(task) ? task : "",
-    category: validCategories.has(category) ? category : ""
+    task: validTasks.has(task) ? task : ""
   };
 };
 
@@ -36,7 +32,6 @@ const updateUrl = (state: ReturnType<typeof stateFromUrl>, mode: "push" | "repla
   const parameters = new URLSearchParams();
   if (state.query) parameters.set("q", state.query);
   if (state.task) parameters.set("task", state.task);
-  if (state.category) parameters.set("category", state.category);
   const next = `${window.location.pathname}${parameters.size ? `?${parameters}` : ""}`;
   if (mode === "push") window.history.pushState({}, "", next);
   else window.history.replaceState({}, "", next);
@@ -51,15 +46,13 @@ const applyFilters = (mode: "push" | "replace" = "replace") => {
     const search = normalise(card.dataset.search ?? "");
     const matchesSearch = terms.every((term) => search.includes(term));
     const matchesTask = !state.task || card.dataset.task === state.task;
-    const matchesCategory = !state.category || (card.dataset.categories ?? "").split(",").includes(state.category);
-    const matches = matchesSearch && matchesTask && matchesCategory;
+    const matches = matchesSearch && matchesTask;
     card.hidden = !matches;
     return matches;
   });
   const summary = [
     query ? `Search: “${searchInput.value.trim()}”` : "",
-    state.task ? taskLabels.get(state.task) : "",
-    state.category ? categoryLabels.get(state.category) : ""
+    state.task ? taskLabels.get(state.task) : ""
   ].filter(Boolean);
   resultCount.textContent = `${visible.length} ${visible.length === 1 ? "guide" : "guides"}`;
   filterSummary.textContent = summary.length ? `Showing ${summary.join(" · ")}` : "";
@@ -67,10 +60,6 @@ const applyFilters = (mode: "push" | "replace" = "replace") => {
   emptyState.hidden = visible.length !== 0;
   taskLinks.forEach((link) => {
     if (link.dataset.taskValue === state.task) link.setAttribute("aria-current", "true");
-    else link.removeAttribute("aria-current");
-  });
-  categoryLinks.forEach((link) => {
-    if (link.dataset.categoryValue === state.category) link.setAttribute("aria-current", "true");
     else link.removeAttribute("aria-current");
   });
   updateUrl({ ...state, query: searchInput.value.trim() }, mode);
@@ -95,6 +84,7 @@ if (form && searchInput) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     applyFilters("push");
+    allGuidesSection?.scrollIntoView({ block: "start" });
   });
   searchInput.addEventListener("input", () => applyFilters());
   taskLinks.forEach((link) => link.addEventListener("click", (event) => {
@@ -103,15 +93,6 @@ if (form && searchInput) {
     const value = link.dataset.taskValue ?? "";
     if (parameters.get("task") === value) parameters.delete("task");
     else parameters.set("task", value);
-    window.history.pushState({}, "", `${window.location.pathname}?${parameters}`);
-    loadFromUrl();
-  }));
-  categoryLinks.forEach((link) => link.addEventListener("click", (event) => {
-    event.preventDefault();
-    const parameters = new URLSearchParams(window.location.search);
-    const value = link.dataset.categoryValue ?? "";
-    if (parameters.get("category") === value) parameters.delete("category");
-    else parameters.set("category", value);
     window.history.pushState({}, "", `${window.location.pathname}?${parameters}`);
     loadFromUrl();
   }));
