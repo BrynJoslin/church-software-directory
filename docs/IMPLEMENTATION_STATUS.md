@@ -20,8 +20,12 @@ are not the current public total.
 
 - The guide hub is now a static, searchable library with reader-task routes,
   category-family browsing, a curated three-guide `Start here` group and
-  complete server-rendered guide cards. Search and the two URL filters enhance
-  the page without hiding the full library when JavaScript is unavailable.
+  complete server-rendered guide cards. Search and the reader-task URL filter
+  enhance the page without hiding the full library when JavaScript is unavailable.
+- Each guide topic with published guides now has an indexable
+  `/guides/topics/[slug]/` page. It provides a category-specific introduction,
+  complete filtered guide list, selection questions, UK considerations and a
+  related directory link; topic links no longer use in-page category filters.
 - Every current guide records its reader task, two or three ordered next guides
   and any deliberately selected category or software profile features.
   Category and software pages reverse those relationships at build time; they

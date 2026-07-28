@@ -84,7 +84,7 @@ const categoryNames = Object.fromEntries(allCategories.map((category) => [catego
           <div class="grid">
             {featuredGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_category" />)}
           </div>
-          <p class="section-link"><a href={`/guides/?category=${entry.data.slug}`}>See all guides about {entry.data.name}</a></p>
+          <p class="section-link"><a href={`/guides/topics/${entry.data.slug}/`}>See all guides about {entry.data.name}</a></p>
         </div>
       </section>
     )

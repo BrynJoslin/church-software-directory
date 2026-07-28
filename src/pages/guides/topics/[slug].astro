@@ -1,0 +1,114 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import GuideCard from "../../../components/GuideCard.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { guideTasks } from "../../../utils/guides";
+
+export async function getStaticPaths() {
+  const [categories, guides] = await Promise.all([
+    getCollection("categories"),
+    getCollection("guides")
+  ]);
+  const categoriesWithGuides = new Set(
+    guides.flatMap((guide) => guide.data.relatedCategories.map((category) => category.id))
+  );
+
+  return categories
+    .filter((category) => categoriesWithGuides.has(category.id))
+    .map((entry) => ({
+      params: { slug: entry.data.slug },
+      props: { entry }
+    }));
+}
+
+interface Props {
+  entry: CollectionEntry<"categories">;
+}
+
+const { entry } = Astro.props;
+const [guides, categories] = await Promise.all([
+  getCollection("guides"),
+  getCollection("categories")
+]);
+const taskOrder = new Map(guideTasks.map((task, index) => [task.value, index]));
+const relevantGuides = guides
+  .filter((guide) => guide.data.relatedCategories.some((category) => category.id === entry.id))
+  .sort(
+    (a, b) =>
+      (taskOrder.get(a.data.navigationTask) ?? 99) -
+        (taskOrder.get(b.data.navigationTask) ?? 99) ||
+      a.data.title.localeCompare(b.data.title)
+  );
+const categoryNames = Object.fromEntries(categories.map((category) => [category.id, category.data.name]));
+const lowerCaseName = entry.data.name.toLocaleLowerCase("en-GB");
+---
+
+<BaseLayout
+  title={`Guides for ${entry.data.name}`}
+  description={`Independent ${lowerCaseName} guides for UK churches, covering the questions, trade-offs and practical next steps to settle before choosing software.`}
+  breadcrumbs={[
+    { label: "Guides", href: "/guides/" },
+    { label: entry.data.name }
+  ]}
+>
+  <section class="section">
+    <div class="container">
+      <div class="measure">
+        <p class="eyebrow">Guide topic</p>
+        <h1>Guides for {entry.data.name}</h1>
+        <p class="lead-copy">{entry.data.shortDescription}</p>
+        <p>
+          These independent guides help UK church teams define the work, ask proportionate questions and make a responsible next decision. They are decision support, not a ranking or endorsement of any product.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="topic-guides-heading">
+    <div class="container">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">Complete guide list</p>
+          <h2 id="topic-guides-heading">{relevantGuides.length} {relevantGuides.length === 1 ? "guide" : "guides"} about {entry.data.name}</h2>
+        </div>
+        <p>Start with the guide that best matches the decision your church is making now.</p>
+      </div>
+      <div class="grid">
+        {relevantGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_topic" />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="topic-questions-heading">
+    <div class="container page-grid">
+      <article class="prose">
+        <p class="eyebrow">Plan the decision</p>
+        <h2 id="topic-questions-heading">What to settle before choosing {lowerCaseName}</h2>
+        <p>
+          The right choice depends on the church’s actual people, process and capacity to run it well. Use the guides above alongside a clear owner, a realistic trial and an agreed route for reviewing the decision.
+        </p>
+        <h3>Questions to use with your team</h3>
+        <ul>
+          {entry.data.selectionCriteria.map((item) => <li>{item}</li>)}
+        </ul>
+      </article>
+      <aside class="aside-card">
+        <h2>UK considerations</h2>
+        <ul>
+          {entry.data.ukConsiderations.map((item) => <li>{item}</li>)}
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--soft" aria-labelledby="topic-software-heading">
+    <div class="container measure">
+      <p class="eyebrow">Related directory</p>
+      <h2 id="topic-software-heading">Explore {entry.data.name} software</h2>
+      <p>
+        The software directory records current supplier-published information and material questions for products in this category. Inclusion is not an endorsement, and important contractual, data and operational details should be checked directly with a supplier.
+      </p>
+      <p class="section-link"><a href={`/categories/${entry.data.slug}/`}>Browse {entry.data.name} software</a></p>
+    </div>
+  </section>
+</BaseLayout>

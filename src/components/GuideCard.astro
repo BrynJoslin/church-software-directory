@@ -33,7 +33,7 @@ const hiddenCategoryCount = entry.data.relatedCategories.length - categories.len
         {categories.map((category, index) => (
           <Fragment>
             {index > 0 && ", "}
-            <a href={`/guides/?category=${category.id}`}>{category.name}</a>
+            <a href={`/guides/topics/${category.id}/`}>{category.name}</a>
           </Fragment>
         ))}
         {hiddenCategoryCount > 0 && (
