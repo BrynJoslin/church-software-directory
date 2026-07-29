@@ -51,12 +51,14 @@ const lowerCaseName = entry.data.name.toLocaleLowerCase("en-GB");
     { label: entry.data.name }
   ]}
 >
-  <section class="section">
-    <div class="container">
-      <div class="measure">
+  <section class="section page-hero page-hero--editorial">
+    <div class="container page-hero__grid">
+      <div class="page-hero__intro">
         <p class="eyebrow">Guide topic</p>
         <h1>Guides for {entry.data.name}</h1>
         <p class="lead-copy">{entry.data.shortDescription}</p>
+      </div>
+      <div class="page-hero__statement">
         <p>
           These independent guides help UK church teams define the work, ask proportionate questions and make a responsible next decision. They are decision support, not a ranking or endorsement of any product.
         </p>

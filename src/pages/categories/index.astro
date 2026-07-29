@@ -16,15 +16,25 @@ const categoriesById = new Map(categories.map((category) => [category.id, catego
   description="Understand the problems different church software categories solve, when simpler tools may be enough and which UK questions to ask."
   breadcrumbs={[{ label: "Categories" }]}
 >
-  <section class="section">
+  <section class="section page-hero page-hero--editorial">
+    <div class="container page-hero__grid">
+      <div class="page-hero__intro">
+        <p class="eyebrow">Browse by operational need</p>
+        <h1>Church software categories</h1>
+        <p>
+          Start with the work your church needs to improve, then assess whether a
+          specialist system is proportionate.
+        </p>
+      </div>
+      <nav class="page-hero__routes" aria-label="Category next steps">
+        <a href="/shortlist/"><span>Need a starting point?</span><strong>Build a guided shortlist</strong></a>
+        <a href="/software/"><span>Know what to search for?</span><strong>Open the full directory</strong></a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section category-library" aria-label="Software category families">
     <div class="container">
-      <p class="eyebrow">Browse by operational need</p>
-      <h1>Church software categories</h1>
-      <p class="measure">
-        Start with the work your church needs to improve, then assess whether a
-        specialist system is proportionate.
-      </p>
-      <p class="section-link"><a class="button" href="/shortlist/">Build a shortlist</a></p>
       <div class="category-families">
         {categoryFamilies.map((family) => (
           <section class="category-family" aria-labelledby={`family-${family.name}`}>

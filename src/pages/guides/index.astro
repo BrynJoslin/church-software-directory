@@ -44,15 +44,17 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
   description="Independent practical guides to choosing, comparing and changing church software, with UK questions about data, cost, migration and responsibility."
   breadcrumbs={[{ label: "Guides" }]}
 >
-  <section class="section guide-hub-intro">
-    <div class="container">
-      <p class="eyebrow">Decision support</p>
-      <h1>Church software guides</h1>
-      <p class="measure lead-copy">
-        Find a practical next step for choosing software, checking a risk or
-        making a change. These guides are independent decision support, not a
-        product ranking.
-      </p>
+  <section class="section page-hero page-hero--tool guide-hub-intro">
+    <div class="container page-hero__grid">
+      <div class="page-hero__intro">
+        <p class="eyebrow">Decision support</p>
+        <h1>Church software guides</h1>
+        <p>
+          Find a practical next step for choosing software, checking a risk or
+          making a change. These guides are independent decision support, not a
+          product ranking.
+        </p>
+      </div>
       <form class="guide-search" action="/guides/#all-guides" method="get" data-guide-form data-analytics-event="guide_search">
         <label for="guide-search">Search guides</label>
         <div class="guide-search__controls">
@@ -80,7 +82,7 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="guide-tasks-heading">
+  <section class="section section--ink guide-task-section" aria-labelledby="guide-tasks-heading">
     <div class="container">
       <div class="section-intro">
         <div>
