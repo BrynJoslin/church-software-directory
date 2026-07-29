@@ -368,6 +368,18 @@ Output directory: dist
 
 Do not add a server adapter unless server functionality is explicitly approved.
 
+### IndexNow notifications
+
+The static site exposes its IndexNow ownership key as a text file at the site
+root. `.github/workflows/indexnow.yml` runs after a successful GitHub
+production deployment status and submits the canonical URLs in the live
+sitemap to the IndexNow global endpoint. It deliberately excludes preview
+deployments and takes the sitemap as the authoritative list of indexable URLs.
+
+If Cloudflare Pages does not publish a GitHub deployment status, run the
+workflow manually after the production deployment is live. The same live
+sitemap source prevents a local or preview URL from being submitted.
+
 ## Testing
 
 ## Public feedback scans

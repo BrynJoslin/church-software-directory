@@ -177,6 +177,15 @@ Node version: 22.12 or newer
 
 GitHub Actions validates pull requests and pushes to `main`.
 
+### IndexNow
+
+After a successful GitHub production deployment status, the `Notify IndexNow`
+workflow submits every canonical URL from the live sitemap to IndexNow. It does
+not run for preview deployments. The workflow can also be run manually after a
+production deployment if Cloudflare Pages does not send a GitHub deployment
+status. Use `npm run notify:indexnow -- --dry-run` to confirm the live sitemap
+can be read without making a submission.
+
 ## Editorial boundary
 
 Inclusion is not endorsement. The project does not invent prices, features,
