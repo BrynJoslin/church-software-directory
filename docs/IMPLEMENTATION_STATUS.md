@@ -607,6 +607,7 @@ are not the current public total.
 - npm
 - GitHub as source control
 - Cloudflare Pages as host
+- IndexNow ownership verification and production-sitemap notification workflow
 - no database or CMS for the proof of concept
 - URL-based state for filters and comparisons
 - evidence-backed product content only
