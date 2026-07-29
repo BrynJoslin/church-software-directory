@@ -137,7 +137,8 @@ test("homepage search uses the directory query state and its entry routes are co
   assert.match(home, /homepage_directory_entry/);
   assert.match(home, /homepage_comparison_entry/);
   assert.match(home, /homepage_shortlist_start/);
-  assert.match(home, /const sourceCount = software\.reduce/);
+  assert.match(home, /getDirectoryStats\(software\)/);
+  assert.match(home, /directoryStats\.sourceLinkCount/);
   assert.match(layout, /data-analytics-event/);
   assert.match(layout, /localStorage\.getItem\(consentKey\) === "accepted"/);
 });

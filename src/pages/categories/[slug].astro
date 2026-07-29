@@ -42,15 +42,14 @@ const categoryNames = Object.fromEntries(allCategories.map((category) => [catego
     { label: entry.data.name }
   ]}
 >
-  <section class="section">
+  <section class="section page-hero page-hero--editorial category-hero">
     <div class="container page-grid">
-      <article class="prose">
+      <div class="page-hero__intro">
         <p class="eyebrow">Software category</p>
         <h1>{entry.data.name}</h1>
         <p>{entry.data.shortDescription}</p>
-        <Content />
-      </article>
-      <aside class="aside-card">
+      </div>
+      <aside class="aside-card page-hero__panel">
         <h2>Who usually manages this?</h2>
         <ul>{entry.data.ownerRoles.map((role) => <li>{role}</li>)}</ul>
         <h2>UK considerations</h2>
@@ -61,7 +60,13 @@ const categoryNames = Object.fromEntries(allCategories.map((category) => [catego
     </div>
   </section>
 
-  <section class="section section--soft" aria-labelledby="criteria-heading">
+  <section class="section category-overview" aria-label={`${entry.data.name} overview`}>
+    <div class="container prose">
+      <Content />
+    </div>
+  </section>
+
+  <section class="section section--ink category-criteria" aria-labelledby="criteria-heading">
     <div class="container">
       <h2 id="criteria-heading">Selection criteria</h2>
       <ul class="measure">

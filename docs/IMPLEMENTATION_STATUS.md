@@ -16,6 +16,31 @@ profiles, 17 categories, 27 guides and 549 recorded source references. Older
 counts in the historical notes below describe earlier repository states; they
 are not the current public total.
 
+## Doorway visual-engagement rollout — 29 July 2026
+
+- Lessons from the standalone homepage prototype are now expressed as shared
+  Doorway patterns rather than a separate visual theme: stronger editorial
+  hierarchy, purposeful contrast bands, labelled tool surfaces, numbered
+  decision routes, ruled content lists and restrained next-step panels.
+- The homepage now uses a plum entry field with dynamically generated directory
+  statistics, a contained GET search, common starting-point links, an ink
+  decision-route section, a fuller evidence-and-independence explanation,
+  editorial guide rows and a clearer contribution panel.
+- The shared header gives the shortlist route appropriate visual priority and
+  the shared footer now uses a structured dark treatment. Page introductions,
+  section spacing, cards, filter panels and major section headings carry the
+  same hierarchy across directory, category, guide, comparison, shortlist,
+  product and trust pages.
+- The page-type rollout now gives discovery pages contained browsing tools,
+  decision tools explicit method panels and workspaces, records a clearer
+  identity-and-evidence sequence, and long-form editorial pages a quieter
+  introduction and reading width. Category selection criteria and guide task
+  routes use the ink-band treatment only where the reader is choosing a
+  consequential next step.
+- The rollout adds no framework, image dependency or client-side interaction.
+  Static generation, URL-based state, reduced-motion support and the existing
+  Doorway palette remain unchanged.
+
 ## Guide navigation — 28 July 2026
 
 - The guide hub is now a static, searchable library with reader-task routes,
@@ -625,9 +650,9 @@ are not the current public total.
   destinations.
 - Form endpoints and analytics are disabled centrally by default. Affiliate
   links and sponsored listings are enabled only for confirmed, listing-level
-  relationships that are visibly disclosed; the Logos Bible Study listing is
-  the first disclosed affiliate use, and no sponsored listing is currently
-  published.
+  relationships that are visibly disclosed; the Logos Bible Study and
+  Hallmaster listings use disclosed affiliate links, and no sponsored listing
+  is currently published.
 - The stale-listing review threshold is 180 days.
 - Directory and comparison changes made with select controls create history
   entries; text search updates the current entry to avoid one history entry per

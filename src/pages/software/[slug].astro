@@ -98,47 +98,49 @@ const faqJsonLd = longForm
     { label: software.name }
   ]}
 >
-  <section class="section">
-    <div class="container page-grid">
+  <section class="section profile-page">
+    <div class="container page-grid profile-layout">
       <article class="stack">
-        <div class="card-heading">
-          {
-            software.brandAssets?.logo ? (
-              <img
-                class="software-logo"
-                src={software.brandAssets.logo.src}
-                alt={software.brandAssets.logo.alt}
-              />
-            ) : (
-              <div class="logo-fallback" aria-hidden="true">
-                {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
-              </div>
-            )
-          }
-          <div>
-            <p class="eyebrow">Software profile</p>
-            <h1>{software.name}</h1>
+        <header class="profile-identity">
+          <div class="card-heading">
+            {
+              software.brandAssets?.logo ? (
+                <img
+                  class="software-logo"
+                  src={software.brandAssets.logo.src}
+                  alt={software.brandAssets.logo.alt}
+                />
+              ) : (
+                <div class="logo-fallback" aria-hidden="true">
+                  {software.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 2)}
+                </div>
+              )
+            }
+            <div>
+              <p class="eyebrow">Software profile</p>
+              <h1>{software.name}</h1>
+            </div>
           </div>
-        </div>
-        <p class="measure">{software.shortDescription}</p>
-        <div class="cluster">
-          <a
-            class="button"
-            href={visitUrl}
-            target="_blank"
-            rel={hasAffiliateLink && !hasTicketTailorReferralOffer ? "noopener noreferrer sponsored" : "noopener noreferrer"}
-            data-referral-vendor={hasAffiliateLink && !hasTicketTailorReferralOffer ? software.name : undefined}
-          >
-            {hasAffiliateLink && !hasTicketTailorReferralOffer ? "Visit official website (affiliate link)" : "Visit official website"}
-          </a>
-          <a
-            class="button button--secondary"
-            href="/compare/"
-            data-comparison-product={software.slug}
-          >
-            Add to comparison
-          </a>
-        </div>
+          <p class="measure">{software.shortDescription}</p>
+          <div class="cluster">
+            <a
+              class="button"
+              href={visitUrl}
+              target="_blank"
+              rel={hasAffiliateLink && !hasTicketTailorReferralOffer ? "noopener noreferrer sponsored" : "noopener noreferrer"}
+              data-referral-vendor={hasAffiliateLink && !hasTicketTailorReferralOffer ? software.name : undefined}
+            >
+              {hasAffiliateLink && !hasTicketTailorReferralOffer ? "Visit official website (affiliate link)" : "Visit official website"}
+            </a>
+            <a
+              class="button button--secondary"
+              href="/compare/"
+              data-comparison-product={software.slug}
+            >
+              Add to comparison
+            </a>
+          </div>
+        </header>
         {
           hasTicketTailorReferralOffer && (
             <aside class="notice referral-offer" aria-label="Ticket Tailor referral offer">

@@ -75,6 +75,60 @@ their hierarchy.
 - Prefer generous whitespace and one-pixel rules over shadows.
 - Use flexible, fluid spacing and avoid fixed heights for variable content.
 
+## Composition and page rhythm
+
+The homepage prototype review on 29 July 2026 established a reusable
+composition layer within Doorway. Apply these patterns according to content
+hierarchy rather than copying one page layout everywhere:
+
+- Give the primary promise one confident, tightly set display treatment. Use a
+  saturated accent field only where it establishes a genuine page entry point,
+  not as routine decoration.
+- Alternate paper, surface, ink and occasional accent-soft sections to make
+  long pages easier to scan. Ink sections are reserved for a small number of
+  high-value routes or decisions.
+- Pair major section headings with a short explanatory column. The explanation
+  should help a reader choose a route, not repeat the heading.
+- Use ruled editorial rows for curated guides, principles and compact
+  navigational groups. Use bordered cards where entries need to stand as
+  comparable records.
+- Let search and filter entry points read as purposeful tools through clear
+  labels, generous controls and a defined containing surface.
+- Use small uppercase eyebrows, numbered routes and factual statistics to
+  create orientation. These elements must remain meaningful, current and
+  derived from the underlying content where applicable.
+- End substantial landing pages with a restrained next-step panel containing a
+  small number of useful routes.
+- Use decorative dots, circles or similar CSS geometry only on a high-impact
+  brand field, at low contrast and with no semantic meaning.
+
+Site-wide engagement should come from hierarchy, contrast, spacing and useful
+content grouping. It should not depend on large shadows, excessive card
+containers, animation or decorative imagery.
+
+### Page-type variants
+
+Use the shared composition language differently according to what the reader is
+trying to do:
+
+- **Discovery pages** such as the software directory, category index and guide
+  hub use a clear introductory band, a contained search or route surface and a
+  visibly separate browsing workspace.
+- **Decision tools** such as comparison and shortlist pages use an
+  accent-soft introduction, dark principle panel and bordered working surface.
+  The interface should explain its method before asking for input.
+- **Records** such as software and category profiles use a contained identity
+  area followed by progressively deeper evidence. Product branding remains
+  subordinate to the directory's hierarchy.
+- **Editorial pages** such as guides, methodology and privacy use a restrained
+  introduction and a narrower reading column. Accent fields orient the reader
+  but do not run behind long-form prose.
+- **Registers and contribution pages** use a strong lead, explicit boundary
+  copy and a clearly separated form or searchable record area.
+
+Do not apply a saturated hero, dark band or decorative geometry to every page.
+Contrast should mark a change in task or information level.
+
 ## Brand mark
 
 The mark is a plum rounded square with one circular paper-coloured aperture in
@@ -100,7 +154,8 @@ target and a two-pixel accent focus ring with a two-pixel offset.
 
 Cards use paper or surface, a one-pixel `--rule` border and no routine drop
 shadow. Headings remain ink-coloured; interactive accents appear through links,
-badges and selected states.
+badges and selected states. Linked cards may use a two-pixel upward hover shift
+and a stronger border, provided reduced-motion preferences are respected.
 
 ### Badges and tags
 
@@ -140,6 +195,9 @@ communication problem.
 - Meaning never depends on colour alone.
 - Respect `prefers-reduced-motion`.
 - Keep animation brief, purposeful and non-essential.
+- Dark ink sections use `--on-accent` for primary text and
+  `--on-accent-muted` for supporting text; do not reuse ordinary muted ink on a
+  dark field.
 
 The canonical Doorway combinations have been checked as follows:
 

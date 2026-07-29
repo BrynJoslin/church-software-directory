@@ -44,50 +44,67 @@ const websiteJsonLd = {
     <div class="container hero-grid">
       <div>
         <p class="eyebrow">Independent help for UK churches</p>
-        <h1>Find church software that works in the UK.</h1>
+        <h1>Find church software that <em>actually works</em> in the UK.</h1>
         <p>
           Search {directoryStats.listingCount} researched profiles for the job your church
-          needs to do. Where evidence is available, profiles cover pricing,
-          Gift Aid, UK availability, data handling, exports and practical fit.
+          needs to do. Pricing, Gift Aid, UK availability, data handling and
+          exports are recorded where current evidence is available.
         </p>
-        <form class="home-search" action="/software/" method="get" data-analytics-event="homepage_search">
-          <label for="home-search">What are you looking for?</label>
-          <div class="home-search__controls">
-            <input
-              id="home-search"
-              name="q"
-              type="search"
-              placeholder="Try giving, rotas or church management"
-            />
-            <button type="submit">Search software</button>
-          </div>
-        </form>
       </div>
-      <aside class="trust-panel trust-panel--questions" aria-label="What the directory includes">
-        <p class="eyebrow">A decision resource, not a ranking</p>
-        <h2>Start with evidence, then ask the right questions.</h2>
-        <ul>
-          <li>Browse by the task that needs making easier.</li>
-          <li>Compare two to four products you already know.</li>
-          <li>Build an explained starting shortlist for your church.</li>
-        </ul>
-        <p><a href="/methodology/">How we research listings</a></p>
-      </aside>
+      <dl class="hero-stats" aria-label="Directory at a glance">
+        <div>
+          <dt>Researched profiles</dt>
+          <dd>{directoryStats.listingCount}</dd>
+        </div>
+        <div>
+          <dt>Dated source links</dt>
+          <dd>{directoryStats.sourceLinkCount}</dd>
+        </div>
+        <div>
+          <dt>Paid rankings</dt>
+          <dd>0</dd>
+        </div>
+      </dl>
+    </div>
+    <div class="container home-search-shell">
+      <form class="home-search" action="/software/" method="get" data-analytics-event="homepage_search">
+        <div class="home-search__meta">
+          <label for="home-search">Search the directory</label>
+          <span>{directoryStats.listingCount} profiles · {directoryStats.sourceLinkCount} dated sources</span>
+        </div>
+        <div class="home-search__controls">
+          <input
+            id="home-search"
+            name="q"
+            type="search"
+            placeholder="Try giving, rotas, Gift Aid or church management"
+          />
+          <button type="submit">Search software</button>
+        </div>
+        <div class="home-search__starting-points" aria-label="Common search starting points">
+          <span>Common starting points:</span>
+          <a href="/software/?q=church+management">Church management</a>
+          <a href="/software/?q=online+giving">Online giving</a>
+          <a href="/software/?q=Gift+Aid">Gift Aid</a>
+          <a href="/software/?q=rotas">Rotas</a>
+          <a href="/software/?q=presentation">Presentation</a>
+        </div>
+      </form>
     </div>
   </section>
 
   <section class="home-trust-strip" aria-label="Directory standards">
     <div class="container">
       <ul>
-        <li><strong>{directoryStats.listingCount}</strong> researched profiles</li>
-        <li><strong>{directoryStats.sourceLinkCount}</strong> dated source links</li>
         <li>UK-specific checks where relevant</li>
+        <li>Dated first-party evidence</li>
+        <li>Missing answers become questions</li>
         <li>No paid rankings</li>
       </ul>
     </div>
   </section>
 
-  <section class="section section--soft" aria-labelledby="routes-heading">
+  <section class="section section--ink" aria-labelledby="routes-heading">
     <div class="container">
       <div class="section-intro">
         <div>
@@ -99,18 +116,21 @@ const websiteJsonLd = {
       <ol class="decision-path">
         <li>
           <span class="decision-path__number" aria-hidden="true">01</span>
-          <h3><a href="/software/" data-analytics-event="homepage_directory_entry">Browse by task</a></h3>
+          <h3>Browse by task</h3>
           <p>Start with the work that needs making easier, from administration to giving or presentation.</p>
+          <a class="decision-path__link" href="/software/" aria-label="Open the software directory" data-analytics-event="homepage_directory_entry">Open the directory <span aria-hidden="true">→</span></a>
         </li>
         <li>
           <span class="decision-path__number" aria-hidden="true">02</span>
-          <h3><a href="/compare/" data-analytics-event="homepage_comparison_entry">Compare known products</a></h3>
+          <h3>Compare known products</h3>
           <p>Put sourced facts and unresolved questions side by side for two to four products.</p>
+          <a class="decision-path__link" href="/compare/" data-analytics-event="homepage_comparison_entry">Build a comparison <span aria-hidden="true">→</span></a>
         </li>
         <li>
           <span class="decision-path__number" aria-hidden="true">03</span>
-          <h3><a href="/shortlist/" data-analytics-event="homepage_shortlist_start">Build a guided shortlist</a></h3>
+          <h3>Build a guided shortlist</h3>
           <p>Answer a few practical questions to find explained starting points rather than a league table.</p>
+          <a class="decision-path__link" href="/shortlist/" data-analytics-event="homepage_shortlist_start">Answer a few questions <span aria-hidden="true">→</span></a>
         </li>
       </ol>
     </div>
@@ -143,16 +163,46 @@ const websiteJsonLd = {
     </div>
   </section>
 
-  <section class="section" aria-labelledby="guides-heading">
-    <div class="container page-grid home-guides">
+  <section class="section section--soft home-method" aria-labelledby="method-heading">
+    <div class="container home-method__grid">
       <div>
-        <p class="eyebrow">Before you commit</p>
-        <h2 id="guides-heading">A good decision is more than a feature checklist.</h2>
-        <p class="measure">
-          Our guides help teams ask better questions about data, cost, migration
-          and day-to-day ownership — so the decision still makes sense after the
-          launch meeting.
-        </p>
+        <p class="eyebrow">A decision resource, not a ranking</p>
+        <h2 id="method-heading">Published facts are tied to dated sources. Missing answers stay visible.</h2>
+        <p>That makes uncertainty useful: it becomes a precise supplier question rather than a guessed feature or a misleading “no”.</p>
+        <div class="cluster">
+          <a class="button" href="/methodology/">How we research listings</a>
+          <a class="button button--secondary" href="/about/">Why this exists</a>
+        </div>
+      </div>
+      <dl class="home-principles">
+        <div>
+          <dt>No paid rankings</dt>
+          <dd>Suppliers cannot buy a position, badge or more favourable write-up.</dd>
+        </div>
+        <div>
+          <dt>Inclusion is not endorsement</dt>
+          <dd>A profile means a product has been researched, not recommended.</dd>
+        </div>
+        <div>
+          <dt>Dated evidence</dt>
+          <dd>{directoryStats.sourceLinkCount} source links record when the supporting page was checked.</dd>
+        </div>
+        <div>
+          <dt>Corrections are welcome</dt>
+          <dd>Evidence-backed changes can be submitted through the public update route.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="guides-heading">
+    <div class="container home-guides">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">Before you commit</p>
+          <h2 id="guides-heading">A good decision is more than a feature checklist.</h2>
+        </div>
+        <p>Practical guidance on data, cost, migration and day-to-day ownership, written for decisions that need to last beyond launch.</p>
       </div>
       <div class="home-guide-list">
         {featuredGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} />)}
@@ -172,9 +222,10 @@ const websiteJsonLd = {
           help us improve it with first-party evidence.
         </p>
       </div>
-      <div class="cluster">
-        <a class="button" href="/supplier-update/">Suggest an update</a>
-        <a class="button button--secondary" href="/about/">Why this exists</a>
+      <div class="home-closing__links">
+        <a href="/charity-software-discounts/">Church and charity discounts <span aria-hidden="true">→</span></a>
+        <a href="/supplier-update/">Suggest an update <span aria-hidden="true">→</span></a>
+        <a href="/data/software.json">Browse the structured data <span aria-hidden="true">→</span></a>
       </div>
     </div>
   </section>

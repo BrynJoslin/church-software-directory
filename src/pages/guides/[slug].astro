@@ -52,9 +52,9 @@ const articleJsonLd = {
     { label: entry.data.title }
   ]}
 >
-  <section class="section">
-    <div class="container page-grid guide-layout">
-      <article class="prose">
+  <section class="section page-hero page-hero--editorial article-hero">
+    <div class="container page-grid">
+      <header class="page-hero__intro">
         <p class="eyebrow">Practical guide</p>
         <h1>{entry.data.title}</h1>
         <p>{entry.data.summary}</p>
@@ -66,18 +66,8 @@ const articleJsonLd = {
             {formatDate(entry.data.updated)}
           </time>
         </p>
-        <GuideContents headings={headings} />
-        <Content />
-        <section class="guide-continuation" aria-labelledby="continue-heading">
-          <p class="eyebrow">Keep moving</p>
-          <h2 id="continue-heading">Continue your decision</h2>
-          <p>These next guides follow the same decision journey. They are not a ranking or a complete set of related products.</p>
-          <div class="grid">
-            {nextGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_continue_open" />)}
-          </div>
-        </section>
-      </article>
-      <aside class="aside-card guide-related">
+      </header>
+      <aside class="aside-card page-hero__panel">
         <h2>Related categories</h2>
         <ul>
           {
@@ -95,6 +85,23 @@ const articleJsonLd = {
           with suppliers and qualified advisers.
         </p>
       </aside>
+    </div>
+  </section>
+
+  <section class="section guide-body">
+    <div class="container guide-reading-layout">
+      <article class="prose">
+        <GuideContents headings={headings} />
+        <Content />
+        <section class="guide-continuation" aria-labelledby="continue-heading">
+          <p class="eyebrow">Keep moving</p>
+          <h2 id="continue-heading">Continue your decision</h2>
+          <p>These next guides follow the same decision journey. They are not a ranking or a complete set of related products.</p>
+          <div class="grid">
+            {nextGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_continue_open" />)}
+          </div>
+        </section>
+      </article>
     </div>
   </section>
 </BaseLayout>

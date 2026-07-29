@@ -31,15 +31,35 @@ const itemListJsonLd = {
   breadcrumbs={[{ label: "Software" }]}
   jsonLd={itemListJsonLd}
 >
-  <section class="section">
-    <div class="container">
-      <p class="eyebrow">{directoryStats.listingCount} researched profiles</p>
-      <h1>Church software directory</h1>
-      <p class="measure">
-        Search supplier-sourced facts and independent directory assessments.
-        Details without useful evidence are omitted from cards.
-      </p>
+  <section class="section page-hero page-hero--tool directory-hero">
+    <div class="container page-hero__grid">
+      <div class="page-hero__intro">
+        <p class="eyebrow">{directoryStats.listingCount} researched profiles</p>
+        <h1>Church software directory</h1>
+        <p>
+          Search supplier-sourced facts and independent directory assessments.
+          Details without useful evidence are omitted from cards.
+        </p>
+      </div>
+      <dl class="page-hero__facts" aria-label="Directory evidence">
+        <div>
+          <dt>Profiles</dt>
+          <dd>{directoryStats.listingCount}</dd>
+        </div>
+        <div>
+          <dt>Dated sources</dt>
+          <dd>{directoryStats.sourceLinkCount}</dd>
+        </div>
+        <div>
+          <dt>Next step</dt>
+          <dd><a href="/shortlist/">Build a guided shortlist</a></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
 
+  <section class="section directory-workspace" aria-label="Search and filter software">
+    <div class="container">
       <noscript>
         <div class="notice">
           <p>

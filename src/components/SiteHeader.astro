@@ -6,9 +6,9 @@ const navItems = [
   { href: "/software/", label: "Software" },
   { href: "/charity-software-discounts/", label: "Charity discounts" },
   { href: "/categories/", label: "Categories" },
-  { href: "/shortlist/", label: "Build a shortlist" },
   { href: "/compare/", label: "Compare" },
-  { href: "/guides/", label: "Guides" }
+  { href: "/guides/", label: "Guides" },
+  { href: "/shortlist/", label: "Build a shortlist", featured: true }
 ];
 ---
 
@@ -44,6 +44,7 @@ const navItems = [
           navItems.map((item) => (
             <li>
               <a
+                class={item.featured ? "nav-cta" : undefined}
                 href={item.href}
                 aria-current={currentPath.startsWith(item.href) ? "page" : undefined}
               >
