@@ -13,6 +13,8 @@ interface Props {
   image?: string;
   type?: "website" | "article";
   noindex?: boolean;
+  toolHero?: boolean;
+  editorialHero?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
@@ -23,6 +25,8 @@ const {
   image = siteConfig.defaultSeoImage,
   type = "website",
   noindex = false,
+  toolHero = false,
+  editorialHero = false,
   jsonLd
 } = Astro.props;
 
@@ -105,10 +109,23 @@ const googleAnalyticsId =
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <SiteHeader />
     <main id="main-content" tabindex="-1">
-      <div class="container">
-        <Breadcrumbs items={breadcrumbs} />
-      </div>
-      <slot />
+      {
+        toolHero || editorialHero ? (
+          <div class:list={["page-hero-shell", { "page-hero-shell--tool": toolHero, "page-hero-shell--editorial": editorialHero }]}>
+            <div class="container">
+              <Breadcrumbs items={breadcrumbs} />
+            </div>
+            <slot />
+          </div>
+        ) : (
+          <>
+            <div class="container">
+              <Breadcrumbs items={breadcrumbs} />
+            </div>
+            <slot />
+          </>
+        )
+      }
     </main>
     <SiteFooter />
     {

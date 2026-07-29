@@ -761,11 +761,13 @@ strong {
   color: var(--ink-muted);
 }
 
-main > .section:first-of-type {
+main > .section:first-of-type,
+.page-hero-shell > .section:first-of-type {
   border-block-end: 0.0625rem solid var(--rule);
 }
 
-main > .section:first-of-type h1 {
+main > .section:first-of-type h1,
+.page-hero-shell > .section:first-of-type h1 {
   max-inline-size: 17ch;
   font-size: clamp(2.6rem, 2.05rem + 2.3vw, 4rem);
   line-height: 1.03;
@@ -774,7 +776,9 @@ main > .section:first-of-type h1 {
 }
 
 main > .section:first-of-type .lead,
-main > .section:first-of-type .prose > p:first-of-type:not(.eyebrow) {
+main > .section:first-of-type .prose > p:first-of-type:not(.eyebrow),
+.page-hero-shell > .section:first-of-type .lead,
+.page-hero-shell > .section:first-of-type .prose > p:first-of-type:not(.eyebrow) {
   max-inline-size: 60ch;
   color: var(--ink-muted);
   font-size: var(--step-1);
@@ -1036,6 +1040,10 @@ main > .section:first-of-type .prose > p:first-of-type:not(.eyebrow) {
   border-radius: var(--radius);
   padding: var(--space-lg);
   background: var(--surface);
+}
+
+.trust-panel--paper {
+  background: var(--paper);
 }
 
 .trust-panel::before {
@@ -1677,6 +1685,10 @@ main > .section:first-of-type .prose > p:first-of-type:not(.eyebrow) {
 
 .charity-warning-grid .charity-offer-card {
   border-color: var(--ink-line);
+  background: var(--surface);
+}
+
+.charity-starting-grid .charity-offer-card {
   background: var(--surface);
 }
 
@@ -2653,8 +2665,49 @@ textarea {
   border-color: rgb(124 59 119 / 20%);
 }
 
+.page-hero-shell--tool,
+.page-hero-shell--editorial {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.page-hero-shell--tool {
+  background: var(--accent-soft);
+}
+
+.page-hero-shell--editorial {
+  background: var(--paper);
+}
+
+.page-hero-shell::after {
+  position: absolute;
+  z-index: -1;
+  inset-block-start: -10rem;
+  inset-inline-end: -10rem;
+  inline-size: min(42vw, 32rem);
+  aspect-ratio: 1;
+  border: 0.0625rem solid var(--rule);
+  border-radius: 50%;
+  box-shadow: 0 0 0 6rem rgb(124 59 119 / 4%);
+  content: "";
+  pointer-events: none;
+}
+
+.page-hero-shell--tool::after {
+  border-color: rgb(124 59 119 / 20%);
+}
+
+.page-hero-shell > .page-hero::after {
+  content: none;
+}
+
 .page-hero--editorial {
   background: var(--paper);
+}
+
+.page-hero-shell > .page-hero {
+  background: transparent;
 }
 
 .page-hero__grid {
@@ -3099,7 +3152,6 @@ textarea {
 }
 
 .site-footer {
-  margin-block-start: var(--space-2xl);
   padding-block: var(--space-xl) var(--space-lg);
   background: var(--ink);
   color: var(--on-accent);
