@@ -104,6 +104,136 @@ const googleAnalyticsId =
         />
       ))
     }
+    {
+      googleAnalyticsId && (
+        <script is:inline define:vars={{ googleAnalyticsId }}>
+          const analyticsWindow = /** @type {Window & typeof globalThis & { dataLayer?: unknown[]; gtag?: (...arguments_: unknown[]) => void }} */ (window);
+          const analyticsConsentKey = "church-software-analytics-consent";
+          let analyticsStarted = false;
+
+          const startAnalytics = () => {
+            if (analyticsStarted) return;
+
+            analyticsStarted = true;
+            analyticsWindow[`ga-disable-${googleAnalyticsId}`] = false;
+            analyticsWindow.dataLayer = analyticsWindow.dataLayer || [];
+            analyticsWindow.gtag = function gtag(...arguments_) {
+              analyticsWindow.dataLayer?.push(arguments_);
+            };
+
+            const script = document.createElement("script");
+            script.async = true;
+            script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(googleAnalyticsId)}`;
+            script.addEventListener("load", () => {
+              if (typeof analyticsWindow.gtag !== "function") return;
+
+              analyticsWindow.gtag("js", new Date());
+              analyticsWindow.gtag("config", googleAnalyticsId);
+            });
+            document.head.append(script);
+          };
+
+          const stopAnalytics = () => {
+            analyticsWindow[`ga-disable-${googleAnalyticsId}`] = true;
+            analyticsStarted = false;
+          };
+
+          try {
+            if (localStorage.getItem(analyticsConsentKey) === "accepted") startAnalytics();
+          } catch {
+            // If storage is unavailable, leave analytics disabled until a visitor can consent.
+          }
+
+          window.addEventListener("DOMContentLoaded", () => {
+            const consentBanner = document.querySelector("[data-cookie-consent]");
+            const acceptButton = document.querySelector("[data-consent-accept]");
+            const rejectButton = document.querySelector("[data-consent-reject]");
+            const settingsButton = document.querySelector("[data-cookie-settings]");
+
+            const getConsent = () => {
+              try {
+                return localStorage.getItem(analyticsConsentKey);
+              } catch {
+                return null;
+              }
+            };
+            const hideBanner = () => consentBanner?.setAttribute("hidden", "");
+            const showBanner = () => {
+              consentBanner?.removeAttribute("hidden");
+              if (acceptButton instanceof HTMLElement) acceptButton.focus();
+            };
+            const setConsent = (consent) => {
+              try {
+                localStorage.setItem(analyticsConsentKey, consent);
+              } catch {
+                // Continue with the visitor's current-page choice when storage is unavailable.
+              }
+              hideBanner();
+              if (consent === "accepted") startAnalytics();
+              if (consent === "rejected") stopAnalytics();
+            };
+
+            if (!getConsent()) showBanner();
+            acceptButton?.addEventListener("click", () => setConsent("accepted"));
+            rejectButton?.addEventListener("click", () => setConsent("rejected"));
+            settingsButton?.addEventListener("click", showBanner);
+
+            document.addEventListener("click", (event) => {
+              const target = event.target;
+              if (!(target instanceof Element)) return;
+
+              const analyticsTarget = target.closest("[data-analytics-event]");
+              const analyticsEvent = analyticsTarget?.getAttribute("data-analytics-event");
+              if (
+                analyticsEvent &&
+                getConsent() === "accepted" &&
+                typeof analyticsWindow.gtag === "function"
+              ) {
+                analyticsWindow.gtag("event", analyticsEvent);
+              }
+
+              const comparisonLink = target.closest("a[data-comparison-product]");
+              if (comparisonLink instanceof HTMLAnchorElement && comparisonLink.dataset.comparisonProduct) {
+                comparisonLink.href = `/compare/?products=${encodeURIComponent(comparisonLink.dataset.comparisonProduct)}`;
+              }
+              const comparisonPairLink = target.closest("a[data-comparison-products]");
+              if (comparisonPairLink instanceof HTMLAnchorElement && comparisonPairLink.dataset.comparisonProducts) {
+                comparisonPairLink.href = `/compare/?products=${encodeURIComponent(comparisonPairLink.dataset.comparisonProducts)}`;
+              }
+
+              const link = target.closest("a[data-referral-vendor]");
+              const referralVendor =
+                link instanceof HTMLAnchorElement
+                  ? link.dataset.referralVendor
+                  : undefined;
+              if (
+                getConsent() !== "accepted" ||
+                !referralVendor ||
+                typeof analyticsWindow.gtag !== "function"
+              ) return;
+
+              analyticsWindow.gtag("event", "referral", {
+                referral_vendor: referralVendor
+              });
+            });
+
+            document.addEventListener("submit", (event) => {
+              const form = event.target;
+              if (!(form instanceof HTMLFormElement)) return;
+
+              const analyticsEvent = form.dataset.analyticsEvent;
+              if (
+                analyticsEvent &&
+                getConsent() === "accepted" &&
+                typeof analyticsWindow.gtag === "function"
+              ) {
+                analyticsWindow.gtag("event", analyticsEvent);
+              }
+            });
+          });
+        </script>
+      )
+    }
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -156,115 +286,6 @@ const googleAnalyticsId =
             Cookie settings
           </button>
         </>
-      )
-    }
-    {
-      googleAnalyticsId && (
-        <script is:inline define:vars={{ googleAnalyticsId }}>
-          const analyticsWindow = /** @type {any} */ (window);
-          const consentKey = "church-software-analytics-consent";
-          const consentBanner = document.querySelector("[data-cookie-consent]");
-          const acceptButton = document.querySelector("[data-consent-accept]");
-          const rejectButton = document.querySelector("[data-consent-reject]");
-          const settingsButton = document.querySelector("[data-cookie-settings]");
-          let analyticsStarted = false;
-
-          const startAnalytics = () => {
-            if (analyticsStarted) return;
-
-            analyticsStarted = true;
-            analyticsWindow[`ga-disable-${googleAnalyticsId}`] = false;
-            analyticsWindow.dataLayer = analyticsWindow.dataLayer || [];
-            analyticsWindow.gtag = (...arguments_) => {
-              analyticsWindow.dataLayer?.push(arguments_);
-            };
-            analyticsWindow.gtag("js", new Date());
-            analyticsWindow.gtag("config", googleAnalyticsId);
-
-            const script = document.createElement("script");
-            script.async = true;
-            script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(googleAnalyticsId)}`;
-            document.head.append(script);
-          };
-
-          const stopAnalytics = () => {
-            analyticsWindow[`ga-disable-${googleAnalyticsId}`] = true;
-            analyticsStarted = false;
-          };
-
-          const hideBanner = () => consentBanner?.setAttribute("hidden", "");
-          const showBanner = () => {
-            consentBanner?.removeAttribute("hidden");
-            acceptButton?.focus();
-          };
-
-          const setConsent = (consent) => {
-            localStorage.setItem(consentKey, consent);
-            hideBanner();
-            if (consent === "accepted") startAnalytics();
-            if (consent === "rejected") stopAnalytics();
-          };
-
-          if (localStorage.getItem(consentKey) === "accepted") startAnalytics();
-          if (!localStorage.getItem(consentKey)) showBanner();
-
-          acceptButton?.addEventListener("click", () => setConsent("accepted"));
-          rejectButton?.addEventListener("click", () => setConsent("rejected"));
-          settingsButton?.addEventListener("click", showBanner);
-
-          document.addEventListener("click", (event) => {
-            const target = event.target;
-            if (!(target instanceof Element)) return;
-
-            const analyticsTarget = target.closest("[data-analytics-event]");
-            const analyticsEvent = analyticsTarget?.getAttribute("data-analytics-event");
-            if (
-              analyticsEvent &&
-              localStorage.getItem(consentKey) === "accepted" &&
-              typeof analyticsWindow.gtag === "function"
-            ) {
-              analyticsWindow.gtag("event", analyticsEvent);
-            }
-
-            const comparisonLink = target.closest("a[data-comparison-product]");
-            if (comparisonLink instanceof HTMLAnchorElement && comparisonLink.dataset.comparisonProduct) {
-              comparisonLink.href = `/compare/?products=${encodeURIComponent(comparisonLink.dataset.comparisonProduct)}`;
-            }
-            const comparisonPairLink = target.closest("a[data-comparison-products]");
-            if (comparisonPairLink instanceof HTMLAnchorElement && comparisonPairLink.dataset.comparisonProducts) {
-              comparisonPairLink.href = `/compare/?products=${encodeURIComponent(comparisonPairLink.dataset.comparisonProducts)}`;
-            }
-
-            const link = target.closest("a[data-referral-vendor]");
-            const referralVendor =
-              link instanceof HTMLAnchorElement
-                ? link.dataset.referralVendor
-                : undefined;
-            if (
-              localStorage.getItem(consentKey) !== "accepted" ||
-              !referralVendor ||
-              typeof analyticsWindow.gtag !== "function"
-            ) return;
-
-            analyticsWindow.gtag("event", "referral", {
-              referral_vendor: referralVendor
-            });
-          });
-
-          document.addEventListener("submit", (event) => {
-            const form = event.target;
-            if (!(form instanceof HTMLFormElement)) return;
-
-            const analyticsEvent = form.dataset.analyticsEvent;
-            if (
-              analyticsEvent &&
-              localStorage.getItem(consentKey) === "accepted" &&
-              typeof analyticsWindow.gtag === "function"
-            ) {
-              analyticsWindow.gtag("event", analyticsEvent);
-            }
-          });
-        </script>
       )
     }
   </body>
