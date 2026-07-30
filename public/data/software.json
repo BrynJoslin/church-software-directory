@@ -6320,9 +6320,9 @@
           ]
         },
         {
-          "label": "eFile Ready products",
-          "url": "https://www.efileready.com/products.html",
-          "checked": "2026-07-25",
+          "label": "eFile Ready product range",
+          "url": "https://www.efileready.com/",
+          "checked": "2026-07-30",
           "supports": [
             "Charities Online product",
             "Live and test service routes"
@@ -6330,8 +6330,8 @@
         },
         {
           "label": "eFile Ready contact and support",
-          "url": "https://www.efileready.com/supporthome.html",
-          "checked": "2026-07-25",
+          "url": "https://www.efileready.com/support.html",
+          "checked": "2026-07-30",
           "supports": [
             "Support",
             "Live demo",
