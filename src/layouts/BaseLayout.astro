@@ -108,7 +108,7 @@ const googleAnalyticsId =
       googleAnalyticsId && (
         <script is:inline define:vars={{ googleAnalyticsId }}>
           const analyticsWindow = /** @type {Window & typeof globalThis & { dataLayer?: unknown[]; gtag?: (...arguments_: unknown[]) => void }} */ (window);
-          const analyticsConsentKey = "church-software-analytics-consent";
+          const consentKey = "church-software-analytics-consent";
           let analyticsStarted = false;
 
           const startAnalytics = () => {
@@ -139,7 +139,7 @@ const googleAnalyticsId =
           };
 
           try {
-            if (localStorage.getItem(analyticsConsentKey) === "accepted") startAnalytics();
+            if (localStorage.getItem(consentKey) === "accepted") startAnalytics();
           } catch {
             // If storage is unavailable, leave analytics disabled until a visitor can consent.
           }
@@ -152,7 +152,7 @@ const googleAnalyticsId =
 
             const getConsent = () => {
               try {
-                return localStorage.getItem(analyticsConsentKey);
+                return localStorage.getItem(consentKey);
               } catch {
                 return null;
               }
@@ -164,7 +164,7 @@ const googleAnalyticsId =
             };
             const setConsent = (consent) => {
               try {
-                localStorage.setItem(analyticsConsentKey, consent);
+                localStorage.setItem(consentKey, consent);
               } catch {
                 // Continue with the visitor's current-page choice when storage is unavailable.
               }
