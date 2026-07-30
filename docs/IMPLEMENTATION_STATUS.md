@@ -2,8 +2,11 @@
 
 - Google Analytics 4 is configured centrally with measurement ID `G-PGQQGQWDXG`.
   A built-in consent banner stores an accepted or rejected analytics choice in
-  local storage. The tag loads only after acceptance, and the product-profile
-  supplier CTA sends a `referral` event with an event-scoped `referral_vendor` parameter.
+  local storage. The standard asynchronous Google tag is present in the document
+  head on every page, with Consent Mode v2 and measurement disabled by default;
+  GA4 is configured and sends its first page view only after acceptance. The
+  product-profile supplier CTA sends a `referral` event with an event-scoped
+  `referral_vendor` parameter.
   Create the corresponding GA4 custom dimension before using the parameter in
   reports. The privacy notice now describes the analytics processing.
 

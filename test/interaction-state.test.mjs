@@ -143,6 +143,22 @@ test("homepage search uses the directory query state and its entry routes are co
   assert.match(layout, /localStorage\.getItem\(consentKey\) === "accepted"/);
 });
 
+test("analytics uses a static head tag and configures GA4 only after consent", async () => {
+  const source = await readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url), "utf8");
+  const startAnalytics = source.slice(
+    source.indexOf("const startAnalytics"),
+    source.indexOf("const stopAnalytics")
+  );
+
+  assert.match(source, /<script is:inline async src=\{googleAnalyticsScriptUrl\}>/);
+  assert.doesNotMatch(source, /document\.createElement\("script"\)/);
+  assert.match(source, /analyticsWindow\.dataLayer\?\.push\(arguments\)/);
+  assert.match(source, /analyticsWindow\.gtag\("consent", "default"/);
+  assert.match(startAnalytics, /analytics_storage: "granted"/);
+  assert.match(startAnalytics, /analyticsWindow\.gtag\("config", googleAnalyticsId\)/);
+  assert.doesNotMatch(source.slice(0, source.indexOf("const startAnalytics")), /analyticsWindow\.gtag\("config"/);
+});
+
 test("directory reveal keeps filtering and sorting on the complete card set", async () => {
   const [directory, reveal, cards] = await Promise.all([
     readFile(new URL("../src/scripts/directory.ts", import.meta.url), "utf8"),
