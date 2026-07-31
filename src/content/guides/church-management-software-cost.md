@@ -3,9 +3,9 @@ title: "How much does church management software cost?"
 slug: church-management-software-cost
 guideType: cost-guide
 standardVersion: "1.0"
-summary: "A UK guide to the true cost of church management software: subscription bands, VAT, modules, training, migration, payments, hardware and ongoing administration."
+summary: "Budget for church management software in the UK, including VAT, modules, migration, payments, support and the work that continues after launch."
 published: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-31
 relatedCategories:
   - church-management
   - online-giving
@@ -21,11 +21,11 @@ seo:
   description: "Understand the cost of church management software in the UK: published starting prices, VAT, modules, migration, training, payments and exit."
 ---
 
-Church management software can cost nothing in licence fees or hundreds each month. The public subscription is rarely the full cost. The useful budget is a three-year operating budget that includes the work and services needed to make the system dependable.
+Church management software can cost nothing in licence fees or hundreds each month. The public subscription is rarely the full cost. Make a three-year budget that includes the work and services needed to run it reliably.
 
 ## Quick answer
 
-There is no responsible single cost for church-management software. A UK church should compare a dated, like-for-like first-year and renewal budget that includes subscription, VAT/currency, modules, migration, training, payments, hardware, ongoing administration and exit. A lower monthly figure can cost more when it leaves manual reconciliation or technical responsibility unowned. The published examples below were checked on 25 July 2026 and are not quotes or estimates for an individual church.
+There is no single responsible cost for church-management software. Compare a dated, like-for-like first-year and renewal budget: subscription, VAT or currency, modules, migration, training, payments, hardware, ongoing administration and exit. A lower monthly figure can cost more when it leaves manual work or technical responsibility without an owner. The examples below were checked on 25 July 2026; they are not quotes for an individual church.
 
 ## Scope and method
 
@@ -44,7 +44,7 @@ This is a cost guide for church-management software and connected giving/operati
 
 See <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a>, <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a>, <a href="https://churchdesk.com/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchDesk pricing</a>, <a href="https://church.tools/en/pricing/" target="_blank" rel="noopener noreferrer">ChurchTools pricing</a> and <a href="https://www.elvanto.com/pricing/" target="_blank" rel="noopener noreferrer">Elvanto pricing</a>. Prices and tax treatment change; check the live supplier page and written proposal.
 
-## Budget these seven lines
+## Budget for these seven things
 
 1. Subscription: modules, people/contact bands, billing frequency and renewal.
 2. Tax and currency: VAT inclusion, exchange-rate exposure and payment method.

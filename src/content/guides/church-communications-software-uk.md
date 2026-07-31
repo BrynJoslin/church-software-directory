@@ -3,9 +3,9 @@ title: "Church communications software: email, messaging or an app?"
 slug: church-communications-software-uk
 guideType: explainer
 standardVersion: "1.0"
-summary: "Choose church communications software by assigning clear jobs to email, messaging and apps, with owned lists, preferences, access and accessibility rather than parallel channels."
+summary: "Choose church communications software by giving email, messaging and apps clear jobs, with owned lists, preferences, access and accessible alternatives."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - church-communications
   - church-mobile-apps
@@ -27,11 +27,13 @@ seo:
 
 ## Quick answer
 
-Choose communications software by deciding which channel owns each job. Email is usually suitable for fuller, searchable information and formal notices; messaging can work for timely coordination in a bounded group; an app or member portal can provide an owned place for ongoing resources and updates. None should become an unofficial substitute for the others. The problem is rarely a lack of channels. It is scattered contact lists, unclear audience rules, inaccessible messages and volunteers using personal accounts because the approved route is too difficult.
+Choose communications software by deciding what each channel is for. Email suits fuller, searchable information and formal notices; messaging can support timely coordination in a bounded group; an app or member portal can hold ongoing resources and updates. The problem is rarely a lack of channels. It is scattered contact lists, unclear audience rules, inaccessible messages and volunteers using personal accounts because the approved route is too hard.
 
 Start with a communication operating model: audience, purpose, channel, sender, approval, preference and archive. Then choose the smallest toolset that supports it. A product that sends email, SMS and push notifications is not automatically a better fit if the church cannot explain who may use each one and how people change their preferences.
 
-## Assign a clear job to every channel
+Write this model down where the people who send messages can use it. Review it when a new channel, ministry or account owner is added.
+
+## Give every channel a clear job
 
 List real messages from the past month. Group them by purpose rather than by the person who happened to send them: weekly news, rota reminders, urgent cancellation, pastoral follow-up, event registration, group chat, safeguarding information, public invitation and member-only update. For each group, decide whether it is public, internal, optional, operational or urgent.
 

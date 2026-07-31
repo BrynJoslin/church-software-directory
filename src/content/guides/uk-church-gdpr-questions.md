@@ -3,9 +3,9 @@ title: GDPR questions for church software suppliers
 slug: uk-church-gdpr-questions
 guideType: explainer
 standardVersion: "1.0"
-summary: A practical, evidence-focused question set for UK churches assessing software contracts, personal-data handling, security and data exit.
+summary: Ask UK church software suppliers practical, evidence-based questions about contracts, personal data, security and leaving the service.
 published: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-31
 relatedCategories:
   - church-management
   - online-giving
@@ -24,11 +24,11 @@ seo:
 
 ## Quick answer
 
-Ask a supplier for evidence about the exact service and account your church would buy, then assess it against the data you genuinely need to process. A statement that a product is “GDPR compliant” is not enough. For most UK churches the useful questions are: who is responsible for each processing activity; what the contract says; who can access which records; which suppliers receive data; how an incident is handled; and how the church retrieves or deletes data when it leaves.
+Ask a supplier for evidence about the exact service and account your church would buy, then compare it with the data you genuinely need to process. A claim that a product is “GDPR compliant” is not enough. Ask who is responsible for each activity, what the contract says, who can access records, which suppliers receive data, how an incident is handled, and how the church retrieves or deletes data when it leaves.
 
 This guide is for UK churches assessing hosted church-management, giving, rota or website software. It is a procurement aid, not legal advice or a declaration that a supplier complies with the UK General Data Protection Regulation (UK GDPR). It was researched on 25 July 2026; legislation and supplier terms can change.
 
-## Scope, method and the decision before the questions
+## Start with the decision, then ask the questions
 
 This is a representative guide, not a market-wide compliance review. The product examples are drawn from the directory’s current evidence records. They were not hands-on tested and suppliers were not interviewed. Missing supplier information is turned into a question, not a negative finding.
 

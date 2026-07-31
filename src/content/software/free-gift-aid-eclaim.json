@@ -1,7 +1,7 @@
 {
   "name": "Free Gift Aid eClaim",
   "slug": "free-gift-aid-eclaim",
-  "shortDescription": "A UK browser-based Charities Online e-filing service from eFile Ready, for charities and CASCs submitting single or multiple Gift Aid claims to HMRC.",
+  "shortDescription": "A UK browser-based service from eFile Ready for charities and community amateur sports clubs (CASCs) to submit one or more Gift Aid claims to HMRC's Charities Online service.",
   "officialWebsite": "https://www.efileready.com/charities.html",
   "company": "eFile Ready Limited",
   "countryOfOrigin": "United Kingdom",

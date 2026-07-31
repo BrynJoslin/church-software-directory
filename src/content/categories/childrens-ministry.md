@@ -1,7 +1,7 @@
 ---
 name: Children’s ministry and check-in
 slug: childrens-ministry
-shortDescription: Tools for registering children, checking them in and out, recording attendance, communicating with guardians and coordinating children’s ministry teams.
+shortDescription: Tools for registering children, checking them in and out, recording attendance, contacting guardians and coordinating children’s ministry teams.
 ownerRoles:
   - Children’s ministry lead
   - Safeguarding lead
@@ -20,7 +20,7 @@ seo:
   description: Explore children’s ministry and check-in software for UK churches, with practical safeguarding, consent, device and workflow questions.
 ---
 
-Check-in software can make handovers clearer and attendance easier to record. It does not establish a safeguarding culture or replace careful volunteer recruitment, training, supervision and incident processes.
+Check-in software can make handovers clearer and attendance easier to record. It does not establish a safeguarding culture or replace careful volunteer recruitment, training, supervision and incident procedures.
 
 ## Questions to ask
 

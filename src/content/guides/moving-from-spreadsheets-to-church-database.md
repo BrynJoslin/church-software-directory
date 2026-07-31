@@ -3,9 +3,9 @@ title: "Moving from spreadsheets to a church database"
 slug: moving-from-spreadsheets-to-church-database
 guideType: how-to
 standardVersion: "1.0"
-summary: A practical UK process for deciding whether church records have outgrown spreadsheets, preparing a safe migration and proving that a new database improves the work.
+summary: Decide whether church records have outgrown spreadsheets, then prepare and test a move to a database that genuinely improves the work.
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - church-management
   - church-communications
@@ -21,11 +21,11 @@ seo:
 
 ## Quick answer
 
-Move from spreadsheets to a church database when the same people data is being copied between lists, important tasks depend on one person remembering a workaround, or different authorised people need different views of the same current record. A database is not automatically safer or more useful: it adds permissions, training, data-quality and ownership work. For a small church with one well-owned list and a few repeatable tasks, a documented spreadsheet process may remain the better option.
+Move from spreadsheets to a church database when the same people data is copied between lists, important tasks rely on one person’s workaround, or authorised people need different views of the same current record. A database is not automatically safer or more useful: it adds permissions, training, data-quality and ownership work. For a small church with one well-owned list and a few repeatable tasks, a documented spreadsheet may still be the better option.
 
 The responsible route is to improve the records before importing them. Identify the purpose of every field, remove duplicate and unnecessary copies, agree who owns each workflow, map a small set of records, test it with minimised data and reconcile the result before turning the old process off. This guide was researched on 28 July 2026 for UK churches. It is not legal, safeguarding or data-protection advice.
 
-## Decide whether a database is the real answer
+## Decide whether a database is the answer
 
 The issue is rarely that a spreadsheet is old. The issue is that it no longer gives the church a dependable shared process. A list can be adequate for a single purpose: a small rota, a simple attendance count or a tightly controlled contact list. It becomes fragile when it has to act as a people database, a communication register, an event system, a record of pastoral actions and a reporting tool at the same time.
 

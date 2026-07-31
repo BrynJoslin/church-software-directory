@@ -3,9 +3,9 @@ title: Best church management software for small churches
 slug: best-church-management-software-small-churches
 guideType: buyers-guide
 standardVersion: "1.0"
-summary: A practical guide for small UK churches choosing between simple shared processes, free starting points and a sustainable church management system.
+summary: Choose church management software for a small UK church by the work it fixes and the people available to keep it running.
 published: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-31
 relatedCategories:
   - church-management
 navigationTask: choose
@@ -25,7 +25,7 @@ Small churches do not need “small church software”. They need a system whose
 
 ## Quick answer
 
-For a small UK church, start with the smallest dependable system that fixes two or three recurring failures and that a named person can run. A free tier is useful for a controlled trial, but a broad paid suite is better value when it removes duplicated work across people, rotas, events and giving. The crucial qualification is capacity: no product is suitable if nobody owns access, data quality and export. Research was completed on 25 July 2026 from supplier and ICO material.
+For a small UK church, choose the smallest dependable system that fixes two or three recurring problems and has a named owner. A free tier can support a controlled trial. A broader paid suite may be better value when it removes repeated work across people, rotas, events and giving. No product is suitable if nobody owns access, data quality and export. Research was completed on 25 July 2026 from supplier and ICO material.
 
 ## Scope and method
 
@@ -51,7 +51,7 @@ Choose a broad system when several ministries need the same people record. Choos
 
 The current listing evidence is representative, not a ranking. <a href="https://churchsuite.com/pricing/" target="_blank" rel="noopener noreferrer">ChurchSuite pricing</a>, <a href="https://www.iknowchurch.co.uk/iknow" target="_blank" rel="noopener noreferrer">iKnow Church pricing</a>, <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings pricing</a> and <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker</a> are the primary sources.
 
-## The hidden cost is volunteer attention
+## Plan for volunteer time
 
 Every system needs one accountable owner, even if several people use it. That person should know who can access data, how new volunteers are trained, how duplicates are corrected, and where a usable export sits. Do not spread this responsibility across a changing group of well-meaning people.
 

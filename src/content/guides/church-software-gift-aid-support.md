@@ -3,9 +3,9 @@ title: Church software with Gift Aid support
 slug: church-software-gift-aid-support
 guideType: explainer
 standardVersion: "1.0"
-summary: A UK guide to assessing church software and giving platforms for Gift Aid, from declarations and records to claims, fees and reconciliation.
+summary: A UK guide to checking church software and giving services for Gift Aid, from declarations and records to claims, costs and matching payments to accounts.
 published: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-31
 relatedCategories:
   - church-management
   - online-giving
@@ -26,21 +26,40 @@ seo:
 
 ## Quick answer
 
-Choose Gift Aid software by the whole control path, not a badge on a donation page. A useful service needs to help the church collect and retain a valid declaration, connect it to the right donation, identify exceptions, prepare or submit a claim as agreed, correct errors and reconcile cash, fees and tax repayment. The church remains responsible for its claim and records even when a supplier performs parts of that work.
+Choose Gift Aid software by the whole process, not a badge on a donation page.
+A useful service should help the church collect and keep a valid declaration,
+link it to the right donation, identify exceptions, prepare or submit a claim
+as agreed, correct errors and match cash, fees and tax repayment to the
+accounts. The church remains responsible for its claim and records even when a
+supplier does parts of this work.
 
 This guide is for UK churches and charities assessing a church-management or giving platform. It is not tax, accounting or legal advice. It was researched on 25 July 2026, using current official guidance and supplier material; eligibility, terms and charges must be checked for the church’s actual arrangement.
 
-## Scope and method
+## What this guide covers
 
 The examples are a representative directory shortlist, not a complete market review or a ranking. Inclusion means that the product has published Gift Aid-related material or a relevant giving workflow in the directory’s current evidence. No product was hands-on tested and no conclusion is drawn from a supplier’s silence. Important gaps are written as specific supplier questions.
 
-Gift Aid is tax relief on qualifying donations, not a feature a platform can guarantee for every gift. The church needs to determine eligibility and keep evidence. HMRC says a charity must retain a clear auditable link between a donation and the donor’s declaration. A declaration can cover one or multiple donations, but it does not turn an ineligible payment into a qualifying one.
+Gift Aid is tax relief on qualifying donations. It is not a feature a platform
+can guarantee for every gift. The church needs to determine eligibility and
+keep evidence. HM Revenue and Customs (HMRC) says a charity must keep a clear
+record linking a donation and the donor’s declaration. A declaration can cover
+one or more donations, but it cannot make an ineligible payment qualify.
 
-## Start with the giving and finance process
+## Start with the church's giving and finance process
 
-Map the journey before comparing platforms: card or Direct Debit donation; donor information and declaration; payment settlement; fund allocation; Gift Aid eligibility; claim or export; corrections; and monthly reconciliation. Include donation types that often behave differently, such as contactless gifts, appeals, regular gifts, event payments, collections and gifts made through an intermediary.
+Map the journey before comparing services: card or Direct Debit donation, donor
+information and declaration, payment reaching the bank, allocation to a fund,
+Gift Aid eligibility, claim or export, corrections and the monthly check that
+payments match the accounts. Include donations that may work differently, such
+as contactless gifts, appeals, regular gifts, event payments, collections and
+gifts made through an intermediary.
 
-A system may be unnecessary if giving volume is low and a documented, restricted finance process already gives the church a reliable declaration record, donor link and reconciliation. Conversely, a spreadsheet is not a solution when multiple people change declarations, fees are hard to reconcile or records are copied across a payment provider, a people database and a personal inbox. The underlying problem is a missing control and owner, not merely missing automation.
+A system may be unnecessary if giving is low and a written finance process
+already gives the church a reliable declaration record, donor link and payment
+check. Conversely, a spreadsheet is not a solution when several people change
+declarations, fees are hard to match to payments or records are copied between
+a payment provider, people database and personal inbox. The real problem is a
+missing control and a named owner, not merely missing automation.
 
 ## What to compare
 
@@ -53,7 +72,7 @@ Use the same questions with every candidate. They reveal more than a broad claim
 | Does the product prepare, submit or only export a claim? | Responsibility and workflow differ materially. | A sample claim or export and role explanation. |
 | How are corrections and refunds handled? | Errors need an accountable route. | Demonstrate an incorrect amount or cancelled payment. |
 | Which fees are deducted and when? | Net receipts and Gift Aid can be misunderstood. | Current price/terms for the exact payment route. |
-| Can finance reconcile it? | Trustees need reliable records and controls. | Settlement, fee, Gift Aid and bank-report trail. |
+| Can finance match payments to the accounts? | Trustees need reliable records and controls. | Payment, fee, Gift Aid and bank-report trail. |
 | What data can the church export? | The church needs continuity and a usable exit. | Open a fictional export without supplier help. |
 
 HMRC says declarations and donations must be backed by adequate records. It also gives retention expectations in its claiming guidance. This is why a supplier demonstration should include the awkward cases, not only a successful donation screen.
@@ -71,7 +90,7 @@ HMRC says declarations and donations must be backed by adequate records. It also
 
 The table is not an endorsement. Broad platforms such as Planning Center, ChurchDesk and ChMeetings are not described here as Gift Aid options because the current directory records do not cite a supplier-published Gift Aid workflow for them.
 
-## Trial the exceptions, not only the happy path
+## Test problems, not only a successful donation
 
 Use fictional or minimised data; do not upload a live donor database just to test a product. Ask the supplier or finance owner to work through the same script for each contender:
 
@@ -80,12 +99,12 @@ Use fictional or minimised data; do not upload a live donor database just to tes
 3. Mark an example that should not be claimed and establish who can override or correct it.
 4. Produce the claim, submission or export that the church would use.
 5. Amend a declaration or cancel a payment and see how the audit trail changes.
-6. Match the settlement, fees, Gift Aid and bank statement using a restricted finance role.
+6. Match the payment, fees, Gift Aid and bank statement using a finance role with limited access.
 7. Export the relevant records and check that the church can understand them independently.
 
 Record whether the task was observed in a trial, published by the supplier or remains a question to settle. The treasurer should be able to explain the output to trustees without relying on a private spreadsheet.
 
-## Ownership, data and financial controls
+## Decide ownership, data and financial controls
 
 Decide explicitly where the authoritative donor, declaration and finance records live. If a specialist platform and a church database both hold the same donor, define how changes are made, how duplicates are resolved and which system is used for a correction. Do not give every ministry leader access to donor information because they use the same wider platform.
 

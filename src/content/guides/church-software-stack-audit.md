@@ -3,9 +3,9 @@ title: "How to audit your church software stack"
 slug: church-software-stack-audit
 guideType: how-to
 standardVersion: "1.0"
-summary: "A practical church software-stack audit: inventory systems, owners, users, data, integrations, costs, renewals and exits before deciding what to keep or change."
+summary: "Audit your church’s systems, owners, users, data, connections, costs, renewals and exit routes before deciding what to keep or change."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - church-management
   - church-communications
@@ -25,11 +25,11 @@ seo:
 
 ## Quick answer
 
-Audit a church software stack by making one honest inventory of every system, spreadsheet, shared inbox, cloud folder, device-dependent app and recurring subscription that supports church work. For each, record its purpose, owner, users, information held, integrations, annual cost or renewal date, access method, backup and exit route. Then decide whether it should be kept, improved, consolidated, replaced or stopped. Do not begin by asking which platform to buy. The most useful audit result is often a clear owner, a retired duplicate list, a documented renewal or an exit plan for a service that nobody can now administer.
+Audit a church software stack by making one honest list of every system, spreadsheet, shared inbox, cloud folder, device-dependent app and subscription that supports church work. Record its purpose, owner, users, information held, connections, annual cost or renewal date, access, backup and exit route. Then decide whether to keep, improve, combine, replace or stop it. Do not begin by asking what platform to buy. A useful audit often produces a clear owner, a retired duplicate list, a documented renewal or an exit plan for a service nobody can now administer.
 
 The audit is an operational and governance exercise, not a technical beauty contest. Include the informal tools people use because the official process is awkward. If a ministry runs from a volunteer's personal account or an unshared spreadsheet, it belongs in the inventory even if no invoice appears in the church accounts.
 
-## Set a proportionate audit boundary and team
+## Set a sensible audit boundary and team
 
 Start with a 60–90 minute discovery session and one named audit owner. Invite a church-office representative, finance contact, ministry or volunteer representative and the person who manages systems. For sensitive processes, involve the relevant safeguarding, pastoral or records lead without putting sensitive details in the inventory.
 

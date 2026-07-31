@@ -3,9 +3,9 @@ title: Free church management software in the UK
 slug: free-church-management-software-uk
 guideType: buyers-guide
 standardVersion: "1.0"
-summary: What “free” church management software means for a UK church, which free models exist and the obligations that do not disappear with the subscription price.
+summary: "Understand free church management software in the UK: what the free model covers, what it does not, and the checks to make before adding live records."
 published: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-31
 relatedCategories:
   - church-management
 navigationTask: choose
@@ -21,11 +21,11 @@ seo:
   description: "Assess free church management software for a UK church: capacity limits, US-dollar add-ons, technical responsibility, Gift Aid and data exit."
 ---
 
-Free church management software is useful when it gives a church time to test a real workflow. It is risky when “free” is treated as proof that the service will meet UK data, giving, support or exit needs.
+Free church management software can give a church time to test a real workflow. It is risky when “free” is taken to mean it meets UK data, giving, support or exit needs.
 
 ## Quick answer
 
-Free can be a sensible starting point, but it describes a price model rather than a fit or a risk level. UK churches should distinguish a free tier of a hosted service, a permanently free supplier product and open-source software where the church runs the service itself. Compare the capacity limit, paid path, technical responsibility, data evidence, support, export and continuity before uploading live records. This guide was researched on 25 July 2026 from supplier and authoritative material; it is not a ranking or hands-on test.
+Free can be a sensible start, but it is a price model, not proof of fit or low risk. Distinguish a hosted free tier, a supplier product that is free, and open-source software the church runs itself. Before adding live records, check the limit, paid path, technical responsibility, data evidence, support, export and continuity. This guide was researched on 25 July 2026 from supplier and authoritative material; it is not a ranking or hands-on test.
 
 ## Scope and method
 
@@ -44,7 +44,7 @@ This guide covers free or free-entry tools for people, rota and basic church adm
 
 Sources: <a href="https://help.planningcenter.com/en/136790-planning-center-pricing.html" target="_blank" rel="noopener noreferrer">Planning Center</a>, <a href="https://www.chmeetings.com/pricing/" target="_blank" rel="noopener noreferrer">ChMeetings</a>, <a href="https://churchlinker.com/" target="_blank" rel="noopener noreferrer">ChurchLinker</a>, <a href="https://churchcrm.io/faq.html" target="_blank" rel="noopener noreferrer">ChurchCRM</a>, <a href="https://www.b1.church/" target="_blank" rel="noopener noreferrer">B1 Church</a> and <a href="https://www.worshiptools.com/" target="_blank" rel="noopener noreferrer">WorshipTools</a>.
 
-## The cost that does not disappear
+## Costs that do not disappear
 
 Free plans often charge through capacity, transaction fees, paid modules, hardware, messages, migration or the team’s time. Open-source software moves more of that cost into technical responsibility. Neither approach is wrong; both need to be budgeted.
 

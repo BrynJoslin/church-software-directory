@@ -1,7 +1,7 @@
 ---
 name: Church livestreaming
 slug: livestreaming
-shortDescription: Platforms for delivering live church video to a website, social channels, remote congregations and, in some cases, other campuses.
+shortDescription: Services for showing live church video on a website, social channels, to people at home and, in some cases, at other campuses.
 ownerRoles:
   - Church technical lead
   - Worship and production lead

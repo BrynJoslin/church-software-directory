@@ -11,6 +11,7 @@
     "check": "npm run prepare:data && astro check && node scripts/check-public-copy.mjs && node --experimental-strip-types scripts/check-content-integrity.mjs && npm run check:charity-offers && npm run check:guides",
     "check:charity-offers": "node scripts/check-charity-offers.mjs",
     "check:guides": "node scripts/check-guides.mjs",
+    "check:plain-language": "npm run build",
     "check:content": "node --experimental-strip-types scripts/dashboard.mjs",
     "check:links": "node scripts/check-links.mjs",
     "test:dashboard": "node --test test/dashboard-analysis.test.mjs",
@@ -25,7 +26,7 @@
     "check:internal-links": "node scripts/check-internal-links.mjs",
     "check:accessibility": "node scripts/check-accessibility.mjs",
     "notify:indexnow": "node scripts/notify-indexnow.mjs",
-    "build": "npm run prepare:data && npm run check:guides && astro build && node scripts/check-public-copy.mjs --built && node scripts/check-dashboard-output.mjs && npm run check:sitemap && npm run check:internal-links && npm run check:accessibility",
+    "build": "npm run prepare:data && npm run check:guides && astro build && node scripts/check-public-copy.mjs --built && node scripts/check-dashboard-output.mjs && npm run check:sitemap && npm run check:internal-links && npm run check:accessibility && node scripts/check-plain-language.mjs",
     "test:interactions": "node --experimental-strip-types --test test/interaction-state.test.mjs test/charity-offer-state.test.mjs",
     "preview": "astro preview"
   },

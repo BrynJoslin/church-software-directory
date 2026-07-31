@@ -48,7 +48,7 @@ const categories = categoryGroups.flatMap((family) => family.categories);
       <div class="shortlist-intro tool-intro-panel">
         <p class="eyebrow">Guided shortlist</p>
         <h1>Build a church software shortlist</h1>
-        <p class="measure">Start with a category, then choose whether another useful question would help. Every answer shown will reduce the current matches without taking them to zero.</p>
+        <p class="measure">Start with the type of software you need. Then answer a useful question if it will narrow the list without removing every match.</p>
         <noscript><div class="notice"><p>This guided shortlist needs JavaScript. You can still <a href="/categories/">browse categories</a> and compare products manually.</p></div></noscript>
 
         <form class="shortlist-form enhancement" data-category-form action="/shortlist/" method="get">
@@ -134,9 +134,9 @@ const categories = categoryGroups.flatMap((family) => family.categories);
 
       <aside class="aside-card shortlist-rules tool-principles-panel">
         <h2>How this works</h2>
-        <p>The first question is always the software category. Later questions are considered in a fixed order and appear only when at least one answer would leave a smaller, non-empty set.</p>
-        <p>Detailed results are shown with the selected category as a primary category first, then strong UK-specific evidence, then name. This is a tie-break, not a score or endorsement. Commercial relationships are never inputs.</p>
-        <p>Technical administration stays in the decision pack rather than acting as a filter because too few profiles have reliable evidence for it. Pricing is presented only as an individual starting point where a public GBP price is recorded.</p>
+        <p>You always start by choosing a software category. Later questions appear only when at least one answer leaves a smaller list with one or more matches.</p>
+        <p>Results show products in your chosen category first, then products with strong UK-specific evidence, then by name. This only settles a tie. It is not a score, endorsement or commercial placement.</p>
+        <p>Technical checks stay in the decision pack because too few profiles have reliable evidence to use them as filters. Prices appear only where a supplier publishes a GBP starting price.</p>
         <p>Browse by family: {categoryFamilies.map((family) => <span class="shortlist-family">{family.name}</span>)}</p>
       </aside>
     </div>

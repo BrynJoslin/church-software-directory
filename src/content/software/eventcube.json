@@ -1,7 +1,7 @@
 {
   "name": "Eventcube",
   "slug": "eventcube",
-  "shortDescription": "A UK-developed event-ticketing platform for free and paid in-person, online or hybrid events, with Stripe payments, white-label options and QR check-in.",
+  "shortDescription": "A UK-developed service for tickets to free or paid in-person, online and hybrid events. It uses Stripe payments and offers branded pages and QR-code check-in.",
   "officialWebsite": "https://www.eventcube.io/",
   "company": "Eventcube Solutions Ltd (company number 08939283)",
   "countryOfOrigin": "United Kingdom",

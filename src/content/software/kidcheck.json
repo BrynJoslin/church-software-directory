@@ -1,7 +1,7 @@
 {
   "name": "KidCheck",
   "slug": "kidcheck",
-  "shortDescription": "A US children’s and youth check-in platform with attendance, guardian notifications, optional volunteer tools and printed labels.",
+  "shortDescription": "A US service for checking children and young people in. It records attendance, sends guardian notifications and offers optional volunteer tools and printed labels.",
   "officialWebsite": "https://www.kidcheck.com/",
   "company": "KidCheck",
   "ukFocus": "general",

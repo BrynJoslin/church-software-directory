@@ -37,6 +37,7 @@ Astro prints the local address, normally `http://localhost:4321/`.
 ```bash
 npm run check
 npm run check:guides
+npm run check:plain-language
 npm run check:stale
 npm run build
 npm run check:sitemap
@@ -54,6 +55,11 @@ documented Cloudflare build command.
 configured review threshold. `npm run build` generates the production site in
 `dist/`. `npm run check:sitemap` confirms that every canonical, indexable HTML
 page in that build is present in Astro's generated XML sitemap.
+`npm run check:plain-language` builds the site and writes a route-level
+plain-language backlog to `.internal/plain-language/`. It is a non-blocking
+editorial report: its Grade 8 target flags text for review but does not replace
+factual checking or task-based reader testing.
+The same warning report runs at the end of every production build.
 
 The software export is generated from the content collection at
 `public/data/software.json` and the lean client-side shortlist dataset at

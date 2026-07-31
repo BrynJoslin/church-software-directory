@@ -1,14 +1,14 @@
 ---
 name: Online giving
 slug: online-giving
-shortDescription: Services that help churches accept, record and reconcile card, bank or digital donations, sometimes alongside Gift Aid administration.
+shortDescription: Services that help churches take and record card, bank or online donations, sometimes with Gift Aid administration.
 ownerRoles:
   - Treasurer or finance officer
   - Gift Aid secretary
   - Church administrator
 selectionCriteria:
   - Complete transaction and subscription cost
-  - Reconciliation, reporting and export workflow
+  - How to match payments with accounts, report on them and export records
   - Donor experience and payment methods
   - Access controls and audit history
 ukConsiderations:
@@ -20,7 +20,9 @@ seo:
   description: Explore online giving software, UK Gift Aid and payment questions, and researched products relevant to church finance teams.
 ---
 
-Online giving software can make donations easier to receive and record. It does not replace charity accounting controls, independent reconciliation or the church's responsibility to obtain valid Gift Aid declarations.
+Online giving software can make donations easier to receive and record. It does
+not replace the church's financial controls, an independent check that payments
+match the accounts, or the need for valid Gift Aid declarations.
 
 ## When a specialist system may not be needed
 
@@ -29,7 +31,7 @@ If most giving already arrives through standing orders and the church has a soun
 ## Questions to ask
 
 - What reaches the church after every fee?
-- How are refunds, failed payments and chargebacks handled?
+- How are refunds, failed payments and card-payment disputes handled?
 - Can transactions be exported in a useful accounting format?
-- Does the Gift Aid workflow match current HMRC requirements?
+- Does the Gift Aid process match current HM Revenue and Customs (HMRC) requirements?
 - Who can see donor information and change fund allocations?

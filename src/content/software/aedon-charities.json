@@ -1,7 +1,7 @@
 {
   "name": "Aedon.Charities",
   "slug": "aedon-charities",
-  "shortDescription": "A UK Salesforce-native charity accounting platform for SORP reporting, fund and project accounting, partial VAT, Gift Aid submissions and donor tax statements.",
+  "shortDescription": "A UK charity accounting system built on Salesforce. It covers charity reports following the Statement of Recommended Practice (SORP), fund and project accounts, partial VAT, Gift Aid claims and donor tax statements.",
   "officialWebsite": "https://aedon.co/charity-accounting-software/",
   "company": "Aedon.Co Limited",
   "countryOfOrigin": "United Kingdom",

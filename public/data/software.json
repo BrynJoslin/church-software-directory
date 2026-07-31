@@ -133,7 +133,7 @@
     {
       "name": "Aedon.Charities",
       "slug": "aedon-charities",
-      "shortDescription": "A UK Salesforce-native charity accounting platform for SORP reporting, fund and project accounting, partial VAT, Gift Aid submissions and donor tax statements.",
+      "shortDescription": "A UK charity accounting system built on Salesforce. It covers charity reports following the Statement of Recommended Practice (SORP), fund and project accounts, partial VAT, Gift Aid claims and donor tax statements.",
       "officialWebsite": "https://aedon.co/charity-accounting-software/",
       "company": "Aedon.Co Limited",
       "countryOfOrigin": "United Kingdom",
@@ -252,7 +252,7 @@
     {
       "name": "AltarDesk",
       "slug": "altardesk",
-      "shortDescription": "A UK church-management platform for members, giving and Gift Aid, rotas, communication, governance, pastoral appointments and safeguarding administration.",
+      "shortDescription": "A UK system for church members, giving and Gift Aid, rotas and messages. It also covers governance, pastoral appointments and safeguarding administration.",
       "officialWebsite": "https://altardesk.co.uk/",
       "company": "Rayscent Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -426,7 +426,7 @@
     {
       "name": "Aplos",
       "slug": "aplos",
-      "shortDescription": "Nonprofit and church accounting software with fund accounting, financial reporting, donations and operational management tools.",
+      "shortDescription": "Accounting software for charities and churches, with separate fund accounts, financial reports, donations and day-to-day management tools.",
       "officialWebsite": "https://www.aplos.com/",
       "company": "Aplos Software",
       "countryOfOrigin": null,
@@ -512,7 +512,7 @@
     {
       "name": "Aurnet",
       "slug": "aurnet",
-      "shortDescription": "A newer UK church platform combining a member app, communications, people records, giving, rotas, events, pastoral care, training and a connected website.",
+      "shortDescription": "A newer UK church system with a member app, messages, people records, giving, rotas, events, pastoral care, training and a connected website.",
       "officialWebsite": "https://aurnet.co.uk/",
       "company": "Aurnet Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -653,7 +653,7 @@
     {
       "name": "Avodah",
       "slug": "avodah",
-      "shortDescription": "Church-management software with people records, volunteer rosters, service planning, expenses and communications, operated from Newcastle upon Tyne.",
+      "shortDescription": "Church management software from Newcastle upon Tyne for people records, volunteer rotas, service planning, expenses and messages.",
       "officialWebsite": "https://avodahapp.com/",
       "company": "Avodah Software",
       "countryOfOrigin": "United Kingdom",
@@ -736,7 +736,7 @@
     {
       "name": "B1 Church",
       "slug": "b1-church",
-      "shortDescription": "A free church platform with an app, website builder, people records, giving, check-in, forms, groups and workflows.",
+      "shortDescription": "A free church system with an app, website builder, people records, giving, check-in, forms and groups. It can also set up repeatable steps for church tasks.",
       "officialWebsite": "https://www.b1.church/",
       "company": "Live Church Solutions",
       "countryOfOrigin": null,
@@ -794,7 +794,7 @@
     {
       "name": "Beacon CRM",
       "slug": "beacon-crm",
-      "shortDescription": "A UK charity CRM for supporter and donor management, payments, preferences, reporting and operations.",
+      "shortDescription": "A UK charity system for supporter and donor records, payments, preferences, reports and day-to-day administration.",
       "officialWebsite": "https://www.beaconcrm.org/",
       "company": "Beacon CRM",
       "countryOfOrigin": null,
@@ -935,7 +935,7 @@
     {
       "name": "BMc Azurri Tap To Donate",
       "slug": "bmc-azurri-tap-to-donate",
-      "shortDescription": "A UK NFC and QR-code donation platform for charities and places of worship, with branded donation pages, dashboard reporting, contactless payment and optional Gift Aid workflows.",
+      "shortDescription": "A UK donation service for charities and places of worship. It supports tap-to-give and QR-code donations, branded donation pages, reports and optional Gift Aid steps.",
       "officialWebsite": "https://bmcazurri.com/taptodonate/",
       "company": "BMc Azurri GA Solutions Limited",
       "countryOfOrigin": "United Kingdom",
@@ -1030,7 +1030,7 @@
     {
       "name": "BookingsPlus",
       "slug": "bookingsplus",
-      "shortDescription": "A UK-operated venue-lettings platform for room hire, enquiries, invoices, payments, hirer compliance and branded booking websites across single or multiple sites.",
+      "shortDescription": "A UK service for letting rooms and venues. It handles enquiries, invoices, payments, hirer requirements and branded booking websites for one or more sites.",
       "officialWebsite": "https://bookingsplus.co.uk/",
       "company": "Kajima Partnerships Limited (via Kajima Community)",
       "countryOfOrigin": "United Kingdom",
@@ -1106,7 +1106,7 @@
     {
       "name": "Bookitbee",
       "slug": "bookitbee",
-      "shortDescription": "A UK event-ticketing and registration platform from LIVE IT Group, with paid and free event registration, donations and mobile check-in.",
+      "shortDescription": "A UK service from LIVE IT Group for event tickets and registration. It covers paid and free registrations, donations and mobile check-in.",
       "officialWebsite": "https://bookitbee.com/",
       "company": "LIVE IT Group Ltd (company number 08432364), trading as Bookitbee",
       "countryOfOrigin": "United Kingdom",
@@ -1201,7 +1201,7 @@
     {
       "name": "Bookteq",
       "slug": "bookteq",
-      "shortDescription": "UK venue-booking software from My Local Pitch for halls, rooms and other community spaces, with online bookings, payments and reporting.",
+      "shortDescription": "UK booking software from My Local Pitch for halls, rooms and community spaces. It includes online bookings, payments and reports.",
       "officialWebsite": "https://www.bookteq.com/",
       "company": "My Local Pitch Limited (company number 08427059), trading as Playfinder",
       "countryOfOrigin": "United Kingdom",
@@ -1302,7 +1302,7 @@
     {
       "name": "Bookwhen",
       "slug": "bookwhen",
-      "shortDescription": "A UK online booking system for events, classes and courses, with capacity management, passes, memberships, payments and attendee communication.",
+      "shortDescription": "A UK online booking system for events, classes and courses. It can manage places, passes, memberships, payments and messages to attendees.",
       "officialWebsite": "https://bookwhen.com/",
       "company": "Bookwhen",
       "countryOfOrigin": "United Kingdom",
@@ -1376,7 +1376,7 @@
     {
       "name": "BoxCast",
       "slug": "boxcast",
-      "shortDescription": "A US livestreaming platform for churches and other organisations, with website embedding, social distribution, scheduling and video hosting.",
+      "shortDescription": "A US service for livestreaming churches and other organisations. It can add video to a website, share it on social media, schedule streams and host recordings.",
       "officialWebsite": "https://www.boxcast.com/solutions/house-of-worship-streaming",
       "company": "BoxCast",
       "countryOfOrigin": "United States",
@@ -1525,7 +1525,7 @@
     {
       "name": "Catholic Live Streaming",
       "slug": "catholic-live-streaming",
-      "shortDescription": "UK managed livestreaming, Mass recording and parish-website service for Catholic churches, with camera installation options.",
+      "shortDescription": "A UK managed service for Catholic churches to livestream and record Masses, with parish websites and optional camera installation.",
       "officialWebsite": "https://www.catholiclivestreaming.co.uk/",
       "company": "Every Day Christian Marketing Ltd (company number 11372931)",
       "countryOfOrigin": "United Kingdom",
@@ -1616,7 +1616,7 @@
     {
       "name": "Chancel",
       "slug": "chancel",
-      "shortDescription": "A UK-developed church communication app for publishing news, events, alerts, media, contacts, forms and surveys to a congregation’s mobile devices.",
+      "shortDescription": "A UK-developed app for sending church news, events, alerts, media, contacts, forms and surveys to people’s phones.",
       "officialWebsite": "https://www.piota.co.uk/",
       "company": "Schappit Ltd (trading as Piota)",
       "countryOfOrigin": "United Kingdom",
@@ -1699,7 +1699,7 @@
     {
       "name": "CharityFinancials",
       "slug": "charityfinancials",
-      "shortDescription": "A UK charity-accounting platform from NfP Accountants for fund accounting, project costing, SORP-aligned reports and church bookkeeping.",
+      "shortDescription": "A UK charity accounting system from NfP Accountants for separate fund accounts, project costs, reports following the Statement of Recommended Practice (SORP) and church bookkeeping.",
       "officialWebsite": "https://charityfinancials.uk/",
       "company": "NfP Accountants Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -1797,7 +1797,7 @@
     {
       "name": "ChMeetings",
       "slug": "chmeetings",
-      "shortDescription": "A church management platform with a free plan, people-based paid tiers, communications, giving, events and administration tools.",
+      "shortDescription": "A church system with a free plan and paid plans based on the number of people. It covers messages, giving, events and administration.",
       "officialWebsite": "https://www.chmeetings.com/",
       "company": "ChMeetings",
       "countryOfOrigin": null,
@@ -1913,7 +1913,7 @@
     {
       "name": "Chobble Tickets",
       "slug": "chobble-tickets",
-      "shortDescription": "A UK-built open-source event-ticketing and check-in platform for paid or free events, registrations, donations and equipment hire, with managed or self-hosted deployment.",
+      "shortDescription": "A UK-built, open-source service for event tickets and check-in. It covers paid and free events, registration, donations and equipment hire, with hosted or self-hosted options.",
       "officialWebsite": "https://tickets.chobble.com/",
       "company": "Chobble CIC",
       "countryOfOrigin": "United Kingdom",
@@ -2628,7 +2628,7 @@
     {
       "name": "Church Presenter",
       "slug": "church-presenter",
-      "shortDescription": "A free, GPL-licensed worship presentation application with Bible and song tools, media, service plans, multi-screen output and mobile control.",
+      "shortDescription": "Free, open-source worship display software (licensed under GPL). It supports Bible and song content, media, service plans, several screens and mobile control.",
       "officialWebsite": "https://churchpresenter.org/",
       "company": "Church Presenter open-source project",
       "countryOfOrigin": null,
@@ -2701,7 +2701,7 @@
     {
       "name": "Church Streaming by Litenet",
       "slug": "church-streaming-litenet",
-      "shortDescription": "UK church livestreaming, connectivity and installation service covering single- and multi-camera setups, Wi-Fi and broadcast support.",
+      "shortDescription": "A UK service for church livestreaming, internet connections and installation. It covers one- and multi-camera setups, Wi-Fi and broadcast support.",
       "officialWebsite": "https://church-streaming.co.uk/",
       "company": "Litenet Ltd (company number 11868036)",
       "countryOfOrigin": "United Kingdom",
@@ -2869,7 +2869,7 @@
     {
       "name": "Churchable",
       "slug": "churchable",
-      "shortDescription": "A UK browser-based tool that turns uploaded sermons or sermon notes into clips, devotionals, study guides, downloadable resources and shareable AI-assisted pages.",
+      "shortDescription": "A UK browser-based tool that turns uploaded sermons or sermon notes into clips, devotionals, study guides, downloadable resources and pages prepared with artificial intelligence (AI).",
       "officialWebsite": "https://www.churchable.ai/",
       "company": "Prompt Miner Ltd (trading as Churchable)",
       "countryOfOrigin": "United Kingdom",
@@ -2961,7 +2961,7 @@
     {
       "name": "ChurchBase",
       "slug": "churchbase",
-      "shortDescription": "A UK church safeguarding and compliance workspace for records, actions, DBS and training renewals, policies, risk, governance and premises evidence.",
+      "shortDescription": "A UK workspace for church safeguarding administration. It holds records, actions, Disclosure and Barring Service (DBS) and training renewals, policies, risk, governance and premises evidence.",
       "officialWebsite": "https://churchbase.co.uk/",
       "company": "ChurchBase Ltd (company number 17297107)",
       "countryOfOrigin": "United Kingdom",
@@ -3544,7 +3544,7 @@
     {
       "name": "ChurchLinker",
       "slug": "churchlinker",
-      "shortDescription": "A UK-built church management platform with people records, rotas, giving, Gift Aid reports, communications, sermons and a member app.",
+      "shortDescription": "A UK-built church system for people records, rotas, giving, Gift Aid reports, messages, sermons and a member app.",
       "officialWebsite": "https://churchlinker.com/",
       "company": "Limelai Limited",
       "countryOfOrigin": "United Kingdom",
@@ -3649,7 +3649,7 @@
     {
       "name": "ChurchOS",
       "slug": "churchos",
-      "shortDescription": "New UK church-management platform combining member records, rotas, sermons, communications, events and Gift Aid administration.",
+      "shortDescription": "A newer UK church system for member records, rotas, sermons, messages, events and Gift Aid administration.",
       "officialWebsite": "https://www.churchos.co.uk/",
       "company": "Lyrion Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -3759,7 +3759,7 @@
     {
       "name": "ChurchPay",
       "slug": "churchpay",
-      "shortDescription": "A UK church platform combining public websites, member records, giving and Gift Aid, services, pastoral care, communications and treasurer reporting.",
+      "shortDescription": "A UK church platform for public websites, member records, giving and Gift Aid. It also covers services, pastoral care, communications and treasurer reports.",
       "officialWebsite": "https://www.churchpayment.com/",
       "company": "Neural Network Group Limited",
       "countryOfOrigin": "United Kingdom",
@@ -3889,7 +3889,7 @@
     {
       "name": "ChurchSuite",
       "slug": "churchsuite",
-      "shortDescription": "A UK-based modular church management platform for contacts, children, rotas, groups, events, giving, bookings, communications and multi-site administration.",
+      "shortDescription": "A UK church management system for people, children, rotas, groups, events, giving, bookings and communications.",
       "officialWebsite": "https://churchsuite.com/",
       "company": "ChurchSuite Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -4459,7 +4459,7 @@
     {
       "name": "Clearstream",
       "slug": "clearstream",
-      "shortDescription": "Church communication software for SMS, email, keywords, phone numbers, QR codes and NFC connection journeys.",
+      "shortDescription": "Church messaging software for text messages, email, keywords, phone numbers, QR codes and tap-to-connect links using near-field communication (NFC).",
       "officialWebsite": "https://clearstream.io/",
       "company": "Clearstream",
       "countryOfOrigin": null,
@@ -4544,7 +4544,7 @@
     {
       "name": "Common Worship Lectionary",
       "slug": "common-worship-lectionary",
-      "shortDescription": "The official Church of England lectionary app and web app for daily readings, collects, post-communion prayers and simple Sunday service-sheet generation.",
+      "shortDescription": "The official Church of England app and website for the lectionary, or set daily readings. It includes collects, post-communion prayers and simple Sunday service sheets.",
       "officialWebsite": "https://common-worship-lectionary.netlify.app/",
       "company": "Church House Publishing (the Church of England’s official publisher)",
       "countryOfOrigin": "United Kingdom",
@@ -4625,7 +4625,7 @@
     {
       "name": "The Digital Church Platform",
       "slug": "digital-church-platform",
-      "shortDescription": "A UK church-administration platform from GIGCMO Limited offering parish websites, visitation documents, role-compliance workflows and a digital repository.",
+      "shortDescription": "A UK church-administration system from GIGCMO Limited. It offers parish websites, visitation documents, role-compliance steps and a digital repository.",
       "officialWebsite": "https://thedigitalchurchplatform.com/",
       "company": "GIGCMO Limited (company number 10415269)",
       "countryOfOrigin": "United Kingdom",
@@ -4700,7 +4700,7 @@
     {
       "name": "Dona Donations",
       "slug": "dona-donations",
-      "shortDescription": "UK contactless fundraising technology for churches and charities, including fixed donation boxes, portable collection plates, online giving and Gift Aid administration.",
+      "shortDescription": "A UK service for churches and charities taking contactless donations. It includes fixed donation boxes, portable collection plates, online giving and Gift Aid administration.",
       "officialWebsite": "https://donadonations.com/",
       "company": "Regium Consulting Limited",
       "countryOfOrigin": "United Kingdom",
@@ -4824,7 +4824,7 @@
     {
       "name": "Donation Station",
       "slug": "donation-station",
-      "shortDescription": "A UK contactless-donation kiosk app that uses a church's own tablet, SumUp reader and merchant account for card giving.",
+      "shortDescription": "A UK app for taking contactless donations on a church-owned tablet. It uses a SumUp reader and the church's own merchant account for card giving.",
       "officialWebsite": "https://donationstation.co.uk/",
       "company": "Donation Station Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -4921,7 +4921,7 @@
     {
       "name": "Donorbox",
       "slug": "donorbox",
-      "shortDescription": "A fundraising and donation platform for charities, with UK pricing, donation forms, campaigns, event ticketing and HMRC Gift Aid integration.",
+      "shortDescription": "A fundraising and donation service for charities, with UK pricing, donation forms, campaigns and event tickets. It also connects to HM Revenue and Customs (HMRC) for Gift Aid.",
       "officialWebsite": "https://donorbox.org/",
       "company": "Donorbox",
       "countryOfOrigin": null,
@@ -5030,7 +5030,7 @@
     {
       "name": "DonorCloud",
       "slug": "donorcloud",
-      "shortDescription": "A UK charity fundraising platform for donation campaigns, events and ticketing, donor records, Gift Aid submissions and supporter-led fundraising.",
+      "shortDescription": "A UK fundraising service for charities. It covers donation campaigns, events and tickets, donor records, Gift Aid claims and fundraising led by supporters.",
       "officialWebsite": "https://www.donorcloud.co.uk/",
       "company": "DonorCloud Limited (company number 14932398)",
       "countryOfOrigin": "United Kingdom",
@@ -5147,7 +5147,7 @@
     {
       "name": "Donorfy",
       "slug": "donorfy",
-      "shortDescription": "A UK charity CRM for supporter records, donations, Gift Aid, online forms, payments, fundraising reporting and integrations.",
+      "shortDescription": "A UK system for charities to manage supporter records and donations. It includes Gift Aid, online forms, payments, fundraising reports and connections to other services.",
       "officialWebsite": "https://donorfy.com/",
       "company": "Donorfy Limited (part of Access UK Ltd)",
       "countryOfOrigin": "United Kingdom",
@@ -5240,7 +5240,7 @@
     {
       "name": "Donr",
       "slug": "donr",
-      "shortDescription": "A UK charity fundraising platform focused on text giving, text raffles, Gift Aid information and campaign-based supporter donations.",
+      "shortDescription": "A UK fundraising service for charities, focused on text donations and text raffles. It provides Gift Aid information and campaign donation pages for supporters.",
       "officialWebsite": "https://donr.com/",
       "company": "Donr Limited (company number 10402410)",
       "countryOfOrigin": "United Kingdom",
@@ -5343,7 +5343,7 @@
     {
       "name": "EasyWorship",
       "slug": "easyworship",
-      "shortDescription": "Church presentation software for songs, Scripture, media and service content, licensed across a campus by weekly attendance.",
+      "shortDescription": "Church display software for songs, Bible passages, media and service content. Its licence covers a campus according to weekly attendance.",
       "officialWebsite": "https://easyworship.com/",
       "company": "Softouch Development",
       "countryOfOrigin": null,
@@ -5481,7 +5481,7 @@
     {
       "name": "Energize",
       "slug": "energize",
-      "shortDescription": "A UK web-based session-planning and resource service from Urban Saints for church children’s and youth leaders.",
+      "shortDescription": "A UK online service from Urban Saints for church children’s and youth leaders to plan sessions and use resources.",
       "officialWebsite": "https://www.energize.uk.net/",
       "company": "The Crusaders’ Union, operating as Urban Saints (company number 07771037; charity numbers 1144923 and SC039313)",
       "countryOfOrigin": "United Kingdom",
@@ -5584,7 +5584,7 @@
     {
       "name": "Enthuse",
       "slug": "enthuse",
-      "shortDescription": "A UK charity fundraising platform for branded donation, appeal, event-registration and peer-fundraising journeys, with Gift Aid capture and processing.",
+      "shortDescription": "A UK fundraising service for charities. It supports branded donation and appeal pages, event registration, fundraising by supporters and Gift Aid capture and processing.",
       "officialWebsite": "https://enthuse.com/",
       "company": "Online Giving Ltd (company number 06886190), trading as Enthuse",
       "countryOfOrigin": "United Kingdom",
@@ -5695,7 +5695,7 @@
     {
       "name": "Eventcube",
       "slug": "eventcube",
-      "shortDescription": "A UK-developed event-ticketing platform for free and paid in-person, online or hybrid events, with Stripe payments, white-label options and QR check-in.",
+      "shortDescription": "A UK-developed service for tickets to free or paid in-person, online and hybrid events. It uses Stripe payments and offers branded pages and QR-code check-in.",
       "officialWebsite": "https://www.eventcube.io/",
       "company": "Eventcube Solutions Ltd (company number 08939283)",
       "countryOfOrigin": "United Kingdom",
@@ -5909,7 +5909,7 @@
     {
       "name": "ExpensePlus",
       "slug": "expenseplus",
-      "shortDescription": "UK cloud fund-accounting software for churches and charities, with expense, donation, Gift Aid and financial-reporting workflows.",
+      "shortDescription": "UK online accounting software for churches and charities, covering expenses, donations, Gift Aid and financial reports.",
       "officialWebsite": "https://expenseplus.co.uk/",
       "company": "ExpensePlus Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -6029,7 +6029,7 @@
     {
       "name": "Faith Teams",
       "slug": "faith-teams",
-      "shortDescription": "A church management suite with people, groups, giving, check-in, communications, volunteer scheduling and service planning.",
+      "shortDescription": "A church system for people, groups, giving, check-in, messages, volunteer schedules and service planning.",
       "officialWebsite": "https://faithteams.com/",
       "company": "Faith Teams",
       "countryOfOrigin": null,
@@ -6106,7 +6106,7 @@
     {
       "name": "FaithFood TV",
       "slug": "faithfood-tv",
-      "shortDescription": "A UK church-media service offering sermon video hosting, livestreaming, church TV channels, podcast setup and a website-linked rolling sermon display.",
+      "shortDescription": "A UK church-media service for hosting sermon videos, livestreaming, church TV channels, podcast setup and a rolling sermon display linked to a website.",
       "officialWebsite": "https://faithfood.tv/",
       "company": "FaithFood TV Ltd (company number 16294341)",
       "countryOfOrigin": "United Kingdom",
@@ -6209,7 +6209,7 @@
     {
       "name": "Flocknote",
       "slug": "flocknote",
-      "shortDescription": "A US church communications and member-management platform with email, text messages, sign-ups, giving and household records.",
+      "shortDescription": "A US church system for messages and member records, with email, text messages, sign-ups, giving and household records.",
       "officialWebsite": "https://flocknote.com/",
       "company": "Flocknote",
       "countryOfOrigin": null,
@@ -6284,7 +6284,7 @@
     {
       "name": "Free Gift Aid eClaim",
       "slug": "free-gift-aid-eclaim",
-      "shortDescription": "A UK browser-based Charities Online e-filing service from eFile Ready, for charities and CASCs submitting single or multiple Gift Aid claims to HMRC.",
+      "shortDescription": "A UK browser-based service from eFile Ready for charities and community amateur sports clubs (CASCs) to submit one or more Gift Aid claims to HMRC's Charities Online service.",
       "officialWebsite": "https://www.efileready.com/charities.html",
       "company": "eFile Ready Limited",
       "countryOfOrigin": "United Kingdom",
@@ -6376,7 +6376,7 @@
     {
       "name": "FreePresenter",
       "slug": "freepresenter",
-      "shortDescription": "A free presentation application for churches with live search, multiple outputs, layouts, NDI, service planning and media tools.",
+      "shortDescription": "Free display software for churches, with live search, several screens, layouts, service planning and media tools. It also supports NDI network video output.",
       "officialWebsite": "https://freepresenter.com/",
       "company": "StarwayApps",
       "countryOfOrigin": null,
@@ -6434,7 +6434,7 @@
     {
       "name": "FreeShow",
       "slug": "freeshow",
-      "shortDescription": "A free, open-source presentation application for songs, Bible passages, media, stage displays and multiple service outputs.",
+      "shortDescription": "Free, open-source display software for songs, Bible passages and media. It can use stage displays and several outputs during a service.",
       "officialWebsite": "https://freeshow.app/",
       "company": "Live Church Solutions",
       "countryOfOrigin": null,
@@ -6496,7 +6496,7 @@
     {
       "name": "FreeWorship",
       "slug": "freeworship",
-      "shortDescription": "UK church presentation software with a free version and a paid Pro subscription for advanced live-service features.",
+      "shortDescription": "UK church display software with a free version and a paid Pro subscription for more live-service features.",
       "officialWebsite": "https://freeworship.co.uk/",
       "company": "FreeWorship",
       "countryOfOrigin": null,
@@ -6571,7 +6571,7 @@
     {
       "name": "Fund Filer",
       "slug": "fund-filer",
-      "shortDescription": "UK online Gift Aid and GASDS claim-management software for churches and charities.",
+      "shortDescription": "UK online software for churches and charities to manage Gift Aid claims and the Gift Aid Small Donations Scheme (GASDS).",
       "officialWebsite": "https://www.fundfiler.com/",
       "company": "Fund Filer Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -6674,7 +6674,7 @@
     {
       "name": "GiftAider",
       "slug": "giftaider",
-      "shortDescription": "A UK Gift Aid claim-management and basic charity CRM product, offered as a cloud service or self-hosted system for donor, donation, import, validation and HMRC-submission workflows.",
+      "shortDescription": "A UK service for managing Gift Aid claims and basic charity donor records. It is available online or self-hosted, with donation imports, checks and HMRC claim submission.",
       "officialWebsite": "https://giftaider.com/",
       "company": "Systematic Marketing Limited (SMXi Software)",
       "countryOfOrigin": "United Kingdom",
@@ -6788,7 +6788,7 @@
     {
       "name": "Give A Little",
       "slug": "give-a-little",
-      "shortDescription": "A UK digital and contactless giving platform for charities, with donation pages, Tap to Pay, Android donation stations and Gift Aid connections.",
+      "shortDescription": "A UK service for charities taking online and contactless donations. It offers donation pages, Tap to Pay, Android donation stations and Gift Aid connections.",
       "officialWebsite": "https://givealittle.co/",
       "company": "Caution Your Blast Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -6863,7 +6863,7 @@
     {
       "name": "GiveTap",
       "slug": "givetap",
-      "shortDescription": "A UK fundraising platform for online, QR/NFC, contactless terminal and tap-to-pay donations, with donation pages, reporting and supplier-described Gift Aid configuration.",
+      "shortDescription": "A UK service for online and contactless donations, including QR-code, card-terminal and tap-to-pay options. It has donation pages, reports and supplier-described Gift Aid settings.",
       "officialWebsite": "https://givetap.co.uk/",
       "company": "GiveTap Limited (company number 12166824)",
       "countryOfOrigin": "United Kingdom",
@@ -6964,7 +6964,7 @@
     {
       "name": "GoodBox",
       "slug": "goodbox",
-      "shortDescription": "A UK charity fundraising platform for contactless donation devices, online giving and a data portal.",
+      "shortDescription": "A UK service for charities taking contactless and online donations. It includes donation devices and a data portal.",
       "officialWebsite": "https://www.goodbox.com/",
       "company": "GoodBox",
       "countryOfOrigin": null,
@@ -7045,7 +7045,7 @@
     {
       "name": "GoodHub",
       "slug": "goodhub",
-      "shortDescription": "UK digital fundraising platform for charities, with online donations, ticketing and Gift Aid collection.",
+      "shortDescription": "A UK fundraising service for charities, with online donations, ticketing and Gift Aid collection.",
       "officialWebsite": "https://www.goodhub.com/",
       "company": "GoodHub Platforms Limited",
       "countryOfOrigin": "United Kingdom",
@@ -7141,7 +7141,7 @@
     {
       "name": "GoodtoGive",
       "slug": "goodtogive",
-      "shortDescription": "UK giving, Gift Aid-management and charity-support platform with church-focused mobile-app options.",
+      "shortDescription": "A UK service for charity giving and Gift Aid administration, with charity support and church-focused mobile-app options.",
       "officialWebsite": "https://www.goodtogive.co.uk/",
       "company": "Good to Give Limited",
       "countryOfOrigin": "United Kingdom",
@@ -7230,7 +7230,7 @@
     {
       "name": "Guardians of Ancora",
       "slug": "guardians-of-ancora",
-      "shortDescription": "A free Scripture Union England & Wales Bible-story game app for children aged around eight to eleven, with English and Welsh play, Bible quests, videos, quizzes and club resources.",
+      "shortDescription": "A free Scripture Union England and Wales Bible-story game for children aged about eight to eleven. It has English and Welsh play, Bible quests, videos, quizzes and club resources.",
       "officialWebsite": "https://guardiansofancora.com/",
       "company": "Scripture Union England & Wales Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -7284,7 +7284,7 @@
     {
       "name": "Hall Booking Online",
       "slug": "hall-booking-online",
-      "shortDescription": "A UK cloud booking and invoicing system for church halls, village halls and community venues, operated by Fen Street Designs Ltd.",
+      "shortDescription": "A UK online booking and invoicing system from Fen Street Designs for church halls, village halls and community venues.",
       "officialWebsite": "https://hallbookingonline.com/",
       "company": "Fen Street Designs Ltd (company number 14446544)",
       "countryOfOrigin": "United Kingdom",
@@ -7375,7 +7375,7 @@
     {
       "name": "Hallmaster",
       "slug": "hallmaster",
-      "shortDescription": "A UK cloud booking, invoicing and payment-tracking system for church halls and other bookable venues, operated by Hallmaster Ltd.",
+      "shortDescription": "A UK online system from Hallmaster for booking halls and other venues. It tracks invoices and payments.",
       "officialWebsite": "https://www.hallmaster.co.uk/church-hall-booking-system/",
       "company": "Hallmaster Ltd (company number 10747910)",
       "countryOfOrigin": "United Kingdom",
@@ -7477,7 +7477,7 @@
     {
       "name": "HCOMS Diocese Management System",
       "slug": "hcoms-diocese-management-system",
-      "shortDescription": "UK diocesan-management software from Hayes Computing Solutions Ltd, connecting Church House teams and parish-facing workflows across property, compliance, finance and people records.",
+      "shortDescription": "UK diocesan-management software from Hayes Computing Solutions. It connects Church House teams and parish work on property, compliance, finance and people records.",
       "officialWebsite": "https://www.hcoms.co.uk/products-dms",
       "company": "Hayes Computing Solutions Ltd (company number 04254140)",
       "countryOfOrigin": "United Kingdom",
@@ -7558,7 +7558,7 @@
     {
       "name": "Hubb.Church",
       "slug": "hubb-church",
-      "shortDescription": "UK all-in-one church platform for websites, apps, administration, communications and giving.",
+      "shortDescription": "A UK all-in-one church system for websites, apps, administration, messages and giving.",
       "officialWebsite": "https://hubb.church/",
       "company": "Hubb Digital Limited",
       "countryOfOrigin": "United Kingdom",
@@ -7643,7 +7643,7 @@
     {
       "name": "Hymnal Plus",
       "slug": "hymnal-plus",
-      "shortDescription": "A UK digital hymn-player system from Hymn Technology for churches that need programmable recorded accompaniment, hymn indexes and service playlists without a regular organist.",
+      "shortDescription": "A UK digital hymn player from Hymn Technology for churches without a regular organist. It has programmable recorded accompaniment, hymn indexes and service playlists.",
       "officialWebsite": "https://www.hymntechnology.co.uk/",
       "company": "Hymn Technology Ltd (company number 03149968)",
       "countryOfOrigin": "United Kingdom",
@@ -7852,7 +7852,7 @@
     {
       "name": "iDonatio",
       "slug": "idonatio",
-      "shortDescription": "UK donation and Gift Aid platform for charities, including digital, plate and envelope donation workflows.",
+      "shortDescription": "A UK donation and Gift Aid service for charities. It covers online donations and donations by plate or envelope.",
       "officialWebsite": "https://www.idonatio.com/",
       "company": "iDonatio UK Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -7954,7 +7954,7 @@
     {
       "name": "iKnow Church",
       "slug": "iknow-church",
-      "shortDescription": "UK church management software with published member-based pricing and supplier documentation for giving and Gift Aid claims.",
+      "shortDescription": "UK church management software with published pricing based on the number of members, plus supplier information about giving and Gift Aid claims.",
       "officialWebsite": "https://www.iknowchurch.co.uk/",
       "company": "iKnow Church",
       "countryOfOrigin": null,
@@ -8177,7 +8177,7 @@
     {
       "name": "Infreemation Volunteer",
       "slug": "infreemation-volunteer",
-      "shortDescription": "A UK-developed volunteer onboarding, approval, training and event-booking system for organisations needing configurable recruitment workflows and a volunteer portal.",
+      "shortDescription": "UK-developed software for bringing volunteers into a team, approving and training them, and booking events. It includes adjustable recruitment steps and a volunteer portal.",
       "officialWebsite": "https://www.digital-interactive.com/products/volunteer",
       "company": "Digital Interactive Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -8266,7 +8266,7 @@
     {
       "name": "iSingWorship",
       "slug": "isingworship",
-      "shortDescription": "A UK-developed worship backing-track and lyric-projection app for church services, offering flexible song arrangements, chords, playlists and presentation output across desktop and mobile devices.",
+      "shortDescription": "A UK-developed app for worship backing tracks and displaying lyrics in church services. It offers song arrangements, chords, playlists and display output on desktop and mobile devices.",
       "officialWebsite": "https://www.isingworship.com/app",
       "company": "The Worship Zone Ltd, trading as iSingWorship (company number 09650251)",
       "countryOfOrigin": "United Kingdom",
@@ -8381,7 +8381,7 @@
     {
       "name": "Jovo",
       "slug": "jovo",
-      "shortDescription": "A UK mobile and web communication platform for churches, volunteer teams and communities, with role-based groups, broadcasts, temporary groups and ChurchSuite or Planning Center connections.",
+      "shortDescription": "A UK mobile and web service for church, volunteer-team and community messages. It has access-controlled groups, broadcasts, temporary groups and connections to ChurchSuite or Planning Center.",
       "officialWebsite": "https://www.jovoapp.com/",
       "company": "Jovo App Ltd (contracting identity requires written confirmation)",
       "countryOfOrigin": "United Kingdom",
@@ -8513,7 +8513,7 @@
     {
       "name": "KidCheck",
       "slug": "kidcheck",
-      "shortDescription": "A US children’s and youth check-in platform with attendance, guardian notifications, optional volunteer tools and printed labels.",
+      "shortDescription": "A US service for checking children and young people in. It records attendance, sends guardian notifications and offers optional volunteer tools and printed labels.",
       "officialWebsite": "https://www.kidcheck.com/",
       "company": "KidCheck",
       "countryOfOrigin": null,
@@ -8593,7 +8593,7 @@
     {
       "name": "KidsCheckin.com",
       "slug": "kidscheckin",
-      "shortDescription": "A newer children’s ministry check-in service with free and paid daily check-in limits, unlimited devices, labels and CSV exports.",
+      "shortDescription": "A newer service for checking children into church groups, with free and paid daily limits, unlimited devices, labels and CSV data exports.",
       "officialWebsite": "https://kidscheckin.com/",
       "company": "KidsCheckin.com",
       "countryOfOrigin": null,
@@ -8654,7 +8654,7 @@
     {
       "name": "KindLink",
       "slug": "kindlink",
-      "shortDescription": "A charity CRM and fundraising platform with free supporter records, UK Gift Aid tools, online donations, contactless payments and paid advanced plans.",
+      "shortDescription": "A charity service for supporter records and fundraising. It has a free plan with UK Gift Aid tools, online and contactless donations, plus paid advanced plans.",
       "officialWebsite": "https://www.kindlink.org/",
       "company": "KindLink Foundation",
       "countryOfOrigin": null,
@@ -8775,7 +8775,7 @@
     {
       "name": "Klemi",
       "slug": "klemi",
-      "shortDescription": "A UK church-administration platform for small and medium churches, combining people records, service planning, rotas, communications, giving, events and a member mobile app.",
+      "shortDescription": "A UK church-administration system for small and medium churches. It combines people records, service planning, rotas, messages, giving, events and a member app.",
       "officialWebsite": "https://www.klemi.co/",
       "company": "Klemi.co LLP",
       "countryOfOrigin": "United Kingdom",
@@ -8909,7 +8909,7 @@
     {
       "name": "Levites",
       "slug": "levites",
-      "shortDescription": "A UK-developed mobile-first church communication and volunteer-rotas platform for coordinating ministry teams, reminders, service schedules and team collaboration.",
+      "shortDescription": "A UK-developed mobile-first service for church team messages and volunteer rotas. It helps teams organise reminders and service schedules.",
       "officialWebsite": "https://www.levites.app/",
       "company": "Levites Tech Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -8997,7 +8997,7 @@
     {
       "name": "Liberty Accounts",
       "slug": "liberty-accounts",
-      "shortDescription": "UK cloud accounting and payroll software for charities and churches, with fund accounting, donor records, Gift Aid/GASDS and Church of England Return of Parish Finance support.",
+      "shortDescription": "UK accounting and payroll software for charities and churches. It covers separate fund accounts, donor records, Gift Aid, the Gift Aid Small Donations Scheme (GASDS) and the Church of England Return of Parish Finance.",
       "officialWebsite": "https://www.libertyaccounts.com/",
       "company": "Liberty Accounts Limited (company number 04907629)",
       "countryOfOrigin": "United Kingdom",
@@ -9110,7 +9110,7 @@
     {
       "name": "Logos for Church",
       "slug": "logos",
-      "shortDescription": "A church-wide Logos subscription that gives named leaders Pro-level Bible-study tools and attendees Plus access, with licences assigned against the church’s average weekly attendance.",
+      "shortDescription": "A church-wide Logos subscription with advanced Bible-study tools for named leaders and Plus access for attendees. Licences are based on the church’s average weekly attendance.",
       "officialWebsite": "https://www.logos.com/church",
       "company": "Logos",
       "countryOfOrigin": null,
@@ -9294,7 +9294,7 @@
     {
       "name": "LoveGiving",
       "slug": "lovegiving",
-      "shortDescription": "A UK online-giving and Gift Aid platform, built by ExpensePlus, for churches and charities that already use ExpensePlus fund accounting.",
+      "shortDescription": "A UK online giving and Gift Aid service from ExpensePlus, for churches and charities that already use its fund-accounting software.",
       "officialWebsite": "https://lovegiving.co.uk/",
       "company": "ExpensePlus Ltd (company number 09404009)",
       "countryOfOrigin": "United Kingdom",
@@ -9382,7 +9382,7 @@
     {
       "name": "MCN Media",
       "slug": "mcn-media",
-      "shortDescription": "A Northern Ireland-operated livestreaming service for churches, cathedrals and funeral homes, with live viewing, recordings and optional password protection.",
+      "shortDescription": "A Northern Ireland service for livestreaming churches, cathedrals and funeral homes. It offers live viewing, recordings and optional password protection.",
       "officialWebsite": "https://www.mcn.live/",
       "company": "Service Stream Ltd (company number NI694018), trading as MCN Media",
       "countryOfOrigin": "United Kingdom",
@@ -9464,7 +9464,7 @@
     {
       "name": "MIDAS Room Booking",
       "slug": "midas-room-booking",
-      "shortDescription": "A UK-developed room and resource booking system with cloud-hosted and self-hosted options, invoices, availability, bookings and configurable hire rates.",
+      "shortDescription": "UK-developed software for booking rooms and resources. It has hosted and self-hosted options, invoices, availability, bookings and adjustable hire rates.",
       "officialWebsite": "https://mid.as/",
       "company": "Blue Box Technical Services (trading name shown on MIDAS order material; no company number established in reviewed public material)",
       "countryOfOrigin": "United Kingdom",
@@ -9583,7 +9583,7 @@
     {
       "name": "MinistryPlatform",
       "slug": "ministryplatform",
-      "shortDescription": "An ACS Technologies church-management platform for configurable people, parish, communications and operations data in a central database.",
+      "shortDescription": "An ACS Technologies church system that keeps people, parish, messages and day-to-day administration data in one adjustable database.",
       "officialWebsite": "https://www.acstechnologies.com/ministryplatform/",
       "company": "ACS Technologies",
       "countryOfOrigin": null,
@@ -9650,7 +9650,7 @@
     {
       "name": "MyFundAccounting.Online",
       "slug": "myfundaccounting",
-      "shortDescription": "UK online fund-accounting software for churches and charities, with church-focused financial administration and optional additional licences.",
+      "shortDescription": "UK online software for churches and charities to keep separate fund accounts, with church-focused financial administration and optional extra licences.",
       "officialWebsite": "https://www.datadevelopments.co.uk/solutions/myfundaccounting",
       "company": "Data Developments",
       "countryOfOrigin": "United Kingdom",
@@ -9744,7 +9744,7 @@
     {
       "name": "Navaro",
       "slug": "navaro",
-      "shortDescription": "UK venue-management software for community spaces, including church halls, with bookings, invoices and client records.",
+      "shortDescription": "UK software for managing community spaces, including church halls. It handles bookings, invoices and client records.",
       "officialWebsite": "https://navaro.uk/",
       "company": "D&M Nexus Inc. Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -9864,7 +9864,7 @@
     {
       "name": "Omega Church",
       "slug": "omega-church",
-      "shortDescription": "Northern Ireland-developed church administration software for member records, groups, communication, reports and finance workflows.",
+      "shortDescription": "Church administration software developed in Northern Ireland for member records, groups, messages, reports and finance tasks.",
       "officialWebsite": "https://omegachurch.co.uk/",
       "company": "GCD Technologies Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -9991,7 +9991,7 @@
     {
       "name": "One Church Software",
       "slug": "one-church-software",
-      "shortDescription": "A church management platform with people, events, giving, service planning and optional finance tools, priced by total profiles.",
+      "shortDescription": "A church system for people, events, giving, service planning and optional finance tools. Its price is based on the total number of profiles.",
       "officialWebsite": "https://onechurchsoftware.com/",
       "company": "One Church Software",
       "countryOfOrigin": null,
@@ -10074,7 +10074,7 @@
     {
       "name": "OnNuma",
       "slug": "onnuma",
-      "shortDescription": "A London-built volunteer coordination platform for churches, charities and community organisations, covering rotas, events, communications, youth workflows and oversight records.",
+      "shortDescription": "A London-built service for churches, charities and community organisations coordinating volunteers. It covers rotas, events, messages, youth tasks and oversight records.",
       "officialWebsite": "https://www.onnuma.com/",
       "company": "The Media Lounge Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -10151,7 +10151,7 @@
     {
       "name": "OpenLP",
       "slug": "openlp",
-      "shortDescription": "Free, open-source worship-presentation software for displaying songs, Bible verses, media and service content on major desktop platforms.",
+      "shortDescription": "Free, open-source worship display software for songs, Bible verses, media and service content on major desktop systems.",
       "officialWebsite": "https://openlp.org/",
       "company": "OpenLP Developers",
       "countryOfOrigin": null,
@@ -10214,7 +10214,7 @@
     {
       "name": "Parish Giving Scheme",
       "slug": "parish-giving-scheme",
-      "shortDescription": "A UK giving service for participating Church of England parishes, supporting regular Direct Debit gifts, Gift Aid and online one-off payments.",
+      "shortDescription": "A UK giving service for participating Church of England parishes. It supports regular Direct Debit gifts, Gift Aid and online one-off payments.",
       "officialWebsite": "https://www.parishgiving.org.uk/",
       "company": "Parish Giving Scheme",
       "countryOfOrigin": "United Kingdom",
@@ -10284,7 +10284,7 @@
     {
       "name": "Parish Safeguarding Dashboard",
       "slug": "parish-safeguarding-dashboard",
-      "shortDescription": "Church of England safeguarding-administration dashboard for parishes in participating dioceses, developed by Clearly Simpler.",
+      "shortDescription": "A Church of England dashboard for safeguarding administration in parishes whose diocese takes part. It is developed by Clearly Simpler.",
       "officialWebsite": "https://www.safeguardingdashboards.org.uk/",
       "company": "Clearly Simpler Limited",
       "countryOfOrigin": "United Kingdom",
@@ -10360,7 +10360,7 @@
     {
       "name": "Paxton Church & Charity Accounting Software",
       "slug": "paxton-church-charity-accounting",
-      "shortDescription": "UK church and charity accounting software with fund accounting, donations, Gift Aid and Charity Commission reporting.",
+      "shortDescription": "UK accounting software for churches and charities, with separate fund accounts, donations, Gift Aid and Charity Commission reports.",
       "officialWebsite": "https://paxtonsoftware.co.uk/paxton-products/paxton-charity-accounting-software",
       "company": "Paxton Software Limited",
       "countryOfOrigin": "United Kingdom",
@@ -10560,7 +10560,7 @@
     {
       "name": "Plinth",
       "slug": "plinth",
-      "shortDescription": "A UK charity-sector platform for volunteer profiles, matching, rotas, DBS tracking, communications and impact reporting, with wider case-management and community-service modules.",
+      "shortDescription": "A UK charity-sector system for volunteer profiles, matching, rotas, Disclosure and Barring Service (DBS) tracking, messages and impact reports. It also has wider case and community-service modules.",
       "officialWebsite": "https://www.plinth.org.uk/",
       "company": "Time To Spare Ltd (trading as Plinth)",
       "countryOfOrigin": "United Kingdom",
@@ -10656,7 +10656,7 @@
     {
       "name": "Praisenter",
       "slug": "praisenter",
-      "shortDescription": "A free, open-source church presentation package for Bible verses, song lyrics, media, slides, workspaces and multiple displays.",
+      "shortDescription": "Free, open-source church display software for Bible verses, song lyrics, media and slides. It includes workspaces and several displays.",
       "officialWebsite": "https://praisenter.org/",
       "company": "Praisenter open-source project",
       "countryOfOrigin": null,
@@ -10811,7 +10811,7 @@
     {
       "name": "Pushpay",
       "slug": "pushpay",
-      "shortDescription": "A digital giving, church management, apps and analytics platform for churches and parishes in selected countries.",
+      "shortDescription": "A service for digital giving, church management, apps and website-use reports for churches and parishes in selected countries.",
       "officialWebsite": "https://pushpay.com/",
       "company": "Pushpay",
       "countryOfOrigin": null,
@@ -10871,7 +10871,7 @@
     {
       "name": "RaiseUp Faith",
       "slug": "raiseup-faith",
-      "shortDescription": "A Bristol-based children’s and youth ministry curriculum platform with lesson libraries, lesson building, presentation mode, downloads, streaming and volunteer-team access.",
+      "shortDescription": "A Bristol-based service for children’s and youth ministry resources. It includes lesson libraries, lesson building, display mode, downloads, streaming and volunteer-team access.",
       "officialWebsite": "https://www.raiseupfaith.com/",
       "company": "Raise Up Faith Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -10965,7 +10965,7 @@
     {
       "name": "Realm",
       "slug": "realm",
-      "shortDescription": "A church management platform from ACS Technologies for people records, giving, communications, reporting, groups, events and multi-campus operations.",
+      "shortDescription": "A church system from ACS Technologies for people records, giving, messages, reports, groups and events across more than one campus.",
       "officialWebsite": "https://www.acstechnologies.com/realm/",
       "company": "ACS Technologies",
       "countryOfOrigin": null,
@@ -11037,7 +11037,7 @@
     {
       "name": "Resi",
       "slug": "resi",
-      "shortDescription": "A US livestreaming and video platform for churches and organisations, designed around resilient delivery, social distribution and multi-site broadcasting.",
+      "shortDescription": "A US service for livestreaming and video for churches and organisations. It focuses on reliable delivery, social-media sharing and broadcasts to more than one site.",
       "officialWebsite": "https://resi.io/church-live-streaming/",
       "company": "Resi",
       "countryOfOrigin": "United States",
@@ -11109,7 +11109,7 @@
     {
       "name": "Rock RMS",
       "slug": "rock-rms",
-      "shortDescription": "An open-source church-management system supported by Spark Development Network, with self-hosted and partner cloud-hosting routes.",
+      "shortDescription": "An open-source church system supported by Spark Development Network. It can be hosted by the church or through a partner cloud provider.",
       "officialWebsite": "https://www.rockrms.com/",
       "company": "Spark Development Network",
       "countryOfOrigin": null,
@@ -11180,7 +11180,7 @@
     {
       "name": "RotaCentral",
       "slug": "rotacentral",
-      "shortDescription": "UK volunteer rota software for places of worship and other voluntary organisations, with allocation or self-sign-up, availability, swaps and email or SMS reminders.",
+      "shortDescription": "UK volunteer rota software for places of worship and voluntary organisations. It lets people be assigned or sign up, share availability, swap slots and receive email or text reminders.",
       "officialWebsite": "https://www.rotacentral.com/",
       "company": "RotaCentral Limited",
       "countryOfOrigin": "United Kingdom",
@@ -11295,7 +11295,7 @@
     {
       "name": "SermonAudio",
       "slug": "sermonaudio",
-      "shortDescription": "A global sermon publishing and media platform for churches and ministries, with audio, video, livestreaming, mobile and cross-publishing tools.",
+      "shortDescription": "A global service for churches and ministries to publish sermons and media. It offers audio, video, livestreaming, mobile access and publishing to more than one channel.",
       "officialWebsite": "https://www.sermonaudio.com/",
       "company": "SermonAudio",
       "countryOfOrigin": null,
@@ -11358,7 +11358,7 @@
     {
       "name": "ShareRota",
       "slug": "sharerota",
-      "shortDescription": "UK-operated rota software for church worship, welcome, media, youth and prayer teams, with reminders, swaps and exports.",
+      "shortDescription": "UK-operated rota software for church worship, welcome, media, youth and prayer teams. It includes reminders, swaps and data exports.",
       "officialWebsite": "https://www.sharerota.com/use-cases/churches",
       "company": "Soft Creative Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -11450,7 +11450,7 @@
     {
       "name": "ShepherdCare",
       "slug": "shepherdcare",
-      "shortDescription": "A UK-developed pastoral-care and church-administration platform for care requests, visits, prayer, events, teams and member communication.",
+      "shortDescription": "A UK-developed system for pastoral care and church administration. It covers care requests, visits, prayer, events, teams and member messages.",
       "officialWebsite": "https://www.shepherdcare.co.uk/",
       "company": "Nathanoak Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -11519,7 +11519,7 @@
     {
       "name": "SignMeUp",
       "slug": "signmeup",
-      "shortDescription": "A UK charity-operated registration platform for children's events, covering attendee and volunteer applications, tickets, check-in, communications and event-specific DBS administration.",
+      "shortDescription": "A UK charity-run service for registering children’s events. It covers attendee and volunteer applications, tickets, check-in, messages and event-specific Disclosure and Barring Service (DBS) administration.",
       "officialWebsite": "https://www.signmeup.org.uk/",
       "company": "The Software Charity (charity number 1199034)",
       "countryOfOrigin": "United Kingdom",
@@ -11625,7 +11625,7 @@
     {
       "name": "Simple Church Rota",
       "slug": "simple-church-rota",
-      "shortDescription": "A UK-developed volunteer rota app for church teams, with scheduling, swaps, calendar sync, team messages, notifications and print-ready rotas.",
+      "shortDescription": "A UK-developed volunteer rota app for church teams. It includes schedules, swaps, calendar synchronisation, team messages, notifications and printable rotas.",
       "officialWebsite": "https://www.simplechurchrota.com/landing.php",
       "company": "Andrew Bents (developer identity published in Google Play; legal trading entity not established in reviewed public material)",
       "countryOfOrigin": "United Kingdom",
@@ -11701,7 +11701,7 @@
     {
       "name": "Simply Halls",
       "slug": "simply-halls",
-      "shortDescription": "A UK public-hall listing and booking platform for church halls, village halls and community venues, operated by GKR Solutions Limited.",
+      "shortDescription": "A UK service from GKR Solutions for listing and booking church halls, village halls and community venues.",
       "officialWebsite": "https://host.simplyhalls.co.uk/",
       "company": "GKR Solutions Limited (company number 09934200)",
       "countryOfOrigin": "United Kingdom",
@@ -11774,7 +11774,7 @@
     {
       "name": "SongPro 5",
       "slug": "songpro",
-      "shortDescription": "A UK-developed Windows worship-presentation application for song lyrics, Bible passages, media, PowerPoint, service planning and stage displays.",
+      "shortDescription": "UK-developed Windows display software for song lyrics, Bible passages, media, PowerPoint, service planning and stage displays.",
       "officialWebsite": "https://www.creationsoftware.com/",
       "company": "Creation Software Limited (company number 03029045)",
       "countryOfOrigin": "United Kingdom",
@@ -11888,7 +11888,7 @@
     {
       "name": "STEP Bible",
       "slug": "step-bible",
-      "shortDescription": "Free UK-developed Bible-study software and website with searchable texts, original-language tools and downloadable desktop use.",
+      "shortDescription": "Free UK-developed Bible study software and website with searchable texts, original-language tools and a downloadable desktop version.",
       "officialWebsite": "https://www.stepbible.org/",
       "company": "STEPBible (Scripture Tools for Every Person)",
       "countryOfOrigin": "United Kingdom",
@@ -12051,7 +12051,7 @@
     {
       "name": "StreamingChurch.tv",
       "slug": "streamingchurch",
-      "shortDescription": "A US church livestreaming platform with website and social streaming, video hosting and published plans for different broadcast needs.",
+      "shortDescription": "A US church livestreaming service with website and social-media streaming, video hosting and plans for different broadcast needs.",
       "officialWebsite": "https://streamingchurch.tv/sctv/",
       "company": "StreamingChurch.tv",
       "countryOfOrigin": "United States",
@@ -12127,7 +12127,7 @@
     {
       "name": "Subsplash",
       "slug": "subsplash",
-      "shortDescription": "A US church engagement suite combining apps, websites, media hosting, live streaming, giving, people tools, events and communications.",
+      "shortDescription": "A US church system combining apps, websites, media hosting, livestreaming, giving, people tools, events and messages.",
       "officialWebsite": "https://www.subsplash.com/",
       "company": "Subsplash",
       "countryOfOrigin": null,
@@ -12195,7 +12195,7 @@
     {
       "name": "Swiftaid",
       "slug": "swiftaid",
-      "shortDescription": "A UK Gift Aid intermediary and claim-submission service for charities, covering connected donation platforms, uploaded donation data and recovery of previously missed eligible Gift Aid.",
+      "shortDescription": "A UK service that submits Gift Aid claims for charities. It works with connected donation services, uploaded donation data and previously missed eligible Gift Aid.",
       "officialWebsite": "https://www.swiftaid.co.uk/charity",
       "company": "Streeva Ltd (trading as Swiftaid)",
       "countryOfOrigin": "United Kingdom",
@@ -12330,7 +12330,7 @@
     {
       "name": "Tersia",
       "slug": "tersia",
-      "shortDescription": "A UK Christian-community app for groups, events, prayer, tickets and Stripe-connected fundraising, including parish and young-adult community use cases.",
+      "shortDescription": "A UK Christian-community app for groups, events, prayer, tickets and fundraising connected to Stripe. It includes parish and young-adult community use cases.",
       "officialWebsite": "https://tersia.com/",
       "company": "Tersia Limited (company number 16497836)",
       "countryOfOrigin": "United Kingdom",
@@ -12405,7 +12405,7 @@
     {
       "name": "Tes MyConcern",
       "slug": "tes-myconcern",
-      "shortDescription": "UK safeguarding case-management software from The Safeguarding Company, now part of Tes, used in the Church of England's national safeguarding casework rollout.",
+      "shortDescription": "UK software for managing safeguarding cases, from The Safeguarding Company, now part of Tes. It is used in the Church of England's national safeguarding casework rollout.",
       "officialWebsite": "https://www.tes.com/en-gb/for-schools/myconcern",
       "company": "The Safeguarding Company Limited (company number 09075059), part of Tes",
       "countryOfOrigin": "United Kingdom",
@@ -12499,7 +12499,7 @@
     {
       "name": "The Church Organiser",
       "slug": "the-church-organiser",
-      "shortDescription": "A free Church of England administration service for life events, room booking, ticketing, event finance and governance tasks.",
+      "shortDescription": "A free Church of England administration service for life events, room bookings, tickets, event finance and governance tasks.",
       "officialWebsite": "https://churchorganiser.org/",
       "company": "iKnow Church (service funded by the Church of England)",
       "countryOfOrigin": "United Kingdom",
@@ -12594,7 +12594,7 @@
     {
       "name": "The Donation App",
       "slug": "the-donation-app",
-      "shortDescription": "A UK charity donation and Gift Aid platform from Abacus Apps, covering online giving, card and e-wallet payments, bank transfers, cash records, CSV imports, GASDS and automated HMRC claims.",
+      "shortDescription": "A UK donation and Gift Aid service from Abacus Apps. It covers online giving, cards and digital wallets, bank transfers, cash records, CSV imports, the Gift Aid Small Donations Scheme (GASDS) and automated HMRC claims.",
       "officialWebsite": "https://www.thedonationapp.com/",
       "company": "Abacus Apps Limited",
       "countryOfOrigin": "United Kingdom",
@@ -12704,7 +12704,7 @@
     {
       "name": "TheFaithApp",
       "slug": "thefaithapp",
-      "shortDescription": "UK-operated church-management and mobile-app platform for members, content, events, communications and third-party online giving.",
+      "shortDescription": "A UK-operated church system and mobile app for members, content, events, messages and third-party online giving.",
       "officialWebsite": "https://thefaithapp.com/",
       "company": "THEFAITH LTD (company number 15841609)",
       "countryOfOrigin": "United Kingdom",
@@ -12788,7 +12788,7 @@
     {
       "name": "Three Rings",
       "slug": "three-rings",
-      "shortDescription": "A UK not-for-profit volunteer-management system for charities and community organisations, with rotas, a volunteer directory, team communications and controlled document sharing.",
+      "shortDescription": "A UK not-for-profit system for charities and community organisations managing volunteers. It has rotas, a volunteer directory, team messages and controlled document sharing.",
       "officialWebsite": "https://threerings.org.uk/",
       "company": "Three Rings CIC",
       "countryOfOrigin": "United Kingdom",
@@ -12919,7 +12919,7 @@
     {
       "name": "Ticket Tailor",
       "slug": "ticket-tailor",
-      "shortDescription": "A UK-founded event ticketing platform for paid and free events, with website embedding, attendee management and published per-ticket fees.",
+      "shortDescription": "A UK-founded service for tickets to paid and free events. It can add ticket sales to a website, manage attendees and publishes per-ticket fees.",
       "officialWebsite": "https://www.tickettailor.com/pricing?currency=gbp",
       "company": "Ticket Tailor",
       "countryOfOrigin": "United Kingdom",
@@ -13006,7 +13006,7 @@
     {
       "name": "Tithely",
       "slug": "tithely",
-      "shortDescription": "A US-based church software suite for online giving, people management, communications, websites, apps, events and worship-team work.",
+      "shortDescription": "A US church software suite for online giving, people records, messages, websites, apps, events and worship-team work.",
       "officialWebsite": "https://get.tithe.ly/",
       "company": "Tithely",
       "countryOfOrigin": null,
@@ -13100,7 +13100,7 @@
     {
       "name": "TruthVine",
       "slug": "truthvine",
-      "shortDescription": "A UK CIC providing audio sermon recording, hosting and website integration for evangelical churches, with an optional managed church website service.",
+      "shortDescription": "A UK Community Interest Company (CIC) for evangelical churches to record and host audio sermons and add them to a website. It also offers an optional managed church website service.",
       "officialWebsite": "https://www.truthvine.com/",
       "company": "TruthVine C.I.C.",
       "countryOfOrigin": "United Kingdom",
@@ -13196,7 +13196,7 @@
     {
       "name": "TryBooking",
       "slug": "trybooking",
-      "shortDescription": "A UK event-ticketing and registration platform with a church-specific workflow, free-event registration, mobile ticket scanning and published data-processing documentation.",
+      "shortDescription": "A UK service for event tickets and registration, with church-specific steps, free-event registration, mobile ticket scanning and published data-processing information.",
       "officialWebsite": "https://www.trybooking.com/uk/info/ticketing-for-churches",
       "company": "TryBooking UK Ltd (company number 08559255)",
       "countryOfOrigin": "United Kingdom",
@@ -13424,7 +13424,7 @@
     {
       "name": "Vanco",
       "slug": "vanco",
-      "shortDescription": "A US church giving and engagement platform with online, mobile and text giving, event tools, a card reader and integrations.",
+      "shortDescription": "A US church service for online, mobile and text giving, with event tools, a card reader and connections to other services.",
       "officialWebsite": "https://www.vancopayments.com/egiving",
       "company": "Vanco Payments",
       "countryOfOrigin": null,
@@ -13564,7 +13564,7 @@
     {
       "name": "VerseAir",
       "slug": "verseair",
-      "shortDescription": "New UK-developed presentation software for Bible projection, speech-detected references, worship lyrics, service schedules and optional streaming.",
+      "shortDescription": "New UK-developed display software for Bible passages, including references detected from speech, worship lyrics, service schedules and optional streaming.",
       "officialWebsite": "https://getverseair.com/",
       "company": "HANDBY LTD (company number 17092920)",
       "countryOfOrigin": "United Kingdom",
@@ -13637,7 +13637,7 @@
     {
       "name": "Visual Liturgy Live",
       "slug": "visual-liturgy-live",
-      "shortDescription": "A Church of England worship-planning application for Common Worship services, lectionary readings, liturgy and service-sheet preparation.",
+      "shortDescription": "A Church of England service-planning application for Common Worship services, lectionary readings, liturgy and service sheets.",
       "officialWebsite": "https://www.visualliturgylive.net/",
       "company": "Church House Publishing, run for the Archbishops’ Council of the Church of England",
       "countryOfOrigin": "United Kingdom",
@@ -13726,7 +13726,7 @@
     {
       "name": "Websites4Christians",
       "slug": "websites4christians",
-      "shortDescription": "A Scottish church and Christian-organisation website provider offering bespoke builds, managed hosting, email, backups, security updates and telephone support.",
+      "shortDescription": "A Scottish website provider for churches and Christian organisations. It offers tailored builds, managed hosting, email, backups, security updates and telephone support.",
       "officialWebsite": "https://websites4christians.com/",
       "company": "Project Huddle Ltd (trading as Websites4Christians), company number SC346323",
       "countryOfOrigin": "United Kingdom",
@@ -13842,7 +13842,7 @@
     {
       "name": "Worship Player",
       "slug": "worship-player",
-      "shortDescription": "A church worship media app from Movation Productions, offering lyric-video and backing-track playback, worship playlists, offline downloads and service-media tools.",
+      "shortDescription": "A church worship-media app from Movation Productions. It plays lyric videos and backing tracks, and offers worship playlists, offline downloads and service-media tools.",
       "officialWebsite": "https://www.worshipplayer.com/",
       "company": "Movation Productions Ltd",
       "countryOfOrigin": "United Kingdom",
@@ -13932,7 +13932,7 @@
     {
       "name": "WorshipFlow AI",
       "slug": "worshipflow-ai",
-      "shortDescription": "A UK-operated Planning Center companion that matches sermon themes to a church song catalogue, prepares rehearsal briefs and generates worship-team resources.",
+      "shortDescription": "A UK-operated companion for Planning Center. It matches sermon themes to a church song catalogue, prepares rehearsal notes and generates worship-team resources.",
       "officialWebsite": "https://worshipflow-ai.uk/",
       "company": "Chris Renshaw (sole trader)",
       "countryOfOrigin": "United Kingdom",
@@ -14011,7 +14011,7 @@
     {
       "name": "WorshipTools",
       "slug": "worshiptools",
-      "shortDescription": "A set of free church and worship-team applications for presentation, service planning, charts, rehearsal and people communications.",
+      "shortDescription": "A set of free church and worship-team apps for displays, service planning, music charts, rehearsals and messages to people.",
       "officialWebsite": "https://www.worshiptools.com/",
       "company": "WorshipTools",
       "countryOfOrigin": null,

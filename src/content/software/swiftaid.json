@@ -1,7 +1,7 @@
 {
   "name": "Swiftaid",
   "slug": "swiftaid",
-  "shortDescription": "A UK Gift Aid intermediary and claim-submission service for charities, covering connected donation platforms, uploaded donation data and recovery of previously missed eligible Gift Aid.",
+  "shortDescription": "A UK service that submits Gift Aid claims for charities. It works with connected donation services, uploaded donation data and previously missed eligible Gift Aid.",
   "officialWebsite": "https://www.swiftaid.co.uk/charity",
   "company": "Streeva Ltd (trading as Swiftaid)",
   "countryOfOrigin": "United Kingdom",

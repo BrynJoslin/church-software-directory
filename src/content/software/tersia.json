@@ -1,7 +1,7 @@
 {
   "name": "Tersia",
   "slug": "tersia",
-  "shortDescription": "A UK Christian-community app for groups, events, prayer, tickets and Stripe-connected fundraising, including parish and young-adult community use cases.",
+  "shortDescription": "A UK Christian-community app for groups, events, prayer, tickets and fundraising connected to Stripe. It includes parish and young-adult community use cases.",
   "officialWebsite": "https://tersia.com/",
   "company": "Tersia Limited (company number 16497836)",
   "countryOfOrigin": "United Kingdom",

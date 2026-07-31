@@ -2459,7 +2459,7 @@ textarea {
   background: var(--surface);
 }
 
-.comparison-picker fieldset {
+.comparison-picker > fieldset {
   border: 0;
   margin: 0;
   padding: 0;
@@ -3057,6 +3057,11 @@ textarea {
 
 .profile-identity h1 {
   max-inline-size: 16ch;
+  overflow-wrap: anywhere;
+}
+
+.profile-identity .card-heading > div {
+  min-inline-size: 0;
 }
 
 .profile-identity > p {
@@ -3548,6 +3553,11 @@ textarea {
   .submission-lead,
   .submission-page .static-form {
     padding: var(--space-md);
+  }
+
+  .profile-identity .card-heading {
+    flex-direction: column;
+    gap: var(--space-xs);
   }
 
   .guide-task-section .guide-task-routes {

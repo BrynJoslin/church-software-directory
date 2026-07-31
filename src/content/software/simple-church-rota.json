@@ -1,7 +1,7 @@
 {
   "name": "Simple Church Rota",
   "slug": "simple-church-rota",
-  "shortDescription": "A UK-developed volunteer rota app for church teams, with scheduling, swaps, calendar sync, team messages, notifications and print-ready rotas.",
+  "shortDescription": "A UK-developed volunteer rota app for church teams. It includes schedules, swaps, calendar synchronisation, team messages, notifications and printable rotas.",
   "officialWebsite": "https://www.simplechurchrota.com/landing.php",
   "company": "Andrew Bents (developer identity published in Google Play; legal trading entity not established in reviewed public material)",
   "countryOfOrigin": "United Kingdom",

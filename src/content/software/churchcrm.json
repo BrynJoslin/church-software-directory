@@ -58,7 +58,7 @@
     "Email support contact"
   ],
   "editorial": {
-    "assessment": "ChurchCRM can reduce software licence cost and keep deployment under a church’s control, but it transfers responsibility for hosting, updates, access controls, backups and incident response to the church. It is a technical-operating-model decision as much as a database choice.",
+    "assessment": "ChurchCRM can reduce licence cost and keep the system under a church's control. It also makes the church responsible for hosting, updates, access rules, backups and incident response. This is as much a decision about running a technical service as choosing a database.",
     "bestFor": [
       "Churches with reliable technical stewardship and a clear data-governance plan",
       "Teams comfortable paying for hosting or volunteer maintenance rather than a subscription"

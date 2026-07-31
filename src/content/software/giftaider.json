@@ -1,7 +1,7 @@
 {
   "name": "GiftAider",
   "slug": "giftaider",
-  "shortDescription": "A UK Gift Aid claim-management and basic charity CRM product, offered as a cloud service or self-hosted system for donor, donation, import, validation and HMRC-submission workflows.",
+  "shortDescription": "A UK service for managing Gift Aid claims and basic charity donor records. It is available online or self-hosted, with donation imports, checks and HMRC claim submission.",
   "officialWebsite": "https://giftaider.com/",
   "company": "Systematic Marketing Limited (SMXi Software)",
   "countryOfOrigin": "United Kingdom",

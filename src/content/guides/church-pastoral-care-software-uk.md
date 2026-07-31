@@ -3,9 +3,9 @@ title: "Pastoral care records and software for UK churches"
 slug: church-pastoral-care-software-uk
 guideType: explainer
 standardVersion: "1.0"
-summary: "A bounded guide to pastoral-care records and software: what a church should decide before recording notes, who may access them, and why pastoral and safeguarding workflows remain distinct."
+summary: "Decide what pastoral-care records are for, who may access them and when a concern belongs in a separate safeguarding process."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - pastoral-care
   - safeguarding
@@ -26,11 +26,11 @@ seo:
 
 ## Quick answer
 
-Pastoral-care software can help a church remember a follow-up, coordinate a small authorised team and avoid losing an ordinary care request in an inbox. It should never become a general repository for private conversations. Before choosing a product, agree what pastoral information may be recorded, for what purpose, who may see it, when it is reviewed and when it must be handled through a safeguarding or emergency route instead. Pastoral confidentiality, safeguarding response, professional referral and data-protection obligations are not features a supplier can provide on the church's behalf.
+Pastoral-care software can help a church remember a follow-up, coordinate a small authorised team and avoid losing an ordinary care request in an inbox. It should not become a general store for private conversations. Before choosing a product, agree what pastoral information may be recorded, why, who may see it, when it is reviewed and when it belongs in a safeguarding or emergency route instead. A supplier cannot provide pastoral confidentiality, safeguarding response, professional referral or data-protection obligations on the church’s behalf.
 
 This guide is not pastoral, safeguarding, legal or data-protection advice. In a live concern, follow the church's safeguarding procedure and relevant professional or statutory routes. Do not wait for access to a care system or use a routine pastoral note to delay a response.
 
-## Begin with a care-recording boundary
+## Set a boundary for care records
 
 Separate three kinds of information. First, ordinary operational information: a person asked for a call, a visit is planned, or a practical task has an owner. Second, pastoral information: a limited factual note necessary for agreed follow-up. Third, safeguarding, emergency, criminal, health or other highly sensitive material which needs the church's specific procedure and appropriate advice. The boundary cannot be drawn by the product's labels alone.
 

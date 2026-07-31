@@ -61,7 +61,7 @@
     "Online account access to payment and donation details"
   ],
   "editorial": {
-    "assessment": "Stewardship is a UK-specific giving service rather than a general church management system. It is especially relevant where a church values its Gift Aid model and Christian-charity focus, but the treasurer should understand deductions, eligibility and reconciliation before adopting it.",
+    "assessment": "Stewardship is a UK giving service, not a general church management system. It may suit a church that values its Gift Aid model and Christian-charity focus. Before adopting it, the treasurer should understand deductions, eligibility and how received money matches the church's records.",
     "bestFor": [
       "UK churches and charities seeking a specialist giving and Gift Aid route",
       "Teams that want a Partner Account and public giving profile"

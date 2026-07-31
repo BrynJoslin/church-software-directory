@@ -1,7 +1,7 @@
 ---
 name: Pastoral care administration
 slug: pastoral-care
-shortDescription: Tools for organising pastoral visits, care requests, prayer requests, follow-up and controlled records of pastoral activity.
+shortDescription: Tools for organising pastoral visits, care and prayer requests, follow-up and access-controlled pastoral records.
 ownerRoles:
   - Pastor or minister
   - Pastoral care lead

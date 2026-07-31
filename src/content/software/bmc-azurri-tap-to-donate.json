@@ -1,7 +1,7 @@
 {
   "name": "BMc Azurri Tap To Donate",
   "slug": "bmc-azurri-tap-to-donate",
-  "shortDescription": "A UK NFC and QR-code donation platform for charities and places of worship, with branded donation pages, dashboard reporting, contactless payment and optional Gift Aid workflows.",
+  "shortDescription": "A UK donation service for charities and places of worship. It supports tap-to-give and QR-code donations, branded donation pages, reports and optional Gift Aid steps.",
   "officialWebsite": "https://bmcazurri.com/taptodonate/",
   "company": "BMc Azurri GA Solutions Limited",
   "countryOfOrigin": "United Kingdom",

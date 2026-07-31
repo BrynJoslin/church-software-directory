@@ -1,7 +1,7 @@
 {
   "name": "Ticket Tailor",
   "slug": "ticket-tailor",
-  "shortDescription": "A UK-founded event ticketing platform for paid and free events, with website embedding, attendee management and published per-ticket fees.",
+  "shortDescription": "A UK-founded service for tickets to paid and free events. It can add ticket sales to a website, manage attendees and publishes per-ticket fees.",
   "officialWebsite": "https://www.tickettailor.com/pricing?currency=gbp",
   "company": "Ticket Tailor",
   "countryOfOrigin": "United Kingdom",

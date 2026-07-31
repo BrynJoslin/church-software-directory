@@ -1,7 +1,7 @@
 ---
 name: Volunteer scheduling and rotas
 slug: volunteer-scheduling
-shortDescription: Tools for building volunteer rotas, collecting availability, publishing assignments and handling swaps or cover requests.
+shortDescription: Tools for building volunteer rotas, collecting availability, sharing assignments and handling swaps or cover requests.
 ownerRoles:
   - Volunteer coordinator
   - Worship or ministry leader

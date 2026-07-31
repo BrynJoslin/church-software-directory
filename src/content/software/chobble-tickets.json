@@ -1,7 +1,7 @@
 {
   "name": "Chobble Tickets",
   "slug": "chobble-tickets",
-  "shortDescription": "A UK-built open-source event-ticketing and check-in platform for paid or free events, registrations, donations and equipment hire, with managed or self-hosted deployment.",
+  "shortDescription": "A UK-built, open-source service for event tickets and check-in. It covers paid and free events, registration, donations and equipment hire, with hosted or self-hosted options.",
   "officialWebsite": "https://tickets.chobble.com/",
   "company": "Chobble CIC",
   "countryOfOrigin": "United Kingdom",

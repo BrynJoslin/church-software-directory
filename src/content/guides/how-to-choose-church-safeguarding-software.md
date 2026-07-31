@@ -3,9 +3,9 @@ title: "How to choose church safeguarding software"
 slug: how-to-choose-church-safeguarding-software
 guideType: buyers-guide
 standardVersion: "1.0"
-summary: "A careful procurement guide for UK churches choosing safeguarding administration software without mistaking software for safeguarding judgement or procedure."
+summary: "Choose safeguarding administration software by testing records, access, reporting routes, retention and handover without mistaking software for safeguarding judgement."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - safeguarding
   - childrens-ministry
@@ -27,11 +27,11 @@ seo:
 
 ## Quick answer
 
-Choose safeguarding software only after the church or charity has agreed its reporting route, roles, record-retention approach and escalation process. The useful question is not which product has the longest feature list; it is whether a tightly controlled system can support the people who must record, refer, review and hand over information under your existing policy. Software can organise administration. It cannot assess risk, decide whether a referral is required, replace a safeguarding lead, or make a church compliant. This guide is procurement information, not safeguarding, legal or data-protection advice. For an immediate concern, follow the church's current procedure and contact the appropriate emergency or safeguarding authority rather than waiting for a software decision.
+Choose safeguarding software only after the church or charity has agreed its reporting route, roles, record-retention approach and escalation process. The key question is whether a tightly controlled system supports the people who must record, refer, review and hand over information under the existing policy. Software can organise administration. It cannot assess risk, decide whether a referral is needed, replace a safeguarding lead or make a church compliant. This is procurement information, not safeguarding, legal or data-protection advice. For an immediate concern, follow the church’s current procedure and contact the appropriate emergency or safeguarding authority rather than waiting for a software decision.
 
 This is a high-risk category. Involve the designated safeguarding lead, trustees or senior leaders with responsibility, and the relevant diocesan, denominational or professional advisers before moving real records. The Charity Commission says trustees retain responsibility even where work is delegated, and expects charities to handle and record concerns securely and responsibly.[^charity]
 
-## Start with the safeguarding workflow, not a product demonstration
+## Start with the safeguarding workflow
 
 Write a short, agreed description of what happens from the first concern to the point at which the matter is referred, reviewed, retained or closed. Include out-of-hours arrangements and the route for allegations, complaints and whistleblowing. A supplier can demonstrate a form, task list or alert, but only the church and its advisers can decide whether that workflow matches local policy and the procedures of the relevant safeguarding partnership.
 

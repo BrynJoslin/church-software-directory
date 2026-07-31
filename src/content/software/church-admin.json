@@ -130,7 +130,7 @@
     }
   },
   "editorial": {
-    "assessment": "Church Admin is a viable UK-built alternative for a church that already operates WordPress well and wants to keep people data under its own hosting control. Its broad feature set and low annual licence cost are attractive, but the church inherits the operational work normally absorbed by a hosted product: WordPress and plugin patching, backup recovery, permissions, host security and integration management. It should be judged on that full ownership model, not the licence price alone.",
+    "assessment": "Church Admin is a UK-built option for a church that already runs WordPress well and wants to keep people data in its own hosting. Its broad features and low annual licence cost are attractive, but the church takes on patching, backups, access rules, host security and connections to other systems. Judge it on that full ownership model, not the licence price alone.",
     "bestFor": [
       "Small or medium churches with an actively maintained WordPress website",
       "Teams that want church records, calendar and sermons to live in their own database",

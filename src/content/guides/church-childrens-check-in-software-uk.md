@@ -3,9 +3,9 @@ title: "How to choose church children's check-in software"
 slug: church-childrens-check-in-software-uk
 guideType: buyers-guide
 standardVersion: "1.0"
-summary: "Choose children's check-in software by testing registration, collection, visitor handling, permissions, data minimisation and an offline failure drill."
+summary: "Choose children’s check-in software by testing registration, collection, visitors, permissions and what happens when the usual process fails."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - childrens-ministry
   - safeguarding
@@ -25,11 +25,11 @@ seo:
 
 ## Quick answer
 
-Choose children's check-in software when a church needs a dependable way to register children, know which group they are in and return them to the appropriate parent or carer. The product should support a carefully designed local procedure; it does not create safeguarding practice, decide who is authorised, replace safer recruitment or resolve an incident. Begin with the handover the church wants to operate, then test whether the software lets real volunteers carry it out quickly, with only the information they need. Include a failure drill for a missing badge, a visitor, a delayed collection and a device or internet outage.
+Choose children’s check-in software when a church needs a dependable way to register children, know their group and return them to the right parent or carer. It should support a carefully designed local procedure; it does not create safeguarding practice, decide who is authorised, replace safer recruitment or resolve an incident. Start with the handover the church wants to run, then test it with real volunteers and only the information they need. Include a failure drill for a missing badge, visitor, delayed collection, device or internet outage.
 
 Keep check-in distinct from safeguarding casework. A check-in record may be operational evidence of attendance, but it is not an incident-management or safeguarding-decision system. If a concern arises, follow the church's current safeguarding route rather than relying on a note or flag in the check-in app.
 
-## Map the family journey and the handover rule
+## Map the family journey and handover
 
 Draw the journey for a regular family, a visiting family and a child arriving without the expected adult. Include arrival, registration, group assignment, badge or collection reference, changes during the session, collection and any uncollected child. Decide who can authorise a change to the normal pickup arrangement and how the team confirms it. Do not make a system's default badge, QR code or contact field the whole rule.
 

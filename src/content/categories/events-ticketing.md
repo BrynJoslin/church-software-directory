@@ -1,7 +1,7 @@
 ---
 name: Events and ticketing
 slug: events-ticketing
-shortDescription: Tools for publishing events, managing capacity and registrations, collecting ticket payments and communicating practical details to attendees.
+shortDescription: Tools for publishing events, managing places and registrations, taking ticket payments and sending practical details to attendees.
 ownerRoles:
   - Events coordinator
   - Church administrator

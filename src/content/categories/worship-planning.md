@@ -1,7 +1,7 @@
 ---
 name: Worship planning
 slug: worship-planning
-shortDescription: Tools for planning services, arranging orders of service, scheduling volunteers and sharing music or production information.
+shortDescription: Tools for planning services, arranging orders of service, scheduling volunteers and sharing music or production details.
 ownerRoles:
   - Worship leader
   - Service coordinator

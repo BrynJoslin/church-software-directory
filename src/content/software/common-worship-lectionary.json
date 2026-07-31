@@ -1,7 +1,7 @@
 {
   "name": "Common Worship Lectionary",
   "slug": "common-worship-lectionary",
-  "shortDescription": "The official Church of England lectionary app and web app for daily readings, collects, post-communion prayers and simple Sunday service-sheet generation.",
+  "shortDescription": "The official Church of England app and website for the lectionary, or set daily readings. It includes collects, post-communion prayers and simple Sunday service sheets.",
   "officialWebsite": "https://common-worship-lectionary.netlify.app/",
   "company": "Church House Publishing (the Church of England’s official publisher)",
   "countryOfOrigin": "United Kingdom",

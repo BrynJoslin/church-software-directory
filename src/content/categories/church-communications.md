@@ -1,7 +1,7 @@
 ---
 name: Church communications
 slug: church-communications
-shortDescription: Software for consent-aware church messaging, email, SMS, connection and member engagement.
+shortDescription: Software for church messages, email, text messages, connection and contact with members, with consent controls.
 ownerRoles:
   - Church administrator
   - Communications lead
@@ -18,4 +18,4 @@ seo:
   description: Compare church messaging and communication software for UK churches, including SMS, email, consent and integration questions.
 ---
 
-Messaging software should support clear, consent-aware communication without becoming a second ungoverned contact database.
+Messaging software should support clear messages and consent choices without becoming a second contact database that nobody manages.

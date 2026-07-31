@@ -1,7 +1,7 @@
 {
   "name": "Donorbox",
   "slug": "donorbox",
-  "shortDescription": "A fundraising and donation platform for charities, with UK pricing, donation forms, campaigns, event ticketing and HMRC Gift Aid integration.",
+  "shortDescription": "A fundraising and donation service for charities, with UK pricing, donation forms, campaigns and event tickets. It also connects to HM Revenue and Customs (HMRC) for Gift Aid.",
   "officialWebsite": "https://donorbox.org/",
   "company": "Donorbox",
   "ukFocus": "strong",

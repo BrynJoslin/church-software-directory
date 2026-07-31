@@ -3,9 +3,9 @@ title: "Church records retention and software: what to keep, archive or delete"
 slug: church-records-retention-software
 guideType: explainer
 standardVersion: "1.0"
-summary: "Turn an applicable church records-retention policy into practical system fields, access, review dates, archives and deletion workflows without asking software to decide the policy."
+summary: "Turn your church’s records-retention policy into system settings, access, review dates, archives and deletion steps without asking software to make the policy."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - church-management
   - safeguarding
@@ -26,11 +26,11 @@ seo:
 
 ## Quick answer
 
-Software can help a church apply an agreed records-retention approach through fields, access controls, review reminders, exports, archives and deletion workflows. It cannot decide what the church must keep, why a record is needed, how long it should be retained or whether a historic record has archival value. Start with the rules and guidance that apply to the church's legal body, denomination, nation and record type. Then map each system's records to a retention decision with a named owner and a review date. Do not use a supplier's default deletion setting as a records policy.
+Software can help a church apply an agreed records-retention approach with fields, access controls, review reminders, exports, archives and deletion steps. It cannot decide what the church must keep, why a record is needed, how long to retain it or whether a historic record has archival value. Start with the rules and guidance that apply to the church’s legal body, denomination, nation and record type. Then map each system’s records to a retention decision with a named owner and review date. A supplier’s default deletion setting is not a records policy.
 
 This guide is not legal, data-protection, safeguarding, employment, tax or archival advice. Some records, particularly safeguarding, clergy, financial, HR or formal registers, need specialist or denominational advice. Never delete a live concern, a record subject to a legal hold, or material whose retention status has not been decided through the appropriate process.
 
-## Separate policy decisions from software settings
+## Set policy before changing software settings
 
 Begin with record types and purposes, not platforms. A church-management profile, inbox, finance package, booking system and cloud drive can all contain records with different retention requirements. The relevant questions are: what is this record; why was it created; who needs it; what rule or guidance applies; when does the retention period start; where will it be held; and what happens at review?
 

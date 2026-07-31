@@ -1,7 +1,7 @@
 {
   "name": "Clearstream",
   "slug": "clearstream",
-  "shortDescription": "Church communication software for SMS, email, keywords, phone numbers, QR codes and NFC connection journeys.",
+  "shortDescription": "Church messaging software for text messages, email, keywords, phone numbers, QR codes and tap-to-connect links using near-field communication (NFC).",
   "officialWebsite": "https://clearstream.io/",
   "company": "Clearstream",
   "ukFocus": "general",

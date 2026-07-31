@@ -3,9 +3,9 @@ title: "Accounting software for churches: a UK buying guide"
 slug: accounting-software-for-churches-uk
 guideType: buyers-guide
 standardVersion: "1.0"
-summary: A practical UK guide to choosing church accounting software around fund accounting, controls, Gift Aid, reporting, implementation and a finance-led trial.
+summary: Choose UK church accounting software by testing funds, approvals, Gift Aid, reporting and handover with your finance team.
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - church-accounting
   - online-giving
@@ -27,9 +27,9 @@ seo:
 
 ## Quick answer
 
-The right accounting software for a church is the one that lets its treasurer, trustees and independent examiner follow money from receipt to report: across funds, approvals, bank reconciliation, Gift Aid and the year-end records. For many UK churches, that means starting with a charity- or church-focused fund-accounting product rather than adapting a general small-business package. The important trade-off is that specialist software still needs a clear chart of accounts, documented controls and people who own the work.
+Choose software that lets the treasurer, trustees and independent examiner follow money from receipt to report: across funds, approvals, bank reconciliation, Gift Aid and year-end records. For many UK churches, start with a charity- or church-focused fund-accounting product. It still needs a clear chart of accounts, documented controls and people who own the work.
 
-Start with two or three systems that can recreate a recent month of the church’s accounts. Test a restricted gift, an expense approval, bank reconciliation, a Gift Aid adjustment and a trustee report. This representative guide was researched on 28 July 2026 from supplier and UK authoritative material. It is not accounting, tax or independent-examination advice, and it is not a ranking.
+Shortlist two or three systems that can recreate a recent month of the church’s accounts. Test a restricted gift, an expense approval, bank reconciliation, a Gift Aid adjustment and a trustee report. This representative guide was researched on 28 July 2026 from supplier and UK authoritative material. It is not accounting, tax or independent-examination advice, and it is not a ranking.
 
 ## Scope, method and the problem to solve
 
@@ -41,7 +41,7 @@ The underlying problem is not usually “we need more accounting features”. It
 
 For a very small church with straightforward receipts and payments, a well-structured spreadsheet and an agreed reconciliation process may be sufficient for a time. That is a valid option if records, approvals, bank access, backup and year-end handover are sound. Do not migrate merely because a product looks more modern. Conversely, do not keep a fragile spreadsheet process because it is familiar when it requires one volunteer to remember every workaround.
 
-## Choose the control model before the product
+## Start with the church’s controls
 
 The most useful buying question is not “which package has fund accounting?” It is “can we prove how each transaction was approved, allocated, reconciled and reported?” The Charity Commission’s guidance on <a href="https://www.gov.uk/government/publications/internal-financial-controls-for-charities-cc8/internal-financial-controls-for-charities" target="_blank" rel="noopener noreferrer">internal financial controls for charities</a> makes clear that trustees retain responsibility for appropriate controls. A platform supports that responsibility; it does not transfer it to the supplier.
 

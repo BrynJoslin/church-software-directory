@@ -3,9 +3,9 @@ title: "How to migrate church management software"
 slug: migrate-church-management-software
 guideType: how-to
 standardVersion: "1.0"
-summary: "A careful migration plan for UK churches moving between church-management systems, from export and mapping through cut-over, reconciliation and old-system closure."
+summary: "Move church-management systems with a careful plan for export, mapping, testing, cut-over, checking results and closing the old system."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - church-management
   - church-communications
@@ -28,11 +28,11 @@ seo:
 
 ## Quick answer
 
-A church-management migration is a records and operating-model change, not a file upload. Start by agreeing what will move, what will be retained elsewhere, what will be archived or deleted under the church's applicable policy, and who can approve each decision. Then use a small, repeatable rehearsal: export, map, import non-sensitive test data, reconcile the result, train the people who will work in it and test the fallback before the real cut-over. Do not promise a lossless migration. Different systems model households, groups, consent, giving, files and historic activity differently, so some information must be transformed, left behind or treated as a separate records decision.
+Moving church-management systems changes records and ways of working; it is not a file upload. Agree what will move, what stays elsewhere, what will be archived or deleted under the church’s policy, and who approves each decision. Then rehearse: export, map, import non-sensitive test data, check the result, train the people who will use it and test the fallback before cut-over. Do not promise a lossless migration. Systems handle households, groups, consent, giving, files and historic activity differently, so some information must be changed, left behind or treated as a separate records decision.
 
 Keep the old service available only as long as policy, contract and practical support require. The goal is not to preserve every historic field forever. It is to establish a trustworthy current record, a defensible archive and a clear owner for the new system.
 
-## Set the boundary and name accountable owners
+## Set the boundary and name owners
 
 Begin with a one-page migration charter. State why the church is changing, the cut-over date range, the source and destination systems, the modules in scope, exclusions, and the decision-maker for each data type. Include contact records, households, groups, rotas, event information, communications preferences, documents, giving or finance links, booking data and any sensitive workstream separately. A system administrator should not silently decide the fate of all historic data.
 

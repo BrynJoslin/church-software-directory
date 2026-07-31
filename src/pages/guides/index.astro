@@ -48,12 +48,11 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
   <section class="section page-hero page-hero--tool guide-hub-intro">
     <div class="container page-hero__grid">
       <div class="page-hero__intro">
-        <p class="eyebrow">Decision support</p>
+        <p class="eyebrow">Help with a church software decision</p>
         <h1>Church software guides</h1>
         <p>
           Find a practical next step for choosing software, checking a risk or
-          making a change. These guides are independent decision support, not a
-          product ranking.
+          making a change. The guides help you decide; they do not rank products.
         </p>
       </div>
       <form class="guide-search" action="/guides/#all-guides" method="get" data-guide-form data-analytics-event="guide_search">
@@ -62,8 +61,8 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
           <input id="guide-search" name="q" type="search" autocomplete="off" placeholder="Try migration, Gift Aid or rotas" />
           <button type="submit">Search guides</button>
         </div>
-        <p class="guide-search__hint">Search narrows this page in your browser. All guides remain available below.</p>
-        <noscript><p class="guide-search__hint">Search terms are kept in the address, but this static page shows the complete guide library without browser enhancement.</p></noscript>
+        <p class="guide-search__hint">Search narrows this page in your browser. All guides remain below.</p>
+        <noscript><p class="guide-search__hint">The search terms stay in the address, but this page still shows every guide.</p></noscript>
       </form>
     </div>
   </section>
@@ -75,7 +74,7 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
           <p class="eyebrow">A deliberate starting point</p>
           <h2 id="start-here-heading">Start here</h2>
         </div>
-        <p>Three evergreen guides for deciding what to choose, what to check and how to change responsibly.</p>
+        <p>Three guides to help you choose, check and change software responsibly.</p>
       </div>
       <div class="grid">
         {startHereGuides.map((guide) => <GuideCard entry={guide} categoryNames={categoryNames} analyticsEvent="guide_open_from_hub" />)}
@@ -90,7 +89,7 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
           <p class="eyebrow">Browse by need</p>
           <h2 id="guide-tasks-heading">What do you need to do?</h2>
         </div>
-        <p>Use the language of the decision in front of your church team.</p>
+        <p>Start with the question your church team needs to answer.</p>
       </div>
       <nav class="guide-task-routes" aria-label="Guide tasks">
         {guideTasks.map((task) => {
@@ -114,7 +113,7 @@ const guideSearchText = (guide: (typeof guides)[number]) =>
           <p class="eyebrow">Browse by church task</p>
           <h2 id="guide-topics-heading">Find the right topic</h2>
         </div>
-        <p>Topics use the same category structure as the software directory.</p>
+        <p>Topics match the categories in the software directory.</p>
       </div>
       <nav class="guide-topic-families" aria-label="Guide topics">
         {categoryFamilies.map((family) => {

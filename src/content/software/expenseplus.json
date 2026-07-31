@@ -1,7 +1,7 @@
 {
   "name": "ExpensePlus",
   "slug": "expenseplus",
-  "shortDescription": "UK cloud fund-accounting software for churches and charities, with expense, donation, Gift Aid and financial-reporting workflows.",
+  "shortDescription": "UK online accounting software for churches and charities, covering expenses, donations, Gift Aid and financial reports.",
   "officialWebsite": "https://expenseplus.co.uk/",
   "company": "ExpensePlus Ltd",
   "countryOfOrigin": "United Kingdom",
@@ -87,7 +87,7 @@
     }
   },
   "editorial": {
-    "assessment": "ExpensePlus is a UK-focused finance system rather than a general church database. It may be a strong fit where the main problem is fund accounting, expense controls and Gift Aid administration, especially if the treasurer needs a clearer hand-off from donations to financial reporting. Its suitability depends on the church's chart of accounts, approval practice, examiner requirements and the exact exports needed from its other systems.",
+    "assessment": "ExpensePlus is a UK finance system, not a general church database. It may suit a church that needs fund accounting, expense controls and Gift Aid in one place. Check your accounts structure, approval process, examiner's needs and the data you need from other systems.",
     "bestFor": [
       "UK church finance teams needing fund accounting and expense controls",
       "Churches that want Gift Aid and donation records alongside accounting workflows",

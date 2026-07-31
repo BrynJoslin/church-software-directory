@@ -1,7 +1,7 @@
 ---
 name: Church websites
 slug: church-websites
-shortDescription: Website-building services designed to help churches publish service information, events, news, forms and online giving.
+shortDescription: Website services that help churches publish service information, events, news, forms and online giving.
 ownerRoles:
   - Church administrator
   - Communications lead

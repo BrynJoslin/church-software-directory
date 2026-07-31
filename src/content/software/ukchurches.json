@@ -104,7 +104,7 @@
     }
   },
   "editorial": {
-    "assessment": "UKChurches is a managed church-website service rather than a self-managed site builder: it bundles design, hosting, updates and a support route into published GBP packages. That can suit a church without web capacity. Its agreement and privacy notice give a Bristol address, but a company-registration number and more detailed data-processing and exit material were not found in the reviewed sources, so those points should be settled in writing before a church migrates content or collects personal data.",
+    "assessment": "UKChurches is a managed church website service, not a self-managed site builder. Its published GBP packages include design, hosting, updates and support, which may suit a church without web capacity. Before moving content or collecting personal data, get written answers on the company, data handling and exit terms that were not found in the reviewed sources.",
     "bestFor": [
       "Churches wanting a managed public website with ongoing support",
       "Small teams that prefer supplier-led design and updates",

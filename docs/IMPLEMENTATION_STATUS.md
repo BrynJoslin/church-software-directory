@@ -19,6 +19,222 @@ profiles, 17 categories, 27 guides and 549 recorded source references. Older
 counts in the historical notes below describe earlier repository states; they
 are not the current public total.
 
+## Plain-language baseline — 31 July 2026
+
+- `npm run check:plain-language` now creates an internal, route-level baseline
+  from built HTML. It records the page family and likely source, sentence count,
+  average sentence length, a local Flesch–Kincaid Grade Level estimate, long
+  sentences, repeated language-pattern terms and acronyms.
+- The report removes repeated site furniture, source-like elements, tables,
+  scripts, styles and SVG before scoring. It is a warning backlog, not an
+  automated rewrite or release gate; every proposed public change still needs
+  evidence and editorial review.
+- The generated Markdown and JSON reports are stored under
+  `.internal/plain-language/`, which remains outside the production build and
+  version control. A representative route from every current page family was
+  checked against its extracted prose; future template changes need the same
+  sampling before the report is used as a priority signal.
+
+## Plain-language main-journey and profile pilot — 31 July 2026
+
+- The homepage, directory, category index, guide hub, shortlist and comparison
+  now put the reader's task first and explain evidence, filters and missing
+  details in ordinary language.
+- The first six-profile pilot covers church management, accounting, safeguarding,
+  giving, presentation and church websites. Its wording retains the same facts,
+  source references and supplier questions while separating the practical fit,
+  limit and next check.
+- Full catalogue migration remains a controlled editorial programme. It must be
+  completed in factual-review batches; it is not authorised as an automated
+  content rewrite.
+
+## Plain-language catalogue batch: church websites — 31 July 2026
+
+- Reviewed ten website-focused profiles: A Church Near You, Access Charity
+  Website, Church Pages, ChurchWebsites UK, ChurchBuilder, Churchee, Expanse
+  CMS, iChurch, UKChurches and VCS Parish Church Websites.
+- The batch only changes editorial assessments. It preserves the recorded
+  product facts, sources, dates and unresolved supplier questions while making
+  the reader's fit, limit and first check easier to identify.
+
+## Plain-language catalogue batch: giving and donations — 31 July 2026
+
+- Reviewed ten giving and donation profiles: BMc Azurri Tap To Donate, Dona
+  Donations, Donation Station, Donorbox, DonorCloud, Donorfy, Donr, Enthuse,
+  Give A Little, GiveTap and GoodBox.
+- These profiles had no editorial assessment to rewrite. Their public
+  descriptions now start with the church task, explain terms such as QR codes,
+  contactless giving, HMRC and CRM in ordinary language, and retain the
+  supplier-supported scope. Structured facts, sources, dates and supplier
+  questions are unchanged.
+
+## Plain-language catalogue batch: connected giving — 31 July 2026
+
+- Reviewed ten further online-giving profiles: ChurchPay, GoodHub, GoodtoGive,
+  iDonatio, KindLink, LoveGiving, Parish Giving Scheme, Pushpay, Swiftaid and
+  The Donation App.
+- Their public descriptions now spell out the church task and introduce formal
+  names such as the Gift Aid Small Donations Scheme (GASDS) where readers need
+  them. Product scope, source records, dates and unresolved questions are
+  unchanged.
+
+## Plain-language catalogue batch: worship displays — 31 July 2026
+
+- Reviewed ten presentation and worship-display profiles: Church Presenter,
+  EasyWorship, FreePresenter, FreeShow, FreeWorship, OpenLP, Praisenter,
+  SongPro 5, Worship Player and Visual Liturgy Live.
+- Their descriptions now use the church task before the product category and
+  explain specialist terms where they materially affect a setup, such as the
+  GPL licence and NDI network video output. Product facts, source records,
+  dates and supplier questions are unchanged.
+
+## Plain-language catalogue batch: events and room bookings — 31 July 2026
+
+- Reviewed ten profiles for events and venue bookings: BookingsPlus, Bookitbee,
+  Bookteq, Bookwhen, Chobble Tickets, Eventcube, Hall Booking Online,
+  Hallmaster, MIDAS Room Booking and SignMeUp.
+- Descriptions now lead with booking or ticketing tasks and explain terms such
+  as self-hosting and Disclosure and Barring Service (DBS) administration in
+  context. Product facts, sources, dates and supplier questions are unchanged.
+
+## Plain-language catalogue batch: volunteer rotas and worship teams — 31 July 2026
+
+- Reviewed ten profiles for volunteer scheduling, worship planning and team
+  communication: Infreemation Volunteer, iSingWorship, Jovo, Levites,
+  RotaCentral, ShareRota, Simple Church Rota, Three Rings, WorshipFlow AI and
+  WorshipTools.
+- Descriptions now use everyday rota and team language, expanding or replacing
+  internal phrases such as onboarding, workflow, role-based and sync. Product
+  facts, sources, dates and supplier questions are unchanged.
+
+## Plain-language catalogue batch: safeguarding and pastoral records — 31 July 2026
+
+- Reviewed ten related profiles: AltarDesk, Aurnet, Avodah, ChurchBase,
+  ChurchOS, The Digital Church Platform, HCOMS Diocese Management System,
+  Parish Safeguarding Dashboard, ShepherdCare and Tes MyConcern.
+- The descriptions now state the church task directly and spell out Disclosure
+  and Barring Service (DBS) on first use. They retain the distinction between
+  administrative tools and safeguarding, governance or compliance decisions.
+  Product facts, sources, dates and supplier questions are unchanged.
+
+## Plain-language catalogue batch: church communications — 31 July 2026
+
+- Reviewed eleven profiles for church messages, apps and connected records: B1
+  Church, Beacon CRM, Chancel, Churchable, ChurchLinker, Clearstream, Faith
+  Teams, FaithFood TV, Flocknote, Hubb.Church and TheFaithApp.
+- Descriptions now lead with messages and member tasks, and expand specialist
+  terms such as artificial intelligence (AI) and near-field communication
+  (NFC). Product facts, sources, dates and supplier questions are unchanged.
+
+## Plain-language catalogue batch: accounting and Gift Aid — 31 July 2026
+
+- Reviewed ten finance-related profiles: Aedon.Charities, Aplos,
+  CharityFinancials, Free Gift Aid eClaim, Fund Filer, GiftAider, Liberty
+  Accounts, MyFundAccounting.Online, Omega Church and Paxton Church & Charity
+  Accounting Software.
+- Descriptions now explain fund accounting, the Statement of Recommended
+  Practice (SORP), community amateur sports clubs (CASCs) and the Gift Aid Small
+  Donations Scheme (GASDS) in context. Product facts, sources, dates and
+  supplier questions are unchanged.
+
+## Plain-language catalogue batch: streaming and Bible study — 31 July 2026
+
+- Reviewed ten profiles for livestreaming, sermon media and Bible study:
+  BoxCast, Catholic Live Streaming, Church Streaming by Litenet, Common Worship
+  Lectionary, MCN Media, Resi, SermonAudio, StreamingChurch.tv, STEP Bible and
+  VerseAir.
+- Descriptions now lead with the church task and explain specialised wording,
+  including the lectionary and multi-site broadcasting. Product facts, sources,
+  dates and supplier questions are unchanged.
+
+## Plain-language catalogue batch: ministry and church administration — 31 July 2026
+
+- Reviewed fifteen profiles for children’s work, church administration and
+  volunteer coordination: ChMeetings, Energize, Guardians of Ancora, Hymnal
+  Plus, iKnow Church, KidCheck, KidsCheckin.com, Klemi, Logos for Church,
+  MinistryPlatform, One Church Software, OnNuma, Plinth, RaiseUp Faith and
+  Realm.
+- Descriptions now use task-based wording and explain Disclosure and Barring
+  Service (DBS) tracking in context. Product facts, sources, dates and supplier
+  questions are unchanged.
+
+## Plain-language catalogue batch: final profiles — 31 July 2026
+
+- Reviewed the remaining twelve profiles: Navaro, Rock RMS, Simply Halls,
+  Subsplash, Tersia, The Church Organiser, Ticket Tailor, Tithely, TruthVine,
+  TryBooking, Vanco and Websites4Christians.
+- This completes the controlled 147-profile catalogue pass. Descriptions now
+  put the reader task first and expand Community Interest Company (CIC) in
+  context. Product facts, sources, dates and supplier questions are unchanged.
+
+## Plain-language category pass — 31 July 2026
+
+- Completed the 17-category review. Each category now starts with the church
+  task in familiar language while keeping finance, safeguarding, ownership and
+  operational limits clear.
+- The pass covers the earlier church-management, accounting, online-giving and
+  safeguarding work plus the remaining 13 category introductions.
+
+## Plain-language charity-offer pass — 31 July 2026
+
+- Reviewed all 19 charity-offer records and their shared register page. The
+  records already put the benefit, eligibility status, caveat and first check
+  in short reader-facing form; no offer facts were changed.
+- The register now leads with the action a church should take, makes the
+  difference between a charity route and guaranteed eligibility explicit, and
+  uses clearer labels for current offers, filters and exclusions.
+
+## Plain-language supporting pages — 31 July 2026
+
+- The About, Methodology, Privacy and Affiliate disclosure pages now explain
+  evidence, unanswered questions, cookies, supplier links and commercial limits
+  in more direct language.
+- Formal terms remain where a reader may need to recognise them. The changes do
+  not add legal, privacy, financial or compliance claims.
+
+## Plain-language category batch: church tasks — 31 July 2026
+
+- Reviewed the church-management, church-accounting, online-giving and
+  safeguarding category pages. They now explain the reader task before using
+  terms such as reconciliation, role-based access, audit history and fund
+  accounting.
+- The finance and safeguarding limits remain explicit: software does not
+  replace financial controls, valid Gift Aid declarations, an immediate
+  safeguarding response, professional advice or church procedures.
+
+## Plain-language guide batch: online giving — 31 July 2026
+
+- Reviewed the online-giving buyers' guide and the Gift Aid explainer. Both
+  now explain the church task and financial process before using terms such as
+  reconciliation, settlement, control path and restricted finance role.
+- The changes retain all supplier examples, official sources, scope limits and
+  non-advice notices. The guides' `updated` dates now record the substantive
+  editorial review.
+
+- Representative-reader validation has been waived by the maintainer for this
+  rollout. The associated 85% task-completion target is therefore not claimed.
+
+## Plain-language guide library pass — 31 July 2026
+
+- Completed the remaining 24 guides, bringing the full 27-guide library through
+  the review. Each guide now leads with the church task, uses shorter early
+  explanations and keeps formal terms only where they help readers speak to a
+  supplier, trustee or adviser.
+- The pass did not change the guides' evidence, supplier examples, cited
+  sources, scope limits or non-advice notices. Each reviewed guide now carries
+  an updated date of 31 July 2026, and `npm run check:guides` continues to
+  validate all 27 guides against the guide standard.
+
+## Plain-language rollout completion — 31 July 2026
+
+- Completed the planned main-journey, 147-profile, 17-category, 19-offer,
+  supporting-page and 27-guide passes. The local route report remains a
+  warning backlog, rather than a public score or blocking release gate, because
+  it cannot judge necessary source-backed, safeguarding or legal context.
+- Reader validation was explicitly waived by the maintainer. The rollout does
+  not claim its proposed task-completion result; ongoing maintenance should use
+  the report, editorial review and the existing automated checks.
+
 ## Decision-evidence taxonomy — 31 July 2026
 
 - The 20 procurement fields used by profiles, comparisons, shortlist questions

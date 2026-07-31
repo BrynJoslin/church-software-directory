@@ -48,17 +48,17 @@ const comparisonStartingPoints = [
   <section class="section page-hero page-hero--tool">
     <div class="container page-hero__grid">
       <div class="page-hero__intro">
-        <p class="eyebrow">Due diligence comparison</p>
+        <p class="eyebrow">Checks before you choose</p>
         <h1>Compare church software</h1>
         <p>
-          Choose two to four products. The comparison separates material differences,
-          shared evidence and practical questions to settle before choosing.
+          Choose two to four products. See important differences, what the sources say,
+          and the questions to ask before you choose.
         </p>
       </div>
       <ul class="tool-principles" aria-label="How comparisons work">
         <li><strong>Two to four products</strong><span>saved in a shareable URL</span></li>
-        <li><strong>Field-level evidence</strong><span>rather than an overall score</span></li>
-        <li><strong>Unresolved details</strong><span>become supplier questions</span></li>
+        <li><strong>Details checked one by one</strong><span>rather than an overall score</span></li>
+        <li><strong>Missing details</strong><span>become questions for the supplier</span></li>
       </ul>
     </div>
   </section>
@@ -120,8 +120,8 @@ const comparisonStartingPoints = [
         comparisonStartingPoints.length > 0 && (
           <section class="comparison-starting-points" aria-labelledby="comparison-starting-points-heading">
             <p class="eyebrow">Comparison starting points</p>
-            <h2 id="comparison-starting-points-heading">Start with a factual side-by-side check</h2>
-            <p class="measure">These pairs have enough structured evidence to open a comparison. They are not endorsements, rankings or claims that the products are interchangeable.</p>
+            <h2 id="comparison-starting-points-heading">Start with a side-by-side check</h2>
+            <p class="measure">These pairs have enough recorded details to compare. They are not endorsements, rankings or claims that the products are interchangeable.</p>
             <ul>
               {comparisonStartingPoints.map(({ first, second }) => (
                 <li><a href="/compare/" data-comparison-products={`${first.data.slug},${second.data.slug}`} data-analytics-event="comparison_starting_point">Compare {first.data.name} and {second.data.name}</a></li>
@@ -148,7 +148,7 @@ const comparisonStartingPoints = [
 
       <div class="table-scroll" data-comparison-table hidden>
         <table class="comparison-table">
-          <caption>Field-level evidence for the selected products. Scroll horizontally on a small screen.</caption>
+          <caption>Recorded details for the selected products. Scroll horizontally on a small screen.</caption>
           <thead>
             <tr>
               <th scope="col">Decision field</th>

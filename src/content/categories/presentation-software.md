@@ -1,7 +1,7 @@
 ---
 name: Presentation software
 slug: presentation-software
-shortDescription: Software for displaying songs, Bible verses, notices, media and service content during church gatherings.
+shortDescription: Software for showing songs, Bible verses, notices, media and service content during church gatherings.
 ownerRoles:
   - Worship leader
   - Production or AV lead

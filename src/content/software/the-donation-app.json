@@ -1,7 +1,7 @@
 {
   "name": "The Donation App",
   "slug": "the-donation-app",
-  "shortDescription": "A UK charity donation and Gift Aid platform from Abacus Apps, covering online giving, card and e-wallet payments, bank transfers, cash records, CSV imports, GASDS and automated HMRC claims.",
+  "shortDescription": "A UK donation and Gift Aid service from Abacus Apps. It covers online giving, cards and digital wallets, bank transfers, cash records, CSV imports, the Gift Aid Small Donations Scheme (GASDS) and automated HMRC claims.",
   "officialWebsite": "https://www.thedonationapp.com/",
   "company": "Abacus Apps Limited",
   "countryOfOrigin": "United Kingdom",

@@ -1,7 +1,7 @@
 {
   "name": "ChurchSuite",
   "slug": "churchsuite",
-  "shortDescription": "A UK-based modular church management platform for contacts, children, rotas, groups, events, giving, bookings, communications and multi-site administration.",
+  "shortDescription": "A UK church management system for people, children, rotas, groups, events, giving, bookings and communications.",
   "officialWebsite": "https://churchsuite.com/",
   "company": "ChurchSuite Ltd",
   "countryOfOrigin": "United Kingdom",
@@ -179,7 +179,7 @@
     }
   },
   "editorial": {
-    "assessment": "ChurchSuite is a broad UK-focused platform for churches willing to establish shared records and workflows across people, rotas, children, events and giving. Its published UK functionality is unusually well documented, but a church should test adoption, sensitive-record access, complete data exit and the precise scope of safeguarding and denominational workflows before relying on it.",
+    "assessment": "ChurchSuite brings people, rotas, children, events and giving into one UK-focused system. Its published UK features are well documented. Before relying on it, test whether people will use it, who can see sensitive records, how to take a complete copy of your data, and whether it covers your safeguarding and denominational needs.",
     "bestFor": [
       "Small and medium UK churches with an identified administrator or systems owner",
       "Independent churches that want people, groups, rotas, events, children, communications and giving in one system",
@@ -203,9 +203,9 @@
       "Payment-processing fees apply in addition to the ChurchSuite subscription"
     ],
     "procurementVerdict": {
-      "problem": "A church needs one shared system for people data and connected operational workflows, rather than separate lists, rotas, registrations and giving records.",
+      "problem": "A church needs one shared place for people records, rotas, registrations and giving, instead of separate lists.",
       "differentiator": "The documented UK combination of modular pricing, Gift Aid, GoCardless donations, UK hosting, children’s check-in and multi-site administration.",
-      "firstCheck": "Run one real workflow with ordinary volunteers and test who can access sensitive records, what exports are available and what the complete cost will be at the church's contact band."
+      "firstCheck": "Try one real task with ordinary volunteers. Check who can see sensitive records, what data you can download, and the total cost for your contact band."
     }
   },
   "longForm": {

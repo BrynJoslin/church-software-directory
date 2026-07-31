@@ -1,7 +1,7 @@
 ---
 name: Church mobile apps
 slug: church-mobile-apps
-shortDescription: Platforms and services for churches that need a branded member-facing mobile app for messages, media, events, notices or internal team use.
+shortDescription: Services for churches that need a branded app for members, with messages, media, events, notices or internal team use.
 ownerRoles:
   - Communications lead
   - Church administrator

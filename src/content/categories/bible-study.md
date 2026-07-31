@@ -1,7 +1,7 @@
 ---
 name: Bible study and research
 slug: bible-study
-shortDescription: Software for deeper biblical research, sermon preparation, teaching and discipleship, including searchable libraries and study workflows.
+shortDescription: Software for deeper biblical research, sermon preparation, teaching and discipleship, including searchable libraries and study tools.
 ownerRoles:
   - Pastor or minister
   - Preacher or Bible-study leader
@@ -20,8 +20,8 @@ seo:
   description: Explore Bible study and research software for preaching, teaching and discipleship, with practical questions for UK churches and ministry teams.
 ---
 
-Bible study software brings biblical texts, reference works, search tools and
-study workflows into one place. It can shorten the time spent locating material,
+Bible study software puts biblical texts, reference works and search tools in
+one place. It can shorten the time spent locating material,
 but it cannot decide what a passage means or replace prayerful, accountable
 interpretation.
 

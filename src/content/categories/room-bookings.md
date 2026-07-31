@@ -1,7 +1,7 @@
 ---
 name: Room and venue bookings
 slug: room-bookings
-shortDescription: Tools for publishing availability, taking hall and room bookings, invoicing hirers and coordinating access to church spaces.
+shortDescription: Tools for showing availability, taking hall and room bookings, invoicing hirers and coordinating access to church spaces.
 ownerRoles:
   - Church administrator
   - Buildings or facilities manager

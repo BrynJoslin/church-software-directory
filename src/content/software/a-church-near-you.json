@@ -91,7 +91,7 @@
     }
   },
   "editorial": {
-    "assessment": "A Church Near You is a Church of England-specific public-web and discovery service rather than a general church-management database. It is a serious no-cost option for a parish that needs a maintained, editable public presence without commissioning a separate site, and can sit alongside The Church Organiser for particular parish workflows. Its denomination-specific eligibility and shared-platform model mean it will not suit every UK church or every brand, design, content-export or integration requirement.",
+    "assessment": "A Church Near You is a Church of England website and discovery service, not a general church database. It is a no-cost option for a parish that needs an editable public presence without commissioning a separate site. It will not suit every UK church or every need for branding, design, content downloads or connections to other systems.",
     "bestFor": [
       "Church of England parishes that need a free public website or an improved church listing",
       "Benefices maintaining shared and individual church information",

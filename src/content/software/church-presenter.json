@@ -1,7 +1,7 @@
 {
   "name": "Church Presenter",
   "slug": "church-presenter",
-  "shortDescription": "A free, GPL-licensed worship presentation application with Bible and song tools, media, service plans, multi-screen output and mobile control.",
+  "shortDescription": "Free, open-source worship display software (licensed under GPL). It supports Bible and song content, media, service plans, several screens and mobile control.",
   "officialWebsite": "https://churchpresenter.org/",
   "company": "Church Presenter open-source project",
   "ukFocus": "general",

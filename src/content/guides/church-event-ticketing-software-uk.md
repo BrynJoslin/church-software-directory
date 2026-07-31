@@ -3,9 +3,9 @@ title: "Church event ticketing and registration software in the UK"
 slug: church-event-ticketing-software-uk
 guideType: buyers-guide
 standardVersion: "1.0"
-summary: "Choose church event ticketing or registration software by testing free and paid journeys, capacity, refunds, check-in, attendee data and finance reconciliation."
+summary: "Choose church event registration or ticketing software by testing the full journey: sign-up, capacity, payment, refunds, check-in and finance handover."
 published: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 relatedCategories:
   - events-ticketing
   - church-management
@@ -26,11 +26,13 @@ seo:
 
 ## Quick answer
 
-Use registration software for an event that needs a clear attendee list, capacity or useful pre-event information. Use paid ticketing when the church also needs to collect money, state fees, issue confirmations, manage refunds and reconcile income. Do not choose a paid platform merely because it looks professional: a simple free sign-up may be better for a low-risk internal event, while a larger public event needs a demonstrable payment, refund and finance workflow. The meaningful test is the full attendee journey from invitation to check-in and final reconciliation, not the ticket-page design.
+Use registration software when an event needs a clear attendee list, capacity or useful information before it begins. Use paid ticketing when the church must collect money, state fees, issue confirmations, manage refunds and reconcile income. A simple free sign-up may suit a low-risk internal event. A larger public event needs a tested payment, refund and finance process. Test the full attendee journey, not the ticket-page design.
 
 Be clear about whether the event is free, donation-based, paid, pay-on-arrival or has subsidised places. Each model changes the questions about attendee data, cancellation, finance ownership and communication. A booking confirmation is not a substitute for agreed event terms or a named organiser.
 
-## Choose registration or ticketing from the event model
+Agree the terms before the event goes live, and make the contact route clear for people who need help to register, pay or cancel. Keep the published explanation short enough for a prospective attendee to understand before they commit.
+
+## Match the tool to the event
 
 Start with the event's actual decision: headcount only, attendance confirmation, paid entry, multiple ticket types, a waiting list, dietary/accessibility needs, children or family groups, workshops, or an on-door payment. State the capacity owner, cancellation route and the person responsible for the money before opening registrations.
 

@@ -1,7 +1,7 @@
 {
   "name": "Bookwhen",
   "slug": "bookwhen",
-  "shortDescription": "A UK online booking system for events, classes and courses, with capacity management, passes, memberships, payments and attendee communication.",
+  "shortDescription": "A UK online booking system for events, classes and courses. It can manage places, passes, memberships, payments and messages to attendees.",
   "officialWebsite": "https://bookwhen.com/",
   "company": "Bookwhen",
   "countryOfOrigin": "United Kingdom",

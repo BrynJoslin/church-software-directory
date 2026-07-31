@@ -1,7 +1,7 @@
 {
   "name": "Donation Station",
   "slug": "donation-station",
-  "shortDescription": "A UK contactless-donation kiosk app that uses a church's own tablet, SumUp reader and merchant account for card giving.",
+  "shortDescription": "A UK app for taking contactless donations on a church-owned tablet. It uses a SumUp reader and the church's own merchant account for card giving.",
   "officialWebsite": "https://donationstation.co.uk/",
   "company": "Donation Station Ltd",
   "countryOfOrigin": "United Kingdom",

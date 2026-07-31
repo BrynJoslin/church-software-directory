@@ -1,7 +1,7 @@
 {
   "name": "Rock RMS",
   "slug": "rock-rms",
-  "shortDescription": "An open-source church-management system supported by Spark Development Network, with self-hosted and partner cloud-hosting routes.",
+  "shortDescription": "An open-source church system supported by Spark Development Network. It can be hosted by the church or through a partner cloud provider.",
   "officialWebsite": "https://www.rockrms.com/",
   "company": "Spark Development Network",
   "ukFocus": "general",

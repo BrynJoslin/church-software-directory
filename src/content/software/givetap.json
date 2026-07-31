@@ -1,7 +1,7 @@
 {
   "name": "GiveTap",
   "slug": "givetap",
-  "shortDescription": "A UK fundraising platform for online, QR/NFC, contactless terminal and tap-to-pay donations, with donation pages, reporting and supplier-described Gift Aid configuration.",
+  "shortDescription": "A UK service for online and contactless donations, including QR-code, card-terminal and tap-to-pay options. It has donation pages, reports and supplier-described Gift Aid settings.",
   "officialWebsite": "https://givetap.co.uk/",
   "company": "GiveTap Limited (company number 12166824)",
   "countryOfOrigin": "United Kingdom",

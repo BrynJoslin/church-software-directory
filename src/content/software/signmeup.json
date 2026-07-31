@@ -1,7 +1,7 @@
 {
   "name": "SignMeUp",
   "slug": "signmeup",
-  "shortDescription": "A UK charity-operated registration platform for children's events, covering attendee and volunteer applications, tickets, check-in, communications and event-specific DBS administration.",
+  "shortDescription": "A UK charity-run service for registering children’s events. It covers attendee and volunteer applications, tickets, check-in, messages and event-specific Disclosure and Barring Service (DBS) administration.",
   "officialWebsite": "https://www.signmeup.org.uk/",
   "company": "The Software Charity (charity number 1199034)",
   "countryOfOrigin": "United Kingdom",

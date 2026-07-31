@@ -38,11 +38,11 @@ const itemListJsonLd = {
         <p class="eyebrow">{directoryStats.listingCount} researched profiles</p>
         <h1>Church software directory</h1>
         <p>
-          Search supplier-sourced facts and independent directory assessments.
-          Details without useful evidence are omitted from cards.
+          Browse what suppliers publish and what this directory has checked.
+          Cards leave out details when there is not enough evidence to show them responsibly.
         </p>
       </div>
-      <dl class="page-hero__facts" aria-label="Directory evidence">
+      <dl class="page-hero__facts" aria-label="Directory at a glance">
         <div>
           <dt>Profiles</dt>
           <dd>{directoryStats.listingCount}</dd>
@@ -130,10 +130,10 @@ const itemListJsonLd = {
               </select>
             </div>
             <div class="form-field">
-              <label for="gift-aid">Gift Aid workflow</label>
+              <label for="gift-aid">Gift Aid process</label>
               <select id="gift-aid" name="gift-aid">
                 <option value="">Any status</option>
-                <option value="yes">Supplier publishes a Gift Aid workflow</option>
+                <option value="yes">Supplier describes a Gift Aid process</option>
                 <option value="no">Supplier states it is unavailable</option>
               </select>
             </div>
@@ -189,8 +189,8 @@ const itemListJsonLd = {
           <div class="empty-state" data-empty-state hidden>
             <h2>No software matches those filters</h2>
             <p>
-              Try removing one or more filters. A profile only matches a factual
-              filter when the directory has supporting evidence for that value.
+              Try removing one or more filters. A profile only appears for a
+              filter when the directory has evidence for that detail.
             </p>
             <button class="button--secondary" type="button" data-empty-clear data-analytics-event="directory_clear_filters">
               Clear all filters

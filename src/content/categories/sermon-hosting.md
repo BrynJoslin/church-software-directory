@@ -1,7 +1,7 @@
 ---
 name: Sermon hosting
 slug: sermon-hosting
-shortDescription: Services that publish, organise, stream or distribute church sermons as audio, video, podcasts and searchable archives.
+shortDescription: Services that publish, organise, stream or share church sermons as audio, video, podcasts and searchable archives.
 ownerRoles:
   - Church communications lead
   - Worship or production lead
