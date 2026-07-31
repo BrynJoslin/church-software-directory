@@ -116,7 +116,7 @@ test("decision pack remains a printable, static output", async () => {
   assert.match(source, /Four-week trial plan/);
   assert.match(source, /Trustee or elder decision summary/);
   assert.match(source, /Answer another question/);
-  assert.match(source, /Every answer shown will reduce/);
+  assert.match(source, /at least one answer leaves a smaller list/);
 });
 
 test("shortlist URL loading validates every answer against the current count", async () => {
