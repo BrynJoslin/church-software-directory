@@ -74,7 +74,8 @@
     "Supplier offers a chat-booking route",
     "Co-Creator plan includes direct founder support"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Churchable's licence terms identify Prompt Miner Ltd, trading as Churchable, as a company registered in England and Wales (15577817).",
       "state": "supplier-published",

@@ -1,6 +1,7 @@
 import { defineCollection, reference } from "astro:content";
 import { glob } from "astro/loaders";
 import { z } from "astro/zod";
+import { decisionFieldKeys } from "./config/decision-fields.ts";
 
 const triState = z.enum(["yes", "no", "unknown"]);
 const churchSize = z.enum(["small", "medium", "large", "multi-site"]);
@@ -26,6 +27,10 @@ const decisionEvidence = z.object({
   checked: z.coerce.date().optional(),
   note: z.string().min(1).optional()
 });
+const decisionFieldKey = z.enum(decisionFieldKeys);
+const supplementaryEvidenceKey = z
+  .string()
+  .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
 const sourceSchema = z.object({
   label: z.string().min(1),
   url: z.url(),
@@ -160,7 +165,12 @@ const software = defineCollection({
     integrations: z.array(z.string().min(1)).default([]),
     importExport: z.array(z.string().min(1)).default([]),
     support: z.array(z.string().min(1)).default([]),
-    decisionEvidence: z.record(z.string(), decisionEvidence).default({}),
+    decisionEvidence: z
+      .partialRecord(decisionFieldKey, decisionEvidence)
+      .default({}),
+    supplementaryEvidence: z
+      .record(supplementaryEvidenceKey, decisionEvidence)
+      .default({}),
     brandAssets: z
       .object({
         logo: z.object({

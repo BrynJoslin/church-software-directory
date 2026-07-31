@@ -75,7 +75,8 @@
     "Supplier says backups and cloud hosting are included",
     "Beta registration-of-interest route is published"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Churchee identifies Treefish Ltd in its footer. Companies House identifies Treefish Ltd, company 16400717, with a Caerphilly registered office.",
       "state": "supplier-published",

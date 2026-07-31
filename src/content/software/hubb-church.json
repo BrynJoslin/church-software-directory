@@ -59,7 +59,8 @@
   "support": [
     "Published supplier support telephone and email"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Hubb Digital Limited is an active UK company; it was previously named Endis Limited, the entity identified in a public Hubb.Church service-terms notice.",
       "state": "independent-source",

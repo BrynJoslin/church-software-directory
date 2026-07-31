@@ -82,6 +82,14 @@
       "source": "https://www.churchbox.co.uk/pricing",
       "checked": "2026-07-25"
     },
+    "migration": {
+      "value": "Spreadsheet import and several exports are described, but this profile has not established full-record migration, exit export formats, timetable or assistance.",
+      "state": "needs-refresh",
+      "source": "https://www.churchbox.co.uk/pricing",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "data-protection-roles": {
       "value": "ChurchBox describes the church as controller and itself as processor for data held in the service, and says a data-processing agreement is made available to customers.",
       "state": "supplier-published",
@@ -92,12 +100,6 @@
       "value": "ChurchBox describes a managed cloud service, but this profile has not established its hosting location, provider, sub-processors, recovery arrangements or service levels.",
       "state": "needs-refresh",
       "source": "https://www.churchbox.co.uk/",
-      "checked": "2026-07-25"
-    },
-    "migration": {
-      "value": "Spreadsheet import and several exports are described, but this profile has not established full-record migration, exit export formats, timetable or assistance.",
-      "state": "needs-refresh",
-      "source": "https://www.churchbox.co.uk/pricing",
       "checked": "2026-07-25"
     }
   },

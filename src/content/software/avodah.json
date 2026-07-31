@@ -69,7 +69,8 @@
     "Email support on the published Starter plan",
     "Priority support on the published Growth plan"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-location": {
       "value": "The supplier privacy notice identifies Avodah Software at an address in Newcastle upon Tyne, United Kingdom.",
       "state": "supplier-published",

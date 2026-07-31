@@ -43,7 +43,8 @@
     "Access and first-line support through participating diocesan safeguarding teams",
     "Supplier contact"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "church-of-england-scope": {
       "value": "Supplier states that the Dashboard was developed by Clearly Simpler for use within the Church of England.",
       "state": "supplier-published",

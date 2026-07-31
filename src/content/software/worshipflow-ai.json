@@ -77,7 +77,8 @@
     "Live-demo route",
     "Premium plan describes dedicated support and a 24-hour response target"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "The supplier's terms and privacy material identify Chris Renshaw as a UK sole trader operating WorshipFlow AI.",
       "state": "supplier-published",

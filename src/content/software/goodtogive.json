@@ -54,6 +54,14 @@
     "Online support and FAQ material"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Published terms describe GoodtoGive as processor for personal information processed on a charity's behalf and link to privacy information.",
+      "state": "supplier-published",
+      "source": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "hmrc-claiming": {
       "value": "Good to Give Limited is included in HMRC's current commercial-supplier list for GoodtoGive Gift Aid Maximisation.",
       "state": "independent-source",
@@ -65,12 +73,6 @@
       "state": "supplier-published",
       "source": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
       "checked": "2026-07-26"
-    },
-    "data-processing": {
-      "value": "Published terms describe GoodtoGive as processor for personal information processed on a charity's behalf and link to privacy information.",
-      "state": "supplier-published",
-      "source": "https://www.goodtogive.co.uk/our-story/terms-conditions/",
-      "checked": "2026-07-25"
     }
   },
   "editorial": {

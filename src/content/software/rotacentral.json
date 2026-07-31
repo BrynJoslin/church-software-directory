@@ -83,7 +83,8 @@
     "Supplier offers a free trial route",
     "Website describes premium support but does not publish a support-hours commitment on the reviewed pages"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "The supplier's privacy notice identifies RotaCentral Limited as a company registered in England and Wales. Companies House records RotaCentral Limited (10417157) as active.",
       "state": "supplier-published",

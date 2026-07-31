@@ -71,7 +71,8 @@
     "Published sales and support hours are Monday to Friday, 09:00–18:00",
     "Confirm implementation, incident and weekend-support arrangements before purchase"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Bookteq’s privacy notice identifies My Local Pitch Limited, company number 08427059, as the legal entity that owns and operates the online booking system.",
       "state": "supplier-published",

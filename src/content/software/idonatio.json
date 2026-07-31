@@ -58,6 +58,14 @@
     "Supplier contact and demo route"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Supplier publishes privacy policy material covering donor data, Gift Aid data sharing and stated retention periods.",
+      "state": "supplier-published",
+      "source": "https://www.idonatio.com/donor-privacy-policy",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "hmrc-claiming": {
       "value": "iDonatio UK Ltd is included in HMRC's current commercial-supplier list for iGACOS.",
       "state": "independent-source",
@@ -68,12 +76,6 @@
       "value": "Supplier publishes a 5.75% + £0.30 transaction fee and free organisation registration.",
       "state": "supplier-published",
       "source": "https://www.idonatio.com/pricing",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Supplier publishes privacy policy material covering donor data, Gift Aid data sharing and stated retention periods.",
-      "state": "supplier-published",
-      "source": "https://www.idonatio.com/donor-privacy-policy",
       "checked": "2026-07-25"
     }
   },

@@ -72,7 +72,8 @@
     "UK supplier contact, information-pack and enquiry routes are published",
     "Training, warranty, installation, repair, software-update and on-site-support terms should be agreed in writing"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records Hymn Technology Ltd, number 03149968, as an active England-and-Wales company incorporated in 1996.",
       "state": "independent-source",

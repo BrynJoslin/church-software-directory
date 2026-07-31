@@ -61,18 +61,6 @@
       "source": "https://find-and-update.company-information.service.gov.uk/company/17059524",
       "checked": "2026-07-25"
     },
-    "live-mobile-app": {
-      "value": "The App Store lists Levites as a church communication and rota app developed by Levites Tech Ltd, with version 1.0.10 released in July 2026.",
-      "state": "independent-source",
-      "source": "https://apps.apple.com/us/app/levites/id6758666266",
-      "checked": "2026-07-25"
-    },
-    "pricing": {
-      "value": "The supplier says there are free and paid workspace options, while App Store purchases are currently displayed in USD; current UK plan scope and terms are not established in this profile.",
-      "state": "needs-refresh",
-      "source": "https://apps.apple.com/us/app/levites/id6758666266",
-      "checked": "2026-07-25"
-    },
     "data-processing": {
       "value": "A church-facing data-processing agreement, hosting detail, sub-processor list and retention terms are not available in the reviewed public material.",
       "state": "needs-refresh",
@@ -83,6 +71,20 @@
       "value": "Import, export and exit-data arrangements are not available in the reviewed public material.",
       "state": "needs-refresh",
       "source": "https://www.levites.app/",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
+    "live-mobile-app": {
+      "value": "The App Store lists Levites as a church communication and rota app developed by Levites Tech Ltd, with version 1.0.10 released in July 2026.",
+      "state": "independent-source",
+      "source": "https://apps.apple.com/us/app/levites/id6758666266",
+      "checked": "2026-07-25"
+    },
+    "pricing": {
+      "value": "The supplier says there are free and paid workspace options, while App Store purchases are currently displayed in USD; current UK plan scope and terms are not established in this profile.",
+      "state": "needs-refresh",
+      "source": "https://apps.apple.com/us/app/levites/id6758666266",
       "checked": "2026-07-25"
     }
   },

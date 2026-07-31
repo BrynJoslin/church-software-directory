@@ -59,7 +59,8 @@
     "Published support email and Northern Ireland contact details",
     "Confirm support hours, incident response, installation and live-event cover in the agreement"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "MCN’s terms identify Service Stream Ltd, trading as MCN Media, as the operator. Companies House lists Service Stream Ltd, number NI694018, as an active Northern Ireland company.",
       "state": "supplier-published",

@@ -19,6 +19,23 @@ profiles, 17 categories, 27 guides and 549 recorded source references. Older
 counts in the historical notes below describe earlier repository states; they
 are not the current public total.
 
+## Decision-evidence taxonomy — 31 July 2026
+
+- The 20 procurement fields used by profiles, comparisons, shortlist questions
+  and the public export now have one canonical definition module containing
+  their keys, labels, supplier questions and source-discovery hints.
+- Schema validation no longer accepts arbitrary `decisionEvidence` keys.
+  Existing product-specific sourced facts are preserved under
+  `supplementaryEvidence`; they do not silently become comparable facts or enter
+  the public export.
+- The migration retained all 389 existing evidence records: 135 are canonical
+  decision facts, including two unambiguous legacy aliases, and 254 remain
+  supplementary. No supplier claim was rewritten or inferred by the migration.
+- The local maintenance dashboard now reports canonical coverage by field and
+  retains the supplementary count, creating a reproducible research-priority
+  view without an overall product score or a requirement to fill inapplicable
+  fields.
+
 ## Doorway visual-engagement rollout — 29 July 2026
 
 - Lessons from the standalone homepage prototype are now expressed as shared

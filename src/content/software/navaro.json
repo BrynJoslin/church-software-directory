@@ -80,7 +80,9 @@
       "state": "supplier-published",
       "source": "https://navaro.uk/privacy-policy",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "charity-pricing": {
       "value": "Supplier advertises a 25% charity discount.",
       "state": "supplier-published",

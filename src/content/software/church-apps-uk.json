@@ -84,7 +84,9 @@
       "state": "supplier-published",
       "source": "https://www.churchapps.uk/terms-of-use/",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "published-pricing": {
       "value": "Supplier publishes GBP setup fees and recurring monthly or annual app plans.",
       "state": "supplier-published",

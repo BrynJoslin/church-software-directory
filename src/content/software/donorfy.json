@@ -71,6 +71,14 @@
     "Confirm support hours, response commitments and migration scope"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Supplier publishes terms that incorporate a data-processing agreement and privacy notice, plus separate data-protection and security material.",
+      "state": "supplier-published",
+      "source": "https://donorfy.com/termsandconditions?hsLang=en",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records DONORFY LIMITED (08922148), and the company's filing history records Access UK Ltd as its person with significant control from November 2024.",
       "state": "independent-source",
@@ -87,12 +95,6 @@
       "value": "Supplier documents constituent-volume pricing, Gift Aid HMRC integration, payment options, implementation packages and standard integrations.",
       "state": "supplier-published",
       "source": "https://donorfy.com/pricing",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Supplier publishes terms that incorporate a data-processing agreement and privacy notice, plus separate data-protection and security material.",
-      "state": "supplier-published",
-      "source": "https://donorfy.com/termsandconditions?hsLang=en",
       "checked": "2026-07-25"
     }
   },

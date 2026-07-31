@@ -80,7 +80,8 @@
     "Supplier describes implementation as typically within one VAT quarter",
     "Confirm included implementation, support hours, response commitments and training scope"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records AEDON.CO LIMITED (14278135) as an active English private limited company, and the supplier privacy policy identifies it as the site operator.",
       "state": "independent-source",

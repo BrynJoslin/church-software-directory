@@ -80,6 +80,14 @@
     "Supplier offers a demo and migration assistance"
   ],
   "decisionEvidence": {
+    "gbp-pricing": {
+      "value": "Supplier publishes monthly GBP plans at £9, £19 and £39, with a 14-day free trial.",
+      "state": "supplier-published",
+      "source": "https://www.sharerota.com/pricing",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "ShareRota identifies itself as a product of Soft Creative Ltd, London, and publishes a London contact location and UK telephone number.",
       "state": "supplier-published",
@@ -90,12 +98,6 @@
       "value": "Supplier has a church-specific page covering worship, welcome, media, youth and prayer rotas, reminders, swaps and leader oversight.",
       "state": "supplier-published",
       "source": "https://www.sharerota.com/use-cases/churches",
-      "checked": "2026-07-25"
-    },
-    "gbp-pricing": {
-      "value": "Supplier publishes monthly GBP plans at £9, £19 and £39, with a 14-day free trial.",
-      "state": "supplier-published",
-      "source": "https://www.sharerota.com/pricing",
       "checked": "2026-07-25"
     }
   },

@@ -68,6 +68,14 @@
     "Supplier states support requests are completed within two business days, excluding weekends and holidays"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Supplier privacy notice describes personal-data handling and EEA server storage, but the reviewed material does not establish a current processor agreement, sub-processors, backup and recovery commitments or church-specific cookie terms.",
+      "state": "needs-refresh",
+      "source": "https://www.ukchurches.co.uk/privacy/",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operation": {
       "value": "UKChurches publishes a Bristol administrative address and describes itself as a subscription service for UK churches and Christian ministries.",
       "state": "supplier-published",
@@ -78,12 +86,6 @@
       "value": "Supplier publishes managed Starter and Plus website packages, including design, build, hosting and updates, with GBP prices.",
       "state": "supplier-published",
       "source": "https://www.ukchurches.co.uk/packages/",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Supplier privacy notice describes personal-data handling and EEA server storage, but the reviewed material does not establish a current processor agreement, sub-processors, backup and recovery commitments or church-specific cookie terms.",
-      "state": "needs-refresh",
-      "source": "https://www.ukchurches.co.uk/privacy/",
       "checked": "2026-07-25"
     },
     "supplier-identity": {

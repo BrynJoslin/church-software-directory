@@ -66,7 +66,8 @@
     "Supplier publishes email, telephone and London contact details",
     "Confirm service hours, incident response and safeguarding escalation process before use"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House lists Tersia Limited, number 16497836, as an active England-and-Wales company incorporated in June 2025. The product site gives a London contact location.",
       "state": "independent-source",

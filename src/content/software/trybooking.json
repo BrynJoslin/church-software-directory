@@ -71,6 +71,14 @@
     "Confirm coverage and incident escalation for a critical event before purchase"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "TryBooking publishes a UK GDPR data-processing addendum and a sub-processor page that names AWS infrastructure in London.",
+      "state": "supplier-published",
+      "source": "https://www.trybooking.com/uk/info/data-processing-addendum",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "TryBooking’s current website terms and event-organiser terms identify TryBooking UK Ltd, number 08559255, as the operator of the UK service.",
       "state": "supplier-published",
@@ -87,12 +95,6 @@
       "value": "Supplier publishes free-event access and its paid-event fees for TryBooking and Stripe-connected payment routes.",
       "state": "supplier-published",
       "source": "https://www.trybooking.com/uk/info/event-ticketing-platform",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "TryBooking publishes a UK GDPR data-processing addendum and a sub-processor page that names AWS infrastructure in London.",
-      "state": "supplier-published",
-      "source": "https://www.trybooking.com/uk/info/data-processing-addendum",
       "checked": "2026-07-25"
     }
   },

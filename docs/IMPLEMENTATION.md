@@ -345,8 +345,11 @@ Additional scripts are acceptable when clearly documented.
 `.internal/dashboard/`, outside Astro's `dist/` output. It reads existing
 software JSON and category/guide frontmatter; it is not a second content model,
 public route or deployment artifact. The report has a schema version, timestamp,
-counts, issues, completeness, freshness, taxonomy and source-health records;
-the queue CSV has stable maintenance fields.
+counts, issues, completeness, canonical decision-evidence coverage, freshness,
+taxonomy and source-health records; the queue CSV has stable maintenance
+fields. Decision-field definitions live in
+`src/config/decision-fields.ts` and are shared by schema validation, public
+export, profiles and the dashboard.
 
 Priority rules are explicit: invalid category references, duplicate identifiers
 and invalid official URLs are Critical; absent sources, stale or invalid dates

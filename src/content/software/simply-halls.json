@@ -62,6 +62,14 @@
     "Email and WhatsApp support contact published"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Supplier privacy policy states it acts as controller for bookings, payments and accounts, and processor for hall owners; it publishes six-year retention for booking and payment records.",
+      "state": "supplier-published",
+      "source": "https://host.simplyhalls.co.uk/privacy",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Simply Halls identifies GKR Solutions Limited, company number 09934200, as its registered-address company.",
       "state": "supplier-published",
@@ -78,12 +86,6 @@
       "value": "Supplier says hall owners pay no subscription or commission and customers usually pay a £2.25 booking fee.",
       "state": "supplier-published",
       "source": "https://host.simplyhalls.co.uk/",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Supplier privacy policy states it acts as controller for bookings, payments and accounts, and processor for hall owners; it publishes six-year retention for booking and payment records.",
-      "state": "supplier-published",
-      "source": "https://host.simplyhalls.co.uk/privacy",
       "checked": "2026-07-25"
     }
   },

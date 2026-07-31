@@ -52,7 +52,8 @@
   "support": [
     "Supplier describes support options for hardware and software plus fixed-rate remote engineering"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records Litenet Ltd, company number 11868036, as an active UK telecommunications company. The church-streaming site identifies Litenet Ltd as its operator.",
       "state": "supplier-published",

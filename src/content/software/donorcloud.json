@@ -85,16 +85,18 @@
       "source": "https://find-and-update.company-information.service.gov.uk/company/14932398",
       "checked": "2026-07-25"
     },
-    "pricing": {
-      "value": "Supplier publishes £0, £39 and £99 monthly plans with 2.5%, 1% and 0% platform fees respectively; Stripe transaction fees are separate.",
-      "state": "supplier-published",
-      "source": "https://www.donorcloud.co.uk/",
-      "checked": "2026-07-25"
-    },
     "gift-aid": {
       "value": "Supplier describes declaration capture and HMRC API submissions on paid plans; HMRC lists DonorCloud Limited as a Charities Online commercial-software supplier.",
       "state": "independent-source",
       "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
+    "pricing": {
+      "value": "Supplier publishes £0, £39 and £99 monthly plans with 2.5%, 1% and 0% platform fees respectively; Stripe transaction fees are separate.",
+      "state": "supplier-published",
+      "source": "https://www.donorcloud.co.uk/",
       "checked": "2026-07-25"
     },
     "data": {

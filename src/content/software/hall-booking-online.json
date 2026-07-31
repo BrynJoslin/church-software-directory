@@ -73,6 +73,14 @@
     "Online FAQ and documentation"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Supplier publishes an ICO registration number and says customer data is stored on UK/EU servers, but current controller/processor roles, sub-processors, retention and incident terms for venue data need supplier documentation.",
+      "state": "needs-refresh",
+      "source": "https://hallbookingonline.com/privacy/",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Hall Booking Online identifies itself as a trading name of Fen Street Designs Ltd, registered in England and Wales under number 14446544. Companies House lists that company as active and classified for software development.",
       "state": "supplier-published",
@@ -89,12 +97,6 @@
       "value": "Supplier publishes £10 per month plus VAT and a free, no-commitment trial.",
       "state": "supplier-published",
       "source": "https://hallbookingonline.com/",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Supplier publishes an ICO registration number and says customer data is stored on UK/EU servers, but current controller/processor roles, sub-processors, retention and incident terms for venue data need supplier documentation.",
-      "state": "needs-refresh",
-      "source": "https://hallbookingonline.com/privacy/",
       "checked": "2026-07-25"
     }
   },

@@ -86,6 +86,14 @@
     "Dedicated account manager on the published Network plan"
   ],
   "decisionEvidence": {
+    "gift-aid": {
+      "value": "Supplier describes Gift Aid declaration collection, eligible-giving tracking and R68 filing in its product and pricing material.",
+      "state": "supplier-published",
+      "source": "https://www.churchos.co.uk/pricing",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "ChurchOS identifies itself as a product of Lyrion Ltd, and Companies House records Lyrion Ltd as an active England-and-Wales company.",
       "state": "supplier-published",
@@ -94,12 +102,6 @@
     },
     "pricing": {
       "value": "Supplier publishes four monthly GBP plans from £29 to £249 and a 14-day free trial.",
-      "state": "supplier-published",
-      "source": "https://www.churchos.co.uk/pricing",
-      "checked": "2026-07-25"
-    },
-    "gift-aid": {
-      "value": "Supplier describes Gift Aid declaration collection, eligible-giving tracking and R68 filing in its product and pricing material.",
       "state": "supplier-published",
       "source": "https://www.churchos.co.uk/pricing",
       "checked": "2026-07-25"

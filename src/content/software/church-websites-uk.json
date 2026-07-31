@@ -74,7 +74,8 @@
     "Supplier advertises email, telephone and support-site support",
     "Supplier states support is included with the monthly subscription"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator-context": {
       "value": "The supplier describes ChurchWebsites UK as part of MediaWorkx Creative Digital, based in Coventry, United Kingdom, and publishes a Coventry contact address and UK telephone number.",
       "state": "supplier-published",

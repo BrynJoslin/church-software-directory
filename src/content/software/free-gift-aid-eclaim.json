@@ -53,7 +53,8 @@
     "Supplier advertises live demonstration support and FAQ support",
     "Confirm service hours, response commitments and onboarding scope"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records EFILE READY LIMITED (05600266) as an active UK private limited company, and the supplier's public contact page identifies its London office.",
       "state": "independent-source",

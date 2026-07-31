@@ -77,7 +77,8 @@
     "Supplier says support can be contacted any day of the year and promises a reply within 24 hours",
     "Annual subscription includes setup advice and new releases according to the published account page"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Three Rings identifies its operator as Three Rings CIC, company 06820837 registered in England and Wales; Companies House lists the active CIC in Witney.",
       "state": "supplier-published",

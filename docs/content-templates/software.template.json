@@ -37,6 +37,7 @@
       "checked": "YYYY-MM-DD"
     }
   },
+  "supplementaryEvidence": {},
   "brandAssets": {
     "logo": {
       "src": "/images/software/product-slug/product-logo.svg",

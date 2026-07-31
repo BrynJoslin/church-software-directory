@@ -72,7 +72,9 @@
       "state": "independent-source",
       "source": "https://find-and-update.company-information.service.gov.uk/company/12166824",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "cashless-giving": {
       "value": "Supplier documents website donation pages, QR/NFC giving, card readers and phone-based contactless donations.",
       "state": "supplier-published",

@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { decisionFieldDefinitions } from "../src/config/decision-fields.ts";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDirectory = path.join(root, "src", "content", "software");
@@ -8,30 +9,7 @@ const outputDirectory = path.join(root, "public", "data");
 const outputFile = path.join(outputDirectory, "software.json");
 const shortlistOutputFile = path.join(outputDirectory, "shortlist.json");
 
-const decisionFields = [
-  ["contact-band", ["contact", "package limit"]],
-  ["multi-site", ["multi-site", "campus", "location"]],
-  ["administrator-limits", ["administrator", "user limit", "plan detail"]],
-  ["volunteer-usability", ["volunteer usability"]],
-  ["implementation", ["implementation", "migration", "training"]],
-  ["technical-administration", ["technical administration"]],
-  ["uk-purchasing", ["uk purchasing", "uk availability"]],
-  ["gbp-pricing", ["pricing", "price", "tier"]],
-  ["vat-treatment", ["vat"]],
-  ["gift-aid", ["gift aid"]],
-  ["mfa", ["multi-factor", "mfa", "two-factor", "2fa"]],
-  ["role-permissions", ["permission", "access control", "administrator"]],
-  ["audit-logs", ["audit", "log"]],
-  ["data-processing", ["data-processing", "dpa"]],
-  ["hosting", ["hosting", "storage", "aws", "azure"]],
-  ["transfers", ["transfer", "eea", "international"]],
-  ["exports", ["export", "download", "backup"]],
-  ["migration", ["migration", "import"]],
-  ["uk-support", ["uk support"]],
-  ["contract", ["cancellation", "termination", "contract"]]
-];
-
-const decisionEvidenceFor = (entry) => Object.fromEntries(decisionFields.flatMap(([key, hints]) => {
+const decisionEvidenceFor = (entry) => Object.fromEntries(decisionFieldDefinitions.flatMap(({ key, hints }) => {
   const override = entry.decisionEvidence?.[key];
   if (override) return [[key, override]];
   const source = entry.sources.find((item) => {

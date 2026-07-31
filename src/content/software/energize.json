@@ -65,7 +65,8 @@
     "Subscription includes access to supplier-described support and advice",
     "Confirm support hours, response targets and safeguarding escalation process before purchase"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "The Energize privacy notice identifies Urban Saints as the operating name of The Crusaders’ Union, a company limited by guarantee registered in England and Wales, number 07771037.",
       "state": "supplier-published",

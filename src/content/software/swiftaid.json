@@ -83,7 +83,8 @@
     "Supplier says its customer-success team targets a reply within two days",
     "Confirm support commitments, audit assistance and migration or integration scope"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Swiftaid's legal material identifies STREEVA LTD, a company registered in England and Wales with company number 09451226, as the operator trading as Swiftaid.",
       "state": "supplier-published",

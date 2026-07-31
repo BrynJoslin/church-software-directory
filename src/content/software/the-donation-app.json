@@ -78,7 +78,8 @@
     "Supplier describes a dedicated onboarding team during the trial",
     "Request support hours, response commitments and migration scope"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records ABACUS APPS LIMITED (11757195) as an active English private limited company. The product site and current HMRC supplier list name Abacus Apps Limited as the supplier.",
       "state": "independent-source",

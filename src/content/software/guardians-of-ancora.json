@@ -55,7 +55,8 @@
     "Scripture Union publishes club resources for group use",
     "Confirm current device compatibility and support before deployment"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "The product site identifies Guardians of Ancora as a project by Scripture Union England & Wales Ltd.",
       "state": "supplier-published",

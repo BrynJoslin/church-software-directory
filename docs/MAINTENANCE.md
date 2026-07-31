@@ -8,8 +8,12 @@
 4. Research current first-party sources and record what each supports.
 5. Use `unknown` only as an internal three-state sentinel; omit unsupported
    optional fields and write material gaps as supplier questions.
-6. Keep supplier facts outside the `editorial` object and assessment inside it.
-7. Run:
+6. Use only the controlled keys documented in `docs/CONTENT_FIELDS.md` for
+   `decisionEvidence`. Put a genuinely product-specific sourced fact in
+   `supplementaryEvidence`; it will be preserved but will not enter comparisons,
+   shortlists or the public export.
+7. Keep supplier facts outside the `editorial` object and assessment inside it.
+8. Run:
 
    ```bash
    npm run check
@@ -17,7 +21,7 @@
    npm run build
    ```
 
-8. Review the listing, affected category pages, filters, comparison and generated
+9. Review the listing, affected category pages, filters, comparison and generated
    JSON export.
 
 Do not add large unreviewed batches. A schema change also requires updating every
@@ -98,6 +102,9 @@ publishable evidence store.
 client-side shortlist dataset at `public/data/shortlist.json` from publishable
 software fields. It excludes editorial assessment and any future private notes.
 The command runs automatically before checks, builds and local development.
+Only the controlled `decisionEvidence` fields enter these decision datasets;
+`supplementaryEvidence` remains in the canonical source record for future
+research and is not exported.
 
 ## Contribution triage
 

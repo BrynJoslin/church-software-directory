@@ -62,7 +62,9 @@
       "state": "independent-source",
       "source": "https://find-and-update.company-information.service.gov.uk/company/17297107",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "product-scope": {
       "value": "Supplier describes safeguarding, DBS, training, policy, risk, governance, people and premises records for churches.",
       "state": "supplier-published",

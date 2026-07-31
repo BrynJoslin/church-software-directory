@@ -97,6 +97,14 @@
       "source": "https://www.klemi.co/terms.pdf",
       "checked": "2026-07-25"
     },
+    "migration": {
+      "value": "The terms describe a termination export of uploaded content; ask for routine import scope, export formats, timing and migration support.",
+      "state": "supplier-published",
+      "source": "https://www.klemi.co/terms.pdf",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "data-protection-roles": {
       "value": "The client terms describe the church as controller and Klemi as processor for uploaded and recorded Protected Data.",
       "state": "supplier-published",
@@ -105,12 +113,6 @@
     },
     "hosting-and-sub-processors": {
       "value": "The published terms reference Google and other third-party content services; ask for the full hosting architecture, locations, sub-processors and backup arrangements.",
-      "state": "supplier-published",
-      "source": "https://www.klemi.co/terms.pdf",
-      "checked": "2026-07-25"
-    },
-    "migration": {
-      "value": "The terms describe a termination export of uploaded content; ask for routine import scope, export formats, timing and migration support.",
       "state": "supplier-published",
       "source": "https://www.klemi.co/terms.pdf",
       "checked": "2026-07-25"

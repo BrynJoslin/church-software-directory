@@ -76,7 +76,8 @@
     "Supplier publishes training videos, help sheets, online training and an iChurch community",
     "iChurch+ includes supplier-uploaded content on a quarterly basis according to published pricing"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "operator-and-scope": {
       "value": "The iChurch site states that it sits within the United Reformed Church Communications Department in London and is open to all denominations.",
       "state": "supplier-published",

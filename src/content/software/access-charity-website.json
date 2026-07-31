@@ -59,7 +59,8 @@
     "Supplier sales and implementation route",
     "Digital Marketplace listing describes a 99.70% monthly availability target for the service"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records Access UK Ltd (02343760).",
       "state": "independent-source",

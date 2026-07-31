@@ -71,6 +71,9 @@ dashboard files entering `dist/`.
 The dashboard's completeness percentage is a private maintenance measure, not
 an accuracy or product score. It distinguishes required fields from useful
 optional fields and does not expect genuinely inapplicable or unsupported data.
+Its decision-evidence section reports coverage of the controlled procurement
+fields separately from product-specific supplementary evidence, so research can
+be prioritised without treating a blank as a negative answer.
 `staleListingDays` in `src/config/site.json` is the single
 freshness threshold (currently 180 days). `npm run check:content` performs the
 local analysis; optional `npm run check:links` stores cautious live URL results

@@ -68,13 +68,7 @@
     "Monthly subscription includes helpdesk support, maintenance, new features and updates"
   ],
   "decisionEvidence": {
-    "uk-operator": {
-      "value": "Paxton Software Limited identifies itself as registered in England number 1424228, at Rushden, Northamptonshire.",
-      "state": "supplier-published",
-      "source": "https://paxtonsoftware.co.uk/terms-conditions",
-      "checked": "2026-07-25"
-    },
-    "uk-availability": {
+    "uk-purchasing": {
       "value": "Supplier terms state that the online service and website goods and services are available only to customers in the United Kingdom unless approved otherwise.",
       "state": "supplier-published",
       "source": "https://paxtonsoftware.co.uk/terms-conditions",
@@ -88,6 +82,14 @@
     },
     "hosting": {
       "value": "Supplier states that Paxton Charities Online is hosted in a secure UK-based data centre and has 14 days of backups.",
+      "state": "supplier-published",
+      "source": "https://paxtonsoftware.co.uk/terms-conditions",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
+    "uk-operator": {
+      "value": "Paxton Software Limited identifies itself as registered in England number 1424228, at Rushden, Northamptonshire.",
       "state": "supplier-published",
       "source": "https://paxtonsoftware.co.uk/terms-conditions",
       "checked": "2026-07-25"

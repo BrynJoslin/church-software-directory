@@ -81,7 +81,9 @@
       "state": "independent-source",
       "source": "https://find-and-update.company-information.service.gov.uk/company/16294341",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "product-scope": {
       "value": "Supplier describes independent video hosting, livestreaming, church TV channels, podcast setup and ongoing technical support for church media.",
       "state": "supplier-published",

@@ -75,7 +75,8 @@
     "Supplier offers a free demo request",
     "Customer terms provide a UK contact route; confirm support hours and event-day escalation arrangements for the selected product"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House lists Online Giving Ltd, number 06886190, as an active England-and-Wales company. Enthuse's terms identify it as the operator trading as Enthuse.",
       "state": "independent-source",

@@ -72,7 +72,8 @@
     "Supplier publishes help material for charity and church treasurers",
     "Implementation, migration, support hours and accountant access should be confirmed in the current proposal"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records Liberty Accounts Limited, number 04907629, as an active England-and-Wales company.",
       "state": "independent-source",

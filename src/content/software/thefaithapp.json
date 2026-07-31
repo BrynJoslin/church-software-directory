@@ -63,7 +63,8 @@
   "support": [
     "Supplier offers a personalised demo booking route"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records THEFAITH LTD, company number 15841609, as an active UK private limited company; the supplier terms identify it as owner of TheFaithApp.",
       "state": "supplier-published",

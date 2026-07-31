@@ -70,7 +70,8 @@
     "Supplier states UK-based support",
     "Confirm support hours, incident response and any priority-support cost for the selected subscription"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-development": {
       "value": "Supplier describes MIDAS as developed and supported in Greater Manchester since 2005, with a UK ICO registration number ZA131245 stated in its legal information.",
       "state": "supplier-published",

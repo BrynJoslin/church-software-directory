@@ -85,7 +85,8 @@
     "Paid plan includes priority support according to published pricing",
     "Supplier describes a free plan with no card requirement"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "OnNuma’s product page identifies the service as a product of The Media Lounge Ltd and publishes a London contact address.",
       "state": "supplier-published",

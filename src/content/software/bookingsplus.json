@@ -62,7 +62,8 @@
     "Published setup includes a full day of training",
     "Supplier describes phone and email helpdesk support and ongoing development"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Supplier identifies BookingsPlus as part of Kajima Community and Kajima Partnerships Limited, with London, Northampton and Gateshead locations. The G-Cloud listing names Kajima Partnerships Limited as supplier.",
       "state": "supplier-published",

@@ -83,6 +83,14 @@
     "90-day trial with full support stated by supplier"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Supplier privacy policy identifies Hallmaster as processor for hall-user and booking data held on a customer's behalf.",
+      "state": "supplier-published",
+      "source": "https://www.hallmaster.co.uk/Docs/Hallmaster-Privacy-Policy.pdf",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Hallmaster Ltd is an active private limited company registered in England and Wales under number 10747910.",
       "state": "independent-source",
@@ -99,12 +107,6 @@
       "value": "Supplier publishes £195 and £279 annual packages including VAT and a 90-day free trial.",
       "state": "supplier-published",
       "source": "https://www.hallmaster.co.uk/pricing/",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Supplier privacy policy identifies Hallmaster as processor for hall-user and booking data held on a customer's behalf.",
-      "state": "supplier-published",
-      "source": "https://www.hallmaster.co.uk/Docs/Hallmaster-Privacy-Policy.pdf",
       "checked": "2026-07-25"
     }
   },

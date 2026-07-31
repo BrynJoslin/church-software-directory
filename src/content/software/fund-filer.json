@@ -51,12 +51,6 @@
     "Online product and update resources"
   ],
   "decisionEvidence": {
-    "hmrc-claiming": {
-      "value": "Fund Filer is included in HMRC's current list of commercial software suppliers for Charities Online.",
-      "state": "independent-source",
-      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
-      "checked": "2026-07-25"
-    },
     "gbp-pricing": {
       "value": "Supplier advertises subscriptions from £1.90 per week, payable monthly or annually.",
       "state": "supplier-published",
@@ -67,6 +61,14 @@
       "value": "Supplier links public privacy and service-term pages from its product website.",
       "state": "supplier-published",
       "source": "https://www.fundfiler.com/privacy",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
+    "hmrc-claiming": {
+      "value": "Fund Filer is included in HMRC's current list of commercial software suppliers for Charities Online.",
+      "state": "independent-source",
+      "source": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers/charities-online-commercial-software-suppliers",
       "checked": "2026-07-25"
     }
   },

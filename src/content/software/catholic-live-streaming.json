@@ -68,6 +68,14 @@
     "Supplier offers installation, setup and managed-service enquiries by telephone"
   ],
   "decisionEvidence": {
+    "gbp-pricing": {
+      "value": "Supplier publishes £39, £65 and £115 monthly packages, with stated separate installation starting prices.",
+      "state": "supplier-published",
+      "source": "https://www.catholiclivestreaming.co.uk/",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records Every Day Christian Marketing Ltd as an active UK company providing IT, hosting and web-portal activities. Catholic Live Streaming identifies it as the provider.",
       "state": "supplier-published",
@@ -76,12 +84,6 @@
     },
     "service-scope": {
       "value": "Supplier describes livestreaming and archiving Masses and other parish services, with UK Catholic parish clients and camera-installation options.",
-      "state": "supplier-published",
-      "source": "https://www.catholiclivestreaming.co.uk/",
-      "checked": "2026-07-25"
-    },
-    "gbp-pricing": {
-      "value": "Supplier publishes £39, £65 and £115 monthly packages, with stated separate installation starting prices.",
       "state": "supplier-published",
       "source": "https://www.catholiclivestreaming.co.uk/",
       "checked": "2026-07-25"

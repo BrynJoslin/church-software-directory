@@ -73,7 +73,8 @@
     "Supplier publishes a support centre and migration material from desktop to online",
     "Confirm support response commitments, implementation and migration scope"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "GiftAider's privacy notice identifies Systematic Marketing Ltd as controller, while its site identifies Systematic Marketing Limited as the registered-English operator. Companies House records company 02472380.",
       "state": "supplier-published",

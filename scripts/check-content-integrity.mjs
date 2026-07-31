@@ -1,6 +1,10 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  decisionFieldKeySet,
+  decisionFieldKeys
+} from "../src/config/decision-fields.ts";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const softwareDirectory = path.join(root, "src/content/software");
@@ -11,12 +15,35 @@ const entries = await Promise.all((await readdir(softwareDirectory))
 const issues = [];
 for (const { file, data } of entries) {
   const sourceUrls = new Set((data.sources ?? []).map((source) => source.url));
-  for (const [field, evidence] of Object.entries(data.decisionEvidence ?? {})) {
-    if (evidence.source && !sourceUrls.has(evidence.source)) {
-      issues.push(`${file}: decisionEvidence.${field}.source is not recorded in sources[]`);
-    }
-    if (evidence.checked && !evidence.source) {
-      issues.push(`${file}: decisionEvidence.${field}.checked has no source URL`);
+  for (const [collection, evidenceMap] of [
+    ["decisionEvidence", data.decisionEvidence ?? {}],
+    ["supplementaryEvidence", data.supplementaryEvidence ?? {}]
+  ]) {
+    for (const [field, evidence] of Object.entries(evidenceMap)) {
+      if (
+        collection === "decisionEvidence" &&
+        !decisionFieldKeySet.has(field)
+      ) {
+        issues.push(
+          `${file}: decisionEvidence.${field} is not canonical; use one of ${decisionFieldKeys.join(", ")} or move it to supplementaryEvidence`
+        );
+      }
+      if (
+        collection === "supplementaryEvidence" &&
+        decisionFieldKeySet.has(field)
+      ) {
+        issues.push(
+          `${file}: supplementaryEvidence.${field} belongs in decisionEvidence`
+        );
+      }
+      if (evidence.source && !sourceUrls.has(evidence.source)) {
+        issues.push(
+          `${file}: ${collection}.${field}.source is not recorded in sources[]`
+        );
+      }
+      if (evidence.checked && !evidence.source) {
+        issues.push(`${file}: ${collection}.${field}.checked has no source URL`);
+      }
     }
   }
   if (data.affiliateRelationship === "yes" && !data.affiliateUrl) {

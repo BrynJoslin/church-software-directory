@@ -55,7 +55,8 @@
     "Supplier publishes a support and user-guide route",
     "Ask for current support hours, onboarding and service-continuity arrangements"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "church-workflow": {
       "value": "Supplier describes lyric videos, backing tracks, playlists, offline downloads, cloud support and service media for churches and related organisations.",
       "state": "supplier-published",

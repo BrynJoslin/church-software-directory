@@ -81,7 +81,8 @@
     "Extensive tier lists extensive maintenance support",
     "Supplier offers a backend tour on request"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "operator": {
       "value": "Church Pages states that it is part of Khoo Systems Limited and is powered by the Khooseller website platform.",
       "state": "supplier-published",

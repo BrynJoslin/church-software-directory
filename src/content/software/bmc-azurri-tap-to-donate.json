@@ -71,7 +71,8 @@
     "Supplier describes ongoing support through the platform offer",
     "Confirm support hours, response commitments, setup and tag replacement arrangements"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records BMC AZURRI GA SOLUTIONS LIMITED (08510755) as an active English private limited company, and the supplier privacy policy identifies it as controller.",
       "state": "independent-source",

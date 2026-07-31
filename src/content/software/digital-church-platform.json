@@ -50,7 +50,8 @@
   "integrations": [],
   "importExport": [],
   "support": [],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "The platform terms identify The Digital Church Platform as a trading name of company number 10415269; Companies House identifies that company as GIGCMO Limited.",
       "state": "supplier-published",

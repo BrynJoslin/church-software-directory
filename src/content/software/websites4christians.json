@@ -78,7 +78,8 @@
     "Supplier advertises telephone, email and remote-login technical support",
     "Supplier describes help with content updates and website transfer"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "operator": {
       "value": "The supplier’s published hosting agreement identifies Websites4Christians as a trading name of Project Huddle Ltd, registered in Scotland under company number SC346323.",
       "state": "supplier-published",

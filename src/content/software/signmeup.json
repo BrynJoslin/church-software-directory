@@ -85,7 +85,9 @@
       "state": "supplier-published",
       "source": "https://www.signmeup.org.uk/",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "event-workflow": {
       "value": "Supplier documents attendee applications, capacity and waitlists, volunteer roles and availability, badges and QR site check-in.",
       "state": "supplier-published",

@@ -62,7 +62,8 @@
     "Church of England national support page identifies the product as a legacy PC-based programme",
     "Obtain current technical-support and operating-system compatibility information from the supplier before purchase"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "church-of-england-scope": {
       "value": "Supplier describes Visual Liturgy Live as service-planning software for Church of England worship using the Common Worship library and related material.",
       "state": "supplier-published",

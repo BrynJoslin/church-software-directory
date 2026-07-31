@@ -58,7 +58,8 @@
     "Supplier asks prospective organisations to get in touch to start a new organisation",
     "Support channels, response commitments and implementation support require confirmation"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "The CharityFinancials site identifies NfP Accountants Ltd as author. NfP Accountants identifies itself as an English company (08217088) and a London charity-accountancy firm.",
       "state": "supplier-published",

@@ -84,7 +84,9 @@
       "state": "independent-source",
       "source": "https://find-and-update.company-information.service.gov.uk/company/03029045",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "pricing": {
       "value": "Supplier publishes £120–£270 annual licence bundles for one to six PCs and £15 one-off prices for selected Bible modules.",
       "state": "supplier-published",

@@ -74,7 +74,9 @@
       "state": "supplier-published",
       "source": "https://find-and-update.company-information.service.gov.uk/company/07634927",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "managed-service": {
       "value": "Supplier describes managed hosting, daily backups, SSL, uptime monitoring and security updates as part of the website service.",
       "state": "supplier-published",

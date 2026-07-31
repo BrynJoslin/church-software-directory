@@ -50,7 +50,8 @@
     "Tes offers a consultation route and a MyConcern support knowledge base",
     "Training, incident response, support hours and implementation scope require a written proposal"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records The Safeguarding Company Limited, number 09075059, as an active England-and-Wales company. Tes says it acquired The Safeguarding Company in 2023.",
       "state": "independent-source",

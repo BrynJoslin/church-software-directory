@@ -77,7 +77,8 @@
     "Google Play lists a public support email",
     "Confirm support hours and data-incident escalation arrangements before adoption"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-developer-and-availability": {
       "value": "Google Play lists Andrew Bents as the developer in the United Kingdom, records an update in May 2026 and links the product website and support email.",
       "state": "independent-source",

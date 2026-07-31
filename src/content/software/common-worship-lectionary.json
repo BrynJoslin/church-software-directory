@@ -61,7 +61,8 @@
     "Official web app directs users to contact support",
     "The Church of England lists it as a national worship-planning resource"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "official-scope": {
       "value": "The web app describes itself as the official Common Worship Lectionary app from the Church of England and identifies daily readings, collects, post-communion prayers and customised Sunday service sheets.",
       "state": "supplier-published",

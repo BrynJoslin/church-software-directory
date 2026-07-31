@@ -93,6 +93,14 @@
     "Dedicated account manager and quarterly health checks on Plus"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Current customer terms describe customer-controller and supplier-processor roles and list hosting, email and support sub-processors with stated UK, EU and worldwide locations.",
+      "state": "supplier-published",
+      "source": "https://www.jovoapp.com/legal/terms-and-conditions",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "church-relevance": {
       "value": "Supplier positions Jovo as a church communication app and publishes ChurchSuite and Planning Center integration support, including ChurchSuite small-group synchronisation.",
       "state": "supplier-published",
@@ -103,12 +111,6 @@
       "value": "Supplier publishes GBP monthly tiers for churches and volunteers, an unrestricted 30-day trial, no stated setup fee and cancellation through the admin panel or support.",
       "state": "supplier-published",
       "source": "https://www.jovoapp.com/pricing",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Current customer terms describe customer-controller and supplier-processor roles and list hosting, email and support sub-processors with stated UK, EU and worldwide locations.",
-      "state": "supplier-published",
-      "source": "https://www.jovoapp.com/legal/terms-and-conditions",
       "checked": "2026-07-25"
     },
     "operator-identity-boundary": {

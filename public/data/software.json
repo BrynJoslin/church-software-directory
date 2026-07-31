@@ -5738,6 +5738,12 @@
           "state": "independent-source",
           "source": "https://find-and-update.company-information.service.gov.uk/company/08939283",
           "checked": "2026-07-25"
+        },
+        "transfers": {
+          "value": "Supplier privacy policy says that some external third parties are based outside the UK and describes transfer safeguards at a high level.",
+          "state": "supplier-published",
+          "source": "https://www.eventcube.io/legal/privacy-policy",
+          "checked": "2026-07-25"
         }
       },
       "lastChecked": "2026-07-25",
@@ -10395,6 +10401,12 @@
       "freeTrial": "yes",
       "giftAid": "yes",
       "decisionEvidence": {
+        "uk-purchasing": {
+          "value": "Supplier terms state that the online service and website goods and services are available only to customers in the United Kingdom unless approved otherwise.",
+          "state": "supplier-published",
+          "source": "https://paxtonsoftware.co.uk/terms-conditions",
+          "checked": "2026-07-25"
+        },
         "gbp-pricing": {
           "value": "Standard is published at £50/month plus VAT and Advanced at £75/month plus VAT, paid by monthly direct debit.",
           "state": "supplier-published",

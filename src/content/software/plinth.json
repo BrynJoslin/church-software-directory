@@ -58,7 +58,8 @@
     "Supplier invites organisations to contact its team or book a demo in relevant current product guidance",
     "Support contact is published at support@plinth.org.uk"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Plinth's current material identifies Time To Spare Ltd trading as Plinth at a London address. Companies House identifies Time To Spare Ltd, company 11530023.",
       "state": "supplier-published",

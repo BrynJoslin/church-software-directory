@@ -59,7 +59,8 @@
     "Supplier directs LoveGiving questions to ExpensePlus",
     "Implementation, payment support, migration and response arrangements should be confirmed directly"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "LoveGiving states that it is designed and built by ExpensePlus Ltd, registered in England and Wales under number 09404009.",
       "state": "supplier-published",

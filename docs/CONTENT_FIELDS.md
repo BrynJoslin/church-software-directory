@@ -119,6 +119,19 @@ Comparisons turn a missing material field into the field's specific supplier
 question. Missing data must never become `no`. The public export includes only
 field-specific or safely derived evidence with a supporting source.
 
+The canonical keys and their reader-facing labels, questions and source hints
+are defined once in `src/config/decision-fields.ts`. The content schema rejects
+any other key in `decisionEvidence`; do not create a near-duplicate name for a
+new listing.
+
+Use `supplementaryEvidence` for a sourced, product-specific fact that cannot be
+represented honestly by one canonical procurement field. It uses the same
+value, evidence-state, source, checked-date and note structure, but it does not
+feed the comparison, shortlist or public data export. Do not use it to avoid a
+canonical field merely because the wording is product-specific. If the same
+supplementary theme recurs across products, review whether the controlled
+taxonomy needs a deliberate, documented extension.
+
 ### Brand assets (optional)
 
 `brandAssets.logo` may be used only for a supplier-provided logo asset. Store it

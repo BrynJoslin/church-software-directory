@@ -58,6 +58,14 @@
     "Demo route published"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "The reviewed public material does not establish the complete DMS data-processing schedule, sub-processors, retention, incident, access or exit arrangements.",
+      "state": "needs-refresh",
+      "source": "https://www.hcoms.co.uk/terms",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "HCOMS terms identify Hayes Computing Solutions Ltd as the supplier. The company is registered under number 04254140 and its public material describes it as a Norwich-based UK software studio.",
       "state": "supplier-published",
@@ -74,12 +82,6 @@
       "value": "Supplier describes DMS as hosted on UK Azure with two-way National CMS synchronisation.",
       "state": "supplier-published",
       "source": "https://www.hcoms.co.uk/",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "The reviewed public material does not establish the complete DMS data-processing schedule, sub-processors, retention, incident, access or exit arrangements.",
-      "state": "needs-refresh",
-      "source": "https://www.hcoms.co.uk/terms",
       "checked": "2026-07-25"
     }
   },

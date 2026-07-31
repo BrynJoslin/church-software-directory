@@ -59,7 +59,8 @@
     "Supplier says a system overview is included and training can be supplied separately",
     "Supplier publishes business-hours contact details and an email support address"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Digital Interactive identifies itself as Digital Interactive Ltd, company 05189963 registered in England; Companies House records the company as active.",
       "state": "supplier-published",

@@ -73,7 +73,8 @@
     "Plus includes priority email support",
     "Confirm incident response and event-day support arrangements for a critical event"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "LIVE IT Group’s terms identify LIVE IT Group Ltd, number 08432364, as trading as Bookitbee and providing the service from London.",
       "state": "supplier-published",

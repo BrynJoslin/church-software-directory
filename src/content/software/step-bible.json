@@ -50,6 +50,14 @@
     "User guide and downloadable software resources"
   ],
   "decisionEvidence": {
+    "data-processing": {
+      "value": "Tyndale House Cambridge publishes a UK data-protection privacy notice identifying itself as controller for site data.",
+      "state": "supplier-published",
+      "source": "https://tyndalehouse.com/policies/privacy/",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "STEPBible (Scripture Tools for Every Person) is a registered UK charity, and STEP Bible began as a project of Tyndale House, Cambridge.",
       "state": "independent-source",
@@ -60,12 +68,6 @@
       "value": "Supplier provides downloadable STEP Bible software for use when disconnected from the internet.",
       "state": "supplier-published",
       "source": "https://www.stepbible.org/downloads.jsp",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Tyndale House Cambridge publishes a UK data-protection privacy notice identifying itself as controller for site data.",
-      "state": "supplier-published",
-      "source": "https://tyndalehouse.com/policies/privacy/",
       "checked": "2026-07-25"
     }
   },

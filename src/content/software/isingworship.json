@@ -88,7 +88,9 @@
       "state": "independent-source",
       "source": "https://find-and-update.company-information.service.gov.uk/company/09650251",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "product-scope": {
       "value": "Supplier describes flexible backing tracks with lyric projection for churches and small groups, available across desktop and mobile platforms.",
       "state": "supplier-published",

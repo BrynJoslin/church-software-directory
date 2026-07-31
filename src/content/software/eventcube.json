@@ -77,6 +77,14 @@
       "source": "https://find-and-update.company-information.service.gov.uk/company/08939283",
       "checked": "2026-07-25"
     },
+    "transfers": {
+      "value": "Supplier privacy policy says that some external third parties are based outside the UK and describes transfer safeguards at a high level.",
+      "state": "supplier-published",
+      "source": "https://www.eventcube.io/legal/privacy-policy",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "ticket-pricing": {
       "value": "Supplier publishes a 5% Starter fee for paid tickets, free Eventcube fees for free tickets, and a Pro option with a 3% fee plus monthly USD subscription pricing.",
       "state": "supplier-published",
@@ -87,12 +95,6 @@
       "value": "Supplier terms describe a white-label online event-management and ticketing system for event organisers, with transaction and payment processing arrangements.",
       "state": "supplier-published",
       "source": "https://www.eventcube.io/legal/terms-conditions",
-      "checked": "2026-07-25"
-    },
-    "data-transfers": {
-      "value": "Supplier privacy policy says that some external third parties are based outside the UK and describes transfer safeguards at a high level.",
-      "state": "supplier-published",
-      "source": "https://www.eventcube.io/legal/privacy-policy",
       "checked": "2026-07-25"
     }
   },

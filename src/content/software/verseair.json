@@ -75,7 +75,8 @@
     "Priority support on Enterprise",
     "Supplier publishes video tutorials and setup guides"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records HANDBY LTD, company number 17092920, as an active UK software-development company. VerseAir identifies Handby LTD as its operator.",
       "state": "supplier-published",

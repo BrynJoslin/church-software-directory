@@ -65,7 +65,8 @@
     "Supplier describes team-member allowances by plan",
     "Support response commitments and onboarding scope require confirmation"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "uk-operator": {
       "value": "Companies House records RAISE UP FAITH LTD (10589252) as an active English private limited company, incorporated in 2017, with Bristol registered office and web-portal and educational-support-services SIC codes.",
       "state": "independent-source",

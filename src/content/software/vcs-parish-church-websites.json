@@ -61,6 +61,14 @@
       "source": "https://www.parish-church.uk/contact-church-websites-from-vcs",
       "checked": "2026-07-25"
     },
+    "data-processing": {
+      "value": "Current hosting, DPA, privacy, sub-processor, retention and incident documentation for parish-church sites is not available in the reviewed public material.",
+      "state": "needs-refresh",
+      "source": "https://www.parish-church.uk/contact-church-websites-from-vcs",
+      "checked": "2026-07-25"
+    }
+  },
+  "supplementaryEvidence": {
     "service-scope": {
       "value": "The supplier publishes packages for individual churches, benefices and deaneries, and says its platform is designed for small church communities that need a straightforward web presence.",
       "state": "supplier-published",
@@ -71,12 +79,6 @@
       "value": "A pricing route exists, but the current package-price page could not be retrieved for this review; current pricing requires a written supplier proposal.",
       "state": "needs-refresh",
       "source": "https://www.parish-church.uk/",
-      "checked": "2026-07-25"
-    },
-    "data-processing": {
-      "value": "Current hosting, DPA, privacy, sub-processor, retention and incident documentation for parish-church sites is not available in the reviewed public material.",
-      "state": "needs-refresh",
-      "source": "https://www.parish-church.uk/contact-church-websites-from-vcs",
       "checked": "2026-07-25"
     },
     "exit": {

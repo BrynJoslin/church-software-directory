@@ -75,7 +75,9 @@
       "state": "independent-source",
       "source": "https://find-and-update.company-information.service.gov.uk/company/10402410",
       "checked": "2026-07-25"
-    },
+    }
+  },
+  "supplementaryEvidence": {
     "published-pricing": {
       "value": "Supplier publishes 5% + VAT text-giving and optional text-raffle donation fees, with a £5 + VAT payout-processing fee and stated card-fallback fee.",
       "state": "supplier-published",

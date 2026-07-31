@@ -55,7 +55,8 @@
     "Church of England training guides, videos, webinars and a support team are advertised",
     "Editor access is requested through the church or benefice page and approved through the service workflow"
   ],
-  "decisionEvidence": {
+  "decisionEvidence": {},
+  "supplementaryEvidence": {
     "operator": {
       "value": "Published terms identify the Archbishops’ Council as the operator of A Church Near You and give its Church House, London address, charity number and ICO registration.",
       "state": "supplier-published",
