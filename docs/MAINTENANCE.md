@@ -81,6 +81,22 @@ The command fails when any `lastChecked` date exceeds the threshold. Reviewing a
 listing means re-opening its sources, checking material facts and recording
 changes or remaining questions. Do not update the date without doing the review.
 
+## Weekly maintenance cycle
+
+On the first Monday of a 13-week cycle, initialise the proposal-only maintenance
+state with:
+
+```bash
+npm run maintenance:initialise -- --date YYYY-MM-DD
+```
+
+The command creates a versioned manifest, non-public review ledger and compact
+run report under `maintenance/weekly/`. It uses an ignored concurrency lock
+while running and exits if a previous invocation still owns it. It neither
+publishes nor deploys content: the current release policy still requires
+Bryn's explicit approval for public changes. Future weekly runs must load the
+frozen manifest rather than recalculate its allocations.
+
 ## Review public feedback scans
 
 Keep the feedback scan date separate from `lastChecked`. Recheck scans after 180 days, or earlier after a major product, app or supplier change. Confirm profile scope, source availability, date range, source-permission position, theme support and contrary evidence. Do not automatically rewrite a public summary from newly found material. Report a misleading scan through `/supplier-update/`; retain the internal challenge and editorial-decision record outside the public repository.

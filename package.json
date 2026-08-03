@@ -25,6 +25,7 @@
     "check:sitemap": "node scripts/check-sitemap.mjs",
     "check:internal-links": "node scripts/check-internal-links.mjs",
     "check:accessibility": "node scripts/check-accessibility.mjs",
+    "maintenance:initialise": "node scripts/weekly-maintenance.mjs --initialise",
     "notify:indexnow": "node scripts/notify-indexnow.mjs",
     "build": "npm run prepare:data && npm run check:guides && astro build && node scripts/check-public-copy.mjs --built && node scripts/check-dashboard-output.mjs && npm run check:sitemap && npm run check:internal-links && npm run check:accessibility && node scripts/check-plain-language.mjs",
     "test:interactions": "node --experimental-strip-types --test test/interaction-state.test.mjs test/charity-offer-state.test.mjs",
