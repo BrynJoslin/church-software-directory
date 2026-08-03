@@ -1,0 +1,1300 @@
+{
+  "schemaVersion": 1,
+  "releaseMode": "proposal-only",
+  "cycle": 1,
+  "week": 1,
+  "cycleStart": "2026-08-03",
+  "generatedAt": "2026-08-03T06:59:07.878Z",
+  "software": [
+    {
+      "slug": "churchsuite",
+      "source": "src/content/software/churchsuite.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 19,
+      "slot": 1
+    },
+    {
+      "slug": "swiftaid",
+      "source": "src/content/software/swiftaid.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 7,
+      "slot": 1
+    },
+    {
+      "slug": "trybooking",
+      "source": "src/content/software/trybooking.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 7,
+      "slot": 1
+    },
+    {
+      "slug": "charityfinancials",
+      "source": "src/content/software/charityfinancials.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "church-admin",
+      "source": "src/content/software/church-admin.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "church-planner",
+      "source": "src/content/software/church-planner.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "free-gift-aid-eclaim",
+      "source": "src/content/software/free-gift-aid-eclaim.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "fund-filer",
+      "source": "src/content/software/fund-filer.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "giftaider",
+      "source": "src/content/software/giftaider.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "idonatio",
+      "source": "src/content/software/idonatio.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "midas-room-booking",
+      "source": "src/content/software/midas-room-booking.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 1
+    },
+    {
+      "slug": "navaro",
+      "source": "src/content/software/navaro.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 2
+    },
+    {
+      "slug": "plinth",
+      "source": "src/content/software/plinth.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 2
+    },
+    {
+      "slug": "tes-myconcern",
+      "source": "src/content/software/tes-myconcern.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 2
+    },
+    {
+      "slug": "three-rings",
+      "source": "src/content/software/three-rings.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 6,
+      "slot": 2
+    },
+    {
+      "slug": "aedon-charities",
+      "source": "src/content/software/aedon-charities.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 2
+    },
+    {
+      "slug": "altardesk",
+      "source": "src/content/software/altardesk.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 2
+    },
+    {
+      "slug": "aurnet",
+      "source": "src/content/software/aurnet.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 2
+    },
+    {
+      "slug": "beacon-crm",
+      "source": "src/content/software/beacon-crm.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 2
+    },
+    {
+      "slug": "bookteq",
+      "source": "src/content/software/bookteq.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 2
+    },
+    {
+      "slug": "chobble-tickets",
+      "source": "src/content/software/chobble-tickets.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 2
+    },
+    {
+      "slug": "church-apps-uk",
+      "source": "src/content/software/church-apps-uk.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 2
+    },
+    {
+      "slug": "dona-donations",
+      "source": "src/content/software/dona-donations.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "donorbox",
+      "source": "src/content/software/donorbox.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "donorcloud",
+      "source": "src/content/software/donorcloud.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "donorfy",
+      "source": "src/content/software/donorfy.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "energize",
+      "source": "src/content/software/energize.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "enthuse",
+      "source": "src/content/software/enthuse.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "eventcube",
+      "source": "src/content/software/eventcube.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "expenseplus",
+      "source": "src/content/software/expenseplus.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "givetap",
+      "source": "src/content/software/givetap.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "goodhub",
+      "source": "src/content/software/goodhub.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "goodtogive",
+      "source": "src/content/software/goodtogive.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 3
+    },
+    {
+      "slug": "hubb-church",
+      "source": "src/content/software/hubb-church.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "hymnal-plus",
+      "source": "src/content/software/hymnal-plus.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "infreemation-volunteer",
+      "source": "src/content/software/infreemation-volunteer.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "jovo",
+      "source": "src/content/software/jovo.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "kindlink",
+      "source": "src/content/software/kindlink.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "liberty-accounts",
+      "source": "src/content/software/liberty-accounts.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "mcn-media",
+      "source": "src/content/software/mcn-media.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "omega-church",
+      "source": "src/content/software/omega-church.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "parish-safeguarding-dashboard",
+      "source": "src/content/software/parish-safeguarding-dashboard.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "songpro",
+      "source": "src/content/software/songpro.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "the-donation-app",
+      "source": "src/content/software/the-donation-app.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "websites4christians",
+      "source": "src/content/software/websites4christians.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 4
+    },
+    {
+      "slug": "worship-player",
+      "source": "src/content/software/worship-player.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 5,
+      "slot": 5
+    },
+    {
+      "slug": "bookingsplus",
+      "source": "src/content/software/bookingsplus.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "bookitbee",
+      "source": "src/content/software/bookitbee.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "chancel",
+      "source": "src/content/software/chancel.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "chmeetings",
+      "source": "src/content/software/chmeetings.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "church-websites-uk",
+      "source": "src/content/software/church-websites-uk.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "churchbase",
+      "source": "src/content/software/churchbase.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "churchbox",
+      "source": "src/content/software/churchbox.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "churchbuilder",
+      "source": "src/content/software/churchbuilder.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "churchdesk",
+      "source": "src/content/software/churchdesk.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "churchpay",
+      "source": "src/content/software/churchpay.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 5
+    },
+    {
+      "slug": "digital-church-platform",
+      "source": "src/content/software/digital-church-platform.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "donr",
+      "source": "src/content/software/donr.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "hallmaster",
+      "source": "src/content/software/hallmaster.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "hcoms-diocese-management-system",
+      "source": "src/content/software/hcoms-diocese-management-system.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "ichurch",
+      "source": "src/content/software/ichurch.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "iknow-church",
+      "source": "src/content/software/iknow-church.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "iknow-safeguarding",
+      "source": "src/content/software/iknow-safeguarding.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "isingworship",
+      "source": "src/content/software/isingworship.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "klemi",
+      "source": "src/content/software/klemi.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "lovegiving",
+      "source": "src/content/software/lovegiving.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "planning-center",
+      "source": "src/content/software/planning-center.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 6
+    },
+    {
+      "slug": "praisenter",
+      "source": "src/content/software/praisenter.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "raiseup-faith",
+      "source": "src/content/software/raiseup-faith.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "rotacentral",
+      "source": "src/content/software/rotacentral.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "sermonaudio",
+      "source": "src/content/software/sermonaudio.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "signmeup",
+      "source": "src/content/software/signmeup.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "step-bible",
+      "source": "src/content/software/step-bible.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "the-church-organiser",
+      "source": "src/content/software/the-church-organiser.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "thefaithapp",
+      "source": "src/content/software/thefaithapp.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "ukchurches",
+      "source": "src/content/software/ukchurches.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "vcs-parish-church-websites",
+      "source": "src/content/software/vcs-parish-church-websites.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "visual-liturgy-live",
+      "source": "src/content/software/visual-liturgy-live.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 4,
+      "slot": 7
+    },
+    {
+      "slug": "a-church-near-you",
+      "source": "src/content/software/a-church-near-you.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 7
+    },
+    {
+      "slug": "bmc-azurri-tap-to-donate",
+      "source": "src/content/software/bmc-azurri-tap-to-donate.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "catholic-live-streaming",
+      "source": "src/content/software/catholic-live-streaming.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "church-edit",
+      "source": "src/content/software/church-edit.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "church-pages",
+      "source": "src/content/software/church-pages.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "church-presenter",
+      "source": "src/content/software/church-presenter.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "church-streaming-litenet",
+      "source": "src/content/software/church-streaming-litenet.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "churchable",
+      "source": "src/content/software/churchable.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "churchos",
+      "source": "src/content/software/churchos.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "common-worship-lectionary",
+      "source": "src/content/software/common-worship-lectionary.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "donation-station",
+      "source": "src/content/software/donation-station.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "expanse-cms",
+      "source": "src/content/software/expanse-cms.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 8
+    },
+    {
+      "slug": "faithfood-tv",
+      "source": "src/content/software/faithfood-tv.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "freeshow",
+      "source": "src/content/software/freeshow.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "give-a-little",
+      "source": "src/content/software/give-a-little.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "goodbox",
+      "source": "src/content/software/goodbox.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "hall-booking-online",
+      "source": "src/content/software/hall-booking-online.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "levites",
+      "source": "src/content/software/levites.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "ministryplatform",
+      "source": "src/content/software/ministryplatform.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "myfundaccounting",
+      "source": "src/content/software/myfundaccounting.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "paxton-church-charity-accounting",
+      "source": "src/content/software/paxton-church-charity-accounting.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "realm",
+      "source": "src/content/software/realm.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "stewardship",
+      "source": "src/content/software/stewardship.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 9
+    },
+    {
+      "slug": "tersia",
+      "source": "src/content/software/tersia.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 10
+    },
+    {
+      "slug": "truthvine",
+      "source": "src/content/software/truthvine.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 10
+    },
+    {
+      "slug": "worshiptools",
+      "source": "src/content/software/worshiptools.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 3,
+      "slot": 10
+    },
+    {
+      "slug": "access-charity-website",
+      "source": "src/content/software/access-charity-website.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "aplos",
+      "source": "src/content/software/aplos.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "avodah",
+      "source": "src/content/software/avodah.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "b1-church",
+      "source": "src/content/software/b1-church.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "bookwhen",
+      "source": "src/content/software/bookwhen.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "boxcast",
+      "source": "src/content/software/boxcast.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "breeze",
+      "source": "src/content/software/breeze.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "churchcrm",
+      "source": "src/content/software/churchcrm.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "churchee",
+      "source": "src/content/software/churchee.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 10
+    },
+    {
+      "slug": "churchteams",
+      "source": "src/content/software/churchteams.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "churchtrac",
+      "source": "src/content/software/churchtrac.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "clearstream",
+      "source": "src/content/software/clearstream.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "flocknote",
+      "source": "src/content/software/flocknote.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "freepresenter",
+      "source": "src/content/software/freepresenter.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "freeworship",
+      "source": "src/content/software/freeworship.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "guardians-of-ancora",
+      "source": "src/content/software/guardians-of-ancora.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "kidcheck",
+      "source": "src/content/software/kidcheck.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "one-church-software",
+      "source": "src/content/software/one-church-software.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "openlp",
+      "source": "src/content/software/openlp.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "parish-giving-scheme",
+      "source": "src/content/software/parish-giving-scheme.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 11
+    },
+    {
+      "slug": "propresenter",
+      "source": "src/content/software/propresenter.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "pushpay",
+      "source": "src/content/software/pushpay.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "resi",
+      "source": "src/content/software/resi.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "rock-rms",
+      "source": "src/content/software/rock-rms.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "sharerota",
+      "source": "src/content/software/sharerota.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "shepherdcare",
+      "source": "src/content/software/shepherdcare.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "simple-church-rota",
+      "source": "src/content/software/simple-church-rota.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "simply-halls",
+      "source": "src/content/software/simply-halls.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "subsplash",
+      "source": "src/content/software/subsplash.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "tithely",
+      "source": "src/content/software/tithely.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "verseair",
+      "source": "src/content/software/verseair.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 12
+    },
+    {
+      "slug": "worshipflow-ai",
+      "source": "src/content/software/worshipflow-ai.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 2,
+      "slot": 13
+    },
+    {
+      "slug": "churchlinker",
+      "source": "src/content/software/churchlinker.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "churchtools",
+      "source": "src/content/software/churchtools.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "easyworship",
+      "source": "src/content/software/easyworship.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "elvanto",
+      "source": "src/content/software/elvanto.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "faith-teams",
+      "source": "src/content/software/faith-teams.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "kidscheckin",
+      "source": "src/content/software/kidscheckin.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "onnuma",
+      "source": "src/content/software/onnuma.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "streamingchurch",
+      "source": "src/content/software/streamingchurch.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "vanco",
+      "source": "src/content/software/vanco.json",
+      "lastReviewed": "2026-07-25",
+      "volatility": 1,
+      "slot": 13
+    },
+    {
+      "slug": "logos",
+      "source": "src/content/software/logos.json",
+      "lastReviewed": "2026-07-28",
+      "volatility": 10,
+      "slot": 13
+    },
+    {
+      "slug": "ticket-tailor",
+      "source": "src/content/software/ticket-tailor.json",
+      "lastReviewed": "2026-07-28",
+      "volatility": 3,
+      "slot": 13
+    }
+  ],
+  "guides": [
+    {
+      "slug": "accounting-software-for-churches-uk",
+      "source": "src/content/guides/accounting-software-for-churches-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 1
+    },
+    {
+      "slug": "all-in-one-church-software-vs-specialist-tools",
+      "source": "src/content/guides/all-in-one-church-software-vs-specialist-tools.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 1
+    },
+    {
+      "slug": "best-church-management-software-small-churches",
+      "source": "src/content/guides/best-church-management-software-small-churches.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 2
+    },
+    {
+      "slug": "best-church-management-software-uk",
+      "source": "src/content/guides/best-church-management-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 2
+    },
+    {
+      "slug": "best-church-rota-volunteer-scheduling-software",
+      "source": "src/content/guides/best-church-rota-volunteer-scheduling-software.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 3
+    },
+    {
+      "slug": "best-church-website-builders-uk",
+      "source": "src/content/guides/best-church-website-builders-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 3
+    },
+    {
+      "slug": "best-online-giving-platforms-uk-churches",
+      "source": "src/content/guides/best-online-giving-platforms-uk-churches.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 4
+    },
+    {
+      "slug": "church-childrens-check-in-software-uk",
+      "source": "src/content/guides/church-childrens-check-in-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 4
+    },
+    {
+      "slug": "church-communications-software-uk",
+      "source": "src/content/guides/church-communications-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 5
+    },
+    {
+      "slug": "church-event-ticketing-software-uk",
+      "source": "src/content/guides/church-event-ticketing-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 5
+    },
+    {
+      "slug": "church-hall-booking-software-uk",
+      "source": "src/content/guides/church-hall-booking-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 6
+    },
+    {
+      "slug": "church-livestreaming-software-uk",
+      "source": "src/content/guides/church-livestreaming-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 6
+    },
+    {
+      "slug": "church-management-software-cost",
+      "source": "src/content/guides/church-management-software-cost.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 7
+    },
+    {
+      "slug": "church-pastoral-care-software-uk",
+      "source": "src/content/guides/church-pastoral-care-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 7
+    },
+    {
+      "slug": "church-records-retention-software",
+      "source": "src/content/guides/church-records-retention-software.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 8
+    },
+    {
+      "slug": "church-sermon-hosting-software-uk",
+      "source": "src/content/guides/church-sermon-hosting-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 8
+    },
+    {
+      "slug": "church-software-gift-aid-support",
+      "source": "src/content/guides/church-software-gift-aid-support.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 9
+    },
+    {
+      "slug": "church-software-stack-audit",
+      "source": "src/content/guides/church-software-stack-audit.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 9
+    },
+    {
+      "slug": "church-worship-planning-software-uk",
+      "source": "src/content/guides/church-worship-planning-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 10
+    },
+    {
+      "slug": "churchsuite-alternatives",
+      "source": "src/content/guides/churchsuite-alternatives.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 10
+    },
+    {
+      "slug": "churchsuite-vs-planning-center",
+      "source": "src/content/guides/churchsuite-vs-planning-center.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 11
+    },
+    {
+      "slug": "free-church-management-software-uk",
+      "source": "src/content/guides/free-church-management-software-uk.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 11
+    },
+    {
+      "slug": "how-to-choose-church-management-software",
+      "source": "src/content/guides/how-to-choose-church-management-software.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 12
+    },
+    {
+      "slug": "how-to-choose-church-safeguarding-software",
+      "source": "src/content/guides/how-to-choose-church-safeguarding-software.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 12
+    },
+    {
+      "slug": "migrate-church-management-software",
+      "source": "src/content/guides/migrate-church-management-software.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 13
+    },
+    {
+      "slug": "moving-from-spreadsheets-to-church-database",
+      "source": "src/content/guides/moving-from-spreadsheets-to-church-database.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 13
+    },
+    {
+      "slug": "uk-church-gdpr-questions",
+      "source": "src/content/guides/uk-church-gdpr-questions.md",
+      "lastReviewed": null,
+      "volatility": 0,
+      "slot": 13
+    }
+  ],
+  "discoveryCategories": [
+    {
+      "slug": "bible-study",
+      "slot": 1
+    },
+    {
+      "slug": "childrens-ministry",
+      "slot": 2
+    },
+    {
+      "slug": "church-accounting",
+      "slot": 3
+    },
+    {
+      "slug": "church-communications",
+      "slot": 4
+    },
+    {
+      "slug": "church-management",
+      "slot": 4
+    },
+    {
+      "slug": "church-mobile-apps",
+      "slot": 5
+    },
+    {
+      "slug": "church-websites",
+      "slot": 6
+    },
+    {
+      "slug": "events-ticketing",
+      "slot": 7
+    },
+    {
+      "slug": "livestreaming",
+      "slot": 7
+    },
+    {
+      "slug": "online-giving",
+      "slot": 8
+    },
+    {
+      "slug": "pastoral-care",
+      "slot": 9
+    },
+    {
+      "slug": "presentation-software",
+      "slot": 10
+    },
+    {
+      "slug": "room-bookings",
+      "slot": 10
+    },
+    {
+      "slug": "safeguarding",
+      "slot": 11
+    },
+    {
+      "slug": "sermon-hosting",
+      "slot": 12
+    },
+    {
+      "slug": "volunteer-scheduling",
+      "slot": 13
+    },
+    {
+      "slug": "worship-planning",
+      "slot": 13
+    }
+  ]
+}

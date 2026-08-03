@@ -14,6 +14,19 @@
 
 Phase 10: comparison discovery and high-intent paths implemented; Search Console and analytics-led selection of future direct-comparison pages remains dependent on third-party account access.
 
+## Weekly maintenance foundation — 3 August 2026
+
+- The first proposal-only 13-week maintenance manifest snapshots 147 software
+  profiles, 27 guides and 17 discovery categories. Its balanced allocation is
+  stored in `maintenance/weekly/` alongside a non-public review ledger and
+  compact run report.
+- `npm run maintenance:initialise -- --date YYYY-MM-DD` uses an ignored
+  concurrency lock and has allocation tests. It is deliberately limited to
+  initialising a frozen cycle snapshot; scheduled item reviews, source-change
+  screening and any public release remain future work.
+- No unattended publication authority exists. The cycle is a tested proposal
+  foundation only, consistent with `docs/GROWTH_STRATEGY.md`.
+
 The site is live. The dated 28 July 2026 repository baseline is 147 software
 profiles, 17 categories, 27 guides and 549 recorded source references. Older
 counts in the historical notes below describe earlier repository states; they

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "releaseMode": "proposal-only",
+  "runs": [
+    {
+      "runId": "weekly-maintenance-2026-08-03",
+      "startedAt": "2026-08-03T06:59:07.887Z",
+      "cycle": 1,
+      "week": 1,
+      "outcome": "tooling-initialised"
+    }
+  ],
+  "events": []
+}
