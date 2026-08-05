@@ -20,7 +20,7 @@ nextGuides:
   - church-childrens-check-in-software-uk
   - all-in-one-church-software-vs-specialist-tools
 seo:
-  title: Best church rota and volunteer scheduling software
+  title: Best church rota software for UK teams
   description: "Choose church rota and volunteer scheduling software by availability, permissions, service planning, volunteer experience and the work leaders can maintain."
 ---
 

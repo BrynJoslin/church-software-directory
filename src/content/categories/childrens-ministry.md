@@ -16,7 +16,7 @@ ukConsiderations:
   - Software supports procedures; it does not replace safer-recruitment or safeguarding judgement
   - Test the physical handover process and check emergency contacts and incident procedures locally
 seo:
-  title: Children’s ministry check-in software for UK churches
+  title: Children’s ministry check-in software
   description: Explore children’s ministry and check-in software for UK churches, with practical safeguarding, consent, device and workflow questions.
 ---
 

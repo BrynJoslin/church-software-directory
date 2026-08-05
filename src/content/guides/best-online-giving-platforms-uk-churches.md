@@ -19,7 +19,7 @@ nextGuides:
   - accounting-software-for-churches-uk
   - uk-church-gdpr-questions
 seo:
-  title: Best church online giving platforms for UK churches
+  title: UK church online giving platforms
   description: Find the best church online giving platform for your UK church by comparing donation channels, Gift Aid, costs, reconciliation, donor records and data evidence.
 ---
 

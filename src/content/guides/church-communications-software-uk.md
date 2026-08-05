@@ -21,7 +21,7 @@ nextGuides:
   - church-software-stack-audit
   - uk-church-gdpr-questions
 seo:
-  title: "Church communications software: email, messaging or an app?"
+  title: Church communications software guide
   description: "A practical UK framework for choosing church email, messaging and app tools without fragmenting lists, preferences or ownership."
 ---
 

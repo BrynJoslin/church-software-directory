@@ -16,7 +16,7 @@ ukConsiderations:
   - Confirm who can access highly sensitive data, where it is processed and how records are retained or exported
   - Test the local process for responding to an immediate concern before relying on a digital workflow
 seo:
-  title: Safeguarding administration software for UK churches
+  title: Safeguarding software for UK churches
   description: Explore safeguarding administration software for UK churches, with careful questions on access, case records, checks, retention and local procedures.
 ---
 

@@ -17,7 +17,7 @@ nextGuides:
   - how-to-choose-church-management-software
   - uk-church-gdpr-questions
 seo:
-  title: Best church management software for small UK churches
+  title: Small-church management software
   description: "Choose church management software for a small UK church by maintenance capacity, real workflows, UK requirements and total cost—not feature count."
 ---
 
