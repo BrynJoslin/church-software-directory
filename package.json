@@ -16,6 +16,7 @@
     "check:links": "node scripts/check-links.mjs",
     "test:dashboard": "node --test test/dashboard-analysis.test.mjs",
     "test:related": "node --test test/related-products.test.mjs",
+    "test:indexing": "node --test test/indexing-validation.test.mjs",
     "check:phase4": "node scripts/check-phase4-content.mjs",
     "dashboard": "node --experimental-strip-types scripts/dashboard.mjs",
     "dashboard:open": "node --experimental-strip-types scripts/dashboard-open.mjs",

@@ -14,6 +14,25 @@
 
 Phase 10: comparison discovery and high-intent paths implemented; Search Console and analytics-led selection of future direct-comparison pages remains dependent on third-party account access.
 
+## Search Console indexing safeguards — 8 August 2026
+
+- `check:sitemap` now fails a production build unless every indexable generated
+  HTML route has exactly one path-derived, self-referencing canonical on the
+  configured production origin and a matching sitemap entry. It rejects query
+  or fragment canonicals, cross-origin canonicals and sitemap-only URLs.
+- `check:internal-links` now builds an incoming crawl-path map from generated
+  HTML. Every indexable route other than the homepage must have a static,
+  crawlable incoming link from another indexable route; query, fragment,
+  download, external and `nofollow` links do not count.
+- Focused Node regression coverage covers canonical and sitemap mismatches,
+  canonical query/fragment values, orphan routes, valid incoming links and the
+  prohibition on static one-product comparison query links.
+- The 41 URLs reported as `Discovered – currently not indexed` retain their
+  published copy because the review found correct live crawl signals. The six
+  canonical alternatives and two HTTP redirects remain expected exclusions.
+  Post-deployment Search Console and Cloudflare/log follow-up is recorded in
+  `docs/MAINTENANCE.md`; no Cloudflare or Search Console state was changed.
+
 ## Weekly maintenance foundation — 3 August 2026
 
 - The first proposal-only 13-week maintenance manifest snapshots 147 software
