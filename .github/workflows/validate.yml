@@ -39,6 +39,9 @@ jobs:
       - name: Test interaction states
         run: npm run test:interactions
 
+      - name: Test indexing validation
+        run: npm run test:indexing
+
       - name: Build production site
         run: npm run build
 

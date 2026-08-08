@@ -153,8 +153,46 @@ npm run check:sitemap
 ```
 
 The check verifies that every canonical, indexable page in the built `dist/`
-output is in the generated sitemap. It is mandatory before pushing or merging
-such a change and is enforced by GitHub Actions validation.
+output has exactly one self-referencing canonical derived from its output path
+and the configured production origin, and is in the generated sitemap. It also
+rejects query or fragment canonicals, cross-origin canonicals and sitemap URLs
+that do not represent an indexable self-canonical route. It is mandatory before
+pushing or merging such a change and is enforced by GitHub Actions validation.
+
+`npm run check:internal-links` also verifies crawl paths: every indexable route
+apart from the homepage needs a static, crawlable incoming link from another
+indexable route. Links with query strings, fragments, downloads, external
+origins or `nofollow` do not count. The check continues to reject static
+one-product comparison query links.
+
+## Search Console indexing follow-up — 8 August 2026
+
+Expected exclusions are filtered query variants that canonicalise to their
+path-only hub and intentional HTTP-to-HTTPS redirects. Do not use **Validate
+fix** for those states as though they were defects.
+
+Treat sitemap errors, blocked crawling, an incorrect or missing canonical,
+`noindex`, 4xx/5xx responses and a genuine orphan route as actionable defects.
+Correctly configured pages that Google reports as discovered or crawled but not
+selected for indexing remain Google-controlled states: the repository can
+verify crawl signals, not guarantee indexing.
+
+After deploying an indexing-validation change:
+
+1. Confirm that Search Console still reports a successful sitemap with the
+   complete canonical route set.
+2. Inspect one representative category, guide, guide-topic and software-profile
+   URL in production.
+3. Use **Validate fix** only for a `Discovered – currently not indexed` group
+   after confirming those production signals.
+4. Recheck after 7–14 days and again after 28 days, recording counts and crawl
+   dates rather than claiming guaranteed indexing.
+5. If representative URLs still have `Last crawled: N/A` after 14–28 days,
+   inspect Cloudflare bot/security settings and production request logs for
+   Googlebot access before changing content.
+6. If the sitemap remains successful but representative high-value pages still
+   lack a crawl date, request indexing for only a small representative set; do
+   not repeatedly submit every affected URL.
 
 ## Production configuration
 
